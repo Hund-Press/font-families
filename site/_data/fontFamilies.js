@@ -1,0 +1,5448 @@
+export default {
+  "fonts": {
+    "aspekta": {
+      "name": "aspekta",
+      "slug": "aspekta",
+      "version": "2.100",
+      "author": "Ivo Dolenc",
+      "license": "OFL-1.1",
+      "licenseType": "OFL-1.1",
+      "description": "",
+      "static": {
+        "Aspekta-950": {
+          "family": "aspekta",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-950.woff2",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -93,
+              "minY": -236,
+              "maxX": 1325,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 257,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 620,
+              "leftSideBearing": 40,
+              "rightSideBearing": 41,
+              "width": 539
+            },
+            "M": {
+              "advanceWidth": 941,
+              "leftSideBearing": 51,
+              "rightSideBearing": 51,
+              "width": 839
+            },
+            "period": {
+              "advanceWidth": 280,
+              "leftSideBearing": 31,
+              "rightSideBearing": 31,
+              "width": 218
+            },
+            "em": {
+              "advanceWidth": 1004,
+              "leftSideBearing": 26,
+              "rightSideBearing": 26,
+              "width": 952
+            },
+            "en": {
+              "advanceWidth": 541,
+              "leftSideBearing": 26,
+              "rightSideBearing": 27,
+              "width": 488
+            },
+            "spaceToN": 0.41451612903225804,
+            "MToN": 1.517741935483871
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 22860,
+            "fileSizeKB": 22,
+            "glyphDensity": 48,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-900": {
+          "family": "aspekta",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-900.woff2",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -92,
+              "minY": -236,
+              "maxX": 1313,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 254,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 614,
+              "leftSideBearing": 42,
+              "rightSideBearing": 42,
+              "width": 530
+            },
+            "M": {
+              "advanceWidth": 934,
+              "leftSideBearing": 52,
+              "rightSideBearing": 52,
+              "width": 830
+            },
+            "period": {
+              "advanceWidth": 272,
+              "leftSideBearing": 32,
+              "rightSideBearing": 32,
+              "width": 208
+            },
+            "em": {
+              "advanceWidth": 1000,
+              "leftSideBearing": 28,
+              "rightSideBearing": 28,
+              "width": 944
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 28,
+              "rightSideBearing": 28,
+              "width": 484
+            },
+            "spaceToN": 0.41368078175895767,
+            "MToN": 1.521172638436482
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 22596,
+            "fileSizeKB": 22,
+            "glyphDensity": 48,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-850": {
+          "family": "aspekta",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-850.woff2",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -91,
+              "minY": -236,
+              "maxX": 1306,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 248,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 608,
+              "leftSideBearing": 44,
+              "rightSideBearing": 44,
+              "width": 520
+            },
+            "M": {
+              "advanceWidth": 926,
+              "leftSideBearing": 54,
+              "rightSideBearing": 53,
+              "width": 819
+            },
+            "period": {
+              "advanceWidth": 264,
+              "leftSideBearing": 34,
+              "rightSideBearing": 33,
+              "width": 197
+            },
+            "em": {
+              "advanceWidth": 997,
+              "leftSideBearing": 29,
+              "rightSideBearing": 29,
+              "width": 939
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 29,
+              "rightSideBearing": 29,
+              "width": 482
+            },
+            "spaceToN": 0.40789473684210525,
+            "MToN": 1.5230263157894737
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 22756,
+            "fileSizeKB": 22,
+            "glyphDensity": 48,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-800": {
+          "family": "aspekta",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-800.woff2",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -89,
+              "minY": -236,
+              "maxX": 1299,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 242,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 602,
+              "leftSideBearing": 46,
+              "rightSideBearing": 45,
+              "width": 511
+            },
+            "M": {
+              "advanceWidth": 918,
+              "leftSideBearing": 55,
+              "rightSideBearing": 55,
+              "width": 808
+            },
+            "period": {
+              "advanceWidth": 257,
+              "leftSideBearing": 35,
+              "rightSideBearing": 35,
+              "width": 187
+            },
+            "em": {
+              "advanceWidth": 994,
+              "leftSideBearing": 31,
+              "rightSideBearing": 31,
+              "width": 932
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 31,
+              "rightSideBearing": 31,
+              "width": 478
+            },
+            "spaceToN": 0.4019933554817276,
+            "MToN": 1.5249169435215948
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 22608,
+            "fileSizeKB": 22,
+            "glyphDensity": 48,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-750": {
+          "family": "aspekta",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-750.woff2",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -88,
+              "minY": -236,
+              "maxX": 1293,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 236,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 597,
+              "leftSideBearing": 48,
+              "rightSideBearing": 48,
+              "width": 501
+            },
+            "M": {
+              "advanceWidth": 911,
+              "leftSideBearing": 57,
+              "rightSideBearing": 57,
+              "width": 797
+            },
+            "period": {
+              "advanceWidth": 249,
+              "leftSideBearing": 37,
+              "rightSideBearing": 37,
+              "width": 175
+            },
+            "em": {
+              "advanceWidth": 991,
+              "leftSideBearing": 32,
+              "rightSideBearing": 32,
+              "width": 927
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 32,
+              "rightSideBearing": 32,
+              "width": 476
+            },
+            "spaceToN": 0.3953098827470687,
+            "MToN": 1.5259631490787269
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 22420,
+            "fileSizeKB": 22,
+            "glyphDensity": 47,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-700": {
+          "family": "aspekta",
+          "style": "normal",
+          "weight": 700,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-700.woff2",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -87,
+              "minY": -236,
+              "maxX": 1286,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 230,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 591,
+              "leftSideBearing": 50,
+              "rightSideBearing": 50,
+              "width": 491
+            },
+            "M": {
+              "advanceWidth": 903,
+              "leftSideBearing": 58,
+              "rightSideBearing": 59,
+              "width": 786
+            },
+            "period": {
+              "advanceWidth": 242,
+              "leftSideBearing": 38,
+              "rightSideBearing": 39,
+              "width": 165
+            },
+            "em": {
+              "advanceWidth": 988,
+              "leftSideBearing": 34,
+              "rightSideBearing": 34,
+              "width": 920
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 34,
+              "rightSideBearing": 34,
+              "width": 472
+            },
+            "spaceToN": 0.38917089678510997,
+            "MToN": 1.5279187817258884
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 22168,
+            "fileSizeKB": 22,
+            "glyphDensity": 47,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-650": {
+          "family": "aspekta",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-650.woff2",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -86,
+              "minY": -236,
+              "maxX": 1279,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 224,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 585,
+              "leftSideBearing": 52,
+              "rightSideBearing": 51,
+              "width": 482
+            },
+            "M": {
+              "advanceWidth": 895,
+              "leftSideBearing": 60,
+              "rightSideBearing": 60,
+              "width": 775
+            },
+            "period": {
+              "advanceWidth": 234,
+              "leftSideBearing": 40,
+              "rightSideBearing": 40,
+              "width": 154
+            },
+            "em": {
+              "advanceWidth": 985,
+              "leftSideBearing": 35,
+              "rightSideBearing": 35,
+              "width": 915
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 35,
+              "rightSideBearing": 35,
+              "width": 470
+            },
+            "spaceToN": 0.38290598290598293,
+            "MToN": 1.5299145299145298
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 21980,
+            "fileSizeKB": 21,
+            "glyphDensity": 46,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-600": {
+          "family": "aspekta",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-600.woff2",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -85,
+              "minY": -236,
+              "maxX": 1271,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 218,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 579,
+              "leftSideBearing": 54,
+              "rightSideBearing": 54,
+              "width": 471
+            },
+            "M": {
+              "advanceWidth": 887,
+              "leftSideBearing": 62,
+              "rightSideBearing": 61,
+              "width": 764
+            },
+            "period": {
+              "advanceWidth": 226,
+              "leftSideBearing": 42,
+              "rightSideBearing": 41,
+              "width": 143
+            },
+            "em": {
+              "advanceWidth": 982,
+              "leftSideBearing": 36,
+              "rightSideBearing": 36,
+              "width": 910
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 36,
+              "rightSideBearing": 36,
+              "width": 468
+            },
+            "spaceToN": 0.3765112262521589,
+            "MToN": 1.531951640759931
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 22140,
+            "fileSizeKB": 22,
+            "glyphDensity": 47,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-550": {
+          "family": "aspekta",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-550.woff2",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -84,
+              "minY": -236,
+              "maxX": 1264,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 212,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 573,
+              "leftSideBearing": 56,
+              "rightSideBearing": 56,
+              "width": 461
+            },
+            "M": {
+              "advanceWidth": 879,
+              "leftSideBearing": 63,
+              "rightSideBearing": 63,
+              "width": 753
+            },
+            "period": {
+              "advanceWidth": 219,
+              "leftSideBearing": 43,
+              "rightSideBearing": 43,
+              "width": 133
+            },
+            "em": {
+              "advanceWidth": 979,
+              "leftSideBearing": 38,
+              "rightSideBearing": 38,
+              "width": 903
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 38,
+              "rightSideBearing": 38,
+              "width": 464
+            },
+            "spaceToN": 0.3699825479930192,
+            "MToN": 1.5340314136125655
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 22016,
+            "fileSizeKB": 22,
+            "glyphDensity": 47,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-500": {
+          "family": "aspekta",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-500.woff2",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -84,
+              "minY": -236,
+              "maxX": 1258,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 206,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 568,
+              "leftSideBearing": 58,
+              "rightSideBearing": 59,
+              "width": 451
+            },
+            "M": {
+              "advanceWidth": 872,
+              "leftSideBearing": 65,
+              "rightSideBearing": 65,
+              "width": 742
+            },
+            "period": {
+              "advanceWidth": 211,
+              "leftSideBearing": 45,
+              "rightSideBearing": 45,
+              "width": 121
+            },
+            "em": {
+              "advanceWidth": 976,
+              "leftSideBearing": 39,
+              "rightSideBearing": 39,
+              "width": 898
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 39,
+              "rightSideBearing": 39,
+              "width": 462
+            },
+            "spaceToN": 0.3626760563380282,
+            "MToN": 1.5352112676056338
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 22124,
+            "fileSizeKB": 22,
+            "glyphDensity": 47,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-50": {
+          "family": "aspekta",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-50.woff2",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -75,
+              "minY": -223,
+              "maxX": 1090,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 243,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 519,
+              "leftSideBearing": 63,
+              "rightSideBearing": 63,
+              "width": 393
+            },
+            "M": {
+              "advanceWidth": 836,
+              "leftSideBearing": 69,
+              "rightSideBearing": 69,
+              "width": 698
+            },
+            "period": {
+              "advanceWidth": 122,
+              "leftSideBearing": 49,
+              "rightSideBearing": 48,
+              "width": 25
+            },
+            "em": {
+              "advanceWidth": 898,
+              "leftSideBearing": 60,
+              "rightSideBearing": 61,
+              "width": 777
+            },
+            "en": {
+              "advanceWidth": 520,
+              "leftSideBearing": 60,
+              "rightSideBearing": 60,
+              "width": 400
+            },
+            "spaceToN": 0.4682080924855491,
+            "MToN": 1.6107899807321773
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 21396,
+            "fileSizeKB": 21,
+            "glyphDensity": 45,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-450": {
+          "family": "aspekta",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-450.woff2",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -83,
+              "minY": -236,
+              "maxX": 1251,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 200,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 562,
+              "leftSideBearing": 60,
+              "rightSideBearing": 60,
+              "width": 442
+            },
+            "M": {
+              "advanceWidth": 864,
+              "leftSideBearing": 66,
+              "rightSideBearing": 67,
+              "width": 731
+            },
+            "period": {
+              "advanceWidth": 204,
+              "leftSideBearing": 46,
+              "rightSideBearing": 47,
+              "width": 111
+            },
+            "em": {
+              "advanceWidth": 973,
+              "leftSideBearing": 41,
+              "rightSideBearing": 41,
+              "width": 891
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 41,
+              "rightSideBearing": 41,
+              "width": 458
+            },
+            "spaceToN": 0.35587188612099646,
+            "MToN": 1.5373665480427046
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 22240,
+            "fileSizeKB": 22,
+            "glyphDensity": 47,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-400": {
+          "family": "aspekta",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-400.woff2",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -82,
+              "minY": -236,
+              "maxX": 1244,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 194,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 556,
+              "leftSideBearing": 62,
+              "rightSideBearing": 62,
+              "width": 432
+            },
+            "M": {
+              "advanceWidth": 856,
+              "leftSideBearing": 68,
+              "rightSideBearing": 68,
+              "width": 720
+            },
+            "period": {
+              "advanceWidth": 196,
+              "leftSideBearing": 48,
+              "rightSideBearing": 48,
+              "width": 100
+            },
+            "em": {
+              "advanceWidth": 970,
+              "leftSideBearing": 42,
+              "rightSideBearing": 42,
+              "width": 886
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 42,
+              "rightSideBearing": 42,
+              "width": 456
+            },
+            "spaceToN": 0.3489208633093525,
+            "MToN": 1.539568345323741
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 21748,
+            "fileSizeKB": 21,
+            "glyphDensity": 46,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-350": {
+          "family": "aspekta",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-350.woff2",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -80,
+              "minY": -234,
+              "maxX": 1214,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 202,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 551,
+              "leftSideBearing": 62,
+              "rightSideBearing": 62,
+              "width": 427
+            },
+            "M": {
+              "advanceWidth": 853,
+              "leftSideBearing": 68,
+              "rightSideBearing": 68,
+              "width": 717
+            },
+            "period": {
+              "advanceWidth": 185,
+              "leftSideBearing": 48,
+              "rightSideBearing": 48,
+              "width": 89
+            },
+            "em": {
+              "advanceWidth": 959,
+              "leftSideBearing": 45,
+              "rightSideBearing": 44,
+              "width": 870
+            },
+            "en": {
+              "advanceWidth": 537,
+              "leftSideBearing": 45,
+              "rightSideBearing": 45,
+              "width": 447
+            },
+            "spaceToN": 0.3666061705989111,
+            "MToN": 1.5480943738656987
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 21956,
+            "fileSizeKB": 21,
+            "glyphDensity": 46,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-300": {
+          "family": "aspekta",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-300.woff2",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -79,
+              "minY": -232,
+              "maxX": 1184,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 209,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 545,
+              "leftSideBearing": 62,
+              "rightSideBearing": 62,
+              "width": 421
+            },
+            "M": {
+              "advanceWidth": 851,
+              "leftSideBearing": 68,
+              "rightSideBearing": 68,
+              "width": 715
+            },
+            "period": {
+              "advanceWidth": 175,
+              "leftSideBearing": 48,
+              "rightSideBearing": 48,
+              "width": 79
+            },
+            "em": {
+              "advanceWidth": 949,
+              "leftSideBearing": 47,
+              "rightSideBearing": 48,
+              "width": 854
+            },
+            "en": {
+              "advanceWidth": 534,
+              "leftSideBearing": 47,
+              "rightSideBearing": 47,
+              "width": 440
+            },
+            "spaceToN": 0.3834862385321101,
+            "MToN": 1.5614678899082568
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 22600,
+            "fileSizeKB": 22,
+            "glyphDensity": 48,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-250": {
+          "family": "aspekta",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-250.woff2",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -77,
+              "minY": -230,
+              "maxX": 1154,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 217,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 540,
+              "leftSideBearing": 62,
+              "rightSideBearing": 62,
+              "width": 416
+            },
+            "M": {
+              "advanceWidth": 848,
+              "leftSideBearing": 68,
+              "rightSideBearing": 68,
+              "width": 712
+            },
+            "period": {
+              "advanceWidth": 164,
+              "leftSideBearing": 48,
+              "rightSideBearing": 48,
+              "width": 68
+            },
+            "em": {
+              "advanceWidth": 938,
+              "leftSideBearing": 50,
+              "rightSideBearing": 50,
+              "width": 838
+            },
+            "en": {
+              "advanceWidth": 531,
+              "leftSideBearing": 50,
+              "rightSideBearing": 50,
+              "width": 431
+            },
+            "spaceToN": 0.40185185185185185,
+            "MToN": 1.5703703703703704
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 22024,
+            "fileSizeKB": 22,
+            "glyphDensity": 47,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-200": {
+          "family": "aspekta",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-200.woff2",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -76,
+              "minY": -228,
+              "maxX": 1123,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 225,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 535,
+              "leftSideBearing": 62,
+              "rightSideBearing": 62,
+              "width": 411
+            },
+            "M": {
+              "advanceWidth": 845,
+              "leftSideBearing": 68,
+              "rightSideBearing": 68,
+              "width": 709
+            },
+            "period": {
+              "advanceWidth": 153,
+              "leftSideBearing": 48,
+              "rightSideBearing": 48,
+              "width": 57
+            },
+            "em": {
+              "advanceWidth": 927,
+              "leftSideBearing": 53,
+              "rightSideBearing": 52,
+              "width": 822
+            },
+            "en": {
+              "advanceWidth": 528,
+              "leftSideBearing": 53,
+              "rightSideBearing": 53,
+              "width": 422
+            },
+            "spaceToN": 0.4205607476635514,
+            "MToN": 1.5794392523364487
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 21884,
+            "fileSizeKB": 21,
+            "glyphDensity": 46,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-150": {
+          "family": "aspekta",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-150.woff2",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -74,
+              "minY": -226,
+              "maxX": 1094,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 232,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 529,
+              "leftSideBearing": 62,
+              "rightSideBearing": 62,
+              "width": 405
+            },
+            "M": {
+              "advanceWidth": 843,
+              "leftSideBearing": 68,
+              "rightSideBearing": 68,
+              "width": 707
+            },
+            "period": {
+              "advanceWidth": 143,
+              "leftSideBearing": 48,
+              "rightSideBearing": 48,
+              "width": 47
+            },
+            "em": {
+              "advanceWidth": 917,
+              "leftSideBearing": 55,
+              "rightSideBearing": 56,
+              "width": 806
+            },
+            "en": {
+              "advanceWidth": 525,
+              "leftSideBearing": 55,
+              "rightSideBearing": 55,
+              "width": 415
+            },
+            "spaceToN": 0.43856332703213613,
+            "MToN": 1.5935727788279772
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 21596,
+            "fileSizeKB": 21,
+            "glyphDensity": 46,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-1000": {
+          "family": "aspekta",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-1000.woff2",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -95,
+              "minY": -237,
+              "maxX": 1335,
+              "maxY": 935
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 261,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 625,
+              "leftSideBearing": 39,
+              "rightSideBearing": 38,
+              "width": 548
+            },
+            "M": {
+              "advanceWidth": 948,
+              "leftSideBearing": 49,
+              "rightSideBearing": 50,
+              "width": 849
+            },
+            "period": {
+              "advanceWidth": 288,
+              "leftSideBearing": 29,
+              "rightSideBearing": 29,
+              "width": 230
+            },
+            "em": {
+              "advanceWidth": 1009,
+              "leftSideBearing": 25,
+              "rightSideBearing": 25,
+              "width": 959
+            },
+            "en": {
+              "advanceWidth": 541,
+              "leftSideBearing": 25,
+              "rightSideBearing": 25,
+              "width": 491
+            },
+            "spaceToN": 0.4176,
+            "MToN": 1.5168
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 23096,
+            "fileSizeKB": 23,
+            "glyphDensity": 49,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-100": {
+          "family": "aspekta",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-100.woff2",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -74,
+              "minY": -224,
+              "maxX": 1090,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 240,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 524,
+              "leftSideBearing": 62,
+              "rightSideBearing": 62,
+              "width": 400
+            },
+            "M": {
+              "advanceWidth": 840,
+              "leftSideBearing": 68,
+              "rightSideBearing": 68,
+              "width": 704
+            },
+            "period": {
+              "advanceWidth": 132,
+              "leftSideBearing": 48,
+              "rightSideBearing": 48,
+              "width": 36
+            },
+            "em": {
+              "advanceWidth": 906,
+              "leftSideBearing": 58,
+              "rightSideBearing": 58,
+              "width": 790
+            },
+            "en": {
+              "advanceWidth": 522,
+              "leftSideBearing": 58,
+              "rightSideBearing": 58,
+              "width": 406
+            },
+            "spaceToN": 0.4580152671755725,
+            "MToN": 1.6030534351145038
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 21116,
+            "fileSizeKB": 21,
+            "glyphDensity": 45,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        }
+      },
+      "variable": {
+        "VariableRegular[wght]": {
+          "family": "aspekta",
+          "style": "normal",
+          "weight": {
+            "min": 100,
+            "max": 900
+          },
+          "stretch": "normal",
+          "path": "fonts/open-fonts/aspekta/fonts/variable/AspektaVF.ttf",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -82,
+              "minY": -236,
+              "maxX": 1244,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 194,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 556,
+              "leftSideBearing": 62,
+              "rightSideBearing": 62,
+              "width": 432
+            },
+            "M": {
+              "advanceWidth": 856,
+              "leftSideBearing": 68,
+              "rightSideBearing": 68,
+              "width": 720
+            },
+            "period": {
+              "advanceWidth": 196,
+              "leftSideBearing": 48,
+              "rightSideBearing": 48,
+              "width": 100
+            },
+            "em": {
+              "advanceWidth": 970,
+              "leftSideBearing": 42,
+              "rightSideBearing": 42,
+              "width": 886
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 42,
+              "rightSideBearing": 42,
+              "width": 456
+            },
+            "spaceToN": 0.3489208633093525,
+            "MToN": 1.539568345323741
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 69480,
+            "fileSizeKB": 68,
+            "glyphDensity": 147,
+            "format": "ttf",
+            "isVariable": true,
+            "axisCount": 1,
+            "tableCount": 11
+          },
+          "axes": {
+            "wght": {
+              "min": 100,
+              "max": 900,
+              "default": 400
+            }
+          },
+          "namedInstances": [
+            {
+              "name": "Instance 2",
+              "coordinates": {
+                "wght": 400
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sources": {
+      "name": "sources",
+      "slug": "sources",
+      "static": {},
+      "variable": {}
+    },
+    "fonts": {
+      "name": "fonts",
+      "slug": "fonts",
+      "static": {
+        "Aspekta-950": {
+          "family": "fonts",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "aspekta/fonts/otf/Aspekta-950.otf",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -93,
+              "minY": -236,
+              "maxX": 1325,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 257,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 620,
+              "leftSideBearing": 40,
+              "rightSideBearing": 41,
+              "width": 539
+            },
+            "M": {
+              "advanceWidth": 941,
+              "leftSideBearing": 51,
+              "rightSideBearing": 51,
+              "width": 839
+            },
+            "period": {
+              "advanceWidth": 280,
+              "leftSideBearing": 31,
+              "rightSideBearing": 31,
+              "width": 218
+            },
+            "em": {
+              "advanceWidth": 1004,
+              "leftSideBearing": 26,
+              "rightSideBearing": 26,
+              "width": 952
+            },
+            "en": {
+              "advanceWidth": 541,
+              "leftSideBearing": 26,
+              "rightSideBearing": 27,
+              "width": 488
+            },
+            "spaceToN": 0.41451612903225804,
+            "MToN": 1.517741935483871
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 38936,
+            "fileSizeKB": 38,
+            "glyphDensity": 82,
+            "format": "otf",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-900": {
+          "family": "fonts",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "aspekta/fonts/otf/Aspekta-900.otf",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -92,
+              "minY": -236,
+              "maxX": 1313,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 254,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 614,
+              "leftSideBearing": 42,
+              "rightSideBearing": 42,
+              "width": 530
+            },
+            "M": {
+              "advanceWidth": 934,
+              "leftSideBearing": 52,
+              "rightSideBearing": 52,
+              "width": 830
+            },
+            "period": {
+              "advanceWidth": 272,
+              "leftSideBearing": 32,
+              "rightSideBearing": 32,
+              "width": 208
+            },
+            "em": {
+              "advanceWidth": 1000,
+              "leftSideBearing": 28,
+              "rightSideBearing": 28,
+              "width": 944
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 28,
+              "rightSideBearing": 28,
+              "width": 484
+            },
+            "spaceToN": 0.41368078175895767,
+            "MToN": 1.521172638436482
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 38464,
+            "fileSizeKB": 38,
+            "glyphDensity": 81,
+            "format": "otf",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-850": {
+          "family": "fonts",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "aspekta/fonts/otf/Aspekta-850.otf",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -91,
+              "minY": -236,
+              "maxX": 1306,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 248,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 608,
+              "leftSideBearing": 44,
+              "rightSideBearing": 44,
+              "width": 520
+            },
+            "M": {
+              "advanceWidth": 926,
+              "leftSideBearing": 54,
+              "rightSideBearing": 53,
+              "width": 819
+            },
+            "period": {
+              "advanceWidth": 264,
+              "leftSideBearing": 34,
+              "rightSideBearing": 33,
+              "width": 197
+            },
+            "em": {
+              "advanceWidth": 997,
+              "leftSideBearing": 29,
+              "rightSideBearing": 29,
+              "width": 939
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 29,
+              "rightSideBearing": 29,
+              "width": 482
+            },
+            "spaceToN": 0.40789473684210525,
+            "MToN": 1.5230263157894737
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 38696,
+            "fileSizeKB": 38,
+            "glyphDensity": 82,
+            "format": "otf",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-800": {
+          "family": "fonts",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "aspekta/fonts/otf/Aspekta-800.otf",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -89,
+              "minY": -236,
+              "maxX": 1299,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 242,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 602,
+              "leftSideBearing": 46,
+              "rightSideBearing": 45,
+              "width": 511
+            },
+            "M": {
+              "advanceWidth": 918,
+              "leftSideBearing": 55,
+              "rightSideBearing": 55,
+              "width": 808
+            },
+            "period": {
+              "advanceWidth": 257,
+              "leftSideBearing": 35,
+              "rightSideBearing": 35,
+              "width": 187
+            },
+            "em": {
+              "advanceWidth": 994,
+              "leftSideBearing": 31,
+              "rightSideBearing": 31,
+              "width": 932
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 31,
+              "rightSideBearing": 31,
+              "width": 478
+            },
+            "spaceToN": 0.4019933554817276,
+            "MToN": 1.5249169435215948
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 38508,
+            "fileSizeKB": 38,
+            "glyphDensity": 81,
+            "format": "otf",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-750": {
+          "family": "fonts",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "aspekta/fonts/otf/Aspekta-750.otf",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -88,
+              "minY": -236,
+              "maxX": 1293,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 236,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 597,
+              "leftSideBearing": 48,
+              "rightSideBearing": 48,
+              "width": 501
+            },
+            "M": {
+              "advanceWidth": 911,
+              "leftSideBearing": 57,
+              "rightSideBearing": 57,
+              "width": 797
+            },
+            "period": {
+              "advanceWidth": 249,
+              "leftSideBearing": 37,
+              "rightSideBearing": 37,
+              "width": 175
+            },
+            "em": {
+              "advanceWidth": 991,
+              "leftSideBearing": 32,
+              "rightSideBearing": 32,
+              "width": 927
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 32,
+              "rightSideBearing": 32,
+              "width": 476
+            },
+            "spaceToN": 0.3953098827470687,
+            "MToN": 1.5259631490787269
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 37568,
+            "fileSizeKB": 37,
+            "glyphDensity": 79,
+            "format": "otf",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-700": {
+          "family": "fonts",
+          "style": "normal",
+          "weight": 700,
+          "stretch": "normal",
+          "path": "aspekta/fonts/otf/Aspekta-700.otf",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -87,
+              "minY": -236,
+              "maxX": 1286,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 230,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 591,
+              "leftSideBearing": 50,
+              "rightSideBearing": 50,
+              "width": 491
+            },
+            "M": {
+              "advanceWidth": 903,
+              "leftSideBearing": 58,
+              "rightSideBearing": 59,
+              "width": 786
+            },
+            "period": {
+              "advanceWidth": 242,
+              "leftSideBearing": 38,
+              "rightSideBearing": 39,
+              "width": 165
+            },
+            "em": {
+              "advanceWidth": 988,
+              "leftSideBearing": 34,
+              "rightSideBearing": 34,
+              "width": 920
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 34,
+              "rightSideBearing": 34,
+              "width": 472
+            },
+            "spaceToN": 0.38917089678510997,
+            "MToN": 1.5279187817258884
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 37564,
+            "fileSizeKB": 37,
+            "glyphDensity": 79,
+            "format": "otf",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-650": {
+          "family": "fonts",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "aspekta/fonts/otf/Aspekta-650.otf",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -86,
+              "minY": -236,
+              "maxX": 1279,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 224,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 585,
+              "leftSideBearing": 52,
+              "rightSideBearing": 51,
+              "width": 482
+            },
+            "M": {
+              "advanceWidth": 895,
+              "leftSideBearing": 60,
+              "rightSideBearing": 60,
+              "width": 775
+            },
+            "period": {
+              "advanceWidth": 234,
+              "leftSideBearing": 40,
+              "rightSideBearing": 40,
+              "width": 154
+            },
+            "em": {
+              "advanceWidth": 985,
+              "leftSideBearing": 35,
+              "rightSideBearing": 35,
+              "width": 915
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 35,
+              "rightSideBearing": 35,
+              "width": 470
+            },
+            "spaceToN": 0.38290598290598293,
+            "MToN": 1.5299145299145298
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 37324,
+            "fileSizeKB": 36,
+            "glyphDensity": 79,
+            "format": "otf",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-600": {
+          "family": "fonts",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "aspekta/fonts/otf/Aspekta-600.otf",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -85,
+              "minY": -236,
+              "maxX": 1271,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 218,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 579,
+              "leftSideBearing": 54,
+              "rightSideBearing": 54,
+              "width": 471
+            },
+            "M": {
+              "advanceWidth": 887,
+              "leftSideBearing": 62,
+              "rightSideBearing": 61,
+              "width": 764
+            },
+            "period": {
+              "advanceWidth": 226,
+              "leftSideBearing": 42,
+              "rightSideBearing": 41,
+              "width": 143
+            },
+            "em": {
+              "advanceWidth": 982,
+              "leftSideBearing": 36,
+              "rightSideBearing": 36,
+              "width": 910
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 36,
+              "rightSideBearing": 36,
+              "width": 468
+            },
+            "spaceToN": 0.3765112262521589,
+            "MToN": 1.531951640759931
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 37292,
+            "fileSizeKB": 36,
+            "glyphDensity": 79,
+            "format": "otf",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-550": {
+          "family": "fonts",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "aspekta/fonts/otf/Aspekta-550.otf",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -84,
+              "minY": -236,
+              "maxX": 1264,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 212,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 573,
+              "leftSideBearing": 56,
+              "rightSideBearing": 56,
+              "width": 461
+            },
+            "M": {
+              "advanceWidth": 879,
+              "leftSideBearing": 63,
+              "rightSideBearing": 63,
+              "width": 753
+            },
+            "period": {
+              "advanceWidth": 219,
+              "leftSideBearing": 43,
+              "rightSideBearing": 43,
+              "width": 133
+            },
+            "em": {
+              "advanceWidth": 979,
+              "leftSideBearing": 38,
+              "rightSideBearing": 38,
+              "width": 903
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 38,
+              "rightSideBearing": 38,
+              "width": 464
+            },
+            "spaceToN": 0.3699825479930192,
+            "MToN": 1.5340314136125655
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 36692,
+            "fileSizeKB": 36,
+            "glyphDensity": 78,
+            "format": "otf",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-500": {
+          "family": "fonts",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "aspekta/fonts/otf/Aspekta-500.otf",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -84,
+              "minY": -236,
+              "maxX": 1258,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 206,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 568,
+              "leftSideBearing": 58,
+              "rightSideBearing": 59,
+              "width": 451
+            },
+            "M": {
+              "advanceWidth": 872,
+              "leftSideBearing": 65,
+              "rightSideBearing": 65,
+              "width": 742
+            },
+            "period": {
+              "advanceWidth": 211,
+              "leftSideBearing": 45,
+              "rightSideBearing": 45,
+              "width": 121
+            },
+            "em": {
+              "advanceWidth": 976,
+              "leftSideBearing": 39,
+              "rightSideBearing": 39,
+              "width": 898
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 39,
+              "rightSideBearing": 39,
+              "width": 462
+            },
+            "spaceToN": 0.3626760563380282,
+            "MToN": 1.5352112676056338
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 36680,
+            "fileSizeKB": 36,
+            "glyphDensity": 78,
+            "format": "otf",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-50": {
+          "family": "fonts",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "aspekta/fonts/otf/Aspekta-50.otf",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -75,
+              "minY": -223,
+              "maxX": 1090,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 243,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 519,
+              "leftSideBearing": 63,
+              "rightSideBearing": 63,
+              "width": 393
+            },
+            "M": {
+              "advanceWidth": 836,
+              "leftSideBearing": 69,
+              "rightSideBearing": 69,
+              "width": 698
+            },
+            "period": {
+              "advanceWidth": 122,
+              "leftSideBearing": 49,
+              "rightSideBearing": 48,
+              "width": 25
+            },
+            "em": {
+              "advanceWidth": 898,
+              "leftSideBearing": 60,
+              "rightSideBearing": 61,
+              "width": 777
+            },
+            "en": {
+              "advanceWidth": 520,
+              "leftSideBearing": 60,
+              "rightSideBearing": 60,
+              "width": 400
+            },
+            "spaceToN": 0.4682080924855491,
+            "MToN": 1.6107899807321773
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 35808,
+            "fileSizeKB": 35,
+            "glyphDensity": 76,
+            "format": "otf",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-450": {
+          "family": "fonts",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "aspekta/fonts/otf/Aspekta-450.otf",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -83,
+              "minY": -236,
+              "maxX": 1251,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 200,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 562,
+              "leftSideBearing": 60,
+              "rightSideBearing": 60,
+              "width": 442
+            },
+            "M": {
+              "advanceWidth": 864,
+              "leftSideBearing": 66,
+              "rightSideBearing": 67,
+              "width": 731
+            },
+            "period": {
+              "advanceWidth": 204,
+              "leftSideBearing": 46,
+              "rightSideBearing": 47,
+              "width": 111
+            },
+            "em": {
+              "advanceWidth": 973,
+              "leftSideBearing": 41,
+              "rightSideBearing": 41,
+              "width": 891
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 41,
+              "rightSideBearing": 41,
+              "width": 458
+            },
+            "spaceToN": 0.35587188612099646,
+            "MToN": 1.5373665480427046
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 36484,
+            "fileSizeKB": 36,
+            "glyphDensity": 77,
+            "format": "otf",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-400": {
+          "family": "fonts",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "aspekta/fonts/otf/Aspekta-400.otf",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -82,
+              "minY": -236,
+              "maxX": 1244,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 194,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 556,
+              "leftSideBearing": 62,
+              "rightSideBearing": 62,
+              "width": 432
+            },
+            "M": {
+              "advanceWidth": 856,
+              "leftSideBearing": 68,
+              "rightSideBearing": 68,
+              "width": 720
+            },
+            "period": {
+              "advanceWidth": 196,
+              "leftSideBearing": 48,
+              "rightSideBearing": 48,
+              "width": 100
+            },
+            "em": {
+              "advanceWidth": 970,
+              "leftSideBearing": 42,
+              "rightSideBearing": 42,
+              "width": 886
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 42,
+              "rightSideBearing": 42,
+              "width": 456
+            },
+            "spaceToN": 0.3489208633093525,
+            "MToN": 1.539568345323741
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 36156,
+            "fileSizeKB": 35,
+            "glyphDensity": 76,
+            "format": "otf",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-350": {
+          "family": "fonts",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "aspekta/fonts/otf/Aspekta-350.otf",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -80,
+              "minY": -234,
+              "maxX": 1214,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 202,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 551,
+              "leftSideBearing": 62,
+              "rightSideBearing": 62,
+              "width": 427
+            },
+            "M": {
+              "advanceWidth": 853,
+              "leftSideBearing": 68,
+              "rightSideBearing": 68,
+              "width": 717
+            },
+            "period": {
+              "advanceWidth": 185,
+              "leftSideBearing": 48,
+              "rightSideBearing": 48,
+              "width": 89
+            },
+            "em": {
+              "advanceWidth": 959,
+              "leftSideBearing": 45,
+              "rightSideBearing": 44,
+              "width": 870
+            },
+            "en": {
+              "advanceWidth": 537,
+              "leftSideBearing": 45,
+              "rightSideBearing": 45,
+              "width": 447
+            },
+            "spaceToN": 0.3666061705989111,
+            "MToN": 1.5480943738656987
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 36388,
+            "fileSizeKB": 36,
+            "glyphDensity": 77,
+            "format": "otf",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-300": {
+          "family": "fonts",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "aspekta/fonts/otf/Aspekta-300.otf",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -79,
+              "minY": -232,
+              "maxX": 1184,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 209,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 545,
+              "leftSideBearing": 62,
+              "rightSideBearing": 62,
+              "width": 421
+            },
+            "M": {
+              "advanceWidth": 851,
+              "leftSideBearing": 68,
+              "rightSideBearing": 68,
+              "width": 715
+            },
+            "period": {
+              "advanceWidth": 175,
+              "leftSideBearing": 48,
+              "rightSideBearing": 48,
+              "width": 79
+            },
+            "em": {
+              "advanceWidth": 949,
+              "leftSideBearing": 47,
+              "rightSideBearing": 48,
+              "width": 854
+            },
+            "en": {
+              "advanceWidth": 534,
+              "leftSideBearing": 47,
+              "rightSideBearing": 47,
+              "width": 440
+            },
+            "spaceToN": 0.3834862385321101,
+            "MToN": 1.5614678899082568
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 37092,
+            "fileSizeKB": 36,
+            "glyphDensity": 78,
+            "format": "otf",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-250": {
+          "family": "fonts",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "aspekta/fonts/otf/Aspekta-250.otf",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -77,
+              "minY": -230,
+              "maxX": 1154,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 217,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 540,
+              "leftSideBearing": 62,
+              "rightSideBearing": 62,
+              "width": 416
+            },
+            "M": {
+              "advanceWidth": 848,
+              "leftSideBearing": 68,
+              "rightSideBearing": 68,
+              "width": 712
+            },
+            "period": {
+              "advanceWidth": 164,
+              "leftSideBearing": 48,
+              "rightSideBearing": 48,
+              "width": 68
+            },
+            "em": {
+              "advanceWidth": 938,
+              "leftSideBearing": 50,
+              "rightSideBearing": 50,
+              "width": 838
+            },
+            "en": {
+              "advanceWidth": 531,
+              "leftSideBearing": 50,
+              "rightSideBearing": 50,
+              "width": 431
+            },
+            "spaceToN": 0.40185185185185185,
+            "MToN": 1.5703703703703704
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 36608,
+            "fileSizeKB": 36,
+            "glyphDensity": 77,
+            "format": "otf",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-200": {
+          "family": "fonts",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "aspekta/fonts/otf/Aspekta-200.otf",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -76,
+              "minY": -228,
+              "maxX": 1123,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 225,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 535,
+              "leftSideBearing": 62,
+              "rightSideBearing": 62,
+              "width": 411
+            },
+            "M": {
+              "advanceWidth": 845,
+              "leftSideBearing": 68,
+              "rightSideBearing": 68,
+              "width": 709
+            },
+            "period": {
+              "advanceWidth": 153,
+              "leftSideBearing": 48,
+              "rightSideBearing": 48,
+              "width": 57
+            },
+            "em": {
+              "advanceWidth": 927,
+              "leftSideBearing": 53,
+              "rightSideBearing": 52,
+              "width": 822
+            },
+            "en": {
+              "advanceWidth": 528,
+              "leftSideBearing": 53,
+              "rightSideBearing": 53,
+              "width": 422
+            },
+            "spaceToN": 0.4205607476635514,
+            "MToN": 1.5794392523364487
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 36532,
+            "fileSizeKB": 36,
+            "glyphDensity": 77,
+            "format": "otf",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-150": {
+          "family": "fonts",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "aspekta/fonts/otf/Aspekta-150.otf",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -74,
+              "minY": -226,
+              "maxX": 1094,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 232,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 529,
+              "leftSideBearing": 62,
+              "rightSideBearing": 62,
+              "width": 405
+            },
+            "M": {
+              "advanceWidth": 843,
+              "leftSideBearing": 68,
+              "rightSideBearing": 68,
+              "width": 707
+            },
+            "period": {
+              "advanceWidth": 143,
+              "leftSideBearing": 48,
+              "rightSideBearing": 48,
+              "width": 47
+            },
+            "em": {
+              "advanceWidth": 917,
+              "leftSideBearing": 55,
+              "rightSideBearing": 56,
+              "width": 806
+            },
+            "en": {
+              "advanceWidth": 525,
+              "leftSideBearing": 55,
+              "rightSideBearing": 55,
+              "width": 415
+            },
+            "spaceToN": 0.43856332703213613,
+            "MToN": 1.5935727788279772
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 36096,
+            "fileSizeKB": 35,
+            "glyphDensity": 76,
+            "format": "otf",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-1000": {
+          "family": "fonts",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "aspekta/fonts/otf/Aspekta-1000.otf",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -95,
+              "minY": -237,
+              "maxX": 1335,
+              "maxY": 935
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 261,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 625,
+              "leftSideBearing": 39,
+              "rightSideBearing": 38,
+              "width": 548
+            },
+            "M": {
+              "advanceWidth": 948,
+              "leftSideBearing": 49,
+              "rightSideBearing": 50,
+              "width": 849
+            },
+            "period": {
+              "advanceWidth": 288,
+              "leftSideBearing": 29,
+              "rightSideBearing": 29,
+              "width": 230
+            },
+            "em": {
+              "advanceWidth": 1009,
+              "leftSideBearing": 25,
+              "rightSideBearing": 25,
+              "width": 959
+            },
+            "en": {
+              "advanceWidth": 541,
+              "leftSideBearing": 25,
+              "rightSideBearing": 25,
+              "width": 491
+            },
+            "spaceToN": 0.4176,
+            "MToN": 1.5168
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 39164,
+            "fileSizeKB": 38,
+            "glyphDensity": 83,
+            "format": "otf",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        },
+        "Aspekta-100": {
+          "family": "fonts",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "aspekta/fonts/otf/Aspekta-100.otf",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -74,
+              "minY": -224,
+              "maxX": 1090,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 240,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 524,
+              "leftSideBearing": 62,
+              "rightSideBearing": 62,
+              "width": 400
+            },
+            "M": {
+              "advanceWidth": 840,
+              "leftSideBearing": 68,
+              "rightSideBearing": 68,
+              "width": 704
+            },
+            "period": {
+              "advanceWidth": 132,
+              "leftSideBearing": 48,
+              "rightSideBearing": 48,
+              "width": 36
+            },
+            "em": {
+              "advanceWidth": 906,
+              "leftSideBearing": 58,
+              "rightSideBearing": 58,
+              "width": 790
+            },
+            "en": {
+              "advanceWidth": 522,
+              "leftSideBearing": 58,
+              "rightSideBearing": 58,
+              "width": 406
+            },
+            "spaceToN": 0.4580152671755725,
+            "MToN": 1.6030534351145038
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 35588,
+            "fileSizeKB": 35,
+            "glyphDensity": 75,
+            "format": "otf",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 10
+          }
+        }
+      },
+      "variable": {
+        "VariableRegular[wght]": {
+          "family": "fonts",
+          "style": "normal",
+          "weight": {
+            "min": 100,
+            "max": 900
+          },
+          "stretch": "normal",
+          "path": "aspekta/fonts/variable/AspektaVF.ttf",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0,
+            "capHeight": 720,
+            "xHeight": 520,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 880,
+              "ideographic": -330,
+              "mathematical": 550
+            },
+            "bbox": {
+              "minX": -82,
+              "minY": -236,
+              "maxX": 1244,
+              "maxY": 932
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 194,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 556,
+              "leftSideBearing": 62,
+              "rightSideBearing": 62,
+              "width": 432
+            },
+            "M": {
+              "advanceWidth": 856,
+              "leftSideBearing": 68,
+              "rightSideBearing": 68,
+              "width": 720
+            },
+            "period": {
+              "advanceWidth": 196,
+              "leftSideBearing": 48,
+              "rightSideBearing": 48,
+              "width": 100
+            },
+            "em": {
+              "advanceWidth": 970,
+              "leftSideBearing": 42,
+              "rightSideBearing": 42,
+              "width": 886
+            },
+            "en": {
+              "advanceWidth": 540,
+              "leftSideBearing": 42,
+              "rightSideBearing": 42,
+              "width": 456
+            },
+            "spaceToN": 0.3489208633093525,
+            "MToN": 1.539568345323741
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "locl",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "mark"
+            ],
+            "languageSupport": {},
+            "glyphCount": 473,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.5,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.5,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Latin Extended-B",
+                "coverage": 0.2,
+                "start": 384,
+                "end": 591
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 69480,
+            "fileSizeKB": 68,
+            "glyphDensity": 147,
+            "format": "ttf",
+            "isVariable": true,
+            "axisCount": 1,
+            "tableCount": 11
+          },
+          "axes": {
+            "wght": {
+              "min": 100,
+              "max": 900,
+              "default": 400
+            }
+          },
+          "namedInstances": [
+            {
+              "name": "Instance 2",
+              "coordinates": {
+                "wght": 400
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "buildInfo": {
+    "timestamp": "2025-08-27T16:28:37.256Z",
+    "version": "1.2.0",
+    "fontCount": 3
+  }
+}

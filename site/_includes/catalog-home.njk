@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+  <link rel="stylesheet" href="/styles/catalog.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/" class="logo">Font Families</a>
+      <ul>
+        <li><a href="/">Browse</a></li>
+        <li><a href="/contribute">Contribute</a></li>
+        <li><a href="https://github.com/hund-press/font-families">GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    {{ content | safe }}
+    
+    {% if fontFamilies %}
+    <div class="font-catalog">
+      <h2>Available Fonts ({{ fontFamilies.buildInfo.fontCount }})</h2>
+      
+      <div class="font-grid">
+        {% for slug, family in fontFamilies.fonts %}
+        <div class="font-card">
+          <div class="font-specimen" data-font="{{ slug }}">
+            <div class="specimen-text" style="font-family: system-ui;">
+              The quick brown fox jumps over the lazy dog
+            </div>
+          </div>
+          
+          <div class="font-info">
+            <h3>{{ family.name }}</h3>
+            <p class="font-details">
+              {% if family.author %}by {{ family.author }}{% endif %}
+              {% if family.license %} • {{ family.license }}{% endif %}
+              {% if family.version %} • v{{ family.version }}{% endif %}
+            </p>
+            {% if family.description %}
+            <p class="font-description">{{ family.description }}</p>
+            {% endif %}
+            
+            <div class="font-actions">
+              <a href="/fonts/{{ slug }}" class="btn-primary">Details</a>
+              <a href="/api/metadata/{{ slug }}.json" class="btn-secondary">JSON</a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 Font Families. Open source font platform.</p>
+    <p>
+      <a href="https://github.com/hund-press/font-families">GitHub</a> • 
+      <a href="/api/catalog.json">API</a> • 
+      <a href="https://hund.press">Hund Press</a>
+    </p>
+  </footer>
+</body>
+</html>
