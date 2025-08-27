@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} - Font Families</title>
+  <meta name="description" content="{{ description }}">
+  
+  <!-- Preload the font for immediate preview -->
+  {% if fontData %}
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.2.0/{{ slug }}/fonts/webfonts/{{ fontData.name }}-400.woff2" as="font" type="font/woff2" crossorigin>
+  {% endif %}
+  
+  <link rel="stylesheet" href="/styles/catalog.css">
+  <link rel="stylesheet" href="/styles/font-detail.css">
+  
+  <style>
+    /* Inline font CSS for immediate rendering */
+    {% if fontData %}
+    {{ fontData | generateFontFaceCSS | safe }}
+    {% endif %}
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/" class="logo">Font Families</a>
+      <ul>
+        <li><a href="/fonts/">Browse</a></li>
+        <li><a href="/#quick-start">Quick Start</a></li>
+        <li><a href="/#contributing">Contribute</a></li>
+        <li><a href="https://github.com/hund-press/font-families">GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main class="font-detail-page">
+    <div class="breadcrumb">
+      <a href="/fonts/">← Back to Font Collection</a>
+    </div>
+    
+    <article class="font-article">
+      {{ content | safe }}
+    </article>
+  </main>
+  
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Font Families</h3>
+        <p>Community-driven font collection emphasizing user agency and educational web typography.</p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="/api/catalog.json">Font API</a></li>
+          <li><a href="https://github.com/hund-press/font-families">Source Code</a></li>
+          <li><a href="https://github.com/hund-press/font-families/fork">Fork Collection</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Philosophy</h3>
+        <ul>
+          <li><a href="/#fork-first">Fork-First Architecture</a></li>
+          <li><a href="/#user-agency">User Agency</a></li>
+          <li><a href="/#inspectable-code">Inspectable Output</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2025 Font Families. Educational font platform.</p>
+      <p>Individual fonts retain their original licenses. View each font's details for specific terms.</p>
+    </div>
+  </footer>
+
+  <script type="module">
+    // Progressive enhancement - load fonts for specimen display
+    document.addEventListener('DOMContentLoaded', function() {
+      const specimens = document.querySelectorAll('[data-font]');
+      
+      specimens.forEach(specimen => {
+        const fontSlug = specimen.dataset.font;
+        
+        // Apply the actual font once loaded
+        if (fontSlug === '{{ slug }}') {
+          specimen.style.fontFamily = "'{{ fontData.name }}', system-ui, sans-serif";
+          
+          // Handle weight-specific specimens
+          const weight = specimen.dataset.weight;
+          if (weight) {
+            specimen.style.fontWeight = weight;
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>

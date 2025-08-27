@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+  <link rel="stylesheet" href="/styles/catalog.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/" class="logo">Font Families</a>
+      <ul>
+        <li><a href="/fonts/">Browse</a></li>
+        <li><a href="/#quick-start">Quick Start</a></li>
+        <li><a href="/#contributing">Contribute</a></li>
+        <li><a href="https://github.com/hund-press/font-families">GitHub</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    {{ content | safe }}
+  </main>
+  
+  <footer>
+    <p>&copy; 2025 Font Families. Open source font platform.</p>
+    <p>
+      <a href="https://github.com/hund-press/font-families">GitHub</a> • 
+      <a href="/api/catalog.json">API</a> • 
+      <a href="https://hund.press">Hund Press</a>
+    </p>
+  </footer>
+</body>
+</html>

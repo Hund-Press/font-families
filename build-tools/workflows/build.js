@@ -13,10 +13,14 @@
 
 import { promises as fs } from 'fs';
 import path from 'path';
+import { exec } from 'child_process';
+import { promisify } from 'util';
 import { scanFontFamilies } from '../scanners/ufr-scanner.js';
 import { generateModules } from '../generators/module-generator.js';
 import { generateCatalog } from '../generators/catalog-generator.js';
 import { validateLicensing } from '../scanners/validation.js';
+
+const execAsync = promisify(exec);
 
 const BUILD_CONFIG = {
     // Font source directories
@@ -235,9 +239,22 @@ async function buildCatalogSite(openFonts) {
     
     console.log(`[build] Created Eleventy data file with ${Object.keys(openFonts).length} font families`);
     
-    // TODO: Run Eleventy build process
-    // This would be: await exec('npx @11ty/eleventy --config=site/.eleventy.js')
-    console.log(`[build] Catalog site data prepared (Eleventy build step not implemented yet)`);
+    try {
+        // Run Eleventy build process to generate catalog site
+        console.log(`[build] Running Eleventy build...`);
+        const { stdout, stderr } = await execAsync('npx @11ty/eleventy --config=site/eleventy.config.js', {
+            cwd: process.cwd()
+        });
+        
+        if (stdout) console.log(`[eleventy] ${stdout}`);
+        if (stderr) console.warn(`[eleventy] ${stderr}`);
+        
+        console.log(`[build] ✅ Catalog site generated successfully`);
+        
+    } catch (error) {
+        console.error(`[build] ❌ Eleventy build failed:`, error.message);
+        throw error;
+    }
 }
 
 /**
