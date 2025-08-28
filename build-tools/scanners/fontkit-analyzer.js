@@ -391,12 +391,12 @@ export function inferWeight(subfamilyName, postscriptName) {
     const text = (subfamilyName + ' ' + postscriptName).toLowerCase();
     
     // First, try to extract numeric weight from PostScript name or subfamily
-    // Look for patterns like "Aspekta-800", "Font-w600", "FontName-500", etc.
-    const numericMatch = (postscriptName + ' ' + subfamilyName).match(/-?(\\d{3,4})\\b/);
+    // Look for patterns like "Aspekta-800", "Font-w600", "FontName-500", "Aspekta-50", etc.
+    const numericMatch = (postscriptName + ' ' + subfamilyName).match(/-?(\d{2,4})\b/);
     if (numericMatch) {
         const weight = parseInt(numericMatch[1]);
-        // Validate it's a reasonable font weight (100-1000, allowing for extended range)
-        if (weight >= 100 && weight <= 1000) {
+        // Validate it's a reasonable font weight (50 or 100-1000, allowing for extended range)
+        if (weight === 50 || (weight >= 100 && weight <= 1000)) {
             return weight;
         }
     }

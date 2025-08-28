@@ -22,6 +22,7 @@ export default {
     "faces": {
       "variable": {
         "VariableRegular[wght]": {
+          "name": "Aspekta Variable - weight axis",
           "fileName": "AspektaVF.ttf",
           "format": "truetype",
           "fontStyle": "normal",
@@ -42,41 +43,47 @@ export default {
       },
       "static": {
         "Aspekta-950": {
+          "name": "Aspekta 950",
           "fileName": "Aspekta-950.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400,
+          "fontWeight": 950,
           "fontStretch": "normal"
         },
         "Aspekta-900": {
+          "name": "Aspekta Black",
           "fileName": "Aspekta-900.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400,
+          "fontWeight": 900,
           "fontStretch": "normal"
         },
         "Aspekta-850": {
+          "name": "Aspekta 850",
           "fileName": "Aspekta-850.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400,
+          "fontWeight": 850,
           "fontStretch": "normal"
         },
         "Aspekta-800": {
+          "name": "Aspekta Extra Bold",
           "fileName": "Aspekta-800.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400,
+          "fontWeight": 800,
           "fontStretch": "normal"
         },
         "Aspekta-750": {
+          "name": "Aspekta 750",
           "fileName": "Aspekta-750.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400,
+          "fontWeight": 750,
           "fontStretch": "normal"
         },
         "Aspekta-700": {
+          "name": "Aspekta Bold",
           "fileName": "Aspekta-700.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -84,48 +91,55 @@ export default {
           "fontStretch": "normal"
         },
         "Aspekta-650": {
+          "name": "Aspekta 650",
           "fileName": "Aspekta-650.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400,
+          "fontWeight": 650,
           "fontStretch": "normal"
         },
         "Aspekta-600": {
+          "name": "Aspekta Semi Bold",
           "fileName": "Aspekta-600.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400,
+          "fontWeight": 600,
           "fontStretch": "normal"
         },
         "Aspekta-550": {
+          "name": "Aspekta 550",
           "fileName": "Aspekta-550.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400,
+          "fontWeight": 550,
           "fontStretch": "normal"
         },
         "Aspekta-500": {
+          "name": "Aspekta Medium",
           "fileName": "Aspekta-500.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400,
+          "fontWeight": 500,
           "fontStretch": "normal"
         },
         "Aspekta-50": {
+          "name": "Aspekta 50",
           "fileName": "Aspekta-50.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400,
+          "fontWeight": 50,
           "fontStretch": "normal"
         },
         "Aspekta-450": {
+          "name": "Aspekta 450",
           "fileName": "Aspekta-450.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400,
+          "fontWeight": 450,
           "fontStretch": "normal"
         },
         "Aspekta-400": {
+          "name": "Aspekta Regular",
           "fileName": "Aspekta-400.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -133,52 +147,59 @@ export default {
           "fontStretch": "normal"
         },
         "Aspekta-350": {
+          "name": "Aspekta 350",
           "fileName": "Aspekta-350.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400,
+          "fontWeight": 350,
           "fontStretch": "normal"
         },
         "Aspekta-300": {
+          "name": "Aspekta Light",
           "fileName": "Aspekta-300.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400,
+          "fontWeight": 300,
           "fontStretch": "normal"
         },
         "Aspekta-250": {
+          "name": "Aspekta 250",
           "fileName": "Aspekta-250.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400,
+          "fontWeight": 250,
           "fontStretch": "normal"
         },
         "Aspekta-200": {
+          "name": "Aspekta Extra Light",
           "fileName": "Aspekta-200.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400,
+          "fontWeight": 200,
           "fontStretch": "normal"
         },
         "Aspekta-150": {
+          "name": "Aspekta 150",
           "fileName": "Aspekta-150.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400,
+          "fontWeight": 150,
           "fontStretch": "normal"
         },
         "Aspekta-1000": {
+          "name": "Aspekta 1000",
           "fileName": "Aspekta-1000.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400,
+          "fontWeight": 1000,
           "fontStretch": "normal"
         },
         "Aspekta-100": {
+          "name": "Aspekta Thin",
           "fileName": "Aspekta-100.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400,
+          "fontWeight": 100,
           "fontStretch": "normal"
         }
       }
@@ -211,6 +232,7 @@ export const aspekta = {
   "faces": {
     "variable": {
       "VariableRegular[wght]": {
+        "name": "Aspekta Variable - weight axis",
         "fileName": "AspektaVF.ttf",
         "format": "truetype",
         "fontStyle": "normal",
@@ -231,41 +253,47 @@ export const aspekta = {
     },
     "static": {
       "Aspekta-950": {
+        "name": "Aspekta 950",
         "fileName": "Aspekta-950.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
+        "fontWeight": 950,
         "fontStretch": "normal"
       },
       "Aspekta-900": {
+        "name": "Aspekta Black",
         "fileName": "Aspekta-900.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
+        "fontWeight": 900,
         "fontStretch": "normal"
       },
       "Aspekta-850": {
+        "name": "Aspekta 850",
         "fileName": "Aspekta-850.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
+        "fontWeight": 850,
         "fontStretch": "normal"
       },
       "Aspekta-800": {
+        "name": "Aspekta Extra Bold",
         "fileName": "Aspekta-800.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
+        "fontWeight": 800,
         "fontStretch": "normal"
       },
       "Aspekta-750": {
+        "name": "Aspekta 750",
         "fileName": "Aspekta-750.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
+        "fontWeight": 750,
         "fontStretch": "normal"
       },
       "Aspekta-700": {
+        "name": "Aspekta Bold",
         "fileName": "Aspekta-700.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -273,48 +301,55 @@ export const aspekta = {
         "fontStretch": "normal"
       },
       "Aspekta-650": {
+        "name": "Aspekta 650",
         "fileName": "Aspekta-650.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
+        "fontWeight": 650,
         "fontStretch": "normal"
       },
       "Aspekta-600": {
+        "name": "Aspekta Semi Bold",
         "fileName": "Aspekta-600.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
+        "fontWeight": 600,
         "fontStretch": "normal"
       },
       "Aspekta-550": {
+        "name": "Aspekta 550",
         "fileName": "Aspekta-550.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
+        "fontWeight": 550,
         "fontStretch": "normal"
       },
       "Aspekta-500": {
+        "name": "Aspekta Medium",
         "fileName": "Aspekta-500.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
+        "fontWeight": 500,
         "fontStretch": "normal"
       },
       "Aspekta-50": {
+        "name": "Aspekta 50",
         "fileName": "Aspekta-50.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
+        "fontWeight": 50,
         "fontStretch": "normal"
       },
       "Aspekta-450": {
+        "name": "Aspekta 450",
         "fileName": "Aspekta-450.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
+        "fontWeight": 450,
         "fontStretch": "normal"
       },
       "Aspekta-400": {
+        "name": "Aspekta Regular",
         "fileName": "Aspekta-400.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -322,52 +357,59 @@ export const aspekta = {
         "fontStretch": "normal"
       },
       "Aspekta-350": {
+        "name": "Aspekta 350",
         "fileName": "Aspekta-350.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
+        "fontWeight": 350,
         "fontStretch": "normal"
       },
       "Aspekta-300": {
+        "name": "Aspekta Light",
         "fileName": "Aspekta-300.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
+        "fontWeight": 300,
         "fontStretch": "normal"
       },
       "Aspekta-250": {
+        "name": "Aspekta 250",
         "fileName": "Aspekta-250.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
+        "fontWeight": 250,
         "fontStretch": "normal"
       },
       "Aspekta-200": {
+        "name": "Aspekta Extra Light",
         "fileName": "Aspekta-200.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
+        "fontWeight": 200,
         "fontStretch": "normal"
       },
       "Aspekta-150": {
+        "name": "Aspekta 150",
         "fileName": "Aspekta-150.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
+        "fontWeight": 150,
         "fontStretch": "normal"
       },
       "Aspekta-1000": {
+        "name": "Aspekta 1000",
         "fileName": "Aspekta-1000.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
+        "fontWeight": 1000,
         "fontStretch": "normal"
       },
       "Aspekta-100": {
+        "name": "Aspekta Thin",
         "fileName": "Aspekta-100.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
+        "fontWeight": 100,
         "fontStretch": "normal"
       }
     }

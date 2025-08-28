@@ -12,7 +12,7 @@ export default {
         "Aspekta-950": {
           "family": "aspekta",
           "style": "normal",
-          "weight": 400,
+          "weight": 950,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-950.woff2",
           "metrics": {
@@ -140,7 +140,7 @@ export default {
         "Aspekta-900": {
           "family": "aspekta",
           "style": "normal",
-          "weight": 400,
+          "weight": 900,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-900.woff2",
           "metrics": {
@@ -268,7 +268,7 @@ export default {
         "Aspekta-850": {
           "family": "aspekta",
           "style": "normal",
-          "weight": 400,
+          "weight": 850,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-850.woff2",
           "metrics": {
@@ -396,7 +396,7 @@ export default {
         "Aspekta-800": {
           "family": "aspekta",
           "style": "normal",
-          "weight": 400,
+          "weight": 800,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-800.woff2",
           "metrics": {
@@ -524,7 +524,7 @@ export default {
         "Aspekta-750": {
           "family": "aspekta",
           "style": "normal",
-          "weight": 400,
+          "weight": 750,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-750.woff2",
           "metrics": {
@@ -780,7 +780,7 @@ export default {
         "Aspekta-650": {
           "family": "aspekta",
           "style": "normal",
-          "weight": 400,
+          "weight": 650,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-650.woff2",
           "metrics": {
@@ -908,7 +908,7 @@ export default {
         "Aspekta-600": {
           "family": "aspekta",
           "style": "normal",
-          "weight": 400,
+          "weight": 600,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-600.woff2",
           "metrics": {
@@ -1036,7 +1036,7 @@ export default {
         "Aspekta-550": {
           "family": "aspekta",
           "style": "normal",
-          "weight": 400,
+          "weight": 550,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-550.woff2",
           "metrics": {
@@ -1164,7 +1164,7 @@ export default {
         "Aspekta-500": {
           "family": "aspekta",
           "style": "normal",
-          "weight": 400,
+          "weight": 500,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-500.woff2",
           "metrics": {
@@ -1292,7 +1292,7 @@ export default {
         "Aspekta-50": {
           "family": "aspekta",
           "style": "normal",
-          "weight": 400,
+          "weight": 50,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-50.woff2",
           "metrics": {
@@ -1420,7 +1420,7 @@ export default {
         "Aspekta-450": {
           "family": "aspekta",
           "style": "normal",
-          "weight": 400,
+          "weight": 450,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-450.woff2",
           "metrics": {
@@ -1676,7 +1676,7 @@ export default {
         "Aspekta-350": {
           "family": "aspekta",
           "style": "normal",
-          "weight": 400,
+          "weight": 350,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-350.woff2",
           "metrics": {
@@ -1804,7 +1804,7 @@ export default {
         "Aspekta-300": {
           "family": "aspekta",
           "style": "normal",
-          "weight": 400,
+          "weight": 300,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-300.woff2",
           "metrics": {
@@ -1932,7 +1932,7 @@ export default {
         "Aspekta-250": {
           "family": "aspekta",
           "style": "normal",
-          "weight": 400,
+          "weight": 250,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-250.woff2",
           "metrics": {
@@ -2060,7 +2060,7 @@ export default {
         "Aspekta-200": {
           "family": "aspekta",
           "style": "normal",
-          "weight": 400,
+          "weight": 200,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-200.woff2",
           "metrics": {
@@ -2188,7 +2188,7 @@ export default {
         "Aspekta-150": {
           "family": "aspekta",
           "style": "normal",
-          "weight": 400,
+          "weight": 150,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-150.woff2",
           "metrics": {
@@ -2316,7 +2316,7 @@ export default {
         "Aspekta-1000": {
           "family": "aspekta",
           "style": "normal",
-          "weight": 400,
+          "weight": 1000,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-1000.woff2",
           "metrics": {
@@ -2444,7 +2444,7 @@ export default {
         "Aspekta-100": {
           "family": "aspekta",
           "style": "normal",
-          "weight": 400,
+          "weight": 100,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-100.woff2",
           "metrics": {
@@ -2721,7 +2721,7 @@ export default {
     }
   },
   "buildInfo": {
-    "timestamp": "2025-08-28T11:25:43.519Z",
+    "timestamp": "2025-08-28T16:31:13.951Z",
     "version": "1.2.0",
     "fontCount": 1
   }

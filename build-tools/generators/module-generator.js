@@ -136,6 +136,7 @@ function transformFontFaces(familyData) {
     if (familyData.variable) {
         for (const [fontKey, fontData] of Object.entries(familyData.variable)) {
             faces.variable[fontKey] = {
+                name: generateVariableFaceName(familyData.name, fontData),
                 fileName: path.basename(fontData.path),
                 format: getFormatFromExtension(fontData.path),
                 fontStyle: fontData.style,
@@ -155,6 +156,7 @@ function transformFontFaces(familyData) {
     if (familyData.static) {
         for (const [fontKey, fontData] of Object.entries(familyData.static)) {
             faces.static[fontKey] = {
+                name: generateStaticFaceName(familyData.name, fontData),
                 fileName: path.basename(fontData.path),
                 format: getFormatFromExtension(fontData.path),
                 fontStyle: fontData.style,
@@ -165,6 +167,65 @@ function transformFontFaces(familyData) {
     }
     
     return faces;
+}
+
+/**
+ * Generate human-readable name for variable font face
+ * @param {string} familyName - Font family name
+ * @param {Object} fontData - Variable font data
+ * @returns {string} Human-readable face name
+ */
+function generateVariableFaceName(familyName, fontData) {
+    const axes = fontData.axes || {};
+    const axisNames = [];
+    
+    // Convert axis tags to human-readable names
+    if (axes.wght) axisNames.push('weight axis');
+    if (axes.wdth) axisNames.push('width axis');
+    if (axes.slnt) axisNames.push('slant axis');
+    if (axes.ital) axisNames.push('italic axis');
+    
+    // Add other axes as fallback
+    for (const [axisTag, axisData] of Object.entries(axes)) {
+        if (!['wght', 'wdth', 'slnt', 'ital'].includes(axisTag)) {
+            axisNames.push(`${axisTag} axis`);
+        }
+    }
+    
+    // Capitalize family name properly
+    const properFamilyName = familyName.charAt(0).toUpperCase() + familyName.slice(1);
+    const axisDescription = axisNames.length > 0 ? ` - ${axisNames.join(', ')}` : '';
+    return `${properFamilyName} Variable${axisDescription}`;
+}
+
+/**
+ * Generate human-readable name for static font face
+ * @param {string} familyName - Font family name
+ * @param {Object} fontData - Static font data
+ * @returns {string} Human-readable face name
+ */
+function generateStaticFaceName(familyName, fontData) {
+    const weight = fontData.weight || 400;
+    const style = fontData.style || 'normal';
+    
+    // Convert numeric weight to readable name when appropriate
+    let weightName = weight.toString();
+    if (weight === 100) weightName = 'Thin';
+    else if (weight === 200) weightName = 'Extra Light';
+    else if (weight === 300) weightName = 'Light';
+    else if (weight === 400) weightName = 'Regular';
+    else if (weight === 500) weightName = 'Medium';
+    else if (weight === 600) weightName = 'Semi Bold';
+    else if (weight === 700) weightName = 'Bold';
+    else if (weight === 800) weightName = 'Extra Bold';
+    else if (weight === 900) weightName = 'Black';
+    
+    // Add style if not normal
+    const styleSuffix = style !== 'normal' ? ` ${style.charAt(0).toUpperCase() + style.slice(1)}` : '';
+    
+    // Capitalize family name properly
+    const properFamilyName = familyName.charAt(0).toUpperCase() + familyName.slice(1);
+    return `${properFamilyName} ${weightName}${styleSuffix}`;
 }
 
 /**
