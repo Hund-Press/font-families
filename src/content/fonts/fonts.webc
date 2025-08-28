@@ -6,19 +6,19 @@ description: Explore our curated collection of open source fonts
 ---
 
 <div class="fonts-grid">
-  <article class="font-card" webc:for="font of collections.fonts" webc:if="font.data.fontData">
+  <article class="font-card" webc:for="font of collections.fonts">
     <header>
-      <h2><a :href="font.url" @text="font.data.fontData.name || font.data.title"></a></h2>
-      <p class="font-meta">by <span @text="font.data.fontData.author"></span></p>
+      <h2><a :href="font.url" @text="font.data.fontData?.name || font.data.title"></a></h2>
+      <p class="font-meta">by <span @text="font.data.fontData?.author || 'Unknown'"></span></p>
     </header>
     
-    <div class="font-specimen" :data-font="font.data.fontData.slug">
+    <div class="font-specimen" :data-font="font.data.fontData?.slug || font.data.slug">
       <p class="specimen-text">The five boxing wizards jump quickly</p>
       <div class="specimen-alphabet">abcdefghijklmnopqrstuvwxyz</div>
     </div>
     
     <footer class="font-card-footer">
-      <span class="license" @text="font.data.fontData.license"></span>
+      <span class="license" @text="font.data.fontData?.license || 'Unknown'"></span>
       <a :href="font.url" class="view-details">View Details →</a>
     </footer>
   </article>
