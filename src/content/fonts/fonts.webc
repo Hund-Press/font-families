@@ -1,0 +1,115 @@
+---
+layout: page
+permalink: /fonts/index.html
+title: Browse Fonts
+description: Explore our curated collection of open source fonts
+---
+
+<div class="fonts-grid">
+  <article class="font-card" webc:for="font of collections.fonts" webc:if="font.data.fontData">
+    <header>
+      <h2><a :href="font.url" @text="font.data.fontData.name || font.data.title"></a></h2>
+      <p class="font-meta">by <span @text="font.data.fontData.author"></span></p>
+    </header>
+    
+    <div class="font-specimen" :data-font="font.data.fontData.slug">
+      <p class="specimen-text">The five boxing wizards jump quickly</p>
+      <div class="specimen-alphabet">abcdefghijklmnopqrstuvwxyz</div>
+    </div>
+    
+    <footer class="font-card-footer">
+      <span class="license" @text="font.data.fontData.license"></span>
+      <a :href="font.url" class="view-details">View Details →</a>
+    </footer>
+  </article>
+</div>
+
+<style>
+  .fonts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+
+  .font-card {
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 1.5rem;
+    background: white;
+    transition: box-shadow 0.2s ease;
+  }
+
+  .font-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .font-card header h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.5rem;
+  }
+
+  .font-card header h2 a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .font-card header h2 a:hover {
+    color: #0066cc;
+  }
+
+  .font-meta {
+    margin: 0 0 1.5rem 0;
+    color: #666;
+    font-size: 0.9rem;
+  }
+
+  .font-specimen {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: #fafafa;
+    border-radius: 4px;
+  }
+
+  .specimen-text {
+    font-size: 1.2rem;
+    margin: 0 0 0.5rem 0;
+    line-height: 1.3;
+  }
+
+  .specimen-alphabet {
+    font-size: 0.9rem;
+    color: #666;
+    letter-spacing: 0.5px;
+  }
+
+  .font-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+  }
+
+  .license {
+    font-size: 0.8rem;
+    color: #666;
+    background: #f0f0f0;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+  }
+
+  .view-details {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .view-details:hover {
+    text-decoration: underline;
+  }
+
+  [data-font="aspekta"] {
+    font-family: "Aspekta", system-ui, sans-serif;
+  }
+</style>

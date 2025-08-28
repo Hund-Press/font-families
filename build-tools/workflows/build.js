@@ -242,7 +242,7 @@ async function buildCatalogSite(openFonts) {
     try {
         // Run Eleventy build process to generate catalog site
         console.log(`[build] Running Eleventy build...`);
-        const { stdout, stderr } = await execAsync('npx @11ty/eleventy --config=site/eleventy.config.js', {
+        const { stdout, stderr } = await execAsync('npx @11ty/eleventy --config=eleventy.config.js', {
             cwd: process.cwd()
         });
         

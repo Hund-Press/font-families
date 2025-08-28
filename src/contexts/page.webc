@@ -1,0 +1,15 @@
+---
+layout: root
+---
+
+<link rel="stylesheet" href="../styles/page/layout.css" />
+<link rel="stylesheet" href="../styles/page.css" />
+
+<link rel="stylesheet" href="../styles/content/typography.css" />
+<link rel="stylesheet" href="../styles/content.css" />
+
+<body>
+  <site-header></site-header>
+  <main @raw="content"></main>
+  <site-footer></site-footer>
+</body>
