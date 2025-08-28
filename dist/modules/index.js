@@ -4,14 +4,14 @@
  * Provides easy access to all font family modules
  */
 
-
+export { default as aspekta } from './aspekta.js';
 
 // Combined export
 export { default as allFonts } from './all.js';
 
 // Utility function to get font by slug
 const fontMap = {
-
+  'aspekta': () => import('./aspekta.js')
 };
 
 export async function getFontBySlug(slug) {
