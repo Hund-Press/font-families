@@ -1,0 +1,8 @@
+.local/**/*
+node_modules/**/*
+.git/**/*
+fonts/**/*
+_subsets/**/*
+build-tools/**/*
+.font-families-build/**/*
+llm-notes/**/*
