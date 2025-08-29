@@ -3242,8 +3242,8 @@ export default {
     }
   },
   "buildInfo": {
-    "timestamp": "2025-08-29T16:05:12.569Z",
-    "version": "1.3.0",
+    "timestamp": "2025-08-29T16:08:42.416Z",
+    "version": "1.3.1",
     "fontCount": 2
   }
 }
