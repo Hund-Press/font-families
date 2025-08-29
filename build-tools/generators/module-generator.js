@@ -112,10 +112,10 @@ function generateCdnPaths(familyData, cdnBaseUrl, repoVersion = 'latest') {
     const baseCdnUrl = cdnBaseUrl.replace('{version}', repoVersion);
     
     return {
-        variable: `${baseCdnUrl}/${familyData.slug}/fonts/variable/`,
-        static: `${baseCdnUrl}/${familyData.slug}/fonts/webfonts/`,
-        ttf: `${baseCdnUrl}/${familyData.slug}/fonts/ttf/`,
-        otf: `${baseCdnUrl}/${familyData.slug}/fonts/otf/`
+        variable: `${baseCdnUrl}/fonts/open-fonts/${familyData.slug}/fonts/variable/`,
+        static: `${baseCdnUrl}/fonts/open-fonts/${familyData.slug}/fonts/webfonts/`,
+        ttf: `${baseCdnUrl}/fonts/open-fonts/${familyData.slug}/fonts/ttf/`,
+        otf: `${baseCdnUrl}/fonts/open-fonts/${familyData.slug}/fonts/otf/`
     };
 }
 

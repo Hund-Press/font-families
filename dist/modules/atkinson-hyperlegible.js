@@ -15,10 +15,10 @@ export default {
   "license": "OFL-1.1",
   "description": "",
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/atkinson-hyperlegible/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/atkinson-hyperlegible/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/atkinson-hyperlegible/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/atkinson-hyperlegible/fonts/otf/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/fonts/open-fonts/atkinson-hyperlegible/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/fonts/open-fonts/atkinson-hyperlegible/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/fonts/open-fonts/atkinson-hyperlegible/fonts/otf/"
   },
   "faces": {
     "variable": {},
