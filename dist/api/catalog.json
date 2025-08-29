@@ -3,11 +3,122 @@
     "title": "Font Families - Open Font Collection",
     "description": "Curated collection of open-licensed fonts",
     "version": "1.0.0",
-    "generated": "2025-08-28T16:31:13.945Z",
-    "fontCount": 1,
+    "generated": "2025-08-29T12:18:46.528Z",
+    "fontCount": 2,
     "includesRestrictedFonts": false
   },
   "families": {
+    "atkinson-hyperlegible": {
+      "name": "atkinson-hyperlegible",
+      "slug": "atkinson-hyperlegible",
+      "description": "",
+      "license": "OFL-1.1",
+      "author": "Braille Institute of America",
+      "version": "1.0.0",
+      "capabilities": {
+        "hasStatic": true,
+        "hasVariable": false,
+        "weightRange": {
+          "min": 400,
+          "max": 700,
+          "available": [
+            400,
+            400,
+            700,
+            700
+          ],
+          "type": "static"
+        },
+        "styleCount": 2,
+        "formats": [
+          "woff2"
+        ]
+      },
+      "files": {
+        "static": [
+          {
+            "key": "AtkinsonHyperlegible-Regular",
+            "fileName": "AtkinsonHyperlegible-Regular.woff2",
+            "format": "woff2",
+            "weight": 400,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 23196,
+            "fileSizeKB": 23
+          },
+          {
+            "key": "AtkinsonHyperlegible-Italic",
+            "fileName": "AtkinsonHyperlegible-Italic.woff2",
+            "format": "woff2",
+            "weight": 400,
+            "style": "italic",
+            "stretch": "normal",
+            "fileSize": 24908,
+            "fileSizeKB": 24
+          },
+          {
+            "key": "AtkinsonHyperlegible-BoldItalic",
+            "fileName": "AtkinsonHyperlegible-BoldItalic.woff2",
+            "format": "woff2",
+            "weight": 700,
+            "style": "italic",
+            "stretch": "normal",
+            "fileSize": 25160,
+            "fileSizeKB": 25
+          },
+          {
+            "key": "AtkinsonHyperlegible-Bold",
+            "fileName": "AtkinsonHyperlegible-Bold.woff2",
+            "format": "woff2",
+            "weight": 700,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 23776,
+            "fileSizeKB": 23
+          }
+        ],
+        "variable": []
+      },
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascent": 950,
+        "descent": -290,
+        "capHeight": 668,
+        "xHeight": 496,
+        "glyphCount": 369,
+        "totalFiles": 4,
+        "totalSizeKB": 95
+      },
+      "performance": {
+        "fileCount": 4,
+        "totalSizeKB": 95,
+        "averageSizeKB": 24,
+        "smallestFileKB": 23,
+        "largestFileKB": 25,
+        "averageGlyphCount": 369
+      },
+      "typography": {
+        "openTypeFeatures": [
+          "aalt",
+          "case",
+          "ccmp",
+          "frac",
+          "locl",
+          "ordn",
+          "pnum",
+          "sups",
+          "tnum",
+          "kern",
+          "mark",
+          "mkmk"
+        ],
+        "hasKerning": true,
+        "hasLigatures": false,
+        "hasSmallCaps": false,
+        "hasOldStyleFigures": false,
+        "hasTabularFigures": true
+      }
+    },
     "aspekta": {
       "name": "aspekta",
       "slug": "aspekta",

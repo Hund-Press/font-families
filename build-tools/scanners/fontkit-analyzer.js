@@ -257,7 +257,8 @@ export async function normalizeFont(font, fontName, fontFile) {
         weight: font.usWeightClass || inferWeight(font.subfamilyName, font.postscriptName),
         stretch: extractStretch(font.familyName, fontFile),
         path: fontFile.replace(process.cwd(), '').replace(/^\//, ''),
-        absolutePath: fontFile // Keep absolute path for file operations
+        absolutePath: fontFile, // Keep absolute path for file operations
+        subfamilyName: font.subfamilyName || null // Designer's actual subfamily name
     };
     
     // Visual Size Metrics - Critical for curation tools

@@ -397,7 +397,7 @@ export async function scanFontFamilies(familiesDir, manifestDir) {
                 try {
                     const existingContent = await fs.readFile(manifestPath, 'utf8');
                     // Extract JSON from ES module export
-                    const match = existingContent.match(/export default ([\\s\\S]+)$/);
+                    const match = existingContent.match(/export default ([\s\S]+)$/);
                     if (match) {
                         fontData[folderName] = JSON.parse(match[1].trim());
                     }
@@ -465,7 +465,7 @@ export async function scanFontFamilies(familiesDir, manifestDir) {
                 
                 try {
                     const manifestContent = await fs.readFile(manifestPath, 'utf8');
-                    const match = manifestContent.match(/export default ([\\s\\S]+)$/);
+                    const match = manifestContent.match(/export default ([\s\S]+)$/);
                     if (match) {
                         fontData[folderName] = JSON.parse(match[1].trim());
                     }

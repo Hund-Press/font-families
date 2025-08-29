@@ -4,14 +4,14 @@
  * Provides easy access to all font family modules
  */
 
-export { default as aspekta } from './aspekta.js';
+export { default as atkinsonHyperlegible } from './atkinson-hyperlegible.js';\nexport { default as aspekta } from './aspekta.js';
 
 // Combined export
 export { default as allFonts } from './all.js';
 
 // Utility function to get font by slug
 const fontMap = {
-  'aspekta': () => import('./aspekta.js')
+  'atkinson-hyperlegible': () => import('./atkinson-hyperlegible.js'),\n  'aspekta': () => import('./aspekta.js')
 };
 
 export async function getFontBySlug(slug) {

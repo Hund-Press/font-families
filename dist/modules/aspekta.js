@@ -10,8 +10,6 @@
 export default {
   "name": "aspekta",
   "slug": "aspekta",
-  "canonicalName": "aspekta",
-  "published": true,
   "version": "2.100",
   "author": "Ivo Dolenc",
   "license": "OFL-1.1",
@@ -54,7 +52,7 @@ export default {
         "fontStretch": "normal"
       },
       "Aspekta-900": {
-        "name": "Aspekta Black",
+        "name": "Aspekta 900",
         "fileName": "Aspekta-900.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -70,7 +68,7 @@ export default {
         "fontStretch": "normal"
       },
       "Aspekta-800": {
-        "name": "Aspekta Extra Bold",
+        "name": "Aspekta 800",
         "fileName": "Aspekta-800.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -102,7 +100,7 @@ export default {
         "fontStretch": "normal"
       },
       "Aspekta-600": {
-        "name": "Aspekta Semi Bold",
+        "name": "Aspekta 600",
         "fileName": "Aspekta-600.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -118,7 +116,7 @@ export default {
         "fontStretch": "normal"
       },
       "Aspekta-500": {
-        "name": "Aspekta Medium",
+        "name": "Aspekta 500",
         "fileName": "Aspekta-500.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -158,7 +156,7 @@ export default {
         "fontStretch": "normal"
       },
       "Aspekta-300": {
-        "name": "Aspekta Light",
+        "name": "Aspekta 300",
         "fileName": "Aspekta-300.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -174,7 +172,7 @@ export default {
         "fontStretch": "normal"
       },
       "Aspekta-200": {
-        "name": "Aspekta Extra Light",
+        "name": "Aspekta 200",
         "fileName": "Aspekta-200.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -198,7 +196,7 @@ export default {
         "fontStretch": "normal"
       },
       "Aspekta-100": {
-        "name": "Aspekta Thin",
+        "name": "Aspekta 100",
         "fileName": "Aspekta-100.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -206,13 +204,5 @@ export default {
         "fontStretch": "normal"
       }
     }
-  },
-  "fallbacks": {
-    "fontFace": {
-      "src": "local(system-ui)",
-      "ascentOverride": "110%",
-      "descentOverride": "33%"
-    },
-    "styles": {}
   }
 };

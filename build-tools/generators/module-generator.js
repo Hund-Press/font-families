@@ -68,27 +68,25 @@ export async function generateFamilyModule(familyData, outputDir, cdnBaseUrl, re
  * @returns {string} Module content
  */
 function generateFamilyModuleContent(familyData, cdnBaseUrl, repoVersion = 'latest') {
-    // Transform font data for consumption (similar to hund-press format)
+    // Font family data representing designer's intent and font reality
     const transformedData = {
+        // Font Family abstraction
         name: familyData.name,
         slug: familyData.slug,
-        canonicalName: familyData.name,
-        published: true,
         
-        // UFR metadata
+        // Font Designer abstraction  
         version: familyData.version,
         author: familyData.author,
         license: familyData.license || familyData.licenseType,
         description: familyData.description,
         
-        // CDN configuration
+        // CDN configuration for file access
         cdnBase: generateCdnPaths(familyData, cdnBaseUrl, repoVersion),
         
-        // Font faces organized by type
-        faces: transformFontFaces(familyData),
+        // Font Face abstraction - organized by type
+        faces: transformFontFaces(familyData)
         
-        // Fallback configuration
-        fallbacks: generateFallbacks(familyData)
+        // Note: Subset abstraction will be added in future phases
     };
     
     return `/**
@@ -199,70 +197,37 @@ function generateVariableFaceName(familyName, fontData) {
 }
 
 /**
- * Generate human-readable name for static font face
+ * Generate human-readable name for static font face using designer's actual names
  * @param {string} familyName - Font family name
  * @param {Object} fontData - Static font data
- * @returns {string} Human-readable face name
+ * @returns {string} Human-readable face name using designer's naming choices
  */
 function generateStaticFaceName(familyName, fontData) {
     const weight = fontData.weight || 400;
     const style = fontData.style || 'normal';
     
-    // Convert numeric weight to readable name when appropriate
-    let weightName = weight.toString();
-    if (weight === 100) weightName = 'Thin';
-    else if (weight === 200) weightName = 'Extra Light';
-    else if (weight === 300) weightName = 'Light';
-    else if (weight === 400) weightName = 'Regular';
-    else if (weight === 500) weightName = 'Medium';
-    else if (weight === 600) weightName = 'Semi Bold';
-    else if (weight === 700) weightName = 'Bold';
-    else if (weight === 800) weightName = 'Extra Bold';
-    else if (weight === 900) weightName = 'Black';
+    // Honor designer's subfamily name, but use numeric values for extreme weights
+    let weightName;
+    
+    if (fontData.subfamilyName && fontData.subfamilyName !== 'Regular') {
+        // Designer specified something other than "Regular" - use it (e.g., "Bold")
+        weightName = fontData.subfamilyName;
+    } else if (weight === 400) {
+        // Standard weight 400 - use "Regular" 
+        weightName = 'Regular';
+    } else {
+        // Designer used "Regular" for non-standard weight - use numeric value
+        weightName = weight.toString();
+    }
     
     // Add style if not normal
     const styleSuffix = style !== 'normal' ? ` ${style.charAt(0).toUpperCase() + style.slice(1)}` : '';
     
-    // Capitalize family name properly
+    // Use proper family name formatting
     const properFamilyName = familyName.charAt(0).toUpperCase() + familyName.slice(1);
     return `${properFamilyName} ${weightName}${styleSuffix}`;
 }
 
-/**
- * Generate fallback font configuration
- * @param {Object} familyData - Font family data
- * @returns {Object} Fallback configuration
- */
-function generateFallbacks(familyData) {
-    // Extract metrics from first available font for fallback calculation
-    const firstFont = Object.values(familyData.variable || {})[0] || 
-                     Object.values(familyData.static || {})[0];
-    
-    if (!firstFont?.metrics) {
-        return {
-            fontFace: {
-                src: "local(system-ui)",
-                ascentOverride: "90%",
-                descentOverride: "22%"
-            },
-            styles: {}
-        };
-    }
-    
-    // Calculate override values based on font metrics
-    const { ascent, descent, unitsPerEm } = firstFont.metrics;
-    const ascentOverride = ascent && unitsPerEm ? `${Math.round((ascent / unitsPerEm) * 100)}%` : "90%";
-    const descentOverride = descent && unitsPerEm ? `${Math.round(Math.abs(descent) / unitsPerEm * 100)}%` : "22%";
-    
-    return {
-        fontFace: {
-            src: "local(system-ui)",
-            ascentOverride,
-            descentOverride
-        },
-        styles: {}
-    };
-}
 
 /**
  * Get format string from file extension
@@ -299,8 +264,7 @@ export async function generateCombinedModule(fontFamilies, outputDir, cdnBaseUrl
             license: familyData.license || familyData.licenseType,
             description: familyData.description,
             cdnBase: generateCdnPaths(familyData, cdnBaseUrl, repoVersion),
-            faces: transformFontFaces(familyData),
-            fallbacks: generateFallbacks(familyData)
+            faces: transformFontFaces(familyData)
         };
     }
     

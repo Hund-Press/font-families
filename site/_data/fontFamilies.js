@@ -1,5 +1,505 @@
 export default {
   "fonts": {
+    "atkinson-hyperlegible": {
+      "name": "atkinson-hyperlegible",
+      "slug": "atkinson-hyperlegible",
+      "version": "1.0.0",
+      "author": "Braille Institute of America",
+      "license": "OFL-1.1",
+      "licenseType": "OFL-1.1",
+      "description": "",
+      "static": {
+        "AtkinsonHyperlegible-Regular": {
+          "family": "atkinson-hyperlegible",
+          "style": "normal",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Regular.woff2",
+          "subfamilyName": "Regular",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 950,
+            "descent": -290,
+            "lineGap": 0,
+            "capHeight": 668,
+            "xHeight": 496,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 760,
+              "ideographic": -290,
+              "mathematical": 475
+            },
+            "bbox": {
+              "minX": -58,
+              "minY": -250,
+              "maxX": 1290,
+              "maxY": 888
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 280,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 546,
+              "leftSideBearing": 70,
+              "rightSideBearing": 68,
+              "width": 408
+            },
+            "M": {
+              "advanceWidth": 820,
+              "leftSideBearing": 76,
+              "rightSideBearing": 76,
+              "width": 668
+            },
+            "period": {
+              "advanceWidth": 205,
+              "leftSideBearing": 38,
+              "rightSideBearing": 38,
+              "width": 129
+            },
+            "em": {
+              "advanceWidth": 800,
+              "leftSideBearing": 41,
+              "rightSideBearing": 41,
+              "width": 718
+            },
+            "en": {
+              "advanceWidth": 480,
+              "leftSideBearing": 41,
+              "rightSideBearing": 41,
+              "width": 398
+            },
+            "spaceToN": 0.5128205128205128,
+            "MToN": 1.5018315018315018
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "frac",
+              "locl",
+              "ordn",
+              "pnum",
+              "sups",
+              "tnum",
+              "kern",
+              "mark",
+              "mkmk"
+            ],
+            "languageSupport": {},
+            "glyphCount": 369,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.7,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.7,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Greek",
+                "coverage": 0.1,
+                "start": 880,
+                "end": 1023
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 23196,
+            "fileSizeKB": 23,
+            "glyphDensity": 63,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 9
+          }
+        },
+        "AtkinsonHyperlegible-Italic": {
+          "family": "atkinson-hyperlegible",
+          "style": "italic",
+          "weight": 400,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Italic.woff2",
+          "subfamilyName": "Italic",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 950,
+            "descent": -290,
+            "lineGap": 0,
+            "capHeight": 668,
+            "xHeight": 496,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 760,
+              "ideographic": -290,
+              "mathematical": 475
+            },
+            "bbox": {
+              "minX": -154,
+              "minY": -241,
+              "maxX": 1338,
+              "maxY": 885
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 280,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 550,
+              "leftSideBearing": 8,
+              "rightSideBearing": 60,
+              "width": 482
+            },
+            "M": {
+              "advanceWidth": 824,
+              "leftSideBearing": 14,
+              "rightSideBearing": -4,
+              "width": 814
+            },
+            "period": {
+              "advanceWidth": 208,
+              "leftSideBearing": -1,
+              "rightSideBearing": 80,
+              "width": 129
+            },
+            "em": {
+              "advanceWidth": 817,
+              "leftSideBearing": 40,
+              "rightSideBearing": 59,
+              "width": 718
+            },
+            "en": {
+              "advanceWidth": 497,
+              "leftSideBearing": 40,
+              "rightSideBearing": 59,
+              "width": 398
+            },
+            "spaceToN": 0.509090909090909,
+            "MToN": 1.4981818181818183
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "frac",
+              "locl",
+              "ordn",
+              "pnum",
+              "sups",
+              "tnum",
+              "kern",
+              "mark",
+              "mkmk"
+            ],
+            "languageSupport": {},
+            "glyphCount": 368,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.7,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.7,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Greek",
+                "coverage": 0.1,
+                "start": 880,
+                "end": 1023
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 24908,
+            "fileSizeKB": 24,
+            "glyphDensity": 68,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 9
+          }
+        },
+        "AtkinsonHyperlegible-BoldItalic": {
+          "family": "atkinson-hyperlegible",
+          "style": "italic",
+          "weight": 700,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-BoldItalic.woff2",
+          "subfamilyName": "Bold Italic",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 950,
+            "descent": -290,
+            "lineGap": 0,
+            "capHeight": 668,
+            "xHeight": 496,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 760,
+              "ideographic": -290,
+              "mathematical": 475
+            },
+            "bbox": {
+              "minX": -174,
+              "minY": -248,
+              "maxX": 1417,
+              "maxY": 941
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 320,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 581,
+              "leftSideBearing": -20,
+              "rightSideBearing": 52,
+              "width": 549
+            },
+            "M": {
+              "advanceWidth": 858,
+              "leftSideBearing": -23,
+              "rightSideBearing": -22,
+              "width": 903
+            },
+            "period": {
+              "advanceWidth": 247,
+              "leftSideBearing": -16,
+              "rightSideBearing": 68,
+              "width": 195
+            },
+            "em": {
+              "advanceWidth": 870,
+              "leftSideBearing": 38,
+              "rightSideBearing": 72,
+              "width": 760
+            },
+            "en": {
+              "advanceWidth": 536,
+              "leftSideBearing": 38,
+              "rightSideBearing": 72,
+              "width": 426
+            },
+            "spaceToN": 0.5507745266781411,
+            "MToN": 1.4767641996557659
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "frac",
+              "locl",
+              "ordn",
+              "pnum",
+              "sups",
+              "tnum",
+              "kern",
+              "mark",
+              "mkmk"
+            ],
+            "languageSupport": {},
+            "glyphCount": 368,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.7,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.7,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Greek",
+                "coverage": 0.1,
+                "start": 880,
+                "end": 1023
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 25160,
+            "fileSizeKB": 25,
+            "glyphDensity": 68,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 9
+          }
+        },
+        "AtkinsonHyperlegible-Bold": {
+          "family": "atkinson-hyperlegible",
+          "style": "normal",
+          "weight": 700,
+          "stretch": "normal",
+          "path": "fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Bold.woff2",
+          "subfamilyName": "Bold",
+          "metrics": {
+            "unitsPerEm": 1000,
+            "ascent": 950,
+            "descent": -290,
+            "lineGap": 0,
+            "capHeight": 668,
+            "xHeight": 496,
+            "baseline": {
+              "hasBaseTable": false,
+              "alphabetic": 0,
+              "hanging": 760,
+              "ideographic": -290,
+              "mathematical": 475
+            },
+            "bbox": {
+              "minX": -70,
+              "minY": -251,
+              "maxX": 1382,
+              "maxY": 926
+            }
+          },
+          "spacing": {
+            "space": {
+              "advanceWidth": 320,
+              "leftSideBearing": null,
+              "rightSideBearing": null,
+              "width": null
+            },
+            "n": {
+              "advanceWidth": 572,
+              "leftSideBearing": 50,
+              "rightSideBearing": 50,
+              "width": 472
+            },
+            "M": {
+              "advanceWidth": 842,
+              "leftSideBearing": 44,
+              "rightSideBearing": 44,
+              "width": 754
+            },
+            "period": {
+              "advanceWidth": 243,
+              "leftSideBearing": 24,
+              "rightSideBearing": 24,
+              "width": 195
+            },
+            "em": {
+              "advanceWidth": 842,
+              "leftSideBearing": 41,
+              "rightSideBearing": 41,
+              "width": 760
+            },
+            "en": {
+              "advanceWidth": 508,
+              "leftSideBearing": 41,
+              "rightSideBearing": 41,
+              "width": 426
+            },
+            "spaceToN": 0.5594405594405595,
+            "MToN": 1.472027972027972
+          },
+          "features": {
+            "openTypeFeatures": [
+              "aalt",
+              "case",
+              "ccmp",
+              "frac",
+              "locl",
+              "ordn",
+              "pnum",
+              "sups",
+              "tnum",
+              "kern",
+              "mark",
+              "mkmk"
+            ],
+            "languageSupport": {},
+            "glyphCount": 369,
+            "unicodeRanges": [
+              {
+                "name": "Basic Latin",
+                "coverage": 0.7,
+                "start": 0,
+                "end": 127
+              },
+              {
+                "name": "Latin-1 Supplement",
+                "coverage": 0.7,
+                "start": 128,
+                "end": 255
+              },
+              {
+                "name": "Latin Extended-A",
+                "coverage": 0.7,
+                "start": 256,
+                "end": 383
+              },
+              {
+                "name": "Greek",
+                "coverage": 0.1,
+                "start": 880,
+                "end": 1023
+              }
+            ]
+          },
+          "performance": {
+            "fileSize": 23776,
+            "fileSizeKB": 23,
+            "glyphDensity": 64,
+            "format": "woff2",
+            "isVariable": false,
+            "axisCount": 0,
+            "tableCount": 9
+          }
+        }
+      },
+      "variable": {}
+    },
     "aspekta": {
       "name": "aspekta",
       "slug": "aspekta",
@@ -15,6 +515,7 @@ export default {
           "weight": 950,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-950.woff2",
+          "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 1000,
             "ascent": 1100,
@@ -143,6 +644,7 @@ export default {
           "weight": 900,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-900.woff2",
+          "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 1000,
             "ascent": 1100,
@@ -271,6 +773,7 @@ export default {
           "weight": 850,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-850.woff2",
+          "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 1000,
             "ascent": 1100,
@@ -399,6 +902,7 @@ export default {
           "weight": 800,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-800.woff2",
+          "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 1000,
             "ascent": 1100,
@@ -527,6 +1031,7 @@ export default {
           "weight": 750,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-750.woff2",
+          "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 1000,
             "ascent": 1100,
@@ -655,6 +1160,7 @@ export default {
           "weight": 700,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-700.woff2",
+          "subfamilyName": "Bold",
           "metrics": {
             "unitsPerEm": 1000,
             "ascent": 1100,
@@ -783,6 +1289,7 @@ export default {
           "weight": 650,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-650.woff2",
+          "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 1000,
             "ascent": 1100,
@@ -911,6 +1418,7 @@ export default {
           "weight": 600,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-600.woff2",
+          "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 1000,
             "ascent": 1100,
@@ -1039,6 +1547,7 @@ export default {
           "weight": 550,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-550.woff2",
+          "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 1000,
             "ascent": 1100,
@@ -1167,6 +1676,7 @@ export default {
           "weight": 500,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-500.woff2",
+          "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 1000,
             "ascent": 1100,
@@ -1295,6 +1805,7 @@ export default {
           "weight": 50,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-50.woff2",
+          "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 1000,
             "ascent": 1100,
@@ -1423,6 +1934,7 @@ export default {
           "weight": 450,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-450.woff2",
+          "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 1000,
             "ascent": 1100,
@@ -1551,6 +2063,7 @@ export default {
           "weight": 400,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-400.woff2",
+          "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 1000,
             "ascent": 1100,
@@ -1679,6 +2192,7 @@ export default {
           "weight": 350,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-350.woff2",
+          "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 1000,
             "ascent": 1100,
@@ -1807,6 +2321,7 @@ export default {
           "weight": 300,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-300.woff2",
+          "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 1000,
             "ascent": 1100,
@@ -1935,6 +2450,7 @@ export default {
           "weight": 250,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-250.woff2",
+          "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 1000,
             "ascent": 1100,
@@ -2063,6 +2579,7 @@ export default {
           "weight": 200,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-200.woff2",
+          "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 1000,
             "ascent": 1100,
@@ -2191,6 +2708,7 @@ export default {
           "weight": 150,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-150.woff2",
+          "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 1000,
             "ascent": 1100,
@@ -2319,6 +2837,7 @@ export default {
           "weight": 1000,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-1000.woff2",
+          "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 1000,
             "ascent": 1100,
@@ -2447,6 +2966,7 @@ export default {
           "weight": 100,
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-100.woff2",
+          "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 1000,
             "ascent": 1100,
@@ -2580,6 +3100,7 @@ export default {
           },
           "stretch": "normal",
           "path": "fonts/open-fonts/aspekta/fonts/variable/AspektaVF.ttf",
+          "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 1000,
             "ascent": 1100,
@@ -2721,8 +3242,8 @@ export default {
     }
   },
   "buildInfo": {
-    "timestamp": "2025-08-28T16:31:13.951Z",
+    "timestamp": "2025-08-29T12:18:46.532Z",
     "version": "1.2.0",
-    "fontCount": 1
+    "fontCount": 2
   }
 }

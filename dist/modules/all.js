@@ -6,6 +6,57 @@
  */
 
 export default {
+  "atkinson-hyperlegible": {
+    "name": "atkinson-hyperlegible",
+    "slug": "atkinson-hyperlegible",
+    "version": "1.0.0",
+    "author": "Braille Institute of America",
+    "license": "OFL-1.1",
+    "description": "",
+    "cdnBase": {
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/atkinson-hyperlegible/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/atkinson-hyperlegible/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/atkinson-hyperlegible/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/atkinson-hyperlegible/fonts/otf/"
+    },
+    "faces": {
+      "variable": {},
+      "static": {
+        "AtkinsonHyperlegible-Regular": {
+          "name": "Atkinson-hyperlegible Regular",
+          "fileName": "AtkinsonHyperlegible-Regular.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 400,
+          "fontStretch": "normal"
+        },
+        "AtkinsonHyperlegible-Italic": {
+          "name": "Atkinson-hyperlegible Italic Italic",
+          "fileName": "AtkinsonHyperlegible-Italic.woff2",
+          "format": "woff2",
+          "fontStyle": "italic",
+          "fontWeight": 400,
+          "fontStretch": "normal"
+        },
+        "AtkinsonHyperlegible-BoldItalic": {
+          "name": "Atkinson-hyperlegible Bold Italic Italic",
+          "fileName": "AtkinsonHyperlegible-BoldItalic.woff2",
+          "format": "woff2",
+          "fontStyle": "italic",
+          "fontWeight": 700,
+          "fontStretch": "normal"
+        },
+        "AtkinsonHyperlegible-Bold": {
+          "name": "Atkinson-hyperlegible Bold",
+          "fileName": "AtkinsonHyperlegible-Bold.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 700,
+          "fontStretch": "normal"
+        }
+      }
+    }
+  },
   "aspekta": {
     "name": "aspekta",
     "slug": "aspekta",
@@ -51,7 +102,7 @@ export default {
           "fontStretch": "normal"
         },
         "Aspekta-900": {
-          "name": "Aspekta Black",
+          "name": "Aspekta 900",
           "fileName": "Aspekta-900.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -67,7 +118,7 @@ export default {
           "fontStretch": "normal"
         },
         "Aspekta-800": {
-          "name": "Aspekta Extra Bold",
+          "name": "Aspekta 800",
           "fileName": "Aspekta-800.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -99,7 +150,7 @@ export default {
           "fontStretch": "normal"
         },
         "Aspekta-600": {
-          "name": "Aspekta Semi Bold",
+          "name": "Aspekta 600",
           "fileName": "Aspekta-600.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -115,7 +166,7 @@ export default {
           "fontStretch": "normal"
         },
         "Aspekta-500": {
-          "name": "Aspekta Medium",
+          "name": "Aspekta 500",
           "fileName": "Aspekta-500.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -155,7 +206,7 @@ export default {
           "fontStretch": "normal"
         },
         "Aspekta-300": {
-          "name": "Aspekta Light",
+          "name": "Aspekta 300",
           "fileName": "Aspekta-300.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -171,7 +222,7 @@ export default {
           "fontStretch": "normal"
         },
         "Aspekta-200": {
-          "name": "Aspekta Extra Light",
+          "name": "Aspekta 200",
           "fileName": "Aspekta-200.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -195,7 +246,7 @@ export default {
           "fontStretch": "normal"
         },
         "Aspekta-100": {
-          "name": "Aspekta Thin",
+          "name": "Aspekta 100",
           "fileName": "Aspekta-100.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -203,20 +254,62 @@ export default {
           "fontStretch": "normal"
         }
       }
-    },
-    "fallbacks": {
-      "fontFace": {
-        "src": "local(system-ui)",
-        "ascentOverride": "110%",
-        "descentOverride": "33%"
-      },
-      "styles": {}
     }
   }
 };
 
 // Individual exports for convenience
-export const aspekta = {
+export const atkinsonHyperlegible = {
+  "name": "atkinson-hyperlegible",
+  "slug": "atkinson-hyperlegible",
+  "version": "1.0.0",
+  "author": "Braille Institute of America",
+  "license": "OFL-1.1",
+  "description": "",
+  "cdnBase": {
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/atkinson-hyperlegible/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/atkinson-hyperlegible/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/atkinson-hyperlegible/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/atkinson-hyperlegible/fonts/otf/"
+  },
+  "faces": {
+    "variable": {},
+    "static": {
+      "AtkinsonHyperlegible-Regular": {
+        "name": "Atkinson-hyperlegible Regular",
+        "fileName": "AtkinsonHyperlegible-Regular.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 400,
+        "fontStretch": "normal"
+      },
+      "AtkinsonHyperlegible-Italic": {
+        "name": "Atkinson-hyperlegible Italic Italic",
+        "fileName": "AtkinsonHyperlegible-Italic.woff2",
+        "format": "woff2",
+        "fontStyle": "italic",
+        "fontWeight": 400,
+        "fontStretch": "normal"
+      },
+      "AtkinsonHyperlegible-BoldItalic": {
+        "name": "Atkinson-hyperlegible Bold Italic Italic",
+        "fileName": "AtkinsonHyperlegible-BoldItalic.woff2",
+        "format": "woff2",
+        "fontStyle": "italic",
+        "fontWeight": 700,
+        "fontStretch": "normal"
+      },
+      "AtkinsonHyperlegible-Bold": {
+        "name": "Atkinson-hyperlegible Bold",
+        "fileName": "AtkinsonHyperlegible-Bold.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 700,
+        "fontStretch": "normal"
+      }
+    }
+  }
+};\n\nexport const aspekta = {
   "name": "aspekta",
   "slug": "aspekta",
   "version": "2.100",
@@ -261,7 +354,7 @@ export const aspekta = {
         "fontStretch": "normal"
       },
       "Aspekta-900": {
-        "name": "Aspekta Black",
+        "name": "Aspekta 900",
         "fileName": "Aspekta-900.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -277,7 +370,7 @@ export const aspekta = {
         "fontStretch": "normal"
       },
       "Aspekta-800": {
-        "name": "Aspekta Extra Bold",
+        "name": "Aspekta 800",
         "fileName": "Aspekta-800.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -309,7 +402,7 @@ export const aspekta = {
         "fontStretch": "normal"
       },
       "Aspekta-600": {
-        "name": "Aspekta Semi Bold",
+        "name": "Aspekta 600",
         "fileName": "Aspekta-600.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -325,7 +418,7 @@ export const aspekta = {
         "fontStretch": "normal"
       },
       "Aspekta-500": {
-        "name": "Aspekta Medium",
+        "name": "Aspekta 500",
         "fileName": "Aspekta-500.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -365,7 +458,7 @@ export const aspekta = {
         "fontStretch": "normal"
       },
       "Aspekta-300": {
-        "name": "Aspekta Light",
+        "name": "Aspekta 300",
         "fileName": "Aspekta-300.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -381,7 +474,7 @@ export const aspekta = {
         "fontStretch": "normal"
       },
       "Aspekta-200": {
-        "name": "Aspekta Extra Light",
+        "name": "Aspekta 200",
         "fileName": "Aspekta-200.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -405,7 +498,7 @@ export const aspekta = {
         "fontStretch": "normal"
       },
       "Aspekta-100": {
-        "name": "Aspekta Thin",
+        "name": "Aspekta 100",
         "fileName": "Aspekta-100.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -413,13 +506,5 @@ export const aspekta = {
         "fontStretch": "normal"
       }
     }
-  },
-  "fallbacks": {
-    "fontFace": {
-      "src": "local(system-ui)",
-      "ascentOverride": "110%",
-      "descentOverride": "33%"
-    },
-    "styles": {}
   }
 };
