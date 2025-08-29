@@ -1,6 +1,6 @@
 {
   "name": "@hund-press/font-families",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Comprehensive font resource platform with processing, community curation, and public catalog site",
   "main": "dist/modules/index.js",
   "type": "module",

@@ -205,7 +205,7 @@ async function generateAllCatalogs(openFonts, allFonts) {
  */
 async function generateAllModules(openFonts) {
     // Get repository version from package.json or environment
-    const repoVersion = process.env.npm_package_version || 'v1.2.0';
+    const repoVersion = process.env.npm_package_version || 'v1.3.0';
     
     await generateModules(openFonts, BUILD_CONFIG.modulesDir, {
         generateIndividualModules: true,

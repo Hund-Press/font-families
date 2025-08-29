@@ -14,10 +14,10 @@ export default {
     "license": "OFL-1.1",
     "description": "",
     "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/atkinson-hyperlegible/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/atkinson-hyperlegible/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/atkinson-hyperlegible/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/atkinson-hyperlegible/fonts/otf/"
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/atkinson-hyperlegible/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/atkinson-hyperlegible/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/atkinson-hyperlegible/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/atkinson-hyperlegible/fonts/otf/"
     },
     "faces": {
       "variable": {},
@@ -65,10 +65,10 @@ export default {
     "license": "OFL-1.1",
     "description": "",
     "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/aspekta/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/aspekta/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/aspekta/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/aspekta/fonts/otf/"
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/aspekta/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/aspekta/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/aspekta/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/aspekta/fonts/otf/"
     },
     "faces": {
       "variable": {
@@ -267,10 +267,10 @@ export const atkinsonHyperlegible = {
   "license": "OFL-1.1",
   "description": "",
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/atkinson-hyperlegible/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/atkinson-hyperlegible/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/atkinson-hyperlegible/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/atkinson-hyperlegible/fonts/otf/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/atkinson-hyperlegible/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/atkinson-hyperlegible/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/atkinson-hyperlegible/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/atkinson-hyperlegible/fonts/otf/"
   },
   "faces": {
     "variable": {},
@@ -317,10 +317,10 @@ export const atkinsonHyperlegible = {
   "license": "OFL-1.1",
   "description": "",
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/aspekta/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/aspekta/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/aspekta/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.2.0/aspekta/fonts/otf/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/aspekta/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/aspekta/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/aspekta/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.0/aspekta/fonts/otf/"
   },
   "faces": {
     "variable": {
