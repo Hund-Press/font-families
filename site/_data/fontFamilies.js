@@ -3242,7 +3242,7 @@ export default {
     }
   },
   "buildInfo": {
-    "timestamp": "2025-08-29T16:08:42.416Z",
+    "timestamp": "2025-08-30T11:31:39.442Z",
     "version": "1.3.1",
     "fontCount": 2
   }

@@ -204,8 +204,17 @@ async function generateAllCatalogs(openFonts, allFonts) {
  * Generate ES modules (open fonts only for public CDN)
  */
 async function generateAllModules(openFonts) {
-    // Get repository version from package.json or environment
-    const repoVersion = process.env.npm_package_version || 'v1.3.0';
+    // Get repository version from package.json
+    let repoVersion;
+    try {
+        const packageJson = JSON.parse(await fs.readFile('./package.json', 'utf8'));
+        repoVersion = packageJson.version;
+    } catch (error) {
+        console.warn('[build] Could not read package.json version, using environment variable');
+        repoVersion = process.env.npm_package_version || 'latest';
+    }
+    
+    console.log(`[modules] Using repository version: ${repoVersion}`);
     
     await generateModules(openFonts, BUILD_CONFIG.modulesDir, {
         generateIndividualModules: true,
@@ -219,6 +228,16 @@ async function generateAllModules(openFonts) {
  * Build catalog site (open fonts only)
  */
 async function buildCatalogSite(openFonts) {
+    // Get version from package.json
+    let version;
+    try {
+        const packageJson = JSON.parse(await fs.readFile('./package.json', 'utf8'));
+        version = packageJson.version;
+    } catch (error) {
+        console.warn('[build] Could not read package.json version for site build');
+        version = process.env.npm_package_version || '1.0.0';
+    }
+    
     // Create Eleventy data file
     const dataDir = path.join('./site/_data');
     await fs.mkdir(dataDir, { recursive: true });
@@ -227,7 +246,7 @@ async function buildCatalogSite(openFonts) {
         fonts: openFonts,
         buildInfo: {
             timestamp: new Date().toISOString(),
-            version: process.env.npm_package_version || '1.0.0',
+            version: version,
             fontCount: Object.keys(openFonts).length
         }
     };
