@@ -12,10 +12,10 @@ export default {
     "license": "OFL-1.1",
     "description": "",
     "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/public-sans/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/public-sans/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/public-sans/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/public-sans/fonts/otf/"
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/public-sans/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/public-sans/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/public-sans/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/public-sans/fonts/otf/"
     },
     "faces": {
       "variable": {
@@ -210,10 +210,10 @@ export default {
     "name": "league-mono",
     "slug": "league-mono",
     "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/league-mono/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/league-mono/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/league-mono/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/league-mono/fonts/otf/"
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/league-mono/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/league-mono/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/league-mono/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/league-mono/fonts/otf/"
     },
     "faces": {
       "variable": {
@@ -585,10 +585,10 @@ export default {
     "license": "OFL-1.1",
     "description": "",
     "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/atkinson-hyperlegible/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/atkinson-hyperlegible/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/atkinson-hyperlegible/fonts/otf/"
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/atkinson-hyperlegible/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/atkinson-hyperlegible/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/atkinson-hyperlegible/fonts/otf/"
     },
     "faces": {
       "variable": {},
@@ -636,10 +636,10 @@ export default {
     "license": "OFL-1.1",
     "description": "",
     "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/aspekta/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/aspekta/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/aspekta/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/aspekta/fonts/otf/"
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/aspekta/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/aspekta/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/aspekta/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/aspekta/fonts/otf/"
     },
     "faces": {
       "variable": {
@@ -836,10 +836,10 @@ export const publicSans = {
   "license": "OFL-1.1",
   "description": "",
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/public-sans/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/public-sans/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/public-sans/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/public-sans/fonts/otf/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/public-sans/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/public-sans/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/public-sans/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/public-sans/fonts/otf/"
   },
   "faces": {
     "variable": {
@@ -1033,10 +1033,10 @@ export const publicSans = {
   "name": "league-mono",
   "slug": "league-mono",
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/league-mono/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/league-mono/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/league-mono/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/league-mono/fonts/otf/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/league-mono/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/league-mono/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/league-mono/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/league-mono/fonts/otf/"
   },
   "faces": {
     "variable": {
@@ -1407,10 +1407,10 @@ export const publicSans = {
   "license": "OFL-1.1",
   "description": "",
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/atkinson-hyperlegible/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/atkinson-hyperlegible/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/atkinson-hyperlegible/fonts/otf/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/atkinson-hyperlegible/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/atkinson-hyperlegible/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/atkinson-hyperlegible/fonts/otf/"
   },
   "faces": {
     "variable": {},
@@ -1457,10 +1457,10 @@ export const publicSans = {
   "license": "OFL-1.1",
   "description": "",
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/aspekta/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/aspekta/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/aspekta/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.2/fonts/open-fonts/aspekta/fonts/otf/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/aspekta/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/aspekta/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/aspekta/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/aspekta/fonts/otf/"
   },
   "faces": {
     "variable": {
