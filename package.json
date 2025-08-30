@@ -33,7 +33,7 @@
     "font-catalog",
     "eleventy"
   ],
-  "author": "Derek Sivers (derek@sivers.org)",
+  "author": "Derek Odegard (dereko@gmail.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hund-press/font-families/issues"
@@ -65,6 +65,6 @@
   },
   "funding": {
     "type": "individual",
-    "url": "https://sivers.org/"
+    "url": "https://github.com/pixelpony"
   }
 }
