@@ -3,11 +3,295 @@
     "title": "Font Families - Open Font Collection",
     "description": "Curated collection of open-licensed fonts",
     "version": "1.0.0",
-    "generated": "2025-08-30T11:34:31.548Z",
-    "fontCount": 2,
+    "generated": "2025-08-30T12:27:23.163Z",
+    "fontCount": 3,
     "includesRestrictedFonts": false
   },
   "families": {
+    "public-sans": {
+      "name": "public-sans",
+      "slug": "public-sans",
+      "description": "",
+      "license": "OFL-1.1",
+      "capabilities": {
+        "hasStatic": true,
+        "hasVariable": true,
+        "weightRange": {
+          "min": 100,
+          "max": 900,
+          "type": "variable"
+        },
+        "styleCount": 2,
+        "formats": [
+          "woff",
+          "truetype"
+        ]
+      },
+      "files": {
+        "static": [
+          {
+            "key": "PublicSans-ThinItalic",
+            "fileName": "PublicSans-ThinItalic.woff",
+            "format": "woff",
+            "weight": 100,
+            "style": "italic",
+            "stretch": "normal",
+            "fileSize": 41772,
+            "fileSizeKB": 41
+          },
+          {
+            "key": "PublicSans-Thin",
+            "fileName": "PublicSans-Thin.woff",
+            "format": "woff",
+            "weight": 100,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 39560,
+            "fileSizeKB": 39
+          },
+          {
+            "key": "PublicSans-SemiBoldItalic",
+            "fileName": "PublicSans-SemiBoldItalic.woff",
+            "format": "woff",
+            "weight": 600,
+            "style": "italic",
+            "stretch": "normal",
+            "fileSize": 44140,
+            "fileSizeKB": 43
+          },
+          {
+            "key": "PublicSans-SemiBold",
+            "fileName": "PublicSans-SemiBold.woff",
+            "format": "woff",
+            "weight": 600,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 41704,
+            "fileSizeKB": 41
+          },
+          {
+            "key": "PublicSans-Regular",
+            "fileName": "PublicSans-Regular.woff",
+            "format": "woff",
+            "weight": 400,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 41736,
+            "fileSizeKB": 41
+          },
+          {
+            "key": "PublicSans-MediumItalic",
+            "fileName": "PublicSans-MediumItalic.woff",
+            "format": "woff",
+            "weight": 500,
+            "style": "italic",
+            "stretch": "normal",
+            "fileSize": 43952,
+            "fileSizeKB": 43
+          },
+          {
+            "key": "PublicSans-Medium",
+            "fileName": "PublicSans-Medium.woff",
+            "format": "woff",
+            "weight": 500,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 41812,
+            "fileSizeKB": 41
+          },
+          {
+            "key": "PublicSans-LightItalic",
+            "fileName": "PublicSans-LightItalic.woff",
+            "format": "woff",
+            "weight": 300,
+            "style": "italic",
+            "stretch": "normal",
+            "fileSize": 43704,
+            "fileSizeKB": 43
+          },
+          {
+            "key": "PublicSans-Light",
+            "fileName": "PublicSans-Light.woff",
+            "format": "woff",
+            "weight": 300,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 41620,
+            "fileSizeKB": 41
+          },
+          {
+            "key": "PublicSans-Italic",
+            "fileName": "PublicSans-Italic.woff",
+            "format": "woff",
+            "weight": 400,
+            "style": "italic",
+            "stretch": "normal",
+            "fileSize": 43888,
+            "fileSizeKB": 43
+          },
+          {
+            "key": "PublicSans-ExtraLightItalic",
+            "fileName": "PublicSans-ExtraLightItalic.woff",
+            "format": "woff",
+            "weight": 200,
+            "style": "italic",
+            "stretch": "normal",
+            "fileSize": 43744,
+            "fileSizeKB": 43
+          },
+          {
+            "key": "PublicSans-ExtraLight",
+            "fileName": "PublicSans-ExtraLight.woff",
+            "format": "woff",
+            "weight": 200,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 41504,
+            "fileSizeKB": 41
+          },
+          {
+            "key": "PublicSans-ExtraBoldItalic",
+            "fileName": "PublicSans-ExtraBoldItalic.woff",
+            "format": "woff",
+            "weight": 800,
+            "style": "italic",
+            "stretch": "normal",
+            "fileSize": 44220,
+            "fileSizeKB": 43
+          },
+          {
+            "key": "PublicSans-ExtraBold",
+            "fileName": "PublicSans-ExtraBold.woff",
+            "format": "woff",
+            "weight": 800,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 41612,
+            "fileSizeKB": 41
+          },
+          {
+            "key": "PublicSans-BoldItalic",
+            "fileName": "PublicSans-BoldItalic.woff",
+            "format": "woff",
+            "weight": 700,
+            "style": "italic",
+            "stretch": "normal",
+            "fileSize": 44404,
+            "fileSizeKB": 43
+          },
+          {
+            "key": "PublicSans-Bold",
+            "fileName": "PublicSans-Bold.woff",
+            "format": "woff",
+            "weight": 700,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 41804,
+            "fileSizeKB": 41
+          },
+          {
+            "key": "PublicSans-BlackItalic",
+            "fileName": "PublicSans-BlackItalic.woff",
+            "format": "woff",
+            "weight": 900,
+            "style": "italic",
+            "stretch": "normal",
+            "fileSize": 42700,
+            "fileSizeKB": 42
+          },
+          {
+            "key": "PublicSans-Black",
+            "fileName": "PublicSans-Black.woff",
+            "format": "woff",
+            "weight": 900,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 40036,
+            "fileSizeKB": 39
+          }
+        ],
+        "variable": [
+          {
+            "key": "VariableRegular[wght]",
+            "fileName": "PublicSans[wght].ttf",
+            "format": "truetype",
+            "axes": {
+              "wght": {
+                "min": 100,
+                "max": 900,
+                "default": 100
+              }
+            },
+            "style": "normal",
+            "fileSize": 103316,
+            "fileSizeKB": 101
+          },
+          {
+            "key": "VariableItalic[wght]",
+            "fileName": "PublicSans-Italic[wght].ttf",
+            "format": "truetype",
+            "axes": {
+              "wght": {
+                "min": 100,
+                "max": 900,
+                "default": 100
+              }
+            },
+            "style": "italic",
+            "fileSize": 107940,
+            "fileSizeKB": 105
+          }
+        ]
+      },
+      "metrics": {
+        "unitsPerEm": 2000,
+        "ascent": 1900,
+        "descent": -450,
+        "capHeight": 1446,
+        "xHeight": 1034,
+        "glyphCount": 648,
+        "totalFiles": 20,
+        "totalSizeKB": 955
+      },
+      "performance": {
+        "fileCount": 20,
+        "totalSizeKB": 955,
+        "averageSizeKB": 48,
+        "smallestFileKB": 39,
+        "largestFileKB": 105,
+        "averageGlyphCount": 648
+      },
+      "typography": {
+        "openTypeFeatures": [
+          "aalt",
+          "calt",
+          "ccmp",
+          "dnom",
+          "frac",
+          "liga",
+          "lnum",
+          "locl",
+          "numr",
+          "onum",
+          "ordn",
+          "pnum",
+          "salt",
+          "sinf",
+          "ss01",
+          "subs",
+          "sups",
+          "tnum",
+          "kern",
+          "mark",
+          "mkmk"
+        ],
+        "hasKerning": true,
+        "hasLigatures": true,
+        "hasSmallCaps": false,
+        "hasOldStyleFigures": true,
+        "hasTabularFigures": true
+      }
+    },
     "atkinson-hyperlegible": {
       "name": "atkinson-hyperlegible",
       "slug": "atkinson-hyperlegible",

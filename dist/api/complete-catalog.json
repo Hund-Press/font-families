@@ -3,11 +3,1230 @@
     "title": "Font Families - Complete Collection",
     "description": "Complete font collection including restricted-licensed fonts",
     "version": "1.0.0",
-    "generated": "2025-08-30T11:34:31.550Z",
-    "fontCount": 2,
+    "generated": "2025-08-30T12:27:23.165Z",
+    "fontCount": 4,
     "includesRestrictedFonts": true
   },
   "families": {
+    "public-sans": {
+      "name": "public-sans",
+      "slug": "public-sans",
+      "description": "",
+      "license": "OFL-1.1",
+      "capabilities": {
+        "hasStatic": true,
+        "hasVariable": true,
+        "weightRange": {
+          "min": 100,
+          "max": 900,
+          "type": "variable"
+        },
+        "styleCount": 2,
+        "formats": [
+          "woff",
+          "truetype"
+        ]
+      },
+      "files": {
+        "static": [
+          {
+            "key": "PublicSans-ThinItalic",
+            "fileName": "PublicSans-ThinItalic.woff",
+            "format": "woff",
+            "weight": 100,
+            "style": "italic",
+            "stretch": "normal",
+            "fileSize": 41772,
+            "fileSizeKB": 41
+          },
+          {
+            "key": "PublicSans-Thin",
+            "fileName": "PublicSans-Thin.woff",
+            "format": "woff",
+            "weight": 100,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 39560,
+            "fileSizeKB": 39
+          },
+          {
+            "key": "PublicSans-SemiBoldItalic",
+            "fileName": "PublicSans-SemiBoldItalic.woff",
+            "format": "woff",
+            "weight": 600,
+            "style": "italic",
+            "stretch": "normal",
+            "fileSize": 44140,
+            "fileSizeKB": 43
+          },
+          {
+            "key": "PublicSans-SemiBold",
+            "fileName": "PublicSans-SemiBold.woff",
+            "format": "woff",
+            "weight": 600,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 41704,
+            "fileSizeKB": 41
+          },
+          {
+            "key": "PublicSans-Regular",
+            "fileName": "PublicSans-Regular.woff",
+            "format": "woff",
+            "weight": 400,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 41736,
+            "fileSizeKB": 41
+          },
+          {
+            "key": "PublicSans-MediumItalic",
+            "fileName": "PublicSans-MediumItalic.woff",
+            "format": "woff",
+            "weight": 500,
+            "style": "italic",
+            "stretch": "normal",
+            "fileSize": 43952,
+            "fileSizeKB": 43
+          },
+          {
+            "key": "PublicSans-Medium",
+            "fileName": "PublicSans-Medium.woff",
+            "format": "woff",
+            "weight": 500,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 41812,
+            "fileSizeKB": 41
+          },
+          {
+            "key": "PublicSans-LightItalic",
+            "fileName": "PublicSans-LightItalic.woff",
+            "format": "woff",
+            "weight": 300,
+            "style": "italic",
+            "stretch": "normal",
+            "fileSize": 43704,
+            "fileSizeKB": 43
+          },
+          {
+            "key": "PublicSans-Light",
+            "fileName": "PublicSans-Light.woff",
+            "format": "woff",
+            "weight": 300,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 41620,
+            "fileSizeKB": 41
+          },
+          {
+            "key": "PublicSans-Italic",
+            "fileName": "PublicSans-Italic.woff",
+            "format": "woff",
+            "weight": 400,
+            "style": "italic",
+            "stretch": "normal",
+            "fileSize": 43888,
+            "fileSizeKB": 43
+          },
+          {
+            "key": "PublicSans-ExtraLightItalic",
+            "fileName": "PublicSans-ExtraLightItalic.woff",
+            "format": "woff",
+            "weight": 200,
+            "style": "italic",
+            "stretch": "normal",
+            "fileSize": 43744,
+            "fileSizeKB": 43
+          },
+          {
+            "key": "PublicSans-ExtraLight",
+            "fileName": "PublicSans-ExtraLight.woff",
+            "format": "woff",
+            "weight": 200,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 41504,
+            "fileSizeKB": 41
+          },
+          {
+            "key": "PublicSans-ExtraBoldItalic",
+            "fileName": "PublicSans-ExtraBoldItalic.woff",
+            "format": "woff",
+            "weight": 800,
+            "style": "italic",
+            "stretch": "normal",
+            "fileSize": 44220,
+            "fileSizeKB": 43
+          },
+          {
+            "key": "PublicSans-ExtraBold",
+            "fileName": "PublicSans-ExtraBold.woff",
+            "format": "woff",
+            "weight": 800,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 41612,
+            "fileSizeKB": 41
+          },
+          {
+            "key": "PublicSans-BoldItalic",
+            "fileName": "PublicSans-BoldItalic.woff",
+            "format": "woff",
+            "weight": 700,
+            "style": "italic",
+            "stretch": "normal",
+            "fileSize": 44404,
+            "fileSizeKB": 43
+          },
+          {
+            "key": "PublicSans-Bold",
+            "fileName": "PublicSans-Bold.woff",
+            "format": "woff",
+            "weight": 700,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 41804,
+            "fileSizeKB": 41
+          },
+          {
+            "key": "PublicSans-BlackItalic",
+            "fileName": "PublicSans-BlackItalic.woff",
+            "format": "woff",
+            "weight": 900,
+            "style": "italic",
+            "stretch": "normal",
+            "fileSize": 42700,
+            "fileSizeKB": 42
+          },
+          {
+            "key": "PublicSans-Black",
+            "fileName": "PublicSans-Black.woff",
+            "format": "woff",
+            "weight": 900,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 40036,
+            "fileSizeKB": 39
+          }
+        ],
+        "variable": [
+          {
+            "key": "VariableRegular[wght]",
+            "fileName": "PublicSans[wght].ttf",
+            "format": "truetype",
+            "axes": {
+              "wght": {
+                "min": 100,
+                "max": 900,
+                "default": 100
+              }
+            },
+            "style": "normal",
+            "fileSize": 103316,
+            "fileSizeKB": 101
+          },
+          {
+            "key": "VariableItalic[wght]",
+            "fileName": "PublicSans-Italic[wght].ttf",
+            "format": "truetype",
+            "axes": {
+              "wght": {
+                "min": 100,
+                "max": 900,
+                "default": 100
+              }
+            },
+            "style": "italic",
+            "fileSize": 107940,
+            "fileSizeKB": 105
+          }
+        ]
+      },
+      "metrics": {
+        "unitsPerEm": 2000,
+        "ascent": 1900,
+        "descent": -450,
+        "capHeight": 1446,
+        "xHeight": 1034,
+        "glyphCount": 648,
+        "totalFiles": 20,
+        "totalSizeKB": 955
+      },
+      "detailed": {
+        "languages": {
+          "unicodeRanges": {
+            "Basic Latin": {
+              "coverage": 0.8,
+              "start": 0,
+              "end": 127
+            },
+            "Latin-1 Supplement": {
+              "coverage": 0.7,
+              "start": 128,
+              "end": 255
+            },
+            "Latin Extended-A": {
+              "coverage": 0.9,
+              "start": 256,
+              "end": 383
+            },
+            "Latin Extended-B": {
+              "coverage": 0.2,
+              "start": 384,
+              "end": 591
+            }
+          },
+          "scripts": [
+            "Basic Latin",
+            "Latin-1 Supplement",
+            "Latin Extended-A",
+            "Latin Extended-B"
+          ],
+          "primaryScript": "Latin Extended-A"
+        },
+        "variations": {
+          "wght": {
+            "min": 100,
+            "max": 900,
+            "default": 100,
+            "description": "Weight"
+          },
+          "namedInstances": [
+            {
+              "name": "Thin Italic",
+              "coordinates": {
+                "wght": 100
+              }
+            },
+            {
+              "name": "ExtraLight Italic",
+              "coordinates": {
+                "wght": 200
+              }
+            },
+            {
+              "name": "Light Italic",
+              "coordinates": {
+                "wght": 300
+              }
+            },
+            {
+              "name": "Italic",
+              "coordinates": {
+                "wght": 400
+              }
+            },
+            {
+              "name": "Medium Italic",
+              "coordinates": {
+                "wght": 500
+              }
+            },
+            {
+              "name": "SemiBold Italic",
+              "coordinates": {
+                "wght": 600
+              }
+            },
+            {
+              "name": "Bold Italic",
+              "coordinates": {
+                "wght": 700
+              }
+            },
+            {
+              "name": "ExtraBold Italic",
+              "coordinates": {
+                "wght": 800
+              }
+            },
+            {
+              "name": "Black Italic",
+              "coordinates": {
+                "wght": 900
+              }
+            }
+          ]
+        },
+        "specimens": {
+          "sampleText": {
+            "latin": "The quick brown fox jumps over the lazy dog",
+            "uppercase": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+            "lowercase": "abcdefghijklmnopqrstuvwxyz",
+            "numbers": "0123456789",
+            "punctuation": "!@#$%^&*()_+-=[]{}|;:,.<>?"
+          },
+          "specimenFonts": {
+            "variable": "fonts/open-fonts/public-sans/fonts/variable/PublicSans[wght].ttf",
+            "regular": "fonts/open-fonts/public-sans/fonts/webfonts/PublicSans-Regular.woff",
+            "bold": "fonts/open-fonts/public-sans/fonts/webfonts/PublicSans-ExtraBoldItalic.woff"
+          }
+        }
+      },
+      "performance": {
+        "fileCount": 20,
+        "totalSizeKB": 955,
+        "averageSizeKB": 48,
+        "smallestFileKB": 39,
+        "largestFileKB": 105,
+        "averageGlyphCount": 648
+      },
+      "typography": {
+        "openTypeFeatures": [
+          "aalt",
+          "calt",
+          "ccmp",
+          "dnom",
+          "frac",
+          "liga",
+          "lnum",
+          "locl",
+          "numr",
+          "onum",
+          "ordn",
+          "pnum",
+          "salt",
+          "sinf",
+          "ss01",
+          "subs",
+          "sups",
+          "tnum",
+          "kern",
+          "mark",
+          "mkmk"
+        ],
+        "hasKerning": true,
+        "hasLigatures": true,
+        "hasSmallCaps": false,
+        "hasOldStyleFigures": true,
+        "hasTabularFigures": true
+      }
+    },
+    "league-mono": {
+      "name": "league-mono",
+      "slug": "league-mono",
+      "capabilities": {
+        "hasStatic": true,
+        "hasVariable": true,
+        "weightRange": {
+          "min": 100,
+          "max": 800,
+          "type": "variable"
+        },
+        "styleCount": 1,
+        "formats": [
+          "opentype",
+          "truetype"
+        ]
+      },
+      "files": {
+        "static": [
+          {
+            "key": "LeagueMono-WideUltraLight",
+            "fileName": "LeagueMono-WideUltraLight.otf",
+            "format": "opentype",
+            "weight": 200,
+            "style": "normal",
+            "stretch": "ultra-expanded",
+            "fileSize": 54208,
+            "fileSizeKB": 53
+          },
+          {
+            "key": "LeagueMono-WideThin",
+            "fileName": "LeagueMono-WideThin.otf",
+            "format": "opentype",
+            "weight": 100,
+            "style": "normal",
+            "stretch": "ultra-expanded",
+            "fileSize": 48912,
+            "fileSizeKB": 48
+          },
+          {
+            "key": "LeagueMono-WideSemiBold",
+            "fileName": "LeagueMono-WideSemiBold.otf",
+            "format": "opentype",
+            "weight": 600,
+            "style": "normal",
+            "stretch": "ultra-expanded",
+            "fileSize": 54376,
+            "fileSizeKB": 53
+          },
+          {
+            "key": "LeagueMono-WideRegular",
+            "fileName": "LeagueMono-WideRegular.otf",
+            "format": "opentype",
+            "weight": 400,
+            "style": "normal",
+            "stretch": "ultra-expanded",
+            "fileSize": 53976,
+            "fileSizeKB": 53
+          },
+          {
+            "key": "LeagueMono-WideMedium",
+            "fileName": "LeagueMono-WideMedium.otf",
+            "format": "opentype",
+            "weight": 500,
+            "style": "normal",
+            "stretch": "ultra-expanded",
+            "fileSize": 53488,
+            "fileSizeKB": 52
+          },
+          {
+            "key": "LeagueMono-WideLight",
+            "fileName": "LeagueMono-WideLight.otf",
+            "format": "opentype",
+            "weight": 300,
+            "style": "normal",
+            "stretch": "ultra-expanded",
+            "fileSize": 54916,
+            "fileSizeKB": 54
+          },
+          {
+            "key": "LeagueMono-WideExtraBold",
+            "fileName": "LeagueMono-WideExtraBold.otf",
+            "format": "opentype",
+            "weight": 800,
+            "style": "normal",
+            "stretch": "ultra-expanded",
+            "fileSize": 54740,
+            "fileSizeKB": 53
+          },
+          {
+            "key": "LeagueMono-WideBold",
+            "fileName": "LeagueMono-WideBold.otf",
+            "format": "opentype",
+            "weight": 700,
+            "style": "normal",
+            "stretch": "ultra-expanded",
+            "fileSize": 54796,
+            "fileSizeKB": 54
+          },
+          {
+            "key": "LeagueMono-UltraLight",
+            "fileName": "LeagueMono-UltraLight.otf",
+            "format": "opentype",
+            "weight": 200,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 53432,
+            "fileSizeKB": 52
+          },
+          {
+            "key": "LeagueMono-Thin",
+            "fileName": "LeagueMono-Thin.otf",
+            "format": "opentype",
+            "weight": 100,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 48764,
+            "fileSizeKB": 48
+          },
+          {
+            "key": "LeagueMono-SemiBold",
+            "fileName": "LeagueMono-SemiBold.otf",
+            "format": "opentype",
+            "weight": 600,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 54828,
+            "fileSizeKB": 54
+          },
+          {
+            "key": "LeagueMono-Regular",
+            "fileName": "LeagueMono-Regular.otf",
+            "format": "opentype",
+            "weight": 400,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 54244,
+            "fileSizeKB": 53
+          },
+          {
+            "key": "LeagueMono-NarrowUltraLight",
+            "fileName": "LeagueMono-NarrowUltraLight.otf",
+            "format": "opentype",
+            "weight": 200,
+            "style": "normal",
+            "stretch": "semi-condensed",
+            "fileSize": 52984,
+            "fileSizeKB": 52
+          },
+          {
+            "key": "LeagueMono-NarrowThin",
+            "fileName": "LeagueMono-NarrowThin.otf",
+            "format": "opentype",
+            "weight": 100,
+            "style": "normal",
+            "stretch": "semi-condensed",
+            "fileSize": 47808,
+            "fileSizeKB": 47
+          },
+          {
+            "key": "LeagueMono-NarrowSemiBold",
+            "fileName": "LeagueMono-NarrowSemiBold.otf",
+            "format": "opentype",
+            "weight": 600,
+            "style": "normal",
+            "stretch": "semi-condensed",
+            "fileSize": 54044,
+            "fileSizeKB": 53
+          },
+          {
+            "key": "LeagueMono-NarrowRegular",
+            "fileName": "LeagueMono-NarrowRegular.otf",
+            "format": "opentype",
+            "weight": 400,
+            "style": "normal",
+            "stretch": "semi-condensed",
+            "fileSize": 54024,
+            "fileSizeKB": 53
+          },
+          {
+            "key": "LeagueMono-NarrowMedium",
+            "fileName": "LeagueMono-NarrowMedium.otf",
+            "format": "opentype",
+            "weight": 500,
+            "style": "normal",
+            "stretch": "semi-condensed",
+            "fileSize": 53644,
+            "fileSizeKB": 52
+          },
+          {
+            "key": "LeagueMono-NarrowLight",
+            "fileName": "LeagueMono-NarrowLight.otf",
+            "format": "opentype",
+            "weight": 300,
+            "style": "normal",
+            "stretch": "semi-condensed",
+            "fileSize": 54784,
+            "fileSizeKB": 54
+          },
+          {
+            "key": "LeagueMono-NarrowExtraBold",
+            "fileName": "LeagueMono-NarrowExtraBold.otf",
+            "format": "opentype",
+            "weight": 800,
+            "style": "normal",
+            "stretch": "semi-condensed",
+            "fileSize": 54804,
+            "fileSizeKB": 54
+          },
+          {
+            "key": "LeagueMono-NarrowBold",
+            "fileName": "LeagueMono-NarrowBold.otf",
+            "format": "opentype",
+            "weight": 700,
+            "style": "normal",
+            "stretch": "semi-condensed",
+            "fileSize": 54360,
+            "fileSizeKB": 53
+          },
+          {
+            "key": "LeagueMono-Medium",
+            "fileName": "LeagueMono-Medium.otf",
+            "format": "opentype",
+            "weight": 500,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 53876,
+            "fileSizeKB": 53
+          },
+          {
+            "key": "LeagueMono-Light",
+            "fileName": "LeagueMono-Light.otf",
+            "format": "opentype",
+            "weight": 300,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 54444,
+            "fileSizeKB": 53
+          },
+          {
+            "key": "LeagueMono-ExtraBold",
+            "fileName": "LeagueMono-ExtraBold.otf",
+            "format": "opentype",
+            "weight": 800,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 54520,
+            "fileSizeKB": 53
+          },
+          {
+            "key": "LeagueMono-ExtendedUltraLight",
+            "fileName": "LeagueMono-ExtendedUltraLight.otf",
+            "format": "opentype",
+            "weight": 200,
+            "style": "normal",
+            "stretch": "expanded",
+            "fileSize": 54068,
+            "fileSizeKB": 53
+          },
+          {
+            "key": "LeagueMono-ExtendedThin",
+            "fileName": "LeagueMono-ExtendedThin.otf",
+            "format": "opentype",
+            "weight": 100,
+            "style": "normal",
+            "stretch": "expanded",
+            "fileSize": 47772,
+            "fileSizeKB": 47
+          },
+          {
+            "key": "LeagueMono-ExtendedSemiBold",
+            "fileName": "LeagueMono-ExtendedSemiBold.otf",
+            "format": "opentype",
+            "weight": 600,
+            "style": "normal",
+            "stretch": "expanded",
+            "fileSize": 54400,
+            "fileSizeKB": 53
+          },
+          {
+            "key": "LeagueMono-ExtendedRegular",
+            "fileName": "LeagueMono-ExtendedRegular.otf",
+            "format": "opentype",
+            "weight": 400,
+            "style": "normal",
+            "stretch": "expanded",
+            "fileSize": 54664,
+            "fileSizeKB": 53
+          },
+          {
+            "key": "LeagueMono-ExtendedMedium",
+            "fileName": "LeagueMono-ExtendedMedium.otf",
+            "format": "opentype",
+            "weight": 500,
+            "style": "normal",
+            "stretch": "expanded",
+            "fileSize": 54188,
+            "fileSizeKB": 53
+          },
+          {
+            "key": "LeagueMono-ExtendedLight",
+            "fileName": "LeagueMono-ExtendedLight.otf",
+            "format": "opentype",
+            "weight": 300,
+            "style": "normal",
+            "stretch": "expanded",
+            "fileSize": 55948,
+            "fileSizeKB": 55
+          },
+          {
+            "key": "LeagueMono-ExtendedExtraBold",
+            "fileName": "LeagueMono-ExtendedExtraBold.otf",
+            "format": "opentype",
+            "weight": 800,
+            "style": "normal",
+            "stretch": "expanded",
+            "fileSize": 52404,
+            "fileSizeKB": 51
+          },
+          {
+            "key": "LeagueMono-ExtendedBold",
+            "fileName": "LeagueMono-ExtendedBold.otf",
+            "format": "opentype",
+            "weight": 700,
+            "style": "normal",
+            "stretch": "expanded",
+            "fileSize": 54924,
+            "fileSizeKB": 54
+          },
+          {
+            "key": "LeagueMono-CondensedUltraLight",
+            "fileName": "LeagueMono-CondensedUltraLight.otf",
+            "format": "opentype",
+            "weight": 200,
+            "style": "normal",
+            "stretch": "condensed",
+            "fileSize": 52844,
+            "fileSizeKB": 52
+          },
+          {
+            "key": "LeagueMono-CondensedThin",
+            "fileName": "LeagueMono-CondensedThin.otf",
+            "format": "opentype",
+            "weight": 100,
+            "style": "normal",
+            "stretch": "condensed",
+            "fileSize": 47552,
+            "fileSizeKB": 46
+          },
+          {
+            "key": "LeagueMono-CondensedSemiBold",
+            "fileName": "LeagueMono-CondensedSemiBold.otf",
+            "format": "opentype",
+            "weight": 600,
+            "style": "normal",
+            "stretch": "condensed",
+            "fileSize": 53964,
+            "fileSizeKB": 53
+          },
+          {
+            "key": "LeagueMono-CondensedMedium",
+            "fileName": "LeagueMono-CondensedMedium.otf",
+            "format": "opentype",
+            "weight": 500,
+            "style": "normal",
+            "stretch": "condensed",
+            "fileSize": 53152,
+            "fileSizeKB": 52
+          },
+          {
+            "key": "LeagueMono-CondensedLight",
+            "fileName": "LeagueMono-CondensedLight.otf",
+            "format": "opentype",
+            "weight": 300,
+            "style": "normal",
+            "stretch": "condensed",
+            "fileSize": 54556,
+            "fileSizeKB": 53
+          },
+          {
+            "key": "LeagueMono-CondensedExtraBold",
+            "fileName": "LeagueMono-CondensedExtraBold.otf",
+            "format": "opentype",
+            "weight": 800,
+            "style": "normal",
+            "stretch": "condensed",
+            "fileSize": 52240,
+            "fileSizeKB": 51
+          },
+          {
+            "key": "LeagueMono-CondensedBold",
+            "fileName": "LeagueMono-CondensedBold.otf",
+            "format": "opentype",
+            "weight": 700,
+            "style": "normal",
+            "stretch": "condensed",
+            "fileSize": 54956,
+            "fileSizeKB": 54
+          },
+          {
+            "key": "LeagueMono-Condensed",
+            "fileName": "LeagueMono-Condensed.otf",
+            "format": "opentype",
+            "weight": 400,
+            "style": "normal",
+            "stretch": "condensed",
+            "fileSize": 53244,
+            "fileSizeKB": 52
+          },
+          {
+            "key": "LeagueMono-Bold",
+            "fileName": "LeagueMono-Bold.otf",
+            "format": "opentype",
+            "weight": 700,
+            "style": "normal",
+            "stretch": "normal",
+            "fileSize": 54504,
+            "fileSizeKB": 53
+          }
+        ],
+        "variable": [
+          {
+            "key": "VariableRegular[wdth,wght]",
+            "fileName": "LeagueMono-VF.ttf",
+            "format": "truetype",
+            "axes": {
+              "wght": {
+                "min": 100,
+                "max": 800,
+                "default": 100
+              },
+              "wdth": {
+                "min": 50,
+                "max": 200,
+                "default": 50
+              }
+            },
+            "style": "normal",
+            "fileSize": 117968,
+            "fileSizeKB": 115
+          }
+        ]
+      },
+      "metrics": {
+        "unitsPerEm": 2000,
+        "ascent": 1620,
+        "descent": -430,
+        "capHeight": 1400,
+        "xHeight": 1000,
+        "glyphCount": 589,
+        "totalFiles": 41,
+        "totalSizeKB": 2204
+      },
+      "detailed": {
+        "languages": {
+          "unicodeRanges": {
+            "Basic Latin": {
+              "coverage": 0.7,
+              "start": 0,
+              "end": 127
+            },
+            "Latin-1 Supplement": {
+              "coverage": 0.6,
+              "start": 128,
+              "end": 255
+            },
+            "Latin Extended-A": {
+              "coverage": 0.9,
+              "start": 256,
+              "end": 383
+            },
+            "Latin Extended-B": {
+              "coverage": 0.4,
+              "start": 384,
+              "end": 591
+            }
+          },
+          "scripts": [
+            "Basic Latin",
+            "Latin-1 Supplement",
+            "Latin Extended-A",
+            "Latin Extended-B"
+          ],
+          "primaryScript": "Latin Extended-A"
+        },
+        "variations": {
+          "wght": {
+            "min": 100,
+            "max": 800,
+            "default": 100,
+            "description": "Weight"
+          },
+          "wdth": {
+            "min": 50,
+            "max": 200,
+            "default": 50,
+            "description": "Width"
+          },
+          "namedInstances": [
+            {
+              "name": "Condensed Thin",
+              "coordinates": {
+                "wght": 100,
+                "wdth": 50
+              }
+            },
+            {
+              "name": "Condensed UltraLight",
+              "coordinates": {
+                "wght": 200,
+                "wdth": 50
+              }
+            },
+            {
+              "name": "Condensed Light",
+              "coordinates": {
+                "wght": 300,
+                "wdth": 50
+              }
+            },
+            {
+              "name": "Condensed",
+              "coordinates": {
+                "wght": 400,
+                "wdth": 50
+              }
+            },
+            {
+              "name": "Condensed Medium",
+              "coordinates": {
+                "wght": 500,
+                "wdth": 50
+              }
+            },
+            {
+              "name": "Condensed SemiBold",
+              "coordinates": {
+                "wght": 600,
+                "wdth": 50
+              }
+            },
+            {
+              "name": "Condensed Bold",
+              "coordinates": {
+                "wght": 700,
+                "wdth": 50
+              }
+            },
+            {
+              "name": "Condensed ExtraBold",
+              "coordinates": {
+                "wght": 800,
+                "wdth": 50
+              }
+            },
+            {
+              "name": "Narrow Thin",
+              "coordinates": {
+                "wght": 100,
+                "wdth": 80
+              }
+            },
+            {
+              "name": "Narrow UltraLight",
+              "coordinates": {
+                "wght": 200,
+                "wdth": 80
+              }
+            },
+            {
+              "name": "Narrow Light",
+              "coordinates": {
+                "wght": 300,
+                "wdth": 80
+              }
+            },
+            {
+              "name": "Narrow Regular",
+              "coordinates": {
+                "wght": 400,
+                "wdth": 80
+              }
+            },
+            {
+              "name": "Narrow Medium",
+              "coordinates": {
+                "wght": 500,
+                "wdth": 80
+              }
+            },
+            {
+              "name": "Narrow SemiBold",
+              "coordinates": {
+                "wght": 600,
+                "wdth": 80
+              }
+            },
+            {
+              "name": "Narrow Bold",
+              "coordinates": {
+                "wght": 700,
+                "wdth": 80
+              }
+            },
+            {
+              "name": "Narrow ExtraBold",
+              "coordinates": {
+                "wght": 800,
+                "wdth": 80
+              }
+            },
+            {
+              "name": "Thin",
+              "coordinates": {
+                "wght": 100,
+                "wdth": 115
+              }
+            },
+            {
+              "name": "UltraLight",
+              "coordinates": {
+                "wght": 200,
+                "wdth": 115
+              }
+            },
+            {
+              "name": "Light",
+              "coordinates": {
+                "wght": 300,
+                "wdth": 115
+              }
+            },
+            {
+              "name": "Regular",
+              "coordinates": {
+                "wght": 400,
+                "wdth": 115
+              }
+            },
+            {
+              "name": "Medium",
+              "coordinates": {
+                "wght": 500,
+                "wdth": 115
+              }
+            },
+            {
+              "name": "SemiBold",
+              "coordinates": {
+                "wght": 600,
+                "wdth": 115
+              }
+            },
+            {
+              "name": "Bold",
+              "coordinates": {
+                "wght": 700,
+                "wdth": 115
+              }
+            },
+            {
+              "name": "ExtraBold",
+              "coordinates": {
+                "wght": 800,
+                "wdth": 115
+              }
+            },
+            {
+              "name": "Wide Thin",
+              "coordinates": {
+                "wght": 100,
+                "wdth": 150
+              }
+            },
+            {
+              "name": "Wide UltraLight",
+              "coordinates": {
+                "wght": 200,
+                "wdth": 150
+              }
+            },
+            {
+              "name": "Wide Light",
+              "coordinates": {
+                "wght": 300,
+                "wdth": 150
+              }
+            },
+            {
+              "name": "Wide Regular",
+              "coordinates": {
+                "wght": 400,
+                "wdth": 150
+              }
+            },
+            {
+              "name": "Wide Medium",
+              "coordinates": {
+                "wght": 500,
+                "wdth": 150
+              }
+            },
+            {
+              "name": "Wide SemiBold",
+              "coordinates": {
+                "wght": 600,
+                "wdth": 150
+              }
+            },
+            {
+              "name": "Wide Bold",
+              "coordinates": {
+                "wght": 700,
+                "wdth": 150
+              }
+            },
+            {
+              "name": "Wide ExtraBold",
+              "coordinates": {
+                "wght": 800,
+                "wdth": 150
+              }
+            },
+            {
+              "name": "Extended Thin",
+              "coordinates": {
+                "wght": 100,
+                "wdth": 200
+              }
+            },
+            {
+              "name": "Extended UltraLight",
+              "coordinates": {
+                "wght": 200,
+                "wdth": 200
+              }
+            },
+            {
+              "name": "Extended Light",
+              "coordinates": {
+                "wght": 300,
+                "wdth": 200
+              }
+            },
+            {
+              "name": "Extended Regular",
+              "coordinates": {
+                "wght": 400,
+                "wdth": 200
+              }
+            },
+            {
+              "name": "Extended Medium",
+              "coordinates": {
+                "wght": 500,
+                "wdth": 200
+              }
+            },
+            {
+              "name": "Extended SemiBold",
+              "coordinates": {
+                "wght": 600,
+                "wdth": 200
+              }
+            },
+            {
+              "name": "Extended Bold",
+              "coordinates": {
+                "wght": 700,
+                "wdth": 200
+              }
+            },
+            {
+              "name": "Extended ExtraBold",
+              "coordinates": {
+                "wght": 800,
+                "wdth": 200
+              }
+            }
+          ]
+        },
+        "specimens": {
+          "sampleText": {
+            "latin": "The quick brown fox jumps over the lazy dog",
+            "uppercase": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+            "lowercase": "abcdefghijklmnopqrstuvwxyz",
+            "numbers": "0123456789",
+            "punctuation": "!@#$%^&*()_+-=[]{}|;:,.<>?"
+          },
+          "specimenFonts": {
+            "variable": "fonts/open-fonts/league-mono/fonts/variable/TTF/LeagueMono-VF.ttf",
+            "regular": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-WideRegular.otf",
+            "bold": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-WideExtraBold.otf"
+          }
+        }
+      },
+      "performance": {
+        "fileCount": 41,
+        "totalSizeKB": 2204,
+        "averageSizeKB": 54,
+        "smallestFileKB": 46,
+        "largestFileKB": 115,
+        "averageGlyphCount": 589
+      },
+      "typography": {
+        "openTypeFeatures": [
+          "aalt",
+          "case",
+          "ccmp",
+          "locl",
+          "ordn",
+          "pnum",
+          "ss01",
+          "tnum",
+          "mark",
+          "mkmk"
+        ],
+        "hasKerning": false,
+        "hasLigatures": false,
+        "hasSmallCaps": false,
+        "hasOldStyleFigures": false,
+        "hasTabularFigures": true
+      }
+    },
     "atkinson-hyperlegible": {
       "name": "atkinson-hyperlegible",
       "slug": "atkinson-hyperlegible",
