@@ -11240,8 +11240,8 @@ export default {
     }
   },
   "buildInfo": {
-    "timestamp": "2025-09-01T15:01:53.494Z",
-    "version": "1.3.3",
+    "timestamp": "2025-09-01T19:02:39.694Z",
+    "version": "1.4.0",
     "fontCount": 4
   }
 }
