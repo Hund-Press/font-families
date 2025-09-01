@@ -16,7 +16,8 @@ export default {
     "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/public-sans/fonts/variable/",
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/public-sans/fonts/webfonts/",
     "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/public-sans/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/public-sans/fonts/otf/"
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/public-sans/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/_subsets/public-sans/"
   },
   "faces": {
     "variable": {
@@ -204,6 +205,28 @@ export default {
         "fontWeight": 900,
         "fontStretch": "normal"
       }
+    }
+  },
+  "subsets": {
+    "min-chars": {
+      "description": "Minimal character set for performance-critical contexts (100 characters)",
+      "characterCount": 100,
+      "unicodeRanges": [
+        "U+0020-007F",
+        "U+00A0",
+        "U+2013-2014",
+        "U+2018-2019",
+        "U+201C-201D",
+        "U+2026"
+      ],
+      "files": {
+        "static": "PublicSans-400-min.woff2",
+        "variable": [
+          "PublicSansVF-min.ttf",
+          "PublicSansVF-min.woff2"
+        ]
+      },
+      "generatedAt": "2025-09-01T15:01:53.489Z"
     }
   }
 };

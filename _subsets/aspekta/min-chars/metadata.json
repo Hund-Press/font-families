@@ -1,0 +1,51 @@
+{
+  "subset": "min-chars",
+  "description": "Minimal character set for performance-critical contexts",
+  "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+,-./:;=?[]_ —–''\"\"…",
+  "unicodeRanges": [
+    "U+0020-007F",
+    "U+00A0",
+    "U+2013-2014",
+    "U+2018-2019",
+    "U+201C-201D",
+    "U+2026"
+  ],
+  "characterCount": 100,
+  "generatedAt": "2025-09-01T14:47:55.076Z",
+  "generatedBy": "font-families-subset-generator",
+  "method": "fonttools pyftsubset",
+  "files": [
+    {
+      "filename": "Aspekta-400-min.woff2",
+      "size": 4244,
+      "format": "woff2",
+      "command": "source .venv/bin/activate && pyftsubset \"fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-400.woff2\" --text=\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\\\"#$%&'()*+,-./:;=?[]_ —–''\\\"\\\"…\" --output-file=\"_subsets/aspekta/min-chars/Aspekta-400-min.woff2\" --flavor=woff2 --desubroutinize --with-zopfli --layout-features-=kern --drop-tables+=GPOS,GSUB --no-hinting"
+    },
+    {
+      "filename": "AspektaVF-min.ttf",
+      "size": 16224,
+      "format": "ttf",
+      "command": "source .venv/bin/activate && pyftsubset \"fonts/open-fonts/aspekta/fonts/variable/AspektaVF.ttf\" --text=\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\\\"#$%&'()*+,-./:;=?[]_ —–''\\\"\\\"…\" --output-file=\"_subsets/aspekta/min-chars/AspektaVF-min.ttf\" --desubroutinize --layout-features-=kern --drop-tables+=GPOS,GSUB --no-hinting"
+    },
+    {
+      "filename": "AspektaVF-min.woff2",
+      "size": 9848,
+      "format": "woff2",
+      "command": "source .venv/bin/activate && pyftsubset \"fonts/open-fonts/aspekta/fonts/variable/AspektaVF.ttf\" --text=\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\\\"#$%&'()*+,-./:;=?[]_ —–''\\\"\\\"…\" --output-file=\"_subsets/aspekta/min-chars/AspektaVF-min.woff2\" --flavor=woff2 --desubroutinize --with-zopfli --layout-features-=kern --drop-tables+=GPOS,GSUB --no-hinting"
+    }
+  ],
+  "sourceFont": {
+    "family": "aspekta",
+    "name": "Aspekta",
+    "version": "2.100",
+    "author": "Ivo Dolenc",
+    "license": "OFL-1.1",
+    "source": "../aspekta/"
+  },
+  "legalCompliance": {
+    "originalLicense": "OFL-1.1",
+    "derivativeStatus": "This is a derivative work optimized for web performance. Original font design and copyright belong to the original author.",
+    "attribution": "Original font design by Ivo Dolenc. Subsets generated for web optimization only.",
+    "reservedFontName": "Aspekta"
+  }
+}

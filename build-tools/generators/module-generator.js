@@ -53,7 +53,7 @@ export async function generateModules(fontFamilies, outputDir, options = {}) {
  * @param {string} repoVersion - Repository version for CDN URLs
  */
 export async function generateFamilyModule(familyData, outputDir, cdnBaseUrl, repoVersion = 'latest') {
-    const moduleContent = generateFamilyModuleContent(familyData, cdnBaseUrl, repoVersion);
+    const moduleContent = await generateFamilyModuleContent(familyData, cdnBaseUrl, repoVersion);
     const modulePath = path.join(outputDir, `${familyData.slug}.js`);
     
     await fs.writeFile(modulePath, moduleContent);
@@ -67,7 +67,7 @@ export async function generateFamilyModule(familyData, outputDir, cdnBaseUrl, re
  * @param {string} repoVersion - Repository version for CDN URLs
  * @returns {string} Module content
  */
-function generateFamilyModuleContent(familyData, cdnBaseUrl, repoVersion = 'latest') {
+async function generateFamilyModuleContent(familyData, cdnBaseUrl, repoVersion = 'latest') {
     // Font family data representing designer's intent and font reality
     const transformedData = {
         // Font Family abstraction
@@ -84,9 +84,10 @@ function generateFamilyModuleContent(familyData, cdnBaseUrl, repoVersion = 'late
         cdnBase: generateCdnPaths(familyData, cdnBaseUrl, repoVersion),
         
         // Font Face abstraction - organized by type
-        faces: transformFontFaces(familyData)
+        faces: transformFontFaces(familyData),
         
-        // Note: Subset abstraction will be added in future phases
+        // Subset abstraction - available subsets for performance optimization
+        subsets: await generateSubsetInfo(familyData)
     };
     
     return `/**
@@ -115,7 +116,8 @@ function generateCdnPaths(familyData, cdnBaseUrl, repoVersion = 'latest') {
         variable: `${baseCdnUrl}/fonts/open-fonts/${familyData.slug}/fonts/variable/`,
         static: `${baseCdnUrl}/fonts/open-fonts/${familyData.slug}/fonts/webfonts/`,
         ttf: `${baseCdnUrl}/fonts/open-fonts/${familyData.slug}/fonts/ttf/`,
-        otf: `${baseCdnUrl}/fonts/open-fonts/${familyData.slug}/fonts/otf/`
+        otf: `${baseCdnUrl}/fonts/open-fonts/${familyData.slug}/fonts/otf/`,
+        subsets: `${baseCdnUrl}/_subsets/${familyData.slug}/`
     };
 }
 
@@ -328,6 +330,38 @@ export const availableFonts = Object.keys(fontMap);
     
     await fs.writeFile(path.join(outputDir, 'index.js'), indexContent);
     console.log('[modules] Generated index module: index.js');
+}
+
+/**
+ * Generate subset information for font family
+ * @param {Object} familyData - Font family data
+ * @returns {Object} Subset information
+ */
+async function generateSubsetInfo(familyData) {
+    const subsets = {};
+    const subsetMetadataPath = path.join('_subsets', familyData.slug, 'metadata.json');
+    
+    try {
+        const metadataContent = await fs.readFile(subsetMetadataPath, 'utf8');
+        const metadata = JSON.parse(metadataContent);
+        
+        for (const [subsetName, subsetConfig] of Object.entries(metadata.subsets || {})) {
+            if (subsetConfig.status === 'generated') {
+                subsets[subsetName] = {
+                    description: subsetConfig.description,
+                    characterCount: subsetConfig.characterCount,
+                    unicodeRanges: subsetConfig.unicodeRanges,
+                    files: subsetConfig.targetFiles || {},
+                    generatedAt: subsetConfig.generatedAt
+                };
+            }
+        }
+    } catch (error) {
+        // No subset metadata found - return empty object
+        console.log(`[modules] No subset metadata found for ${familyData.slug}`);
+    }
+    
+    return subsets;
 }
 
 /**

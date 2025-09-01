@@ -18,7 +18,8 @@ export default {
     "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/aspekta/fonts/variable/",
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/aspekta/fonts/webfonts/",
     "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/aspekta/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/aspekta/fonts/otf/"
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/aspekta/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/_subsets/aspekta/"
   },
   "faces": {
     "variable": {
@@ -203,6 +204,28 @@ export default {
         "fontWeight": 100,
         "fontStretch": "normal"
       }
+    }
+  },
+  "subsets": {
+    "min-chars": {
+      "description": "Minimal character set for performance-critical contexts (100 characters)",
+      "characterCount": 100,
+      "unicodeRanges": [
+        "U+0020-007F",
+        "U+00A0",
+        "U+2013-2014",
+        "U+2018-2019",
+        "U+201C-201D",
+        "U+2026"
+      ],
+      "files": {
+        "static": "Aspekta-400-min.woff2",
+        "variable": [
+          "AspektaVF-min.ttf",
+          "AspektaVF-min.woff2"
+        ]
+      },
+      "generatedAt": "2025-09-01T15:01:53.491Z"
     }
   }
 };

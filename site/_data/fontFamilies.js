@@ -11240,7 +11240,7 @@ export default {
     }
   },
   "buildInfo": {
-    "timestamp": "2025-08-30T12:29:47.948Z",
+    "timestamp": "2025-09-01T15:01:53.494Z",
     "version": "1.3.3",
     "fontCount": 4
   }

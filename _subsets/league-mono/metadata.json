@@ -1,0 +1,41 @@
+{
+  "family": "league-mono",
+  "originalFont": {
+    "name": "League Mono",
+    "version": "2.0",
+    "author": "The League of Moveable Type",
+    "license": "OFL-1.1",
+    "source": "../league-mono/"
+  },
+  "subsets": {
+    "min-chars": {
+      "description": "Minimal character set for performance-critical contexts (100 characters)",
+      "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+,-./:;=?[]_ —–''\"\"…",
+      "unicodeRanges": [
+        "U+0020-007F",
+        "U+00A0",
+        "U+2013-2014",
+        "U+2018-2019",
+        "U+201C-201D",
+        "U+2026"
+      ],
+      "characterCount": 100,
+      "status": "generated",
+      "generatedAt": "2025-09-01T15:01:53.490Z",
+      "targetFiles": {
+        "static": "LeagueMono-400-min.woff2",
+        "variable": [
+          "LeagueMonoVF-min.ttf",
+          "LeagueMonoVF-min.woff2"
+        ]
+      },
+      "note": "Minimal subset for font selection UI and performance-critical contexts"
+    }
+  },
+  "legalCompliance": {
+    "originalLicense": "OFL-1.1",
+    "derivativeStatus": "Planned derivative works will comply with OFL-1.1",
+    "attribution": "Original font design by The League of Moveable Type. Subsets generated for web optimization only.",
+    "reservedFontName": "League Mono"
+  }
+}

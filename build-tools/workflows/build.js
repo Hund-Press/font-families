@@ -19,6 +19,7 @@ import { scanFontFamilies } from '../scanners/ufr-scanner.js';
 import { generateModules } from '../generators/module-generator.js';
 import { generateCatalog } from '../generators/catalog-generator.js';
 import { validateLicensing } from '../scanners/validation.js';
+import { SubsetGenerator } from '../generators/subset-generator.js';
 
 const execAsync = promisify(exec);
 
@@ -60,16 +61,20 @@ async function build() {
         console.log('[build] Phase 3: Catalog generation');
         await generateAllCatalogs(openFonts, allFonts);
         
-        // Phase 4: Generate ES modules (open fonts only for public CDN)
-        console.log('[build] Phase 4: ES module generation');
+        // Phase 4: Generate font subsets (open fonts only)
+        console.log('[build] Phase 4: Font subset generation');
+        await generateAllSubsets(openFonts);
+        
+        // Phase 5: Generate ES modules (open fonts only for public CDN)
+        console.log('[build] Phase 5: ES module generation');
         await generateAllModules(openFonts);
         
-        // Phase 5: Build catalog site (open fonts only)
-        console.log('[build] Phase 5: Catalog site generation');
+        // Phase 6: Build catalog site (open fonts only)
+        console.log('[build] Phase 6: Catalog site generation');
         await buildCatalogSite(openFonts);
         
-        // Phase 6: Final validation and summary
-        console.log('[build] Phase 6: Final validation');
+        // Phase 7: Final validation and summary
+        console.log('[build] Phase 7: Final validation');
         await finalValidation();
         
         console.log('[build] ✅ Build completed successfully!');
@@ -201,6 +206,37 @@ async function generateAllCatalogs(openFonts, allFonts) {
 }
 
 /**
+ * Generate font subsets for all font families
+ */
+async function generateAllSubsets(openFonts) {
+    const generator = new SubsetGenerator();
+    
+    try {
+        // Check dependencies first
+        await generator.checkDependencies();
+        
+        for (const [familyKey, familyData] of Object.entries(openFonts)) {
+            try {
+                console.log(`[build] Checking subsets for ${familyData.slug}...`);
+                await generator.processFamily(familyData.slug, ['min-chars'], false); // incremental by default
+                await generator.updateFamilyMetadata(familyData.slug, 'min-chars');
+            } catch (error) {
+                // Log error but continue with other families
+                console.warn(`[build] ⚠️ Subset generation failed for ${familyData.slug}: ${error.message}`);
+            }
+        }
+        
+        // Show summary
+        generator.generateReport();
+        
+    } catch (error) {
+        console.error(`[build] ❌ Subset generation failed: ${error.message}`);
+        // Don't fail entire build for subset generation issues
+        console.log(`[build] Continuing build without subsets...`);
+    }
+}
+
+/**
  * Generate ES modules (open fonts only for public CDN)
  */
 async function generateAllModules(openFonts) {
@@ -294,6 +330,82 @@ async function finalValidation() {
         } catch (error) {
             throw new Error(`Missing required build output: ${file}`);
         }
+    }
+    
+    // Validate subset files
+    await validateSubsets();
+}
+
+/**
+ * Validate generated subset files
+ */
+async function validateSubsets() {
+    const subsetsDir = '_subsets';
+    
+    try {
+        const families = await fs.readdir(subsetsDir);
+        let totalSubsets = 0;
+        let validSubsets = 0;
+        
+        for (const family of families) {
+            if (family.startsWith('.') || family === 'README.md') continue;
+            
+            try {
+                const familyMetadataPath = path.join(subsetsDir, family, 'metadata.json');
+                const metadata = JSON.parse(await fs.readFile(familyMetadataPath, 'utf8'));
+                
+                for (const [subsetName, subsetConfig] of Object.entries(metadata.subsets || {})) {
+                    if (subsetConfig.status === 'generated') {
+                        totalSubsets++;
+                        
+                        const subsetDir = path.join(subsetsDir, family, subsetName);
+                        const subsetMetadataPath = path.join(subsetDir, 'metadata.json');
+                        
+                        try {
+                            // Check subset metadata exists
+                            await fs.access(subsetMetadataPath);
+                            
+                            // Check subset files exist
+                            const subsetMetadata = JSON.parse(await fs.readFile(subsetMetadataPath, 'utf8'));
+                            let filesValid = true;
+                            
+                            for (const file of subsetMetadata.files || []) {
+                                const filePath = path.join(subsetDir, file.filename);
+                                try {
+                                    const stats = await fs.stat(filePath);
+                                    if (stats.size === 0) {
+                                        console.warn(`[build] ⚠️  Empty subset file: ${filePath}`);
+                                        filesValid = false;
+                                    }
+                                } catch (e) {
+                                    console.warn(`[build] ⚠️  Missing subset file: ${filePath}`);
+                                    filesValid = false;
+                                }
+                            }
+                            
+                            if (filesValid) {
+                                validSubsets++;
+                                console.log(`[build] ✅ Subset ${family}/${subsetName} (${subsetMetadata.files?.length || 0} files)`);
+                            }
+                            
+                        } catch (error) {
+                            console.warn(`[build] ⚠️  Invalid subset: ${family}/${subsetName} - ${error.message}`);
+                        }
+                    }
+                }
+            } catch (error) {
+                console.warn(`[build] ⚠️  Could not validate subsets for ${family}: ${error.message}`);
+            }
+        }
+        
+        if (totalSubsets > 0) {
+            console.log(`[build] ✅ Subset validation: ${validSubsets}/${totalSubsets} subsets valid`);
+        } else {
+            console.log(`[build] ℹ️  No generated subsets found`);
+        }
+        
+    } catch (error) {
+        console.log(`[build] ℹ️  No subsets directory found - skipping validation`);
     }
 }
 

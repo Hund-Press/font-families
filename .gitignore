@@ -2,4 +2,4 @@
 .local
 node_modules/
 llm-notes/
-.font-families-build/
+.font-families-build/.venv/

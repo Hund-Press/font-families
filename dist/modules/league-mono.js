@@ -14,7 +14,8 @@ export default {
     "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/league-mono/fonts/variable/",
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/league-mono/fonts/webfonts/",
     "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/league-mono/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/league-mono/fonts/otf/"
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/fonts/open-fonts/league-mono/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.3.3/_subsets/league-mono/"
   },
   "faces": {
     "variable": {
@@ -375,6 +376,28 @@ export default {
         "fontWeight": 700,
         "fontStretch": "normal"
       }
+    }
+  },
+  "subsets": {
+    "min-chars": {
+      "description": "Minimal character set for performance-critical contexts (100 characters)",
+      "characterCount": 100,
+      "unicodeRanges": [
+        "U+0020-007F",
+        "U+00A0",
+        "U+2013-2014",
+        "U+2018-2019",
+        "U+201C-201D",
+        "U+2026"
+      ],
+      "files": {
+        "static": "LeagueMono-400-min.woff2",
+        "variable": [
+          "LeagueMonoVF-min.ttf",
+          "LeagueMonoVF-min.woff2"
+        ]
+      },
+      "generatedAt": "2025-09-01T15:01:53.490Z"
     }
   }
 };

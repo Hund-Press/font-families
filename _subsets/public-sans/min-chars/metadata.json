@@ -1,0 +1,45 @@
+{
+  "subset": "min-chars",
+  "description": "Minimal character set for performance-critical contexts",
+  "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+,-./:;=?[]_ —–''\"\"…",
+  "unicodeRanges": [
+    "U+0020-007F",
+    "U+00A0",
+    "U+2013-2014",
+    "U+2018-2019",
+    "U+201C-201D",
+    "U+2026"
+  ],
+  "characterCount": 100,
+  "generatedAt": "2025-09-01T15:01:31.208Z",
+  "generatedBy": "font-families-subset-generator",
+  "method": "fonttools pyftsubset",
+  "files": [
+    {
+      "filename": "PublicSansVF-min.ttf",
+      "size": 17068,
+      "format": "ttf",
+      "command": "source .venv/bin/activate && pyftsubset \"fonts/open-fonts/public-sans/fonts/variable/PublicSans[wght].ttf\" --text=\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\\\"#$%&'()*+,-./:;=?[]_ —–''\\\"\\\"…\" --output-file=\"_subsets/public-sans/min-chars/PublicSansVF-min.ttf\" --desubroutinize --layout-features-=kern --drop-tables+=GPOS,GSUB --no-hinting"
+    },
+    {
+      "filename": "PublicSansVF-min.woff2",
+      "size": 10492,
+      "format": "woff2",
+      "command": "source .venv/bin/activate && pyftsubset \"fonts/open-fonts/public-sans/fonts/variable/PublicSans[wght].ttf\" --text=\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\\\"#$%&'()*+,-./:;=?[]_ —–''\\\"\\\"…\" --output-file=\"_subsets/public-sans/min-chars/PublicSansVF-min.woff2\" --flavor=woff2 --desubroutinize --with-zopfli --layout-features-=kern --drop-tables+=GPOS,GSUB --no-hinting"
+    }
+  ],
+  "sourceFont": {
+    "family": "public-sans",
+    "name": "Public Sans",
+    "version": "2.001",
+    "author": "USWDS",
+    "license": "OFL-1.1",
+    "source": "../public-sans/"
+  },
+  "legalCompliance": {
+    "originalLicense": "OFL-1.1",
+    "derivativeStatus": "This is a derivative work optimized for web performance. Original font design and copyright belong to the original author.",
+    "attribution": "Original font design by USWDS. Subsets generated for web optimization only.",
+    "reservedFontName": "Public Sans"
+  }
+}
