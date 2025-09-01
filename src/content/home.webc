@@ -2,19 +2,19 @@
 layout: page
 permalink: index.html
 title: Font Families
-description: Open source font platform with CDN hosting and developer tools
+description: Community-driven font collection that puts user agency first
 ---
 
 <section class="hero">
-  <h1>Open Source Font Platform</h1>
+  <h1>Font Families</h1>
   <p class="hero-description">
-    Curated collection of open source fonts with CDN hosting, developer tools,
-    and complete independence.
+    Community-driven font collection designed for user agency and independence.
+    Fork-first architecture means you own your fonts completely.
   </p>
 
   <div class="hero-actions">
     <a href="/fonts/" class="button primary">Browse Fonts</a>
-    <a href="#quick-start" class="button secondary">Quick Start</a>
+    <a href="#philosophy" class="button secondary">Our Approach</a>
   </div>
 </section>
 
@@ -47,54 +47,62 @@ body {
   </div>
 </section>
 
-<section class="features">
-  <h2>Platform Features</h2>
+<section id="philosophy" class="philosophy">
+  <h2>User Agency First</h2>
+  <p>
+    This font collection embodies a different approach to web tools—one that prioritizes 
+    your independence over platform engagement. Every decision is made to increase your 
+    ownership and understanding, not to create dependencies.
+  </p>
 
   <div class="features-grid">
     <article class="feature">
-      <h3>CDN Hosting</h3>
-      <p>Global CDN via jsDelivr with edge caching and high availability.</p>
+      <h3>Fork-First Architecture</h3>
+      <p>Complete ownership through repository forking. Your font collection becomes truly yours, with all tools included.</p>
     </article>
 
     <article class="feature">
-      <h3>Developer Tools</h3>
-      <p>ES modules, font metrics, and programmatic access to font data.</p>
+      <h3>Minimal Dependencies</h3>
+      <p>Clean, readable code you can understand and modify. No abstract systems hiding implementation details.</p>
     </article>
 
     <article class="feature">
-      <h3>Complete Independence</h3>
-      <p>
-        Fork the repository to create your own font collection with zero
-        dependencies.
-      </p>
+      <h3>Standards-Based</h3>
+      <p>Uses web standards with educational examples. Every generated CSS teaches best practices through working code.</p>
     </article>
 
     <article class="feature">
-      <h3>Open Source</h3>
-      <p>All fonts are open source with clear licensing and attribution.</p>
+      <h3>Community Over Commerce</h3>
+      <p>Built outside enterprise constraints, making decisions based purely on what serves individual creators.</p>
     </article>
   </div>
 </section>
 
 <section id="contributing" class="contributing">
-  <h2>Create Your Own Collection</h2>
-  <p>Fork this repository to build your own curated font platform:</p>
+  <h2>True Independence Through Forking</h2>
+  <p>
+    Rather than asking you to contribute to our collection, we encourage you to create your own. 
+    This embodies our core belief: you should own your creative tools, not just use them.
+  </p>
 
-  <ol>
-    <li>
-      Fork
-      <a href="https://github.com/hund-press/font-families"
-        >github.com/hund-press/font-families</a
-      >
-    </li>
-    <li>Add your fonts to <code>fonts/open-fonts/your-font-name/</code></li>
-    <li>Run <code>npm run build</code> to generate everything automatically</li>
-    <li>Deploy to GitHub Pages, Netlify, or your own server</li>
-  </ol>
+  <div class="fork-benefits">
+    <div class="benefit">
+      <h3>Complete Ownership</h3>
+      <p>Your fork is yours forever. Host it anywhere, modify anything, no permission needed.</p>
+    </div>
+    <div class="benefit">
+      <h3>All Tools Included</h3>
+      <p>Font processing, subset generation, and catalog building—everything travels with your fork.</p>
+    </div>
+    <div class="benefit">
+      <h3>Educational by Design</h3>
+      <p>Every piece of generated code teaches web standards and best practices through working examples.</p>
+    </div>
+  </div>
 
   <p>
-    Your collection includes automated font processing, catalog generation, and
-    complete independence from our infrastructure.
+    <strong>To create your own collection:</strong> Fork this repository, add your fonts, run <code>npm run build</code>. 
+    That's it—you have a complete font platform that works independently of ours.
   </p>
 </section>
 
@@ -177,7 +185,7 @@ body {
     color: #333;
   }
 
-  .features {
+  .philosophy {
     margin: 4rem 0;
   }
 
@@ -214,6 +222,25 @@ body {
 
   .contributing li {
     margin: 0.5rem 0;
+  }
+
+  .fork-benefits {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  .benefit {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 6px;
+    border: 1px solid #e1e1e1;
+  }
+
+  .benefit h3 {
+    margin: 0 0 0.5rem 0;
+    color: #333;
   }
 
   code {

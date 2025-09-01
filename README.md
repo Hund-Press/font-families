@@ -1,6 +1,6 @@
-# Font Assets Collection
+# Font Families
 
-Open source font collection for web developers. Fonts served via jsDelivr CDN with full licensing compliance.
+Community-driven font collection designed for user agency and independence. Every decision prioritizes your ownership over platform engagement.
 
 ## Usage
 
@@ -140,14 +140,25 @@ Individual font family metadata follows UFR structure:
 https://cdn.jsdelivr.net/gh/hund-press/font-families@main/{family}/package.json
 ```
 
-## Community Use
+## Fork-First Philosophy
 
-This collection is designed to be:
-- **Discoverable**: Clear documentation and consistent structure
-- **Forkable**: Users can fork the entire collection independently  
-- **No Registration Required**: Direct CDN access without API keys
-- **Educational**: Documentation explains font selection and usage best practices
-- **Independence**: Alternative to commercial font services
+This collection embodies a different approach to web resources:
+
+- **User Agency**: You should own your creative tools, not just rent access to them
+- **Fork-First**: Complete independence through repository ownership with all tools included
+- **Educational Code**: Every generated CSS teaches web standards through working examples
+- **Minimal Dependencies**: Clean, readable code you can understand and modify
+- **Standards-Based**: Uses web fundamentals with educational explanations, no proprietary approaches
+
+Rather than building a platform to keep users engaged, we provide tools that help you graduate to independence.
+
+### Reference Implementation
+
+Font Families serves as a working example of these principles:
+- **Hund-Press Integration**: Demonstrates optimal consumption patterns for dynamic font loading
+- **Export System**: Shows how to generate user-owned repositories with educational code
+- **Community Patterns**: Models scalable curation without centralized control
+- **Fork-Ready Tools**: All processing and generation tools travel with your fork
 
 ## Performance Best Practices
 
