@@ -1,0 +1,51 @@
+{
+  "subset": "min-chars",
+  "description": "Minimal character set for performance-critical contexts",
+  "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+,-./:;=?[]_ —–''\"\"…",
+  "unicodeRanges": [
+    "U+0020-007F",
+    "U+00A0",
+    "U+2013-2014",
+    "U+2018-2019",
+    "U+201C-201D",
+    "U+2026"
+  ],
+  "characterCount": 100,
+  "generatedAt": "2025-09-02T13:22:07.305Z",
+  "generatedBy": "font-families-subset-generator",
+  "method": "fonttools pyftsubset",
+  "files": [
+    {
+      "filename": "CrimsonPro-400-min.woff2",
+      "size": 6056,
+      "format": "woff2",
+      "command": "source .venv/bin/activate && pyftsubset \"fonts/open-fonts/crimson-pro/fonts/webfonts/CrimsonPro-Regular.woff2\" --text=\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\\\"#$%&'()*+,-./:;=?[]_ —–''\\\"\\\"…\" --output-file=\"_subsets/crimson-pro/min-chars/CrimsonPro-400-min.woff2\" --flavor=woff2 --desubroutinize --with-zopfli --layout-features-=kern --drop-tables+=GPOS,GSUB --no-hinting"
+    },
+    {
+      "filename": "CrimsonProVF-min.ttf",
+      "size": 35196,
+      "format": "ttf",
+      "command": "source .venv/bin/activate && pyftsubset \"fonts/open-fonts/crimson-pro/fonts/variable/CrimsonPro[wght].ttf\" --text=\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\\\"#$%&'()*+,-./:;=?[]_ —–''\\\"\\\"…\" --output-file=\"_subsets/crimson-pro/min-chars/CrimsonProVF-min.ttf\" --desubroutinize --layout-features-=kern --drop-tables+=GPOS,GSUB --no-hinting"
+    },
+    {
+      "filename": "CrimsonProVF-min.woff2",
+      "size": 20280,
+      "format": "woff2",
+      "command": "source .venv/bin/activate && pyftsubset \"fonts/open-fonts/crimson-pro/fonts/variable/CrimsonPro[wght].ttf\" --text=\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\\\"#$%&'()*+,-./:;=?[]_ —–''\\\"\\\"…\" --output-file=\"_subsets/crimson-pro/min-chars/CrimsonProVF-min.woff2\" --flavor=woff2 --desubroutinize --with-zopfli --layout-features-=kern --drop-tables+=GPOS,GSUB --no-hinting"
+    }
+  ],
+  "sourceFont": {
+    "family": "crimson-pro",
+    "name": "Crimson Pro",
+    "version": "Unknown",
+    "author": "The Crimson Pro Project Authors",
+    "license": "OFL-1.1",
+    "source": "../crimson-pro/"
+  },
+  "legalCompliance": {
+    "originalLicense": "OFL-1.1",
+    "derivativeStatus": "This is a derivative work optimized for web performance. Original font design and copyright belong to the original author.",
+    "attribution": "Original font design by The Crimson Pro Project Authors. Subsets generated for web optimization only.",
+    "reservedFontName": "Crimson Pro"
+  }
+}

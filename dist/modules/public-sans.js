@@ -13,11 +13,11 @@ export default {
   "license": "OFL-1.1",
   "description": "",
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.4.0/fonts/open-fonts/public-sans/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.4.0/fonts/open-fonts/public-sans/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.4.0/fonts/open-fonts/public-sans/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.4.0/fonts/open-fonts/public-sans/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.4.0/_subsets/public-sans/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.0/fonts/open-fonts/public-sans/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.0/fonts/open-fonts/public-sans/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.0/fonts/open-fonts/public-sans/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.0/fonts/open-fonts/public-sans/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.0/_subsets/public-sans/"
   },
   "faces": {
     "variable": {
@@ -226,7 +226,7 @@ export default {
           "PublicSansVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-01T20:56:59.194Z"
+      "generatedAt": "2025-09-02T13:28:13.382Z"
     }
   }
 };

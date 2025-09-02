@@ -1,11 +1,11 @@
 {
-  "family": "aspekta",
+  "family": "ibm-plex-serif",
   "originalFont": {
-    "name": "Aspekta",
-    "version": "2.100",
-    "author": "Ivo Dolenc",
+    "name": "IBM Plex Serif",
+    "version": "1.1.0",
+    "author": "IBM Corp.",
     "license": "OFL-1.1",
-    "source": "../aspekta/"
+    "source": "../ibm-plex-serif/"
   },
   "subsets": {
     "min-chars": {
@@ -21,12 +21,12 @@
       ],
       "characterCount": 100,
       "status": "generated",
-      "generatedAt": "2025-09-02T13:28:13.390Z",
+      "generatedAt": "2025-09-02T13:28:53.537Z",
       "targetFiles": {
-        "static": "Aspekta-400-min.woff2",
+        "static": "IBMPlexSerif-400-min.woff2",
         "variable": [
-          "AspektaVF-min.ttf",
-          "AspektaVF-min.woff2"
+          "IBMPlexSerifVF-min.ttf",
+          "IBMPlexSerifVF-min.woff2"
         ]
       },
       "note": "Minimal subset for font selection UI and performance-critical contexts"
@@ -55,7 +55,7 @@
   "legalCompliance": {
     "originalLicense": "OFL-1.1",
     "derivativeStatus": "Planned derivative works will comply with OFL-1.1",
-    "attribution": "Original font design by Ivo Dolenc. Subsets generated for web optimization only.",
-    "reservedFontName": "Aspekta"
+    "attribution": "Original font design by IBM Corp. Subsets generated for web optimization only.",
+    "reservedFontName": "Plex"
   }
 }

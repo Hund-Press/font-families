@@ -1,7 +1,7 @@
 ---
-slug: crimson-pro
-title: Crimson Pro
-description: "Crimson Pro font family"
+slug: ibm-plex-serif
+title: Plex Serif
+description: "The package of IBM’s typeface, IBM Plex Serif"
 ---
 
 # {{ title }}
@@ -9,8 +9,8 @@ description: "Crimson Pro font family"
 **{{ description }}**
 
 - **Designer**: Unknown
-- **License**: Unknown
-- **Version**: Unknown
+- **License**: OFL-1.1
+- **Version**: 1.1.0
 - **Character Sets**: Latin Extended support
 
 {{ fontData.description }}
@@ -58,7 +58,7 @@ body {
 
 ## License
 
-{{ title }} is licensed under **Unknown** by **Unknown**.
+{{ title }} is licensed under **OFL-1.1** by **Unknown**.
 
 Free to use in any project, commercial or personal.
 
@@ -88,8 +88,8 @@ Free to use in any project, commercial or personal.
   line-height: 1.4;
 }
 
-[data-font="crimson-pro"] {
-  font-family: 'Crimson Pro', system-ui, sans-serif;
+[data-font="ibm-plex-serif"] {
+  font-family: 'Plex Serif', system-ui, sans-serif;
 }
 
 [data-weight="400"] { font-weight: 400; }

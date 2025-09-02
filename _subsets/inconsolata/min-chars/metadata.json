@@ -1,0 +1,51 @@
+{
+  "subset": "min-chars",
+  "description": "Minimal character set for performance-critical contexts",
+  "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+,-./:;=?[]_ —–''\"\"…",
+  "unicodeRanges": [
+    "U+0020-007F",
+    "U+00A0",
+    "U+2013-2014",
+    "U+2018-2019",
+    "U+201C-201D",
+    "U+2026"
+  ],
+  "characterCount": 100,
+  "generatedAt": "2025-09-02T13:21:42.087Z",
+  "generatedBy": "font-families-subset-generator",
+  "method": "fonttools pyftsubset",
+  "files": [
+    {
+      "filename": "Inconsolata-400-min.woff2",
+      "size": 5248,
+      "format": "woff2",
+      "command": "source .venv/bin/activate && pyftsubset \"fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedRegular.woff2\" --text=\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\\\"#$%&'()*+,-./:;=?[]_ —–''\\\"\\\"…\" --output-file=\"_subsets/inconsolata/min-chars/Inconsolata-400-min.woff2\" --flavor=woff2 --desubroutinize --with-zopfli --layout-features-=kern --drop-tables+=GPOS,GSUB --no-hinting"
+    },
+    {
+      "filename": "InconsolataVF-min.ttf",
+      "size": 54760,
+      "format": "ttf",
+      "command": "source .venv/bin/activate && pyftsubset \"fonts/open-fonts/inconsolata/fonts/variable/Inconsolata[wdth,wght].ttf\" --text=\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\\\"#$%&'()*+,-./:;=?[]_ —–''\\\"\\\"…\" --output-file=\"_subsets/inconsolata/min-chars/InconsolataVF-min.ttf\" --desubroutinize --layout-features-=kern --drop-tables+=GPOS,GSUB --no-hinting"
+    },
+    {
+      "filename": "InconsolataVF-min.woff2",
+      "size": 34400,
+      "format": "woff2",
+      "command": "source .venv/bin/activate && pyftsubset \"fonts/open-fonts/inconsolata/fonts/variable/Inconsolata[wdth,wght].ttf\" --text=\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\\\"#$%&'()*+,-./:;=?[]_ —–''\\\"\\\"…\" --output-file=\"_subsets/inconsolata/min-chars/InconsolataVF-min.woff2\" --flavor=woff2 --desubroutinize --with-zopfli --layout-features-=kern --drop-tables+=GPOS,GSUB --no-hinting"
+    }
+  ],
+  "sourceFont": {
+    "family": "inconsolata",
+    "name": "Inconsolata",
+    "version": "Unknown",
+    "author": "The Inconsolata Project Authors",
+    "license": "OFL-1.1",
+    "source": "../inconsolata/"
+  },
+  "legalCompliance": {
+    "originalLicense": "OFL-1.1",
+    "derivativeStatus": "This is a derivative work optimized for web performance. Original font design and copyright belong to the original author.",
+    "attribution": "Original font design by The Inconsolata Project Authors. Subsets generated for web optimization only.",
+    "reservedFontName": "Inconsolata"
+  }
+}

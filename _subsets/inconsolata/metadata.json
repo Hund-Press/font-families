@@ -1,11 +1,11 @@
 {
-  "family": "aspekta",
+  "family": "inconsolata",
   "originalFont": {
-    "name": "Aspekta",
-    "version": "2.100",
-    "author": "Ivo Dolenc",
+    "name": "Inconsolata",
+    "version": "Unknown",
+    "author": "The Inconsolata Project Authors",
     "license": "OFL-1.1",
-    "source": "../aspekta/"
+    "source": "../inconsolata/"
   },
   "subsets": {
     "min-chars": {
@@ -21,12 +21,12 @@
       ],
       "characterCount": 100,
       "status": "generated",
-      "generatedAt": "2025-09-02T13:28:13.390Z",
+      "generatedAt": "2025-09-02T13:28:13.385Z",
       "targetFiles": {
-        "static": "Aspekta-400-min.woff2",
+        "static": "Inconsolata-400-min.woff2",
         "variable": [
-          "AspektaVF-min.ttf",
-          "AspektaVF-min.woff2"
+          "InconsolataVF-min.ttf",
+          "InconsolataVF-min.woff2"
         ]
       },
       "note": "Minimal subset for font selection UI and performance-critical contexts"
@@ -55,7 +55,7 @@
   "legalCompliance": {
     "originalLicense": "OFL-1.1",
     "derivativeStatus": "Planned derivative works will comply with OFL-1.1",
-    "attribution": "Original font design by Ivo Dolenc. Subsets generated for web optimization only.",
-    "reservedFontName": "Aspekta"
+    "attribution": "Original font design by The Inconsolata Project Authors. Subsets generated for web optimization only.",
+    "reservedFontName": "Inconsolata"
   }
 }
