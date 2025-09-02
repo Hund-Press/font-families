@@ -119,12 +119,86 @@ We respect and preserve original font maker attribution:
 
 ## Contributing
 
-This repository is primarily maintained as part of the Hund-Press font publishing system. Font additions follow a curation process that ensures:
+### Adding New Font Families
+
+To import new font families into the repository:
+
+1. **Add Font Files**: Place your font family directory in `/fonts/open-fonts/` with the following structure:
+   ```
+   fonts/open-fonts/your-font-name/
+   ├── package.json          # UFR metadata (name, version, author, license)
+   ├── LICENSE.txt           # Font's original license file
+   ├── README.md            # Font description and attribution
+   └── fonts/
+       ├── webfonts/        # WOFF2/WOFF web formats
+       │   ├── FontName-Regular.woff2
+       │   └── FontName-Bold.woff2
+       ├── ttf/             # TrueType fonts
+       │   ├── FontName-Regular.ttf
+       │   └── FontName-Bold.ttf
+       ├── otf/             # OpenType fonts (if available)
+       │   ├── FontName-Regular.otf
+       │   └── FontName-Bold.otf
+       └── variable/        # Variable fonts (if available)
+           └── FontNameVF.ttf
+   ```
+
+2. **Run the Scanner**: After adding your font directory, scan it to generate metadata:
+   ```bash
+   npm run scan
+   ```
+
+3. **Build and Generate**: Process the new fonts through the full build system:
+   ```bash
+   npm run build
+   ```
+
+4. **Verify Results**: Check that your font appears in:
+   - `dist/modules/{font-name}.js` - ES module with CDN paths
+   - `dist/api/catalog.json` - Global font catalog
+   - `dist/api/metadata/{font-name}.json` - Font-specific API data
+   - `_subsets/{font-name}/` - Generated performance subsets
+
+### Font Family Requirements
+
+Font additions follow a curation process that ensures:
 
 1. **Proper Licensing**: Only fonts with web-friendly licenses (OFL, MIT, etc.)
 2. **Quality Standards**: Professional-grade fonts suitable for web use
 3. **Complete Metadata**: UFR-compliant structure with full attribution
 4. **Format Optimization**: Web-optimized formats with proper subsetting
+
+### UFR Package.json Structure
+
+Each font family must include a `package.json` file with UFR metadata:
+
+```json
+{
+  "name": "your-font-name",
+  "version": "1.000",
+  "description": "Brief description of the font",
+  "author": "Font Designer Name",
+  "license": "OFL-1.1",
+  "homepage": "https://font-homepage.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/font-author/font-repo"
+  },
+  "keywords": ["font", "typeface", "sans-serif"],
+  "ufr": {
+    "family": "Your Font Name",
+    "category": "sans-serif",
+    "subsets": ["latin", "latin-ext"],
+    "axes": {
+      "wght": {
+        "min": 100,
+        "max": 900,
+        "default": 400
+      }
+    }
+  }
+}
+```
 
 ## API Access
 
