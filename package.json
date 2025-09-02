@@ -11,6 +11,7 @@
     "generate-modules": "node build-tools/generators/module-generator.js",
     "generate-catalog": "node build-tools/generators/catalog-generator.js",
     "generate-subsets": "node build-tools/generators/subset-generator.js",
+    "generate-docs": "node build-tools/generators/doc-generator.js",
     "build-site": "eleventy --config=eleventy.config.js",
     "dev": "npm run build && npm run build-site",
     "clean": "rm -rf dist .font-families-build",

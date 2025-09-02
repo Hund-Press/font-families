@@ -18,6 +18,7 @@ import { promisify } from 'util';
 import { scanFontFamilies } from '../scanners/ufr-scanner.js';
 import { generateModules } from '../generators/module-generator.js';
 import { generateCatalog } from '../generators/catalog-generator.js';
+import { generateDocumentation } from '../generators/doc-generator.js';
 import { validateLicensing } from '../scanners/validation.js';
 import { SubsetGenerator } from '../generators/subset-generator.js';
 
@@ -69,12 +70,16 @@ async function build() {
         console.log('[build] Phase 5: ES module generation');
         await generateAllModules(openFonts);
         
-        // Phase 6: Build catalog site (open fonts only)
-        console.log('[build] Phase 6: Catalog site generation');
+        // Phase 6: Generate documentation (open fonts only)
+        console.log('[build] Phase 6: Documentation generation');
+        await generateDocumentation();
+
+        // Phase 7: Build catalog site (open fonts only)
+        console.log('[build] Phase 7: Catalog site generation');
         await buildCatalogSite(openFonts);
         
-        // Phase 7: Final validation and summary
-        console.log('[build] Phase 7: Final validation');
+        // Phase 8: Final validation and summary
+        console.log('[build] Phase 8: Final validation');
         await finalValidation();
         
         console.log('[build] ✅ Build completed successfully!');
