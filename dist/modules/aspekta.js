@@ -15,11 +15,11 @@ export default {
   "license": "OFL-1.1",
   "description": "",
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.0/fonts/open-fonts/aspekta/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.0/fonts/open-fonts/aspekta/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.0/fonts/open-fonts/aspekta/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.0/fonts/open-fonts/aspekta/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.0/_subsets/aspekta/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.1/fonts/open-fonts/aspekta/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.1/fonts/open-fonts/aspekta/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.1/fonts/open-fonts/aspekta/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.1/fonts/open-fonts/aspekta/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.1/_subsets/aspekta/"
   },
   "faces": {
     "variable": {
@@ -225,7 +225,7 @@ export default {
           "AspektaVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-02T13:28:13.390Z"
+      "generatedAt": "2025-09-07T16:13:02.219Z"
     }
   }
 };

@@ -186,18 +186,24 @@ async function validateAllLicensing(openFonts, restrictedFonts) {
  * Generate all catalog files
  */
 async function generateAllCatalogs(openFonts, allFonts) {
+    // Get package version for catalog metadata
+    const packageJson = JSON.parse(await fs.readFile('./package.json', 'utf8'));
+    const version = packageJson.version;
+    
     // Generate public catalog (open fonts only)
     await generateCatalog(openFonts, path.join(BUILD_CONFIG.apiDir, 'catalog.json'), {
         includeRestrictedFonts: false,
         title: 'Font Families - Open Font Collection',
-        description: 'Curated collection of open-licensed fonts'
+        description: 'Curated collection of open-licensed fonts',
+        version
     });
     
     // Generate complete catalog (all fonts) 
     await generateCatalog(allFonts, path.join(BUILD_CONFIG.apiDir, 'complete-catalog.json'), {
         includeRestrictedFonts: true,
         title: 'Font Families - Complete Collection', 
-        description: 'Complete font collection including restricted-licensed fonts'
+        description: 'Complete font collection including restricted-licensed fonts',
+        version
     });
     
     // Generate metadata files for individual fonts

@@ -24423,8 +24423,8 @@ export default {
     }
   },
   "buildInfo": {
-    "timestamp": "2025-09-02T13:28:13.398Z",
-    "version": "1.5.0",
+    "timestamp": "2025-09-07T16:13:02.228Z",
+    "version": "1.5.1",
     "fontCount": 7
   }
 }
