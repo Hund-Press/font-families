@@ -10,6 +10,55 @@
 export default {
   "name": "league-mono",
   "slug": "league-mono",
+  "weight": {
+    "range": "100-800",
+    "total": 8,
+    "byFormat": {
+      "variable": {
+        "min": 100,
+        "max": 800,
+        "default": 400
+      },
+      "static": {
+        "min": 100,
+        "max": 800,
+        "instances": [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800
+        ]
+      }
+    },
+    "coverage": {
+      "variableOnly": [],
+      "staticOnly": [],
+      "both": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800
+      ]
+    }
+  },
+  "usage": {
+    "variable": {
+      "bestFor": "Dynamic weight adjustment, animations, responsive design",
+      "weightRange": "100-800"
+    },
+    "static": {
+      "bestFor": "Maximum weight variety, extreme weights, fallback support",
+      "weightRange": "100-800"
+    }
+  },
   "cdnBase": {
     "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/league-mono/fonts/variable/",
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/league-mono/fonts/webfonts/",
@@ -397,7 +446,7 @@ export default {
           "LeagueMonoVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-08T14:01:29.940Z"
+      "generatedAt": "2025-09-08T16:32:58.993Z"
     }
   }
 };

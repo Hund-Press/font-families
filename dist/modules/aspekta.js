@@ -14,6 +14,82 @@ export default {
   "author": "Ivo Dolenc",
   "license": "OFL-1.1",
   "description": "",
+  "weight": {
+    "range": "50-1000",
+    "total": 20,
+    "byFormat": {
+      "variable": {
+        "min": 100,
+        "max": 900,
+        "default": 400
+      },
+      "static": {
+        "min": 50,
+        "max": 1000,
+        "instances": [
+          50,
+          100,
+          150,
+          200,
+          250,
+          300,
+          350,
+          400,
+          450,
+          500,
+          550,
+          600,
+          650,
+          700,
+          750,
+          800,
+          850,
+          900,
+          950,
+          1000
+        ]
+      }
+    },
+    "coverage": {
+      "variableOnly": [],
+      "staticOnly": [
+        50,
+        950,
+        1000
+      ],
+      "both": [
+        100,
+        150,
+        200,
+        250,
+        300,
+        350,
+        400,
+        450,
+        500,
+        550,
+        600,
+        650,
+        700,
+        750,
+        800,
+        850,
+        900
+      ]
+    }
+  },
+  "usage": {
+    "variable": {
+      "bestFor": "Dynamic weight adjustment, animations, responsive design",
+      "weightRange": "100-900",
+      "limitations": "Extreme weights (950, 50, 1000) not available"
+    },
+    "static": {
+      "bestFor": "Maximum weight variety, extreme weights, fallback support",
+      "weightRange": "50-1000",
+      "advantages": "Includes all designed weights including extremes (950, 50, 1000)"
+    }
+  },
   "cdnBase": {
     "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/aspekta/fonts/variable/",
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/aspekta/fonts/webfonts/",
@@ -225,7 +301,7 @@ export default {
           "AspektaVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-08T14:01:29.943Z"
+      "generatedAt": "2025-09-08T16:32:58.996Z"
     }
   }
 };

@@ -109,6 +109,7 @@ async function extractUFRMetadata(familyPath, fontsDir) {
     }
     
     // 2. Extract from README.md (family description)
+    let readmeContent = null;
     const readmePaths = [
         path.join(fontsDir, 'README.md'),
         path.join(familyPath, 'README.md')
@@ -117,12 +118,11 @@ async function extractUFRMetadata(familyPath, fontsDir) {
     for (const readmePath of readmePaths) {
         try {
             await fs.access(readmePath);
-            const readme = await fs.readFile(readmePath, 'utf8');
-            metadata.description = extractDescription(readme);
+            readmeContent = await fs.readFile(readmePath, 'utf8');
             
             // Look for additional version info in README if not found in package.json
             if (!metadata.version) {
-                const versionMatch = readme.match(/version[:\s]+([\\d.]+)/i);
+                const versionMatch = readmeContent.match(/version[:\s]+([\\d.]+)/i);
                 if (versionMatch) {
                     metadata.version = versionMatch[1];
                     console.log(`[fonts] UFR version from README: ${metadata.version}`);
@@ -171,15 +171,72 @@ async function extractUFRMetadata(familyPath, fontsDir) {
         }
     }
     
+    // Extract description using multi-source approach after all metadata is collected
+    // Note: fontMetadata will be added later during font scanning
+    metadata.description = extractDescription(
+        readmeContent, 
+        metadata.packageJson, 
+        null, // fontMetadata will be available later in the process
+        metadata.name || 'Unknown'
+    );
+    
     return metadata;
 }
 
 /**
- * Extracts description from README.md content
+ * Enhanced description extraction with multiple fallback sources
+ * @param {string|null} readme - README.md file content
+ * @param {Object|null} packageJson - package.json data
+ * @param {Object|null} fontMetadata - Font metadata from analysis
+ * @param {string} fontName - Font family name for generic fallback
+ * @returns {string} Extracted description
+ */
+function extractDescription(readme = null, packageJson = null, fontMetadata = null, fontName = '') {
+    // Try README first
+    if (readme && typeof readme === 'string') {
+        const readmeDesc = extractDescriptionFromReadme(readme);
+        if (readmeDesc && readmeDesc.trim() && readmeDesc.trim().length > 10) {
+            return readmeDesc;
+        }
+    }
+    
+    // Try package.json description
+    if (packageJson?.description && typeof packageJson.description === 'string') {
+        const desc = packageJson.description.trim();
+        if (desc.length > 10) { // Avoid generic/empty descriptions
+            return desc.substring(0, 200);
+        }
+    }
+    
+    // Try multiple package.json fields
+    const packageFields = ['description', 'summary', 'tagline', 'about'];
+    for (const field of packageFields) {
+        if (packageJson?.[field] && typeof packageJson[field] === 'string') {
+            const desc = packageJson[field].trim();
+            if (desc.length > 10) {
+                return desc.substring(0, 200);
+            }
+        }
+    }
+    
+    // Try font metadata description (from font file itself)
+    if (fontMetadata?.description && typeof fontMetadata.description === 'string') {
+        const desc = fontMetadata.description.trim();
+        if (desc.length > 10) {
+            return desc.substring(0, 200);
+        }
+    }
+    
+    // Always generate enhanced description as fallback
+    return generateGenericDescription(fontName, fontMetadata);
+}
+
+/**
+ * Extract description from README.md content (original function)
  * @param {string} readme - README.md file content
  * @returns {string} Extracted description
  */
-function extractDescription(readme) {
+function extractDescriptionFromReadme(readme) {
     // Extract first paragraph or content before first heading
     const lines = readme.split('\\n');
     const descriptionLines = [];
@@ -202,6 +259,103 @@ function extractDescription(readme) {
     }
     
     return descriptionLines.join(' ').substring(0, 200); // Truncate if too long
+}
+
+/**
+ * Generate enhanced description based on font characteristics
+ * @param {string} fontName - Font family name
+ * @param {Object|null} fontMetadata - Font metadata from analysis
+ * @returns {string} Enhanced description
+ */
+function generateGenericDescription(fontName, fontMetadata = null) {
+    const cleanName = fontName.charAt(0).toUpperCase() + fontName.slice(1).replace(/-/g, ' ');
+    
+    // Analyze font characteristics to generate better description
+    if (fontMetadata) {
+        const hasVariable = Object.keys(fontMetadata.variable || {}).length > 0;
+        const staticCount = Object.keys(fontMetadata.static || {}).length;
+        const hasMultipleWeights = staticCount > 4;
+        
+        // Enhanced type inference from name patterns
+        let typeDescription = 'font family';
+        let styleHints = [];
+        
+        const nameLower = fontName.toLowerCase();
+        
+        // Primary classification
+        if (nameLower.includes('mono') || nameLower.includes('code') || nameLower.includes('terminal')) {
+            typeDescription = 'monospace font family';
+            styleHints.push('ideal for code and terminal use');
+        } else if (nameLower.includes('serif') && !nameLower.includes('sans')) {
+            typeDescription = 'serif font family';
+            styleHints.push('traditional and readable for body text');
+        } else if (nameLower.includes('sans') || nameLower.includes('gothic')) {
+            typeDescription = 'sans-serif font family';
+            styleHints.push('clean and modern');
+        } else if (nameLower.includes('display') || nameLower.includes('headline') || nameLower.includes('title')) {
+            typeDescription = 'display font family';
+            styleHints.push('designed for headlines and large text');
+        } else if (nameLower.includes('condensed') || nameLower.includes('compressed')) {
+            typeDescription = 'condensed font family';
+            styleHints.push('space-efficient design');
+        } else if (nameLower.includes('extended') || nameLower.includes('expanded')) {
+            typeDescription = 'extended font family';
+            styleHints.push('wide character spacing');
+        }
+        
+        // Technical features
+        let features = [];
+        if (hasVariable) {
+            features.push('variable font technology');
+        }
+        if (hasMultipleWeights && staticCount > 1) {
+            features.push(`${staticCount} weight${staticCount > 1 ? 's' : ''}`);
+        }
+        
+        // Weight range analysis
+        if (fontMetadata.static && Object.keys(fontMetadata.static).length > 0) {
+            const weights = Object.values(fontMetadata.static)
+                .map(f => f.weight)
+                .filter(w => typeof w === 'number');
+            
+            if (weights.length > 0) {
+                const minWeight = Math.min(...weights);
+                const maxWeight = Math.max(...weights);
+                
+                if (minWeight <= 200) {
+                    styleHints.push('includes thin/light weights');
+                }
+                if (maxWeight >= 800) {
+                    styleHints.push('includes bold/heavy weights');
+                }
+            }
+        }
+        
+        // Construct description
+        let description = `${cleanName} ${typeDescription}`;
+        
+        if (features.length > 0) {
+            description += ` with ${features.join(' and ')}`;
+        }
+        
+        if (styleHints.length > 0) {
+            description += `. ${styleHints[0].charAt(0).toUpperCase() + styleHints[0].slice(1)}`;
+        }
+        
+        return description;
+    }
+    
+    // Fallback for fonts without metadata
+    const nameLower = fontName.toLowerCase();
+    if (nameLower.includes('mono')) {
+        return `${cleanName} monospace font family for code and terminal applications`;
+    } else if (nameLower.includes('serif') && !nameLower.includes('sans')) {
+        return `${cleanName} serif font family with traditional character design`;
+    } else if (nameLower.includes('sans')) {
+        return `${cleanName} sans-serif font family with clean, modern styling`;
+    }
+    
+    return `${cleanName} font family`;
 }
 
 /**
@@ -282,6 +436,17 @@ async function scanUFRFamily(familyPath, folderName) {
         }
     }
     
+    // Enhance description with font metadata now that fonts are scanned
+    if (!familyData.description || familyData.description.endsWith('font family')) {
+        const metadata = await extractUFRMetadata(familyPath, fontsDir);
+        familyData.description = extractDescription(
+            null, // README was already processed in extractUFRMetadata
+            metadata.packageJson,
+            familyData, // Now we have complete font metadata
+            familyData.name
+        );
+    }
+    
     return familyData;
 }
 
@@ -338,6 +503,14 @@ async function scanGenericFamily(familyPath, folderName) {
             console.error(`Error processing generic font file ${fontFile}:`, err);
         }
     }
+    
+    // Add enhanced description for generic fonts
+    familyData.description = extractDescription(
+        null, // No README for generic fonts
+        null, // No package.json for generic fonts
+        familyData, // Use analyzed font metadata
+        familyData.name
+    );
     
     return familyData;
 }

@@ -13,6 +13,20 @@ export default {
   "version": "1.1.0",
   "license": "OFL-1.1",
   "description": "",
+  "weight": {
+    "range": "Unknown",
+    "total": 0,
+    "byFormat": {
+      "variable": null,
+      "static": null
+    },
+    "coverage": {
+      "variableOnly": [],
+      "staticOnly": [],
+      "both": []
+    }
+  },
+  "usage": null,
   "cdnBase": {
     "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/ibm/fonts/variable/",
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/ibm/fonts/webfonts/",

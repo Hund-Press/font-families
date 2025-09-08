@@ -11,6 +11,57 @@ export default {
     "slug": "public-sans",
     "license": "OFL-1.1",
     "description": "",
+    "weight": {
+      "range": "100-900",
+      "total": 9,
+      "byFormat": {
+        "variable": {
+          "min": 100,
+          "max": 900,
+          "default": 400
+        },
+        "static": {
+          "min": 100,
+          "max": 900,
+          "instances": [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900
+          ]
+        }
+      },
+      "coverage": {
+        "variableOnly": [],
+        "staticOnly": [],
+        "both": [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900
+        ]
+      }
+    },
+    "usage": {
+      "variable": {
+        "bestFor": "Dynamic weight adjustment, animations, responsive design",
+        "weightRange": "100-900"
+      },
+      "static": {
+        "bestFor": "Maximum weight variety, extreme weights, fallback support",
+        "weightRange": "100-900"
+      }
+    },
     "cdnBase": {
       "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/public-sans/fonts/variable/",
       "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/public-sans/fonts/webfonts/",
@@ -210,6 +261,55 @@ export default {
   "league-mono": {
     "name": "league-mono",
     "slug": "league-mono",
+    "weight": {
+      "range": "100-800",
+      "total": 8,
+      "byFormat": {
+        "variable": {
+          "min": 100,
+          "max": 800,
+          "default": 400
+        },
+        "static": {
+          "min": 100,
+          "max": 800,
+          "instances": [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800
+          ]
+        }
+      },
+      "coverage": {
+        "variableOnly": [],
+        "staticOnly": [],
+        "both": [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800
+        ]
+      }
+    },
+    "usage": {
+      "variable": {
+        "bestFor": "Dynamic weight adjustment, animations, responsive design",
+        "weightRange": "100-800"
+      },
+      "static": {
+        "bestFor": "Maximum weight variety, extreme weights, fallback support",
+        "weightRange": "100-800"
+      }
+    },
     "cdnBase": {
       "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/league-mono/fonts/variable/",
       "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/league-mono/fonts/webfonts/",
@@ -584,6 +684,57 @@ export default {
     "slug": "inconsolata",
     "license": "OFL-1.1",
     "description": "",
+    "weight": {
+      "range": "100-900",
+      "total": 9,
+      "byFormat": {
+        "variable": {
+          "min": 100,
+          "max": 900,
+          "default": 400
+        },
+        "static": {
+          "min": 100,
+          "max": 900,
+          "instances": [
+            100,
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900
+          ]
+        }
+      },
+      "coverage": {
+        "variableOnly": [],
+        "staticOnly": [],
+        "both": [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900
+        ]
+      }
+    },
+    "usage": {
+      "variable": {
+        "bestFor": "Dynamic weight adjustment, animations, responsive design",
+        "weightRange": "100-900"
+      },
+      "static": {
+        "bestFor": "Maximum weight variety, extreme weights, fallback support",
+        "weightRange": "100-900"
+      }
+    },
     "cdnBase": {
       "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/inconsolata/fonts/variable/",
       "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/inconsolata/fonts/webfonts/",
@@ -1283,6 +1434,20 @@ export default {
     "version": "1.1.0",
     "license": "OFL-1.1",
     "description": "",
+    "weight": {
+      "range": "Unknown",
+      "total": 0,
+      "byFormat": {
+        "variable": null,
+        "static": null
+      },
+      "coverage": {
+        "variableOnly": [],
+        "staticOnly": [],
+        "both": []
+      }
+    },
+    "usage": null,
     "cdnBase": {
       "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/ibm/fonts/variable/",
       "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/ibm/fonts/webfonts/",
@@ -1300,6 +1465,55 @@ export default {
     "slug": "crimson-pro",
     "license": "OFL-1.1",
     "description": "",
+    "weight": {
+      "range": "200-900",
+      "total": 8,
+      "byFormat": {
+        "variable": {
+          "min": 200,
+          "max": 900,
+          "default": 400
+        },
+        "static": {
+          "min": 200,
+          "max": 900,
+          "instances": [
+            200,
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900
+          ]
+        }
+      },
+      "coverage": {
+        "variableOnly": [],
+        "staticOnly": [],
+        "both": [
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900
+        ]
+      }
+    },
+    "usage": {
+      "variable": {
+        "bestFor": "Dynamic weight adjustment, animations, responsive design",
+        "weightRange": "200-900"
+      },
+      "static": {
+        "bestFor": "Maximum weight variety, extreme weights, fallback support",
+        "weightRange": "200-900"
+      }
+    },
     "cdnBase": {
       "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/crimson-pro/fonts/variable/",
       "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/crimson-pro/fonts/webfonts/",
@@ -1487,6 +1701,35 @@ export default {
     "author": "Braille Institute of America",
     "license": "OFL-1.1",
     "description": "",
+    "weight": {
+      "range": "400-700",
+      "total": 2,
+      "byFormat": {
+        "variable": null,
+        "static": {
+          "min": 400,
+          "max": 700,
+          "instances": [
+            400,
+            700
+          ]
+        }
+      },
+      "coverage": {
+        "variableOnly": [],
+        "staticOnly": [
+          400,
+          700
+        ],
+        "both": []
+      }
+    },
+    "usage": {
+      "static": {
+        "bestFor": "Maximum weight variety, extreme weights, fallback support",
+        "weightRange": "400-700"
+      }
+    },
     "cdnBase": {
       "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/atkinson-hyperlegible/fonts/variable/",
       "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/",
@@ -1539,6 +1782,82 @@ export default {
     "author": "Ivo Dolenc",
     "license": "OFL-1.1",
     "description": "",
+    "weight": {
+      "range": "50-1000",
+      "total": 20,
+      "byFormat": {
+        "variable": {
+          "min": 100,
+          "max": 900,
+          "default": 400
+        },
+        "static": {
+          "min": 50,
+          "max": 1000,
+          "instances": [
+            50,
+            100,
+            150,
+            200,
+            250,
+            300,
+            350,
+            400,
+            450,
+            500,
+            550,
+            600,
+            650,
+            700,
+            750,
+            800,
+            850,
+            900,
+            950,
+            1000
+          ]
+        }
+      },
+      "coverage": {
+        "variableOnly": [],
+        "staticOnly": [
+          50,
+          950,
+          1000
+        ],
+        "both": [
+          100,
+          150,
+          200,
+          250,
+          300,
+          350,
+          400,
+          450,
+          500,
+          550,
+          600,
+          650,
+          700,
+          750,
+          800,
+          850,
+          900
+        ]
+      }
+    },
+    "usage": {
+      "variable": {
+        "bestFor": "Dynamic weight adjustment, animations, responsive design",
+        "weightRange": "100-900",
+        "limitations": "Extreme weights (950, 50, 1000) not available"
+      },
+      "static": {
+        "bestFor": "Maximum weight variety, extreme weights, fallback support",
+        "weightRange": "50-1000",
+        "advantages": "Includes all designed weights including extremes (950, 50, 1000)"
+      }
+    },
     "cdnBase": {
       "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/aspekta/fonts/variable/",
       "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/aspekta/fonts/webfonts/",
@@ -1740,6 +2059,57 @@ export const publicSans = {
   "slug": "public-sans",
   "license": "OFL-1.1",
   "description": "",
+  "weight": {
+    "range": "100-900",
+    "total": 9,
+    "byFormat": {
+      "variable": {
+        "min": 100,
+        "max": 900,
+        "default": 400
+      },
+      "static": {
+        "min": 100,
+        "max": 900,
+        "instances": [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900
+        ]
+      }
+    },
+    "coverage": {
+      "variableOnly": [],
+      "staticOnly": [],
+      "both": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900
+      ]
+    }
+  },
+  "usage": {
+    "variable": {
+      "bestFor": "Dynamic weight adjustment, animations, responsive design",
+      "weightRange": "100-900"
+    },
+    "static": {
+      "bestFor": "Maximum weight variety, extreme weights, fallback support",
+      "weightRange": "100-900"
+    }
+  },
   "cdnBase": {
     "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/public-sans/fonts/variable/",
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/public-sans/fonts/webfonts/",
@@ -1938,6 +2308,55 @@ export const publicSans = {
 };\n\nexport const leagueMono = {
   "name": "league-mono",
   "slug": "league-mono",
+  "weight": {
+    "range": "100-800",
+    "total": 8,
+    "byFormat": {
+      "variable": {
+        "min": 100,
+        "max": 800,
+        "default": 400
+      },
+      "static": {
+        "min": 100,
+        "max": 800,
+        "instances": [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800
+        ]
+      }
+    },
+    "coverage": {
+      "variableOnly": [],
+      "staticOnly": [],
+      "both": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800
+      ]
+    }
+  },
+  "usage": {
+    "variable": {
+      "bestFor": "Dynamic weight adjustment, animations, responsive design",
+      "weightRange": "100-800"
+    },
+    "static": {
+      "bestFor": "Maximum weight variety, extreme weights, fallback support",
+      "weightRange": "100-800"
+    }
+  },
   "cdnBase": {
     "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/league-mono/fonts/variable/",
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/league-mono/fonts/webfonts/",
@@ -2311,6 +2730,57 @@ export const publicSans = {
   "slug": "inconsolata",
   "license": "OFL-1.1",
   "description": "",
+  "weight": {
+    "range": "100-900",
+    "total": 9,
+    "byFormat": {
+      "variable": {
+        "min": 100,
+        "max": 900,
+        "default": 400
+      },
+      "static": {
+        "min": 100,
+        "max": 900,
+        "instances": [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900
+        ]
+      }
+    },
+    "coverage": {
+      "variableOnly": [],
+      "staticOnly": [],
+      "both": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900
+      ]
+    }
+  },
+  "usage": {
+    "variable": {
+      "bestFor": "Dynamic weight adjustment, animations, responsive design",
+      "weightRange": "100-900"
+    },
+    "static": {
+      "bestFor": "Maximum weight variety, extreme weights, fallback support",
+      "weightRange": "100-900"
+    }
+  },
   "cdnBase": {
     "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/inconsolata/fonts/variable/",
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/inconsolata/fonts/webfonts/",
@@ -3009,6 +3479,20 @@ export const publicSans = {
   "version": "1.1.0",
   "license": "OFL-1.1",
   "description": "",
+  "weight": {
+    "range": "Unknown",
+    "total": 0,
+    "byFormat": {
+      "variable": null,
+      "static": null
+    },
+    "coverage": {
+      "variableOnly": [],
+      "staticOnly": [],
+      "both": []
+    }
+  },
+  "usage": null,
   "cdnBase": {
     "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/ibm/fonts/variable/",
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/ibm/fonts/webfonts/",
@@ -3025,6 +3509,55 @@ export const publicSans = {
   "slug": "crimson-pro",
   "license": "OFL-1.1",
   "description": "",
+  "weight": {
+    "range": "200-900",
+    "total": 8,
+    "byFormat": {
+      "variable": {
+        "min": 200,
+        "max": 900,
+        "default": 400
+      },
+      "static": {
+        "min": 200,
+        "max": 900,
+        "instances": [
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900
+        ]
+      }
+    },
+    "coverage": {
+      "variableOnly": [],
+      "staticOnly": [],
+      "both": [
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900
+      ]
+    }
+  },
+  "usage": {
+    "variable": {
+      "bestFor": "Dynamic weight adjustment, animations, responsive design",
+      "weightRange": "200-900"
+    },
+    "static": {
+      "bestFor": "Maximum weight variety, extreme weights, fallback support",
+      "weightRange": "200-900"
+    }
+  },
   "cdnBase": {
     "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/crimson-pro/fonts/variable/",
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/crimson-pro/fonts/webfonts/",
@@ -3211,6 +3744,35 @@ export const publicSans = {
   "author": "Braille Institute of America",
   "license": "OFL-1.1",
   "description": "",
+  "weight": {
+    "range": "400-700",
+    "total": 2,
+    "byFormat": {
+      "variable": null,
+      "static": {
+        "min": 400,
+        "max": 700,
+        "instances": [
+          400,
+          700
+        ]
+      }
+    },
+    "coverage": {
+      "variableOnly": [],
+      "staticOnly": [
+        400,
+        700
+      ],
+      "both": []
+    }
+  },
+  "usage": {
+    "static": {
+      "bestFor": "Maximum weight variety, extreme weights, fallback support",
+      "weightRange": "400-700"
+    }
+  },
   "cdnBase": {
     "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/atkinson-hyperlegible/fonts/variable/",
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/",
@@ -3262,6 +3824,82 @@ export const publicSans = {
   "author": "Ivo Dolenc",
   "license": "OFL-1.1",
   "description": "",
+  "weight": {
+    "range": "50-1000",
+    "total": 20,
+    "byFormat": {
+      "variable": {
+        "min": 100,
+        "max": 900,
+        "default": 400
+      },
+      "static": {
+        "min": 50,
+        "max": 1000,
+        "instances": [
+          50,
+          100,
+          150,
+          200,
+          250,
+          300,
+          350,
+          400,
+          450,
+          500,
+          550,
+          600,
+          650,
+          700,
+          750,
+          800,
+          850,
+          900,
+          950,
+          1000
+        ]
+      }
+    },
+    "coverage": {
+      "variableOnly": [],
+      "staticOnly": [
+        50,
+        950,
+        1000
+      ],
+      "both": [
+        100,
+        150,
+        200,
+        250,
+        300,
+        350,
+        400,
+        450,
+        500,
+        550,
+        600,
+        650,
+        700,
+        750,
+        800,
+        850,
+        900
+      ]
+    }
+  },
+  "usage": {
+    "variable": {
+      "bestFor": "Dynamic weight adjustment, animations, responsive design",
+      "weightRange": "100-900",
+      "limitations": "Extreme weights (950, 50, 1000) not available"
+    },
+    "static": {
+      "bestFor": "Maximum weight variety, extreme weights, fallback support",
+      "weightRange": "50-1000",
+      "advantages": "Includes all designed weights including extremes (950, 50, 1000)"
+    }
+  },
   "cdnBase": {
     "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/aspekta/fonts/variable/",
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/aspekta/fonts/webfonts/",

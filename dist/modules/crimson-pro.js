@@ -12,6 +12,55 @@ export default {
   "slug": "crimson-pro",
   "license": "OFL-1.1",
   "description": "",
+  "weight": {
+    "range": "200-900",
+    "total": 8,
+    "byFormat": {
+      "variable": {
+        "min": 200,
+        "max": 900,
+        "default": 400
+      },
+      "static": {
+        "min": 200,
+        "max": 900,
+        "instances": [
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900
+        ]
+      }
+    },
+    "coverage": {
+      "variableOnly": [],
+      "staticOnly": [],
+      "both": [
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900
+      ]
+    }
+  },
+  "usage": {
+    "variable": {
+      "bestFor": "Dynamic weight adjustment, animations, responsive design",
+      "weightRange": "200-900"
+    },
+    "static": {
+      "bestFor": "Maximum weight variety, extreme weights, fallback support",
+      "weightRange": "200-900"
+    }
+  },
   "cdnBase": {
     "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/crimson-pro/fonts/variable/",
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/crimson-pro/fonts/webfonts/",
@@ -210,7 +259,7 @@ export default {
           "CrimsonProVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-08T14:01:29.942Z"
+      "generatedAt": "2025-09-08T16:32:58.995Z"
     }
   }
 };

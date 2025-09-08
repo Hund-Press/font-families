@@ -80,6 +80,12 @@ async function generateFamilyModuleContent(familyData, cdnBaseUrl, repoVersion =
         license: familyData.license || familyData.licenseType,
         description: familyData.description,
         
+        // ENHANCED: Ground truth weight information by format
+        weight: generateWeightInfo(familyData),
+        
+        // ENHANCED: Consumer usage guidance
+        usage: generateUsageGuidance(familyData),
+        
         // CDN configuration for file access
         cdnBase: generateCdnPaths(familyData, cdnBaseUrl, repoVersion),
         
@@ -101,6 +107,258 @@ async function generateFamilyModuleContent(familyData, cdnBaseUrl, repoVersion =
 
 export default ${JSON.stringify(transformedData, null, 2)};
 `;
+}
+
+/**
+ * Generate contextual weight information exposing format-specific capabilities
+ * @param {Object} familyData - Font family data
+ * @returns {Object} Contextual weight information
+ */
+function generateWeightInfo(familyData) {
+    try {
+        // Collect static weights with deduplication
+        const allStaticWeights = Object.values(familyData.static || {})
+            .map(font => font?.weight)
+            .filter(w => typeof w === 'number' && w > 0 && w <= 1000); // Valid weight range
+        
+        // Deduplicate weights - same weight can exist in multiple styles (normal, italic)
+        const staticWeights = [...new Set(allStaticWeights)].sort((a, b) => a - b);
+        
+        // Get variable font weight range with error handling
+        let variableRange = null;
+        const variableFonts = Object.values(familyData.variable || {});
+        if (variableFonts.length > 0 && variableFonts[0]?.weight) {
+            const range = variableFonts[0].weight;
+            if (range && typeof range.min === 'number' && typeof range.max === 'number') {
+                variableRange = range;
+            }
+        }
+    
+        // Calculate coverage analysis
+        const coverage = calculateWeightCoverage(staticWeights, variableRange);
+        
+        // Add data validation warnings
+        validateFontConfiguration(familyData.name || 'Unknown', staticWeights, variableRange);
+        
+        const weightInfo = {
+            // Quick reference - overall family capability
+            range: staticWeights.length > 0 ? `${Math.min(...staticWeights)}-${Math.max(...staticWeights)}` : 'Unknown',
+            total: staticWeights.length,
+            
+            // Detailed breakdown by format
+            byFormat: {
+                variable: variableRange ? {
+                    min: variableRange.min,
+                    max: variableRange.max,
+                    default: variableRange.default || 400
+                } : null,
+                static: staticWeights.length > 0 ? {
+                    min: Math.min(...staticWeights),
+                    max: Math.max(...staticWeights),
+                    instances: staticWeights
+                } : null
+            },
+            
+            // Consumer guidance - which weights are available where
+            coverage
+        };
+        
+        return weightInfo;
+    } catch (error) {
+        console.error(`[modules] Error generating weight info for ${familyData?.name || 'Unknown'}:`, error.message);
+        
+        // Return safe fallback structure
+        return {
+            range: 'Unknown',
+            total: 0,
+            byFormat: {
+                variable: null,
+                static: null
+            },
+            coverage: {
+                variableOnly: [],
+                staticOnly: [],
+                both: []
+            }
+        };
+    }
+}
+
+/**
+ * Calculate weight coverage analysis between formats
+ * @param {number[]} staticWeights - Array of static font weights
+ * @param {Object|null} variableRange - Variable font range or null
+ * @returns {Object} Coverage analysis
+ */
+function calculateWeightCoverage(staticWeights, variableRange) {
+    if (!variableRange || staticWeights.length === 0) {
+        return {
+            variableOnly: [],
+            staticOnly: staticWeights,
+            both: []
+        };
+    }
+    
+    const { min: varMin, max: varMax } = variableRange;
+    
+    const staticOnly = staticWeights.filter(weight => weight < varMin || weight > varMax);
+    const both = staticWeights.filter(weight => weight >= varMin && weight <= varMax);
+    
+    return {
+        variableOnly: [], // Variable fonts don't have exclusive weights in our system
+        staticOnly,
+        both
+    };
+}
+
+/**
+ * Generate usage guidance for consumers
+ * @param {Object} familyData - Font family data
+ * @returns {Object} Usage guidance
+ */
+function generateUsageGuidance(familyData) {
+    try {
+        // Safely check for font formats
+        const hasVariable = familyData?.variable && Object.keys(familyData.variable).length > 0;
+        const hasStatic = familyData?.static && Object.keys(familyData.static).length > 0;
+    
+    if (!hasVariable && !hasStatic) {
+        return null;
+    }
+    
+    const guidance = {};
+    
+    if (hasVariable) {
+        const variableRange = Object.values(familyData.variable)[0]?.weight;
+        guidance.variable = {
+            bestFor: "Dynamic weight adjustment, animations, responsive design",
+            weightRange: variableRange ? `${variableRange.min}-${variableRange.max}` : 'Unknown'
+        };
+        
+        // Add limitations if static fonts extend beyond variable range
+        const staticWeights = Object.values(familyData.static || {})
+            .map(font => font.weight)
+            .filter(w => typeof w === 'number');
+        
+        if (variableRange && staticWeights.length > 0) {
+            const staticMin = Math.min(...staticWeights);
+            const staticMax = Math.max(...staticWeights);
+            
+            if (staticMin < variableRange.min || staticMax > variableRange.max) {
+                const extremeWeights = staticWeights.filter(w => 
+                    w < variableRange.min || w > variableRange.max
+                );
+                guidance.variable.limitations = `Extreme weights (${extremeWeights.join(', ')}) not available`;
+            }
+        }
+    }
+    
+    if (hasStatic) {
+        const staticWeights = Object.values(familyData.static || {})
+            .map(font => font.weight)
+            .filter(w => typeof w === 'number');
+        
+        guidance.static = {
+            bestFor: "Maximum weight variety, extreme weights, fallback support",
+            weightRange: staticWeights.length > 0 ? 
+                `${Math.min(...staticWeights)}-${Math.max(...staticWeights)}` : 'Unknown'
+        };
+        
+        // Add advantages if static extends beyond variable
+        if (hasVariable) {
+            const variableRange = Object.values(familyData.variable)[0]?.weight;
+            if (variableRange) {
+                const extremeWeights = staticWeights.filter(w => 
+                    w < variableRange.min || w > variableRange.max
+                );
+                if (extremeWeights.length > 0) {
+                    guidance.static.advantages = `Includes all designed weights including extremes (${extremeWeights.join(', ')})`;
+                }
+            }
+        }
+    }
+    
+    return guidance;
+    } catch (error) {
+        console.error(`[modules] Error generating usage guidance for ${familyData?.name || 'Unknown'}:`, error.message);
+        return null;
+    }
+}
+
+/**
+ * Validate font configuration and log warnings for unusual patterns
+ * @param {string} fontName - Font family name
+ * @param {number[]} staticWeights - Array of static font weights
+ * @param {Object|null} variableRange - Variable font range or null
+ */
+function validateFontConfiguration(fontName, staticWeights, variableRange) {
+    const warnings = [];
+    
+    // Check for empty font family
+    if (!staticWeights.length && !variableRange) {
+        warnings.push('No font files processed - font family appears empty');
+    }
+    
+    // Check for unusual weight ranges
+    if (staticWeights.length > 0) {
+        const minWeight = Math.min(...staticWeights);
+        const maxWeight = Math.max(...staticWeights);
+        
+        // Unusual weight ranges
+        if (minWeight < 50) {
+            warnings.push(`Extremely light weight detected (${minWeight}) - may not render well`);
+        }
+        if (maxWeight > 1000) {
+            warnings.push(`Extremely heavy weight detected (${maxWeight}) - may not render well`);
+        }
+        
+        // Single weight family (might be intentional)
+        if (staticWeights.length === 1) {
+            warnings.push(`Single weight family (${minWeight}) - consider adding more variants`);
+        }
+        
+        // Large weight gaps
+        const sortedWeights = [...staticWeights].sort((a, b) => a - b);
+        for (let i = 1; i < sortedWeights.length; i++) {
+            const gap = sortedWeights[i] - sortedWeights[i - 1];
+            if (gap > 200 && gap < 400) {
+                warnings.push(`Large weight gap detected: ${sortedWeights[i - 1]} to ${sortedWeights[i]}`);
+                break; // Only report first large gap
+            }
+        }
+    }
+    
+    // Check variable/static mismatches
+    if (variableRange && staticWeights.length > 0) {
+        const staticMin = Math.min(...staticWeights);
+        const staticMax = Math.max(...staticWeights);
+        
+        // Static extends beyond variable range
+        if (staticMin < variableRange.min || staticMax > variableRange.max) {
+            const extremeWeights = staticWeights.filter(w => 
+                w < variableRange.min || w > variableRange.max
+            );
+            warnings.push(`Variable font range (${variableRange.min}-${variableRange.max}) doesn't cover static extremes: ${extremeWeights.join(', ')}`);
+        }
+        
+        // Variable range with no static coverage
+        if (staticMin > variableRange.max || staticMax < variableRange.min) {
+            warnings.push(`Variable range (${variableRange.min}-${variableRange.max}) and static range (${staticMin}-${staticMax}) don't overlap`);
+        }
+    }
+    
+    // Check for variable font without static fallbacks
+    if (variableRange && staticWeights.length === 0) {
+        warnings.push('Variable font with no static fallbacks - consider adding static versions for broader browser support');
+    }
+    
+    // Log all warnings
+    if (warnings.length > 0) {
+        console.log(`[validation] ⚠️  ${fontName}:`);
+        warnings.forEach(warning => {
+            console.log(`[validation]    ${warning}`);
+        });
+    }
 }
 
 /**
@@ -265,6 +523,8 @@ export async function generateCombinedModule(fontFamilies, outputDir, cdnBaseUrl
             author: familyData.author,
             license: familyData.license || familyData.licenseType,
             description: familyData.description,
+            weight: generateWeightInfo(familyData),
+            usage: generateUsageGuidance(familyData),
             cdnBase: generateCdnPaths(familyData, cdnBaseUrl, repoVersion),
             faces: transformFontFaces(familyData)
         };

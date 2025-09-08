@@ -12,6 +12,57 @@ export default {
   "slug": "inconsolata",
   "license": "OFL-1.1",
   "description": "",
+  "weight": {
+    "range": "100-900",
+    "total": 9,
+    "byFormat": {
+      "variable": {
+        "min": 100,
+        "max": 900,
+        "default": 400
+      },
+      "static": {
+        "min": 100,
+        "max": 900,
+        "instances": [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900
+        ]
+      }
+    },
+    "coverage": {
+      "variableOnly": [],
+      "staticOnly": [],
+      "both": [
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900
+      ]
+    }
+  },
+  "usage": {
+    "variable": {
+      "bestFor": "Dynamic weight adjustment, animations, responsive design",
+      "weightRange": "100-900"
+    },
+    "static": {
+      "bestFor": "Maximum weight variety, extreme weights, fallback support",
+      "weightRange": "100-900"
+    }
+  },
   "cdnBase": {
     "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/inconsolata/fonts/variable/",
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/inconsolata/fonts/webfonts/",
@@ -723,7 +774,7 @@ export default {
           "InconsolataVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-08T14:01:29.941Z"
+      "generatedAt": "2025-09-08T16:32:58.994Z"
     }
   }
 };

@@ -14,6 +14,35 @@ export default {
   "author": "Braille Institute of America",
   "license": "OFL-1.1",
   "description": "",
+  "weight": {
+    "range": "400-700",
+    "total": 2,
+    "byFormat": {
+      "variable": null,
+      "static": {
+        "min": 400,
+        "max": 700,
+        "instances": [
+          400,
+          700
+        ]
+      }
+    },
+    "coverage": {
+      "variableOnly": [],
+      "staticOnly": [
+        400,
+        700
+      ],
+      "both": []
+    }
+  },
+  "usage": {
+    "static": {
+      "bestFor": "Maximum weight variety, extreme weights, fallback support",
+      "weightRange": "400-700"
+    }
+  },
   "cdnBase": {
     "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/atkinson-hyperlegible/fonts/variable/",
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/",
@@ -74,7 +103,7 @@ export default {
         "static": "AtkinsonHyperlegible-400-min.woff2",
         "variable": []
       },
-      "generatedAt": "2025-09-08T14:01:29.942Z"
+      "generatedAt": "2025-09-08T16:32:58.995Z"
     }
   }
 };
