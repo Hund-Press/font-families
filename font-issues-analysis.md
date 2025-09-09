@@ -316,8 +316,209 @@ export default {
 ✅ **Error Handling**: Robust fallbacks for edge cases and incomplete data
 ✅ **Consumer Guidance**: Clear format recommendations and usage scenarios
 
-### **Remaining Opportunities (Phase 3)**
-- **Language Support**: Surface the 18-script detection in consumer modules
-- **Stylistic Sets**: Extract ss01-ss14 OpenType features for advanced typography
-- **Subset Expansion**: Generate language-specific subsets beyond min-chars
-- **Performance Metrics**: File size analysis and loading recommendations
+### **Phase 3: Advanced Features (DETAILED IMPLEMENTATION PLAN)**
+
+#### **1. Language Support Exposure**
+**Current State**: System detects 18 scripts via `extractLanguageSupport()` in fontkit-analyzer.js but doesn't expose in consumer modules.
+
+**Implementation Strategy**:
+```javascript
+// Enhanced build-tools/scanners/fontkit-analyzer.js
+function extractLanguageSupport(font) {
+    const supportedScripts = new Set();
+    const supportedLanguages = [];
+    
+    // Script-to-language mapping
+    const scriptLanguageMap = {
+        'latn': ['en', 'es', 'fr', 'de', 'it', 'pt'],
+        'cyrl': ['ru', 'bg', 'sr', 'mk'],
+        'grek': ['el'],
+        'arab': ['ar', 'fa', 'ur']
+    };
+    
+    return {
+        scripts: Array.from(supportedScripts),
+        languages: supportedLanguages,
+        count: supportedScripts.size,
+        coverage: calculateCoveragePercentage(font)
+    };
+}
+```
+
+**Module Schema Addition**:
+```javascript
+"language": {
+    "scripts": ["latn", "cyrl", "grek"],
+    "languages": ["en", "es", "fr", "ru", "bg", "el"],
+    "totalScripts": 3,
+    "bestFor": "Multi-language European applications"
+}
+```
+
+#### **2. Stylistic Sets & OpenType Features**
+**Implementation Strategy**:
+```javascript
+// Enhanced build-tools/scanners/fontkit-analyzer.js
+function extractStylisticFeatures(font) {
+    const stylisticSets = {};
+    
+    // Extract ss01-ss20
+    for (let i = 1; i <= 20; i++) {
+        const ssTag = `ss${i.toString().padStart(2, '0')}`;
+        if (font.availableFeatures?.includes(ssTag)) {
+            stylisticSets[ssTag] = {
+                tag: ssTag,
+                name: `Stylistic Set ${i}`,
+                description: extractFeatureDescription(font, ssTag) || 'Alternative character forms',
+                affectedCharacters: getAffectedCharacters(font, ssTag)
+            };
+        }
+    }
+    
+    // Other OpenType features
+    const otherFeatures = ['liga', 'kern', 'frac', 'ordn', 'sups', 'subs'];
+    const availableFeatures = {};
+    
+    return { stylisticSets, openTypeFeatures: availableFeatures };
+}
+```
+
+**Module Schema Addition**:
+```javascript
+"typography": {
+    "stylisticSets": {
+        "ss01": {
+            "tag": "ss01",
+            "name": "Stylistic Set 1", 
+            "description": "Alternative 'a' and 'g' forms",
+            "affectedCharacters": ["a", "g"]
+        }
+    },
+    "openTypeFeatures": {
+        "liga": {
+            "tag": "liga",
+            "name": "Standard Ligatures",
+            "description": "Automatic ligature substitution"
+        }
+    },
+    "totalFeatures": 15
+}
+```
+
+#### **3. Advanced Subset Generation**
+**Implementation Strategy**:
+```javascript
+// Enhanced build-tools/generators/subset-generator.js
+const ENHANCED_CONFIG = {
+    characterSets: {
+        'min-chars': { /* existing */ },
+        
+        'latin-extended': {
+            name: 'Latin Extended',
+            description: 'Extended Latin characters for European languages',
+            unicodeRanges: ['U+0100-017F', 'U+0180-024F', 'U+1E00-1EFF'],
+            targetLanguages: ['cs', 'pl', 'ro', 'hu', 'sk'],
+            characterCount: 384
+        },
+        
+        'cyrillic': {
+            name: 'Cyrillic',
+            description: 'Cyrillic script for Slavic languages',
+            unicodeRanges: ['U+0400-04FF', 'U+0500-052F'],
+            targetLanguages: ['ru', 'bg', 'sr', 'mk', 'be'],
+            characterCount: 256
+        },
+        
+        'numbers-symbols': {
+            name: 'Numbers & Symbols',
+            description: 'Numeric data and financial symbols',
+            unicodeRanges: ['U+0030-0039', 'U+00A2-00A5', 'U+20A0-20CF'],
+            characterCount: 64,
+            bestFor: 'dashboards, financial data, charts'
+        }
+    }
+};
+
+// Dynamic subset generation based on font language support
+function generateSubsetsForFont(fontAnalysis, fontName) {
+    const subsets = { 'min-chars': ENHANCED_CONFIG.characterSets['min-chars'] };
+    
+    if (fontAnalysis.languageSupport.scripts.includes('latn')) {
+        subsets['latin-extended'] = generateSubset(fontName, 'latin-extended');
+    }
+    
+    if (fontAnalysis.languageSupport.scripts.includes('cyrl')) {
+        subsets['cyrillic'] = generateSubset(fontName, 'cyrillic');
+    }
+    
+    return subsets;
+}
+```
+
+#### **4. Performance Metrics & Loading Recommendations**
+**Implementation Strategy**:
+```javascript
+// New file: build-tools/scanners/performance-analyzer.js
+function analyzePerformanceMetrics(fontFiles, fontAnalysis) {
+    const metrics = {};
+    
+    // File size analysis
+    fontFiles.forEach(file => {
+        const stats = fs.statSync(file.path);
+        metrics[file.format] = {
+            fileSize: stats.size,
+            fileSizeFormatted: formatBytes(stats.size),
+            compressionRatio: calculateCompressionRatio(file),
+            loadTime: estimateLoadTime(stats.size)
+        };
+    });
+    
+    const recommendations = generateLoadingRecommendations(metrics, fontAnalysis);
+    
+    return {
+        fileSizes: metrics,
+        recommendations,
+        optimalLoading: determineOptimalLoadingStrategy(fontAnalysis)
+    };
+}
+```
+
+**Module Schema Addition**:
+```javascript
+"performance": {
+    "fileSizes": {
+        "variable": {
+            "fileSize": 156789,
+            "fileSizeFormatted": "153 KB",
+            "loadTime": "~47ms (3G)"
+        }
+    },
+    "recommendations": [
+        {
+            "strategy": "variable-first",
+            "reason": "Variable font is 60% smaller than static bundle",
+            "bestFor": "Most web applications"
+        }
+    ],
+    "optimalLoading": {
+        "primary": "variable",
+        "fallback": "static-core",
+        "preload": ["PublicSansVF.woff2"]
+    }
+}
+```
+
+#### **Implementation Order & Risk Assessment**
+1. **Language Support** (Low Risk, High Value) - Exposes existing detection
+2. **Stylistic Sets** (Medium Risk, Medium Value) - Requires OpenType feature parsing
+3. **Advanced Subsets** (High Risk, High Value) - Requires file generation infrastructure
+4. **Performance Metrics** (Medium Risk, High Value) - Requires external tooling integration
+
+#### **Testing Strategy**
+Each phase tested across existing font families:
+- **Aspekta**: Complex variable/static mismatch with 18 script support
+- **Public Sans**: Government font with consistent ranges + italics
+- **League Mono**: Multi-axis variable (weight + width) monospace
+- **Crimson Pro**: Serif with 200-900 range
+
+**Success Criteria**: Features work consistently across different font types and complexities without breaking existing functionality.
