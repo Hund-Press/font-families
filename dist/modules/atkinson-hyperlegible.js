@@ -72,28 +72,28 @@ export default {
     "variable": {},
     "static": {
       "AtkinsonHyperlegible-Regular": {
-        "name": "Atkinson-hyperlegible Regular",
+        "name": "Atkinson Hyperlegible Regular",
         "fileName": "AtkinsonHyperlegible-Regular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400
       },
-      "AtkinsonHyperlegible-Italic": {
-        "name": "Atkinson-hyperlegible Italic Italic",
+      "AtkinsonHyperlegible-Regular-Italic": {
+        "name": "Atkinson Hyperlegible Regular Italic",
         "fileName": "AtkinsonHyperlegible-Italic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 400
       },
-      "AtkinsonHyperlegible-BoldItalic": {
-        "name": "Atkinson-hyperlegible Bold Italic Italic",
+      "AtkinsonHyperlegible-Bold-Italic": {
+        "name": "Atkinson Hyperlegible Bold Italic",
         "fileName": "AtkinsonHyperlegible-BoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 700
       },
       "AtkinsonHyperlegible-Bold": {
-        "name": "Atkinson-hyperlegible Bold",
+        "name": "Atkinson Hyperlegible Bold",
         "fileName": "AtkinsonHyperlegible-Bold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -117,7 +117,7 @@ export default {
         "static": "AtkinsonHyperlegible-400-min.woff2",
         "variable": []
       },
-      "generatedAt": "2025-09-09T18:38:48.428Z"
+      "generatedAt": "2025-09-09T20:12:08.467Z"
     }
   }
 };

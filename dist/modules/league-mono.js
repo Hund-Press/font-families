@@ -89,8 +89,8 @@ export default {
   },
   "faces": {
     "variable": {
-      "VariableRegular[wdth,wght]": {
-        "name": "League-mono Variable - weight axis, width axis",
+      "LeagueMonoVariableRegular[wdth,wght]": {
+        "name": "League Mono Variable (weight, width)",
         "fileName": "LeagueMono-VF.ttf",
         "format": "truetype",
         "fontStyle": "normal",
@@ -126,72 +126,72 @@ export default {
       }
     },
     "static": {
-      "LeagueMono-WideUltraLight": {
-        "name": "League-mono 200",
+      "LeagueMono-UltraExpanded-ExtraLight": {
+        "name": "League Mono Ultra Expanded ExtraLight",
         "fileName": "LeagueMono-WideUltraLight.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 200,
         "fontStretch": "ultra-expanded"
       },
-      "LeagueMono-WideThin": {
-        "name": "League-mono 100",
+      "LeagueMono-UltraExpanded-Thin": {
+        "name": "League Mono Ultra Expanded Thin",
         "fileName": "LeagueMono-WideThin.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 100,
         "fontStretch": "ultra-expanded"
       },
-      "LeagueMono-WideSemiBold": {
-        "name": "League-mono 600",
+      "LeagueMono-UltraExpanded-SemiBold": {
+        "name": "League Mono Ultra Expanded SemiBold",
         "fileName": "LeagueMono-WideSemiBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 600,
         "fontStretch": "ultra-expanded"
       },
-      "LeagueMono-WideRegular": {
-        "name": "League-mono Regular",
+      "LeagueMono-UltraExpanded-Regular": {
+        "name": "League Mono Ultra Expanded Regular",
         "fileName": "LeagueMono-WideRegular.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 400,
         "fontStretch": "ultra-expanded"
       },
-      "LeagueMono-WideMedium": {
-        "name": "League-mono 500",
+      "LeagueMono-UltraExpanded-Medium": {
+        "name": "League Mono Ultra Expanded Medium",
         "fileName": "LeagueMono-WideMedium.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 500,
         "fontStretch": "ultra-expanded"
       },
-      "LeagueMono-WideLight": {
-        "name": "League-mono 300",
+      "LeagueMono-UltraExpanded-Light": {
+        "name": "League Mono Ultra Expanded Light",
         "fileName": "LeagueMono-WideLight.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 300,
         "fontStretch": "ultra-expanded"
       },
-      "LeagueMono-WideExtraBold": {
-        "name": "League-mono 800",
+      "LeagueMono-UltraExpanded-ExtraBold": {
+        "name": "League Mono Ultra Expanded ExtraBold",
         "fileName": "LeagueMono-WideExtraBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 800,
         "fontStretch": "ultra-expanded"
       },
-      "LeagueMono-WideBold": {
-        "name": "League-mono Bold",
+      "LeagueMono-UltraExpanded-Bold": {
+        "name": "League Mono Ultra Expanded Bold",
         "fileName": "LeagueMono-WideBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 700,
         "fontStretch": "ultra-expanded"
       },
-      "LeagueMono-UltraLight": {
-        "name": "League-mono 200",
+      "LeagueMono-ExtraLight": {
+        "name": "League Mono ExtraLight",
         "fileName": "LeagueMono-UltraLight.otf",
         "format": "opentype",
         "fontStyle": "normal",
@@ -199,7 +199,7 @@ export default {
         "fontStretch": "normal"
       },
       "LeagueMono-Thin": {
-        "name": "League-mono 100",
+        "name": "League Mono Thin",
         "fileName": "LeagueMono-Thin.otf",
         "format": "opentype",
         "fontStyle": "normal",
@@ -207,7 +207,7 @@ export default {
         "fontStretch": "normal"
       },
       "LeagueMono-SemiBold": {
-        "name": "League-mono 600",
+        "name": "League Mono SemiBold",
         "fileName": "LeagueMono-SemiBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
@@ -215,71 +215,71 @@ export default {
         "fontStretch": "normal"
       },
       "LeagueMono-Regular": {
-        "name": "League-mono Regular",
+        "name": "League Mono Regular",
         "fileName": "LeagueMono-Regular.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 400,
         "fontStretch": "normal"
       },
-      "LeagueMono-NarrowUltraLight": {
-        "name": "League-mono 200",
+      "LeagueMono-SemiCondensed-ExtraLight": {
+        "name": "League Mono Semi Condensed ExtraLight",
         "fileName": "LeagueMono-NarrowUltraLight.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 200,
         "fontStretch": "semi-condensed"
       },
-      "LeagueMono-NarrowThin": {
-        "name": "League-mono 100",
+      "LeagueMono-SemiCondensed-Thin": {
+        "name": "League Mono Semi Condensed Thin",
         "fileName": "LeagueMono-NarrowThin.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 100,
         "fontStretch": "semi-condensed"
       },
-      "LeagueMono-NarrowSemiBold": {
-        "name": "League-mono 600",
+      "LeagueMono-SemiCondensed-SemiBold": {
+        "name": "League Mono Semi Condensed SemiBold",
         "fileName": "LeagueMono-NarrowSemiBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 600,
         "fontStretch": "semi-condensed"
       },
-      "LeagueMono-NarrowRegular": {
-        "name": "League-mono Regular",
+      "LeagueMono-SemiCondensed-Regular": {
+        "name": "League Mono Semi Condensed Regular",
         "fileName": "LeagueMono-NarrowRegular.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 400,
         "fontStretch": "semi-condensed"
       },
-      "LeagueMono-NarrowMedium": {
-        "name": "League-mono 500",
+      "LeagueMono-SemiCondensed-Medium": {
+        "name": "League Mono Semi Condensed Medium",
         "fileName": "LeagueMono-NarrowMedium.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 500,
         "fontStretch": "semi-condensed"
       },
-      "LeagueMono-NarrowLight": {
-        "name": "League-mono 300",
+      "LeagueMono-SemiCondensed-Light": {
+        "name": "League Mono Semi Condensed Light",
         "fileName": "LeagueMono-NarrowLight.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 300,
         "fontStretch": "semi-condensed"
       },
-      "LeagueMono-NarrowExtraBold": {
-        "name": "League-mono 800",
+      "LeagueMono-SemiCondensed-ExtraBold": {
+        "name": "League Mono Semi Condensed ExtraBold",
         "fileName": "LeagueMono-NarrowExtraBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 800,
         "fontStretch": "semi-condensed"
       },
-      "LeagueMono-NarrowBold": {
-        "name": "League-mono Bold",
+      "LeagueMono-SemiCondensed-Bold": {
+        "name": "League Mono Semi Condensed Bold",
         "fileName": "LeagueMono-NarrowBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
@@ -287,7 +287,7 @@ export default {
         "fontStretch": "semi-condensed"
       },
       "LeagueMono-Medium": {
-        "name": "League-mono 500",
+        "name": "League Mono Medium",
         "fileName": "LeagueMono-Medium.otf",
         "format": "opentype",
         "fontStyle": "normal",
@@ -295,7 +295,7 @@ export default {
         "fontStretch": "normal"
       },
       "LeagueMono-Light": {
-        "name": "League-mono 300",
+        "name": "League Mono Light",
         "fileName": "LeagueMono-Light.otf",
         "format": "opentype",
         "fontStyle": "normal",
@@ -303,135 +303,135 @@ export default {
         "fontStretch": "normal"
       },
       "LeagueMono-ExtraBold": {
-        "name": "League-mono 800",
+        "name": "League Mono ExtraBold",
         "fileName": "LeagueMono-ExtraBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 800,
         "fontStretch": "normal"
       },
-      "LeagueMono-ExtendedUltraLight": {
-        "name": "League-mono 200",
+      "LeagueMono-Expanded-ExtraLight": {
+        "name": "League Mono Expanded ExtraLight",
         "fileName": "LeagueMono-ExtendedUltraLight.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 200,
         "fontStretch": "expanded"
       },
-      "LeagueMono-ExtendedThin": {
-        "name": "League-mono 100",
+      "LeagueMono-Expanded-Thin": {
+        "name": "League Mono Expanded Thin",
         "fileName": "LeagueMono-ExtendedThin.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 100,
         "fontStretch": "expanded"
       },
-      "LeagueMono-ExtendedSemiBold": {
-        "name": "League-mono 600",
+      "LeagueMono-Expanded-SemiBold": {
+        "name": "League Mono Expanded SemiBold",
         "fileName": "LeagueMono-ExtendedSemiBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 600,
         "fontStretch": "expanded"
       },
-      "LeagueMono-ExtendedRegular": {
-        "name": "League-mono Regular",
+      "LeagueMono-Expanded-Regular": {
+        "name": "League Mono Expanded Regular",
         "fileName": "LeagueMono-ExtendedRegular.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 400,
         "fontStretch": "expanded"
       },
-      "LeagueMono-ExtendedMedium": {
-        "name": "League-mono 500",
+      "LeagueMono-Expanded-Medium": {
+        "name": "League Mono Expanded Medium",
         "fileName": "LeagueMono-ExtendedMedium.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 500,
         "fontStretch": "expanded"
       },
-      "LeagueMono-ExtendedLight": {
-        "name": "League-mono 300",
+      "LeagueMono-Expanded-Light": {
+        "name": "League Mono Expanded Light",
         "fileName": "LeagueMono-ExtendedLight.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 300,
         "fontStretch": "expanded"
       },
-      "LeagueMono-ExtendedExtraBold": {
-        "name": "League-mono 800",
+      "LeagueMono-Expanded-ExtraBold": {
+        "name": "League Mono Expanded ExtraBold",
         "fileName": "LeagueMono-ExtendedExtraBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 800,
         "fontStretch": "expanded"
       },
-      "LeagueMono-ExtendedBold": {
-        "name": "League-mono Bold",
+      "LeagueMono-Expanded-Bold": {
+        "name": "League Mono Expanded Bold",
         "fileName": "LeagueMono-ExtendedBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 700,
         "fontStretch": "expanded"
       },
-      "LeagueMono-CondensedUltraLight": {
-        "name": "League-mono 200",
+      "LeagueMono-Condensed-ExtraLight": {
+        "name": "League Mono Condensed ExtraLight",
         "fileName": "LeagueMono-CondensedUltraLight.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 200,
         "fontStretch": "condensed"
       },
-      "LeagueMono-CondensedThin": {
-        "name": "League-mono 100",
+      "LeagueMono-Condensed-Thin": {
+        "name": "League Mono Condensed Thin",
         "fileName": "LeagueMono-CondensedThin.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 100,
         "fontStretch": "condensed"
       },
-      "LeagueMono-CondensedSemiBold": {
-        "name": "League-mono 600",
+      "LeagueMono-Condensed-SemiBold": {
+        "name": "League Mono Condensed SemiBold",
         "fileName": "LeagueMono-CondensedSemiBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 600,
         "fontStretch": "condensed"
       },
-      "LeagueMono-CondensedMedium": {
-        "name": "League-mono 500",
+      "LeagueMono-Condensed-Medium": {
+        "name": "League Mono Condensed Medium",
         "fileName": "LeagueMono-CondensedMedium.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 500,
         "fontStretch": "condensed"
       },
-      "LeagueMono-CondensedLight": {
-        "name": "League-mono 300",
+      "LeagueMono-Condensed-Light": {
+        "name": "League Mono Condensed Light",
         "fileName": "LeagueMono-CondensedLight.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 300,
         "fontStretch": "condensed"
       },
-      "LeagueMono-CondensedExtraBold": {
-        "name": "League-mono 800",
+      "LeagueMono-Condensed-ExtraBold": {
+        "name": "League Mono Condensed ExtraBold",
         "fileName": "LeagueMono-CondensedExtraBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 800,
         "fontStretch": "condensed"
       },
-      "LeagueMono-CondensedBold": {
-        "name": "League-mono Bold",
+      "LeagueMono-Condensed-Bold": {
+        "name": "League Mono Condensed Bold",
         "fileName": "LeagueMono-CondensedBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 700,
         "fontStretch": "condensed"
       },
-      "LeagueMono-Condensed": {
-        "name": "League-mono Regular",
+      "LeagueMono-Condensed-Regular": {
+        "name": "League Mono Condensed Regular",
         "fileName": "LeagueMono-Condensed.otf",
         "format": "opentype",
         "fontStyle": "normal",
@@ -439,7 +439,7 @@ export default {
         "fontStretch": "condensed"
       },
       "LeagueMono-Bold": {
-        "name": "League-mono Bold",
+        "name": "League Mono Bold",
         "fileName": "LeagueMono-Bold.otf",
         "format": "opentype",
         "fontStyle": "normal",
@@ -467,7 +467,7 @@ export default {
           "LeagueMonoVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-09T18:38:48.422Z"
+      "generatedAt": "2025-09-09T20:12:08.465Z"
     }
   }
 };

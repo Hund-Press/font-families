@@ -45,8 +45,8 @@ export default {
     },
     "faces": {
       "variable": {
-        "VariableRegular[wght]": {
-          "name": "Public-sans Variable - weight axis",
+        "PublicSansVariableRegular[wght]": {
+          "name": "Public Sans Variable (weight)",
           "fileName": "PublicSans[wght].ttf",
           "format": "truetype",
           "fontStyle": "normal",
@@ -63,8 +63,8 @@ export default {
           },
           "weightRange": "100 900"
         },
-        "VariableItalic[wght]": {
-          "name": "Public-sans Variable - weight axis",
+        "PublicSansVariableItalic[wght]": {
+          "name": "Public Sans Italic Variable (weight)",
           "fileName": "PublicSans-Italic[wght].ttf",
           "format": "truetype",
           "fontStyle": "italic",
@@ -83,127 +83,127 @@ export default {
         }
       },
       "static": {
-        "PublicSans-ThinItalic": {
-          "name": "Public-sans Italic Italic",
+        "PublicSans-Thin-Italic": {
+          "name": "Public Sans Thin Italic",
           "fileName": "PublicSans-ThinItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
           "fontWeight": 100
         },
         "PublicSans-Thin": {
-          "name": "Public-sans 100",
+          "name": "Public Sans Thin",
           "fileName": "PublicSans-Thin.woff",
           "format": "woff",
           "fontStyle": "normal",
           "fontWeight": 100
         },
-        "PublicSans-SemiBoldItalic": {
-          "name": "Public-sans Italic Italic",
+        "PublicSans-SemiBold-Italic": {
+          "name": "Public Sans SemiBold Italic",
           "fileName": "PublicSans-SemiBoldItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
           "fontWeight": 600
         },
         "PublicSans-SemiBold": {
-          "name": "Public-sans 600",
+          "name": "Public Sans SemiBold",
           "fileName": "PublicSans-SemiBold.woff",
           "format": "woff",
           "fontStyle": "normal",
           "fontWeight": 600
         },
         "PublicSans-Regular": {
-          "name": "Public-sans Regular",
+          "name": "Public Sans Regular",
           "fileName": "PublicSans-Regular.woff",
           "format": "woff",
           "fontStyle": "normal",
           "fontWeight": 400
         },
-        "PublicSans-MediumItalic": {
-          "name": "Public-sans Italic Italic",
+        "PublicSans-Medium-Italic": {
+          "name": "Public Sans Medium Italic",
           "fileName": "PublicSans-MediumItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
           "fontWeight": 500
         },
         "PublicSans-Medium": {
-          "name": "Public-sans 500",
+          "name": "Public Sans Medium",
           "fileName": "PublicSans-Medium.woff",
           "format": "woff",
           "fontStyle": "normal",
           "fontWeight": 500
         },
-        "PublicSans-LightItalic": {
-          "name": "Public-sans Italic Italic",
+        "PublicSans-Light-Italic": {
+          "name": "Public Sans Light Italic",
           "fileName": "PublicSans-LightItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
           "fontWeight": 300
         },
         "PublicSans-Light": {
-          "name": "Public-sans 300",
+          "name": "Public Sans Light",
           "fileName": "PublicSans-Light.woff",
           "format": "woff",
           "fontStyle": "normal",
           "fontWeight": 300
         },
-        "PublicSans-Italic": {
-          "name": "Public-sans Italic Italic",
+        "PublicSans-Regular-Italic": {
+          "name": "Public Sans Regular Italic",
           "fileName": "PublicSans-Italic.woff",
           "format": "woff",
           "fontStyle": "italic",
           "fontWeight": 400
         },
-        "PublicSans-ExtraLightItalic": {
-          "name": "Public-sans Italic Italic",
+        "PublicSans-ExtraLight-Italic": {
+          "name": "Public Sans ExtraLight Italic",
           "fileName": "PublicSans-ExtraLightItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
           "fontWeight": 200
         },
         "PublicSans-ExtraLight": {
-          "name": "Public-sans 200",
+          "name": "Public Sans ExtraLight",
           "fileName": "PublicSans-ExtraLight.woff",
           "format": "woff",
           "fontStyle": "normal",
           "fontWeight": 200
         },
-        "PublicSans-ExtraBoldItalic": {
-          "name": "Public-sans Italic Italic",
+        "PublicSans-ExtraBold-Italic": {
+          "name": "Public Sans ExtraBold Italic",
           "fileName": "PublicSans-ExtraBoldItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
           "fontWeight": 800
         },
         "PublicSans-ExtraBold": {
-          "name": "Public-sans 800",
+          "name": "Public Sans ExtraBold",
           "fileName": "PublicSans-ExtraBold.woff",
           "format": "woff",
           "fontStyle": "normal",
           "fontWeight": 800
         },
-        "PublicSans-BoldItalic": {
-          "name": "Public-sans Bold Italic Italic",
+        "PublicSans-Bold-Italic": {
+          "name": "Public Sans Bold Italic",
           "fileName": "PublicSans-BoldItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
           "fontWeight": 700
         },
         "PublicSans-Bold": {
-          "name": "Public-sans Bold",
+          "name": "Public Sans Bold",
           "fileName": "PublicSans-Bold.woff",
           "format": "woff",
           "fontStyle": "normal",
           "fontWeight": 700
         },
-        "PublicSans-BlackItalic": {
-          "name": "Public-sans Italic Italic",
+        "PublicSans-Black-Italic": {
+          "name": "Public Sans Black Italic",
           "fileName": "PublicSans-BlackItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
           "fontWeight": 900
         },
         "PublicSans-Black": {
-          "name": "Public-sans 900",
+          "name": "Public Sans Black",
           "fileName": "PublicSans-Black.woff",
           "format": "woff",
           "fontStyle": "normal",
@@ -249,8 +249,8 @@ export default {
     },
     "faces": {
       "variable": {
-        "VariableRegular[wdth,wght]": {
-          "name": "League-mono Variable - weight axis, width axis",
+        "LeagueMonoVariableRegular[wdth,wght]": {
+          "name": "League Mono Variable (weight, width)",
           "fileName": "LeagueMono-VF.ttf",
           "format": "truetype",
           "fontStyle": "normal",
@@ -286,72 +286,72 @@ export default {
         }
       },
       "static": {
-        "LeagueMono-WideUltraLight": {
-          "name": "League-mono 200",
+        "LeagueMono-UltraExpanded-ExtraLight": {
+          "name": "League Mono Ultra Expanded ExtraLight",
           "fileName": "LeagueMono-WideUltraLight.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 200,
           "fontStretch": "ultra-expanded"
         },
-        "LeagueMono-WideThin": {
-          "name": "League-mono 100",
+        "LeagueMono-UltraExpanded-Thin": {
+          "name": "League Mono Ultra Expanded Thin",
           "fileName": "LeagueMono-WideThin.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 100,
           "fontStretch": "ultra-expanded"
         },
-        "LeagueMono-WideSemiBold": {
-          "name": "League-mono 600",
+        "LeagueMono-UltraExpanded-SemiBold": {
+          "name": "League Mono Ultra Expanded SemiBold",
           "fileName": "LeagueMono-WideSemiBold.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 600,
           "fontStretch": "ultra-expanded"
         },
-        "LeagueMono-WideRegular": {
-          "name": "League-mono Regular",
+        "LeagueMono-UltraExpanded-Regular": {
+          "name": "League Mono Ultra Expanded Regular",
           "fileName": "LeagueMono-WideRegular.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 400,
           "fontStretch": "ultra-expanded"
         },
-        "LeagueMono-WideMedium": {
-          "name": "League-mono 500",
+        "LeagueMono-UltraExpanded-Medium": {
+          "name": "League Mono Ultra Expanded Medium",
           "fileName": "LeagueMono-WideMedium.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 500,
           "fontStretch": "ultra-expanded"
         },
-        "LeagueMono-WideLight": {
-          "name": "League-mono 300",
+        "LeagueMono-UltraExpanded-Light": {
+          "name": "League Mono Ultra Expanded Light",
           "fileName": "LeagueMono-WideLight.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 300,
           "fontStretch": "ultra-expanded"
         },
-        "LeagueMono-WideExtraBold": {
-          "name": "League-mono 800",
+        "LeagueMono-UltraExpanded-ExtraBold": {
+          "name": "League Mono Ultra Expanded ExtraBold",
           "fileName": "LeagueMono-WideExtraBold.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 800,
           "fontStretch": "ultra-expanded"
         },
-        "LeagueMono-WideBold": {
-          "name": "League-mono Bold",
+        "LeagueMono-UltraExpanded-Bold": {
+          "name": "League Mono Ultra Expanded Bold",
           "fileName": "LeagueMono-WideBold.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 700,
           "fontStretch": "ultra-expanded"
         },
-        "LeagueMono-UltraLight": {
-          "name": "League-mono 200",
+        "LeagueMono-ExtraLight": {
+          "name": "League Mono ExtraLight",
           "fileName": "LeagueMono-UltraLight.otf",
           "format": "opentype",
           "fontStyle": "normal",
@@ -359,7 +359,7 @@ export default {
           "fontStretch": "normal"
         },
         "LeagueMono-Thin": {
-          "name": "League-mono 100",
+          "name": "League Mono Thin",
           "fileName": "LeagueMono-Thin.otf",
           "format": "opentype",
           "fontStyle": "normal",
@@ -367,7 +367,7 @@ export default {
           "fontStretch": "normal"
         },
         "LeagueMono-SemiBold": {
-          "name": "League-mono 600",
+          "name": "League Mono SemiBold",
           "fileName": "LeagueMono-SemiBold.otf",
           "format": "opentype",
           "fontStyle": "normal",
@@ -375,71 +375,71 @@ export default {
           "fontStretch": "normal"
         },
         "LeagueMono-Regular": {
-          "name": "League-mono Regular",
+          "name": "League Mono Regular",
           "fileName": "LeagueMono-Regular.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 400,
           "fontStretch": "normal"
         },
-        "LeagueMono-NarrowUltraLight": {
-          "name": "League-mono 200",
+        "LeagueMono-SemiCondensed-ExtraLight": {
+          "name": "League Mono Semi Condensed ExtraLight",
           "fileName": "LeagueMono-NarrowUltraLight.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 200,
           "fontStretch": "semi-condensed"
         },
-        "LeagueMono-NarrowThin": {
-          "name": "League-mono 100",
+        "LeagueMono-SemiCondensed-Thin": {
+          "name": "League Mono Semi Condensed Thin",
           "fileName": "LeagueMono-NarrowThin.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 100,
           "fontStretch": "semi-condensed"
         },
-        "LeagueMono-NarrowSemiBold": {
-          "name": "League-mono 600",
+        "LeagueMono-SemiCondensed-SemiBold": {
+          "name": "League Mono Semi Condensed SemiBold",
           "fileName": "LeagueMono-NarrowSemiBold.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 600,
           "fontStretch": "semi-condensed"
         },
-        "LeagueMono-NarrowRegular": {
-          "name": "League-mono Regular",
+        "LeagueMono-SemiCondensed-Regular": {
+          "name": "League Mono Semi Condensed Regular",
           "fileName": "LeagueMono-NarrowRegular.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 400,
           "fontStretch": "semi-condensed"
         },
-        "LeagueMono-NarrowMedium": {
-          "name": "League-mono 500",
+        "LeagueMono-SemiCondensed-Medium": {
+          "name": "League Mono Semi Condensed Medium",
           "fileName": "LeagueMono-NarrowMedium.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 500,
           "fontStretch": "semi-condensed"
         },
-        "LeagueMono-NarrowLight": {
-          "name": "League-mono 300",
+        "LeagueMono-SemiCondensed-Light": {
+          "name": "League Mono Semi Condensed Light",
           "fileName": "LeagueMono-NarrowLight.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 300,
           "fontStretch": "semi-condensed"
         },
-        "LeagueMono-NarrowExtraBold": {
-          "name": "League-mono 800",
+        "LeagueMono-SemiCondensed-ExtraBold": {
+          "name": "League Mono Semi Condensed ExtraBold",
           "fileName": "LeagueMono-NarrowExtraBold.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 800,
           "fontStretch": "semi-condensed"
         },
-        "LeagueMono-NarrowBold": {
-          "name": "League-mono Bold",
+        "LeagueMono-SemiCondensed-Bold": {
+          "name": "League Mono Semi Condensed Bold",
           "fileName": "LeagueMono-NarrowBold.otf",
           "format": "opentype",
           "fontStyle": "normal",
@@ -447,7 +447,7 @@ export default {
           "fontStretch": "semi-condensed"
         },
         "LeagueMono-Medium": {
-          "name": "League-mono 500",
+          "name": "League Mono Medium",
           "fileName": "LeagueMono-Medium.otf",
           "format": "opentype",
           "fontStyle": "normal",
@@ -455,7 +455,7 @@ export default {
           "fontStretch": "normal"
         },
         "LeagueMono-Light": {
-          "name": "League-mono 300",
+          "name": "League Mono Light",
           "fileName": "LeagueMono-Light.otf",
           "format": "opentype",
           "fontStyle": "normal",
@@ -463,135 +463,135 @@ export default {
           "fontStretch": "normal"
         },
         "LeagueMono-ExtraBold": {
-          "name": "League-mono 800",
+          "name": "League Mono ExtraBold",
           "fileName": "LeagueMono-ExtraBold.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 800,
           "fontStretch": "normal"
         },
-        "LeagueMono-ExtendedUltraLight": {
-          "name": "League-mono 200",
+        "LeagueMono-Expanded-ExtraLight": {
+          "name": "League Mono Expanded ExtraLight",
           "fileName": "LeagueMono-ExtendedUltraLight.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 200,
           "fontStretch": "expanded"
         },
-        "LeagueMono-ExtendedThin": {
-          "name": "League-mono 100",
+        "LeagueMono-Expanded-Thin": {
+          "name": "League Mono Expanded Thin",
           "fileName": "LeagueMono-ExtendedThin.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 100,
           "fontStretch": "expanded"
         },
-        "LeagueMono-ExtendedSemiBold": {
-          "name": "League-mono 600",
+        "LeagueMono-Expanded-SemiBold": {
+          "name": "League Mono Expanded SemiBold",
           "fileName": "LeagueMono-ExtendedSemiBold.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 600,
           "fontStretch": "expanded"
         },
-        "LeagueMono-ExtendedRegular": {
-          "name": "League-mono Regular",
+        "LeagueMono-Expanded-Regular": {
+          "name": "League Mono Expanded Regular",
           "fileName": "LeagueMono-ExtendedRegular.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 400,
           "fontStretch": "expanded"
         },
-        "LeagueMono-ExtendedMedium": {
-          "name": "League-mono 500",
+        "LeagueMono-Expanded-Medium": {
+          "name": "League Mono Expanded Medium",
           "fileName": "LeagueMono-ExtendedMedium.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 500,
           "fontStretch": "expanded"
         },
-        "LeagueMono-ExtendedLight": {
-          "name": "League-mono 300",
+        "LeagueMono-Expanded-Light": {
+          "name": "League Mono Expanded Light",
           "fileName": "LeagueMono-ExtendedLight.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 300,
           "fontStretch": "expanded"
         },
-        "LeagueMono-ExtendedExtraBold": {
-          "name": "League-mono 800",
+        "LeagueMono-Expanded-ExtraBold": {
+          "name": "League Mono Expanded ExtraBold",
           "fileName": "LeagueMono-ExtendedExtraBold.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 800,
           "fontStretch": "expanded"
         },
-        "LeagueMono-ExtendedBold": {
-          "name": "League-mono Bold",
+        "LeagueMono-Expanded-Bold": {
+          "name": "League Mono Expanded Bold",
           "fileName": "LeagueMono-ExtendedBold.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 700,
           "fontStretch": "expanded"
         },
-        "LeagueMono-CondensedUltraLight": {
-          "name": "League-mono 200",
+        "LeagueMono-Condensed-ExtraLight": {
+          "name": "League Mono Condensed ExtraLight",
           "fileName": "LeagueMono-CondensedUltraLight.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 200,
           "fontStretch": "condensed"
         },
-        "LeagueMono-CondensedThin": {
-          "name": "League-mono 100",
+        "LeagueMono-Condensed-Thin": {
+          "name": "League Mono Condensed Thin",
           "fileName": "LeagueMono-CondensedThin.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 100,
           "fontStretch": "condensed"
         },
-        "LeagueMono-CondensedSemiBold": {
-          "name": "League-mono 600",
+        "LeagueMono-Condensed-SemiBold": {
+          "name": "League Mono Condensed SemiBold",
           "fileName": "LeagueMono-CondensedSemiBold.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 600,
           "fontStretch": "condensed"
         },
-        "LeagueMono-CondensedMedium": {
-          "name": "League-mono 500",
+        "LeagueMono-Condensed-Medium": {
+          "name": "League Mono Condensed Medium",
           "fileName": "LeagueMono-CondensedMedium.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 500,
           "fontStretch": "condensed"
         },
-        "LeagueMono-CondensedLight": {
-          "name": "League-mono 300",
+        "LeagueMono-Condensed-Light": {
+          "name": "League Mono Condensed Light",
           "fileName": "LeagueMono-CondensedLight.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 300,
           "fontStretch": "condensed"
         },
-        "LeagueMono-CondensedExtraBold": {
-          "name": "League-mono 800",
+        "LeagueMono-Condensed-ExtraBold": {
+          "name": "League Mono Condensed ExtraBold",
           "fileName": "LeagueMono-CondensedExtraBold.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 800,
           "fontStretch": "condensed"
         },
-        "LeagueMono-CondensedBold": {
-          "name": "League-mono Bold",
+        "LeagueMono-Condensed-Bold": {
+          "name": "League Mono Condensed Bold",
           "fileName": "LeagueMono-CondensedBold.otf",
           "format": "opentype",
           "fontStyle": "normal",
           "fontWeight": 700,
           "fontStretch": "condensed"
         },
-        "LeagueMono-Condensed": {
-          "name": "League-mono Regular",
+        "LeagueMono-Condensed-Regular": {
+          "name": "League Mono Condensed Regular",
           "fileName": "LeagueMono-Condensed.otf",
           "format": "opentype",
           "fontStyle": "normal",
@@ -599,7 +599,7 @@ export default {
           "fontStretch": "condensed"
         },
         "LeagueMono-Bold": {
-          "name": "League-mono Bold",
+          "name": "League Mono Bold",
           "fileName": "LeagueMono-Bold.otf",
           "format": "opentype",
           "fontStyle": "normal",
@@ -648,8 +648,8 @@ export default {
     },
     "faces": {
       "variable": {
-        "VariableRegular[wdth,wght]": {
-          "name": "Inconsolata Variable - weight axis, width axis",
+        "InconsolataVariableRegular[wdth,wght]": {
+          "name": "Inconsolata Variable (weight, width)",
           "fileName": "Inconsolata[wdth,wght].ttf",
           "format": "truetype",
           "fontStyle": "normal",
@@ -681,144 +681,144 @@ export default {
         }
       },
       "static": {
-        "InconsolataUltraExpanded-Thin": {
-          "name": "Inconsolata 100",
-          "fileName": "Inconsolata-UltraExpandedThin.woff2",
+        "Inconsolata-Expanded-Thin": {
+          "name": "Inconsolata Expanded Thin",
+          "fileName": "Inconsolata-ExpandedThin.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 100,
           "fontStretch": "expanded"
         },
-        "InconsolataUltraExpanded-SemiBold": {
-          "name": "Inconsolata 600",
-          "fileName": "Inconsolata-UltraExpandedSemiBold.woff2",
+        "Inconsolata-Expanded-SemiBold": {
+          "name": "Inconsolata Expanded SemiBold",
+          "fileName": "Inconsolata-ExpandedSemiBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 600,
           "fontStretch": "expanded"
         },
-        "InconsolataUltraExpanded-Regular": {
-          "name": "Inconsolata Regular",
-          "fileName": "Inconsolata-UltraExpandedRegular.woff2",
+        "Inconsolata-Expanded-Regular": {
+          "name": "Inconsolata Expanded Regular",
+          "fileName": "Inconsolata-ExpandedRegular.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 400,
           "fontStretch": "expanded"
         },
-        "InconsolataUltraExpanded-Medium": {
-          "name": "Inconsolata 500",
-          "fileName": "Inconsolata-UltraExpandedMedium.woff2",
+        "Inconsolata-Expanded-Medium": {
+          "name": "Inconsolata Expanded Medium",
+          "fileName": "Inconsolata-ExpandedMedium.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 500,
           "fontStretch": "expanded"
         },
-        "InconsolataUltraExpanded-Light": {
-          "name": "Inconsolata 300",
-          "fileName": "Inconsolata-UltraExpandedLight.woff2",
+        "Inconsolata-Expanded-Light": {
+          "name": "Inconsolata Expanded Light",
+          "fileName": "Inconsolata-ExpandedLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 300,
           "fontStretch": "expanded"
         },
-        "InconsolataUltraExpanded-ExtraLight": {
-          "name": "Inconsolata 200",
-          "fileName": "Inconsolata-UltraExpandedExtraLight.woff2",
+        "Inconsolata-Expanded-ExtraLight": {
+          "name": "Inconsolata Expanded ExtraLight",
+          "fileName": "Inconsolata-ExpandedExtraLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 200,
           "fontStretch": "expanded"
         },
-        "InconsolataUltraExpanded-ExtraBold": {
-          "name": "Inconsolata 800",
-          "fileName": "Inconsolata-UltraExpandedExtraBold.woff2",
+        "Inconsolata-Expanded-ExtraBold": {
+          "name": "Inconsolata Expanded ExtraBold",
+          "fileName": "Inconsolata-ExpandedExtraBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 800,
           "fontStretch": "expanded"
         },
-        "InconsolataUltraExpanded-Bold": {
-          "name": "Inconsolata Bold",
-          "fileName": "Inconsolata-UltraExpandedBold.woff2",
+        "Inconsolata-Expanded-Bold": {
+          "name": "Inconsolata Expanded Bold",
+          "fileName": "Inconsolata-ExpandedBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 700,
           "fontStretch": "expanded"
         },
-        "InconsolataUltraExpanded-Black": {
-          "name": "Inconsolata 900",
-          "fileName": "Inconsolata-UltraExpandedBlack.woff2",
+        "Inconsolata-Expanded-Black": {
+          "name": "Inconsolata Expanded Black",
+          "fileName": "Inconsolata-ExpandedBlack.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 900,
           "fontStretch": "expanded"
         },
-        "InconsolataUltraCondensed-Thin": {
-          "name": "Inconsolata 100",
+        "Inconsolata-UltraCondensed-Thin": {
+          "name": "Inconsolata Ultra Condensed Thin",
           "fileName": "Inconsolata-UltraCondensedThin.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 100,
           "fontStretch": "ultra-condensed"
         },
-        "InconsolataUltraCondensed-SemiBold": {
-          "name": "Inconsolata 600",
+        "Inconsolata-UltraCondensed-SemiBold": {
+          "name": "Inconsolata Ultra Condensed SemiBold",
           "fileName": "Inconsolata-UltraCondensedSemiBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 600,
           "fontStretch": "ultra-condensed"
         },
-        "InconsolataUltraCondensed-Regular": {
-          "name": "Inconsolata Regular",
+        "Inconsolata-UltraCondensed-Regular": {
+          "name": "Inconsolata Ultra Condensed Regular",
           "fileName": "Inconsolata-UltraCondensedRegular.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 400,
           "fontStretch": "ultra-condensed"
         },
-        "InconsolataUltraCondensed-Medium": {
-          "name": "Inconsolata 500",
+        "Inconsolata-UltraCondensed-Medium": {
+          "name": "Inconsolata Ultra Condensed Medium",
           "fileName": "Inconsolata-UltraCondensedMedium.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 500,
           "fontStretch": "ultra-condensed"
         },
-        "InconsolataUltraCondensed-Light": {
-          "name": "Inconsolata 300",
+        "Inconsolata-UltraCondensed-Light": {
+          "name": "Inconsolata Ultra Condensed Light",
           "fileName": "Inconsolata-UltraCondensedLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 300,
           "fontStretch": "ultra-condensed"
         },
-        "InconsolataUltraCondensed-ExtraLight": {
-          "name": "Inconsolata 200",
+        "Inconsolata-UltraCondensed-ExtraLight": {
+          "name": "Inconsolata Ultra Condensed ExtraLight",
           "fileName": "Inconsolata-UltraCondensedExtraLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 200,
           "fontStretch": "ultra-condensed"
         },
-        "InconsolataUltraCondensed-ExtraBold": {
-          "name": "Inconsolata 800",
+        "Inconsolata-UltraCondensed-ExtraBold": {
+          "name": "Inconsolata Ultra Condensed ExtraBold",
           "fileName": "Inconsolata-UltraCondensedExtraBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 800,
           "fontStretch": "ultra-condensed"
         },
-        "InconsolataUltraCondensed-Bold": {
-          "name": "Inconsolata Bold",
+        "Inconsolata-UltraCondensed-Bold": {
+          "name": "Inconsolata Ultra Condensed Bold",
           "fileName": "Inconsolata-UltraCondensedBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 700,
           "fontStretch": "ultra-condensed"
         },
-        "InconsolataUltraCondensed-Black": {
-          "name": "Inconsolata 900",
+        "Inconsolata-UltraCondensed-Black": {
+          "name": "Inconsolata Ultra Condensed Black",
           "fileName": "Inconsolata-UltraCondensedBlack.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -826,159 +826,159 @@ export default {
           "fontStretch": "ultra-condensed"
         },
         "Inconsolata-Thin": {
-          "name": "Inconsolata 100",
+          "name": "Inconsolata Thin",
           "fileName": "Inconsolata-Thin.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 100,
           "fontStretch": "normal"
         },
-        "InconsolataSemiExpanded-Thin": {
-          "name": "Inconsolata 100",
+        "Inconsolata-SemiExpanded-Thin": {
+          "name": "Inconsolata Semi Expanded Thin",
           "fileName": "Inconsolata-SemiExpandedThin.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 100,
           "fontStretch": "semi-expanded"
         },
-        "InconsolataSemiExpanded-SemiBold": {
-          "name": "Inconsolata 600",
+        "Inconsolata-SemiExpanded-SemiBold": {
+          "name": "Inconsolata Semi Expanded SemiBold",
           "fileName": "Inconsolata-SemiExpandedSemiBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 600,
           "fontStretch": "semi-expanded"
         },
-        "InconsolataSemiExpanded-Regular": {
-          "name": "Inconsolata Regular",
+        "Inconsolata-SemiExpanded-Regular": {
+          "name": "Inconsolata Semi Expanded Regular",
           "fileName": "Inconsolata-SemiExpandedRegular.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 400,
           "fontStretch": "semi-expanded"
         },
-        "InconsolataSemiExpanded-Medium": {
-          "name": "Inconsolata 500",
+        "Inconsolata-SemiExpanded-Medium": {
+          "name": "Inconsolata Semi Expanded Medium",
           "fileName": "Inconsolata-SemiExpandedMedium.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 500,
           "fontStretch": "semi-expanded"
         },
-        "InconsolataSemiExpanded-Light": {
-          "name": "Inconsolata 300",
+        "Inconsolata-SemiExpanded-Light": {
+          "name": "Inconsolata Semi Expanded Light",
           "fileName": "Inconsolata-SemiExpandedLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 300,
           "fontStretch": "semi-expanded"
         },
-        "InconsolataSemiExpanded-ExtraLight": {
-          "name": "Inconsolata 200",
+        "Inconsolata-SemiExpanded-ExtraLight": {
+          "name": "Inconsolata Semi Expanded ExtraLight",
           "fileName": "Inconsolata-SemiExpandedExtraLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 200,
           "fontStretch": "semi-expanded"
         },
-        "InconsolataSemiExpanded-ExtraBold": {
-          "name": "Inconsolata 800",
+        "Inconsolata-SemiExpanded-ExtraBold": {
+          "name": "Inconsolata Semi Expanded ExtraBold",
           "fileName": "Inconsolata-SemiExpandedExtraBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 800,
           "fontStretch": "semi-expanded"
         },
-        "InconsolataSemiExpanded-Bold": {
-          "name": "Inconsolata Bold",
+        "Inconsolata-SemiExpanded-Bold": {
+          "name": "Inconsolata Semi Expanded Bold",
           "fileName": "Inconsolata-SemiExpandedBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 700,
           "fontStretch": "semi-expanded"
         },
-        "InconsolataSemiExpanded-Black": {
-          "name": "Inconsolata 900",
+        "Inconsolata-SemiExpanded-Black": {
+          "name": "Inconsolata Semi Expanded Black",
           "fileName": "Inconsolata-SemiExpandedBlack.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 900,
           "fontStretch": "semi-expanded"
         },
-        "InconsolataSemiCondensed-Thin": {
-          "name": "Inconsolata 100",
-          "fileName": "Inconsolata-SemiCondensedThin.woff2",
+        "Inconsolata-Condensed-Thin": {
+          "name": "Inconsolata Condensed Thin",
+          "fileName": "Inconsolata-CondensedThin.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 100,
           "fontStretch": "condensed"
         },
-        "InconsolataSemiCondensed-SemiBold": {
-          "name": "Inconsolata 600",
-          "fileName": "Inconsolata-SemiCondensedSemiBold.woff2",
+        "Inconsolata-Condensed-SemiBold": {
+          "name": "Inconsolata Condensed SemiBold",
+          "fileName": "Inconsolata-CondensedSemiBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 600,
           "fontStretch": "condensed"
         },
-        "InconsolataSemiCondensed-Regular": {
-          "name": "Inconsolata Regular",
-          "fileName": "Inconsolata-SemiCondensedRegular.woff2",
+        "Inconsolata-Condensed-Regular": {
+          "name": "Inconsolata Condensed Regular",
+          "fileName": "Inconsolata-CondensedRegular.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 400,
           "fontStretch": "condensed"
         },
-        "InconsolataSemiCondensed-Medium": {
-          "name": "Inconsolata 500",
-          "fileName": "Inconsolata-SemiCondensedMedium.woff2",
+        "Inconsolata-Condensed-Medium": {
+          "name": "Inconsolata Condensed Medium",
+          "fileName": "Inconsolata-CondensedMedium.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 500,
           "fontStretch": "condensed"
         },
-        "InconsolataSemiCondensed-Light": {
-          "name": "Inconsolata 300",
-          "fileName": "Inconsolata-SemiCondensedLight.woff2",
+        "Inconsolata-Condensed-Light": {
+          "name": "Inconsolata Condensed Light",
+          "fileName": "Inconsolata-CondensedLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 300,
           "fontStretch": "condensed"
         },
-        "InconsolataSemiCondensed-ExtraLight": {
-          "name": "Inconsolata 200",
-          "fileName": "Inconsolata-SemiCondensedExtraLight.woff2",
+        "Inconsolata-Condensed-ExtraLight": {
+          "name": "Inconsolata Condensed ExtraLight",
+          "fileName": "Inconsolata-CondensedExtraLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 200,
           "fontStretch": "condensed"
         },
-        "InconsolataSemiCondensed-ExtraBold": {
-          "name": "Inconsolata 800",
-          "fileName": "Inconsolata-SemiCondensedExtraBold.woff2",
+        "Inconsolata-Condensed-ExtraBold": {
+          "name": "Inconsolata Condensed ExtraBold",
+          "fileName": "Inconsolata-CondensedExtraBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 800,
           "fontStretch": "condensed"
         },
-        "InconsolataSemiCondensed-Bold": {
-          "name": "Inconsolata Bold",
-          "fileName": "Inconsolata-SemiCondensedBold.woff2",
+        "Inconsolata-Condensed-Bold": {
+          "name": "Inconsolata Condensed Bold",
+          "fileName": "Inconsolata-CondensedBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 700,
           "fontStretch": "condensed"
         },
-        "InconsolataSemiCondensed-Black": {
-          "name": "Inconsolata 900",
-          "fileName": "Inconsolata-SemiCondensedBlack.woff2",
+        "Inconsolata-Condensed-Black": {
+          "name": "Inconsolata Condensed Black",
+          "fileName": "Inconsolata-CondensedBlack.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 900,
           "fontStretch": "condensed"
         },
         "Inconsolata-SemiBold": {
-          "name": "Inconsolata 600",
+          "name": "Inconsolata SemiBold",
           "fileName": "Inconsolata-SemiBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -994,7 +994,7 @@ export default {
           "fontStretch": "normal"
         },
         "Inconsolata-Medium": {
-          "name": "Inconsolata 500",
+          "name": "Inconsolata Medium",
           "fileName": "Inconsolata-Medium.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -1002,7 +1002,7 @@ export default {
           "fontStretch": "normal"
         },
         "Inconsolata-Light": {
-          "name": "Inconsolata 300",
+          "name": "Inconsolata Light",
           "fileName": "Inconsolata-Light.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -1010,151 +1010,79 @@ export default {
           "fontStretch": "normal"
         },
         "Inconsolata-ExtraLight": {
-          "name": "Inconsolata 200",
+          "name": "Inconsolata ExtraLight",
           "fileName": "Inconsolata-ExtraLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 200,
           "fontStretch": "normal"
         },
-        "InconsolataExtraExpanded-Thin": {
-          "name": "Inconsolata 100",
-          "fileName": "Inconsolata-ExtraExpandedThin.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 100,
-          "fontStretch": "expanded"
-        },
-        "InconsolataExtraExpanded-SemiBold": {
-          "name": "Inconsolata 600",
-          "fileName": "Inconsolata-ExtraExpandedSemiBold.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 600,
-          "fontStretch": "expanded"
-        },
-        "InconsolataExtraExpanded-Regular": {
-          "name": "Inconsolata Regular",
-          "fileName": "Inconsolata-ExtraExpandedRegular.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 400,
-          "fontStretch": "expanded"
-        },
-        "InconsolataExtraExpanded-Medium": {
-          "name": "Inconsolata 500",
-          "fileName": "Inconsolata-ExtraExpandedMedium.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 500,
-          "fontStretch": "expanded"
-        },
-        "InconsolataExtraExpanded-Light": {
-          "name": "Inconsolata 300",
-          "fileName": "Inconsolata-ExtraExpandedLight.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 300,
-          "fontStretch": "expanded"
-        },
-        "InconsolataExtraExpanded-ExtraLight": {
-          "name": "Inconsolata 200",
-          "fileName": "Inconsolata-ExtraExpandedExtraLight.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 200,
-          "fontStretch": "expanded"
-        },
-        "InconsolataExtraExpanded-ExtraBold": {
-          "name": "Inconsolata 800",
-          "fileName": "Inconsolata-ExtraExpandedExtraBold.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 800,
-          "fontStretch": "expanded"
-        },
-        "InconsolataExtraExpanded-Bold": {
-          "name": "Inconsolata Bold",
-          "fileName": "Inconsolata-ExtraExpandedBold.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 700,
-          "fontStretch": "expanded"
-        },
-        "InconsolataExtraExpanded-Black": {
-          "name": "Inconsolata 900",
-          "fileName": "Inconsolata-ExtraExpandedBlack.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 900,
-          "fontStretch": "expanded"
-        },
-        "InconsolataExtraCondensed-Thin": {
-          "name": "Inconsolata 100",
+        "Inconsolata-ExtraCondensed-Thin": {
+          "name": "Inconsolata Extra Condensed Thin",
           "fileName": "Inconsolata-ExtraCondensedThin.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 100,
           "fontStretch": "extra-condensed"
         },
-        "InconsolataExtraCondensed-SemiBold": {
-          "name": "Inconsolata 600",
+        "Inconsolata-ExtraCondensed-SemiBold": {
+          "name": "Inconsolata Extra Condensed SemiBold",
           "fileName": "Inconsolata-ExtraCondensedSemiBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 600,
           "fontStretch": "extra-condensed"
         },
-        "InconsolataExtraCondensed-Regular": {
-          "name": "Inconsolata Regular",
+        "Inconsolata-ExtraCondensed-Regular": {
+          "name": "Inconsolata Extra Condensed Regular",
           "fileName": "Inconsolata-ExtraCondensedRegular.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 400,
           "fontStretch": "extra-condensed"
         },
-        "InconsolataExtraCondensed-Medium": {
-          "name": "Inconsolata 500",
+        "Inconsolata-ExtraCondensed-Medium": {
+          "name": "Inconsolata Extra Condensed Medium",
           "fileName": "Inconsolata-ExtraCondensedMedium.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 500,
           "fontStretch": "extra-condensed"
         },
-        "InconsolataExtraCondensed-Light": {
-          "name": "Inconsolata 300",
+        "Inconsolata-ExtraCondensed-Light": {
+          "name": "Inconsolata Extra Condensed Light",
           "fileName": "Inconsolata-ExtraCondensedLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 300,
           "fontStretch": "extra-condensed"
         },
-        "InconsolataExtraCondensed-ExtraLight": {
-          "name": "Inconsolata 200",
+        "Inconsolata-ExtraCondensed-ExtraLight": {
+          "name": "Inconsolata Extra Condensed ExtraLight",
           "fileName": "Inconsolata-ExtraCondensedExtraLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 200,
           "fontStretch": "extra-condensed"
         },
-        "InconsolataExtraCondensed-ExtraBold": {
-          "name": "Inconsolata 800",
+        "Inconsolata-ExtraCondensed-ExtraBold": {
+          "name": "Inconsolata Extra Condensed ExtraBold",
           "fileName": "Inconsolata-ExtraCondensedExtraBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 800,
           "fontStretch": "extra-condensed"
         },
-        "InconsolataExtraCondensed-Bold": {
-          "name": "Inconsolata Bold",
+        "Inconsolata-ExtraCondensed-Bold": {
+          "name": "Inconsolata Extra Condensed Bold",
           "fileName": "Inconsolata-ExtraCondensedBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 700,
           "fontStretch": "extra-condensed"
         },
-        "InconsolataExtraCondensed-Black": {
-          "name": "Inconsolata 900",
+        "Inconsolata-ExtraCondensed-Black": {
+          "name": "Inconsolata Extra Condensed Black",
           "fileName": "Inconsolata-ExtraCondensedBlack.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -1162,156 +1090,12 @@ export default {
           "fontStretch": "extra-condensed"
         },
         "Inconsolata-ExtraBold": {
-          "name": "Inconsolata 800",
+          "name": "Inconsolata ExtraBold",
           "fileName": "Inconsolata-ExtraBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 800,
           "fontStretch": "normal"
-        },
-        "InconsolataExpanded-Thin": {
-          "name": "Inconsolata 100",
-          "fileName": "Inconsolata-ExpandedThin.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 100,
-          "fontStretch": "expanded"
-        },
-        "InconsolataExpanded-SemiBold": {
-          "name": "Inconsolata 600",
-          "fileName": "Inconsolata-ExpandedSemiBold.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 600,
-          "fontStretch": "expanded"
-        },
-        "InconsolataExpanded-Regular": {
-          "name": "Inconsolata Regular",
-          "fileName": "Inconsolata-ExpandedRegular.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 400,
-          "fontStretch": "expanded"
-        },
-        "InconsolataExpanded-Medium": {
-          "name": "Inconsolata 500",
-          "fileName": "Inconsolata-ExpandedMedium.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 500,
-          "fontStretch": "expanded"
-        },
-        "InconsolataExpanded-Light": {
-          "name": "Inconsolata 300",
-          "fileName": "Inconsolata-ExpandedLight.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 300,
-          "fontStretch": "expanded"
-        },
-        "InconsolataExpanded-ExtraLight": {
-          "name": "Inconsolata 200",
-          "fileName": "Inconsolata-ExpandedExtraLight.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 200,
-          "fontStretch": "expanded"
-        },
-        "InconsolataExpanded-ExtraBold": {
-          "name": "Inconsolata 800",
-          "fileName": "Inconsolata-ExpandedExtraBold.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 800,
-          "fontStretch": "expanded"
-        },
-        "InconsolataExpanded-Bold": {
-          "name": "Inconsolata Bold",
-          "fileName": "Inconsolata-ExpandedBold.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 700,
-          "fontStretch": "expanded"
-        },
-        "InconsolataExpanded-Black": {
-          "name": "Inconsolata 900",
-          "fileName": "Inconsolata-ExpandedBlack.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 900,
-          "fontStretch": "expanded"
-        },
-        "InconsolataCondensed-Thin": {
-          "name": "Inconsolata 100",
-          "fileName": "Inconsolata-CondensedThin.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 100,
-          "fontStretch": "condensed"
-        },
-        "InconsolataCondensed-SemiBold": {
-          "name": "Inconsolata 600",
-          "fileName": "Inconsolata-CondensedSemiBold.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 600,
-          "fontStretch": "condensed"
-        },
-        "InconsolataCondensed-Regular": {
-          "name": "Inconsolata Regular",
-          "fileName": "Inconsolata-CondensedRegular.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 400,
-          "fontStretch": "condensed"
-        },
-        "InconsolataCondensed-Medium": {
-          "name": "Inconsolata 500",
-          "fileName": "Inconsolata-CondensedMedium.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 500,
-          "fontStretch": "condensed"
-        },
-        "InconsolataCondensed-Light": {
-          "name": "Inconsolata 300",
-          "fileName": "Inconsolata-CondensedLight.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 300,
-          "fontStretch": "condensed"
-        },
-        "InconsolataCondensed-ExtraLight": {
-          "name": "Inconsolata 200",
-          "fileName": "Inconsolata-CondensedExtraLight.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 200,
-          "fontStretch": "condensed"
-        },
-        "InconsolataCondensed-ExtraBold": {
-          "name": "Inconsolata 800",
-          "fileName": "Inconsolata-CondensedExtraBold.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 800,
-          "fontStretch": "condensed"
-        },
-        "InconsolataCondensed-Bold": {
-          "name": "Inconsolata Bold",
-          "fileName": "Inconsolata-CondensedBold.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 700,
-          "fontStretch": "condensed"
-        },
-        "InconsolataCondensed-Black": {
-          "name": "Inconsolata 900",
-          "fileName": "Inconsolata-CondensedBlack.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 900,
-          "fontStretch": "condensed"
         },
         "Inconsolata-Bold": {
           "name": "Inconsolata Bold",
@@ -1322,7 +1106,7 @@ export default {
           "fontStretch": "normal"
         },
         "Inconsolata-Black": {
-          "name": "Inconsolata 900",
+          "name": "Inconsolata Black",
           "fileName": "Inconsolata-Black.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -1370,8 +1154,8 @@ export default {
     },
     "faces": {
       "variable": {
-        "VariableRegular[wght]": {
-          "name": "Crimson-pro Variable - weight axis",
+        "CrimsonProVariableRegular[wght]": {
+          "name": "Crimson Pro Variable (weight)",
           "fileName": "CrimsonPro[wght].ttf",
           "format": "truetype",
           "fontStyle": "normal",
@@ -1388,8 +1172,8 @@ export default {
           },
           "weightRange": "200 900"
         },
-        "VariableItalic[wght]": {
-          "name": "Crimson-pro Variable - weight axis",
+        "CrimsonProVariableItalic[wght]": {
+          "name": "Crimson Pro Italic Variable (weight)",
           "fileName": "CrimsonPro-Italic[wght].ttf",
           "format": "truetype",
           "fontStyle": "italic",
@@ -1408,113 +1192,113 @@ export default {
         }
       },
       "static": {
-        "CrimsonPro-SemiBoldItalic": {
-          "name": "Crimson-pro Italic Italic",
+        "CrimsonPro-SemiBold-Italic": {
+          "name": "Crimson Pro SemiBold Italic",
           "fileName": "CrimsonPro-SemiBoldItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
           "fontWeight": 600
         },
         "CrimsonPro-SemiBold": {
-          "name": "Crimson-pro 600",
+          "name": "Crimson Pro SemiBold",
           "fileName": "CrimsonPro-SemiBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 600
         },
         "CrimsonPro-Regular": {
-          "name": "Crimson-pro Regular",
+          "name": "Crimson Pro Regular",
           "fileName": "CrimsonPro-Regular.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 400
         },
-        "CrimsonPro-MediumItalic": {
-          "name": "Crimson-pro Italic Italic",
+        "CrimsonPro-Medium-Italic": {
+          "name": "Crimson Pro Medium Italic",
           "fileName": "CrimsonPro-MediumItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
           "fontWeight": 500
         },
         "CrimsonPro-Medium": {
-          "name": "Crimson-pro 500",
+          "name": "Crimson Pro Medium",
           "fileName": "CrimsonPro-Medium.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 500
         },
-        "CrimsonPro-LightItalic": {
-          "name": "Crimson-pro Italic Italic",
+        "CrimsonPro-Light-Italic": {
+          "name": "Crimson Pro Light Italic",
           "fileName": "CrimsonPro-LightItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
           "fontWeight": 300
         },
         "CrimsonPro-Light": {
-          "name": "Crimson-pro 300",
+          "name": "Crimson Pro Light",
           "fileName": "CrimsonPro-Light.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 300
         },
-        "CrimsonPro-Italic": {
-          "name": "Crimson-pro Italic Italic",
+        "CrimsonPro-Regular-Italic": {
+          "name": "Crimson Pro Regular Italic",
           "fileName": "CrimsonPro-Italic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
           "fontWeight": 400
         },
-        "CrimsonPro-ExtraLightItalic": {
-          "name": "Crimson-pro Italic Italic",
+        "CrimsonPro-ExtraLight-Italic": {
+          "name": "Crimson Pro ExtraLight Italic",
           "fileName": "CrimsonPro-ExtraLightItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
           "fontWeight": 200
         },
         "CrimsonPro-ExtraLight": {
-          "name": "Crimson-pro 200",
+          "name": "Crimson Pro ExtraLight",
           "fileName": "CrimsonPro-ExtraLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 200
         },
-        "CrimsonPro-ExtraBoldItalic": {
-          "name": "Crimson-pro Italic Italic",
+        "CrimsonPro-ExtraBold-Italic": {
+          "name": "Crimson Pro ExtraBold Italic",
           "fileName": "CrimsonPro-ExtraBoldItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
           "fontWeight": 800
         },
         "CrimsonPro-ExtraBold": {
-          "name": "Crimson-pro 800",
+          "name": "Crimson Pro ExtraBold",
           "fileName": "CrimsonPro-ExtraBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 800
         },
-        "CrimsonPro-BoldItalic": {
-          "name": "Crimson-pro Bold Italic Italic",
+        "CrimsonPro-Bold-Italic": {
+          "name": "Crimson Pro Bold Italic",
           "fileName": "CrimsonPro-BoldItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
           "fontWeight": 700
         },
         "CrimsonPro-Bold": {
-          "name": "Crimson-pro Bold",
+          "name": "Crimson Pro Bold",
           "fileName": "CrimsonPro-Bold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 700
         },
-        "CrimsonPro-BlackItalic": {
-          "name": "Crimson-pro Italic Italic",
+        "CrimsonPro-Black-Italic": {
+          "name": "Crimson Pro Black Italic",
           "fileName": "CrimsonPro-BlackItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
           "fontWeight": 900
         },
         "CrimsonPro-Black": {
-          "name": "Crimson-pro 900",
+          "name": "Crimson Pro Black",
           "fileName": "CrimsonPro-Black.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -1555,28 +1339,28 @@ export default {
       "variable": {},
       "static": {
         "AtkinsonHyperlegible-Regular": {
-          "name": "Atkinson-hyperlegible Regular",
+          "name": "Atkinson Hyperlegible Regular",
           "fileName": "AtkinsonHyperlegible-Regular.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 400
         },
-        "AtkinsonHyperlegible-Italic": {
-          "name": "Atkinson-hyperlegible Italic Italic",
+        "AtkinsonHyperlegible-Regular-Italic": {
+          "name": "Atkinson Hyperlegible Regular Italic",
           "fileName": "AtkinsonHyperlegible-Italic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
           "fontWeight": 400
         },
-        "AtkinsonHyperlegible-BoldItalic": {
-          "name": "Atkinson-hyperlegible Bold Italic Italic",
+        "AtkinsonHyperlegible-Bold-Italic": {
+          "name": "Atkinson Hyperlegible Bold Italic",
           "fileName": "AtkinsonHyperlegible-BoldItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
           "fontWeight": 700
         },
         "AtkinsonHyperlegible-Bold": {
-          "name": "Atkinson-hyperlegible Bold",
+          "name": "Atkinson Hyperlegible Bold",
           "fileName": "AtkinsonHyperlegible-Bold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -1637,8 +1421,8 @@ export default {
     },
     "faces": {
       "variable": {
-        "VariableRegular[wght]": {
-          "name": "Aspekta Variable - weight axis",
+        "AspektaVariableRegular[wght]": {
+          "name": "Aspekta Variable (weight)",
           "fileName": "AspektaVF.ttf",
           "format": "truetype",
           "fontStyle": "normal",
@@ -1664,8 +1448,8 @@ export default {
           "fontStyle": "normal",
           "fontWeight": 950
         },
-        "Aspekta-900": {
-          "name": "Aspekta 900",
+        "Aspekta-Black": {
+          "name": "Aspekta Black",
           "fileName": "Aspekta-900.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -1678,8 +1462,8 @@ export default {
           "fontStyle": "normal",
           "fontWeight": 850
         },
-        "Aspekta-800": {
-          "name": "Aspekta 800",
+        "Aspekta-ExtraBold": {
+          "name": "Aspekta ExtraBold",
           "fileName": "Aspekta-800.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -1692,7 +1476,7 @@ export default {
           "fontStyle": "normal",
           "fontWeight": 750
         },
-        "Aspekta-700": {
+        "Aspekta-Bold": {
           "name": "Aspekta Bold",
           "fileName": "Aspekta-700.woff2",
           "format": "woff2",
@@ -1706,8 +1490,8 @@ export default {
           "fontStyle": "normal",
           "fontWeight": 650
         },
-        "Aspekta-600": {
-          "name": "Aspekta 600",
+        "Aspekta-SemiBold": {
+          "name": "Aspekta SemiBold",
           "fileName": "Aspekta-600.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -1720,8 +1504,8 @@ export default {
           "fontStyle": "normal",
           "fontWeight": 550
         },
-        "Aspekta-500": {
-          "name": "Aspekta 500",
+        "Aspekta-Medium": {
+          "name": "Aspekta Medium",
           "fileName": "Aspekta-500.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -1741,7 +1525,7 @@ export default {
           "fontStyle": "normal",
           "fontWeight": 450
         },
-        "Aspekta-400": {
+        "Aspekta-Regular": {
           "name": "Aspekta Regular",
           "fileName": "Aspekta-400.woff2",
           "format": "woff2",
@@ -1755,8 +1539,8 @@ export default {
           "fontStyle": "normal",
           "fontWeight": 350
         },
-        "Aspekta-300": {
-          "name": "Aspekta 300",
+        "Aspekta-Light": {
+          "name": "Aspekta Light",
           "fileName": "Aspekta-300.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -1769,8 +1553,8 @@ export default {
           "fontStyle": "normal",
           "fontWeight": 250
         },
-        "Aspekta-200": {
-          "name": "Aspekta 200",
+        "Aspekta-ExtraLight": {
+          "name": "Aspekta ExtraLight",
           "fileName": "Aspekta-200.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -1790,8 +1574,8 @@ export default {
           "fontStyle": "normal",
           "fontWeight": 1000
         },
-        "Aspekta-100": {
-          "name": "Aspekta 100",
+        "Aspekta-Thin": {
+          "name": "Aspekta Thin",
           "fileName": "Aspekta-100.woff2",
           "format": "woff2",
           "fontStyle": "normal",
@@ -1842,8 +1626,8 @@ export const publicSans = {
   },
   "faces": {
     "variable": {
-      "VariableRegular[wght]": {
-        "name": "Public-sans Variable - weight axis",
+      "PublicSansVariableRegular[wght]": {
+        "name": "Public Sans Variable (weight)",
         "fileName": "PublicSans[wght].ttf",
         "format": "truetype",
         "fontStyle": "normal",
@@ -1860,8 +1644,8 @@ export const publicSans = {
         },
         "weightRange": "100 900"
       },
-      "VariableItalic[wght]": {
-        "name": "Public-sans Variable - weight axis",
+      "PublicSansVariableItalic[wght]": {
+        "name": "Public Sans Italic Variable (weight)",
         "fileName": "PublicSans-Italic[wght].ttf",
         "format": "truetype",
         "fontStyle": "italic",
@@ -1880,127 +1664,127 @@ export const publicSans = {
       }
     },
     "static": {
-      "PublicSans-ThinItalic": {
-        "name": "Public-sans Italic Italic",
+      "PublicSans-Thin-Italic": {
+        "name": "Public Sans Thin Italic",
         "fileName": "PublicSans-ThinItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
         "fontWeight": 100
       },
       "PublicSans-Thin": {
-        "name": "Public-sans 100",
+        "name": "Public Sans Thin",
         "fileName": "PublicSans-Thin.woff",
         "format": "woff",
         "fontStyle": "normal",
         "fontWeight": 100
       },
-      "PublicSans-SemiBoldItalic": {
-        "name": "Public-sans Italic Italic",
+      "PublicSans-SemiBold-Italic": {
+        "name": "Public Sans SemiBold Italic",
         "fileName": "PublicSans-SemiBoldItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
         "fontWeight": 600
       },
       "PublicSans-SemiBold": {
-        "name": "Public-sans 600",
+        "name": "Public Sans SemiBold",
         "fileName": "PublicSans-SemiBold.woff",
         "format": "woff",
         "fontStyle": "normal",
         "fontWeight": 600
       },
       "PublicSans-Regular": {
-        "name": "Public-sans Regular",
+        "name": "Public Sans Regular",
         "fileName": "PublicSans-Regular.woff",
         "format": "woff",
         "fontStyle": "normal",
         "fontWeight": 400
       },
-      "PublicSans-MediumItalic": {
-        "name": "Public-sans Italic Italic",
+      "PublicSans-Medium-Italic": {
+        "name": "Public Sans Medium Italic",
         "fileName": "PublicSans-MediumItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
         "fontWeight": 500
       },
       "PublicSans-Medium": {
-        "name": "Public-sans 500",
+        "name": "Public Sans Medium",
         "fileName": "PublicSans-Medium.woff",
         "format": "woff",
         "fontStyle": "normal",
         "fontWeight": 500
       },
-      "PublicSans-LightItalic": {
-        "name": "Public-sans Italic Italic",
+      "PublicSans-Light-Italic": {
+        "name": "Public Sans Light Italic",
         "fileName": "PublicSans-LightItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
         "fontWeight": 300
       },
       "PublicSans-Light": {
-        "name": "Public-sans 300",
+        "name": "Public Sans Light",
         "fileName": "PublicSans-Light.woff",
         "format": "woff",
         "fontStyle": "normal",
         "fontWeight": 300
       },
-      "PublicSans-Italic": {
-        "name": "Public-sans Italic Italic",
+      "PublicSans-Regular-Italic": {
+        "name": "Public Sans Regular Italic",
         "fileName": "PublicSans-Italic.woff",
         "format": "woff",
         "fontStyle": "italic",
         "fontWeight": 400
       },
-      "PublicSans-ExtraLightItalic": {
-        "name": "Public-sans Italic Italic",
+      "PublicSans-ExtraLight-Italic": {
+        "name": "Public Sans ExtraLight Italic",
         "fileName": "PublicSans-ExtraLightItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
         "fontWeight": 200
       },
       "PublicSans-ExtraLight": {
-        "name": "Public-sans 200",
+        "name": "Public Sans ExtraLight",
         "fileName": "PublicSans-ExtraLight.woff",
         "format": "woff",
         "fontStyle": "normal",
         "fontWeight": 200
       },
-      "PublicSans-ExtraBoldItalic": {
-        "name": "Public-sans Italic Italic",
+      "PublicSans-ExtraBold-Italic": {
+        "name": "Public Sans ExtraBold Italic",
         "fileName": "PublicSans-ExtraBoldItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
         "fontWeight": 800
       },
       "PublicSans-ExtraBold": {
-        "name": "Public-sans 800",
+        "name": "Public Sans ExtraBold",
         "fileName": "PublicSans-ExtraBold.woff",
         "format": "woff",
         "fontStyle": "normal",
         "fontWeight": 800
       },
-      "PublicSans-BoldItalic": {
-        "name": "Public-sans Bold Italic Italic",
+      "PublicSans-Bold-Italic": {
+        "name": "Public Sans Bold Italic",
         "fileName": "PublicSans-BoldItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
         "fontWeight": 700
       },
       "PublicSans-Bold": {
-        "name": "Public-sans Bold",
+        "name": "Public Sans Bold",
         "fileName": "PublicSans-Bold.woff",
         "format": "woff",
         "fontStyle": "normal",
         "fontWeight": 700
       },
-      "PublicSans-BlackItalic": {
-        "name": "Public-sans Italic Italic",
+      "PublicSans-Black-Italic": {
+        "name": "Public Sans Black Italic",
         "fileName": "PublicSans-BlackItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
         "fontWeight": 900
       },
       "PublicSans-Black": {
-        "name": "Public-sans 900",
+        "name": "Public Sans Black",
         "fileName": "PublicSans-Black.woff",
         "format": "woff",
         "fontStyle": "normal",
@@ -2045,8 +1829,8 @@ export const publicSans = {
   },
   "faces": {
     "variable": {
-      "VariableRegular[wdth,wght]": {
-        "name": "League-mono Variable - weight axis, width axis",
+      "LeagueMonoVariableRegular[wdth,wght]": {
+        "name": "League Mono Variable (weight, width)",
         "fileName": "LeagueMono-VF.ttf",
         "format": "truetype",
         "fontStyle": "normal",
@@ -2082,72 +1866,72 @@ export const publicSans = {
       }
     },
     "static": {
-      "LeagueMono-WideUltraLight": {
-        "name": "League-mono 200",
+      "LeagueMono-UltraExpanded-ExtraLight": {
+        "name": "League Mono Ultra Expanded ExtraLight",
         "fileName": "LeagueMono-WideUltraLight.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 200,
         "fontStretch": "ultra-expanded"
       },
-      "LeagueMono-WideThin": {
-        "name": "League-mono 100",
+      "LeagueMono-UltraExpanded-Thin": {
+        "name": "League Mono Ultra Expanded Thin",
         "fileName": "LeagueMono-WideThin.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 100,
         "fontStretch": "ultra-expanded"
       },
-      "LeagueMono-WideSemiBold": {
-        "name": "League-mono 600",
+      "LeagueMono-UltraExpanded-SemiBold": {
+        "name": "League Mono Ultra Expanded SemiBold",
         "fileName": "LeagueMono-WideSemiBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 600,
         "fontStretch": "ultra-expanded"
       },
-      "LeagueMono-WideRegular": {
-        "name": "League-mono Regular",
+      "LeagueMono-UltraExpanded-Regular": {
+        "name": "League Mono Ultra Expanded Regular",
         "fileName": "LeagueMono-WideRegular.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 400,
         "fontStretch": "ultra-expanded"
       },
-      "LeagueMono-WideMedium": {
-        "name": "League-mono 500",
+      "LeagueMono-UltraExpanded-Medium": {
+        "name": "League Mono Ultra Expanded Medium",
         "fileName": "LeagueMono-WideMedium.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 500,
         "fontStretch": "ultra-expanded"
       },
-      "LeagueMono-WideLight": {
-        "name": "League-mono 300",
+      "LeagueMono-UltraExpanded-Light": {
+        "name": "League Mono Ultra Expanded Light",
         "fileName": "LeagueMono-WideLight.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 300,
         "fontStretch": "ultra-expanded"
       },
-      "LeagueMono-WideExtraBold": {
-        "name": "League-mono 800",
+      "LeagueMono-UltraExpanded-ExtraBold": {
+        "name": "League Mono Ultra Expanded ExtraBold",
         "fileName": "LeagueMono-WideExtraBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 800,
         "fontStretch": "ultra-expanded"
       },
-      "LeagueMono-WideBold": {
-        "name": "League-mono Bold",
+      "LeagueMono-UltraExpanded-Bold": {
+        "name": "League Mono Ultra Expanded Bold",
         "fileName": "LeagueMono-WideBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 700,
         "fontStretch": "ultra-expanded"
       },
-      "LeagueMono-UltraLight": {
-        "name": "League-mono 200",
+      "LeagueMono-ExtraLight": {
+        "name": "League Mono ExtraLight",
         "fileName": "LeagueMono-UltraLight.otf",
         "format": "opentype",
         "fontStyle": "normal",
@@ -2155,7 +1939,7 @@ export const publicSans = {
         "fontStretch": "normal"
       },
       "LeagueMono-Thin": {
-        "name": "League-mono 100",
+        "name": "League Mono Thin",
         "fileName": "LeagueMono-Thin.otf",
         "format": "opentype",
         "fontStyle": "normal",
@@ -2163,7 +1947,7 @@ export const publicSans = {
         "fontStretch": "normal"
       },
       "LeagueMono-SemiBold": {
-        "name": "League-mono 600",
+        "name": "League Mono SemiBold",
         "fileName": "LeagueMono-SemiBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
@@ -2171,71 +1955,71 @@ export const publicSans = {
         "fontStretch": "normal"
       },
       "LeagueMono-Regular": {
-        "name": "League-mono Regular",
+        "name": "League Mono Regular",
         "fileName": "LeagueMono-Regular.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 400,
         "fontStretch": "normal"
       },
-      "LeagueMono-NarrowUltraLight": {
-        "name": "League-mono 200",
+      "LeagueMono-SemiCondensed-ExtraLight": {
+        "name": "League Mono Semi Condensed ExtraLight",
         "fileName": "LeagueMono-NarrowUltraLight.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 200,
         "fontStretch": "semi-condensed"
       },
-      "LeagueMono-NarrowThin": {
-        "name": "League-mono 100",
+      "LeagueMono-SemiCondensed-Thin": {
+        "name": "League Mono Semi Condensed Thin",
         "fileName": "LeagueMono-NarrowThin.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 100,
         "fontStretch": "semi-condensed"
       },
-      "LeagueMono-NarrowSemiBold": {
-        "name": "League-mono 600",
+      "LeagueMono-SemiCondensed-SemiBold": {
+        "name": "League Mono Semi Condensed SemiBold",
         "fileName": "LeagueMono-NarrowSemiBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 600,
         "fontStretch": "semi-condensed"
       },
-      "LeagueMono-NarrowRegular": {
-        "name": "League-mono Regular",
+      "LeagueMono-SemiCondensed-Regular": {
+        "name": "League Mono Semi Condensed Regular",
         "fileName": "LeagueMono-NarrowRegular.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 400,
         "fontStretch": "semi-condensed"
       },
-      "LeagueMono-NarrowMedium": {
-        "name": "League-mono 500",
+      "LeagueMono-SemiCondensed-Medium": {
+        "name": "League Mono Semi Condensed Medium",
         "fileName": "LeagueMono-NarrowMedium.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 500,
         "fontStretch": "semi-condensed"
       },
-      "LeagueMono-NarrowLight": {
-        "name": "League-mono 300",
+      "LeagueMono-SemiCondensed-Light": {
+        "name": "League Mono Semi Condensed Light",
         "fileName": "LeagueMono-NarrowLight.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 300,
         "fontStretch": "semi-condensed"
       },
-      "LeagueMono-NarrowExtraBold": {
-        "name": "League-mono 800",
+      "LeagueMono-SemiCondensed-ExtraBold": {
+        "name": "League Mono Semi Condensed ExtraBold",
         "fileName": "LeagueMono-NarrowExtraBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 800,
         "fontStretch": "semi-condensed"
       },
-      "LeagueMono-NarrowBold": {
-        "name": "League-mono Bold",
+      "LeagueMono-SemiCondensed-Bold": {
+        "name": "League Mono Semi Condensed Bold",
         "fileName": "LeagueMono-NarrowBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
@@ -2243,7 +2027,7 @@ export const publicSans = {
         "fontStretch": "semi-condensed"
       },
       "LeagueMono-Medium": {
-        "name": "League-mono 500",
+        "name": "League Mono Medium",
         "fileName": "LeagueMono-Medium.otf",
         "format": "opentype",
         "fontStyle": "normal",
@@ -2251,7 +2035,7 @@ export const publicSans = {
         "fontStretch": "normal"
       },
       "LeagueMono-Light": {
-        "name": "League-mono 300",
+        "name": "League Mono Light",
         "fileName": "LeagueMono-Light.otf",
         "format": "opentype",
         "fontStyle": "normal",
@@ -2259,135 +2043,135 @@ export const publicSans = {
         "fontStretch": "normal"
       },
       "LeagueMono-ExtraBold": {
-        "name": "League-mono 800",
+        "name": "League Mono ExtraBold",
         "fileName": "LeagueMono-ExtraBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 800,
         "fontStretch": "normal"
       },
-      "LeagueMono-ExtendedUltraLight": {
-        "name": "League-mono 200",
+      "LeagueMono-Expanded-ExtraLight": {
+        "name": "League Mono Expanded ExtraLight",
         "fileName": "LeagueMono-ExtendedUltraLight.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 200,
         "fontStretch": "expanded"
       },
-      "LeagueMono-ExtendedThin": {
-        "name": "League-mono 100",
+      "LeagueMono-Expanded-Thin": {
+        "name": "League Mono Expanded Thin",
         "fileName": "LeagueMono-ExtendedThin.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 100,
         "fontStretch": "expanded"
       },
-      "LeagueMono-ExtendedSemiBold": {
-        "name": "League-mono 600",
+      "LeagueMono-Expanded-SemiBold": {
+        "name": "League Mono Expanded SemiBold",
         "fileName": "LeagueMono-ExtendedSemiBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 600,
         "fontStretch": "expanded"
       },
-      "LeagueMono-ExtendedRegular": {
-        "name": "League-mono Regular",
+      "LeagueMono-Expanded-Regular": {
+        "name": "League Mono Expanded Regular",
         "fileName": "LeagueMono-ExtendedRegular.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 400,
         "fontStretch": "expanded"
       },
-      "LeagueMono-ExtendedMedium": {
-        "name": "League-mono 500",
+      "LeagueMono-Expanded-Medium": {
+        "name": "League Mono Expanded Medium",
         "fileName": "LeagueMono-ExtendedMedium.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 500,
         "fontStretch": "expanded"
       },
-      "LeagueMono-ExtendedLight": {
-        "name": "League-mono 300",
+      "LeagueMono-Expanded-Light": {
+        "name": "League Mono Expanded Light",
         "fileName": "LeagueMono-ExtendedLight.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 300,
         "fontStretch": "expanded"
       },
-      "LeagueMono-ExtendedExtraBold": {
-        "name": "League-mono 800",
+      "LeagueMono-Expanded-ExtraBold": {
+        "name": "League Mono Expanded ExtraBold",
         "fileName": "LeagueMono-ExtendedExtraBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 800,
         "fontStretch": "expanded"
       },
-      "LeagueMono-ExtendedBold": {
-        "name": "League-mono Bold",
+      "LeagueMono-Expanded-Bold": {
+        "name": "League Mono Expanded Bold",
         "fileName": "LeagueMono-ExtendedBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 700,
         "fontStretch": "expanded"
       },
-      "LeagueMono-CondensedUltraLight": {
-        "name": "League-mono 200",
+      "LeagueMono-Condensed-ExtraLight": {
+        "name": "League Mono Condensed ExtraLight",
         "fileName": "LeagueMono-CondensedUltraLight.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 200,
         "fontStretch": "condensed"
       },
-      "LeagueMono-CondensedThin": {
-        "name": "League-mono 100",
+      "LeagueMono-Condensed-Thin": {
+        "name": "League Mono Condensed Thin",
         "fileName": "LeagueMono-CondensedThin.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 100,
         "fontStretch": "condensed"
       },
-      "LeagueMono-CondensedSemiBold": {
-        "name": "League-mono 600",
+      "LeagueMono-Condensed-SemiBold": {
+        "name": "League Mono Condensed SemiBold",
         "fileName": "LeagueMono-CondensedSemiBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 600,
         "fontStretch": "condensed"
       },
-      "LeagueMono-CondensedMedium": {
-        "name": "League-mono 500",
+      "LeagueMono-Condensed-Medium": {
+        "name": "League Mono Condensed Medium",
         "fileName": "LeagueMono-CondensedMedium.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 500,
         "fontStretch": "condensed"
       },
-      "LeagueMono-CondensedLight": {
-        "name": "League-mono 300",
+      "LeagueMono-Condensed-Light": {
+        "name": "League Mono Condensed Light",
         "fileName": "LeagueMono-CondensedLight.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 300,
         "fontStretch": "condensed"
       },
-      "LeagueMono-CondensedExtraBold": {
-        "name": "League-mono 800",
+      "LeagueMono-Condensed-ExtraBold": {
+        "name": "League Mono Condensed ExtraBold",
         "fileName": "LeagueMono-CondensedExtraBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 800,
         "fontStretch": "condensed"
       },
-      "LeagueMono-CondensedBold": {
-        "name": "League-mono Bold",
+      "LeagueMono-Condensed-Bold": {
+        "name": "League Mono Condensed Bold",
         "fileName": "LeagueMono-CondensedBold.otf",
         "format": "opentype",
         "fontStyle": "normal",
         "fontWeight": 700,
         "fontStretch": "condensed"
       },
-      "LeagueMono-Condensed": {
-        "name": "League-mono Regular",
+      "LeagueMono-Condensed-Regular": {
+        "name": "League Mono Condensed Regular",
         "fileName": "LeagueMono-Condensed.otf",
         "format": "opentype",
         "fontStyle": "normal",
@@ -2395,7 +2179,7 @@ export const publicSans = {
         "fontStretch": "condensed"
       },
       "LeagueMono-Bold": {
-        "name": "League-mono Bold",
+        "name": "League Mono Bold",
         "fileName": "LeagueMono-Bold.otf",
         "format": "opentype",
         "fontStyle": "normal",
@@ -2443,8 +2227,8 @@ export const publicSans = {
   },
   "faces": {
     "variable": {
-      "VariableRegular[wdth,wght]": {
-        "name": "Inconsolata Variable - weight axis, width axis",
+      "InconsolataVariableRegular[wdth,wght]": {
+        "name": "Inconsolata Variable (weight, width)",
         "fileName": "Inconsolata[wdth,wght].ttf",
         "format": "truetype",
         "fontStyle": "normal",
@@ -2476,144 +2260,144 @@ export const publicSans = {
       }
     },
     "static": {
-      "InconsolataUltraExpanded-Thin": {
-        "name": "Inconsolata 100",
-        "fileName": "Inconsolata-UltraExpandedThin.woff2",
+      "Inconsolata-Expanded-Thin": {
+        "name": "Inconsolata Expanded Thin",
+        "fileName": "Inconsolata-ExpandedThin.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 100,
         "fontStretch": "expanded"
       },
-      "InconsolataUltraExpanded-SemiBold": {
-        "name": "Inconsolata 600",
-        "fileName": "Inconsolata-UltraExpandedSemiBold.woff2",
+      "Inconsolata-Expanded-SemiBold": {
+        "name": "Inconsolata Expanded SemiBold",
+        "fileName": "Inconsolata-ExpandedSemiBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 600,
         "fontStretch": "expanded"
       },
-      "InconsolataUltraExpanded-Regular": {
-        "name": "Inconsolata Regular",
-        "fileName": "Inconsolata-UltraExpandedRegular.woff2",
+      "Inconsolata-Expanded-Regular": {
+        "name": "Inconsolata Expanded Regular",
+        "fileName": "Inconsolata-ExpandedRegular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400,
         "fontStretch": "expanded"
       },
-      "InconsolataUltraExpanded-Medium": {
-        "name": "Inconsolata 500",
-        "fileName": "Inconsolata-UltraExpandedMedium.woff2",
+      "Inconsolata-Expanded-Medium": {
+        "name": "Inconsolata Expanded Medium",
+        "fileName": "Inconsolata-ExpandedMedium.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 500,
         "fontStretch": "expanded"
       },
-      "InconsolataUltraExpanded-Light": {
-        "name": "Inconsolata 300",
-        "fileName": "Inconsolata-UltraExpandedLight.woff2",
+      "Inconsolata-Expanded-Light": {
+        "name": "Inconsolata Expanded Light",
+        "fileName": "Inconsolata-ExpandedLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 300,
         "fontStretch": "expanded"
       },
-      "InconsolataUltraExpanded-ExtraLight": {
-        "name": "Inconsolata 200",
-        "fileName": "Inconsolata-UltraExpandedExtraLight.woff2",
+      "Inconsolata-Expanded-ExtraLight": {
+        "name": "Inconsolata Expanded ExtraLight",
+        "fileName": "Inconsolata-ExpandedExtraLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 200,
         "fontStretch": "expanded"
       },
-      "InconsolataUltraExpanded-ExtraBold": {
-        "name": "Inconsolata 800",
-        "fileName": "Inconsolata-UltraExpandedExtraBold.woff2",
+      "Inconsolata-Expanded-ExtraBold": {
+        "name": "Inconsolata Expanded ExtraBold",
+        "fileName": "Inconsolata-ExpandedExtraBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 800,
         "fontStretch": "expanded"
       },
-      "InconsolataUltraExpanded-Bold": {
-        "name": "Inconsolata Bold",
-        "fileName": "Inconsolata-UltraExpandedBold.woff2",
+      "Inconsolata-Expanded-Bold": {
+        "name": "Inconsolata Expanded Bold",
+        "fileName": "Inconsolata-ExpandedBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 700,
         "fontStretch": "expanded"
       },
-      "InconsolataUltraExpanded-Black": {
-        "name": "Inconsolata 900",
-        "fileName": "Inconsolata-UltraExpandedBlack.woff2",
+      "Inconsolata-Expanded-Black": {
+        "name": "Inconsolata Expanded Black",
+        "fileName": "Inconsolata-ExpandedBlack.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 900,
         "fontStretch": "expanded"
       },
-      "InconsolataUltraCondensed-Thin": {
-        "name": "Inconsolata 100",
+      "Inconsolata-UltraCondensed-Thin": {
+        "name": "Inconsolata Ultra Condensed Thin",
         "fileName": "Inconsolata-UltraCondensedThin.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 100,
         "fontStretch": "ultra-condensed"
       },
-      "InconsolataUltraCondensed-SemiBold": {
-        "name": "Inconsolata 600",
+      "Inconsolata-UltraCondensed-SemiBold": {
+        "name": "Inconsolata Ultra Condensed SemiBold",
         "fileName": "Inconsolata-UltraCondensedSemiBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 600,
         "fontStretch": "ultra-condensed"
       },
-      "InconsolataUltraCondensed-Regular": {
-        "name": "Inconsolata Regular",
+      "Inconsolata-UltraCondensed-Regular": {
+        "name": "Inconsolata Ultra Condensed Regular",
         "fileName": "Inconsolata-UltraCondensedRegular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400,
         "fontStretch": "ultra-condensed"
       },
-      "InconsolataUltraCondensed-Medium": {
-        "name": "Inconsolata 500",
+      "Inconsolata-UltraCondensed-Medium": {
+        "name": "Inconsolata Ultra Condensed Medium",
         "fileName": "Inconsolata-UltraCondensedMedium.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 500,
         "fontStretch": "ultra-condensed"
       },
-      "InconsolataUltraCondensed-Light": {
-        "name": "Inconsolata 300",
+      "Inconsolata-UltraCondensed-Light": {
+        "name": "Inconsolata Ultra Condensed Light",
         "fileName": "Inconsolata-UltraCondensedLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 300,
         "fontStretch": "ultra-condensed"
       },
-      "InconsolataUltraCondensed-ExtraLight": {
-        "name": "Inconsolata 200",
+      "Inconsolata-UltraCondensed-ExtraLight": {
+        "name": "Inconsolata Ultra Condensed ExtraLight",
         "fileName": "Inconsolata-UltraCondensedExtraLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 200,
         "fontStretch": "ultra-condensed"
       },
-      "InconsolataUltraCondensed-ExtraBold": {
-        "name": "Inconsolata 800",
+      "Inconsolata-UltraCondensed-ExtraBold": {
+        "name": "Inconsolata Ultra Condensed ExtraBold",
         "fileName": "Inconsolata-UltraCondensedExtraBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 800,
         "fontStretch": "ultra-condensed"
       },
-      "InconsolataUltraCondensed-Bold": {
-        "name": "Inconsolata Bold",
+      "Inconsolata-UltraCondensed-Bold": {
+        "name": "Inconsolata Ultra Condensed Bold",
         "fileName": "Inconsolata-UltraCondensedBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 700,
         "fontStretch": "ultra-condensed"
       },
-      "InconsolataUltraCondensed-Black": {
-        "name": "Inconsolata 900",
+      "Inconsolata-UltraCondensed-Black": {
+        "name": "Inconsolata Ultra Condensed Black",
         "fileName": "Inconsolata-UltraCondensedBlack.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -2621,159 +2405,159 @@ export const publicSans = {
         "fontStretch": "ultra-condensed"
       },
       "Inconsolata-Thin": {
-        "name": "Inconsolata 100",
+        "name": "Inconsolata Thin",
         "fileName": "Inconsolata-Thin.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 100,
         "fontStretch": "normal"
       },
-      "InconsolataSemiExpanded-Thin": {
-        "name": "Inconsolata 100",
+      "Inconsolata-SemiExpanded-Thin": {
+        "name": "Inconsolata Semi Expanded Thin",
         "fileName": "Inconsolata-SemiExpandedThin.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 100,
         "fontStretch": "semi-expanded"
       },
-      "InconsolataSemiExpanded-SemiBold": {
-        "name": "Inconsolata 600",
+      "Inconsolata-SemiExpanded-SemiBold": {
+        "name": "Inconsolata Semi Expanded SemiBold",
         "fileName": "Inconsolata-SemiExpandedSemiBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 600,
         "fontStretch": "semi-expanded"
       },
-      "InconsolataSemiExpanded-Regular": {
-        "name": "Inconsolata Regular",
+      "Inconsolata-SemiExpanded-Regular": {
+        "name": "Inconsolata Semi Expanded Regular",
         "fileName": "Inconsolata-SemiExpandedRegular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400,
         "fontStretch": "semi-expanded"
       },
-      "InconsolataSemiExpanded-Medium": {
-        "name": "Inconsolata 500",
+      "Inconsolata-SemiExpanded-Medium": {
+        "name": "Inconsolata Semi Expanded Medium",
         "fileName": "Inconsolata-SemiExpandedMedium.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 500,
         "fontStretch": "semi-expanded"
       },
-      "InconsolataSemiExpanded-Light": {
-        "name": "Inconsolata 300",
+      "Inconsolata-SemiExpanded-Light": {
+        "name": "Inconsolata Semi Expanded Light",
         "fileName": "Inconsolata-SemiExpandedLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 300,
         "fontStretch": "semi-expanded"
       },
-      "InconsolataSemiExpanded-ExtraLight": {
-        "name": "Inconsolata 200",
+      "Inconsolata-SemiExpanded-ExtraLight": {
+        "name": "Inconsolata Semi Expanded ExtraLight",
         "fileName": "Inconsolata-SemiExpandedExtraLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 200,
         "fontStretch": "semi-expanded"
       },
-      "InconsolataSemiExpanded-ExtraBold": {
-        "name": "Inconsolata 800",
+      "Inconsolata-SemiExpanded-ExtraBold": {
+        "name": "Inconsolata Semi Expanded ExtraBold",
         "fileName": "Inconsolata-SemiExpandedExtraBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 800,
         "fontStretch": "semi-expanded"
       },
-      "InconsolataSemiExpanded-Bold": {
-        "name": "Inconsolata Bold",
+      "Inconsolata-SemiExpanded-Bold": {
+        "name": "Inconsolata Semi Expanded Bold",
         "fileName": "Inconsolata-SemiExpandedBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 700,
         "fontStretch": "semi-expanded"
       },
-      "InconsolataSemiExpanded-Black": {
-        "name": "Inconsolata 900",
+      "Inconsolata-SemiExpanded-Black": {
+        "name": "Inconsolata Semi Expanded Black",
         "fileName": "Inconsolata-SemiExpandedBlack.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 900,
         "fontStretch": "semi-expanded"
       },
-      "InconsolataSemiCondensed-Thin": {
-        "name": "Inconsolata 100",
-        "fileName": "Inconsolata-SemiCondensedThin.woff2",
+      "Inconsolata-Condensed-Thin": {
+        "name": "Inconsolata Condensed Thin",
+        "fileName": "Inconsolata-CondensedThin.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 100,
         "fontStretch": "condensed"
       },
-      "InconsolataSemiCondensed-SemiBold": {
-        "name": "Inconsolata 600",
-        "fileName": "Inconsolata-SemiCondensedSemiBold.woff2",
+      "Inconsolata-Condensed-SemiBold": {
+        "name": "Inconsolata Condensed SemiBold",
+        "fileName": "Inconsolata-CondensedSemiBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 600,
         "fontStretch": "condensed"
       },
-      "InconsolataSemiCondensed-Regular": {
-        "name": "Inconsolata Regular",
-        "fileName": "Inconsolata-SemiCondensedRegular.woff2",
+      "Inconsolata-Condensed-Regular": {
+        "name": "Inconsolata Condensed Regular",
+        "fileName": "Inconsolata-CondensedRegular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400,
         "fontStretch": "condensed"
       },
-      "InconsolataSemiCondensed-Medium": {
-        "name": "Inconsolata 500",
-        "fileName": "Inconsolata-SemiCondensedMedium.woff2",
+      "Inconsolata-Condensed-Medium": {
+        "name": "Inconsolata Condensed Medium",
+        "fileName": "Inconsolata-CondensedMedium.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 500,
         "fontStretch": "condensed"
       },
-      "InconsolataSemiCondensed-Light": {
-        "name": "Inconsolata 300",
-        "fileName": "Inconsolata-SemiCondensedLight.woff2",
+      "Inconsolata-Condensed-Light": {
+        "name": "Inconsolata Condensed Light",
+        "fileName": "Inconsolata-CondensedLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 300,
         "fontStretch": "condensed"
       },
-      "InconsolataSemiCondensed-ExtraLight": {
-        "name": "Inconsolata 200",
-        "fileName": "Inconsolata-SemiCondensedExtraLight.woff2",
+      "Inconsolata-Condensed-ExtraLight": {
+        "name": "Inconsolata Condensed ExtraLight",
+        "fileName": "Inconsolata-CondensedExtraLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 200,
         "fontStretch": "condensed"
       },
-      "InconsolataSemiCondensed-ExtraBold": {
-        "name": "Inconsolata 800",
-        "fileName": "Inconsolata-SemiCondensedExtraBold.woff2",
+      "Inconsolata-Condensed-ExtraBold": {
+        "name": "Inconsolata Condensed ExtraBold",
+        "fileName": "Inconsolata-CondensedExtraBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 800,
         "fontStretch": "condensed"
       },
-      "InconsolataSemiCondensed-Bold": {
-        "name": "Inconsolata Bold",
-        "fileName": "Inconsolata-SemiCondensedBold.woff2",
+      "Inconsolata-Condensed-Bold": {
+        "name": "Inconsolata Condensed Bold",
+        "fileName": "Inconsolata-CondensedBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 700,
         "fontStretch": "condensed"
       },
-      "InconsolataSemiCondensed-Black": {
-        "name": "Inconsolata 900",
-        "fileName": "Inconsolata-SemiCondensedBlack.woff2",
+      "Inconsolata-Condensed-Black": {
+        "name": "Inconsolata Condensed Black",
+        "fileName": "Inconsolata-CondensedBlack.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 900,
         "fontStretch": "condensed"
       },
       "Inconsolata-SemiBold": {
-        "name": "Inconsolata 600",
+        "name": "Inconsolata SemiBold",
         "fileName": "Inconsolata-SemiBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -2789,7 +2573,7 @@ export const publicSans = {
         "fontStretch": "normal"
       },
       "Inconsolata-Medium": {
-        "name": "Inconsolata 500",
+        "name": "Inconsolata Medium",
         "fileName": "Inconsolata-Medium.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -2797,7 +2581,7 @@ export const publicSans = {
         "fontStretch": "normal"
       },
       "Inconsolata-Light": {
-        "name": "Inconsolata 300",
+        "name": "Inconsolata Light",
         "fileName": "Inconsolata-Light.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -2805,151 +2589,79 @@ export const publicSans = {
         "fontStretch": "normal"
       },
       "Inconsolata-ExtraLight": {
-        "name": "Inconsolata 200",
+        "name": "Inconsolata ExtraLight",
         "fileName": "Inconsolata-ExtraLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 200,
         "fontStretch": "normal"
       },
-      "InconsolataExtraExpanded-Thin": {
-        "name": "Inconsolata 100",
-        "fileName": "Inconsolata-ExtraExpandedThin.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 100,
-        "fontStretch": "expanded"
-      },
-      "InconsolataExtraExpanded-SemiBold": {
-        "name": "Inconsolata 600",
-        "fileName": "Inconsolata-ExtraExpandedSemiBold.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 600,
-        "fontStretch": "expanded"
-      },
-      "InconsolataExtraExpanded-Regular": {
-        "name": "Inconsolata Regular",
-        "fileName": "Inconsolata-ExtraExpandedRegular.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 400,
-        "fontStretch": "expanded"
-      },
-      "InconsolataExtraExpanded-Medium": {
-        "name": "Inconsolata 500",
-        "fileName": "Inconsolata-ExtraExpandedMedium.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 500,
-        "fontStretch": "expanded"
-      },
-      "InconsolataExtraExpanded-Light": {
-        "name": "Inconsolata 300",
-        "fileName": "Inconsolata-ExtraExpandedLight.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 300,
-        "fontStretch": "expanded"
-      },
-      "InconsolataExtraExpanded-ExtraLight": {
-        "name": "Inconsolata 200",
-        "fileName": "Inconsolata-ExtraExpandedExtraLight.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 200,
-        "fontStretch": "expanded"
-      },
-      "InconsolataExtraExpanded-ExtraBold": {
-        "name": "Inconsolata 800",
-        "fileName": "Inconsolata-ExtraExpandedExtraBold.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 800,
-        "fontStretch": "expanded"
-      },
-      "InconsolataExtraExpanded-Bold": {
-        "name": "Inconsolata Bold",
-        "fileName": "Inconsolata-ExtraExpandedBold.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 700,
-        "fontStretch": "expanded"
-      },
-      "InconsolataExtraExpanded-Black": {
-        "name": "Inconsolata 900",
-        "fileName": "Inconsolata-ExtraExpandedBlack.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 900,
-        "fontStretch": "expanded"
-      },
-      "InconsolataExtraCondensed-Thin": {
-        "name": "Inconsolata 100",
+      "Inconsolata-ExtraCondensed-Thin": {
+        "name": "Inconsolata Extra Condensed Thin",
         "fileName": "Inconsolata-ExtraCondensedThin.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 100,
         "fontStretch": "extra-condensed"
       },
-      "InconsolataExtraCondensed-SemiBold": {
-        "name": "Inconsolata 600",
+      "Inconsolata-ExtraCondensed-SemiBold": {
+        "name": "Inconsolata Extra Condensed SemiBold",
         "fileName": "Inconsolata-ExtraCondensedSemiBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 600,
         "fontStretch": "extra-condensed"
       },
-      "InconsolataExtraCondensed-Regular": {
-        "name": "Inconsolata Regular",
+      "Inconsolata-ExtraCondensed-Regular": {
+        "name": "Inconsolata Extra Condensed Regular",
         "fileName": "Inconsolata-ExtraCondensedRegular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400,
         "fontStretch": "extra-condensed"
       },
-      "InconsolataExtraCondensed-Medium": {
-        "name": "Inconsolata 500",
+      "Inconsolata-ExtraCondensed-Medium": {
+        "name": "Inconsolata Extra Condensed Medium",
         "fileName": "Inconsolata-ExtraCondensedMedium.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 500,
         "fontStretch": "extra-condensed"
       },
-      "InconsolataExtraCondensed-Light": {
-        "name": "Inconsolata 300",
+      "Inconsolata-ExtraCondensed-Light": {
+        "name": "Inconsolata Extra Condensed Light",
         "fileName": "Inconsolata-ExtraCondensedLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 300,
         "fontStretch": "extra-condensed"
       },
-      "InconsolataExtraCondensed-ExtraLight": {
-        "name": "Inconsolata 200",
+      "Inconsolata-ExtraCondensed-ExtraLight": {
+        "name": "Inconsolata Extra Condensed ExtraLight",
         "fileName": "Inconsolata-ExtraCondensedExtraLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 200,
         "fontStretch": "extra-condensed"
       },
-      "InconsolataExtraCondensed-ExtraBold": {
-        "name": "Inconsolata 800",
+      "Inconsolata-ExtraCondensed-ExtraBold": {
+        "name": "Inconsolata Extra Condensed ExtraBold",
         "fileName": "Inconsolata-ExtraCondensedExtraBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 800,
         "fontStretch": "extra-condensed"
       },
-      "InconsolataExtraCondensed-Bold": {
-        "name": "Inconsolata Bold",
+      "Inconsolata-ExtraCondensed-Bold": {
+        "name": "Inconsolata Extra Condensed Bold",
         "fileName": "Inconsolata-ExtraCondensedBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 700,
         "fontStretch": "extra-condensed"
       },
-      "InconsolataExtraCondensed-Black": {
-        "name": "Inconsolata 900",
+      "Inconsolata-ExtraCondensed-Black": {
+        "name": "Inconsolata Extra Condensed Black",
         "fileName": "Inconsolata-ExtraCondensedBlack.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -2957,156 +2669,12 @@ export const publicSans = {
         "fontStretch": "extra-condensed"
       },
       "Inconsolata-ExtraBold": {
-        "name": "Inconsolata 800",
+        "name": "Inconsolata ExtraBold",
         "fileName": "Inconsolata-ExtraBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 800,
         "fontStretch": "normal"
-      },
-      "InconsolataExpanded-Thin": {
-        "name": "Inconsolata 100",
-        "fileName": "Inconsolata-ExpandedThin.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 100,
-        "fontStretch": "expanded"
-      },
-      "InconsolataExpanded-SemiBold": {
-        "name": "Inconsolata 600",
-        "fileName": "Inconsolata-ExpandedSemiBold.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 600,
-        "fontStretch": "expanded"
-      },
-      "InconsolataExpanded-Regular": {
-        "name": "Inconsolata Regular",
-        "fileName": "Inconsolata-ExpandedRegular.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 400,
-        "fontStretch": "expanded"
-      },
-      "InconsolataExpanded-Medium": {
-        "name": "Inconsolata 500",
-        "fileName": "Inconsolata-ExpandedMedium.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 500,
-        "fontStretch": "expanded"
-      },
-      "InconsolataExpanded-Light": {
-        "name": "Inconsolata 300",
-        "fileName": "Inconsolata-ExpandedLight.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 300,
-        "fontStretch": "expanded"
-      },
-      "InconsolataExpanded-ExtraLight": {
-        "name": "Inconsolata 200",
-        "fileName": "Inconsolata-ExpandedExtraLight.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 200,
-        "fontStretch": "expanded"
-      },
-      "InconsolataExpanded-ExtraBold": {
-        "name": "Inconsolata 800",
-        "fileName": "Inconsolata-ExpandedExtraBold.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 800,
-        "fontStretch": "expanded"
-      },
-      "InconsolataExpanded-Bold": {
-        "name": "Inconsolata Bold",
-        "fileName": "Inconsolata-ExpandedBold.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 700,
-        "fontStretch": "expanded"
-      },
-      "InconsolataExpanded-Black": {
-        "name": "Inconsolata 900",
-        "fileName": "Inconsolata-ExpandedBlack.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 900,
-        "fontStretch": "expanded"
-      },
-      "InconsolataCondensed-Thin": {
-        "name": "Inconsolata 100",
-        "fileName": "Inconsolata-CondensedThin.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 100,
-        "fontStretch": "condensed"
-      },
-      "InconsolataCondensed-SemiBold": {
-        "name": "Inconsolata 600",
-        "fileName": "Inconsolata-CondensedSemiBold.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 600,
-        "fontStretch": "condensed"
-      },
-      "InconsolataCondensed-Regular": {
-        "name": "Inconsolata Regular",
-        "fileName": "Inconsolata-CondensedRegular.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 400,
-        "fontStretch": "condensed"
-      },
-      "InconsolataCondensed-Medium": {
-        "name": "Inconsolata 500",
-        "fileName": "Inconsolata-CondensedMedium.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 500,
-        "fontStretch": "condensed"
-      },
-      "InconsolataCondensed-Light": {
-        "name": "Inconsolata 300",
-        "fileName": "Inconsolata-CondensedLight.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 300,
-        "fontStretch": "condensed"
-      },
-      "InconsolataCondensed-ExtraLight": {
-        "name": "Inconsolata 200",
-        "fileName": "Inconsolata-CondensedExtraLight.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 200,
-        "fontStretch": "condensed"
-      },
-      "InconsolataCondensed-ExtraBold": {
-        "name": "Inconsolata 800",
-        "fileName": "Inconsolata-CondensedExtraBold.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 800,
-        "fontStretch": "condensed"
-      },
-      "InconsolataCondensed-Bold": {
-        "name": "Inconsolata Bold",
-        "fileName": "Inconsolata-CondensedBold.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 700,
-        "fontStretch": "condensed"
-      },
-      "InconsolataCondensed-Black": {
-        "name": "Inconsolata 900",
-        "fileName": "Inconsolata-CondensedBlack.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 900,
-        "fontStretch": "condensed"
       },
       "Inconsolata-Bold": {
         "name": "Inconsolata Bold",
@@ -3117,7 +2685,7 @@ export const publicSans = {
         "fontStretch": "normal"
       },
       "Inconsolata-Black": {
-        "name": "Inconsolata 900",
+        "name": "Inconsolata Black",
         "fileName": "Inconsolata-Black.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -3164,8 +2732,8 @@ export const publicSans = {
   },
   "faces": {
     "variable": {
-      "VariableRegular[wght]": {
-        "name": "Crimson-pro Variable - weight axis",
+      "CrimsonProVariableRegular[wght]": {
+        "name": "Crimson Pro Variable (weight)",
         "fileName": "CrimsonPro[wght].ttf",
         "format": "truetype",
         "fontStyle": "normal",
@@ -3182,8 +2750,8 @@ export const publicSans = {
         },
         "weightRange": "200 900"
       },
-      "VariableItalic[wght]": {
-        "name": "Crimson-pro Variable - weight axis",
+      "CrimsonProVariableItalic[wght]": {
+        "name": "Crimson Pro Italic Variable (weight)",
         "fileName": "CrimsonPro-Italic[wght].ttf",
         "format": "truetype",
         "fontStyle": "italic",
@@ -3202,113 +2770,113 @@ export const publicSans = {
       }
     },
     "static": {
-      "CrimsonPro-SemiBoldItalic": {
-        "name": "Crimson-pro Italic Italic",
+      "CrimsonPro-SemiBold-Italic": {
+        "name": "Crimson Pro SemiBold Italic",
         "fileName": "CrimsonPro-SemiBoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 600
       },
       "CrimsonPro-SemiBold": {
-        "name": "Crimson-pro 600",
+        "name": "Crimson Pro SemiBold",
         "fileName": "CrimsonPro-SemiBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 600
       },
       "CrimsonPro-Regular": {
-        "name": "Crimson-pro Regular",
+        "name": "Crimson Pro Regular",
         "fileName": "CrimsonPro-Regular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400
       },
-      "CrimsonPro-MediumItalic": {
-        "name": "Crimson-pro Italic Italic",
+      "CrimsonPro-Medium-Italic": {
+        "name": "Crimson Pro Medium Italic",
         "fileName": "CrimsonPro-MediumItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 500
       },
       "CrimsonPro-Medium": {
-        "name": "Crimson-pro 500",
+        "name": "Crimson Pro Medium",
         "fileName": "CrimsonPro-Medium.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 500
       },
-      "CrimsonPro-LightItalic": {
-        "name": "Crimson-pro Italic Italic",
+      "CrimsonPro-Light-Italic": {
+        "name": "Crimson Pro Light Italic",
         "fileName": "CrimsonPro-LightItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 300
       },
       "CrimsonPro-Light": {
-        "name": "Crimson-pro 300",
+        "name": "Crimson Pro Light",
         "fileName": "CrimsonPro-Light.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 300
       },
-      "CrimsonPro-Italic": {
-        "name": "Crimson-pro Italic Italic",
+      "CrimsonPro-Regular-Italic": {
+        "name": "Crimson Pro Regular Italic",
         "fileName": "CrimsonPro-Italic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 400
       },
-      "CrimsonPro-ExtraLightItalic": {
-        "name": "Crimson-pro Italic Italic",
+      "CrimsonPro-ExtraLight-Italic": {
+        "name": "Crimson Pro ExtraLight Italic",
         "fileName": "CrimsonPro-ExtraLightItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 200
       },
       "CrimsonPro-ExtraLight": {
-        "name": "Crimson-pro 200",
+        "name": "Crimson Pro ExtraLight",
         "fileName": "CrimsonPro-ExtraLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 200
       },
-      "CrimsonPro-ExtraBoldItalic": {
-        "name": "Crimson-pro Italic Italic",
+      "CrimsonPro-ExtraBold-Italic": {
+        "name": "Crimson Pro ExtraBold Italic",
         "fileName": "CrimsonPro-ExtraBoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 800
       },
       "CrimsonPro-ExtraBold": {
-        "name": "Crimson-pro 800",
+        "name": "Crimson Pro ExtraBold",
         "fileName": "CrimsonPro-ExtraBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 800
       },
-      "CrimsonPro-BoldItalic": {
-        "name": "Crimson-pro Bold Italic Italic",
+      "CrimsonPro-Bold-Italic": {
+        "name": "Crimson Pro Bold Italic",
         "fileName": "CrimsonPro-BoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 700
       },
       "CrimsonPro-Bold": {
-        "name": "Crimson-pro Bold",
+        "name": "Crimson Pro Bold",
         "fileName": "CrimsonPro-Bold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 700
       },
-      "CrimsonPro-BlackItalic": {
-        "name": "Crimson-pro Italic Italic",
+      "CrimsonPro-Black-Italic": {
+        "name": "Crimson Pro Black Italic",
         "fileName": "CrimsonPro-BlackItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 900
       },
       "CrimsonPro-Black": {
-        "name": "Crimson-pro 900",
+        "name": "Crimson Pro Black",
         "fileName": "CrimsonPro-Black.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -3348,28 +2916,28 @@ export const publicSans = {
     "variable": {},
     "static": {
       "AtkinsonHyperlegible-Regular": {
-        "name": "Atkinson-hyperlegible Regular",
+        "name": "Atkinson Hyperlegible Regular",
         "fileName": "AtkinsonHyperlegible-Regular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400
       },
-      "AtkinsonHyperlegible-Italic": {
-        "name": "Atkinson-hyperlegible Italic Italic",
+      "AtkinsonHyperlegible-Regular-Italic": {
+        "name": "Atkinson Hyperlegible Regular Italic",
         "fileName": "AtkinsonHyperlegible-Italic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 400
       },
-      "AtkinsonHyperlegible-BoldItalic": {
-        "name": "Atkinson-hyperlegible Bold Italic Italic",
+      "AtkinsonHyperlegible-Bold-Italic": {
+        "name": "Atkinson Hyperlegible Bold Italic",
         "fileName": "AtkinsonHyperlegible-BoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 700
       },
       "AtkinsonHyperlegible-Bold": {
-        "name": "Atkinson-hyperlegible Bold",
+        "name": "Atkinson Hyperlegible Bold",
         "fileName": "AtkinsonHyperlegible-Bold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -3429,8 +2997,8 @@ export const publicSans = {
   },
   "faces": {
     "variable": {
-      "VariableRegular[wght]": {
-        "name": "Aspekta Variable - weight axis",
+      "AspektaVariableRegular[wght]": {
+        "name": "Aspekta Variable (weight)",
         "fileName": "AspektaVF.ttf",
         "format": "truetype",
         "fontStyle": "normal",
@@ -3456,8 +3024,8 @@ export const publicSans = {
         "fontStyle": "normal",
         "fontWeight": 950
       },
-      "Aspekta-900": {
-        "name": "Aspekta 900",
+      "Aspekta-Black": {
+        "name": "Aspekta Black",
         "fileName": "Aspekta-900.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -3470,8 +3038,8 @@ export const publicSans = {
         "fontStyle": "normal",
         "fontWeight": 850
       },
-      "Aspekta-800": {
-        "name": "Aspekta 800",
+      "Aspekta-ExtraBold": {
+        "name": "Aspekta ExtraBold",
         "fileName": "Aspekta-800.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -3484,7 +3052,7 @@ export const publicSans = {
         "fontStyle": "normal",
         "fontWeight": 750
       },
-      "Aspekta-700": {
+      "Aspekta-Bold": {
         "name": "Aspekta Bold",
         "fileName": "Aspekta-700.woff2",
         "format": "woff2",
@@ -3498,8 +3066,8 @@ export const publicSans = {
         "fontStyle": "normal",
         "fontWeight": 650
       },
-      "Aspekta-600": {
-        "name": "Aspekta 600",
+      "Aspekta-SemiBold": {
+        "name": "Aspekta SemiBold",
         "fileName": "Aspekta-600.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -3512,8 +3080,8 @@ export const publicSans = {
         "fontStyle": "normal",
         "fontWeight": 550
       },
-      "Aspekta-500": {
-        "name": "Aspekta 500",
+      "Aspekta-Medium": {
+        "name": "Aspekta Medium",
         "fileName": "Aspekta-500.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -3533,7 +3101,7 @@ export const publicSans = {
         "fontStyle": "normal",
         "fontWeight": 450
       },
-      "Aspekta-400": {
+      "Aspekta-Regular": {
         "name": "Aspekta Regular",
         "fileName": "Aspekta-400.woff2",
         "format": "woff2",
@@ -3547,8 +3115,8 @@ export const publicSans = {
         "fontStyle": "normal",
         "fontWeight": 350
       },
-      "Aspekta-300": {
-        "name": "Aspekta 300",
+      "Aspekta-Light": {
+        "name": "Aspekta Light",
         "fileName": "Aspekta-300.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -3561,8 +3129,8 @@ export const publicSans = {
         "fontStyle": "normal",
         "fontWeight": 250
       },
-      "Aspekta-200": {
-        "name": "Aspekta 200",
+      "Aspekta-ExtraLight": {
+        "name": "Aspekta ExtraLight",
         "fileName": "Aspekta-200.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -3582,8 +3150,8 @@ export const publicSans = {
         "fontStyle": "normal",
         "fontWeight": 1000
       },
-      "Aspekta-100": {
-        "name": "Aspekta 100",
+      "Aspekta-Thin": {
+        "name": "Aspekta Thin",
         "fileName": "Aspekta-100.woff2",
         "format": "woff2",
         "fontStyle": "normal",

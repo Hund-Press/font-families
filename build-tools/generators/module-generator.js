@@ -425,7 +425,7 @@ function hasMultipleStretchVariants(familyData) {
 }
 
 /**
- * Transform font faces to consumption format
+ * Transform font faces to consumption format with standardized naming
  * @param {Object} familyData - Font family data  
  * @returns {Object} Transformed font faces
  */
@@ -438,6 +438,7 @@ function transformFontFaces(familyData) {
     // Process variable fonts
     if (familyData.variable) {
         for (const [fontKey, fontData] of Object.entries(familyData.variable)) {
+            const standardizedKey = generateStandardFaceKey(familyData.name, fontData, true);
             const faceData = {
                 name: generateVariableFaceName(familyData.name, fontData),
                 fileName: path.basename(fontData.path),
@@ -452,11 +453,11 @@ function transformFontFaces(familyData) {
                 faceData.stretch = fontData.stretch;
             }
             
-            faces.variable[fontKey] = faceData;
+            faces.variable[standardizedKey] = faceData;
             
             // Add weight range for variable fonts
             if (fontData.axes?.wght) {
-                faces.variable[fontKey].weightRange = `${fontData.axes.wght.min} ${fontData.axes.wght.max}`;
+                faces.variable[standardizedKey].weightRange = `${fontData.axes.wght.min} ${fontData.axes.wght.max}`;
             }
         }
     }
@@ -464,8 +465,9 @@ function transformFontFaces(familyData) {
     // Process static fonts
     if (familyData.static) {
         for (const [fontKey, fontData] of Object.entries(familyData.static)) {
+            const standardizedKey = generateStandardFaceKey(familyData.name, fontData, false);
             const faceData = {
-                name: generateStaticFaceName(familyData.name, fontData),
+                name: generateStandardFaceName(familyData.name, fontData),
                 fileName: path.basename(fontData.path),
                 format: getFormatFromExtension(fontData.path),
                 fontStyle: fontData.style,
@@ -477,7 +479,7 @@ function transformFontFaces(familyData) {
                 faceData.fontStretch = fontData.stretch;
             }
             
-            faces.static[fontKey] = faceData;
+            faces.static[standardizedKey] = faceData;
         }
     }
     
@@ -485,64 +487,159 @@ function transformFontFaces(familyData) {
 }
 
 /**
- * Generate human-readable name for variable font face
+ * Generate standardized human-readable name for variable font face
  * @param {string} familyName - Font family name
  * @param {Object} fontData - Variable font data
- * @returns {string} Human-readable face name
+ * @returns {string} Standardized human-readable variable face name
  */
 function generateVariableFaceName(familyName, fontData) {
+    // Proper title case family name (preserve hyphens, capitalize words)
+    const titleFamilyName = familyName
+        .split('-')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ');
+    
     const axes = fontData.axes || {};
+    const style = fontData.style === 'italic' ? ' Italic' : '';
     const axisNames = [];
     
-    // Convert axis tags to human-readable names
-    if (axes.wght) axisNames.push('weight axis');
-    if (axes.wdth) axisNames.push('width axis');
-    if (axes.slnt) axisNames.push('slant axis');
-    if (axes.ital) axisNames.push('italic axis');
+    // Convert axis tags to human-readable names in standard order
+    if (axes.wght) axisNames.push('weight');
+    if (axes.wdth) axisNames.push('width');
+    if (axes.slnt) axisNames.push('slant');
+    if (axes.ital) axisNames.push('italic');
     
     // Add other axes as fallback
     for (const [axisTag, axisData] of Object.entries(axes)) {
         if (!['wght', 'wdth', 'slnt', 'ital'].includes(axisTag)) {
-            axisNames.push(`${axisTag} axis`);
+            axisNames.push(axisTag);
         }
     }
     
-    // Capitalize family name properly
-    const properFamilyName = familyName.charAt(0).toUpperCase() + familyName.slice(1);
-    const axisDescription = axisNames.length > 0 ? ` - ${axisNames.join(', ')}` : '';
-    return `${properFamilyName} Variable${axisDescription}`;
+    const axisDescription = axisNames.length > 0 ? ` (${axisNames.join(', ')})` : '';
+    return `${titleFamilyName}${style} Variable${axisDescription}`;
 }
 
 /**
- * Generate human-readable name for static font face using designer's actual names
+ * Generate standardized face key for consistent identification
  * @param {string} familyName - Font family name
- * @param {Object} fontData - Static font data
- * @returns {string} Human-readable face name using designer's naming choices
+ * @param {Object} fontData - Font data
+ * @param {boolean} isVariable - Whether this is a variable font
+ * @returns {string} Standardized face key
  */
-function generateStaticFaceName(familyName, fontData) {
-    const weight = fontData.weight || 400;
-    const style = fontData.style || 'normal';
+function generateStandardFaceKey(familyName, fontData, isVariable = false) {
+    // Convert family name to PascalCase (remove hyphens, capitalize words)
+    const pascalFamilyName = familyName
+        .split('-')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join('');
     
-    // Honor designer's subfamily name, but use numeric values for extreme weights
-    let weightName;
-    
-    if (fontData.subfamilyName && fontData.subfamilyName !== 'Regular') {
-        // Designer specified something other than "Regular" - use it (e.g., "Bold")
-        weightName = fontData.subfamilyName;
-    } else if (weight === 400) {
-        // Standard weight 400 - use "Regular" 
-        weightName = 'Regular';
-    } else {
-        // Designer used "Regular" for non-standard weight - use numeric value
-        weightName = weight.toString();
+    if (isVariable) {
+        // Variable font keys: FamilyNameVariable[axes]
+        const axes = Object.keys(fontData.axes || {}).sort().join(',');
+        const style = fontData.style === 'italic' ? 'Italic' : 'Regular';
+        return `${pascalFamilyName}Variable${style}[${axes}]`;
     }
     
-    // Add style if not normal
-    const styleSuffix = style !== 'normal' ? ` ${style.charAt(0).toUpperCase() + style.slice(1)}` : '';
+    // Static font keys: FamilyName-VariantWeightStyle
+    const parts = [pascalFamilyName];
     
-    // Use proper family name formatting
-    const properFamilyName = familyName.charAt(0).toUpperCase() + familyName.slice(1);
-    return `${properFamilyName} ${weightName}${styleSuffix}`;
+    // Add stretch variant if not normal
+    const stretch = fontData.stretch;
+    if (stretch && stretch !== 'normal') {
+        const stretchMap = {
+            'ultra-condensed': 'UltraCondensed',
+            'extra-condensed': 'ExtraCondensed', 
+            'condensed': 'Condensed',
+            'semi-condensed': 'SemiCondensed',
+            'semi-expanded': 'SemiExpanded',
+            'expanded': 'Expanded',
+            'extra-expanded': 'ExtraExpanded',
+            'ultra-expanded': 'UltraExpanded'
+        };
+        parts.push(stretchMap[stretch] || stretch);
+    }
+    
+    // Add weight
+    const weight = fontData.weight || 400;
+    const weightName = getStandardWeightName(weight);
+    parts.push(weightName);
+    
+    // Add style if italic
+    if (fontData.style === 'italic') {
+        parts.push('Italic');
+    }
+    
+    return parts.join('-');
+}
+
+/**
+ * Generate standardized human-readable face name
+ * @param {string} familyName - Font family name
+ * @param {Object} fontData - Static font data
+ * @returns {string} Standardized human-readable face name
+ */
+function generateStandardFaceName(familyName, fontData) {
+    // Proper title case family name (preserve hyphens, capitalize words)
+    const titleFamilyName = familyName
+        .split('-')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ');
+    
+    const weight = fontData.weight || 400;
+    const style = fontData.style || 'normal';
+    const stretch = fontData.stretch;
+    
+    const parts = [titleFamilyName];
+    
+    // Add stretch variant if not normal (before weight)
+    if (stretch && stretch !== 'normal') {
+        const stretchDisplayMap = {
+            'ultra-condensed': 'Ultra Condensed',
+            'extra-condensed': 'Extra Condensed',
+            'condensed': 'Condensed', 
+            'semi-condensed': 'Semi Condensed',
+            'semi-expanded': 'Semi Expanded',
+            'expanded': 'Expanded',
+            'extra-expanded': 'Extra Expanded', 
+            'ultra-expanded': 'Ultra Expanded'
+        };
+        parts.push(stretchDisplayMap[stretch] || stretch);
+    }
+    
+    // Add weight name
+    const weightName = getStandardWeightName(weight);
+    parts.push(weightName);
+    
+    // Add style if italic
+    if (style === 'italic') {
+        parts.push('Italic');
+    }
+    
+    return parts.join(' ');
+}
+
+/**
+ * Get standardized weight name from numeric weight
+ * @param {number} weight - Numeric font weight
+ * @returns {string} Standard weight name
+ */
+function getStandardWeightName(weight) {
+    // Standard weight mapping with fallback to numeric
+    const standardWeights = {
+        100: 'Thin',
+        200: 'ExtraLight', 
+        300: 'Light',
+        400: 'Regular',
+        500: 'Medium',
+        600: 'SemiBold',
+        700: 'Bold',
+        800: 'ExtraBold',
+        900: 'Black'
+    };
+    
+    // Return standard name if available, otherwise use numeric
+    return standardWeights[weight] || weight.toString();
 }
 
 
