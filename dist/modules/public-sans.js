@@ -9,12 +9,11 @@
 
 export default {
   "name": "public-sans",
-  "slug": "public-sans",
+  "key": "public-sans",
   "license": "OFL-1.1",
-  "description": "",
+  "description": "Unknown font family",
   "weight": {
     "range": "100-900",
-    "total": 9,
     "byFormat": {
       "variable": {
         "min": 100,
@@ -36,31 +35,64 @@ export default {
           900
         ]
       }
-    },
-    "coverage": {
-      "variableOnly": [],
-      "staticOnly": [],
-      "both": [
-        100,
-        200,
-        300,
-        400,
-        500,
-        600,
-        700,
-        800,
-        900
-      ]
     }
   },
-  "usage": {
-    "variable": {
-      "bestFor": "Dynamic weight adjustment, animations, responsive design",
-      "weightRange": "100-900"
+  "features": {
+    "openType": {
+      "categories": {
+        "stylistic": [
+          "ss01"
+        ],
+        "ligatures": [
+          "liga"
+        ],
+        "contextual": [
+          "calt"
+        ],
+        "positional": [
+          "kern",
+          "mark",
+          "mkmk"
+        ],
+        "numeric": [
+          "frac",
+          "lnum",
+          "onum",
+          "ordn",
+          "pnum",
+          "tnum"
+        ],
+        "other": [
+          "aalt",
+          "ccmp",
+          "dnom",
+          "locl",
+          "numr",
+          "salt",
+          "sinf",
+          "subs",
+          "sups"
+        ]
+      }
     },
-    "static": {
-      "bestFor": "Maximum weight variety, extreme weights, fallback support",
-      "weightRange": "100-900"
+    "stylisticSets": {
+      "available": [
+        {
+          "tag": "ss01",
+          "name": "Stylistic Set 1",
+          "description": "Alternate character forms"
+        }
+      ],
+      "count": 1,
+      "tags": [
+        "ss01"
+      ]
+    },
+    "capabilities": {
+      "hasLigatures": true,
+      "hasContextualAlternates": true,
+      "hasNumericalFeatures": true,
+      "hasStylisticSets": true
     }
   },
   "cdnBase": {
@@ -88,7 +120,6 @@ export default {
           "min": 100,
           "max": 900
         },
-        "stretch": "normal",
         "weightRange": "100 900"
       },
       "VariableItalic[wght]": {
@@ -107,7 +138,6 @@ export default {
           "min": 100,
           "max": 900
         },
-        "stretch": "normal",
         "weightRange": "100 900"
       }
     },
@@ -117,144 +147,126 @@ export default {
         "fileName": "PublicSans-ThinItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 100,
-        "fontStretch": "normal"
+        "fontWeight": 100
       },
       "PublicSans-Thin": {
         "name": "Public-sans 100",
         "fileName": "PublicSans-Thin.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 100,
-        "fontStretch": "normal"
+        "fontWeight": 100
       },
       "PublicSans-SemiBoldItalic": {
         "name": "Public-sans Italic Italic",
         "fileName": "PublicSans-SemiBoldItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 600,
-        "fontStretch": "normal"
+        "fontWeight": 600
       },
       "PublicSans-SemiBold": {
         "name": "Public-sans 600",
         "fileName": "PublicSans-SemiBold.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 600,
-        "fontStretch": "normal"
+        "fontWeight": 600
       },
       "PublicSans-Regular": {
         "name": "Public-sans Regular",
         "fileName": "PublicSans-Regular.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 400,
-        "fontStretch": "normal"
+        "fontWeight": 400
       },
       "PublicSans-MediumItalic": {
         "name": "Public-sans Italic Italic",
         "fileName": "PublicSans-MediumItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 500,
-        "fontStretch": "normal"
+        "fontWeight": 500
       },
       "PublicSans-Medium": {
         "name": "Public-sans 500",
         "fileName": "PublicSans-Medium.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 500,
-        "fontStretch": "normal"
+        "fontWeight": 500
       },
       "PublicSans-LightItalic": {
         "name": "Public-sans Italic Italic",
         "fileName": "PublicSans-LightItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 300,
-        "fontStretch": "normal"
+        "fontWeight": 300
       },
       "PublicSans-Light": {
         "name": "Public-sans 300",
         "fileName": "PublicSans-Light.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 300,
-        "fontStretch": "normal"
+        "fontWeight": 300
       },
       "PublicSans-Italic": {
         "name": "Public-sans Italic Italic",
         "fileName": "PublicSans-Italic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 400,
-        "fontStretch": "normal"
+        "fontWeight": 400
       },
       "PublicSans-ExtraLightItalic": {
         "name": "Public-sans Italic Italic",
         "fileName": "PublicSans-ExtraLightItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 200,
-        "fontStretch": "normal"
+        "fontWeight": 200
       },
       "PublicSans-ExtraLight": {
         "name": "Public-sans 200",
         "fileName": "PublicSans-ExtraLight.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 200,
-        "fontStretch": "normal"
+        "fontWeight": 200
       },
       "PublicSans-ExtraBoldItalic": {
         "name": "Public-sans Italic Italic",
         "fileName": "PublicSans-ExtraBoldItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 800,
-        "fontStretch": "normal"
+        "fontWeight": 800
       },
       "PublicSans-ExtraBold": {
         "name": "Public-sans 800",
         "fileName": "PublicSans-ExtraBold.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 800,
-        "fontStretch": "normal"
+        "fontWeight": 800
       },
       "PublicSans-BoldItalic": {
         "name": "Public-sans Bold Italic Italic",
         "fileName": "PublicSans-BoldItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 700,
-        "fontStretch": "normal"
+        "fontWeight": 700
       },
       "PublicSans-Bold": {
         "name": "Public-sans Bold",
         "fileName": "PublicSans-Bold.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 700,
-        "fontStretch": "normal"
+        "fontWeight": 700
       },
       "PublicSans-BlackItalic": {
         "name": "Public-sans Italic Italic",
         "fileName": "PublicSans-BlackItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 900,
-        "fontStretch": "normal"
+        "fontWeight": 900
       },
       "PublicSans-Black": {
         "name": "Public-sans 900",
         "fileName": "PublicSans-Black.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 900,
-        "fontStretch": "normal"
+        "fontWeight": 900
       }
     }
   },
@@ -277,7 +289,7 @@ export default {
           "PublicSansVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-08T16:32:58.992Z"
+      "generatedAt": "2025-09-09T18:38:48.421Z"
     }
   }
 };

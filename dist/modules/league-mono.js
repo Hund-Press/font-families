@@ -9,10 +9,10 @@
 
 export default {
   "name": "league-mono",
-  "slug": "league-mono",
+  "key": "league-mono",
+  "description": "League mono monospace font family with variable font technology and 40 weights. Ideal for code and terminal use",
   "weight": {
     "range": "100-800",
-    "total": 8,
     "byFormat": {
       "variable": {
         "min": 100,
@@ -33,30 +33,51 @@ export default {
           800
         ]
       }
-    },
-    "coverage": {
-      "variableOnly": [],
-      "staticOnly": [],
-      "both": [
-        100,
-        200,
-        300,
-        400,
-        500,
-        600,
-        700,
-        800
-      ]
     }
   },
-  "usage": {
-    "variable": {
-      "bestFor": "Dynamic weight adjustment, animations, responsive design",
-      "weightRange": "100-800"
+  "features": {
+    "openType": {
+      "categories": {
+        "stylistic": [
+          "ss01"
+        ],
+        "positional": [
+          "mark",
+          "mkmk"
+        ],
+        "case": [
+          "case"
+        ],
+        "numeric": [
+          "ordn",
+          "pnum",
+          "tnum"
+        ],
+        "other": [
+          "aalt",
+          "ccmp",
+          "locl"
+        ]
+      }
     },
-    "static": {
-      "bestFor": "Maximum weight variety, extreme weights, fallback support",
-      "weightRange": "100-800"
+    "stylisticSets": {
+      "available": [
+        {
+          "tag": "ss01",
+          "name": "Stylistic Set 1",
+          "description": "Alternate character forms"
+        }
+      ],
+      "count": 1,
+      "tags": [
+        "ss01"
+      ]
+    },
+    "capabilities": {
+      "hasLigatures": false,
+      "hasContextualAlternates": false,
+      "hasNumericalFeatures": true,
+      "hasStylisticSets": true
     }
   },
   "cdnBase": {
@@ -446,7 +467,7 @@ export default {
           "LeagueMonoVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-08T16:32:58.993Z"
+      "generatedAt": "2025-09-09T18:38:48.422Z"
     }
   }
 };

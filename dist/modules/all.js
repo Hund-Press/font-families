@@ -8,12 +8,11 @@
 export default {
   "public-sans": {
     "name": "public-sans",
-    "slug": "public-sans",
+    "key": "public-sans",
     "license": "OFL-1.1",
-    "description": "",
+    "description": "Unknown font family",
     "weight": {
       "range": "100-900",
-      "total": 9,
       "byFormat": {
         "variable": {
           "min": 100,
@@ -35,31 +34,6 @@ export default {
             900
           ]
         }
-      },
-      "coverage": {
-        "variableOnly": [],
-        "staticOnly": [],
-        "both": [
-          100,
-          200,
-          300,
-          400,
-          500,
-          600,
-          700,
-          800,
-          900
-        ]
-      }
-    },
-    "usage": {
-      "variable": {
-        "bestFor": "Dynamic weight adjustment, animations, responsive design",
-        "weightRange": "100-900"
-      },
-      "static": {
-        "bestFor": "Maximum weight variety, extreme weights, fallback support",
-        "weightRange": "100-900"
       }
     },
     "cdnBase": {
@@ -87,7 +61,6 @@ export default {
             "min": 100,
             "max": 900
           },
-          "stretch": "normal",
           "weightRange": "100 900"
         },
         "VariableItalic[wght]": {
@@ -106,7 +79,6 @@ export default {
             "min": 100,
             "max": 900
           },
-          "stretch": "normal",
           "weightRange": "100 900"
         }
       },
@@ -116,154 +88,136 @@ export default {
           "fileName": "PublicSans-ThinItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
-          "fontWeight": 100,
-          "fontStretch": "normal"
+          "fontWeight": 100
         },
         "PublicSans-Thin": {
           "name": "Public-sans 100",
           "fileName": "PublicSans-Thin.woff",
           "format": "woff",
           "fontStyle": "normal",
-          "fontWeight": 100,
-          "fontStretch": "normal"
+          "fontWeight": 100
         },
         "PublicSans-SemiBoldItalic": {
           "name": "Public-sans Italic Italic",
           "fileName": "PublicSans-SemiBoldItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
-          "fontWeight": 600,
-          "fontStretch": "normal"
+          "fontWeight": 600
         },
         "PublicSans-SemiBold": {
           "name": "Public-sans 600",
           "fileName": "PublicSans-SemiBold.woff",
           "format": "woff",
           "fontStyle": "normal",
-          "fontWeight": 600,
-          "fontStretch": "normal"
+          "fontWeight": 600
         },
         "PublicSans-Regular": {
           "name": "Public-sans Regular",
           "fileName": "PublicSans-Regular.woff",
           "format": "woff",
           "fontStyle": "normal",
-          "fontWeight": 400,
-          "fontStretch": "normal"
+          "fontWeight": 400
         },
         "PublicSans-MediumItalic": {
           "name": "Public-sans Italic Italic",
           "fileName": "PublicSans-MediumItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
-          "fontWeight": 500,
-          "fontStretch": "normal"
+          "fontWeight": 500
         },
         "PublicSans-Medium": {
           "name": "Public-sans 500",
           "fileName": "PublicSans-Medium.woff",
           "format": "woff",
           "fontStyle": "normal",
-          "fontWeight": 500,
-          "fontStretch": "normal"
+          "fontWeight": 500
         },
         "PublicSans-LightItalic": {
           "name": "Public-sans Italic Italic",
           "fileName": "PublicSans-LightItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
-          "fontWeight": 300,
-          "fontStretch": "normal"
+          "fontWeight": 300
         },
         "PublicSans-Light": {
           "name": "Public-sans 300",
           "fileName": "PublicSans-Light.woff",
           "format": "woff",
           "fontStyle": "normal",
-          "fontWeight": 300,
-          "fontStretch": "normal"
+          "fontWeight": 300
         },
         "PublicSans-Italic": {
           "name": "Public-sans Italic Italic",
           "fileName": "PublicSans-Italic.woff",
           "format": "woff",
           "fontStyle": "italic",
-          "fontWeight": 400,
-          "fontStretch": "normal"
+          "fontWeight": 400
         },
         "PublicSans-ExtraLightItalic": {
           "name": "Public-sans Italic Italic",
           "fileName": "PublicSans-ExtraLightItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
-          "fontWeight": 200,
-          "fontStretch": "normal"
+          "fontWeight": 200
         },
         "PublicSans-ExtraLight": {
           "name": "Public-sans 200",
           "fileName": "PublicSans-ExtraLight.woff",
           "format": "woff",
           "fontStyle": "normal",
-          "fontWeight": 200,
-          "fontStretch": "normal"
+          "fontWeight": 200
         },
         "PublicSans-ExtraBoldItalic": {
           "name": "Public-sans Italic Italic",
           "fileName": "PublicSans-ExtraBoldItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
-          "fontWeight": 800,
-          "fontStretch": "normal"
+          "fontWeight": 800
         },
         "PublicSans-ExtraBold": {
           "name": "Public-sans 800",
           "fileName": "PublicSans-ExtraBold.woff",
           "format": "woff",
           "fontStyle": "normal",
-          "fontWeight": 800,
-          "fontStretch": "normal"
+          "fontWeight": 800
         },
         "PublicSans-BoldItalic": {
           "name": "Public-sans Bold Italic Italic",
           "fileName": "PublicSans-BoldItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
-          "fontWeight": 700,
-          "fontStretch": "normal"
+          "fontWeight": 700
         },
         "PublicSans-Bold": {
           "name": "Public-sans Bold",
           "fileName": "PublicSans-Bold.woff",
           "format": "woff",
           "fontStyle": "normal",
-          "fontWeight": 700,
-          "fontStretch": "normal"
+          "fontWeight": 700
         },
         "PublicSans-BlackItalic": {
           "name": "Public-sans Italic Italic",
           "fileName": "PublicSans-BlackItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
-          "fontWeight": 900,
-          "fontStretch": "normal"
+          "fontWeight": 900
         },
         "PublicSans-Black": {
           "name": "Public-sans 900",
           "fileName": "PublicSans-Black.woff",
           "format": "woff",
           "fontStyle": "normal",
-          "fontWeight": 900,
-          "fontStretch": "normal"
+          "fontWeight": 900
         }
       }
     }
   },
   "league-mono": {
     "name": "league-mono",
-    "slug": "league-mono",
+    "key": "league-mono",
+    "description": "League mono monospace font family with variable font technology and 40 weights. Ideal for code and terminal use",
     "weight": {
       "range": "100-800",
-      "total": 8,
       "byFormat": {
         "variable": {
           "min": 100,
@@ -284,30 +238,6 @@ export default {
             800
           ]
         }
-      },
-      "coverage": {
-        "variableOnly": [],
-        "staticOnly": [],
-        "both": [
-          100,
-          200,
-          300,
-          400,
-          500,
-          600,
-          700,
-          800
-        ]
-      }
-    },
-    "usage": {
-      "variable": {
-        "bestFor": "Dynamic weight adjustment, animations, responsive design",
-        "weightRange": "100-800"
-      },
-      "static": {
-        "bestFor": "Maximum weight variety, extreme weights, fallback support",
-        "weightRange": "100-800"
       }
     },
     "cdnBase": {
@@ -681,12 +611,11 @@ export default {
   },
   "inconsolata": {
     "name": "inconsolata",
-    "slug": "inconsolata",
+    "key": "inconsolata",
     "license": "OFL-1.1",
-    "description": "",
+    "description": "Unknown font family",
     "weight": {
       "range": "100-900",
-      "total": 9,
       "byFormat": {
         "variable": {
           "min": 100,
@@ -708,31 +637,6 @@ export default {
             900
           ]
         }
-      },
-      "coverage": {
-        "variableOnly": [],
-        "staticOnly": [],
-        "both": [
-          100,
-          200,
-          300,
-          400,
-          500,
-          600,
-          700,
-          800,
-          900
-        ]
-      }
-    },
-    "usage": {
-      "variable": {
-        "bestFor": "Dynamic weight adjustment, animations, responsive design",
-        "weightRange": "100-900"
-      },
-      "static": {
-        "bestFor": "Maximum weight variety, extreme weights, fallback support",
-        "weightRange": "100-900"
       }
     },
     "cdnBase": {
@@ -1428,46 +1332,13 @@ export default {
       }
     }
   },
-  "ibm": {
-    "name": "ibm",
-    "slug": "ibm",
-    "version": "1.1.0",
-    "license": "OFL-1.1",
-    "description": "",
-    "weight": {
-      "range": "Unknown",
-      "total": 0,
-      "byFormat": {
-        "variable": null,
-        "static": null
-      },
-      "coverage": {
-        "variableOnly": [],
-        "staticOnly": [],
-        "both": []
-      }
-    },
-    "usage": null,
-    "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/ibm/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/ibm/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/ibm/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/ibm/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/_subsets/ibm/"
-    },
-    "faces": {
-      "variable": {},
-      "static": {}
-    }
-  },
   "crimson-pro": {
     "name": "crimson-pro",
-    "slug": "crimson-pro",
+    "key": "crimson-pro",
     "license": "OFL-1.1",
-    "description": "",
+    "description": "Unknown font family",
     "weight": {
       "range": "200-900",
-      "total": 8,
       "byFormat": {
         "variable": {
           "min": 200,
@@ -1488,30 +1359,6 @@ export default {
             900
           ]
         }
-      },
-      "coverage": {
-        "variableOnly": [],
-        "staticOnly": [],
-        "both": [
-          200,
-          300,
-          400,
-          500,
-          600,
-          700,
-          800,
-          900
-        ]
-      }
-    },
-    "usage": {
-      "variable": {
-        "bestFor": "Dynamic weight adjustment, animations, responsive design",
-        "weightRange": "200-900"
-      },
-      "static": {
-        "bestFor": "Maximum weight variety, extreme weights, fallback support",
-        "weightRange": "200-900"
       }
     },
     "cdnBase": {
@@ -1539,7 +1386,6 @@ export default {
             "min": 200,
             "max": 900
           },
-          "stretch": "normal",
           "weightRange": "200 900"
         },
         "VariableItalic[wght]": {
@@ -1558,7 +1404,6 @@ export default {
             "min": 200,
             "max": 900
           },
-          "stretch": "normal",
           "weightRange": "200 900"
         }
       },
@@ -1568,142 +1413,125 @@ export default {
           "fileName": "CrimsonPro-SemiBoldItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
-          "fontWeight": 600,
-          "fontStretch": "normal"
+          "fontWeight": 600
         },
         "CrimsonPro-SemiBold": {
           "name": "Crimson-pro 600",
           "fileName": "CrimsonPro-SemiBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 600,
-          "fontStretch": "normal"
+          "fontWeight": 600
         },
         "CrimsonPro-Regular": {
           "name": "Crimson-pro Regular",
           "fileName": "CrimsonPro-Regular.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400,
-          "fontStretch": "normal"
+          "fontWeight": 400
         },
         "CrimsonPro-MediumItalic": {
           "name": "Crimson-pro Italic Italic",
           "fileName": "CrimsonPro-MediumItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
-          "fontWeight": 500,
-          "fontStretch": "normal"
+          "fontWeight": 500
         },
         "CrimsonPro-Medium": {
           "name": "Crimson-pro 500",
           "fileName": "CrimsonPro-Medium.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 500,
-          "fontStretch": "normal"
+          "fontWeight": 500
         },
         "CrimsonPro-LightItalic": {
           "name": "Crimson-pro Italic Italic",
           "fileName": "CrimsonPro-LightItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
-          "fontWeight": 300,
-          "fontStretch": "normal"
+          "fontWeight": 300
         },
         "CrimsonPro-Light": {
           "name": "Crimson-pro 300",
           "fileName": "CrimsonPro-Light.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 300,
-          "fontStretch": "normal"
+          "fontWeight": 300
         },
         "CrimsonPro-Italic": {
           "name": "Crimson-pro Italic Italic",
           "fileName": "CrimsonPro-Italic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
-          "fontWeight": 400,
-          "fontStretch": "normal"
+          "fontWeight": 400
         },
         "CrimsonPro-ExtraLightItalic": {
           "name": "Crimson-pro Italic Italic",
           "fileName": "CrimsonPro-ExtraLightItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
-          "fontWeight": 200,
-          "fontStretch": "normal"
+          "fontWeight": 200
         },
         "CrimsonPro-ExtraLight": {
           "name": "Crimson-pro 200",
           "fileName": "CrimsonPro-ExtraLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 200,
-          "fontStretch": "normal"
+          "fontWeight": 200
         },
         "CrimsonPro-ExtraBoldItalic": {
           "name": "Crimson-pro Italic Italic",
           "fileName": "CrimsonPro-ExtraBoldItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
-          "fontWeight": 800,
-          "fontStretch": "normal"
+          "fontWeight": 800
         },
         "CrimsonPro-ExtraBold": {
           "name": "Crimson-pro 800",
           "fileName": "CrimsonPro-ExtraBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 800,
-          "fontStretch": "normal"
+          "fontWeight": 800
         },
         "CrimsonPro-BoldItalic": {
           "name": "Crimson-pro Bold Italic Italic",
           "fileName": "CrimsonPro-BoldItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
-          "fontWeight": 700,
-          "fontStretch": "normal"
+          "fontWeight": 700
         },
         "CrimsonPro-Bold": {
           "name": "Crimson-pro Bold",
           "fileName": "CrimsonPro-Bold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 700,
-          "fontStretch": "normal"
+          "fontWeight": 700
         },
         "CrimsonPro-BlackItalic": {
           "name": "Crimson-pro Italic Italic",
           "fileName": "CrimsonPro-BlackItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
-          "fontWeight": 900,
-          "fontStretch": "normal"
+          "fontWeight": 900
         },
         "CrimsonPro-Black": {
           "name": "Crimson-pro 900",
           "fileName": "CrimsonPro-Black.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 900,
-          "fontStretch": "normal"
+          "fontWeight": 900
         }
       }
     }
   },
   "atkinson-hyperlegible": {
     "name": "atkinson-hyperlegible",
-    "slug": "atkinson-hyperlegible",
+    "key": "atkinson-hyperlegible",
     "version": "1.0.0",
     "author": "Braille Institute of America",
     "license": "OFL-1.1",
-    "description": "",
+    "description": "Atkinson hyperlegible font family",
     "weight": {
       "range": "400-700",
-      "total": 2,
       "byFormat": {
         "variable": null,
         "static": {
@@ -1714,20 +1542,6 @@ export default {
             700
           ]
         }
-      },
-      "coverage": {
-        "variableOnly": [],
-        "staticOnly": [
-          400,
-          700
-        ],
-        "both": []
-      }
-    },
-    "usage": {
-      "static": {
-        "bestFor": "Maximum weight variety, extreme weights, fallback support",
-        "weightRange": "400-700"
       }
     },
     "cdnBase": {
@@ -1745,46 +1559,41 @@ export default {
           "fileName": "AtkinsonHyperlegible-Regular.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400,
-          "fontStretch": "normal"
+          "fontWeight": 400
         },
         "AtkinsonHyperlegible-Italic": {
           "name": "Atkinson-hyperlegible Italic Italic",
           "fileName": "AtkinsonHyperlegible-Italic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
-          "fontWeight": 400,
-          "fontStretch": "normal"
+          "fontWeight": 400
         },
         "AtkinsonHyperlegible-BoldItalic": {
           "name": "Atkinson-hyperlegible Bold Italic Italic",
           "fileName": "AtkinsonHyperlegible-BoldItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
-          "fontWeight": 700,
-          "fontStretch": "normal"
+          "fontWeight": 700
         },
         "AtkinsonHyperlegible-Bold": {
           "name": "Atkinson-hyperlegible Bold",
           "fileName": "AtkinsonHyperlegible-Bold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 700,
-          "fontStretch": "normal"
+          "fontWeight": 700
         }
       }
     }
   },
   "aspekta": {
     "name": "aspekta",
-    "slug": "aspekta",
+    "key": "aspekta",
     "version": "2.100",
     "author": "Ivo Dolenc",
     "license": "OFL-1.1",
-    "description": "",
+    "description": "Aspekta font family",
     "weight": {
       "range": "50-1000",
-      "total": 20,
       "byFormat": {
         "variable": {
           "min": 100,
@@ -1817,45 +1626,6 @@ export default {
             1000
           ]
         }
-      },
-      "coverage": {
-        "variableOnly": [],
-        "staticOnly": [
-          50,
-          950,
-          1000
-        ],
-        "both": [
-          100,
-          150,
-          200,
-          250,
-          300,
-          350,
-          400,
-          450,
-          500,
-          550,
-          600,
-          650,
-          700,
-          750,
-          800,
-          850,
-          900
-        ]
-      }
-    },
-    "usage": {
-      "variable": {
-        "bestFor": "Dynamic weight adjustment, animations, responsive design",
-        "weightRange": "100-900",
-        "limitations": "Extreme weights (950, 50, 1000) not available"
-      },
-      "static": {
-        "bestFor": "Maximum weight variety, extreme weights, fallback support",
-        "weightRange": "50-1000",
-        "advantages": "Includes all designed weights including extremes (950, 50, 1000)"
       }
     },
     "cdnBase": {
@@ -1883,7 +1653,6 @@ export default {
             "min": 100,
             "max": 900
           },
-          "stretch": "normal",
           "weightRange": "100 900"
         }
       },
@@ -1893,160 +1662,140 @@ export default {
           "fileName": "Aspekta-950.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 950,
-          "fontStretch": "normal"
+          "fontWeight": 950
         },
         "Aspekta-900": {
           "name": "Aspekta 900",
           "fileName": "Aspekta-900.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 900,
-          "fontStretch": "normal"
+          "fontWeight": 900
         },
         "Aspekta-850": {
           "name": "Aspekta 850",
           "fileName": "Aspekta-850.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 850,
-          "fontStretch": "normal"
+          "fontWeight": 850
         },
         "Aspekta-800": {
           "name": "Aspekta 800",
           "fileName": "Aspekta-800.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 800,
-          "fontStretch": "normal"
+          "fontWeight": 800
         },
         "Aspekta-750": {
           "name": "Aspekta 750",
           "fileName": "Aspekta-750.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 750,
-          "fontStretch": "normal"
+          "fontWeight": 750
         },
         "Aspekta-700": {
           "name": "Aspekta Bold",
           "fileName": "Aspekta-700.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 700,
-          "fontStretch": "normal"
+          "fontWeight": 700
         },
         "Aspekta-650": {
           "name": "Aspekta 650",
           "fileName": "Aspekta-650.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 650,
-          "fontStretch": "normal"
+          "fontWeight": 650
         },
         "Aspekta-600": {
           "name": "Aspekta 600",
           "fileName": "Aspekta-600.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 600,
-          "fontStretch": "normal"
+          "fontWeight": 600
         },
         "Aspekta-550": {
           "name": "Aspekta 550",
           "fileName": "Aspekta-550.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 550,
-          "fontStretch": "normal"
+          "fontWeight": 550
         },
         "Aspekta-500": {
           "name": "Aspekta 500",
           "fileName": "Aspekta-500.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 500,
-          "fontStretch": "normal"
+          "fontWeight": 500
         },
         "Aspekta-50": {
           "name": "Aspekta 50",
           "fileName": "Aspekta-50.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 50,
-          "fontStretch": "normal"
+          "fontWeight": 50
         },
         "Aspekta-450": {
           "name": "Aspekta 450",
           "fileName": "Aspekta-450.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 450,
-          "fontStretch": "normal"
+          "fontWeight": 450
         },
         "Aspekta-400": {
           "name": "Aspekta Regular",
           "fileName": "Aspekta-400.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400,
-          "fontStretch": "normal"
+          "fontWeight": 400
         },
         "Aspekta-350": {
           "name": "Aspekta 350",
           "fileName": "Aspekta-350.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 350,
-          "fontStretch": "normal"
+          "fontWeight": 350
         },
         "Aspekta-300": {
           "name": "Aspekta 300",
           "fileName": "Aspekta-300.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 300,
-          "fontStretch": "normal"
+          "fontWeight": 300
         },
         "Aspekta-250": {
           "name": "Aspekta 250",
           "fileName": "Aspekta-250.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 250,
-          "fontStretch": "normal"
+          "fontWeight": 250
         },
         "Aspekta-200": {
           "name": "Aspekta 200",
           "fileName": "Aspekta-200.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 200,
-          "fontStretch": "normal"
+          "fontWeight": 200
         },
         "Aspekta-150": {
           "name": "Aspekta 150",
           "fileName": "Aspekta-150.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 150,
-          "fontStretch": "normal"
+          "fontWeight": 150
         },
         "Aspekta-1000": {
           "name": "Aspekta 1000",
           "fileName": "Aspekta-1000.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 1000,
-          "fontStretch": "normal"
+          "fontWeight": 1000
         },
         "Aspekta-100": {
           "name": "Aspekta 100",
           "fileName": "Aspekta-100.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 100,
-          "fontStretch": "normal"
+          "fontWeight": 100
         }
       }
     }
@@ -2056,12 +1805,11 @@ export default {
 // Individual exports for convenience
 export const publicSans = {
   "name": "public-sans",
-  "slug": "public-sans",
+  "key": "public-sans",
   "license": "OFL-1.1",
-  "description": "",
+  "description": "Unknown font family",
   "weight": {
     "range": "100-900",
-    "total": 9,
     "byFormat": {
       "variable": {
         "min": 100,
@@ -2083,31 +1831,6 @@ export const publicSans = {
           900
         ]
       }
-    },
-    "coverage": {
-      "variableOnly": [],
-      "staticOnly": [],
-      "both": [
-        100,
-        200,
-        300,
-        400,
-        500,
-        600,
-        700,
-        800,
-        900
-      ]
-    }
-  },
-  "usage": {
-    "variable": {
-      "bestFor": "Dynamic weight adjustment, animations, responsive design",
-      "weightRange": "100-900"
-    },
-    "static": {
-      "bestFor": "Maximum weight variety, extreme weights, fallback support",
-      "weightRange": "100-900"
     }
   },
   "cdnBase": {
@@ -2135,7 +1858,6 @@ export const publicSans = {
           "min": 100,
           "max": 900
         },
-        "stretch": "normal",
         "weightRange": "100 900"
       },
       "VariableItalic[wght]": {
@@ -2154,7 +1876,6 @@ export const publicSans = {
           "min": 100,
           "max": 900
         },
-        "stretch": "normal",
         "weightRange": "100 900"
       }
     },
@@ -2164,153 +1885,135 @@ export const publicSans = {
         "fileName": "PublicSans-ThinItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 100,
-        "fontStretch": "normal"
+        "fontWeight": 100
       },
       "PublicSans-Thin": {
         "name": "Public-sans 100",
         "fileName": "PublicSans-Thin.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 100,
-        "fontStretch": "normal"
+        "fontWeight": 100
       },
       "PublicSans-SemiBoldItalic": {
         "name": "Public-sans Italic Italic",
         "fileName": "PublicSans-SemiBoldItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 600,
-        "fontStretch": "normal"
+        "fontWeight": 600
       },
       "PublicSans-SemiBold": {
         "name": "Public-sans 600",
         "fileName": "PublicSans-SemiBold.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 600,
-        "fontStretch": "normal"
+        "fontWeight": 600
       },
       "PublicSans-Regular": {
         "name": "Public-sans Regular",
         "fileName": "PublicSans-Regular.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 400,
-        "fontStretch": "normal"
+        "fontWeight": 400
       },
       "PublicSans-MediumItalic": {
         "name": "Public-sans Italic Italic",
         "fileName": "PublicSans-MediumItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 500,
-        "fontStretch": "normal"
+        "fontWeight": 500
       },
       "PublicSans-Medium": {
         "name": "Public-sans 500",
         "fileName": "PublicSans-Medium.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 500,
-        "fontStretch": "normal"
+        "fontWeight": 500
       },
       "PublicSans-LightItalic": {
         "name": "Public-sans Italic Italic",
         "fileName": "PublicSans-LightItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 300,
-        "fontStretch": "normal"
+        "fontWeight": 300
       },
       "PublicSans-Light": {
         "name": "Public-sans 300",
         "fileName": "PublicSans-Light.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 300,
-        "fontStretch": "normal"
+        "fontWeight": 300
       },
       "PublicSans-Italic": {
         "name": "Public-sans Italic Italic",
         "fileName": "PublicSans-Italic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 400,
-        "fontStretch": "normal"
+        "fontWeight": 400
       },
       "PublicSans-ExtraLightItalic": {
         "name": "Public-sans Italic Italic",
         "fileName": "PublicSans-ExtraLightItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 200,
-        "fontStretch": "normal"
+        "fontWeight": 200
       },
       "PublicSans-ExtraLight": {
         "name": "Public-sans 200",
         "fileName": "PublicSans-ExtraLight.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 200,
-        "fontStretch": "normal"
+        "fontWeight": 200
       },
       "PublicSans-ExtraBoldItalic": {
         "name": "Public-sans Italic Italic",
         "fileName": "PublicSans-ExtraBoldItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 800,
-        "fontStretch": "normal"
+        "fontWeight": 800
       },
       "PublicSans-ExtraBold": {
         "name": "Public-sans 800",
         "fileName": "PublicSans-ExtraBold.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 800,
-        "fontStretch": "normal"
+        "fontWeight": 800
       },
       "PublicSans-BoldItalic": {
         "name": "Public-sans Bold Italic Italic",
         "fileName": "PublicSans-BoldItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 700,
-        "fontStretch": "normal"
+        "fontWeight": 700
       },
       "PublicSans-Bold": {
         "name": "Public-sans Bold",
         "fileName": "PublicSans-Bold.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 700,
-        "fontStretch": "normal"
+        "fontWeight": 700
       },
       "PublicSans-BlackItalic": {
         "name": "Public-sans Italic Italic",
         "fileName": "PublicSans-BlackItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 900,
-        "fontStretch": "normal"
+        "fontWeight": 900
       },
       "PublicSans-Black": {
         "name": "Public-sans 900",
         "fileName": "PublicSans-Black.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 900,
-        "fontStretch": "normal"
+        "fontWeight": 900
       }
     }
   }
 };\n\nexport const leagueMono = {
   "name": "league-mono",
-  "slug": "league-mono",
+  "key": "league-mono",
+  "description": "League mono monospace font family with variable font technology and 40 weights. Ideal for code and terminal use",
   "weight": {
     "range": "100-800",
-    "total": 8,
     "byFormat": {
       "variable": {
         "min": 100,
@@ -2331,30 +2034,6 @@ export const publicSans = {
           800
         ]
       }
-    },
-    "coverage": {
-      "variableOnly": [],
-      "staticOnly": [],
-      "both": [
-        100,
-        200,
-        300,
-        400,
-        500,
-        600,
-        700,
-        800
-      ]
-    }
-  },
-  "usage": {
-    "variable": {
-      "bestFor": "Dynamic weight adjustment, animations, responsive design",
-      "weightRange": "100-800"
-    },
-    "static": {
-      "bestFor": "Maximum weight variety, extreme weights, fallback support",
-      "weightRange": "100-800"
     }
   },
   "cdnBase": {
@@ -2727,12 +2406,11 @@ export const publicSans = {
   }
 };\n\nexport const inconsolata = {
   "name": "inconsolata",
-  "slug": "inconsolata",
+  "key": "inconsolata",
   "license": "OFL-1.1",
-  "description": "",
+  "description": "Unknown font family",
   "weight": {
     "range": "100-900",
-    "total": 9,
     "byFormat": {
       "variable": {
         "min": 100,
@@ -2754,31 +2432,6 @@ export const publicSans = {
           900
         ]
       }
-    },
-    "coverage": {
-      "variableOnly": [],
-      "staticOnly": [],
-      "both": [
-        100,
-        200,
-        300,
-        400,
-        500,
-        600,
-        700,
-        800,
-        900
-      ]
-    }
-  },
-  "usage": {
-    "variable": {
-      "bestFor": "Dynamic weight adjustment, animations, responsive design",
-      "weightRange": "100-900"
-    },
-    "static": {
-      "bestFor": "Maximum weight variety, extreme weights, fallback support",
-      "weightRange": "100-900"
     }
   },
   "cdnBase": {
@@ -3473,45 +3126,13 @@ export const publicSans = {
       }
     }
   }
-};\n\nexport const ibm = {
-  "name": "ibm",
-  "slug": "ibm",
-  "version": "1.1.0",
-  "license": "OFL-1.1",
-  "description": "",
-  "weight": {
-    "range": "Unknown",
-    "total": 0,
-    "byFormat": {
-      "variable": null,
-      "static": null
-    },
-    "coverage": {
-      "variableOnly": [],
-      "staticOnly": [],
-      "both": []
-    }
-  },
-  "usage": null,
-  "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/ibm/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/ibm/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/ibm/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/fonts/open-fonts/ibm/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.5.2/_subsets/ibm/"
-  },
-  "faces": {
-    "variable": {},
-    "static": {}
-  }
 };\n\nexport const crimsonPro = {
   "name": "crimson-pro",
-  "slug": "crimson-pro",
+  "key": "crimson-pro",
   "license": "OFL-1.1",
-  "description": "",
+  "description": "Unknown font family",
   "weight": {
     "range": "200-900",
-    "total": 8,
     "byFormat": {
       "variable": {
         "min": 200,
@@ -3532,30 +3153,6 @@ export const publicSans = {
           900
         ]
       }
-    },
-    "coverage": {
-      "variableOnly": [],
-      "staticOnly": [],
-      "both": [
-        200,
-        300,
-        400,
-        500,
-        600,
-        700,
-        800,
-        900
-      ]
-    }
-  },
-  "usage": {
-    "variable": {
-      "bestFor": "Dynamic weight adjustment, animations, responsive design",
-      "weightRange": "200-900"
-    },
-    "static": {
-      "bestFor": "Maximum weight variety, extreme weights, fallback support",
-      "weightRange": "200-900"
     }
   },
   "cdnBase": {
@@ -3583,7 +3180,6 @@ export const publicSans = {
           "min": 200,
           "max": 900
         },
-        "stretch": "normal",
         "weightRange": "200 900"
       },
       "VariableItalic[wght]": {
@@ -3602,7 +3198,6 @@ export const publicSans = {
           "min": 200,
           "max": 900
         },
-        "stretch": "normal",
         "weightRange": "200 900"
       }
     },
@@ -3612,141 +3207,124 @@ export const publicSans = {
         "fileName": "CrimsonPro-SemiBoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 600,
-        "fontStretch": "normal"
+        "fontWeight": 600
       },
       "CrimsonPro-SemiBold": {
         "name": "Crimson-pro 600",
         "fileName": "CrimsonPro-SemiBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 600,
-        "fontStretch": "normal"
+        "fontWeight": 600
       },
       "CrimsonPro-Regular": {
         "name": "Crimson-pro Regular",
         "fileName": "CrimsonPro-Regular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
-        "fontStretch": "normal"
+        "fontWeight": 400
       },
       "CrimsonPro-MediumItalic": {
         "name": "Crimson-pro Italic Italic",
         "fileName": "CrimsonPro-MediumItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 500,
-        "fontStretch": "normal"
+        "fontWeight": 500
       },
       "CrimsonPro-Medium": {
         "name": "Crimson-pro 500",
         "fileName": "CrimsonPro-Medium.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 500,
-        "fontStretch": "normal"
+        "fontWeight": 500
       },
       "CrimsonPro-LightItalic": {
         "name": "Crimson-pro Italic Italic",
         "fileName": "CrimsonPro-LightItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 300,
-        "fontStretch": "normal"
+        "fontWeight": 300
       },
       "CrimsonPro-Light": {
         "name": "Crimson-pro 300",
         "fileName": "CrimsonPro-Light.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 300,
-        "fontStretch": "normal"
+        "fontWeight": 300
       },
       "CrimsonPro-Italic": {
         "name": "Crimson-pro Italic Italic",
         "fileName": "CrimsonPro-Italic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 400,
-        "fontStretch": "normal"
+        "fontWeight": 400
       },
       "CrimsonPro-ExtraLightItalic": {
         "name": "Crimson-pro Italic Italic",
         "fileName": "CrimsonPro-ExtraLightItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 200,
-        "fontStretch": "normal"
+        "fontWeight": 200
       },
       "CrimsonPro-ExtraLight": {
         "name": "Crimson-pro 200",
         "fileName": "CrimsonPro-ExtraLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 200,
-        "fontStretch": "normal"
+        "fontWeight": 200
       },
       "CrimsonPro-ExtraBoldItalic": {
         "name": "Crimson-pro Italic Italic",
         "fileName": "CrimsonPro-ExtraBoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 800,
-        "fontStretch": "normal"
+        "fontWeight": 800
       },
       "CrimsonPro-ExtraBold": {
         "name": "Crimson-pro 800",
         "fileName": "CrimsonPro-ExtraBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 800,
-        "fontStretch": "normal"
+        "fontWeight": 800
       },
       "CrimsonPro-BoldItalic": {
         "name": "Crimson-pro Bold Italic Italic",
         "fileName": "CrimsonPro-BoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 700,
-        "fontStretch": "normal"
+        "fontWeight": 700
       },
       "CrimsonPro-Bold": {
         "name": "Crimson-pro Bold",
         "fileName": "CrimsonPro-Bold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 700,
-        "fontStretch": "normal"
+        "fontWeight": 700
       },
       "CrimsonPro-BlackItalic": {
         "name": "Crimson-pro Italic Italic",
         "fileName": "CrimsonPro-BlackItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 900,
-        "fontStretch": "normal"
+        "fontWeight": 900
       },
       "CrimsonPro-Black": {
         "name": "Crimson-pro 900",
         "fileName": "CrimsonPro-Black.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 900,
-        "fontStretch": "normal"
+        "fontWeight": 900
       }
     }
   }
 };\n\nexport const atkinsonHyperlegible = {
   "name": "atkinson-hyperlegible",
-  "slug": "atkinson-hyperlegible",
+  "key": "atkinson-hyperlegible",
   "version": "1.0.0",
   "author": "Braille Institute of America",
   "license": "OFL-1.1",
-  "description": "",
+  "description": "Atkinson hyperlegible font family",
   "weight": {
     "range": "400-700",
-    "total": 2,
     "byFormat": {
       "variable": null,
       "static": {
@@ -3757,20 +3335,6 @@ export const publicSans = {
           700
         ]
       }
-    },
-    "coverage": {
-      "variableOnly": [],
-      "staticOnly": [
-        400,
-        700
-      ],
-      "both": []
-    }
-  },
-  "usage": {
-    "static": {
-      "bestFor": "Maximum weight variety, extreme weights, fallback support",
-      "weightRange": "400-700"
     }
   },
   "cdnBase": {
@@ -3788,45 +3352,40 @@ export const publicSans = {
         "fileName": "AtkinsonHyperlegible-Regular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
-        "fontStretch": "normal"
+        "fontWeight": 400
       },
       "AtkinsonHyperlegible-Italic": {
         "name": "Atkinson-hyperlegible Italic Italic",
         "fileName": "AtkinsonHyperlegible-Italic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 400,
-        "fontStretch": "normal"
+        "fontWeight": 400
       },
       "AtkinsonHyperlegible-BoldItalic": {
         "name": "Atkinson-hyperlegible Bold Italic Italic",
         "fileName": "AtkinsonHyperlegible-BoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 700,
-        "fontStretch": "normal"
+        "fontWeight": 700
       },
       "AtkinsonHyperlegible-Bold": {
         "name": "Atkinson-hyperlegible Bold",
         "fileName": "AtkinsonHyperlegible-Bold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 700,
-        "fontStretch": "normal"
+        "fontWeight": 700
       }
     }
   }
 };\n\nexport const aspekta = {
   "name": "aspekta",
-  "slug": "aspekta",
+  "key": "aspekta",
   "version": "2.100",
   "author": "Ivo Dolenc",
   "license": "OFL-1.1",
-  "description": "",
+  "description": "Aspekta font family",
   "weight": {
     "range": "50-1000",
-    "total": 20,
     "byFormat": {
       "variable": {
         "min": 100,
@@ -3859,45 +3418,6 @@ export const publicSans = {
           1000
         ]
       }
-    },
-    "coverage": {
-      "variableOnly": [],
-      "staticOnly": [
-        50,
-        950,
-        1000
-      ],
-      "both": [
-        100,
-        150,
-        200,
-        250,
-        300,
-        350,
-        400,
-        450,
-        500,
-        550,
-        600,
-        650,
-        700,
-        750,
-        800,
-        850,
-        900
-      ]
-    }
-  },
-  "usage": {
-    "variable": {
-      "bestFor": "Dynamic weight adjustment, animations, responsive design",
-      "weightRange": "100-900",
-      "limitations": "Extreme weights (950, 50, 1000) not available"
-    },
-    "static": {
-      "bestFor": "Maximum weight variety, extreme weights, fallback support",
-      "weightRange": "50-1000",
-      "advantages": "Includes all designed weights including extremes (950, 50, 1000)"
     }
   },
   "cdnBase": {
@@ -3925,7 +3445,6 @@ export const publicSans = {
           "min": 100,
           "max": 900
         },
-        "stretch": "normal",
         "weightRange": "100 900"
       }
     },
@@ -3935,160 +3454,140 @@ export const publicSans = {
         "fileName": "Aspekta-950.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 950,
-        "fontStretch": "normal"
+        "fontWeight": 950
       },
       "Aspekta-900": {
         "name": "Aspekta 900",
         "fileName": "Aspekta-900.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 900,
-        "fontStretch": "normal"
+        "fontWeight": 900
       },
       "Aspekta-850": {
         "name": "Aspekta 850",
         "fileName": "Aspekta-850.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 850,
-        "fontStretch": "normal"
+        "fontWeight": 850
       },
       "Aspekta-800": {
         "name": "Aspekta 800",
         "fileName": "Aspekta-800.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 800,
-        "fontStretch": "normal"
+        "fontWeight": 800
       },
       "Aspekta-750": {
         "name": "Aspekta 750",
         "fileName": "Aspekta-750.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 750,
-        "fontStretch": "normal"
+        "fontWeight": 750
       },
       "Aspekta-700": {
         "name": "Aspekta Bold",
         "fileName": "Aspekta-700.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 700,
-        "fontStretch": "normal"
+        "fontWeight": 700
       },
       "Aspekta-650": {
         "name": "Aspekta 650",
         "fileName": "Aspekta-650.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 650,
-        "fontStretch": "normal"
+        "fontWeight": 650
       },
       "Aspekta-600": {
         "name": "Aspekta 600",
         "fileName": "Aspekta-600.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 600,
-        "fontStretch": "normal"
+        "fontWeight": 600
       },
       "Aspekta-550": {
         "name": "Aspekta 550",
         "fileName": "Aspekta-550.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 550,
-        "fontStretch": "normal"
+        "fontWeight": 550
       },
       "Aspekta-500": {
         "name": "Aspekta 500",
         "fileName": "Aspekta-500.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 500,
-        "fontStretch": "normal"
+        "fontWeight": 500
       },
       "Aspekta-50": {
         "name": "Aspekta 50",
         "fileName": "Aspekta-50.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 50,
-        "fontStretch": "normal"
+        "fontWeight": 50
       },
       "Aspekta-450": {
         "name": "Aspekta 450",
         "fileName": "Aspekta-450.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 450,
-        "fontStretch": "normal"
+        "fontWeight": 450
       },
       "Aspekta-400": {
         "name": "Aspekta Regular",
         "fileName": "Aspekta-400.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
-        "fontStretch": "normal"
+        "fontWeight": 400
       },
       "Aspekta-350": {
         "name": "Aspekta 350",
         "fileName": "Aspekta-350.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 350,
-        "fontStretch": "normal"
+        "fontWeight": 350
       },
       "Aspekta-300": {
         "name": "Aspekta 300",
         "fileName": "Aspekta-300.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 300,
-        "fontStretch": "normal"
+        "fontWeight": 300
       },
       "Aspekta-250": {
         "name": "Aspekta 250",
         "fileName": "Aspekta-250.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 250,
-        "fontStretch": "normal"
+        "fontWeight": 250
       },
       "Aspekta-200": {
         "name": "Aspekta 200",
         "fileName": "Aspekta-200.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 200,
-        "fontStretch": "normal"
+        "fontWeight": 200
       },
       "Aspekta-150": {
         "name": "Aspekta 150",
         "fileName": "Aspekta-150.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 150,
-        "fontStretch": "normal"
+        "fontWeight": 150
       },
       "Aspekta-1000": {
         "name": "Aspekta 1000",
         "fileName": "Aspekta-1000.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 1000,
-        "fontStretch": "normal"
+        "fontWeight": 1000
       },
       "Aspekta-100": {
         "name": "Aspekta 100",
         "fileName": "Aspekta-100.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 100,
-        "fontStretch": "normal"
+        "fontWeight": 100
       }
     }
   }

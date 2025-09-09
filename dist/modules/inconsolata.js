@@ -9,12 +9,11 @@
 
 export default {
   "name": "inconsolata",
-  "slug": "inconsolata",
+  "key": "inconsolata",
   "license": "OFL-1.1",
-  "description": "",
+  "description": "Unknown font family",
   "weight": {
     "range": "100-900",
-    "total": 9,
     "byFormat": {
       "variable": {
         "min": 100,
@@ -36,31 +35,73 @@ export default {
           900
         ]
       }
-    },
-    "coverage": {
-      "variableOnly": [],
-      "staticOnly": [],
-      "both": [
-        100,
-        200,
-        300,
-        400,
-        500,
-        600,
-        700,
-        800,
-        900
-      ]
     }
   },
-  "usage": {
-    "variable": {
-      "bestFor": "Dynamic weight adjustment, animations, responsive design",
-      "weightRange": "100-900"
+  "features": {
+    "openType": {
+      "categories": {
+        "stylistic": [
+          "ss01",
+          "ss02",
+          "ss03"
+        ],
+        "ligatures": [
+          "dlig"
+        ],
+        "positional": [
+          "mark",
+          "mkmk"
+        ],
+        "case": [
+          "case"
+        ],
+        "numeric": [
+          "frac",
+          "ordn"
+        ],
+        "other": [
+          "aalt",
+          "ccmp",
+          "dnom",
+          "locl",
+          "numr",
+          "salt",
+          "subs",
+          "sups",
+          "zero"
+        ]
+      }
     },
-    "static": {
-      "bestFor": "Maximum weight variety, extreme weights, fallback support",
-      "weightRange": "100-900"
+    "stylisticSets": {
+      "available": [
+        {
+          "tag": "ss01",
+          "name": "Stylistic Set 1",
+          "description": "Alternate character forms"
+        },
+        {
+          "tag": "ss02",
+          "name": "Stylistic Set 2",
+          "description": "Alternate punctuation"
+        },
+        {
+          "tag": "ss03",
+          "name": "Stylistic Set 3",
+          "description": "Alternate numerals"
+        }
+      ],
+      "count": 3,
+      "tags": [
+        "ss01",
+        "ss02",
+        "ss03"
+      ]
+    },
+    "capabilities": {
+      "hasLigatures": true,
+      "hasContextualAlternates": false,
+      "hasNumericalFeatures": false,
+      "hasStylisticSets": true
     }
   },
   "cdnBase": {
@@ -774,7 +815,7 @@ export default {
           "InconsolataVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-08T16:32:58.994Z"
+      "generatedAt": "2025-09-09T18:38:48.424Z"
     }
   }
 };

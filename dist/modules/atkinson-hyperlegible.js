@@ -9,14 +9,13 @@
 
 export default {
   "name": "atkinson-hyperlegible",
-  "slug": "atkinson-hyperlegible",
+  "key": "atkinson-hyperlegible",
   "version": "1.0.0",
   "author": "Braille Institute of America",
   "license": "OFL-1.1",
-  "description": "",
+  "description": "Atkinson hyperlegible font family",
   "weight": {
     "range": "400-700",
-    "total": 2,
     "byFormat": {
       "variable": null,
       "static": {
@@ -27,20 +26,39 @@ export default {
           700
         ]
       }
-    },
-    "coverage": {
-      "variableOnly": [],
-      "staticOnly": [
-        400,
-        700
-      ],
-      "both": []
     }
   },
-  "usage": {
-    "static": {
-      "bestFor": "Maximum weight variety, extreme weights, fallback support",
-      "weightRange": "400-700"
+  "features": {
+    "openType": {
+      "categories": {
+        "positional": [
+          "kern",
+          "mark",
+          "mkmk"
+        ],
+        "case": [
+          "case"
+        ],
+        "numeric": [
+          "frac",
+          "ordn",
+          "pnum",
+          "tnum"
+        ],
+        "other": [
+          "aalt",
+          "ccmp",
+          "locl",
+          "sups"
+        ]
+      }
+    },
+    "stylisticSets": null,
+    "capabilities": {
+      "hasLigatures": false,
+      "hasContextualAlternates": false,
+      "hasNumericalFeatures": true,
+      "hasStylisticSets": false
     }
   },
   "cdnBase": {
@@ -58,32 +76,28 @@ export default {
         "fileName": "AtkinsonHyperlegible-Regular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
-        "fontStretch": "normal"
+        "fontWeight": 400
       },
       "AtkinsonHyperlegible-Italic": {
         "name": "Atkinson-hyperlegible Italic Italic",
         "fileName": "AtkinsonHyperlegible-Italic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 400,
-        "fontStretch": "normal"
+        "fontWeight": 400
       },
       "AtkinsonHyperlegible-BoldItalic": {
         "name": "Atkinson-hyperlegible Bold Italic Italic",
         "fileName": "AtkinsonHyperlegible-BoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 700,
-        "fontStretch": "normal"
+        "fontWeight": 700
       },
       "AtkinsonHyperlegible-Bold": {
         "name": "Atkinson-hyperlegible Bold",
         "fileName": "AtkinsonHyperlegible-Bold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 700,
-        "fontStretch": "normal"
+        "fontWeight": 700
       }
     }
   },
@@ -103,7 +117,7 @@ export default {
         "static": "AtkinsonHyperlegible-400-min.woff2",
         "variable": []
       },
-      "generatedAt": "2025-09-08T16:32:58.995Z"
+      "generatedAt": "2025-09-09T18:38:48.428Z"
     }
   }
 };

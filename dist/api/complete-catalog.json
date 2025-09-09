@@ -3,15 +3,15 @@
     "title": "Font Families - Complete Collection",
     "description": "Complete font collection including restricted-licensed fonts",
     "version": "1.5.2",
-    "generated": "2025-09-08T16:32:58.819Z",
-    "fontCount": 7,
+    "generated": "2025-09-09T18:38:48.245Z",
+    "fontCount": 6,
     "includesRestrictedFonts": true
   },
   "families": {
     "public-sans": {
       "name": "public-sans",
-      "slug": "public-sans",
-      "description": "",
+      "key": "public-sans",
+      "description": "Unknown font family",
       "license": "OFL-1.1",
       "capabilities": {
         "hasStatic": true,
@@ -396,7 +396,6 @@
           "mark",
           "mkmk"
         ],
-        "hasKerning": true,
         "hasLigatures": true,
         "hasSmallCaps": false,
         "hasOldStyleFigures": true,
@@ -405,7 +404,8 @@
     },
     "league-mono": {
       "name": "league-mono",
-      "slug": "league-mono",
+      "key": "league-mono",
+      "description": "League mono monospace font family with variable font technology and 40 weights. Ideal for code and terminal use",
       "capabilities": {
         "hasStatic": true,
         "hasVariable": true,
@@ -1220,7 +1220,6 @@
           "mark",
           "mkmk"
         ],
-        "hasKerning": false,
         "hasLigatures": false,
         "hasSmallCaps": false,
         "hasOldStyleFigures": false,
@@ -1229,8 +1228,8 @@
     },
     "inconsolata": {
       "name": "inconsolata",
-      "slug": "inconsolata",
-      "description": "",
+      "key": "inconsolata",
+      "description": "Unknown font family",
       "license": "OFL-1.1",
       "capabilities": {
         "hasStatic": true,
@@ -2247,61 +2246,7 @@
           "mark",
           "mkmk"
         ],
-        "hasKerning": false,
         "hasLigatures": true,
-        "hasSmallCaps": false,
-        "hasOldStyleFigures": false,
-        "hasTabularFigures": false
-      }
-    },
-    "ibm": {
-      "name": "ibm",
-      "slug": "ibm",
-      "description": "",
-      "license": "OFL-1.1",
-      "version": "1.1.0",
-      "capabilities": {
-        "hasStatic": false,
-        "hasVariable": false,
-        "weightRange": null,
-        "styleCount": 0,
-        "formats": []
-      },
-      "files": {
-        "static": [],
-        "variable": []
-      },
-      "metrics": null,
-      "detailed": {
-        "languages": {
-          "unicodeRanges": {},
-          "scripts": [],
-          "primaryScript": "Latin"
-        },
-        "variations": null,
-        "specimens": {
-          "sampleText": {
-            "latin": "The quick brown fox jumps over the lazy dog",
-            "uppercase": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-            "lowercase": "abcdefghijklmnopqrstuvwxyz",
-            "numbers": "0123456789",
-            "punctuation": "!@#$%^&*()_+-=[]{}|;:,.<>?"
-          },
-          "specimenFonts": {}
-        }
-      },
-      "performance": {
-        "fileCount": 0,
-        "totalSizeKB": 0,
-        "averageSizeKB": 0,
-        "smallestFileKB": 0,
-        "largestFileKB": 0,
-        "averageGlyphCount": 0
-      },
-      "typography": {
-        "openTypeFeatures": [],
-        "hasKerning": false,
-        "hasLigatures": false,
         "hasSmallCaps": false,
         "hasOldStyleFigures": false,
         "hasTabularFigures": false
@@ -2309,8 +2254,8 @@
     },
     "crimson-pro": {
       "name": "crimson-pro",
-      "slug": "crimson-pro",
-      "description": "",
+      "key": "crimson-pro",
+      "description": "Unknown font family",
       "license": "OFL-1.1",
       "capabilities": {
         "hasStatic": true,
@@ -2675,7 +2620,6 @@
           "mkmk",
           "rvrn"
         ],
-        "hasKerning": true,
         "hasLigatures": true,
         "hasSmallCaps": false,
         "hasOldStyleFigures": true,
@@ -2684,8 +2628,8 @@
     },
     "atkinson-hyperlegible": {
       "name": "atkinson-hyperlegible",
-      "slug": "atkinson-hyperlegible",
-      "description": "",
+      "key": "atkinson-hyperlegible",
+      "description": "Atkinson hyperlegible font family",
       "license": "OFL-1.1",
       "author": "Braille Institute of America",
       "version": "1.0.0",
@@ -2833,7 +2777,6 @@
           "mark",
           "mkmk"
         ],
-        "hasKerning": true,
         "hasLigatures": false,
         "hasSmallCaps": false,
         "hasOldStyleFigures": false,
@@ -2842,8 +2785,8 @@
     },
     "aspekta": {
       "name": "aspekta",
-      "slug": "aspekta",
-      "description": "",
+      "key": "aspekta",
+      "description": "Aspekta font family",
       "license": "OFL-1.1",
       "author": "Ivo Dolenc",
       "version": "2.100",
@@ -3185,7 +3128,6 @@
           "ss14",
           "mark"
         ],
-        "hasKerning": false,
         "hasLigatures": false,
         "hasSmallCaps": false,
         "hasOldStyleFigures": false,

@@ -3,15 +3,15 @@
     "title": "Font Families - Open Font Collection",
     "description": "Curated collection of open-licensed fonts",
     "version": "1.5.2",
-    "generated": "2025-09-08T16:32:58.816Z",
-    "fontCount": 6,
+    "generated": "2025-09-09T18:38:48.242Z",
+    "fontCount": 5,
     "includesRestrictedFonts": false
   },
   "families": {
     "public-sans": {
       "name": "public-sans",
-      "slug": "public-sans",
-      "description": "",
+      "key": "public-sans",
+      "description": "Unknown font family",
       "license": "OFL-1.1",
       "capabilities": {
         "hasStatic": true,
@@ -285,7 +285,6 @@
           "mark",
           "mkmk"
         ],
-        "hasKerning": true,
         "hasLigatures": true,
         "hasSmallCaps": false,
         "hasOldStyleFigures": true,
@@ -294,8 +293,8 @@
     },
     "inconsolata": {
       "name": "inconsolata",
-      "slug": "inconsolata",
-      "description": "",
+      "key": "inconsolata",
+      "description": "Unknown font family",
       "license": "OFL-1.1",
       "capabilities": {
         "hasStatic": true,
@@ -1186,43 +1185,7 @@
           "mark",
           "mkmk"
         ],
-        "hasKerning": false,
         "hasLigatures": true,
-        "hasSmallCaps": false,
-        "hasOldStyleFigures": false,
-        "hasTabularFigures": false
-      }
-    },
-    "ibm": {
-      "name": "ibm",
-      "slug": "ibm",
-      "description": "",
-      "license": "OFL-1.1",
-      "version": "1.1.0",
-      "capabilities": {
-        "hasStatic": false,
-        "hasVariable": false,
-        "weightRange": null,
-        "styleCount": 0,
-        "formats": []
-      },
-      "files": {
-        "static": [],
-        "variable": []
-      },
-      "metrics": null,
-      "performance": {
-        "fileCount": 0,
-        "totalSizeKB": 0,
-        "averageSizeKB": 0,
-        "smallestFileKB": 0,
-        "largestFileKB": 0,
-        "averageGlyphCount": 0
-      },
-      "typography": {
-        "openTypeFeatures": [],
-        "hasKerning": false,
-        "hasLigatures": false,
         "hasSmallCaps": false,
         "hasOldStyleFigures": false,
         "hasTabularFigures": false
@@ -1230,8 +1193,8 @@
     },
     "crimson-pro": {
       "name": "crimson-pro",
-      "slug": "crimson-pro",
-      "description": "",
+      "key": "crimson-pro",
+      "description": "Unknown font family",
       "license": "OFL-1.1",
       "capabilities": {
         "hasStatic": true,
@@ -1485,7 +1448,6 @@
           "mkmk",
           "rvrn"
         ],
-        "hasKerning": true,
         "hasLigatures": true,
         "hasSmallCaps": false,
         "hasOldStyleFigures": true,
@@ -1494,8 +1456,8 @@
     },
     "atkinson-hyperlegible": {
       "name": "atkinson-hyperlegible",
-      "slug": "atkinson-hyperlegible",
-      "description": "",
+      "key": "atkinson-hyperlegible",
+      "description": "Atkinson hyperlegible font family",
       "license": "OFL-1.1",
       "author": "Braille Institute of America",
       "version": "1.0.0",
@@ -1596,7 +1558,6 @@
           "mark",
           "mkmk"
         ],
-        "hasKerning": true,
         "hasLigatures": false,
         "hasSmallCaps": false,
         "hasOldStyleFigures": false,
@@ -1605,8 +1566,8 @@
     },
     "aspekta": {
       "name": "aspekta",
-      "slug": "aspekta",
-      "description": "",
+      "key": "aspekta",
+      "description": "Aspekta font family",
       "license": "OFL-1.1",
       "author": "Ivo Dolenc",
       "version": "2.100",
@@ -1885,7 +1846,6 @@
           "ss14",
           "mark"
         ],
-        "hasKerning": false,
         "hasLigatures": false,
         "hasSmallCaps": false,
         "hasOldStyleFigures": false,

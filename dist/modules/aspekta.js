@@ -9,14 +9,13 @@
 
 export default {
   "name": "aspekta",
-  "slug": "aspekta",
+  "key": "aspekta",
   "version": "2.100",
   "author": "Ivo Dolenc",
   "license": "OFL-1.1",
-  "description": "",
+  "description": "Aspekta font family",
   "weight": {
     "range": "50-1000",
-    "total": 20,
     "byFormat": {
       "variable": {
         "min": 100,
@@ -49,45 +48,136 @@ export default {
           1000
         ]
       }
-    },
-    "coverage": {
-      "variableOnly": [],
-      "staticOnly": [
-        50,
-        950,
-        1000
-      ],
-      "both": [
-        100,
-        150,
-        200,
-        250,
-        300,
-        350,
-        400,
-        450,
-        500,
-        550,
-        600,
-        650,
-        700,
-        750,
-        800,
-        850,
-        900
-      ]
     }
   },
-  "usage": {
-    "variable": {
-      "bestFor": "Dynamic weight adjustment, animations, responsive design",
-      "weightRange": "100-900",
-      "limitations": "Extreme weights (950, 50, 1000) not available"
+  "features": {
+    "openType": {
+      "categories": {
+        "stylistic": [
+          "ss01",
+          "ss02",
+          "ss03",
+          "ss04",
+          "ss05",
+          "ss06",
+          "ss07",
+          "ss08",
+          "ss09",
+          "ss10",
+          "ss11",
+          "ss12",
+          "ss13",
+          "ss14"
+        ],
+        "positional": [
+          "mark"
+        ],
+        "case": [
+          "case"
+        ],
+        "other": [
+          "aalt",
+          "ccmp",
+          "locl"
+        ]
+      }
     },
-    "static": {
-      "bestFor": "Maximum weight variety, extreme weights, fallback support",
-      "weightRange": "50-1000",
-      "advantages": "Includes all designed weights including extremes (950, 50, 1000)"
+    "stylisticSets": {
+      "available": [
+        {
+          "tag": "ss01",
+          "name": "Stylistic Set 1",
+          "description": "Alternate character forms"
+        },
+        {
+          "tag": "ss02",
+          "name": "Stylistic Set 2",
+          "description": "Alternate punctuation"
+        },
+        {
+          "tag": "ss03",
+          "name": "Stylistic Set 3",
+          "description": "Alternate numerals"
+        },
+        {
+          "tag": "ss04",
+          "name": "Stylistic Set 4",
+          "description": "Contextual alternates"
+        },
+        {
+          "tag": "ss05",
+          "name": "Stylistic Set 5",
+          "description": "Historical forms"
+        },
+        {
+          "tag": "ss06",
+          "name": "Stylistic Set 6",
+          "description": "Decorative alternates"
+        },
+        {
+          "tag": "ss07",
+          "name": "Stylistic Set 7",
+          "description": "Swash characters"
+        },
+        {
+          "tag": "ss08",
+          "name": "Stylistic Set 8",
+          "description": "Simplified forms"
+        },
+        {
+          "tag": "ss09",
+          "name": "Stylistic Set 9",
+          "description": "Rounded forms"
+        },
+        {
+          "tag": "ss10",
+          "name": "Stylistic Set 10",
+          "description": "Angular forms"
+        },
+        {
+          "tag": "ss11",
+          "name": "Stylistic Set 11",
+          "description": "Condensed alternates"
+        },
+        {
+          "tag": "ss12",
+          "name": "Stylistic Set 12",
+          "description": "Extended alternates"
+        },
+        {
+          "tag": "ss13",
+          "name": "Stylistic Set 13",
+          "description": "Monospaced alternates"
+        },
+        {
+          "tag": "ss14",
+          "name": "Stylistic Set 14",
+          "description": "Display alternates"
+        }
+      ],
+      "count": 14,
+      "tags": [
+        "ss01",
+        "ss02",
+        "ss03",
+        "ss04",
+        "ss05",
+        "ss06",
+        "ss07",
+        "ss08",
+        "ss09",
+        "ss10",
+        "ss11",
+        "ss12",
+        "ss13",
+        "ss14"
+      ]
+    },
+    "capabilities": {
+      "hasLigatures": false,
+      "hasContextualAlternates": false,
+      "hasNumericalFeatures": false,
+      "hasStylisticSets": true
     }
   },
   "cdnBase": {
@@ -115,7 +205,6 @@ export default {
           "min": 100,
           "max": 900
         },
-        "stretch": "normal",
         "weightRange": "100 900"
       }
     },
@@ -125,160 +214,140 @@ export default {
         "fileName": "Aspekta-950.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 950,
-        "fontStretch": "normal"
+        "fontWeight": 950
       },
       "Aspekta-900": {
         "name": "Aspekta 900",
         "fileName": "Aspekta-900.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 900,
-        "fontStretch": "normal"
+        "fontWeight": 900
       },
       "Aspekta-850": {
         "name": "Aspekta 850",
         "fileName": "Aspekta-850.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 850,
-        "fontStretch": "normal"
+        "fontWeight": 850
       },
       "Aspekta-800": {
         "name": "Aspekta 800",
         "fileName": "Aspekta-800.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 800,
-        "fontStretch": "normal"
+        "fontWeight": 800
       },
       "Aspekta-750": {
         "name": "Aspekta 750",
         "fileName": "Aspekta-750.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 750,
-        "fontStretch": "normal"
+        "fontWeight": 750
       },
       "Aspekta-700": {
         "name": "Aspekta Bold",
         "fileName": "Aspekta-700.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 700,
-        "fontStretch": "normal"
+        "fontWeight": 700
       },
       "Aspekta-650": {
         "name": "Aspekta 650",
         "fileName": "Aspekta-650.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 650,
-        "fontStretch": "normal"
+        "fontWeight": 650
       },
       "Aspekta-600": {
         "name": "Aspekta 600",
         "fileName": "Aspekta-600.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 600,
-        "fontStretch": "normal"
+        "fontWeight": 600
       },
       "Aspekta-550": {
         "name": "Aspekta 550",
         "fileName": "Aspekta-550.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 550,
-        "fontStretch": "normal"
+        "fontWeight": 550
       },
       "Aspekta-500": {
         "name": "Aspekta 500",
         "fileName": "Aspekta-500.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 500,
-        "fontStretch": "normal"
+        "fontWeight": 500
       },
       "Aspekta-50": {
         "name": "Aspekta 50",
         "fileName": "Aspekta-50.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 50,
-        "fontStretch": "normal"
+        "fontWeight": 50
       },
       "Aspekta-450": {
         "name": "Aspekta 450",
         "fileName": "Aspekta-450.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 450,
-        "fontStretch": "normal"
+        "fontWeight": 450
       },
       "Aspekta-400": {
         "name": "Aspekta Regular",
         "fileName": "Aspekta-400.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
-        "fontStretch": "normal"
+        "fontWeight": 400
       },
       "Aspekta-350": {
         "name": "Aspekta 350",
         "fileName": "Aspekta-350.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 350,
-        "fontStretch": "normal"
+        "fontWeight": 350
       },
       "Aspekta-300": {
         "name": "Aspekta 300",
         "fileName": "Aspekta-300.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 300,
-        "fontStretch": "normal"
+        "fontWeight": 300
       },
       "Aspekta-250": {
         "name": "Aspekta 250",
         "fileName": "Aspekta-250.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 250,
-        "fontStretch": "normal"
+        "fontWeight": 250
       },
       "Aspekta-200": {
         "name": "Aspekta 200",
         "fileName": "Aspekta-200.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 200,
-        "fontStretch": "normal"
+        "fontWeight": 200
       },
       "Aspekta-150": {
         "name": "Aspekta 150",
         "fileName": "Aspekta-150.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 150,
-        "fontStretch": "normal"
+        "fontWeight": 150
       },
       "Aspekta-1000": {
         "name": "Aspekta 1000",
         "fileName": "Aspekta-1000.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 1000,
-        "fontStretch": "normal"
+        "fontWeight": 1000
       },
       "Aspekta-100": {
         "name": "Aspekta 100",
         "fileName": "Aspekta-100.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 100,
-        "fontStretch": "normal"
+        "fontWeight": 100
       }
     }
   },
@@ -301,7 +370,7 @@ export default {
           "AspektaVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-08T16:32:58.996Z"
+      "generatedAt": "2025-09-09T18:38:48.429Z"
     }
   }
 };

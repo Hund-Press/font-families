@@ -54,10 +54,10 @@ export async function generateModules(fontFamilies, outputDir, options = {}) {
  */
 export async function generateFamilyModule(familyData, outputDir, cdnBaseUrl, repoVersion = 'latest') {
     const moduleContent = await generateFamilyModuleContent(familyData, cdnBaseUrl, repoVersion);
-    const modulePath = path.join(outputDir, `${familyData.slug}.js`);
+    const modulePath = path.join(outputDir, `${familyData.key}.js`);
     
     await fs.writeFile(modulePath, moduleContent);
-    console.log(`[modules] Generated module: ${familyData.slug}.js`);
+    console.log(`[modules] Generated module: ${familyData.key}.js`);
 }
 
 /**
@@ -72,7 +72,7 @@ async function generateFamilyModuleContent(familyData, cdnBaseUrl, repoVersion =
     const transformedData = {
         // Font Family abstraction
         name: familyData.name,
-        slug: familyData.slug,
+        key: familyData.key,
         
         // Font Designer abstraction  
         version: familyData.version,
@@ -83,8 +83,10 @@ async function generateFamilyModuleContent(familyData, cdnBaseUrl, repoVersion =
         // ENHANCED: Ground truth weight information by format
         weight: generateWeightInfo(familyData),
         
-        // ENHANCED: Consumer usage guidance
-        usage: generateUsageGuidance(familyData),
+        // PHASE 3: Language support exposure
+        
+        // PHASE 3: OpenType features and stylistic sets
+        features: generateOpenTypeFeatures(familyData),
         
         // CDN configuration for file access
         cdnBase: generateCdnPaths(familyData, cdnBaseUrl, repoVersion),
@@ -143,7 +145,6 @@ function generateWeightInfo(familyData) {
         const weightInfo = {
             // Quick reference - overall family capability
             range: staticWeights.length > 0 ? `${Math.min(...staticWeights)}-${Math.max(...staticWeights)}` : 'Unknown',
-            total: staticWeights.length,
             
             // Detailed breakdown by format
             byFormat: {
@@ -157,10 +158,7 @@ function generateWeightInfo(familyData) {
                     max: Math.max(...staticWeights),
                     instances: staticWeights
                 } : null
-            },
-            
-            // Consumer guidance - which weights are available where
-            coverage
+            }
         };
         
         return weightInfo;
@@ -170,15 +168,9 @@ function generateWeightInfo(familyData) {
         // Return safe fallback structure
         return {
             range: 'Unknown',
-            total: 0,
             byFormat: {
                 variable: null,
                 static: null
-            },
-            coverage: {
-                variableOnly: [],
-                staticOnly: [],
-                both: []
             }
         };
     }
@@ -211,79 +203,6 @@ function calculateWeightCoverage(staticWeights, variableRange) {
     };
 }
 
-/**
- * Generate usage guidance for consumers
- * @param {Object} familyData - Font family data
- * @returns {Object} Usage guidance
- */
-function generateUsageGuidance(familyData) {
-    try {
-        // Safely check for font formats
-        const hasVariable = familyData?.variable && Object.keys(familyData.variable).length > 0;
-        const hasStatic = familyData?.static && Object.keys(familyData.static).length > 0;
-    
-    if (!hasVariable && !hasStatic) {
-        return null;
-    }
-    
-    const guidance = {};
-    
-    if (hasVariable) {
-        const variableRange = Object.values(familyData.variable)[0]?.weight;
-        guidance.variable = {
-            bestFor: "Dynamic weight adjustment, animations, responsive design",
-            weightRange: variableRange ? `${variableRange.min}-${variableRange.max}` : 'Unknown'
-        };
-        
-        // Add limitations if static fonts extend beyond variable range
-        const staticWeights = Object.values(familyData.static || {})
-            .map(font => font.weight)
-            .filter(w => typeof w === 'number');
-        
-        if (variableRange && staticWeights.length > 0) {
-            const staticMin = Math.min(...staticWeights);
-            const staticMax = Math.max(...staticWeights);
-            
-            if (staticMin < variableRange.min || staticMax > variableRange.max) {
-                const extremeWeights = staticWeights.filter(w => 
-                    w < variableRange.min || w > variableRange.max
-                );
-                guidance.variable.limitations = `Extreme weights (${extremeWeights.join(', ')}) not available`;
-            }
-        }
-    }
-    
-    if (hasStatic) {
-        const staticWeights = Object.values(familyData.static || {})
-            .map(font => font.weight)
-            .filter(w => typeof w === 'number');
-        
-        guidance.static = {
-            bestFor: "Maximum weight variety, extreme weights, fallback support",
-            weightRange: staticWeights.length > 0 ? 
-                `${Math.min(...staticWeights)}-${Math.max(...staticWeights)}` : 'Unknown'
-        };
-        
-        // Add advantages if static extends beyond variable
-        if (hasVariable) {
-            const variableRange = Object.values(familyData.variable)[0]?.weight;
-            if (variableRange) {
-                const extremeWeights = staticWeights.filter(w => 
-                    w < variableRange.min || w > variableRange.max
-                );
-                if (extremeWeights.length > 0) {
-                    guidance.static.advantages = `Includes all designed weights including extremes (${extremeWeights.join(', ')})`;
-                }
-            }
-        }
-    }
-    
-    return guidance;
-    } catch (error) {
-        console.error(`[modules] Error generating usage guidance for ${familyData?.name || 'Unknown'}:`, error.message);
-        return null;
-    }
-}
 
 /**
  * Validate font configuration and log warnings for unusual patterns
@@ -361,6 +280,111 @@ function validateFontConfiguration(fontName, staticWeights, variableRange) {
     }
 }
 
+
+/**
+ * Generate stylistic sets structure with placeholders for manual editing
+ * @param {Array} detailedSets - Detailed stylistic sets from font metadata (if any)
+ * @param {Array} basicTags - Basic stylistic set tags detected (ss01, ss02, etc.)
+ * @returns {Object|null} Stylistic sets structure
+ */
+function generateStylisticSetsStructure(detailedSets, basicTags) {
+    // If we have detailed metadata, use it
+    if (detailedSets.length > 0) {
+        return {
+            available: detailedSets,
+            count: detailedSets.length,
+            tags: detailedSets.map(ss => ss.tag)
+        };
+    }
+    
+    // If we have basic tags but no detailed metadata, create placeholder structure
+    if (basicTags && basicTags.length > 0) {
+        const placeholders = {};
+        basicTags.forEach(tag => {
+            placeholders[tag] = {
+                name: null,
+                description: null
+            };
+        });
+        
+        return {
+            detected: basicTags,
+            count: basicTags.length,
+            metadata: placeholders
+        };
+    }
+    
+    return null;
+}
+
+/**
+ * Generate OpenType features information for consumers
+ * @param {Object} familyData - Font family data
+ * @returns {Object|null} OpenType features information
+ */
+function generateOpenTypeFeatures(familyData) {
+    try {
+        const allFonts = [...Object.values(familyData.static || {}), ...Object.values(familyData.variable || {})];
+        
+        // Collect all OpenType features and stylistic sets from all fonts
+        const allFeatures = new Set();
+        const stylisticSets = [];
+        
+        allFonts.forEach(font => {
+            if (font.features?.openTypeFeatures) {
+                font.features.openTypeFeatures.forEach(feature => allFeatures.add(feature));
+            }
+            
+            if (font.features?.stylisticSets) {
+                font.features.stylisticSets.forEach(ss => {
+                    if (!stylisticSets.find(existing => existing.tag === ss.tag)) {
+                        stylisticSets.push(ss);
+                    }
+                });
+            }
+        });
+        
+        const featuresArray = Array.from(allFeatures);
+        
+        if (featuresArray.length === 0 && stylisticSets.length === 0) {
+            return null;
+        }
+        
+        // Categorize features
+        const categorizedFeatures = {
+            stylistic: featuresArray.filter(f => f.startsWith('ss')),
+            ligatures: featuresArray.filter(f => ['liga', 'dlig', 'clig', 'hlig'].includes(f)),
+            contextual: featuresArray.filter(f => ['calt', 'clig', 'rclt'].includes(f)),
+            positional: featuresArray.filter(f => ['kern', 'mark', 'mkmk', 'cpsp'].includes(f)),
+            case: featuresArray.filter(f => ['case', 'cpsp', 'smcp', 'c2sc'].includes(f)),
+            numeric: featuresArray.filter(f => ['lnum', 'onum', 'pnum', 'tnum', 'frac', 'ordn'].includes(f)),
+            other: featuresArray.filter(f => 
+                !f.startsWith('ss') && 
+                !['liga', 'dlig', 'clig', 'hlig', 'calt', 'rclt', 'kern', 'mark', 'mkmk', 'cpsp', 'case', 'smcp', 'c2sc', 'lnum', 'onum', 'pnum', 'tnum', 'frac', 'ordn'].includes(f)
+            )
+        };
+        
+        return {
+            openType: {
+                categories: Object.fromEntries(
+                    Object.entries(categorizedFeatures)
+                        .filter(([key, features]) => features.length > 0)
+                )
+            },
+            stylisticSets: generateStylisticSetsStructure(stylisticSets, categorizedFeatures.stylistic),
+            capabilities: {
+                hasLigatures: featuresArray.some(f => ['liga', 'dlig', 'clig'].includes(f)),
+                hasContextualAlternates: featuresArray.includes('calt'),
+                hasNumericalFeatures: featuresArray.some(f => ['lnum', 'onum', 'pnum', 'tnum'].includes(f)),
+                hasStylisticSets: stylisticSets.length > 0 || categorizedFeatures.stylistic.length > 0
+            }
+        };
+    } catch (error) {
+        console.error(`[modules] Error generating OpenType features for ${familyData?.name || 'Unknown'}:`, error.message);
+        return null;
+    }
+}
+
 /**
  * Generate CDN paths for different font formats
  * @param {Object} familyData - Font family data
@@ -371,12 +395,33 @@ function generateCdnPaths(familyData, cdnBaseUrl, repoVersion = 'latest') {
     const baseCdnUrl = cdnBaseUrl.replace('{version}', repoVersion);
     
     return {
-        variable: `${baseCdnUrl}/fonts/open-fonts/${familyData.slug}/fonts/variable/`,
-        static: `${baseCdnUrl}/fonts/open-fonts/${familyData.slug}/fonts/webfonts/`,
-        ttf: `${baseCdnUrl}/fonts/open-fonts/${familyData.slug}/fonts/ttf/`,
-        otf: `${baseCdnUrl}/fonts/open-fonts/${familyData.slug}/fonts/otf/`,
-        subsets: `${baseCdnUrl}/_subsets/${familyData.slug}/`
+        variable: `${baseCdnUrl}/fonts/open-fonts/${familyData.key}/fonts/variable/`,
+        static: `${baseCdnUrl}/fonts/open-fonts/${familyData.key}/fonts/webfonts/`,
+        ttf: `${baseCdnUrl}/fonts/open-fonts/${familyData.key}/fonts/ttf/`,
+        otf: `${baseCdnUrl}/fonts/open-fonts/${familyData.key}/fonts/otf/`,
+        subsets: `${baseCdnUrl}/_subsets/${familyData.key}/`
     };
+}
+
+/**
+ * Check if a font family has multiple stretch variants
+ * @param {Object} familyData - Font family data
+ * @returns {boolean} True if family has multiple stretch variants
+ */
+function hasMultipleStretchVariants(familyData) {
+    const allFonts = [
+        ...Object.values(familyData.static || {}),
+        ...Object.values(familyData.variable || {})
+    ];
+    
+    const uniqueStretches = new Set(
+        allFonts
+            .map(font => font.stretch)
+            .filter(stretch => stretch && stretch !== 'normal')
+    );
+    
+    // If there are fonts with non-normal stretch values, consider it multi-stretch
+    return uniqueStretches.size > 0;
 }
 
 /**
@@ -393,15 +438,21 @@ function transformFontFaces(familyData) {
     // Process variable fonts
     if (familyData.variable) {
         for (const [fontKey, fontData] of Object.entries(familyData.variable)) {
-            faces.variable[fontKey] = {
+            const faceData = {
                 name: generateVariableFaceName(familyData.name, fontData),
                 fileName: path.basename(fontData.path),
                 format: getFormatFromExtension(fontData.path),
                 fontStyle: fontData.style,
                 axes: fontData.axes || {},
-                weight: fontData.weight,
-                stretch: fontData.stretch
+                weight: fontData.weight
             };
+            
+            // Only include stretch if font has width axis
+            if (fontData.axes?.wdth) {
+                faceData.stretch = fontData.stretch;
+            }
+            
+            faces.variable[fontKey] = faceData;
             
             // Add weight range for variable fonts
             if (fontData.axes?.wght) {
@@ -413,14 +464,20 @@ function transformFontFaces(familyData) {
     // Process static fonts
     if (familyData.static) {
         for (const [fontKey, fontData] of Object.entries(familyData.static)) {
-            faces.static[fontKey] = {
+            const faceData = {
                 name: generateStaticFaceName(familyData.name, fontData),
                 fileName: path.basename(fontData.path),
                 format: getFormatFromExtension(fontData.path),
                 fontStyle: fontData.style,
-                fontWeight: fontData.weight,
-                fontStretch: fontData.stretch
+                fontWeight: fontData.weight
             };
+            
+            // Only include fontStretch if family has multiple stretch variants
+            if (hasMultipleStretchVariants(familyData)) {
+                faceData.fontStretch = fontData.stretch;
+            }
+            
+            faces.static[fontKey] = faceData;
         }
     }
     
@@ -516,15 +573,14 @@ export async function generateCombinedModule(fontFamilies, outputDir, cdnBaseUrl
     const allFonts = {};
     
     for (const [familyKey, familyData] of Object.entries(fontFamilies)) {
-        allFonts[familyData.slug] = {
+        allFonts[familyData.key] = {
             name: familyData.name,
-            slug: familyData.slug,
+            key: familyData.key,
             version: familyData.version,
             author: familyData.author,
             license: familyData.license || familyData.licenseType,
             description: familyData.description,
             weight: generateWeightInfo(familyData),
-            usage: generateUsageGuidance(familyData),
             cdnBase: generateCdnPaths(familyData, cdnBaseUrl, repoVersion),
             faces: transformFontFaces(familyData)
         };
@@ -540,8 +596,8 @@ export async function generateCombinedModule(fontFamilies, outputDir, cdnBaseUrl
 export default ${JSON.stringify(allFonts, null, 2)};
 
 // Individual exports for convenience
-${Object.entries(allFonts).map(([slug, data]) => 
-    `export const ${camelCase(slug)} = ${JSON.stringify(data, null, 2)};`
+${Object.entries(allFonts).map(([key, data]) => 
+    `export const ${camelCase(key)} = ${JSON.stringify(data, null, 2)};`
 ).join('\\n\\n')}
 `;
     
@@ -556,7 +612,7 @@ ${Object.entries(allFonts).map(([slug, data]) =>
  */
 export async function generateIndexModule(fontFamilies, outputDir) {
     const exports = Object.entries(fontFamilies).map(([familyKey, familyData]) => {
-        return `export { default as ${camelCase(familyData.slug)} } from './${familyData.slug}.js';`;
+        return `export { default as ${camelCase(familyData.key)} } from './${familyData.key}.js';`;
     });
     
     const indexContent = `/**
@@ -573,16 +629,16 @@ export { default as allFonts } from './all.js';
 // Utility function to get font by slug
 const fontMap = {
 ${Object.entries(fontFamilies).map(([familyKey, familyData]) => 
-    `  '${familyData.slug}': () => import('./${familyData.slug}.js')`
+    `  '${familyData.key}': () => import('./${familyData.key}.js')`
 ).join(',\\n')}
 };
 
-export async function getFontBySlug(slug) {
-  if (fontMap[slug]) {
-    const module = await fontMap[slug]();
+export async function getFontByKey(key) {
+  if (fontMap[key]) {
+    const module = await fontMap[key]();
     return module.default;
   }
-  throw new Error(\`Font family not found: \${slug}\`);
+  throw new Error(\`Font family not found: \${key}\`);
 }
 
 export const availableFonts = Object.keys(fontMap);
@@ -599,7 +655,7 @@ export const availableFonts = Object.keys(fontMap);
  */
 async function generateSubsetInfo(familyData) {
     const subsets = {};
-    const subsetMetadataPath = path.join('_subsets', familyData.slug, 'metadata.json');
+    const subsetMetadataPath = path.join('_subsets', familyData.key, 'metadata.json');
     
     try {
         const metadataContent = await fs.readFile(subsetMetadataPath, 'utf8');
@@ -618,7 +674,7 @@ async function generateSubsetInfo(familyData) {
         }
     } catch (error) {
         // No subset metadata found - return empty object
-        console.log(`[modules] No subset metadata found for ${familyData.slug}`);
+        console.log(`[modules] No subset metadata found for ${familyData.key}`);
     }
     
     return subsets;

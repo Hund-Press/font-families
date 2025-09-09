@@ -9,12 +9,11 @@
 
 export default {
   "name": "crimson-pro",
-  "slug": "crimson-pro",
+  "key": "crimson-pro",
   "license": "OFL-1.1",
-  "description": "",
+  "description": "Unknown font family",
   "weight": {
     "range": "200-900",
-    "total": 8,
     "byFormat": {
       "variable": {
         "min": 200,
@@ -35,30 +34,50 @@ export default {
           900
         ]
       }
-    },
-    "coverage": {
-      "variableOnly": [],
-      "staticOnly": [],
-      "both": [
-        200,
-        300,
-        400,
-        500,
-        600,
-        700,
-        800,
-        900
-      ]
     }
   },
-  "usage": {
-    "variable": {
-      "bestFor": "Dynamic weight adjustment, animations, responsive design",
-      "weightRange": "200-900"
+  "features": {
+    "openType": {
+      "categories": {
+        "ligatures": [
+          "dlig",
+          "liga"
+        ],
+        "positional": [
+          "kern",
+          "mark",
+          "mkmk"
+        ],
+        "case": [
+          "case"
+        ],
+        "numeric": [
+          "frac",
+          "lnum",
+          "onum",
+          "ordn",
+          "pnum",
+          "tnum"
+        ],
+        "other": [
+          "aalt",
+          "ccmp",
+          "dnom",
+          "locl",
+          "numr",
+          "sinf",
+          "subs",
+          "sups",
+          "rvrn"
+        ]
+      }
     },
-    "static": {
-      "bestFor": "Maximum weight variety, extreme weights, fallback support",
-      "weightRange": "200-900"
+    "stylisticSets": null,
+    "capabilities": {
+      "hasLigatures": true,
+      "hasContextualAlternates": false,
+      "hasNumericalFeatures": true,
+      "hasStylisticSets": false
     }
   },
   "cdnBase": {
@@ -86,7 +105,6 @@ export default {
           "min": 200,
           "max": 900
         },
-        "stretch": "normal",
         "weightRange": "200 900"
       },
       "VariableItalic[wght]": {
@@ -105,7 +123,6 @@ export default {
           "min": 200,
           "max": 900
         },
-        "stretch": "normal",
         "weightRange": "200 900"
       }
     },
@@ -115,128 +132,112 @@ export default {
         "fileName": "CrimsonPro-SemiBoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 600,
-        "fontStretch": "normal"
+        "fontWeight": 600
       },
       "CrimsonPro-SemiBold": {
         "name": "Crimson-pro 600",
         "fileName": "CrimsonPro-SemiBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 600,
-        "fontStretch": "normal"
+        "fontWeight": 600
       },
       "CrimsonPro-Regular": {
         "name": "Crimson-pro Regular",
         "fileName": "CrimsonPro-Regular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400,
-        "fontStretch": "normal"
+        "fontWeight": 400
       },
       "CrimsonPro-MediumItalic": {
         "name": "Crimson-pro Italic Italic",
         "fileName": "CrimsonPro-MediumItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 500,
-        "fontStretch": "normal"
+        "fontWeight": 500
       },
       "CrimsonPro-Medium": {
         "name": "Crimson-pro 500",
         "fileName": "CrimsonPro-Medium.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 500,
-        "fontStretch": "normal"
+        "fontWeight": 500
       },
       "CrimsonPro-LightItalic": {
         "name": "Crimson-pro Italic Italic",
         "fileName": "CrimsonPro-LightItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 300,
-        "fontStretch": "normal"
+        "fontWeight": 300
       },
       "CrimsonPro-Light": {
         "name": "Crimson-pro 300",
         "fileName": "CrimsonPro-Light.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 300,
-        "fontStretch": "normal"
+        "fontWeight": 300
       },
       "CrimsonPro-Italic": {
         "name": "Crimson-pro Italic Italic",
         "fileName": "CrimsonPro-Italic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 400,
-        "fontStretch": "normal"
+        "fontWeight": 400
       },
       "CrimsonPro-ExtraLightItalic": {
         "name": "Crimson-pro Italic Italic",
         "fileName": "CrimsonPro-ExtraLightItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 200,
-        "fontStretch": "normal"
+        "fontWeight": 200
       },
       "CrimsonPro-ExtraLight": {
         "name": "Crimson-pro 200",
         "fileName": "CrimsonPro-ExtraLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 200,
-        "fontStretch": "normal"
+        "fontWeight": 200
       },
       "CrimsonPro-ExtraBoldItalic": {
         "name": "Crimson-pro Italic Italic",
         "fileName": "CrimsonPro-ExtraBoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 800,
-        "fontStretch": "normal"
+        "fontWeight": 800
       },
       "CrimsonPro-ExtraBold": {
         "name": "Crimson-pro 800",
         "fileName": "CrimsonPro-ExtraBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 800,
-        "fontStretch": "normal"
+        "fontWeight": 800
       },
       "CrimsonPro-BoldItalic": {
         "name": "Crimson-pro Bold Italic Italic",
         "fileName": "CrimsonPro-BoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 700,
-        "fontStretch": "normal"
+        "fontWeight": 700
       },
       "CrimsonPro-Bold": {
         "name": "Crimson-pro Bold",
         "fileName": "CrimsonPro-Bold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 700,
-        "fontStretch": "normal"
+        "fontWeight": 700
       },
       "CrimsonPro-BlackItalic": {
         "name": "Crimson-pro Italic Italic",
         "fileName": "CrimsonPro-BlackItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 900,
-        "fontStretch": "normal"
+        "fontWeight": 900
       },
       "CrimsonPro-Black": {
         "name": "Crimson-pro 900",
         "fileName": "CrimsonPro-Black.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 900,
-        "fontStretch": "normal"
+        "fontWeight": 900
       }
     }
   },
@@ -259,7 +260,7 @@ export default {
           "CrimsonProVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-08T16:32:58.995Z"
+      "generatedAt": "2025-09-09T18:38:48.428Z"
     }
   }
 };
