@@ -1,13 +1,13 @@
 import fs from 'fs';
 import path from 'path';
 
-function loadFontData(slug) {
+function loadFontData(key) {
   try {
     const catalogPath = path.resolve('dist/api/catalog.json');
     const catalogData = JSON.parse(fs.readFileSync(catalogPath, 'utf8'));
-    return catalogData.families[slug] || null;
+    return catalogData.families[key] || null;
   } catch (error) {
-    console.warn(`Could not load font data for ${slug}:`, error.message);
+    console.warn(`Could not load font data for ${key}:`, error.message);
     return null;
   }
 }
@@ -15,7 +15,7 @@ function loadFontData(slug) {
 export default {
   eleventyComputed: {
     fontData(data) {
-      return loadFontData(data.slug);
+      return loadFontData(data.key);
     }
   }
 };

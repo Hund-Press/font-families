@@ -1,11 +1,11 @@
 {
   "name": "aspekta",
-  "slug": "aspekta",
+  "key": "aspekta",
   "version": "2.100",
   "author": "Ivo Dolenc",
   "license": "OFL-1.1",
   "licenseType": "OFL-1.1",
-  "description": "",
+  "description": "Aspekta font family",
   "static": {
     "Aspekta-950": {
       "family": "aspekta",
@@ -96,6 +96,78 @@
           "ss13",
           "ss14",
           "mark"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": "Alternate punctuation"
+          },
+          {
+            "tag": "ss03",
+            "name": "Stylistic Set 3",
+            "description": "Alternate numerals"
+          },
+          {
+            "tag": "ss04",
+            "name": "Stylistic Set 4",
+            "description": "Contextual alternates"
+          },
+          {
+            "tag": "ss05",
+            "name": "Stylistic Set 5",
+            "description": "Historical forms"
+          },
+          {
+            "tag": "ss06",
+            "name": "Stylistic Set 6",
+            "description": "Decorative alternates"
+          },
+          {
+            "tag": "ss07",
+            "name": "Stylistic Set 7",
+            "description": "Swash characters"
+          },
+          {
+            "tag": "ss08",
+            "name": "Stylistic Set 8",
+            "description": "Simplified forms"
+          },
+          {
+            "tag": "ss09",
+            "name": "Stylistic Set 9",
+            "description": "Rounded forms"
+          },
+          {
+            "tag": "ss10",
+            "name": "Stylistic Set 10",
+            "description": "Angular forms"
+          },
+          {
+            "tag": "ss11",
+            "name": "Stylistic Set 11",
+            "description": "Condensed alternates"
+          },
+          {
+            "tag": "ss12",
+            "name": "Stylistic Set 12",
+            "description": "Extended alternates"
+          },
+          {
+            "tag": "ss13",
+            "name": "Stylistic Set 13",
+            "description": "Monospaced alternates"
+          },
+          {
+            "tag": "ss14",
+            "name": "Stylistic Set 14",
+            "description": "Display alternates"
+          }
         ],
         "languageSupport": {},
         "glyphCount": 473,
@@ -226,6 +298,78 @@
           "ss14",
           "mark"
         ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": "Alternate punctuation"
+          },
+          {
+            "tag": "ss03",
+            "name": "Stylistic Set 3",
+            "description": "Alternate numerals"
+          },
+          {
+            "tag": "ss04",
+            "name": "Stylistic Set 4",
+            "description": "Contextual alternates"
+          },
+          {
+            "tag": "ss05",
+            "name": "Stylistic Set 5",
+            "description": "Historical forms"
+          },
+          {
+            "tag": "ss06",
+            "name": "Stylistic Set 6",
+            "description": "Decorative alternates"
+          },
+          {
+            "tag": "ss07",
+            "name": "Stylistic Set 7",
+            "description": "Swash characters"
+          },
+          {
+            "tag": "ss08",
+            "name": "Stylistic Set 8",
+            "description": "Simplified forms"
+          },
+          {
+            "tag": "ss09",
+            "name": "Stylistic Set 9",
+            "description": "Rounded forms"
+          },
+          {
+            "tag": "ss10",
+            "name": "Stylistic Set 10",
+            "description": "Angular forms"
+          },
+          {
+            "tag": "ss11",
+            "name": "Stylistic Set 11",
+            "description": "Condensed alternates"
+          },
+          {
+            "tag": "ss12",
+            "name": "Stylistic Set 12",
+            "description": "Extended alternates"
+          },
+          {
+            "tag": "ss13",
+            "name": "Stylistic Set 13",
+            "description": "Monospaced alternates"
+          },
+          {
+            "tag": "ss14",
+            "name": "Stylistic Set 14",
+            "description": "Display alternates"
+          }
+        ],
         "languageSupport": {},
         "glyphCount": 473,
         "unicodeRanges": [
@@ -354,6 +498,78 @@
           "ss13",
           "ss14",
           "mark"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": "Alternate punctuation"
+          },
+          {
+            "tag": "ss03",
+            "name": "Stylistic Set 3",
+            "description": "Alternate numerals"
+          },
+          {
+            "tag": "ss04",
+            "name": "Stylistic Set 4",
+            "description": "Contextual alternates"
+          },
+          {
+            "tag": "ss05",
+            "name": "Stylistic Set 5",
+            "description": "Historical forms"
+          },
+          {
+            "tag": "ss06",
+            "name": "Stylistic Set 6",
+            "description": "Decorative alternates"
+          },
+          {
+            "tag": "ss07",
+            "name": "Stylistic Set 7",
+            "description": "Swash characters"
+          },
+          {
+            "tag": "ss08",
+            "name": "Stylistic Set 8",
+            "description": "Simplified forms"
+          },
+          {
+            "tag": "ss09",
+            "name": "Stylistic Set 9",
+            "description": "Rounded forms"
+          },
+          {
+            "tag": "ss10",
+            "name": "Stylistic Set 10",
+            "description": "Angular forms"
+          },
+          {
+            "tag": "ss11",
+            "name": "Stylistic Set 11",
+            "description": "Condensed alternates"
+          },
+          {
+            "tag": "ss12",
+            "name": "Stylistic Set 12",
+            "description": "Extended alternates"
+          },
+          {
+            "tag": "ss13",
+            "name": "Stylistic Set 13",
+            "description": "Monospaced alternates"
+          },
+          {
+            "tag": "ss14",
+            "name": "Stylistic Set 14",
+            "description": "Display alternates"
+          }
         ],
         "languageSupport": {},
         "glyphCount": 473,
@@ -484,6 +700,78 @@
           "ss14",
           "mark"
         ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": "Alternate punctuation"
+          },
+          {
+            "tag": "ss03",
+            "name": "Stylistic Set 3",
+            "description": "Alternate numerals"
+          },
+          {
+            "tag": "ss04",
+            "name": "Stylistic Set 4",
+            "description": "Contextual alternates"
+          },
+          {
+            "tag": "ss05",
+            "name": "Stylistic Set 5",
+            "description": "Historical forms"
+          },
+          {
+            "tag": "ss06",
+            "name": "Stylistic Set 6",
+            "description": "Decorative alternates"
+          },
+          {
+            "tag": "ss07",
+            "name": "Stylistic Set 7",
+            "description": "Swash characters"
+          },
+          {
+            "tag": "ss08",
+            "name": "Stylistic Set 8",
+            "description": "Simplified forms"
+          },
+          {
+            "tag": "ss09",
+            "name": "Stylistic Set 9",
+            "description": "Rounded forms"
+          },
+          {
+            "tag": "ss10",
+            "name": "Stylistic Set 10",
+            "description": "Angular forms"
+          },
+          {
+            "tag": "ss11",
+            "name": "Stylistic Set 11",
+            "description": "Condensed alternates"
+          },
+          {
+            "tag": "ss12",
+            "name": "Stylistic Set 12",
+            "description": "Extended alternates"
+          },
+          {
+            "tag": "ss13",
+            "name": "Stylistic Set 13",
+            "description": "Monospaced alternates"
+          },
+          {
+            "tag": "ss14",
+            "name": "Stylistic Set 14",
+            "description": "Display alternates"
+          }
+        ],
         "languageSupport": {},
         "glyphCount": 473,
         "unicodeRanges": [
@@ -612,6 +900,78 @@
           "ss13",
           "ss14",
           "mark"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": "Alternate punctuation"
+          },
+          {
+            "tag": "ss03",
+            "name": "Stylistic Set 3",
+            "description": "Alternate numerals"
+          },
+          {
+            "tag": "ss04",
+            "name": "Stylistic Set 4",
+            "description": "Contextual alternates"
+          },
+          {
+            "tag": "ss05",
+            "name": "Stylistic Set 5",
+            "description": "Historical forms"
+          },
+          {
+            "tag": "ss06",
+            "name": "Stylistic Set 6",
+            "description": "Decorative alternates"
+          },
+          {
+            "tag": "ss07",
+            "name": "Stylistic Set 7",
+            "description": "Swash characters"
+          },
+          {
+            "tag": "ss08",
+            "name": "Stylistic Set 8",
+            "description": "Simplified forms"
+          },
+          {
+            "tag": "ss09",
+            "name": "Stylistic Set 9",
+            "description": "Rounded forms"
+          },
+          {
+            "tag": "ss10",
+            "name": "Stylistic Set 10",
+            "description": "Angular forms"
+          },
+          {
+            "tag": "ss11",
+            "name": "Stylistic Set 11",
+            "description": "Condensed alternates"
+          },
+          {
+            "tag": "ss12",
+            "name": "Stylistic Set 12",
+            "description": "Extended alternates"
+          },
+          {
+            "tag": "ss13",
+            "name": "Stylistic Set 13",
+            "description": "Monospaced alternates"
+          },
+          {
+            "tag": "ss14",
+            "name": "Stylistic Set 14",
+            "description": "Display alternates"
+          }
         ],
         "languageSupport": {},
         "glyphCount": 473,
@@ -742,6 +1102,78 @@
           "ss14",
           "mark"
         ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": "Alternate punctuation"
+          },
+          {
+            "tag": "ss03",
+            "name": "Stylistic Set 3",
+            "description": "Alternate numerals"
+          },
+          {
+            "tag": "ss04",
+            "name": "Stylistic Set 4",
+            "description": "Contextual alternates"
+          },
+          {
+            "tag": "ss05",
+            "name": "Stylistic Set 5",
+            "description": "Historical forms"
+          },
+          {
+            "tag": "ss06",
+            "name": "Stylistic Set 6",
+            "description": "Decorative alternates"
+          },
+          {
+            "tag": "ss07",
+            "name": "Stylistic Set 7",
+            "description": "Swash characters"
+          },
+          {
+            "tag": "ss08",
+            "name": "Stylistic Set 8",
+            "description": "Simplified forms"
+          },
+          {
+            "tag": "ss09",
+            "name": "Stylistic Set 9",
+            "description": "Rounded forms"
+          },
+          {
+            "tag": "ss10",
+            "name": "Stylistic Set 10",
+            "description": "Angular forms"
+          },
+          {
+            "tag": "ss11",
+            "name": "Stylistic Set 11",
+            "description": "Condensed alternates"
+          },
+          {
+            "tag": "ss12",
+            "name": "Stylistic Set 12",
+            "description": "Extended alternates"
+          },
+          {
+            "tag": "ss13",
+            "name": "Stylistic Set 13",
+            "description": "Monospaced alternates"
+          },
+          {
+            "tag": "ss14",
+            "name": "Stylistic Set 14",
+            "description": "Display alternates"
+          }
+        ],
         "languageSupport": {},
         "glyphCount": 473,
         "unicodeRanges": [
@@ -870,6 +1302,78 @@
           "ss13",
           "ss14",
           "mark"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": "Alternate punctuation"
+          },
+          {
+            "tag": "ss03",
+            "name": "Stylistic Set 3",
+            "description": "Alternate numerals"
+          },
+          {
+            "tag": "ss04",
+            "name": "Stylistic Set 4",
+            "description": "Contextual alternates"
+          },
+          {
+            "tag": "ss05",
+            "name": "Stylistic Set 5",
+            "description": "Historical forms"
+          },
+          {
+            "tag": "ss06",
+            "name": "Stylistic Set 6",
+            "description": "Decorative alternates"
+          },
+          {
+            "tag": "ss07",
+            "name": "Stylistic Set 7",
+            "description": "Swash characters"
+          },
+          {
+            "tag": "ss08",
+            "name": "Stylistic Set 8",
+            "description": "Simplified forms"
+          },
+          {
+            "tag": "ss09",
+            "name": "Stylistic Set 9",
+            "description": "Rounded forms"
+          },
+          {
+            "tag": "ss10",
+            "name": "Stylistic Set 10",
+            "description": "Angular forms"
+          },
+          {
+            "tag": "ss11",
+            "name": "Stylistic Set 11",
+            "description": "Condensed alternates"
+          },
+          {
+            "tag": "ss12",
+            "name": "Stylistic Set 12",
+            "description": "Extended alternates"
+          },
+          {
+            "tag": "ss13",
+            "name": "Stylistic Set 13",
+            "description": "Monospaced alternates"
+          },
+          {
+            "tag": "ss14",
+            "name": "Stylistic Set 14",
+            "description": "Display alternates"
+          }
         ],
         "languageSupport": {},
         "glyphCount": 473,
@@ -1000,6 +1504,78 @@
           "ss14",
           "mark"
         ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": "Alternate punctuation"
+          },
+          {
+            "tag": "ss03",
+            "name": "Stylistic Set 3",
+            "description": "Alternate numerals"
+          },
+          {
+            "tag": "ss04",
+            "name": "Stylistic Set 4",
+            "description": "Contextual alternates"
+          },
+          {
+            "tag": "ss05",
+            "name": "Stylistic Set 5",
+            "description": "Historical forms"
+          },
+          {
+            "tag": "ss06",
+            "name": "Stylistic Set 6",
+            "description": "Decorative alternates"
+          },
+          {
+            "tag": "ss07",
+            "name": "Stylistic Set 7",
+            "description": "Swash characters"
+          },
+          {
+            "tag": "ss08",
+            "name": "Stylistic Set 8",
+            "description": "Simplified forms"
+          },
+          {
+            "tag": "ss09",
+            "name": "Stylistic Set 9",
+            "description": "Rounded forms"
+          },
+          {
+            "tag": "ss10",
+            "name": "Stylistic Set 10",
+            "description": "Angular forms"
+          },
+          {
+            "tag": "ss11",
+            "name": "Stylistic Set 11",
+            "description": "Condensed alternates"
+          },
+          {
+            "tag": "ss12",
+            "name": "Stylistic Set 12",
+            "description": "Extended alternates"
+          },
+          {
+            "tag": "ss13",
+            "name": "Stylistic Set 13",
+            "description": "Monospaced alternates"
+          },
+          {
+            "tag": "ss14",
+            "name": "Stylistic Set 14",
+            "description": "Display alternates"
+          }
+        ],
         "languageSupport": {},
         "glyphCount": 473,
         "unicodeRanges": [
@@ -1128,6 +1704,78 @@
           "ss13",
           "ss14",
           "mark"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": "Alternate punctuation"
+          },
+          {
+            "tag": "ss03",
+            "name": "Stylistic Set 3",
+            "description": "Alternate numerals"
+          },
+          {
+            "tag": "ss04",
+            "name": "Stylistic Set 4",
+            "description": "Contextual alternates"
+          },
+          {
+            "tag": "ss05",
+            "name": "Stylistic Set 5",
+            "description": "Historical forms"
+          },
+          {
+            "tag": "ss06",
+            "name": "Stylistic Set 6",
+            "description": "Decorative alternates"
+          },
+          {
+            "tag": "ss07",
+            "name": "Stylistic Set 7",
+            "description": "Swash characters"
+          },
+          {
+            "tag": "ss08",
+            "name": "Stylistic Set 8",
+            "description": "Simplified forms"
+          },
+          {
+            "tag": "ss09",
+            "name": "Stylistic Set 9",
+            "description": "Rounded forms"
+          },
+          {
+            "tag": "ss10",
+            "name": "Stylistic Set 10",
+            "description": "Angular forms"
+          },
+          {
+            "tag": "ss11",
+            "name": "Stylistic Set 11",
+            "description": "Condensed alternates"
+          },
+          {
+            "tag": "ss12",
+            "name": "Stylistic Set 12",
+            "description": "Extended alternates"
+          },
+          {
+            "tag": "ss13",
+            "name": "Stylistic Set 13",
+            "description": "Monospaced alternates"
+          },
+          {
+            "tag": "ss14",
+            "name": "Stylistic Set 14",
+            "description": "Display alternates"
+          }
         ],
         "languageSupport": {},
         "glyphCount": 473,
@@ -1258,6 +1906,78 @@
           "ss14",
           "mark"
         ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": "Alternate punctuation"
+          },
+          {
+            "tag": "ss03",
+            "name": "Stylistic Set 3",
+            "description": "Alternate numerals"
+          },
+          {
+            "tag": "ss04",
+            "name": "Stylistic Set 4",
+            "description": "Contextual alternates"
+          },
+          {
+            "tag": "ss05",
+            "name": "Stylistic Set 5",
+            "description": "Historical forms"
+          },
+          {
+            "tag": "ss06",
+            "name": "Stylistic Set 6",
+            "description": "Decorative alternates"
+          },
+          {
+            "tag": "ss07",
+            "name": "Stylistic Set 7",
+            "description": "Swash characters"
+          },
+          {
+            "tag": "ss08",
+            "name": "Stylistic Set 8",
+            "description": "Simplified forms"
+          },
+          {
+            "tag": "ss09",
+            "name": "Stylistic Set 9",
+            "description": "Rounded forms"
+          },
+          {
+            "tag": "ss10",
+            "name": "Stylistic Set 10",
+            "description": "Angular forms"
+          },
+          {
+            "tag": "ss11",
+            "name": "Stylistic Set 11",
+            "description": "Condensed alternates"
+          },
+          {
+            "tag": "ss12",
+            "name": "Stylistic Set 12",
+            "description": "Extended alternates"
+          },
+          {
+            "tag": "ss13",
+            "name": "Stylistic Set 13",
+            "description": "Monospaced alternates"
+          },
+          {
+            "tag": "ss14",
+            "name": "Stylistic Set 14",
+            "description": "Display alternates"
+          }
+        ],
         "languageSupport": {},
         "glyphCount": 473,
         "unicodeRanges": [
@@ -1386,6 +2106,78 @@
           "ss13",
           "ss14",
           "mark"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": "Alternate punctuation"
+          },
+          {
+            "tag": "ss03",
+            "name": "Stylistic Set 3",
+            "description": "Alternate numerals"
+          },
+          {
+            "tag": "ss04",
+            "name": "Stylistic Set 4",
+            "description": "Contextual alternates"
+          },
+          {
+            "tag": "ss05",
+            "name": "Stylistic Set 5",
+            "description": "Historical forms"
+          },
+          {
+            "tag": "ss06",
+            "name": "Stylistic Set 6",
+            "description": "Decorative alternates"
+          },
+          {
+            "tag": "ss07",
+            "name": "Stylistic Set 7",
+            "description": "Swash characters"
+          },
+          {
+            "tag": "ss08",
+            "name": "Stylistic Set 8",
+            "description": "Simplified forms"
+          },
+          {
+            "tag": "ss09",
+            "name": "Stylistic Set 9",
+            "description": "Rounded forms"
+          },
+          {
+            "tag": "ss10",
+            "name": "Stylistic Set 10",
+            "description": "Angular forms"
+          },
+          {
+            "tag": "ss11",
+            "name": "Stylistic Set 11",
+            "description": "Condensed alternates"
+          },
+          {
+            "tag": "ss12",
+            "name": "Stylistic Set 12",
+            "description": "Extended alternates"
+          },
+          {
+            "tag": "ss13",
+            "name": "Stylistic Set 13",
+            "description": "Monospaced alternates"
+          },
+          {
+            "tag": "ss14",
+            "name": "Stylistic Set 14",
+            "description": "Display alternates"
+          }
         ],
         "languageSupport": {},
         "glyphCount": 473,
@@ -1516,6 +2308,78 @@
           "ss14",
           "mark"
         ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": "Alternate punctuation"
+          },
+          {
+            "tag": "ss03",
+            "name": "Stylistic Set 3",
+            "description": "Alternate numerals"
+          },
+          {
+            "tag": "ss04",
+            "name": "Stylistic Set 4",
+            "description": "Contextual alternates"
+          },
+          {
+            "tag": "ss05",
+            "name": "Stylistic Set 5",
+            "description": "Historical forms"
+          },
+          {
+            "tag": "ss06",
+            "name": "Stylistic Set 6",
+            "description": "Decorative alternates"
+          },
+          {
+            "tag": "ss07",
+            "name": "Stylistic Set 7",
+            "description": "Swash characters"
+          },
+          {
+            "tag": "ss08",
+            "name": "Stylistic Set 8",
+            "description": "Simplified forms"
+          },
+          {
+            "tag": "ss09",
+            "name": "Stylistic Set 9",
+            "description": "Rounded forms"
+          },
+          {
+            "tag": "ss10",
+            "name": "Stylistic Set 10",
+            "description": "Angular forms"
+          },
+          {
+            "tag": "ss11",
+            "name": "Stylistic Set 11",
+            "description": "Condensed alternates"
+          },
+          {
+            "tag": "ss12",
+            "name": "Stylistic Set 12",
+            "description": "Extended alternates"
+          },
+          {
+            "tag": "ss13",
+            "name": "Stylistic Set 13",
+            "description": "Monospaced alternates"
+          },
+          {
+            "tag": "ss14",
+            "name": "Stylistic Set 14",
+            "description": "Display alternates"
+          }
+        ],
         "languageSupport": {},
         "glyphCount": 473,
         "unicodeRanges": [
@@ -1644,6 +2508,78 @@
           "ss13",
           "ss14",
           "mark"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": "Alternate punctuation"
+          },
+          {
+            "tag": "ss03",
+            "name": "Stylistic Set 3",
+            "description": "Alternate numerals"
+          },
+          {
+            "tag": "ss04",
+            "name": "Stylistic Set 4",
+            "description": "Contextual alternates"
+          },
+          {
+            "tag": "ss05",
+            "name": "Stylistic Set 5",
+            "description": "Historical forms"
+          },
+          {
+            "tag": "ss06",
+            "name": "Stylistic Set 6",
+            "description": "Decorative alternates"
+          },
+          {
+            "tag": "ss07",
+            "name": "Stylistic Set 7",
+            "description": "Swash characters"
+          },
+          {
+            "tag": "ss08",
+            "name": "Stylistic Set 8",
+            "description": "Simplified forms"
+          },
+          {
+            "tag": "ss09",
+            "name": "Stylistic Set 9",
+            "description": "Rounded forms"
+          },
+          {
+            "tag": "ss10",
+            "name": "Stylistic Set 10",
+            "description": "Angular forms"
+          },
+          {
+            "tag": "ss11",
+            "name": "Stylistic Set 11",
+            "description": "Condensed alternates"
+          },
+          {
+            "tag": "ss12",
+            "name": "Stylistic Set 12",
+            "description": "Extended alternates"
+          },
+          {
+            "tag": "ss13",
+            "name": "Stylistic Set 13",
+            "description": "Monospaced alternates"
+          },
+          {
+            "tag": "ss14",
+            "name": "Stylistic Set 14",
+            "description": "Display alternates"
+          }
         ],
         "languageSupport": {},
         "glyphCount": 473,
@@ -1774,6 +2710,78 @@
           "ss14",
           "mark"
         ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": "Alternate punctuation"
+          },
+          {
+            "tag": "ss03",
+            "name": "Stylistic Set 3",
+            "description": "Alternate numerals"
+          },
+          {
+            "tag": "ss04",
+            "name": "Stylistic Set 4",
+            "description": "Contextual alternates"
+          },
+          {
+            "tag": "ss05",
+            "name": "Stylistic Set 5",
+            "description": "Historical forms"
+          },
+          {
+            "tag": "ss06",
+            "name": "Stylistic Set 6",
+            "description": "Decorative alternates"
+          },
+          {
+            "tag": "ss07",
+            "name": "Stylistic Set 7",
+            "description": "Swash characters"
+          },
+          {
+            "tag": "ss08",
+            "name": "Stylistic Set 8",
+            "description": "Simplified forms"
+          },
+          {
+            "tag": "ss09",
+            "name": "Stylistic Set 9",
+            "description": "Rounded forms"
+          },
+          {
+            "tag": "ss10",
+            "name": "Stylistic Set 10",
+            "description": "Angular forms"
+          },
+          {
+            "tag": "ss11",
+            "name": "Stylistic Set 11",
+            "description": "Condensed alternates"
+          },
+          {
+            "tag": "ss12",
+            "name": "Stylistic Set 12",
+            "description": "Extended alternates"
+          },
+          {
+            "tag": "ss13",
+            "name": "Stylistic Set 13",
+            "description": "Monospaced alternates"
+          },
+          {
+            "tag": "ss14",
+            "name": "Stylistic Set 14",
+            "description": "Display alternates"
+          }
+        ],
         "languageSupport": {},
         "glyphCount": 473,
         "unicodeRanges": [
@@ -1902,6 +2910,78 @@
           "ss13",
           "ss14",
           "mark"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": "Alternate punctuation"
+          },
+          {
+            "tag": "ss03",
+            "name": "Stylistic Set 3",
+            "description": "Alternate numerals"
+          },
+          {
+            "tag": "ss04",
+            "name": "Stylistic Set 4",
+            "description": "Contextual alternates"
+          },
+          {
+            "tag": "ss05",
+            "name": "Stylistic Set 5",
+            "description": "Historical forms"
+          },
+          {
+            "tag": "ss06",
+            "name": "Stylistic Set 6",
+            "description": "Decorative alternates"
+          },
+          {
+            "tag": "ss07",
+            "name": "Stylistic Set 7",
+            "description": "Swash characters"
+          },
+          {
+            "tag": "ss08",
+            "name": "Stylistic Set 8",
+            "description": "Simplified forms"
+          },
+          {
+            "tag": "ss09",
+            "name": "Stylistic Set 9",
+            "description": "Rounded forms"
+          },
+          {
+            "tag": "ss10",
+            "name": "Stylistic Set 10",
+            "description": "Angular forms"
+          },
+          {
+            "tag": "ss11",
+            "name": "Stylistic Set 11",
+            "description": "Condensed alternates"
+          },
+          {
+            "tag": "ss12",
+            "name": "Stylistic Set 12",
+            "description": "Extended alternates"
+          },
+          {
+            "tag": "ss13",
+            "name": "Stylistic Set 13",
+            "description": "Monospaced alternates"
+          },
+          {
+            "tag": "ss14",
+            "name": "Stylistic Set 14",
+            "description": "Display alternates"
+          }
         ],
         "languageSupport": {},
         "glyphCount": 473,
@@ -2032,6 +3112,78 @@
           "ss14",
           "mark"
         ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": "Alternate punctuation"
+          },
+          {
+            "tag": "ss03",
+            "name": "Stylistic Set 3",
+            "description": "Alternate numerals"
+          },
+          {
+            "tag": "ss04",
+            "name": "Stylistic Set 4",
+            "description": "Contextual alternates"
+          },
+          {
+            "tag": "ss05",
+            "name": "Stylistic Set 5",
+            "description": "Historical forms"
+          },
+          {
+            "tag": "ss06",
+            "name": "Stylistic Set 6",
+            "description": "Decorative alternates"
+          },
+          {
+            "tag": "ss07",
+            "name": "Stylistic Set 7",
+            "description": "Swash characters"
+          },
+          {
+            "tag": "ss08",
+            "name": "Stylistic Set 8",
+            "description": "Simplified forms"
+          },
+          {
+            "tag": "ss09",
+            "name": "Stylistic Set 9",
+            "description": "Rounded forms"
+          },
+          {
+            "tag": "ss10",
+            "name": "Stylistic Set 10",
+            "description": "Angular forms"
+          },
+          {
+            "tag": "ss11",
+            "name": "Stylistic Set 11",
+            "description": "Condensed alternates"
+          },
+          {
+            "tag": "ss12",
+            "name": "Stylistic Set 12",
+            "description": "Extended alternates"
+          },
+          {
+            "tag": "ss13",
+            "name": "Stylistic Set 13",
+            "description": "Monospaced alternates"
+          },
+          {
+            "tag": "ss14",
+            "name": "Stylistic Set 14",
+            "description": "Display alternates"
+          }
+        ],
         "languageSupport": {},
         "glyphCount": 473,
         "unicodeRanges": [
@@ -2160,6 +3312,78 @@
           "ss13",
           "ss14",
           "mark"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": "Alternate punctuation"
+          },
+          {
+            "tag": "ss03",
+            "name": "Stylistic Set 3",
+            "description": "Alternate numerals"
+          },
+          {
+            "tag": "ss04",
+            "name": "Stylistic Set 4",
+            "description": "Contextual alternates"
+          },
+          {
+            "tag": "ss05",
+            "name": "Stylistic Set 5",
+            "description": "Historical forms"
+          },
+          {
+            "tag": "ss06",
+            "name": "Stylistic Set 6",
+            "description": "Decorative alternates"
+          },
+          {
+            "tag": "ss07",
+            "name": "Stylistic Set 7",
+            "description": "Swash characters"
+          },
+          {
+            "tag": "ss08",
+            "name": "Stylistic Set 8",
+            "description": "Simplified forms"
+          },
+          {
+            "tag": "ss09",
+            "name": "Stylistic Set 9",
+            "description": "Rounded forms"
+          },
+          {
+            "tag": "ss10",
+            "name": "Stylistic Set 10",
+            "description": "Angular forms"
+          },
+          {
+            "tag": "ss11",
+            "name": "Stylistic Set 11",
+            "description": "Condensed alternates"
+          },
+          {
+            "tag": "ss12",
+            "name": "Stylistic Set 12",
+            "description": "Extended alternates"
+          },
+          {
+            "tag": "ss13",
+            "name": "Stylistic Set 13",
+            "description": "Monospaced alternates"
+          },
+          {
+            "tag": "ss14",
+            "name": "Stylistic Set 14",
+            "description": "Display alternates"
+          }
         ],
         "languageSupport": {},
         "glyphCount": 473,
@@ -2290,6 +3514,78 @@
           "ss14",
           "mark"
         ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": "Alternate punctuation"
+          },
+          {
+            "tag": "ss03",
+            "name": "Stylistic Set 3",
+            "description": "Alternate numerals"
+          },
+          {
+            "tag": "ss04",
+            "name": "Stylistic Set 4",
+            "description": "Contextual alternates"
+          },
+          {
+            "tag": "ss05",
+            "name": "Stylistic Set 5",
+            "description": "Historical forms"
+          },
+          {
+            "tag": "ss06",
+            "name": "Stylistic Set 6",
+            "description": "Decorative alternates"
+          },
+          {
+            "tag": "ss07",
+            "name": "Stylistic Set 7",
+            "description": "Swash characters"
+          },
+          {
+            "tag": "ss08",
+            "name": "Stylistic Set 8",
+            "description": "Simplified forms"
+          },
+          {
+            "tag": "ss09",
+            "name": "Stylistic Set 9",
+            "description": "Rounded forms"
+          },
+          {
+            "tag": "ss10",
+            "name": "Stylistic Set 10",
+            "description": "Angular forms"
+          },
+          {
+            "tag": "ss11",
+            "name": "Stylistic Set 11",
+            "description": "Condensed alternates"
+          },
+          {
+            "tag": "ss12",
+            "name": "Stylistic Set 12",
+            "description": "Extended alternates"
+          },
+          {
+            "tag": "ss13",
+            "name": "Stylistic Set 13",
+            "description": "Monospaced alternates"
+          },
+          {
+            "tag": "ss14",
+            "name": "Stylistic Set 14",
+            "description": "Display alternates"
+          }
+        ],
         "languageSupport": {},
         "glyphCount": 473,
         "unicodeRanges": [
@@ -2419,6 +3715,78 @@
           "ss14",
           "mark"
         ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": "Alternate punctuation"
+          },
+          {
+            "tag": "ss03",
+            "name": "Stylistic Set 3",
+            "description": "Alternate numerals"
+          },
+          {
+            "tag": "ss04",
+            "name": "Stylistic Set 4",
+            "description": "Contextual alternates"
+          },
+          {
+            "tag": "ss05",
+            "name": "Stylistic Set 5",
+            "description": "Historical forms"
+          },
+          {
+            "tag": "ss06",
+            "name": "Stylistic Set 6",
+            "description": "Decorative alternates"
+          },
+          {
+            "tag": "ss07",
+            "name": "Stylistic Set 7",
+            "description": "Swash characters"
+          },
+          {
+            "tag": "ss08",
+            "name": "Stylistic Set 8",
+            "description": "Simplified forms"
+          },
+          {
+            "tag": "ss09",
+            "name": "Stylistic Set 9",
+            "description": "Rounded forms"
+          },
+          {
+            "tag": "ss10",
+            "name": "Stylistic Set 10",
+            "description": "Angular forms"
+          },
+          {
+            "tag": "ss11",
+            "name": "Stylistic Set 11",
+            "description": "Condensed alternates"
+          },
+          {
+            "tag": "ss12",
+            "name": "Stylistic Set 12",
+            "description": "Extended alternates"
+          },
+          {
+            "tag": "ss13",
+            "name": "Stylistic Set 13",
+            "description": "Monospaced alternates"
+          },
+          {
+            "tag": "ss14",
+            "name": "Stylistic Set 14",
+            "description": "Display alternates"
+          }
+        ],
         "languageSupport": {},
         "glyphCount": 473,
         "unicodeRanges": [
@@ -2547,6 +3915,78 @@
           "ss13",
           "ss14",
           "mark"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": "Alternate punctuation"
+          },
+          {
+            "tag": "ss03",
+            "name": "Stylistic Set 3",
+            "description": "Alternate numerals"
+          },
+          {
+            "tag": "ss04",
+            "name": "Stylistic Set 4",
+            "description": "Contextual alternates"
+          },
+          {
+            "tag": "ss05",
+            "name": "Stylistic Set 5",
+            "description": "Historical forms"
+          },
+          {
+            "tag": "ss06",
+            "name": "Stylistic Set 6",
+            "description": "Decorative alternates"
+          },
+          {
+            "tag": "ss07",
+            "name": "Stylistic Set 7",
+            "description": "Swash characters"
+          },
+          {
+            "tag": "ss08",
+            "name": "Stylistic Set 8",
+            "description": "Simplified forms"
+          },
+          {
+            "tag": "ss09",
+            "name": "Stylistic Set 9",
+            "description": "Rounded forms"
+          },
+          {
+            "tag": "ss10",
+            "name": "Stylistic Set 10",
+            "description": "Angular forms"
+          },
+          {
+            "tag": "ss11",
+            "name": "Stylistic Set 11",
+            "description": "Condensed alternates"
+          },
+          {
+            "tag": "ss12",
+            "name": "Stylistic Set 12",
+            "description": "Extended alternates"
+          },
+          {
+            "tag": "ss13",
+            "name": "Stylistic Set 13",
+            "description": "Monospaced alternates"
+          },
+          {
+            "tag": "ss14",
+            "name": "Stylistic Set 14",
+            "description": "Display alternates"
+          }
         ],
         "languageSupport": {},
         "glyphCount": 473,
@@ -2681,6 +4121,78 @@
           "ss13",
           "ss14",
           "mark"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": "Alternate punctuation"
+          },
+          {
+            "tag": "ss03",
+            "name": "Stylistic Set 3",
+            "description": "Alternate numerals"
+          },
+          {
+            "tag": "ss04",
+            "name": "Stylistic Set 4",
+            "description": "Contextual alternates"
+          },
+          {
+            "tag": "ss05",
+            "name": "Stylistic Set 5",
+            "description": "Historical forms"
+          },
+          {
+            "tag": "ss06",
+            "name": "Stylistic Set 6",
+            "description": "Decorative alternates"
+          },
+          {
+            "tag": "ss07",
+            "name": "Stylistic Set 7",
+            "description": "Swash characters"
+          },
+          {
+            "tag": "ss08",
+            "name": "Stylistic Set 8",
+            "description": "Simplified forms"
+          },
+          {
+            "tag": "ss09",
+            "name": "Stylistic Set 9",
+            "description": "Rounded forms"
+          },
+          {
+            "tag": "ss10",
+            "name": "Stylistic Set 10",
+            "description": "Angular forms"
+          },
+          {
+            "tag": "ss11",
+            "name": "Stylistic Set 11",
+            "description": "Condensed alternates"
+          },
+          {
+            "tag": "ss12",
+            "name": "Stylistic Set 12",
+            "description": "Extended alternates"
+          },
+          {
+            "tag": "ss13",
+            "name": "Stylistic Set 13",
+            "description": "Monospaced alternates"
+          },
+          {
+            "tag": "ss14",
+            "name": "Stylistic Set 14",
+            "description": "Display alternates"
+          }
         ],
         "languageSupport": {},
         "glyphCount": 473,

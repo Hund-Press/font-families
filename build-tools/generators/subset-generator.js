@@ -25,7 +25,7 @@ const CONFIG = {
     characterSets: {
         'min-chars': {
             name: 'min-chars',
-            description: 'Minimal character set for performance-critical contexts',
+            description: 'Minimal character set for performance-critical contexts (100 characters)',
             characters: `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!"#$%&'()*+,-./:;=?[]_ —–''""…`,
             unicodeRanges: [
                 'U+0020-007F',  // Basic Latin
@@ -36,6 +36,77 @@ const CONFIG = {
                 'U+2026'        // Ellipsis
             ],
             characterCount: 100
+        },
+        'latin-extended': {
+            name: 'latin-extended',
+            description: 'Extended Latin character set for European languages',
+            characters: `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!"#$%&'()*+,-./:;=?[]_ —–''""…ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽž`,
+            unicodeRanges: [
+                'U+0020-007F',  // Basic Latin
+                'U+00A0-00FF',  // Latin-1 Supplement
+                'U+0100-017F',  // Latin Extended-A
+                'U+0180-024F',  // Latin Extended-B
+                'U+1E00-1EFF',  // Latin Extended Additional
+                'U+2013-2014',  // En dash, Em dash
+                'U+2018-2019',  // Curly single quotes
+                'U+201C-201D',  // Curly double quotes
+                'U+2026'        // Ellipsis
+            ],
+            characterCount: 500
+        },
+        'cyrillic': {
+            name: 'cyrillic',
+            description: 'Cyrillic character set for Russian and Eastern European languages',
+            characters: `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!"#$%&'()*+,-./:;=?[]_ —–''""…АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя`,
+            unicodeRanges: [
+                'U+0020-007F',  // Basic Latin
+                'U+00A0',       // Non-breaking space
+                'U+0400-04FF',  // Cyrillic
+                'U+0500-052F',  // Cyrillic Supplement
+                'U+2013-2014',  // En dash, Em dash
+                'U+2018-2019',  // Curly single quotes
+                'U+201C-201D',  // Curly double quotes
+                'U+2026'        // Ellipsis
+            ],
+            characterCount: 200
+        },
+        'arabic': {
+            name: 'arabic',
+            description: 'Arabic character set for Arabic script languages',
+            characters: `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!"#$%&'()*+,-./:;=?[]_ —–''""…ابتثجحخدذرزسشصضطظعغفقكلمنهويًٌٍَُِّْٰٱٲٳٴٵٶٷٸٹٺٻټٽپٿ`,
+            unicodeRanges: [
+                'U+0020-007F',  // Basic Latin
+                'U+00A0',       // Non-breaking space
+                'U+0600-06FF',  // Arabic
+                'U+0750-077F',  // Arabic Supplement
+                'U+08A0-08FF',  // Arabic Extended-A
+                'U+FB50-FDFF',  // Arabic Presentation Forms-A
+                'U+FE70-FEFF',  // Arabic Presentation Forms-B
+                'U+2013-2014',  // En dash, Em dash
+                'U+2018-2019',  // Curly single quotes
+                'U+201C-201D',  // Curly double quotes
+                'U+2026'        // Ellipsis
+            ],
+            characterCount: 300
+        },
+        'cjk-basic': {
+            name: 'cjk-basic',
+            description: 'Basic CJK character set for East Asian languages',
+            unicodeRanges: [
+                'U+0020-007F',  // Basic Latin
+                'U+00A0',       // Non-breaking space
+                'U+3000-303F',  // CJK Symbols and Punctuation
+                'U+3040-309F',  // Hiragana
+                'U+30A0-30FF',  // Katakana
+                'U+4E00-9FFF',  // CJK Unified Ideographs (Common)
+                'U+FF00-FFEF',  // Halfwidth and Fullwidth Forms
+                'U+2013-2014',  // En dash, Em dash
+                'U+2018-2019',  // Curly single quotes
+                'U+201C-201D',  // Curly double quotes
+                'U+2026'        // Ellipsis
+            ],
+            characterCount: 1000,
+            useUnicodeRanges: true // Use Unicode ranges instead of character string for large sets
         }
     }
 };
@@ -47,6 +118,54 @@ class SubsetGenerator {
     constructor() {
         this.errors = [];
         this.successes = [];
+    }
+
+    /**
+     * Detect which subsets should be generated based on font language support
+     */
+    async detectRequiredSubsets(familyName) {
+        try {
+            // Try to load the enhanced metadata from the API
+            const apiMetadataPath = path.join('dist', 'api', 'metadata', `${familyName}.json`);
+            const apiMetadata = JSON.parse(await fs.readFile(apiMetadataPath, 'utf8'));
+            
+            const requiredSubsets = ['min-chars']; // Always include minimal
+            
+            // Check for language support in the enhanced metadata
+            if (apiMetadata.enhanced?.languageSupport) {
+                const supportedLanguages = apiMetadata.enhanced.languageSupport;
+                const supportedScripts = apiMetadata.enhanced.scriptSupport || [];
+                
+                // Detect script support based on enhanced metadata
+                if (supportedScripts.some(script => script.includes('Latin'))) {
+                    requiredSubsets.push('latin-extended');
+                }
+                
+                if (supportedScripts.some(script => script.includes('Cyrillic'))) {
+                    requiredSubsets.push('cyrillic');
+                }
+                
+                if (supportedScripts.some(script => script.includes('Arabic'))) {
+                    requiredSubsets.push('arabic');
+                }
+                
+                if (supportedScripts.some(script => 
+                    script.includes('CJK') || 
+                    script.includes('Hiragana') || 
+                    script.includes('Katakana') ||
+                    script.includes('Hangul')
+                )) {
+                    requiredSubsets.push('cjk-basic');
+                }
+            }
+            
+            console.log(`[subset-detection] ${familyName} detected subsets: ${requiredSubsets.join(', ')}`);
+            return [...new Set(requiredSubsets)]; // Remove duplicates
+            
+        } catch (error) {
+            console.log(`[subset-detection] Could not detect language support for ${familyName}, using default subsets`);
+            return ['min-chars']; // Fallback to minimal only
+        }
     }
 
     /**
@@ -91,24 +210,48 @@ class SubsetGenerator {
         const {
             flavor = 'woff2',
             desubroutinize = true,
-            withZopfli = true
+            withZopfli = true,
+            preserveFeatures = false
         } = options;
 
-        // Escape characters for shell command
-        const escapedChars = characterSet.characters.replace(/"/g, '\\"');
-        
-        const baseCommand = [
+        const baseCommandArgs = [
             'pyftsubset',
             `"${inputPath}"`,
-            `--text="${escapedChars}"`,
-            `--output-file="${outputPath}"`,
-            flavor ? `--flavor=${flavor}` : '',  // Only add flavor if specified
-            desubroutinize ? '--desubroutinize' : '',
-            withZopfli && flavor === 'woff2' ? '--with-zopfli' : '',
-            '--layout-features-=kern',  // Remove kerning for size
-            '--drop-tables+=GPOS,GSUB', // Remove advanced typography tables
-            '--no-hinting'              // Remove hinting for smaller size
-        ].filter(Boolean).join(' ');
+            `--output-file="${outputPath}"`
+        ];
+
+        // Add character selection (text or Unicode ranges)
+        if (characterSet.useUnicodeRanges && characterSet.unicodeRanges) {
+            // Use Unicode ranges for large character sets like CJK
+            const unicodeRangesStr = characterSet.unicodeRanges.join(',');
+            baseCommandArgs.push(`--unicodes="${unicodeRangesStr}"`);
+        } else if (characterSet.characters) {
+            // Use character string for smaller, specific sets
+            const escapedChars = characterSet.characters.replace(/"/g, '\\"');
+            baseCommandArgs.push(`--text="${escapedChars}"`);
+        } else {
+            throw new Error('Character set must have either characters or unicodeRanges defined');
+        }
+
+        // Add format options
+        if (flavor) baseCommandArgs.push(`--flavor=${flavor}`);
+        if (desubroutinize) baseCommandArgs.push('--desubroutinize');
+        if (withZopfli && flavor === 'woff2') baseCommandArgs.push('--with-zopfli');
+
+        // Typography feature handling
+        if (preserveFeatures) {
+            // Keep essential typography features
+            baseCommandArgs.push('--layout-features+=liga,clig,kern');
+        } else {
+            // Strip features for minimal size
+            baseCommandArgs.push('--layout-features-=kern');
+            baseCommandArgs.push('--drop-tables+=GPOS,GSUB');
+        }
+
+        // Additional optimizations
+        baseCommandArgs.push('--no-hinting'); // Remove hinting for smaller size
+
+        const baseCommand = baseCommandArgs.join(' ');
 
         // Try venv first, then system
         const command = `source .venv/bin/activate && ${baseCommand}`;

@@ -1,11 +1,11 @@
 export default {
   "name": "atkinson-hyperlegible",
-  "slug": "atkinson-hyperlegible",
+  "key": "atkinson-hyperlegible",
   "version": "1.0.0",
   "author": "Braille Institute of America",
   "license": "OFL-1.1",
   "licenseType": "OFL-1.1",
-  "description": "",
+  "description": "Atkinson hyperlegible font family",
   "static": {
     "AtkinsonHyperlegible-Regular": {
       "family": "atkinson-hyperlegible",
@@ -90,6 +90,7 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [],
         "languageSupport": {},
         "glyphCount": 369,
         "unicodeRanges": [
@@ -212,6 +213,7 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [],
         "languageSupport": {},
         "glyphCount": 368,
         "unicodeRanges": [
@@ -334,6 +336,7 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [],
         "languageSupport": {},
         "glyphCount": 368,
         "unicodeRanges": [
@@ -456,6 +459,7 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [],
         "languageSupport": {},
         "glyphCount": 369,
         "unicodeRanges": [

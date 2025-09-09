@@ -211,7 +211,7 @@ async function generateAllCatalogs(openFonts, allFonts) {
     await fs.mkdir(metadataDir, { recursive: true });
     
     for (const [familyKey, familyData] of Object.entries(allFonts)) {
-        const metadataPath = path.join(metadataDir, `${familyData.slug}.json`);
+        const metadataPath = path.join(metadataDir, `${familyData.key}.json`);
         await fs.writeFile(metadataPath, JSON.stringify(familyData, null, 2));
     }
 }
@@ -228,12 +228,12 @@ async function generateAllSubsets(openFonts) {
         
         for (const [familyKey, familyData] of Object.entries(openFonts)) {
             try {
-                console.log(`[build] Checking subsets for ${familyData.slug}...`);
-                await generator.processFamily(familyData.slug, ['min-chars'], false); // incremental by default
-                await generator.updateFamilyMetadata(familyData.slug, 'min-chars');
+                console.log(`[build] Checking subsets for ${familyData.key}...`);
+                await generator.processFamily(familyData.key, ['min-chars'], false); // incremental by default
+                await generator.updateFamilyMetadata(familyData.key, 'min-chars');
             } catch (error) {
                 // Log error but continue with other families
-                console.warn(`[build] ⚠️ Subset generation failed for ${familyData.slug}: ${error.message}`);
+                console.warn(`[build] ⚠️ Subset generation failed for ${familyData.key}: ${error.message}`);
             }
         }
         

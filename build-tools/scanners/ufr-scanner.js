@@ -372,11 +372,11 @@ async function scanUFRFamily(familyPath, folderName) {
     
     // Use metadata name if available, otherwise fall back to folder-based name
     const fontName = metadata.name || extractFontName(folderName);
-    const fontSlug = slugifyFontName(fontName);
+    const fontKey = slugifyFontName(fontName);
     
     const familyData = {
         name: fontName,
-        slug: fontSlug,
+        key: fontKey,
         version: metadata.version,        // NEW: official release version
         author: metadata.author,          // NEW: from package.json or license
         license: metadata.license,        // NEW: from package.json
@@ -459,11 +459,11 @@ async function scanUFRFamily(familyPath, folderName) {
 async function scanGenericFamily(familyPath, folderName) {
     // Extract basic font info
     const fontName = extractFontName(folderName);
-    const fontSlug = slugifyFontName(fontName);
+    const fontKey = slugifyFontName(fontName);
     
     const familyData = {
         name: fontName,
-        slug: fontSlug,
+        key: fontKey,
         static: {},
         variable: {}
     };
@@ -548,7 +548,7 @@ export async function scanFontFamilies(familiesDir, manifestDir) {
         for (const familyFolder of familyFolders) {
             const folderName = path.basename(familyFolder);
             const fontName = extractFontName(folderName);
-            const fontSlug = slugifyFontName(fontName);
+            const fontKey = slugifyFontName(fontName);
             
             // Detect UFR structure
             const isUFRFamily = await hasUFRStructure(familyFolder);
@@ -558,7 +558,7 @@ export async function scanFontFamilies(familiesDir, manifestDir) {
             const folderMtime = folderStats.mtime.getTime();
             const lastScanTime = timestamps[folderName];
             
-            let manifestPath = path.join(manifestsDir, `${fontSlug}.js`);
+            let manifestPath = path.join(manifestsDir, `${fontKey}.js`);
             const manifestExists = await fs.access(manifestPath).then(() => true).catch(() => false);
             
             // Skip scanning if folder hasn't changed and manifest exists
@@ -595,7 +595,7 @@ export async function scanFontFamilies(familiesDir, manifestDir) {
                 familyData = await scanGenericFamily(familyFolder, folderName);
             }
             
-            console.log(`[fonts] Scanned: "${folderName}" → "${fontName}" (${fontSlug})`);
+            console.log(`[fonts] Scanned: "${folderName}" → "${fontName}" (${familyData.key})`);
             
             // Write individual family manifest
             const jsContent = `export default ${JSON.stringify(familyData, null, 2)}`;
@@ -613,8 +613,8 @@ export async function scanFontFamilies(familiesDir, manifestDir) {
             if (!folderExists) {
                 delete updatedTimestamps[folderName];
                 // Also remove the manifest file
-                const fontSlug = slugifyFontName(extractFontName(folderName));
-                const manifestPath = path.join(manifestsDir, `${fontSlug}.js`);
+                const fontKey = slugifyFontName(extractFontName(folderName));
+                const manifestPath = path.join(manifestsDir, `${fontKey}.js`);
                 await fs.unlink(manifestPath).catch(() => {}); // Ignore errors
             }
         }
@@ -633,8 +633,8 @@ export async function scanFontFamilies(familiesDir, manifestDir) {
             for (const familyFolder of familyFolders) {
                 const folderName = path.basename(familyFolder);
                 const fontName = extractFontName(folderName);
-                const fontSlug = slugifyFontName(fontName);
-                const manifestPath = path.join(manifestsDir, `${fontSlug}.js`);
+                const fontKey = slugifyFontName(fontName);
+                const manifestPath = path.join(manifestsDir, `${fontKey}.js`);
                 
                 try {
                     const manifestContent = await fs.readFile(manifestPath, 'utf8');

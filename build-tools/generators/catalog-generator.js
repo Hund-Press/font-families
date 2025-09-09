@@ -46,7 +46,7 @@ export async function generateCatalog(fontFamilies, outputPath, options = {}) {
             continue;
         }
         
-        catalog.families[familyData.slug] = transformFamilyForCatalog(familyData, {
+        catalog.families[familyData.key] = transformFamilyForCatalog(familyData, {
             includeFullMetadata: includeRestrictedFonts,
             includePerformanceData: true,
             includeTypographyFeatures: true
@@ -104,7 +104,7 @@ function transformFamilyForCatalog(familyData, options = {}) {
     const catalogEntry = {
         // Basic information
         name: familyData.name,
-        slug: familyData.slug,
+        key: familyData.key,
         description: familyData.description,
         
         // Licensing and attribution
@@ -403,7 +403,6 @@ function extractTypographyData(familyData) {
     
     return {
         openTypeFeatures: Array.from(allFeatures),
-        hasKerning: allFeatures.has('kern'),
         hasLigatures: allFeatures.has('liga') || allFeatures.has('dlig'),
         hasSmallCaps: allFeatures.has('smcp'),
         hasOldStyleFigures: allFeatures.has('onum'),

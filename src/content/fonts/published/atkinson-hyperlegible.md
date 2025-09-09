@@ -1,6 +1,6 @@
 ---
 title: Atkinson Hyperlegible
-slug: atkinson-hyperlegible
+key: atkinson-hyperlegible
 description: "A font designed to increase legibility for readers with low vision by emphasizing character recognition"
 author: Braille Institute of America
 license: OFL-1.1

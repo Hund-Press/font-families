@@ -1,7 +1,7 @@
 ---
-slug: crimson-pro
+key: crimson-pro
 title: Crimson Pro
-description: "Crimson Pro font family"
+description: "Unknown font family"
 ---
 
 # {{ title }}
@@ -18,11 +18,11 @@ description: "Crimson Pro font family"
 ## Font Specimen
 
 <div class="specimen-showcase">
-  <div class="specimen-large" data-font="{{ slug }}">
+  <div class="specimen-large" data-font="{{ key }}">
     <h2>The quick brown fox jumps over the lazy dog</h2>
   </div>
   
-  <div class="specimen-weights" data-font="{{ slug }}">
+  <div class="specimen-weights" data-font="{{ key }}">
     <div class="weight-demo" data-weight="400">Regular: Typography matters for readability</div>
     <div class="weight-demo" data-weight="700">Bold: Typography matters for readability</div>
   </div>
@@ -35,7 +35,7 @@ description: "Crimson Pro font family"
 ```css
 @font-face {
   font-family: '{{ title }}';
-  src: url('https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.5.0/{{ slug }}/fonts/webfonts/{{ title }}-400.woff2') format('woff2');
+  src: url('https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.5.0/{{ key }}/fonts/webfonts/{{ title }}-400.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -50,7 +50,7 @@ body {
 
 ```html
 <link rel="preload" 
-      href="https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.5.0/{{ slug }}/fonts/webfonts/{{ title }}-400.woff2" 
+      href="https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.5.0/{{ key }}/fonts/webfonts/{{ title }}-400.woff2" 
       as="font" 
       type="font/woff2" 
       crossorigin>

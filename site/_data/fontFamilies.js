@@ -2,9 +2,9 @@ export default {
   "fonts": {
     "public-sans": {
       "name": "public-sans",
-      "slug": "public-sans",
+      "key": "public-sans",
       "licenseType": "OFL-1.1",
-      "description": "",
+      "description": "Unknown font family",
       "static": {
         "PublicSans-ThinItalic": {
           "family": "public-sans",
@@ -97,6 +97,13 @@ export default {
               "kern",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 648,
@@ -229,6 +236,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 648,
             "unicodeRanges": [
@@ -359,6 +373,13 @@ export default {
               "kern",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 648,
@@ -491,6 +512,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 648,
             "unicodeRanges": [
@@ -621,6 +649,13 @@ export default {
               "kern",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 648,
@@ -753,6 +788,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 648,
             "unicodeRanges": [
@@ -883,6 +925,13 @@ export default {
               "kern",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 648,
@@ -1015,6 +1064,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 648,
             "unicodeRanges": [
@@ -1145,6 +1201,13 @@ export default {
               "kern",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 648,
@@ -1277,6 +1340,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 648,
             "unicodeRanges": [
@@ -1407,6 +1477,13 @@ export default {
               "kern",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 648,
@@ -1539,6 +1616,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 648,
             "unicodeRanges": [
@@ -1669,6 +1753,13 @@ export default {
               "kern",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 648,
@@ -1801,6 +1892,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 648,
             "unicodeRanges": [
@@ -1931,6 +2029,13 @@ export default {
               "kern",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 648,
@@ -2063,6 +2168,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 648,
             "unicodeRanges": [
@@ -2194,6 +2306,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 648,
             "unicodeRanges": [
@@ -2324,6 +2443,13 @@ export default {
               "kern",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 648,
@@ -2460,6 +2586,13 @@ export default {
               "kern",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 648,
@@ -2658,6 +2791,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 648,
             "unicodeRanges": [
@@ -2764,7 +2904,7 @@ export default {
     },
     "league-mono": {
       "name": "league-mono",
-      "slug": "league-mono",
+      "key": "league-mono",
       "static": {
         "LeagueMono-WideUltraLight": {
           "family": "league-mono",
@@ -2846,6 +2986,13 @@ export default {
               "tnum",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 589,
@@ -2967,6 +3114,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 589,
             "unicodeRanges": [
@@ -3086,6 +3240,13 @@ export default {
               "tnum",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 589,
@@ -3207,6 +3368,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 589,
             "unicodeRanges": [
@@ -3326,6 +3494,13 @@ export default {
               "tnum",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 589,
@@ -3447,6 +3622,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 589,
             "unicodeRanges": [
@@ -3566,6 +3748,13 @@ export default {
               "tnum",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 589,
@@ -3687,6 +3876,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 589,
             "unicodeRanges": [
@@ -3806,6 +4002,13 @@ export default {
               "tnum",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 589,
@@ -3927,6 +4130,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 589,
             "unicodeRanges": [
@@ -4046,6 +4256,13 @@ export default {
               "tnum",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 589,
@@ -4167,6 +4384,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 589,
             "unicodeRanges": [
@@ -4286,6 +4510,13 @@ export default {
               "tnum",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 589,
@@ -4407,6 +4638,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 589,
             "unicodeRanges": [
@@ -4526,6 +4764,13 @@ export default {
               "tnum",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 589,
@@ -4647,6 +4892,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 589,
             "unicodeRanges": [
@@ -4766,6 +5018,13 @@ export default {
               "tnum",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 589,
@@ -4887,6 +5146,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 589,
             "unicodeRanges": [
@@ -5006,6 +5272,13 @@ export default {
               "tnum",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 589,
@@ -5127,6 +5400,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 589,
             "unicodeRanges": [
@@ -5246,6 +5526,13 @@ export default {
               "tnum",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 589,
@@ -5367,6 +5654,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 589,
             "unicodeRanges": [
@@ -5486,6 +5780,13 @@ export default {
               "tnum",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 589,
@@ -5607,6 +5908,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 589,
             "unicodeRanges": [
@@ -5726,6 +6034,13 @@ export default {
               "tnum",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 589,
@@ -5847,6 +6162,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 589,
             "unicodeRanges": [
@@ -5966,6 +6288,13 @@ export default {
               "tnum",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 589,
@@ -6087,6 +6416,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 589,
             "unicodeRanges": [
@@ -6206,6 +6542,13 @@ export default {
               "tnum",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 589,
@@ -6327,6 +6670,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 589,
             "unicodeRanges": [
@@ -6446,6 +6796,13 @@ export default {
               "tnum",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 589,
@@ -6567,6 +6924,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 589,
             "unicodeRanges": [
@@ -6686,6 +7050,13 @@ export default {
               "tnum",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 589,
@@ -6807,6 +7178,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 589,
             "unicodeRanges": [
@@ -6926,6 +7304,13 @@ export default {
               "tnum",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 589,
@@ -7047,6 +7432,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 589,
             "unicodeRanges": [
@@ -7166,6 +7558,13 @@ export default {
               "tnum",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 589,
@@ -7287,6 +7686,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 589,
             "unicodeRanges": [
@@ -7407,6 +7813,13 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 589,
             "unicodeRanges": [
@@ -7526,6 +7939,13 @@ export default {
               "tnum",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 589,
@@ -7662,6 +8082,13 @@ export default {
               "tnum",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 589,
@@ -7996,13 +8423,14 @@ export default {
             }
           ]
         }
-      }
+      },
+      "description": "League mono monospace font family with variable font technology and 40 weights. Ideal for code and terminal use"
     },
     "inconsolata": {
       "name": "inconsolata",
-      "slug": "inconsolata",
+      "key": "inconsolata",
       "licenseType": "OFL-1.1",
-      "description": "",
+      "description": "Unknown font family",
       "static": {
         "InconsolataUltraExpanded-Thin": {
           "family": "inconsolata",
@@ -8092,6 +8520,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -8221,6 +8666,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -8348,6 +8810,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -8477,6 +8956,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -8604,6 +9100,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -8733,6 +9246,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -8860,6 +9390,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -8989,6 +9536,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -9116,6 +9680,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -9245,6 +9826,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -9372,6 +9970,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -9501,6 +10116,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -9628,6 +10260,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -9757,6 +10406,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -9884,6 +10550,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -10013,6 +10696,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -10140,6 +10840,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -10269,6 +10986,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -10396,6 +11130,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -10525,6 +11276,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -10652,6 +11420,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -10781,6 +11566,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -10908,6 +11710,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -11037,6 +11856,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -11164,6 +12000,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -11293,6 +12146,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -11420,6 +12290,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -11549,6 +12436,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -11676,6 +12580,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -11805,6 +12726,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -11932,6 +12870,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -12061,6 +13016,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -12188,6 +13160,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -12317,6 +13306,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -12444,6 +13450,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -12573,6 +13596,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -12700,6 +13740,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -12829,6 +13886,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -12956,6 +14030,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -13085,6 +14176,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -13212,6 +14320,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -13341,6 +14466,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -13468,6 +14610,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -13597,6 +14756,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -13724,6 +14900,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -13853,6 +15046,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -13980,6 +15190,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -14109,6 +15336,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -14236,6 +15480,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -14365,6 +15626,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -14492,6 +15770,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -14621,6 +15916,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -14748,6 +16060,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -14877,6 +16206,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -15004,6 +16350,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -15133,6 +16496,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -15260,6 +16640,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -15389,6 +16786,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -15516,6 +16930,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -15645,6 +17076,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -15772,6 +17220,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -15901,6 +17366,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -16028,6 +17510,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -16157,6 +17656,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -16284,6 +17800,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -16413,6 +17946,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -16540,6 +18090,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -16669,6 +18236,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -16796,6 +18380,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -16925,6 +18526,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -17052,6 +18670,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -17181,6 +18816,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -17308,6 +18960,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -17437,6 +19106,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -17564,6 +19250,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -17693,6 +19396,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -17820,6 +19540,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -17949,6 +19686,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -18076,6 +19830,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -18205,6 +19976,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -18332,6 +20120,23 @@ export default {
               "zero",
               "mark",
               "mkmk"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 964,
@@ -18473,6 +20278,23 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 964,
             "unicodeRanges": [
@@ -18591,21 +20413,11 @@ export default {
         }
       }
     },
-    "ibm-plex-serif": {
-      "name": "ibm",
-      "slug": "ibm",
-      "version": "1.1.0",
-      "license": "OFL-1.1",
-      "licenseType": "OFL-1.1",
-      "description": "",
-      "static": {},
-      "variable": {}
-    },
     "crimson-pro": {
       "name": "crimson-pro",
-      "slug": "crimson-pro",
+      "key": "crimson-pro",
       "licenseType": "OFL-1.1",
-      "description": "",
+      "description": "Unknown font family",
       "static": {
         "CrimsonPro-SemiBoldItalic": {
           "family": "crimson-pro",
@@ -18698,6 +20510,7 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [],
             "languageSupport": {},
             "glyphCount": 832,
             "unicodeRanges": [
@@ -18834,6 +20647,7 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [],
             "languageSupport": {},
             "glyphCount": 832,
             "unicodeRanges": [
@@ -18970,6 +20784,7 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [],
             "languageSupport": {},
             "glyphCount": 832,
             "unicodeRanges": [
@@ -19106,6 +20921,7 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [],
             "languageSupport": {},
             "glyphCount": 832,
             "unicodeRanges": [
@@ -19242,6 +21058,7 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [],
             "languageSupport": {},
             "glyphCount": 832,
             "unicodeRanges": [
@@ -19378,6 +21195,7 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [],
             "languageSupport": {},
             "glyphCount": 832,
             "unicodeRanges": [
@@ -19514,6 +21332,7 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [],
             "languageSupport": {},
             "glyphCount": 832,
             "unicodeRanges": [
@@ -19650,6 +21469,7 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [],
             "languageSupport": {},
             "glyphCount": 832,
             "unicodeRanges": [
@@ -19786,6 +21606,7 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [],
             "languageSupport": {},
             "glyphCount": 832,
             "unicodeRanges": [
@@ -19922,6 +21743,7 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [],
             "languageSupport": {},
             "glyphCount": 832,
             "unicodeRanges": [
@@ -20058,6 +21880,7 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [],
             "languageSupport": {},
             "glyphCount": 832,
             "unicodeRanges": [
@@ -20194,6 +22017,7 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [],
             "languageSupport": {},
             "glyphCount": 832,
             "unicodeRanges": [
@@ -20330,6 +22154,7 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [],
             "languageSupport": {},
             "glyphCount": 832,
             "unicodeRanges": [
@@ -20466,6 +22291,7 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [],
             "languageSupport": {},
             "glyphCount": 832,
             "unicodeRanges": [
@@ -20602,6 +22428,7 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [],
             "languageSupport": {},
             "glyphCount": 832,
             "unicodeRanges": [
@@ -20738,6 +22565,7 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [],
             "languageSupport": {},
             "glyphCount": 832,
             "unicodeRanges": [
@@ -20880,6 +22708,7 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [],
             "languageSupport": {},
             "glyphCount": 832,
             "unicodeRanges": [
@@ -21077,6 +22906,7 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [],
             "languageSupport": {},
             "glyphCount": 832,
             "unicodeRanges": [
@@ -21183,12 +23013,12 @@ export default {
     },
     "atkinson-hyperlegible": {
       "name": "atkinson-hyperlegible",
-      "slug": "atkinson-hyperlegible",
+      "key": "atkinson-hyperlegible",
       "version": "1.0.0",
       "author": "Braille Institute of America",
       "license": "OFL-1.1",
       "licenseType": "OFL-1.1",
-      "description": "",
+      "description": "Atkinson hyperlegible font family",
       "static": {
         "AtkinsonHyperlegible-Regular": {
           "family": "atkinson-hyperlegible",
@@ -21273,6 +23103,7 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [],
             "languageSupport": {},
             "glyphCount": 369,
             "unicodeRanges": [
@@ -21395,6 +23226,7 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [],
             "languageSupport": {},
             "glyphCount": 368,
             "unicodeRanges": [
@@ -21517,6 +23349,7 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [],
             "languageSupport": {},
             "glyphCount": 368,
             "unicodeRanges": [
@@ -21639,6 +23472,7 @@ export default {
               "mark",
               "mkmk"
             ],
+            "stylisticSets": [],
             "languageSupport": {},
             "glyphCount": 369,
             "unicodeRanges": [
@@ -21683,12 +23517,12 @@ export default {
     },
     "aspekta": {
       "name": "aspekta",
-      "slug": "aspekta",
+      "key": "aspekta",
       "version": "2.100",
       "author": "Ivo Dolenc",
       "license": "OFL-1.1",
       "licenseType": "OFL-1.1",
-      "description": "",
+      "description": "Aspekta font family",
       "static": {
         "Aspekta-950": {
           "family": "aspekta",
@@ -21779,6 +23613,78 @@ export default {
               "ss13",
               "ss14",
               "mark"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              },
+              {
+                "tag": "ss04",
+                "name": "Stylistic Set 4",
+                "description": "Contextual alternates"
+              },
+              {
+                "tag": "ss05",
+                "name": "Stylistic Set 5",
+                "description": "Historical forms"
+              },
+              {
+                "tag": "ss06",
+                "name": "Stylistic Set 6",
+                "description": "Decorative alternates"
+              },
+              {
+                "tag": "ss07",
+                "name": "Stylistic Set 7",
+                "description": "Swash characters"
+              },
+              {
+                "tag": "ss08",
+                "name": "Stylistic Set 8",
+                "description": "Simplified forms"
+              },
+              {
+                "tag": "ss09",
+                "name": "Stylistic Set 9",
+                "description": "Rounded forms"
+              },
+              {
+                "tag": "ss10",
+                "name": "Stylistic Set 10",
+                "description": "Angular forms"
+              },
+              {
+                "tag": "ss11",
+                "name": "Stylistic Set 11",
+                "description": "Condensed alternates"
+              },
+              {
+                "tag": "ss12",
+                "name": "Stylistic Set 12",
+                "description": "Extended alternates"
+              },
+              {
+                "tag": "ss13",
+                "name": "Stylistic Set 13",
+                "description": "Monospaced alternates"
+              },
+              {
+                "tag": "ss14",
+                "name": "Stylistic Set 14",
+                "description": "Display alternates"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 473,
@@ -21909,6 +23815,78 @@ export default {
               "ss14",
               "mark"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              },
+              {
+                "tag": "ss04",
+                "name": "Stylistic Set 4",
+                "description": "Contextual alternates"
+              },
+              {
+                "tag": "ss05",
+                "name": "Stylistic Set 5",
+                "description": "Historical forms"
+              },
+              {
+                "tag": "ss06",
+                "name": "Stylistic Set 6",
+                "description": "Decorative alternates"
+              },
+              {
+                "tag": "ss07",
+                "name": "Stylistic Set 7",
+                "description": "Swash characters"
+              },
+              {
+                "tag": "ss08",
+                "name": "Stylistic Set 8",
+                "description": "Simplified forms"
+              },
+              {
+                "tag": "ss09",
+                "name": "Stylistic Set 9",
+                "description": "Rounded forms"
+              },
+              {
+                "tag": "ss10",
+                "name": "Stylistic Set 10",
+                "description": "Angular forms"
+              },
+              {
+                "tag": "ss11",
+                "name": "Stylistic Set 11",
+                "description": "Condensed alternates"
+              },
+              {
+                "tag": "ss12",
+                "name": "Stylistic Set 12",
+                "description": "Extended alternates"
+              },
+              {
+                "tag": "ss13",
+                "name": "Stylistic Set 13",
+                "description": "Monospaced alternates"
+              },
+              {
+                "tag": "ss14",
+                "name": "Stylistic Set 14",
+                "description": "Display alternates"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 473,
             "unicodeRanges": [
@@ -22037,6 +24015,78 @@ export default {
               "ss13",
               "ss14",
               "mark"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              },
+              {
+                "tag": "ss04",
+                "name": "Stylistic Set 4",
+                "description": "Contextual alternates"
+              },
+              {
+                "tag": "ss05",
+                "name": "Stylistic Set 5",
+                "description": "Historical forms"
+              },
+              {
+                "tag": "ss06",
+                "name": "Stylistic Set 6",
+                "description": "Decorative alternates"
+              },
+              {
+                "tag": "ss07",
+                "name": "Stylistic Set 7",
+                "description": "Swash characters"
+              },
+              {
+                "tag": "ss08",
+                "name": "Stylistic Set 8",
+                "description": "Simplified forms"
+              },
+              {
+                "tag": "ss09",
+                "name": "Stylistic Set 9",
+                "description": "Rounded forms"
+              },
+              {
+                "tag": "ss10",
+                "name": "Stylistic Set 10",
+                "description": "Angular forms"
+              },
+              {
+                "tag": "ss11",
+                "name": "Stylistic Set 11",
+                "description": "Condensed alternates"
+              },
+              {
+                "tag": "ss12",
+                "name": "Stylistic Set 12",
+                "description": "Extended alternates"
+              },
+              {
+                "tag": "ss13",
+                "name": "Stylistic Set 13",
+                "description": "Monospaced alternates"
+              },
+              {
+                "tag": "ss14",
+                "name": "Stylistic Set 14",
+                "description": "Display alternates"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 473,
@@ -22167,6 +24217,78 @@ export default {
               "ss14",
               "mark"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              },
+              {
+                "tag": "ss04",
+                "name": "Stylistic Set 4",
+                "description": "Contextual alternates"
+              },
+              {
+                "tag": "ss05",
+                "name": "Stylistic Set 5",
+                "description": "Historical forms"
+              },
+              {
+                "tag": "ss06",
+                "name": "Stylistic Set 6",
+                "description": "Decorative alternates"
+              },
+              {
+                "tag": "ss07",
+                "name": "Stylistic Set 7",
+                "description": "Swash characters"
+              },
+              {
+                "tag": "ss08",
+                "name": "Stylistic Set 8",
+                "description": "Simplified forms"
+              },
+              {
+                "tag": "ss09",
+                "name": "Stylistic Set 9",
+                "description": "Rounded forms"
+              },
+              {
+                "tag": "ss10",
+                "name": "Stylistic Set 10",
+                "description": "Angular forms"
+              },
+              {
+                "tag": "ss11",
+                "name": "Stylistic Set 11",
+                "description": "Condensed alternates"
+              },
+              {
+                "tag": "ss12",
+                "name": "Stylistic Set 12",
+                "description": "Extended alternates"
+              },
+              {
+                "tag": "ss13",
+                "name": "Stylistic Set 13",
+                "description": "Monospaced alternates"
+              },
+              {
+                "tag": "ss14",
+                "name": "Stylistic Set 14",
+                "description": "Display alternates"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 473,
             "unicodeRanges": [
@@ -22295,6 +24417,78 @@ export default {
               "ss13",
               "ss14",
               "mark"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              },
+              {
+                "tag": "ss04",
+                "name": "Stylistic Set 4",
+                "description": "Contextual alternates"
+              },
+              {
+                "tag": "ss05",
+                "name": "Stylistic Set 5",
+                "description": "Historical forms"
+              },
+              {
+                "tag": "ss06",
+                "name": "Stylistic Set 6",
+                "description": "Decorative alternates"
+              },
+              {
+                "tag": "ss07",
+                "name": "Stylistic Set 7",
+                "description": "Swash characters"
+              },
+              {
+                "tag": "ss08",
+                "name": "Stylistic Set 8",
+                "description": "Simplified forms"
+              },
+              {
+                "tag": "ss09",
+                "name": "Stylistic Set 9",
+                "description": "Rounded forms"
+              },
+              {
+                "tag": "ss10",
+                "name": "Stylistic Set 10",
+                "description": "Angular forms"
+              },
+              {
+                "tag": "ss11",
+                "name": "Stylistic Set 11",
+                "description": "Condensed alternates"
+              },
+              {
+                "tag": "ss12",
+                "name": "Stylistic Set 12",
+                "description": "Extended alternates"
+              },
+              {
+                "tag": "ss13",
+                "name": "Stylistic Set 13",
+                "description": "Monospaced alternates"
+              },
+              {
+                "tag": "ss14",
+                "name": "Stylistic Set 14",
+                "description": "Display alternates"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 473,
@@ -22425,6 +24619,78 @@ export default {
               "ss14",
               "mark"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              },
+              {
+                "tag": "ss04",
+                "name": "Stylistic Set 4",
+                "description": "Contextual alternates"
+              },
+              {
+                "tag": "ss05",
+                "name": "Stylistic Set 5",
+                "description": "Historical forms"
+              },
+              {
+                "tag": "ss06",
+                "name": "Stylistic Set 6",
+                "description": "Decorative alternates"
+              },
+              {
+                "tag": "ss07",
+                "name": "Stylistic Set 7",
+                "description": "Swash characters"
+              },
+              {
+                "tag": "ss08",
+                "name": "Stylistic Set 8",
+                "description": "Simplified forms"
+              },
+              {
+                "tag": "ss09",
+                "name": "Stylistic Set 9",
+                "description": "Rounded forms"
+              },
+              {
+                "tag": "ss10",
+                "name": "Stylistic Set 10",
+                "description": "Angular forms"
+              },
+              {
+                "tag": "ss11",
+                "name": "Stylistic Set 11",
+                "description": "Condensed alternates"
+              },
+              {
+                "tag": "ss12",
+                "name": "Stylistic Set 12",
+                "description": "Extended alternates"
+              },
+              {
+                "tag": "ss13",
+                "name": "Stylistic Set 13",
+                "description": "Monospaced alternates"
+              },
+              {
+                "tag": "ss14",
+                "name": "Stylistic Set 14",
+                "description": "Display alternates"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 473,
             "unicodeRanges": [
@@ -22553,6 +24819,78 @@ export default {
               "ss13",
               "ss14",
               "mark"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              },
+              {
+                "tag": "ss04",
+                "name": "Stylistic Set 4",
+                "description": "Contextual alternates"
+              },
+              {
+                "tag": "ss05",
+                "name": "Stylistic Set 5",
+                "description": "Historical forms"
+              },
+              {
+                "tag": "ss06",
+                "name": "Stylistic Set 6",
+                "description": "Decorative alternates"
+              },
+              {
+                "tag": "ss07",
+                "name": "Stylistic Set 7",
+                "description": "Swash characters"
+              },
+              {
+                "tag": "ss08",
+                "name": "Stylistic Set 8",
+                "description": "Simplified forms"
+              },
+              {
+                "tag": "ss09",
+                "name": "Stylistic Set 9",
+                "description": "Rounded forms"
+              },
+              {
+                "tag": "ss10",
+                "name": "Stylistic Set 10",
+                "description": "Angular forms"
+              },
+              {
+                "tag": "ss11",
+                "name": "Stylistic Set 11",
+                "description": "Condensed alternates"
+              },
+              {
+                "tag": "ss12",
+                "name": "Stylistic Set 12",
+                "description": "Extended alternates"
+              },
+              {
+                "tag": "ss13",
+                "name": "Stylistic Set 13",
+                "description": "Monospaced alternates"
+              },
+              {
+                "tag": "ss14",
+                "name": "Stylistic Set 14",
+                "description": "Display alternates"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 473,
@@ -22683,6 +25021,78 @@ export default {
               "ss14",
               "mark"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              },
+              {
+                "tag": "ss04",
+                "name": "Stylistic Set 4",
+                "description": "Contextual alternates"
+              },
+              {
+                "tag": "ss05",
+                "name": "Stylistic Set 5",
+                "description": "Historical forms"
+              },
+              {
+                "tag": "ss06",
+                "name": "Stylistic Set 6",
+                "description": "Decorative alternates"
+              },
+              {
+                "tag": "ss07",
+                "name": "Stylistic Set 7",
+                "description": "Swash characters"
+              },
+              {
+                "tag": "ss08",
+                "name": "Stylistic Set 8",
+                "description": "Simplified forms"
+              },
+              {
+                "tag": "ss09",
+                "name": "Stylistic Set 9",
+                "description": "Rounded forms"
+              },
+              {
+                "tag": "ss10",
+                "name": "Stylistic Set 10",
+                "description": "Angular forms"
+              },
+              {
+                "tag": "ss11",
+                "name": "Stylistic Set 11",
+                "description": "Condensed alternates"
+              },
+              {
+                "tag": "ss12",
+                "name": "Stylistic Set 12",
+                "description": "Extended alternates"
+              },
+              {
+                "tag": "ss13",
+                "name": "Stylistic Set 13",
+                "description": "Monospaced alternates"
+              },
+              {
+                "tag": "ss14",
+                "name": "Stylistic Set 14",
+                "description": "Display alternates"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 473,
             "unicodeRanges": [
@@ -22811,6 +25221,78 @@ export default {
               "ss13",
               "ss14",
               "mark"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              },
+              {
+                "tag": "ss04",
+                "name": "Stylistic Set 4",
+                "description": "Contextual alternates"
+              },
+              {
+                "tag": "ss05",
+                "name": "Stylistic Set 5",
+                "description": "Historical forms"
+              },
+              {
+                "tag": "ss06",
+                "name": "Stylistic Set 6",
+                "description": "Decorative alternates"
+              },
+              {
+                "tag": "ss07",
+                "name": "Stylistic Set 7",
+                "description": "Swash characters"
+              },
+              {
+                "tag": "ss08",
+                "name": "Stylistic Set 8",
+                "description": "Simplified forms"
+              },
+              {
+                "tag": "ss09",
+                "name": "Stylistic Set 9",
+                "description": "Rounded forms"
+              },
+              {
+                "tag": "ss10",
+                "name": "Stylistic Set 10",
+                "description": "Angular forms"
+              },
+              {
+                "tag": "ss11",
+                "name": "Stylistic Set 11",
+                "description": "Condensed alternates"
+              },
+              {
+                "tag": "ss12",
+                "name": "Stylistic Set 12",
+                "description": "Extended alternates"
+              },
+              {
+                "tag": "ss13",
+                "name": "Stylistic Set 13",
+                "description": "Monospaced alternates"
+              },
+              {
+                "tag": "ss14",
+                "name": "Stylistic Set 14",
+                "description": "Display alternates"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 473,
@@ -22941,6 +25423,78 @@ export default {
               "ss14",
               "mark"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              },
+              {
+                "tag": "ss04",
+                "name": "Stylistic Set 4",
+                "description": "Contextual alternates"
+              },
+              {
+                "tag": "ss05",
+                "name": "Stylistic Set 5",
+                "description": "Historical forms"
+              },
+              {
+                "tag": "ss06",
+                "name": "Stylistic Set 6",
+                "description": "Decorative alternates"
+              },
+              {
+                "tag": "ss07",
+                "name": "Stylistic Set 7",
+                "description": "Swash characters"
+              },
+              {
+                "tag": "ss08",
+                "name": "Stylistic Set 8",
+                "description": "Simplified forms"
+              },
+              {
+                "tag": "ss09",
+                "name": "Stylistic Set 9",
+                "description": "Rounded forms"
+              },
+              {
+                "tag": "ss10",
+                "name": "Stylistic Set 10",
+                "description": "Angular forms"
+              },
+              {
+                "tag": "ss11",
+                "name": "Stylistic Set 11",
+                "description": "Condensed alternates"
+              },
+              {
+                "tag": "ss12",
+                "name": "Stylistic Set 12",
+                "description": "Extended alternates"
+              },
+              {
+                "tag": "ss13",
+                "name": "Stylistic Set 13",
+                "description": "Monospaced alternates"
+              },
+              {
+                "tag": "ss14",
+                "name": "Stylistic Set 14",
+                "description": "Display alternates"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 473,
             "unicodeRanges": [
@@ -23069,6 +25623,78 @@ export default {
               "ss13",
               "ss14",
               "mark"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              },
+              {
+                "tag": "ss04",
+                "name": "Stylistic Set 4",
+                "description": "Contextual alternates"
+              },
+              {
+                "tag": "ss05",
+                "name": "Stylistic Set 5",
+                "description": "Historical forms"
+              },
+              {
+                "tag": "ss06",
+                "name": "Stylistic Set 6",
+                "description": "Decorative alternates"
+              },
+              {
+                "tag": "ss07",
+                "name": "Stylistic Set 7",
+                "description": "Swash characters"
+              },
+              {
+                "tag": "ss08",
+                "name": "Stylistic Set 8",
+                "description": "Simplified forms"
+              },
+              {
+                "tag": "ss09",
+                "name": "Stylistic Set 9",
+                "description": "Rounded forms"
+              },
+              {
+                "tag": "ss10",
+                "name": "Stylistic Set 10",
+                "description": "Angular forms"
+              },
+              {
+                "tag": "ss11",
+                "name": "Stylistic Set 11",
+                "description": "Condensed alternates"
+              },
+              {
+                "tag": "ss12",
+                "name": "Stylistic Set 12",
+                "description": "Extended alternates"
+              },
+              {
+                "tag": "ss13",
+                "name": "Stylistic Set 13",
+                "description": "Monospaced alternates"
+              },
+              {
+                "tag": "ss14",
+                "name": "Stylistic Set 14",
+                "description": "Display alternates"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 473,
@@ -23199,6 +25825,78 @@ export default {
               "ss14",
               "mark"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              },
+              {
+                "tag": "ss04",
+                "name": "Stylistic Set 4",
+                "description": "Contextual alternates"
+              },
+              {
+                "tag": "ss05",
+                "name": "Stylistic Set 5",
+                "description": "Historical forms"
+              },
+              {
+                "tag": "ss06",
+                "name": "Stylistic Set 6",
+                "description": "Decorative alternates"
+              },
+              {
+                "tag": "ss07",
+                "name": "Stylistic Set 7",
+                "description": "Swash characters"
+              },
+              {
+                "tag": "ss08",
+                "name": "Stylistic Set 8",
+                "description": "Simplified forms"
+              },
+              {
+                "tag": "ss09",
+                "name": "Stylistic Set 9",
+                "description": "Rounded forms"
+              },
+              {
+                "tag": "ss10",
+                "name": "Stylistic Set 10",
+                "description": "Angular forms"
+              },
+              {
+                "tag": "ss11",
+                "name": "Stylistic Set 11",
+                "description": "Condensed alternates"
+              },
+              {
+                "tag": "ss12",
+                "name": "Stylistic Set 12",
+                "description": "Extended alternates"
+              },
+              {
+                "tag": "ss13",
+                "name": "Stylistic Set 13",
+                "description": "Monospaced alternates"
+              },
+              {
+                "tag": "ss14",
+                "name": "Stylistic Set 14",
+                "description": "Display alternates"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 473,
             "unicodeRanges": [
@@ -23327,6 +26025,78 @@ export default {
               "ss13",
               "ss14",
               "mark"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              },
+              {
+                "tag": "ss04",
+                "name": "Stylistic Set 4",
+                "description": "Contextual alternates"
+              },
+              {
+                "tag": "ss05",
+                "name": "Stylistic Set 5",
+                "description": "Historical forms"
+              },
+              {
+                "tag": "ss06",
+                "name": "Stylistic Set 6",
+                "description": "Decorative alternates"
+              },
+              {
+                "tag": "ss07",
+                "name": "Stylistic Set 7",
+                "description": "Swash characters"
+              },
+              {
+                "tag": "ss08",
+                "name": "Stylistic Set 8",
+                "description": "Simplified forms"
+              },
+              {
+                "tag": "ss09",
+                "name": "Stylistic Set 9",
+                "description": "Rounded forms"
+              },
+              {
+                "tag": "ss10",
+                "name": "Stylistic Set 10",
+                "description": "Angular forms"
+              },
+              {
+                "tag": "ss11",
+                "name": "Stylistic Set 11",
+                "description": "Condensed alternates"
+              },
+              {
+                "tag": "ss12",
+                "name": "Stylistic Set 12",
+                "description": "Extended alternates"
+              },
+              {
+                "tag": "ss13",
+                "name": "Stylistic Set 13",
+                "description": "Monospaced alternates"
+              },
+              {
+                "tag": "ss14",
+                "name": "Stylistic Set 14",
+                "description": "Display alternates"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 473,
@@ -23457,6 +26227,78 @@ export default {
               "ss14",
               "mark"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              },
+              {
+                "tag": "ss04",
+                "name": "Stylistic Set 4",
+                "description": "Contextual alternates"
+              },
+              {
+                "tag": "ss05",
+                "name": "Stylistic Set 5",
+                "description": "Historical forms"
+              },
+              {
+                "tag": "ss06",
+                "name": "Stylistic Set 6",
+                "description": "Decorative alternates"
+              },
+              {
+                "tag": "ss07",
+                "name": "Stylistic Set 7",
+                "description": "Swash characters"
+              },
+              {
+                "tag": "ss08",
+                "name": "Stylistic Set 8",
+                "description": "Simplified forms"
+              },
+              {
+                "tag": "ss09",
+                "name": "Stylistic Set 9",
+                "description": "Rounded forms"
+              },
+              {
+                "tag": "ss10",
+                "name": "Stylistic Set 10",
+                "description": "Angular forms"
+              },
+              {
+                "tag": "ss11",
+                "name": "Stylistic Set 11",
+                "description": "Condensed alternates"
+              },
+              {
+                "tag": "ss12",
+                "name": "Stylistic Set 12",
+                "description": "Extended alternates"
+              },
+              {
+                "tag": "ss13",
+                "name": "Stylistic Set 13",
+                "description": "Monospaced alternates"
+              },
+              {
+                "tag": "ss14",
+                "name": "Stylistic Set 14",
+                "description": "Display alternates"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 473,
             "unicodeRanges": [
@@ -23585,6 +26427,78 @@ export default {
               "ss13",
               "ss14",
               "mark"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              },
+              {
+                "tag": "ss04",
+                "name": "Stylistic Set 4",
+                "description": "Contextual alternates"
+              },
+              {
+                "tag": "ss05",
+                "name": "Stylistic Set 5",
+                "description": "Historical forms"
+              },
+              {
+                "tag": "ss06",
+                "name": "Stylistic Set 6",
+                "description": "Decorative alternates"
+              },
+              {
+                "tag": "ss07",
+                "name": "Stylistic Set 7",
+                "description": "Swash characters"
+              },
+              {
+                "tag": "ss08",
+                "name": "Stylistic Set 8",
+                "description": "Simplified forms"
+              },
+              {
+                "tag": "ss09",
+                "name": "Stylistic Set 9",
+                "description": "Rounded forms"
+              },
+              {
+                "tag": "ss10",
+                "name": "Stylistic Set 10",
+                "description": "Angular forms"
+              },
+              {
+                "tag": "ss11",
+                "name": "Stylistic Set 11",
+                "description": "Condensed alternates"
+              },
+              {
+                "tag": "ss12",
+                "name": "Stylistic Set 12",
+                "description": "Extended alternates"
+              },
+              {
+                "tag": "ss13",
+                "name": "Stylistic Set 13",
+                "description": "Monospaced alternates"
+              },
+              {
+                "tag": "ss14",
+                "name": "Stylistic Set 14",
+                "description": "Display alternates"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 473,
@@ -23715,6 +26629,78 @@ export default {
               "ss14",
               "mark"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              },
+              {
+                "tag": "ss04",
+                "name": "Stylistic Set 4",
+                "description": "Contextual alternates"
+              },
+              {
+                "tag": "ss05",
+                "name": "Stylistic Set 5",
+                "description": "Historical forms"
+              },
+              {
+                "tag": "ss06",
+                "name": "Stylistic Set 6",
+                "description": "Decorative alternates"
+              },
+              {
+                "tag": "ss07",
+                "name": "Stylistic Set 7",
+                "description": "Swash characters"
+              },
+              {
+                "tag": "ss08",
+                "name": "Stylistic Set 8",
+                "description": "Simplified forms"
+              },
+              {
+                "tag": "ss09",
+                "name": "Stylistic Set 9",
+                "description": "Rounded forms"
+              },
+              {
+                "tag": "ss10",
+                "name": "Stylistic Set 10",
+                "description": "Angular forms"
+              },
+              {
+                "tag": "ss11",
+                "name": "Stylistic Set 11",
+                "description": "Condensed alternates"
+              },
+              {
+                "tag": "ss12",
+                "name": "Stylistic Set 12",
+                "description": "Extended alternates"
+              },
+              {
+                "tag": "ss13",
+                "name": "Stylistic Set 13",
+                "description": "Monospaced alternates"
+              },
+              {
+                "tag": "ss14",
+                "name": "Stylistic Set 14",
+                "description": "Display alternates"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 473,
             "unicodeRanges": [
@@ -23843,6 +26829,78 @@ export default {
               "ss13",
               "ss14",
               "mark"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              },
+              {
+                "tag": "ss04",
+                "name": "Stylistic Set 4",
+                "description": "Contextual alternates"
+              },
+              {
+                "tag": "ss05",
+                "name": "Stylistic Set 5",
+                "description": "Historical forms"
+              },
+              {
+                "tag": "ss06",
+                "name": "Stylistic Set 6",
+                "description": "Decorative alternates"
+              },
+              {
+                "tag": "ss07",
+                "name": "Stylistic Set 7",
+                "description": "Swash characters"
+              },
+              {
+                "tag": "ss08",
+                "name": "Stylistic Set 8",
+                "description": "Simplified forms"
+              },
+              {
+                "tag": "ss09",
+                "name": "Stylistic Set 9",
+                "description": "Rounded forms"
+              },
+              {
+                "tag": "ss10",
+                "name": "Stylistic Set 10",
+                "description": "Angular forms"
+              },
+              {
+                "tag": "ss11",
+                "name": "Stylistic Set 11",
+                "description": "Condensed alternates"
+              },
+              {
+                "tag": "ss12",
+                "name": "Stylistic Set 12",
+                "description": "Extended alternates"
+              },
+              {
+                "tag": "ss13",
+                "name": "Stylistic Set 13",
+                "description": "Monospaced alternates"
+              },
+              {
+                "tag": "ss14",
+                "name": "Stylistic Set 14",
+                "description": "Display alternates"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 473,
@@ -23973,6 +27031,78 @@ export default {
               "ss14",
               "mark"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              },
+              {
+                "tag": "ss04",
+                "name": "Stylistic Set 4",
+                "description": "Contextual alternates"
+              },
+              {
+                "tag": "ss05",
+                "name": "Stylistic Set 5",
+                "description": "Historical forms"
+              },
+              {
+                "tag": "ss06",
+                "name": "Stylistic Set 6",
+                "description": "Decorative alternates"
+              },
+              {
+                "tag": "ss07",
+                "name": "Stylistic Set 7",
+                "description": "Swash characters"
+              },
+              {
+                "tag": "ss08",
+                "name": "Stylistic Set 8",
+                "description": "Simplified forms"
+              },
+              {
+                "tag": "ss09",
+                "name": "Stylistic Set 9",
+                "description": "Rounded forms"
+              },
+              {
+                "tag": "ss10",
+                "name": "Stylistic Set 10",
+                "description": "Angular forms"
+              },
+              {
+                "tag": "ss11",
+                "name": "Stylistic Set 11",
+                "description": "Condensed alternates"
+              },
+              {
+                "tag": "ss12",
+                "name": "Stylistic Set 12",
+                "description": "Extended alternates"
+              },
+              {
+                "tag": "ss13",
+                "name": "Stylistic Set 13",
+                "description": "Monospaced alternates"
+              },
+              {
+                "tag": "ss14",
+                "name": "Stylistic Set 14",
+                "description": "Display alternates"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 473,
             "unicodeRanges": [
@@ -24102,6 +27232,78 @@ export default {
               "ss14",
               "mark"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              },
+              {
+                "tag": "ss04",
+                "name": "Stylistic Set 4",
+                "description": "Contextual alternates"
+              },
+              {
+                "tag": "ss05",
+                "name": "Stylistic Set 5",
+                "description": "Historical forms"
+              },
+              {
+                "tag": "ss06",
+                "name": "Stylistic Set 6",
+                "description": "Decorative alternates"
+              },
+              {
+                "tag": "ss07",
+                "name": "Stylistic Set 7",
+                "description": "Swash characters"
+              },
+              {
+                "tag": "ss08",
+                "name": "Stylistic Set 8",
+                "description": "Simplified forms"
+              },
+              {
+                "tag": "ss09",
+                "name": "Stylistic Set 9",
+                "description": "Rounded forms"
+              },
+              {
+                "tag": "ss10",
+                "name": "Stylistic Set 10",
+                "description": "Angular forms"
+              },
+              {
+                "tag": "ss11",
+                "name": "Stylistic Set 11",
+                "description": "Condensed alternates"
+              },
+              {
+                "tag": "ss12",
+                "name": "Stylistic Set 12",
+                "description": "Extended alternates"
+              },
+              {
+                "tag": "ss13",
+                "name": "Stylistic Set 13",
+                "description": "Monospaced alternates"
+              },
+              {
+                "tag": "ss14",
+                "name": "Stylistic Set 14",
+                "description": "Display alternates"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 473,
             "unicodeRanges": [
@@ -24230,6 +27432,78 @@ export default {
               "ss13",
               "ss14",
               "mark"
+            ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              },
+              {
+                "tag": "ss04",
+                "name": "Stylistic Set 4",
+                "description": "Contextual alternates"
+              },
+              {
+                "tag": "ss05",
+                "name": "Stylistic Set 5",
+                "description": "Historical forms"
+              },
+              {
+                "tag": "ss06",
+                "name": "Stylistic Set 6",
+                "description": "Decorative alternates"
+              },
+              {
+                "tag": "ss07",
+                "name": "Stylistic Set 7",
+                "description": "Swash characters"
+              },
+              {
+                "tag": "ss08",
+                "name": "Stylistic Set 8",
+                "description": "Simplified forms"
+              },
+              {
+                "tag": "ss09",
+                "name": "Stylistic Set 9",
+                "description": "Rounded forms"
+              },
+              {
+                "tag": "ss10",
+                "name": "Stylistic Set 10",
+                "description": "Angular forms"
+              },
+              {
+                "tag": "ss11",
+                "name": "Stylistic Set 11",
+                "description": "Condensed alternates"
+              },
+              {
+                "tag": "ss12",
+                "name": "Stylistic Set 12",
+                "description": "Extended alternates"
+              },
+              {
+                "tag": "ss13",
+                "name": "Stylistic Set 13",
+                "description": "Monospaced alternates"
+              },
+              {
+                "tag": "ss14",
+                "name": "Stylistic Set 14",
+                "description": "Display alternates"
+              }
             ],
             "languageSupport": {},
             "glyphCount": 473,
@@ -24365,6 +27639,78 @@ export default {
               "ss14",
               "mark"
             ],
+            "stylisticSets": [
+              {
+                "tag": "ss01",
+                "name": "Stylistic Set 1",
+                "description": "Alternate character forms"
+              },
+              {
+                "tag": "ss02",
+                "name": "Stylistic Set 2",
+                "description": "Alternate punctuation"
+              },
+              {
+                "tag": "ss03",
+                "name": "Stylistic Set 3",
+                "description": "Alternate numerals"
+              },
+              {
+                "tag": "ss04",
+                "name": "Stylistic Set 4",
+                "description": "Contextual alternates"
+              },
+              {
+                "tag": "ss05",
+                "name": "Stylistic Set 5",
+                "description": "Historical forms"
+              },
+              {
+                "tag": "ss06",
+                "name": "Stylistic Set 6",
+                "description": "Decorative alternates"
+              },
+              {
+                "tag": "ss07",
+                "name": "Stylistic Set 7",
+                "description": "Swash characters"
+              },
+              {
+                "tag": "ss08",
+                "name": "Stylistic Set 8",
+                "description": "Simplified forms"
+              },
+              {
+                "tag": "ss09",
+                "name": "Stylistic Set 9",
+                "description": "Rounded forms"
+              },
+              {
+                "tag": "ss10",
+                "name": "Stylistic Set 10",
+                "description": "Angular forms"
+              },
+              {
+                "tag": "ss11",
+                "name": "Stylistic Set 11",
+                "description": "Condensed alternates"
+              },
+              {
+                "tag": "ss12",
+                "name": "Stylistic Set 12",
+                "description": "Extended alternates"
+              },
+              {
+                "tag": "ss13",
+                "name": "Stylistic Set 13",
+                "description": "Monospaced alternates"
+              },
+              {
+                "tag": "ss14",
+                "name": "Stylistic Set 14",
+                "description": "Display alternates"
+              }
+            ],
             "languageSupport": {},
             "glyphCount": 473,
             "unicodeRanges": [
@@ -24423,8 +27769,8 @@ export default {
     }
   },
   "buildInfo": {
-    "timestamp": "2025-09-08T16:32:59.005Z",
+    "timestamp": "2025-09-09T18:38:48.443Z",
     "version": "1.5.2",
-    "fontCount": 7
+    "fontCount": 6
   }
 }

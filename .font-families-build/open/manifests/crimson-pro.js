@@ -1,8 +1,8 @@
 export default {
   "name": "crimson-pro",
-  "slug": "crimson-pro",
+  "key": "crimson-pro",
   "licenseType": "OFL-1.1",
-  "description": "",
+  "description": "Unknown font family",
   "static": {
     "CrimsonPro-SemiBoldItalic": {
       "family": "crimson-pro",
@@ -95,6 +95,7 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [],
         "languageSupport": {},
         "glyphCount": 832,
         "unicodeRanges": [
@@ -231,6 +232,7 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [],
         "languageSupport": {},
         "glyphCount": 832,
         "unicodeRanges": [
@@ -367,6 +369,7 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [],
         "languageSupport": {},
         "glyphCount": 832,
         "unicodeRanges": [
@@ -503,6 +506,7 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [],
         "languageSupport": {},
         "glyphCount": 832,
         "unicodeRanges": [
@@ -639,6 +643,7 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [],
         "languageSupport": {},
         "glyphCount": 832,
         "unicodeRanges": [
@@ -775,6 +780,7 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [],
         "languageSupport": {},
         "glyphCount": 832,
         "unicodeRanges": [
@@ -911,6 +917,7 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [],
         "languageSupport": {},
         "glyphCount": 832,
         "unicodeRanges": [
@@ -1047,6 +1054,7 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [],
         "languageSupport": {},
         "glyphCount": 832,
         "unicodeRanges": [
@@ -1183,6 +1191,7 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [],
         "languageSupport": {},
         "glyphCount": 832,
         "unicodeRanges": [
@@ -1319,6 +1328,7 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [],
         "languageSupport": {},
         "glyphCount": 832,
         "unicodeRanges": [
@@ -1455,6 +1465,7 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [],
         "languageSupport": {},
         "glyphCount": 832,
         "unicodeRanges": [
@@ -1591,6 +1602,7 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [],
         "languageSupport": {},
         "glyphCount": 832,
         "unicodeRanges": [
@@ -1727,6 +1739,7 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [],
         "languageSupport": {},
         "glyphCount": 832,
         "unicodeRanges": [
@@ -1863,6 +1876,7 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [],
         "languageSupport": {},
         "glyphCount": 832,
         "unicodeRanges": [
@@ -1999,6 +2013,7 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [],
         "languageSupport": {},
         "glyphCount": 832,
         "unicodeRanges": [
@@ -2135,6 +2150,7 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [],
         "languageSupport": {},
         "glyphCount": 832,
         "unicodeRanges": [
@@ -2277,6 +2293,7 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [],
         "languageSupport": {},
         "glyphCount": 832,
         "unicodeRanges": [
@@ -2474,6 +2491,7 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [],
         "languageSupport": {},
         "glyphCount": 832,
         "unicodeRanges": [

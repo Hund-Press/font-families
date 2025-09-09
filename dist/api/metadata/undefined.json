@@ -1,6 +1,6 @@
-export default {
+{
   "name": "aspekta",
-  "key": "aspekta",
+  "slug": "aspekta",
   "version": "2.100",
   "author": "Ivo Dolenc",
   "license": "OFL-1.1",
@@ -196,7 +196,8 @@ export default {
             "start": 384,
             "end": 591
           }
-        ]
+        ],
+        "hasKerning": false
       },
       "performance": {
         "fileSize": 22860,
@@ -397,7 +398,8 @@ export default {
             "start": 384,
             "end": 591
           }
-        ]
+        ],
+        "hasKerning": false
       },
       "performance": {
         "fileSize": 22596,
@@ -598,7 +600,8 @@ export default {
             "start": 384,
             "end": 591
           }
-        ]
+        ],
+        "hasKerning": false
       },
       "performance": {
         "fileSize": 22756,
@@ -799,7 +802,8 @@ export default {
             "start": 384,
             "end": 591
           }
-        ]
+        ],
+        "hasKerning": false
       },
       "performance": {
         "fileSize": 22608,
@@ -1000,7 +1004,8 @@ export default {
             "start": 384,
             "end": 591
           }
-        ]
+        ],
+        "hasKerning": false
       },
       "performance": {
         "fileSize": 22420,
@@ -1201,7 +1206,8 @@ export default {
             "start": 384,
             "end": 591
           }
-        ]
+        ],
+        "hasKerning": false
       },
       "performance": {
         "fileSize": 22168,
@@ -1402,7 +1408,8 @@ export default {
             "start": 384,
             "end": 591
           }
-        ]
+        ],
+        "hasKerning": false
       },
       "performance": {
         "fileSize": 21980,
@@ -1603,7 +1610,8 @@ export default {
             "start": 384,
             "end": 591
           }
-        ]
+        ],
+        "hasKerning": false
       },
       "performance": {
         "fileSize": 22140,
@@ -1804,7 +1812,8 @@ export default {
             "start": 384,
             "end": 591
           }
-        ]
+        ],
+        "hasKerning": false
       },
       "performance": {
         "fileSize": 22016,
@@ -2005,7 +2014,8 @@ export default {
             "start": 384,
             "end": 591
           }
-        ]
+        ],
+        "hasKerning": false
       },
       "performance": {
         "fileSize": 22124,
@@ -2206,7 +2216,8 @@ export default {
             "start": 384,
             "end": 591
           }
-        ]
+        ],
+        "hasKerning": false
       },
       "performance": {
         "fileSize": 21396,
@@ -2407,7 +2418,8 @@ export default {
             "start": 384,
             "end": 591
           }
-        ]
+        ],
+        "hasKerning": false
       },
       "performance": {
         "fileSize": 22240,
@@ -2608,7 +2620,8 @@ export default {
             "start": 384,
             "end": 591
           }
-        ]
+        ],
+        "hasKerning": false
       },
       "performance": {
         "fileSize": 21748,
@@ -2809,7 +2822,8 @@ export default {
             "start": 384,
             "end": 591
           }
-        ]
+        ],
+        "hasKerning": false
       },
       "performance": {
         "fileSize": 21956,
@@ -3010,7 +3024,8 @@ export default {
             "start": 384,
             "end": 591
           }
-        ]
+        ],
+        "hasKerning": false
       },
       "performance": {
         "fileSize": 22600,
@@ -3211,7 +3226,8 @@ export default {
             "start": 384,
             "end": 591
           }
-        ]
+        ],
+        "hasKerning": false
       },
       "performance": {
         "fileSize": 22024,
@@ -3412,7 +3428,8 @@ export default {
             "start": 384,
             "end": 591
           }
-        ]
+        ],
+        "hasKerning": false
       },
       "performance": {
         "fileSize": 21884,
@@ -3613,7 +3630,8 @@ export default {
             "start": 384,
             "end": 591
           }
-        ]
+        ],
+        "hasKerning": false
       },
       "performance": {
         "fileSize": 21596,
@@ -3814,7 +3832,8 @@ export default {
             "start": 384,
             "end": 591
           }
-        ]
+        ],
+        "hasKerning": false
       },
       "performance": {
         "fileSize": 23096,
@@ -4015,7 +4034,8 @@ export default {
             "start": 384,
             "end": 591
           }
-        ]
+        ],
+        "hasKerning": false
       },
       "performance": {
         "fileSize": 21116,
@@ -4221,7 +4241,8 @@ export default {
             "start": 384,
             "end": 591
           }
-        ]
+        ],
+        "hasKerning": false
       },
       "performance": {
         "fileSize": 69480,

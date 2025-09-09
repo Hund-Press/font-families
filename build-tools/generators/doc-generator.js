@@ -16,7 +16,7 @@ const DOCS_DIR = './src/content/fonts/published';
  * Generate markdown documentation for a font family
  */
 function generateFontDocumentation(fontData) {
-    const { name, slug, author, license, version, description } = fontData;
+    const { name, key, author, license, version, description } = fontData;
     
     // Clean up font name for title (remove npm scoping, capitalize)
     const cleanTitle = name.replace(/^@[^\/]+\//, '').split('-').map(word => 
@@ -27,7 +27,7 @@ function generateFontDocumentation(fontData) {
     const safeDescription = (description || `${cleanTitle} font family`).replace(/"/g, '\\"');
     
     return `---
-slug: ${slug}
+key: ${key}
 title: ${cleanTitle}
 description: "${safeDescription}"
 ---
@@ -46,11 +46,11 @@ description: "${safeDescription}"
 ## Font Specimen
 
 <div class="specimen-showcase">
-  <div class="specimen-large" data-font="{{ slug }}">
+  <div class="specimen-large" data-font="{{ key }}">
     <h2>The quick brown fox jumps over the lazy dog</h2>
   </div>
   
-  <div class="specimen-weights" data-font="{{ slug }}">
+  <div class="specimen-weights" data-font="{{ key }}">
     <div class="weight-demo" data-weight="400">Regular: Typography matters for readability</div>
     <div class="weight-demo" data-weight="700">Bold: Typography matters for readability</div>
   </div>
@@ -63,7 +63,7 @@ description: "${safeDescription}"
 \`\`\`css
 @font-face {
   font-family: '{{ title }}';
-  src: url('https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.5.0/{{ slug }}/fonts/webfonts/{{ title }}-400.woff2') format('woff2');
+  src: url('https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.5.0/{{ key }}/fonts/webfonts/{{ title }}-400.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -78,7 +78,7 @@ body {
 
 \`\`\`html
 <link rel="preload" 
-      href="https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.5.0/{{ slug }}/fonts/webfonts/{{ title }}-400.woff2" 
+      href="https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.5.0/{{ key }}/fonts/webfonts/{{ title }}-400.woff2" 
       as="font" 
       type="font/woff2" 
       crossorigin>
@@ -116,7 +116,7 @@ Free to use in any project, commercial or personal.
   line-height: 1.4;
 }
 
-[data-font="${slug}"] {
+[data-font="${key}"] {
   font-family: '${cleanTitle}', system-ui, sans-serif;
 }
 
@@ -136,15 +136,15 @@ pre {
 /**
  * Load font data from various sources
  */
-async function loadFontData(fontSlug) {
+async function loadFontData(fontKey) {
     try {
         // Try to load from API metadata first
-        const apiMetadataPath = path.join('dist', 'api', 'metadata', `${fontSlug}.json`);
+        const apiMetadataPath = path.join('dist', 'api', 'metadata', `${fontKey}.json`);
         try {
             const apiData = JSON.parse(await fs.readFile(apiMetadataPath, 'utf8'));
             return {
                 name: apiData.name,
-                slug: fontSlug,
+                key: fontKey,
                 author: apiData.author,
                 license: apiData.license,
                 version: apiData.version,
@@ -152,12 +152,12 @@ async function loadFontData(fontSlug) {
             };
         } catch (error) {
             // Fallback to UFR package.json
-            const ufrPath = path.join('fonts', 'open-fonts', fontSlug, 'package.json');
+            const ufrPath = path.join('fonts', 'open-fonts', fontKey, 'package.json');
             const ufrData = JSON.parse(await fs.readFile(ufrPath, 'utf8'));
             
             return {
                 name: ufrData.name,
-                slug: fontSlug,
+                key: fontKey,
                 author: ufrData.author,
                 license: ufrData.license,
                 version: ufrData.version,
@@ -165,14 +165,14 @@ async function loadFontData(fontSlug) {
             };
         }
     } catch (error) {
-        console.error(`Warning: Could not load metadata for ${fontSlug}: ${error.message}`);
+        console.error(`Warning: Could not load metadata for ${fontKey}: ${error.message}`);
         return {
-            name: fontSlug,
-            slug: fontSlug,
+            name: fontKey,
+            key: fontKey,
             author: 'Unknown',
             license: 'Unknown',
             version: 'Unknown',
-            description: `${fontSlug.charAt(0).toUpperCase() + fontSlug.slice(1)} font family`
+            description: `${fontKey.charAt(0).toUpperCase() + fontKey.slice(1)} font family`
         };
     }
 }
@@ -197,15 +197,15 @@ async function getFontFamilies() {
 /**
  * Check if documentation file already exists and is newer than source data
  */
-async function shouldRegenerateDoc(fontSlug) {
-    const docPath = path.join(DOCS_DIR, `${fontSlug}.md`);
+async function shouldRegenerateDoc(fontKey) {
+    const docPath = path.join(DOCS_DIR, `${fontKey}.md`);
     
     try {
         const docStats = await fs.stat(docPath);
         
         // Check if source UFR package.json is newer
         try {
-            const ufrPath = path.join('fonts', 'open-fonts', fontSlug, 'package.json');
+            const ufrPath = path.join('fonts', 'open-fonts', fontKey, 'package.json');
             const ufrStats = await fs.stat(ufrPath);
             
             // Regenerate if UFR is newer than doc
@@ -235,29 +235,29 @@ export async function generateDocumentation() {
     let generated = 0;
     let skipped = 0;
     
-    for (const fontSlug of fontFamilies) {
+    for (const fontKey of fontFamilies) {
         try {
-            const shouldRegenerate = await shouldRegenerateDoc(fontSlug);
+            const shouldRegenerate = await shouldRegenerateDoc(fontKey);
             
             if (!shouldRegenerate) {
-                console.log(`[doc-generator] Skipping ${fontSlug} (up to date)`);
+                console.log(`[doc-generator] Skipping ${fontKey} (up to date)`);
                 skipped++;
                 continue;
             }
             
-            console.log(`[doc-generator] Generating documentation for ${fontSlug}...`);
+            console.log(`[doc-generator] Generating documentation for ${fontKey}...`);
             
-            const fontData = await loadFontData(fontSlug);
+            const fontData = await loadFontData(fontKey);
             const documentation = generateFontDocumentation(fontData);
             
-            const outputPath = path.join(DOCS_DIR, `${fontSlug}.md`);
+            const outputPath = path.join(DOCS_DIR, `${fontKey}.md`);
             await fs.writeFile(outputPath, documentation);
             
             generated++;
             console.log(`[doc-generator] ✓ Generated ${outputPath}`);
             
         } catch (error) {
-            console.error(`[doc-generator] ✗ Failed to generate documentation for ${fontSlug}: ${error.message}`);
+            console.error(`[doc-generator] ✗ Failed to generate documentation for ${fontKey}: ${error.message}`);
         }
     }
     

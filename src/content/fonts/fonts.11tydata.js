@@ -1,12 +1,12 @@
 export default {
     permalink(data) {
-        return `/fonts/${data.slug}/`;
+        return `/fonts/${data.key}/`;
     },
     
     eleventyComputed: {
         // Get font data from the main fontFamilies data
         fontData(data) {
-            return data.fontFamilies?.fonts?.[data.slug] || null;
+            return data.fontFamilies?.fonts?.[data.key] || null;
         }
     }
 };

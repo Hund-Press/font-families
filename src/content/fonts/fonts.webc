@@ -12,7 +12,7 @@ description: Explore our curated collection of open source fonts
       <p class="font-meta">by <span @text="font.data.fontData?.author || 'Unknown'"></span></p>
     </header>
     
-    <div class="font-specimen" :data-font="font.data.fontData?.slug || font.data.slug">
+    <div class="font-specimen" :data-font="font.data.fontData?.key || font.data.key">
       <p class="specimen-text">The five boxing wizards jump quickly</p>
       <div class="specimen-alphabet">abcdefghijklmnopqrstuvwxyz</div>
     </div>

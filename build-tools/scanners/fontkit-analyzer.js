@@ -74,7 +74,7 @@ export function formatFamilyName(rawName) {
  * @param {string} familyName - Family name to slugify
  * @returns {string} URL-safe slug
  */
-export function generateSlug(familyName) {
+export function generateKey(familyName) {
     if (!familyName || typeof familyName !== 'string') {
         return familyName;
     }
@@ -143,42 +143,112 @@ export function detectFamilyVariant(familyName, folderName = '') {
  * @returns {Object} Language support information
  */
 export function extractLanguageSupport(unicodeRanges = []) {
-    const languageMap = {
-        'Latin': ['en', 'es', 'fr', 'de', 'it', 'pt'],
-        'Latin Extended-A': ['cs', 'pl', 'hu', 'ro'],
-        'Latin Extended-B': ['hr', 'sl', 'sk'],
-        'Cyrillic': ['ru', 'uk', 'bg', 'sr'],
-        'Arabic': ['ar', 'fa', 'ur'],
-        'Hebrew': ['he'],
-        'Devanagari': ['hi', 'mr', 'ne'],
+    const scriptLanguageMap = {
+        'Basic Latin': ['en', 'es', 'fr', 'de', 'it', 'pt', 'nl', 'da', 'sv', 'no', 'fi'],
+        'Latin-1 Supplement': ['en', 'es', 'fr', 'de', 'it', 'pt', 'da', 'sv', 'no', 'is'],
+        'Latin Extended-A': ['cs', 'pl', 'hu', 'ro', 'hr', 'sl', 'sk', 'et', 'lv', 'lt'],
+        'Latin Extended-B': ['hr', 'sl', 'sk', 'ro', 'af', 'sq', 'eu'],
+        'Cyrillic': ['ru', 'uk', 'bg', 'sr', 'mk', 'be', 'kk', 'ky', 'mn', 'uz'],
+        'Greek': ['el'],
+        'Arabic': ['ar', 'fa', 'ur', 'ps', 'sd'],
+        'Hebrew': ['he', 'yi'],
+        'Devanagari': ['hi', 'mr', 'ne', 'sa'],
         'Thai': ['th'],
         'Hiragana': ['ja'],
         'Katakana': ['ja'],
-        'CJK': ['zh', 'ja', 'ko'],
-        'Hangul': ['ko']
+        'CJK Symbols': ['zh', 'ja', 'ko'],
+        'Hangul': ['ko'],
+        'Armenian': ['hy'],
+        'Georgian': ['ka'],
+        'Ethiopic': ['am', 'ti'],
+        'Cherokee': ['chr'],
+        'Canadian Aboriginal': ['iu', 'cr']
     };
     
-    const supportedScripts = [];
+    const supportedScripts = new Set();
     const supportedLanguages = new Set();
+    const scriptCoverage = {};
     
     for (const range of unicodeRanges) {
-        if (range.name && range.coverage > 0.5) {
-            supportedScripts.push(range.name);
+        if (range.name && range.coverage > 0.3) { // Lower threshold for better detection
+            supportedScripts.add(range.name);
+            scriptCoverage[range.name] = range.coverage;
             
-            if (languageMap[range.name]) {
-                languageMap[range.name].forEach(lang => supportedLanguages.add(lang));
+            if (scriptLanguageMap[range.name]) {
+                scriptLanguageMap[range.name].forEach(lang => supportedLanguages.add(lang));
             }
         }
     }
     
     return {
-        scripts: supportedScripts,
+        scripts: Array.from(supportedScripts),
         languages: Array.from(supportedLanguages),
-        coverage: unicodeRanges.reduce((acc, range) => {
-            acc[range.name] = range.coverage;
-            return acc;
-        }, {})
+        scriptCount: supportedScripts.size,
+        languageCount: supportedLanguages.size,
+        coverage: scriptCoverage,
+        detailed: {
+            scriptToLanguages: Object.fromEntries(
+                Array.from(supportedScripts)
+                    .filter(script => scriptLanguageMap[script])
+                    .map(script => [script, scriptLanguageMap[script]])
+            )
+        }
     };
+}
+
+/**
+ * Extract stylistic sets from OpenType features
+ * @param {Array} openTypeFeatures - Array of OpenType feature tags
+ * @returns {Array} Array of stylistic set information
+ */
+export function extractStylisticSets(openTypeFeatures = []) {
+    const stylisticSets = [];
+    
+    // Look for stylistic set features (ss01-ss20)
+    for (let i = 1; i <= 20; i++) {
+        const ssTag = `ss${i.toString().padStart(2, '0')}`;
+        if (openTypeFeatures.includes(ssTag)) {
+            stylisticSets.push({
+                tag: ssTag,
+                name: `Stylistic Set ${i}`,
+                description: getStylisticSetDescription(ssTag)
+            });
+        }
+    }
+    
+    return stylisticSets;
+}
+
+/**
+ * Get description for stylistic sets based on common usage patterns
+ * @param {string} ssTag - Stylistic set tag (e.g., 'ss01')
+ * @returns {string} Description of the stylistic set
+ */
+export function getStylisticSetDescription(ssTag) {
+    const descriptions = {
+        'ss01': 'Alternate character forms',
+        'ss02': 'Alternate punctuation',
+        'ss03': 'Alternate numerals',
+        'ss04': 'Contextual alternates',
+        'ss05': 'Historical forms',
+        'ss06': 'Decorative alternates',
+        'ss07': 'Swash characters',
+        'ss08': 'Simplified forms',
+        'ss09': 'Rounded forms',
+        'ss10': 'Angular forms',
+        'ss11': 'Condensed alternates',
+        'ss12': 'Extended alternates',
+        'ss13': 'Monospaced alternates',
+        'ss14': 'Display alternates',
+        'ss15': 'Script alternates',
+        'ss16': 'Ornamental forms',
+        'ss17': 'Titling alternates',
+        'ss18': 'Small caps alternates',
+        'ss19': 'Ligature alternates',
+        'ss20': 'Expert set'
+    };
+    
+    return descriptions[ssTag] || 'Stylistic alternates';
 }
 
 /**
@@ -211,34 +281,40 @@ export function generateEnhancedFamilyMetadata(scannedData) {
     const allUnicodeRanges = allFonts.flatMap(font => font.features?.unicodeRanges || []);
     const languageSupport = extractLanguageSupport(allUnicodeRanges);
     
-    // Generate names and slug
+    // Generate names and key
     const displayName = canonicalName;
-    const slug = generateSlug(displayName);
+    const key = generateKey(displayName);
     
     return {
         // Display information
         name: displayName,
-        slug: slug,
+        key: key,
         canonicalName: canonicalName,
         
         // Family relationships
         isLanguageVariant: variant.isVariant,
         baseFamilyName: variant.baseName,
-        baseFamilySlug: variant.baseName ? generateSlug(variant.baseName) : null,
+        baseFamilyKey: variant.baseName ? generateKey(variant.baseName) : null,
         scriptVariant: variant.scriptName,
         variantKey: variant.variantKey,
         
         // Language support
         languages: {
             supported: languageSupport.languages,
-            scripts: languageSupport.scripts
+            scripts: languageSupport.scripts,
+            count: {
+                scripts: languageSupport.scriptCount,
+                languages: languageSupport.languageCount
+            },
+            detailed: languageSupport.detailed
         },
         
         // Enhanced metadata
         enhanced: {
             languageSupport: languageSupport.languages,
             scriptSupport: languageSupport.scripts,
-            unicodeCoverage: languageSupport.coverage
+            unicodeCoverage: languageSupport.coverage,
+            scriptToLanguages: languageSupport.detailed.scriptToLanguages
         }
     };
 }
@@ -564,6 +640,7 @@ export function extractTypographyFeatures(font) {
     try {
         const features = {
             openTypeFeatures: [],
+            stylisticSets: [],
             languageSupport: {},
             glyphCount: font.numGlyphs,
             unicodeRanges: []
@@ -579,6 +656,9 @@ export function extractTypographyFeatures(font) {
                 const posFeatures = font.GPOS.featureList.map(feature => feature.tag).filter(Boolean);
                 features.openTypeFeatures = [...new Set([...features.openTypeFeatures, ...posFeatures])];
             }
+            
+            // Extract stylistic sets (ss01-ss20)
+            features.stylisticSets = extractStylisticSets(features.openTypeFeatures);
         } catch (featureError) {
             // Features not accessible or not present
         }

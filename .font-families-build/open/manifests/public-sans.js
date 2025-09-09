@@ -1,8 +1,8 @@
 export default {
   "name": "public-sans",
-  "slug": "public-sans",
+  "key": "public-sans",
   "licenseType": "OFL-1.1",
-  "description": "",
+  "description": "Unknown font family",
   "static": {
     "PublicSans-ThinItalic": {
       "family": "public-sans",
@@ -95,6 +95,13 @@ export default {
           "kern",
           "mark",
           "mkmk"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          }
         ],
         "languageSupport": {},
         "glyphCount": 648,
@@ -227,6 +234,13 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          }
+        ],
         "languageSupport": {},
         "glyphCount": 648,
         "unicodeRanges": [
@@ -357,6 +371,13 @@ export default {
           "kern",
           "mark",
           "mkmk"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          }
         ],
         "languageSupport": {},
         "glyphCount": 648,
@@ -489,6 +510,13 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          }
+        ],
         "languageSupport": {},
         "glyphCount": 648,
         "unicodeRanges": [
@@ -619,6 +647,13 @@ export default {
           "kern",
           "mark",
           "mkmk"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          }
         ],
         "languageSupport": {},
         "glyphCount": 648,
@@ -751,6 +786,13 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          }
+        ],
         "languageSupport": {},
         "glyphCount": 648,
         "unicodeRanges": [
@@ -881,6 +923,13 @@ export default {
           "kern",
           "mark",
           "mkmk"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          }
         ],
         "languageSupport": {},
         "glyphCount": 648,
@@ -1013,6 +1062,13 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          }
+        ],
         "languageSupport": {},
         "glyphCount": 648,
         "unicodeRanges": [
@@ -1143,6 +1199,13 @@ export default {
           "kern",
           "mark",
           "mkmk"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          }
         ],
         "languageSupport": {},
         "glyphCount": 648,
@@ -1275,6 +1338,13 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          }
+        ],
         "languageSupport": {},
         "glyphCount": 648,
         "unicodeRanges": [
@@ -1405,6 +1475,13 @@ export default {
           "kern",
           "mark",
           "mkmk"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          }
         ],
         "languageSupport": {},
         "glyphCount": 648,
@@ -1537,6 +1614,13 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          }
+        ],
         "languageSupport": {},
         "glyphCount": 648,
         "unicodeRanges": [
@@ -1667,6 +1751,13 @@ export default {
           "kern",
           "mark",
           "mkmk"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          }
         ],
         "languageSupport": {},
         "glyphCount": 648,
@@ -1799,6 +1890,13 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          }
+        ],
         "languageSupport": {},
         "glyphCount": 648,
         "unicodeRanges": [
@@ -1929,6 +2027,13 @@ export default {
           "kern",
           "mark",
           "mkmk"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          }
         ],
         "languageSupport": {},
         "glyphCount": 648,
@@ -2061,6 +2166,13 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          }
+        ],
         "languageSupport": {},
         "glyphCount": 648,
         "unicodeRanges": [
@@ -2192,6 +2304,13 @@ export default {
           "mark",
           "mkmk"
         ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          }
+        ],
         "languageSupport": {},
         "glyphCount": 648,
         "unicodeRanges": [
@@ -2322,6 +2441,13 @@ export default {
           "kern",
           "mark",
           "mkmk"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          }
         ],
         "languageSupport": {},
         "glyphCount": 648,
@@ -2458,6 +2584,13 @@ export default {
           "kern",
           "mark",
           "mkmk"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          }
         ],
         "languageSupport": {},
         "glyphCount": 648,
@@ -2655,6 +2788,13 @@ export default {
           "kern",
           "mark",
           "mkmk"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": "Alternate character forms"
+          }
         ],
         "languageSupport": {},
         "glyphCount": 648,
