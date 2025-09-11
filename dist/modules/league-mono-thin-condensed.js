@@ -37,6 +37,7 @@ export default {
       }
     }
   },
+  "languages": null,
   "features": {
     "openType": {
       "categories": {

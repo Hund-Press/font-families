@@ -102,6 +102,11 @@ export async function normalizeFont(fontToolsData, fontName, fontFile) {
         glyphCount: basic.numGlyphs
     };
     
+    // Add language support from fontTools analysis
+    if (fontToolsData.languages) {
+        result.languages = fontToolsData.languages;
+    }
+    
     // Add performance metrics
     result.performance = {
         fileSize: fontToolsData.file.size,

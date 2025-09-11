@@ -39,6 +39,7 @@ export default {
       }
     }
   },
+  "languages": null,
   "features": {
     "openType": {
       "categories": {
@@ -2337,7 +2338,7 @@ export default {
           "InconsolataVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-11T13:27:42.318Z"
+      "generatedAt": "2025-09-11T14:17:05.516Z"
     }
   }
 };

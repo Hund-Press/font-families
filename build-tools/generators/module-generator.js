@@ -85,7 +85,8 @@ async function generateFamilyModuleContent(familyData, cdnBaseUrl, repoVersion =
         // ENHANCED: Ground truth weight information by format
         weight: generateWeightInfo(familyData),
         
-        // PHASE 3: Language support exposure
+        // Script-level language support for web authors
+        languages: generateLanguageSupport(familyData),
         
         // PHASE 3: OpenType features and stylistic sets
         features: generateOpenTypeFeatures(familyData),
@@ -282,6 +283,62 @@ function validateFontConfiguration(fontName, staticWeights, variableRange) {
     }
 }
 
+
+/**
+ * Generate language support information for web authors
+ * @param {Object} familyData - Font family data
+ * @returns {Object|null} Language support information
+ */
+function generateLanguageSupport(familyData) {
+    try {
+        const allFonts = [...Object.values(familyData.static || {}), ...Object.values(familyData.variable || {})];
+        
+        // Collect language support data from all fonts in family
+        const allScripts = new Map();
+        let maxTotalLanguages = 0;
+        
+        allFonts.forEach(font => {
+            if (font.languages?.scripts) {
+                font.languages.scripts.forEach(script => {
+                    if (!allScripts.has(script.name)) {
+                        allScripts.set(script.name, {
+                            name: script.name,
+                            coverage: script.coverage,
+                            languages: script.languages,
+                            blocks: script.blocks
+                        });
+                    } else {
+                        // Use the highest coverage found across faces
+                        const existing = allScripts.get(script.name);
+                        if (script.coverage > existing.coverage) {
+                            existing.coverage = script.coverage;
+                        }
+                    }
+                });
+                
+                if (font.languages.total > maxTotalLanguages) {
+                    maxTotalLanguages = font.languages.total;
+                }
+            }
+        });
+        
+        if (allScripts.size === 0) {
+            return null;
+        }
+        
+        // Convert to array and sort by coverage
+        const scripts = Array.from(allScripts.values())
+            .sort((a, b) => b.coverage - a.coverage);
+        
+        return {
+            scripts: scripts,
+            total: maxTotalLanguages
+        };
+    } catch (error) {
+        console.error(`[modules] Error generating language support for ${familyData?.name || 'Unknown'}:`, error.message);
+        return null;
+    }
+}
 
 /**
  * Generate stylistic sets structure with placeholders for manual editing

@@ -117,31 +117,31 @@ class FontInspector:
         if not self.cmap:
             return []
         
-        # Define Unicode blocks for major writing systems
+        # Define Unicode blocks for major writing systems with script mappings
         unicode_blocks = [
-            {'name': 'Basic Latin', 'start': 0x0000, 'end': 0x007F},
-            {'name': 'Latin-1 Supplement', 'start': 0x0080, 'end': 0x00FF},
-            {'name': 'Latin Extended-A', 'start': 0x0100, 'end': 0x017F},
-            {'name': 'Latin Extended-B', 'start': 0x0180, 'end': 0x024F},
-            {'name': 'Latin Extended Additional', 'start': 0x1E00, 'end': 0x1EFF},
-            {'name': 'Cyrillic', 'start': 0x0400, 'end': 0x04FF},
-            {'name': 'Cyrillic Supplement', 'start': 0x0500, 'end': 0x052F},
-            {'name': 'Greek and Coptic', 'start': 0x0370, 'end': 0x03FF},
-            {'name': 'Arabic', 'start': 0x0600, 'end': 0x06FF},
-            {'name': 'Arabic Supplement', 'start': 0x0750, 'end': 0x077F},
-            {'name': 'Hebrew', 'start': 0x0590, 'end': 0x05FF},
-            {'name': 'Devanagari', 'start': 0x0900, 'end': 0x097F},
-            {'name': 'Bengali', 'start': 0x0980, 'end': 0x09FF},
-            {'name': 'Thai', 'start': 0x0E00, 'end': 0x0E7F},
-            {'name': 'Hiragana', 'start': 0x3040, 'end': 0x309F},
-            {'name': 'Katakana', 'start': 0x30A0, 'end': 0x30FF},
-            {'name': 'CJK Unified Ideographs', 'start': 0x4E00, 'end': 0x9FFF},
-            {'name': 'Hangul Syllables', 'start': 0xAC00, 'end': 0xD7AF},
-            {'name': 'Armenian', 'start': 0x0530, 'end': 0x058F},
-            {'name': 'Georgian', 'start': 0x10A0, 'end': 0x10FF},
-            {'name': 'Ethiopic', 'start': 0x1200, 'end': 0x137F},
-            {'name': 'Cherokee', 'start': 0x13A0, 'end': 0x13FF},
-            {'name': 'Canadian Aboriginal', 'start': 0x1400, 'end': 0x167F},
+            {'name': 'Basic Latin', 'start': 0x0000, 'end': 0x007F, 'script': 'Latin'},
+            {'name': 'Latin-1 Supplement', 'start': 0x0080, 'end': 0x00FF, 'script': 'Latin'},
+            {'name': 'Latin Extended-A', 'start': 0x0100, 'end': 0x017F, 'script': 'Latin'},
+            {'name': 'Latin Extended-B', 'start': 0x0180, 'end': 0x024F, 'script': 'Latin'},
+            {'name': 'Latin Extended Additional', 'start': 0x1E00, 'end': 0x1EFF, 'script': 'Latin'},
+            {'name': 'Cyrillic', 'start': 0x0400, 'end': 0x04FF, 'script': 'Cyrillic'},
+            {'name': 'Cyrillic Supplement', 'start': 0x0500, 'end': 0x052F, 'script': 'Cyrillic'},
+            {'name': 'Greek and Coptic', 'start': 0x0370, 'end': 0x03FF, 'script': 'Greek'},
+            {'name': 'Arabic', 'start': 0x0600, 'end': 0x06FF, 'script': 'Arabic'},
+            {'name': 'Arabic Supplement', 'start': 0x0750, 'end': 0x077F, 'script': 'Arabic'},
+            {'name': 'Hebrew', 'start': 0x0590, 'end': 0x05FF, 'script': 'Hebrew'},
+            {'name': 'Devanagari', 'start': 0x0900, 'end': 0x097F, 'script': 'Devanagari'},
+            {'name': 'Bengali', 'start': 0x0980, 'end': 0x09FF, 'script': 'Bengali'},
+            {'name': 'Thai', 'start': 0x0E00, 'end': 0x0E7F, 'script': 'Thai'},
+            {'name': 'Hiragana', 'start': 0x3040, 'end': 0x309F, 'script': 'Japanese'},
+            {'name': 'Katakana', 'start': 0x30A0, 'end': 0x30FF, 'script': 'Japanese'},
+            {'name': 'CJK Unified Ideographs', 'start': 0x4E00, 'end': 0x9FFF, 'script': 'CJK'},
+            {'name': 'Hangul Syllables', 'start': 0xAC00, 'end': 0xD7AF, 'script': 'Korean'},
+            {'name': 'Armenian', 'start': 0x0530, 'end': 0x058F, 'script': 'Armenian'},
+            {'name': 'Georgian', 'start': 0x10A0, 'end': 0x10FF, 'script': 'Georgian'},
+            {'name': 'Ethiopic', 'start': 0x1200, 'end': 0x137F, 'script': 'Ethiopic'},
+            {'name': 'Cherokee', 'start': 0x13A0, 'end': 0x13FF, 'script': 'Cherokee'},
+            {'name': 'Canadian Aboriginal', 'start': 0x1400, 'end': 0x167F, 'script': 'Canadian Aboriginal'},
         ]
         
         coverage_results = []
@@ -159,6 +159,7 @@ class FontInspector:
                 coverage = supported_chars / total_chars
                 coverage_results.append({
                     'name': block['name'],
+                    'script': block['script'],
                     'coverage': coverage,
                     'start': block['start'],
                     'end': block['end'],
@@ -167,6 +168,72 @@ class FontInspector:
                 })
         
         return coverage_results
+    
+    def get_language_support(self):
+        """Analyze script-level language support"""
+        unicode_coverage = self.get_unicode_coverage()
+        
+        # Script mapping to common language codes (ISO 639-1/3)
+        script_languages = {
+            'Latin': ['eng', 'fra', 'deu', 'spa', 'ita', 'por', 'nld', 'pol', 'ces', 'hun', 'tur'],
+            'Cyrillic': ['rus', 'ukr', 'bul', 'srp', 'mkd', 'bel'],
+            'Greek': ['ell'],
+            'Arabic': ['ara', 'fas', 'urd', 'heb'],  # Hebrew included for compatibility
+            'Hebrew': ['heb'],
+            'Devanagari': ['hin', 'mar', 'nep'],
+            'Bengali': ['ben', 'asm'],
+            'Thai': ['tha'],
+            'Japanese': ['jpn'],
+            'CJK': ['zho', 'jpn', 'kor'],  # Chinese, Japanese, Korean
+            'Korean': ['kor'],
+            'Armenian': ['hye'],
+            'Georgian': ['kat'],
+            'Ethiopic': ['amh', 'tir'],
+            'Cherokee': ['chr'],
+            'Canadian Aboriginal': ['iku', 'cre']
+        }
+        
+        # Group blocks by script and calculate script coverage
+        script_coverage = {}
+        for block in unicode_coverage:
+            script = block['script']
+            if script not in script_coverage:
+                script_coverage[script] = {
+                    'blocks': [],
+                    'total_supported': 0,
+                    'total_chars': 0
+                }
+            
+            script_coverage[script]['blocks'].append(block['name'])
+            script_coverage[script]['total_supported'] += block['supported']
+            script_coverage[script]['total_chars'] += block['total']
+        
+        # Generate script summaries
+        scripts = []
+        total_languages = 0
+        
+        for script, data in script_coverage.items():
+            coverage = data['total_supported'] / data['total_chars'] if data['total_chars'] > 0 else 0
+            languages = script_languages.get(script, [])
+            
+            # Only include scripts with reasonable coverage (>10% for most, >5% for CJK due to size)
+            min_coverage = 0.05 if script == 'CJK' else 0.1
+            if coverage >= min_coverage:
+                scripts.append({
+                    'name': script,
+                    'coverage': round(coverage, 3),
+                    'languages': languages,
+                    'blocks': data['blocks']
+                })
+                total_languages += len(languages)
+        
+        # Sort by coverage descending
+        scripts.sort(key=lambda x: x['coverage'], reverse=True)
+        
+        return {
+            'scripts': scripts,
+            'total': total_languages
+        }
     
     def get_variable_info(self):
         """Extract variable font information if available"""
@@ -210,6 +277,7 @@ class FontInspector:
         features = self.get_opentype_features()
         stylistic_sets = self.get_stylistic_sets()
         unicode_coverage = self.get_unicode_coverage()
+        language_support = self.get_language_support()
         variable_info = self.get_variable_info()
         
         return {
@@ -220,6 +288,7 @@ class FontInspector:
                 'stylisticSets': stylistic_sets,
                 'unicodeRanges': unicode_coverage
             },
+            'languages': language_support,
             'variable': variable_info,
             'file': {
                 'path': str(self.font_path),

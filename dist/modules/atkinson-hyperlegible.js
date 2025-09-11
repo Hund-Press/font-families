@@ -30,6 +30,7 @@ export default {
       }
     }
   },
+  "languages": null,
   "features": {
     "openType": {
       "categories": {
@@ -207,7 +208,7 @@ export default {
         "static": "AtkinsonHyperlegible-400-min.woff2",
         "variable": []
       },
-      "generatedAt": "2025-09-11T13:27:42.319Z"
+      "generatedAt": "2025-09-11T14:17:05.517Z"
     }
   }
 };

@@ -39,6 +39,7 @@ export default {
       }
     }
   },
+  "languages": null,
   "features": {
     "openType": {
       "categories": {
@@ -724,7 +725,7 @@ export default {
           "PublicSansVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-11T13:27:42.317Z"
+      "generatedAt": "2025-09-11T14:17:05.515Z"
     }
   }
 };

@@ -52,6 +52,35 @@ export default {
       }
     }
   },
+  "languages": {
+    "scripts": [
+      {
+        "name": "Latin",
+        "coverage": 0.384,
+        "languages": [
+          "eng",
+          "fra",
+          "deu",
+          "spa",
+          "ita",
+          "por",
+          "nld",
+          "pol",
+          "ces",
+          "hun",
+          "tur"
+        ],
+        "blocks": [
+          "Basic Latin",
+          "Latin-1 Supplement",
+          "Latin Extended-A",
+          "Latin Extended-B",
+          "Latin Extended Additional"
+        ]
+      }
+    ],
+    "total": 11
+  },
   "features": {
     "openType": {
       "categories": {
@@ -801,7 +830,7 @@ export default {
           "AspektaVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-11T13:27:42.320Z"
+      "generatedAt": "2025-09-11T14:17:05.517Z"
     }
   }
 };

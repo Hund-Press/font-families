@@ -19039,6 +19039,7 @@ export default {
             "unicodeRanges": [
               {
                 "name": "Basic Latin",
+                "script": "Latin",
                 "coverage": 0.7265625,
                 "start": 0,
                 "end": 127,
@@ -19047,6 +19048,7 @@ export default {
               },
               {
                 "name": "Latin-1 Supplement",
+                "script": "Latin",
                 "coverage": 0.5703125,
                 "start": 128,
                 "end": 255,
@@ -19055,6 +19057,7 @@ export default {
               },
               {
                 "name": "Latin Extended-A",
+                "script": "Latin",
                 "coverage": 0.6953125,
                 "start": 256,
                 "end": 383,
@@ -19063,6 +19066,7 @@ export default {
               },
               {
                 "name": "Latin Extended-B",
+                "script": "Latin",
                 "coverage": 0.1201923076923077,
                 "start": 384,
                 "end": 591,
@@ -19071,6 +19075,7 @@ export default {
               },
               {
                 "name": "Latin Extended Additional",
+                "script": "Latin",
                 "coverage": 0.1796875,
                 "start": 7680,
                 "end": 7935,
@@ -19079,6 +19084,35 @@ export default {
               }
             ],
             "glyphCount": 473
+          },
+          "languages": {
+            "scripts": [
+              {
+                "name": "Latin",
+                "coverage": 0.384,
+                "languages": [
+                  "eng",
+                  "fra",
+                  "deu",
+                  "spa",
+                  "ita",
+                  "por",
+                  "nld",
+                  "pol",
+                  "ces",
+                  "hun",
+                  "tur"
+                ],
+                "blocks": [
+                  "Basic Latin",
+                  "Latin-1 Supplement",
+                  "Latin Extended-A",
+                  "Latin Extended-B",
+                  "Latin Extended Additional"
+                ]
+              }
+            ],
+            "total": 11
           },
           "performance": {
             "fileSize": 22860,
@@ -19207,6 +19241,7 @@ export default {
             "unicodeRanges": [
               {
                 "name": "Basic Latin",
+                "script": "Latin",
                 "coverage": 0.7265625,
                 "start": 0,
                 "end": 127,
@@ -19215,6 +19250,7 @@ export default {
               },
               {
                 "name": "Latin-1 Supplement",
+                "script": "Latin",
                 "coverage": 0.5703125,
                 "start": 128,
                 "end": 255,
@@ -19223,6 +19259,7 @@ export default {
               },
               {
                 "name": "Latin Extended-A",
+                "script": "Latin",
                 "coverage": 0.6953125,
                 "start": 256,
                 "end": 383,
@@ -19231,6 +19268,7 @@ export default {
               },
               {
                 "name": "Latin Extended-B",
+                "script": "Latin",
                 "coverage": 0.1201923076923077,
                 "start": 384,
                 "end": 591,
@@ -19239,6 +19277,7 @@ export default {
               },
               {
                 "name": "Latin Extended Additional",
+                "script": "Latin",
                 "coverage": 0.1796875,
                 "start": 7680,
                 "end": 7935,
@@ -19247,6 +19286,35 @@ export default {
               }
             ],
             "glyphCount": 473
+          },
+          "languages": {
+            "scripts": [
+              {
+                "name": "Latin",
+                "coverage": 0.384,
+                "languages": [
+                  "eng",
+                  "fra",
+                  "deu",
+                  "spa",
+                  "ita",
+                  "por",
+                  "nld",
+                  "pol",
+                  "ces",
+                  "hun",
+                  "tur"
+                ],
+                "blocks": [
+                  "Basic Latin",
+                  "Latin-1 Supplement",
+                  "Latin Extended-A",
+                  "Latin Extended-B",
+                  "Latin Extended Additional"
+                ]
+              }
+            ],
+            "total": 11
           },
           "performance": {
             "fileSize": 22596,
@@ -19375,6 +19443,7 @@ export default {
             "unicodeRanges": [
               {
                 "name": "Basic Latin",
+                "script": "Latin",
                 "coverage": 0.7265625,
                 "start": 0,
                 "end": 127,
@@ -19383,6 +19452,7 @@ export default {
               },
               {
                 "name": "Latin-1 Supplement",
+                "script": "Latin",
                 "coverage": 0.5703125,
                 "start": 128,
                 "end": 255,
@@ -19391,6 +19461,7 @@ export default {
               },
               {
                 "name": "Latin Extended-A",
+                "script": "Latin",
                 "coverage": 0.6953125,
                 "start": 256,
                 "end": 383,
@@ -19399,6 +19470,7 @@ export default {
               },
               {
                 "name": "Latin Extended-B",
+                "script": "Latin",
                 "coverage": 0.1201923076923077,
                 "start": 384,
                 "end": 591,
@@ -19407,6 +19479,7 @@ export default {
               },
               {
                 "name": "Latin Extended Additional",
+                "script": "Latin",
                 "coverage": 0.1796875,
                 "start": 7680,
                 "end": 7935,
@@ -19415,6 +19488,35 @@ export default {
               }
             ],
             "glyphCount": 473
+          },
+          "languages": {
+            "scripts": [
+              {
+                "name": "Latin",
+                "coverage": 0.384,
+                "languages": [
+                  "eng",
+                  "fra",
+                  "deu",
+                  "spa",
+                  "ita",
+                  "por",
+                  "nld",
+                  "pol",
+                  "ces",
+                  "hun",
+                  "tur"
+                ],
+                "blocks": [
+                  "Basic Latin",
+                  "Latin-1 Supplement",
+                  "Latin Extended-A",
+                  "Latin Extended-B",
+                  "Latin Extended Additional"
+                ]
+              }
+            ],
+            "total": 11
           },
           "performance": {
             "fileSize": 22756,
@@ -19543,6 +19645,7 @@ export default {
             "unicodeRanges": [
               {
                 "name": "Basic Latin",
+                "script": "Latin",
                 "coverage": 0.7265625,
                 "start": 0,
                 "end": 127,
@@ -19551,6 +19654,7 @@ export default {
               },
               {
                 "name": "Latin-1 Supplement",
+                "script": "Latin",
                 "coverage": 0.5703125,
                 "start": 128,
                 "end": 255,
@@ -19559,6 +19663,7 @@ export default {
               },
               {
                 "name": "Latin Extended-A",
+                "script": "Latin",
                 "coverage": 0.6953125,
                 "start": 256,
                 "end": 383,
@@ -19567,6 +19672,7 @@ export default {
               },
               {
                 "name": "Latin Extended-B",
+                "script": "Latin",
                 "coverage": 0.1201923076923077,
                 "start": 384,
                 "end": 591,
@@ -19575,6 +19681,7 @@ export default {
               },
               {
                 "name": "Latin Extended Additional",
+                "script": "Latin",
                 "coverage": 0.1796875,
                 "start": 7680,
                 "end": 7935,
@@ -19583,6 +19690,35 @@ export default {
               }
             ],
             "glyphCount": 473
+          },
+          "languages": {
+            "scripts": [
+              {
+                "name": "Latin",
+                "coverage": 0.384,
+                "languages": [
+                  "eng",
+                  "fra",
+                  "deu",
+                  "spa",
+                  "ita",
+                  "por",
+                  "nld",
+                  "pol",
+                  "ces",
+                  "hun",
+                  "tur"
+                ],
+                "blocks": [
+                  "Basic Latin",
+                  "Latin-1 Supplement",
+                  "Latin Extended-A",
+                  "Latin Extended-B",
+                  "Latin Extended Additional"
+                ]
+              }
+            ],
+            "total": 11
           },
           "performance": {
             "fileSize": 22608,
@@ -19711,6 +19847,7 @@ export default {
             "unicodeRanges": [
               {
                 "name": "Basic Latin",
+                "script": "Latin",
                 "coverage": 0.7265625,
                 "start": 0,
                 "end": 127,
@@ -19719,6 +19856,7 @@ export default {
               },
               {
                 "name": "Latin-1 Supplement",
+                "script": "Latin",
                 "coverage": 0.5703125,
                 "start": 128,
                 "end": 255,
@@ -19727,6 +19865,7 @@ export default {
               },
               {
                 "name": "Latin Extended-A",
+                "script": "Latin",
                 "coverage": 0.6953125,
                 "start": 256,
                 "end": 383,
@@ -19735,6 +19874,7 @@ export default {
               },
               {
                 "name": "Latin Extended-B",
+                "script": "Latin",
                 "coverage": 0.1201923076923077,
                 "start": 384,
                 "end": 591,
@@ -19743,6 +19883,7 @@ export default {
               },
               {
                 "name": "Latin Extended Additional",
+                "script": "Latin",
                 "coverage": 0.1796875,
                 "start": 7680,
                 "end": 7935,
@@ -19751,6 +19892,35 @@ export default {
               }
             ],
             "glyphCount": 473
+          },
+          "languages": {
+            "scripts": [
+              {
+                "name": "Latin",
+                "coverage": 0.384,
+                "languages": [
+                  "eng",
+                  "fra",
+                  "deu",
+                  "spa",
+                  "ita",
+                  "por",
+                  "nld",
+                  "pol",
+                  "ces",
+                  "hun",
+                  "tur"
+                ],
+                "blocks": [
+                  "Basic Latin",
+                  "Latin-1 Supplement",
+                  "Latin Extended-A",
+                  "Latin Extended-B",
+                  "Latin Extended Additional"
+                ]
+              }
+            ],
+            "total": 11
           },
           "performance": {
             "fileSize": 22420,
@@ -19879,6 +20049,7 @@ export default {
             "unicodeRanges": [
               {
                 "name": "Basic Latin",
+                "script": "Latin",
                 "coverage": 0.7265625,
                 "start": 0,
                 "end": 127,
@@ -19887,6 +20058,7 @@ export default {
               },
               {
                 "name": "Latin-1 Supplement",
+                "script": "Latin",
                 "coverage": 0.5703125,
                 "start": 128,
                 "end": 255,
@@ -19895,6 +20067,7 @@ export default {
               },
               {
                 "name": "Latin Extended-A",
+                "script": "Latin",
                 "coverage": 0.6953125,
                 "start": 256,
                 "end": 383,
@@ -19903,6 +20076,7 @@ export default {
               },
               {
                 "name": "Latin Extended-B",
+                "script": "Latin",
                 "coverage": 0.1201923076923077,
                 "start": 384,
                 "end": 591,
@@ -19911,6 +20085,7 @@ export default {
               },
               {
                 "name": "Latin Extended Additional",
+                "script": "Latin",
                 "coverage": 0.1796875,
                 "start": 7680,
                 "end": 7935,
@@ -19919,6 +20094,35 @@ export default {
               }
             ],
             "glyphCount": 473
+          },
+          "languages": {
+            "scripts": [
+              {
+                "name": "Latin",
+                "coverage": 0.384,
+                "languages": [
+                  "eng",
+                  "fra",
+                  "deu",
+                  "spa",
+                  "ita",
+                  "por",
+                  "nld",
+                  "pol",
+                  "ces",
+                  "hun",
+                  "tur"
+                ],
+                "blocks": [
+                  "Basic Latin",
+                  "Latin-1 Supplement",
+                  "Latin Extended-A",
+                  "Latin Extended-B",
+                  "Latin Extended Additional"
+                ]
+              }
+            ],
+            "total": 11
           },
           "performance": {
             "fileSize": 22168,
@@ -20047,6 +20251,7 @@ export default {
             "unicodeRanges": [
               {
                 "name": "Basic Latin",
+                "script": "Latin",
                 "coverage": 0.7265625,
                 "start": 0,
                 "end": 127,
@@ -20055,6 +20260,7 @@ export default {
               },
               {
                 "name": "Latin-1 Supplement",
+                "script": "Latin",
                 "coverage": 0.5703125,
                 "start": 128,
                 "end": 255,
@@ -20063,6 +20269,7 @@ export default {
               },
               {
                 "name": "Latin Extended-A",
+                "script": "Latin",
                 "coverage": 0.6953125,
                 "start": 256,
                 "end": 383,
@@ -20071,6 +20278,7 @@ export default {
               },
               {
                 "name": "Latin Extended-B",
+                "script": "Latin",
                 "coverage": 0.1201923076923077,
                 "start": 384,
                 "end": 591,
@@ -20079,6 +20287,7 @@ export default {
               },
               {
                 "name": "Latin Extended Additional",
+                "script": "Latin",
                 "coverage": 0.1796875,
                 "start": 7680,
                 "end": 7935,
@@ -20087,6 +20296,35 @@ export default {
               }
             ],
             "glyphCount": 473
+          },
+          "languages": {
+            "scripts": [
+              {
+                "name": "Latin",
+                "coverage": 0.384,
+                "languages": [
+                  "eng",
+                  "fra",
+                  "deu",
+                  "spa",
+                  "ita",
+                  "por",
+                  "nld",
+                  "pol",
+                  "ces",
+                  "hun",
+                  "tur"
+                ],
+                "blocks": [
+                  "Basic Latin",
+                  "Latin-1 Supplement",
+                  "Latin Extended-A",
+                  "Latin Extended-B",
+                  "Latin Extended Additional"
+                ]
+              }
+            ],
+            "total": 11
           },
           "performance": {
             "fileSize": 21980,
@@ -20215,6 +20453,7 @@ export default {
             "unicodeRanges": [
               {
                 "name": "Basic Latin",
+                "script": "Latin",
                 "coverage": 0.7265625,
                 "start": 0,
                 "end": 127,
@@ -20223,6 +20462,7 @@ export default {
               },
               {
                 "name": "Latin-1 Supplement",
+                "script": "Latin",
                 "coverage": 0.5703125,
                 "start": 128,
                 "end": 255,
@@ -20231,6 +20471,7 @@ export default {
               },
               {
                 "name": "Latin Extended-A",
+                "script": "Latin",
                 "coverage": 0.6953125,
                 "start": 256,
                 "end": 383,
@@ -20239,6 +20480,7 @@ export default {
               },
               {
                 "name": "Latin Extended-B",
+                "script": "Latin",
                 "coverage": 0.1201923076923077,
                 "start": 384,
                 "end": 591,
@@ -20247,6 +20489,7 @@ export default {
               },
               {
                 "name": "Latin Extended Additional",
+                "script": "Latin",
                 "coverage": 0.1796875,
                 "start": 7680,
                 "end": 7935,
@@ -20255,6 +20498,35 @@ export default {
               }
             ],
             "glyphCount": 473
+          },
+          "languages": {
+            "scripts": [
+              {
+                "name": "Latin",
+                "coverage": 0.384,
+                "languages": [
+                  "eng",
+                  "fra",
+                  "deu",
+                  "spa",
+                  "ita",
+                  "por",
+                  "nld",
+                  "pol",
+                  "ces",
+                  "hun",
+                  "tur"
+                ],
+                "blocks": [
+                  "Basic Latin",
+                  "Latin-1 Supplement",
+                  "Latin Extended-A",
+                  "Latin Extended-B",
+                  "Latin Extended Additional"
+                ]
+              }
+            ],
+            "total": 11
           },
           "performance": {
             "fileSize": 22140,
@@ -20383,6 +20655,7 @@ export default {
             "unicodeRanges": [
               {
                 "name": "Basic Latin",
+                "script": "Latin",
                 "coverage": 0.7265625,
                 "start": 0,
                 "end": 127,
@@ -20391,6 +20664,7 @@ export default {
               },
               {
                 "name": "Latin-1 Supplement",
+                "script": "Latin",
                 "coverage": 0.5703125,
                 "start": 128,
                 "end": 255,
@@ -20399,6 +20673,7 @@ export default {
               },
               {
                 "name": "Latin Extended-A",
+                "script": "Latin",
                 "coverage": 0.6953125,
                 "start": 256,
                 "end": 383,
@@ -20407,6 +20682,7 @@ export default {
               },
               {
                 "name": "Latin Extended-B",
+                "script": "Latin",
                 "coverage": 0.1201923076923077,
                 "start": 384,
                 "end": 591,
@@ -20415,6 +20691,7 @@ export default {
               },
               {
                 "name": "Latin Extended Additional",
+                "script": "Latin",
                 "coverage": 0.1796875,
                 "start": 7680,
                 "end": 7935,
@@ -20423,6 +20700,35 @@ export default {
               }
             ],
             "glyphCount": 473
+          },
+          "languages": {
+            "scripts": [
+              {
+                "name": "Latin",
+                "coverage": 0.384,
+                "languages": [
+                  "eng",
+                  "fra",
+                  "deu",
+                  "spa",
+                  "ita",
+                  "por",
+                  "nld",
+                  "pol",
+                  "ces",
+                  "hun",
+                  "tur"
+                ],
+                "blocks": [
+                  "Basic Latin",
+                  "Latin-1 Supplement",
+                  "Latin Extended-A",
+                  "Latin Extended-B",
+                  "Latin Extended Additional"
+                ]
+              }
+            ],
+            "total": 11
           },
           "performance": {
             "fileSize": 22016,
@@ -20551,6 +20857,7 @@ export default {
             "unicodeRanges": [
               {
                 "name": "Basic Latin",
+                "script": "Latin",
                 "coverage": 0.7265625,
                 "start": 0,
                 "end": 127,
@@ -20559,6 +20866,7 @@ export default {
               },
               {
                 "name": "Latin-1 Supplement",
+                "script": "Latin",
                 "coverage": 0.5703125,
                 "start": 128,
                 "end": 255,
@@ -20567,6 +20875,7 @@ export default {
               },
               {
                 "name": "Latin Extended-A",
+                "script": "Latin",
                 "coverage": 0.6953125,
                 "start": 256,
                 "end": 383,
@@ -20575,6 +20884,7 @@ export default {
               },
               {
                 "name": "Latin Extended-B",
+                "script": "Latin",
                 "coverage": 0.1201923076923077,
                 "start": 384,
                 "end": 591,
@@ -20583,6 +20893,7 @@ export default {
               },
               {
                 "name": "Latin Extended Additional",
+                "script": "Latin",
                 "coverage": 0.1796875,
                 "start": 7680,
                 "end": 7935,
@@ -20591,6 +20902,35 @@ export default {
               }
             ],
             "glyphCount": 473
+          },
+          "languages": {
+            "scripts": [
+              {
+                "name": "Latin",
+                "coverage": 0.384,
+                "languages": [
+                  "eng",
+                  "fra",
+                  "deu",
+                  "spa",
+                  "ita",
+                  "por",
+                  "nld",
+                  "pol",
+                  "ces",
+                  "hun",
+                  "tur"
+                ],
+                "blocks": [
+                  "Basic Latin",
+                  "Latin-1 Supplement",
+                  "Latin Extended-A",
+                  "Latin Extended-B",
+                  "Latin Extended Additional"
+                ]
+              }
+            ],
+            "total": 11
           },
           "performance": {
             "fileSize": 22124,
@@ -20719,6 +21059,7 @@ export default {
             "unicodeRanges": [
               {
                 "name": "Basic Latin",
+                "script": "Latin",
                 "coverage": 0.7265625,
                 "start": 0,
                 "end": 127,
@@ -20727,6 +21068,7 @@ export default {
               },
               {
                 "name": "Latin-1 Supplement",
+                "script": "Latin",
                 "coverage": 0.5703125,
                 "start": 128,
                 "end": 255,
@@ -20735,6 +21077,7 @@ export default {
               },
               {
                 "name": "Latin Extended-A",
+                "script": "Latin",
                 "coverage": 0.6953125,
                 "start": 256,
                 "end": 383,
@@ -20743,6 +21086,7 @@ export default {
               },
               {
                 "name": "Latin Extended-B",
+                "script": "Latin",
                 "coverage": 0.1201923076923077,
                 "start": 384,
                 "end": 591,
@@ -20751,6 +21095,7 @@ export default {
               },
               {
                 "name": "Latin Extended Additional",
+                "script": "Latin",
                 "coverage": 0.1796875,
                 "start": 7680,
                 "end": 7935,
@@ -20759,6 +21104,35 @@ export default {
               }
             ],
             "glyphCount": 473
+          },
+          "languages": {
+            "scripts": [
+              {
+                "name": "Latin",
+                "coverage": 0.384,
+                "languages": [
+                  "eng",
+                  "fra",
+                  "deu",
+                  "spa",
+                  "ita",
+                  "por",
+                  "nld",
+                  "pol",
+                  "ces",
+                  "hun",
+                  "tur"
+                ],
+                "blocks": [
+                  "Basic Latin",
+                  "Latin-1 Supplement",
+                  "Latin Extended-A",
+                  "Latin Extended-B",
+                  "Latin Extended Additional"
+                ]
+              }
+            ],
+            "total": 11
           },
           "performance": {
             "fileSize": 21396,
@@ -20887,6 +21261,7 @@ export default {
             "unicodeRanges": [
               {
                 "name": "Basic Latin",
+                "script": "Latin",
                 "coverage": 0.7265625,
                 "start": 0,
                 "end": 127,
@@ -20895,6 +21270,7 @@ export default {
               },
               {
                 "name": "Latin-1 Supplement",
+                "script": "Latin",
                 "coverage": 0.5703125,
                 "start": 128,
                 "end": 255,
@@ -20903,6 +21279,7 @@ export default {
               },
               {
                 "name": "Latin Extended-A",
+                "script": "Latin",
                 "coverage": 0.6953125,
                 "start": 256,
                 "end": 383,
@@ -20911,6 +21288,7 @@ export default {
               },
               {
                 "name": "Latin Extended-B",
+                "script": "Latin",
                 "coverage": 0.1201923076923077,
                 "start": 384,
                 "end": 591,
@@ -20919,6 +21297,7 @@ export default {
               },
               {
                 "name": "Latin Extended Additional",
+                "script": "Latin",
                 "coverage": 0.1796875,
                 "start": 7680,
                 "end": 7935,
@@ -20927,6 +21306,35 @@ export default {
               }
             ],
             "glyphCount": 473
+          },
+          "languages": {
+            "scripts": [
+              {
+                "name": "Latin",
+                "coverage": 0.384,
+                "languages": [
+                  "eng",
+                  "fra",
+                  "deu",
+                  "spa",
+                  "ita",
+                  "por",
+                  "nld",
+                  "pol",
+                  "ces",
+                  "hun",
+                  "tur"
+                ],
+                "blocks": [
+                  "Basic Latin",
+                  "Latin-1 Supplement",
+                  "Latin Extended-A",
+                  "Latin Extended-B",
+                  "Latin Extended Additional"
+                ]
+              }
+            ],
+            "total": 11
           },
           "performance": {
             "fileSize": 22240,
@@ -21055,6 +21463,7 @@ export default {
             "unicodeRanges": [
               {
                 "name": "Basic Latin",
+                "script": "Latin",
                 "coverage": 0.7265625,
                 "start": 0,
                 "end": 127,
@@ -21063,6 +21472,7 @@ export default {
               },
               {
                 "name": "Latin-1 Supplement",
+                "script": "Latin",
                 "coverage": 0.5703125,
                 "start": 128,
                 "end": 255,
@@ -21071,6 +21481,7 @@ export default {
               },
               {
                 "name": "Latin Extended-A",
+                "script": "Latin",
                 "coverage": 0.6953125,
                 "start": 256,
                 "end": 383,
@@ -21079,6 +21490,7 @@ export default {
               },
               {
                 "name": "Latin Extended-B",
+                "script": "Latin",
                 "coverage": 0.1201923076923077,
                 "start": 384,
                 "end": 591,
@@ -21087,6 +21499,7 @@ export default {
               },
               {
                 "name": "Latin Extended Additional",
+                "script": "Latin",
                 "coverage": 0.1796875,
                 "start": 7680,
                 "end": 7935,
@@ -21095,6 +21508,35 @@ export default {
               }
             ],
             "glyphCount": 473
+          },
+          "languages": {
+            "scripts": [
+              {
+                "name": "Latin",
+                "coverage": 0.384,
+                "languages": [
+                  "eng",
+                  "fra",
+                  "deu",
+                  "spa",
+                  "ita",
+                  "por",
+                  "nld",
+                  "pol",
+                  "ces",
+                  "hun",
+                  "tur"
+                ],
+                "blocks": [
+                  "Basic Latin",
+                  "Latin-1 Supplement",
+                  "Latin Extended-A",
+                  "Latin Extended-B",
+                  "Latin Extended Additional"
+                ]
+              }
+            ],
+            "total": 11
           },
           "performance": {
             "fileSize": 21748,
@@ -21223,6 +21665,7 @@ export default {
             "unicodeRanges": [
               {
                 "name": "Basic Latin",
+                "script": "Latin",
                 "coverage": 0.7265625,
                 "start": 0,
                 "end": 127,
@@ -21231,6 +21674,7 @@ export default {
               },
               {
                 "name": "Latin-1 Supplement",
+                "script": "Latin",
                 "coverage": 0.5703125,
                 "start": 128,
                 "end": 255,
@@ -21239,6 +21683,7 @@ export default {
               },
               {
                 "name": "Latin Extended-A",
+                "script": "Latin",
                 "coverage": 0.6953125,
                 "start": 256,
                 "end": 383,
@@ -21247,6 +21692,7 @@ export default {
               },
               {
                 "name": "Latin Extended-B",
+                "script": "Latin",
                 "coverage": 0.1201923076923077,
                 "start": 384,
                 "end": 591,
@@ -21255,6 +21701,7 @@ export default {
               },
               {
                 "name": "Latin Extended Additional",
+                "script": "Latin",
                 "coverage": 0.1796875,
                 "start": 7680,
                 "end": 7935,
@@ -21263,6 +21710,35 @@ export default {
               }
             ],
             "glyphCount": 473
+          },
+          "languages": {
+            "scripts": [
+              {
+                "name": "Latin",
+                "coverage": 0.384,
+                "languages": [
+                  "eng",
+                  "fra",
+                  "deu",
+                  "spa",
+                  "ita",
+                  "por",
+                  "nld",
+                  "pol",
+                  "ces",
+                  "hun",
+                  "tur"
+                ],
+                "blocks": [
+                  "Basic Latin",
+                  "Latin-1 Supplement",
+                  "Latin Extended-A",
+                  "Latin Extended-B",
+                  "Latin Extended Additional"
+                ]
+              }
+            ],
+            "total": 11
           },
           "performance": {
             "fileSize": 21956,
@@ -21391,6 +21867,7 @@ export default {
             "unicodeRanges": [
               {
                 "name": "Basic Latin",
+                "script": "Latin",
                 "coverage": 0.7265625,
                 "start": 0,
                 "end": 127,
@@ -21399,6 +21876,7 @@ export default {
               },
               {
                 "name": "Latin-1 Supplement",
+                "script": "Latin",
                 "coverage": 0.5703125,
                 "start": 128,
                 "end": 255,
@@ -21407,6 +21885,7 @@ export default {
               },
               {
                 "name": "Latin Extended-A",
+                "script": "Latin",
                 "coverage": 0.6953125,
                 "start": 256,
                 "end": 383,
@@ -21415,6 +21894,7 @@ export default {
               },
               {
                 "name": "Latin Extended-B",
+                "script": "Latin",
                 "coverage": 0.1201923076923077,
                 "start": 384,
                 "end": 591,
@@ -21423,6 +21903,7 @@ export default {
               },
               {
                 "name": "Latin Extended Additional",
+                "script": "Latin",
                 "coverage": 0.1796875,
                 "start": 7680,
                 "end": 7935,
@@ -21431,6 +21912,35 @@ export default {
               }
             ],
             "glyphCount": 473
+          },
+          "languages": {
+            "scripts": [
+              {
+                "name": "Latin",
+                "coverage": 0.384,
+                "languages": [
+                  "eng",
+                  "fra",
+                  "deu",
+                  "spa",
+                  "ita",
+                  "por",
+                  "nld",
+                  "pol",
+                  "ces",
+                  "hun",
+                  "tur"
+                ],
+                "blocks": [
+                  "Basic Latin",
+                  "Latin-1 Supplement",
+                  "Latin Extended-A",
+                  "Latin Extended-B",
+                  "Latin Extended Additional"
+                ]
+              }
+            ],
+            "total": 11
           },
           "performance": {
             "fileSize": 22600,
@@ -21559,6 +22069,7 @@ export default {
             "unicodeRanges": [
               {
                 "name": "Basic Latin",
+                "script": "Latin",
                 "coverage": 0.7265625,
                 "start": 0,
                 "end": 127,
@@ -21567,6 +22078,7 @@ export default {
               },
               {
                 "name": "Latin-1 Supplement",
+                "script": "Latin",
                 "coverage": 0.5703125,
                 "start": 128,
                 "end": 255,
@@ -21575,6 +22087,7 @@ export default {
               },
               {
                 "name": "Latin Extended-A",
+                "script": "Latin",
                 "coverage": 0.6953125,
                 "start": 256,
                 "end": 383,
@@ -21583,6 +22096,7 @@ export default {
               },
               {
                 "name": "Latin Extended-B",
+                "script": "Latin",
                 "coverage": 0.1201923076923077,
                 "start": 384,
                 "end": 591,
@@ -21591,6 +22105,7 @@ export default {
               },
               {
                 "name": "Latin Extended Additional",
+                "script": "Latin",
                 "coverage": 0.1796875,
                 "start": 7680,
                 "end": 7935,
@@ -21599,6 +22114,35 @@ export default {
               }
             ],
             "glyphCount": 473
+          },
+          "languages": {
+            "scripts": [
+              {
+                "name": "Latin",
+                "coverage": 0.384,
+                "languages": [
+                  "eng",
+                  "fra",
+                  "deu",
+                  "spa",
+                  "ita",
+                  "por",
+                  "nld",
+                  "pol",
+                  "ces",
+                  "hun",
+                  "tur"
+                ],
+                "blocks": [
+                  "Basic Latin",
+                  "Latin-1 Supplement",
+                  "Latin Extended-A",
+                  "Latin Extended-B",
+                  "Latin Extended Additional"
+                ]
+              }
+            ],
+            "total": 11
           },
           "performance": {
             "fileSize": 22024,
@@ -21727,6 +22271,7 @@ export default {
             "unicodeRanges": [
               {
                 "name": "Basic Latin",
+                "script": "Latin",
                 "coverage": 0.7265625,
                 "start": 0,
                 "end": 127,
@@ -21735,6 +22280,7 @@ export default {
               },
               {
                 "name": "Latin-1 Supplement",
+                "script": "Latin",
                 "coverage": 0.5703125,
                 "start": 128,
                 "end": 255,
@@ -21743,6 +22289,7 @@ export default {
               },
               {
                 "name": "Latin Extended-A",
+                "script": "Latin",
                 "coverage": 0.6953125,
                 "start": 256,
                 "end": 383,
@@ -21751,6 +22298,7 @@ export default {
               },
               {
                 "name": "Latin Extended-B",
+                "script": "Latin",
                 "coverage": 0.1201923076923077,
                 "start": 384,
                 "end": 591,
@@ -21759,6 +22307,7 @@ export default {
               },
               {
                 "name": "Latin Extended Additional",
+                "script": "Latin",
                 "coverage": 0.1796875,
                 "start": 7680,
                 "end": 7935,
@@ -21767,6 +22316,35 @@ export default {
               }
             ],
             "glyphCount": 473
+          },
+          "languages": {
+            "scripts": [
+              {
+                "name": "Latin",
+                "coverage": 0.384,
+                "languages": [
+                  "eng",
+                  "fra",
+                  "deu",
+                  "spa",
+                  "ita",
+                  "por",
+                  "nld",
+                  "pol",
+                  "ces",
+                  "hun",
+                  "tur"
+                ],
+                "blocks": [
+                  "Basic Latin",
+                  "Latin-1 Supplement",
+                  "Latin Extended-A",
+                  "Latin Extended-B",
+                  "Latin Extended Additional"
+                ]
+              }
+            ],
+            "total": 11
           },
           "performance": {
             "fileSize": 21884,
@@ -21895,6 +22473,7 @@ export default {
             "unicodeRanges": [
               {
                 "name": "Basic Latin",
+                "script": "Latin",
                 "coverage": 0.7265625,
                 "start": 0,
                 "end": 127,
@@ -21903,6 +22482,7 @@ export default {
               },
               {
                 "name": "Latin-1 Supplement",
+                "script": "Latin",
                 "coverage": 0.5703125,
                 "start": 128,
                 "end": 255,
@@ -21911,6 +22491,7 @@ export default {
               },
               {
                 "name": "Latin Extended-A",
+                "script": "Latin",
                 "coverage": 0.6953125,
                 "start": 256,
                 "end": 383,
@@ -21919,6 +22500,7 @@ export default {
               },
               {
                 "name": "Latin Extended-B",
+                "script": "Latin",
                 "coverage": 0.1201923076923077,
                 "start": 384,
                 "end": 591,
@@ -21927,6 +22509,7 @@ export default {
               },
               {
                 "name": "Latin Extended Additional",
+                "script": "Latin",
                 "coverage": 0.1796875,
                 "start": 7680,
                 "end": 7935,
@@ -21935,6 +22518,35 @@ export default {
               }
             ],
             "glyphCount": 473
+          },
+          "languages": {
+            "scripts": [
+              {
+                "name": "Latin",
+                "coverage": 0.384,
+                "languages": [
+                  "eng",
+                  "fra",
+                  "deu",
+                  "spa",
+                  "ita",
+                  "por",
+                  "nld",
+                  "pol",
+                  "ces",
+                  "hun",
+                  "tur"
+                ],
+                "blocks": [
+                  "Basic Latin",
+                  "Latin-1 Supplement",
+                  "Latin Extended-A",
+                  "Latin Extended-B",
+                  "Latin Extended Additional"
+                ]
+              }
+            ],
+            "total": 11
           },
           "performance": {
             "fileSize": 21596,
@@ -22063,6 +22675,7 @@ export default {
             "unicodeRanges": [
               {
                 "name": "Basic Latin",
+                "script": "Latin",
                 "coverage": 0.7265625,
                 "start": 0,
                 "end": 127,
@@ -22071,6 +22684,7 @@ export default {
               },
               {
                 "name": "Latin-1 Supplement",
+                "script": "Latin",
                 "coverage": 0.5703125,
                 "start": 128,
                 "end": 255,
@@ -22079,6 +22693,7 @@ export default {
               },
               {
                 "name": "Latin Extended-A",
+                "script": "Latin",
                 "coverage": 0.6953125,
                 "start": 256,
                 "end": 383,
@@ -22087,6 +22702,7 @@ export default {
               },
               {
                 "name": "Latin Extended-B",
+                "script": "Latin",
                 "coverage": 0.1201923076923077,
                 "start": 384,
                 "end": 591,
@@ -22095,6 +22711,7 @@ export default {
               },
               {
                 "name": "Latin Extended Additional",
+                "script": "Latin",
                 "coverage": 0.1796875,
                 "start": 7680,
                 "end": 7935,
@@ -22103,6 +22720,35 @@ export default {
               }
             ],
             "glyphCount": 473
+          },
+          "languages": {
+            "scripts": [
+              {
+                "name": "Latin",
+                "coverage": 0.384,
+                "languages": [
+                  "eng",
+                  "fra",
+                  "deu",
+                  "spa",
+                  "ita",
+                  "por",
+                  "nld",
+                  "pol",
+                  "ces",
+                  "hun",
+                  "tur"
+                ],
+                "blocks": [
+                  "Basic Latin",
+                  "Latin-1 Supplement",
+                  "Latin Extended-A",
+                  "Latin Extended-B",
+                  "Latin Extended Additional"
+                ]
+              }
+            ],
+            "total": 11
           },
           "performance": {
             "fileSize": 23096,
@@ -22231,6 +22877,7 @@ export default {
             "unicodeRanges": [
               {
                 "name": "Basic Latin",
+                "script": "Latin",
                 "coverage": 0.7265625,
                 "start": 0,
                 "end": 127,
@@ -22239,6 +22886,7 @@ export default {
               },
               {
                 "name": "Latin-1 Supplement",
+                "script": "Latin",
                 "coverage": 0.5703125,
                 "start": 128,
                 "end": 255,
@@ -22247,6 +22895,7 @@ export default {
               },
               {
                 "name": "Latin Extended-A",
+                "script": "Latin",
                 "coverage": 0.6953125,
                 "start": 256,
                 "end": 383,
@@ -22255,6 +22904,7 @@ export default {
               },
               {
                 "name": "Latin Extended-B",
+                "script": "Latin",
                 "coverage": 0.1201923076923077,
                 "start": 384,
                 "end": 591,
@@ -22263,6 +22913,7 @@ export default {
               },
               {
                 "name": "Latin Extended Additional",
+                "script": "Latin",
                 "coverage": 0.1796875,
                 "start": 7680,
                 "end": 7935,
@@ -22271,6 +22922,35 @@ export default {
               }
             ],
             "glyphCount": 473
+          },
+          "languages": {
+            "scripts": [
+              {
+                "name": "Latin",
+                "coverage": 0.384,
+                "languages": [
+                  "eng",
+                  "fra",
+                  "deu",
+                  "spa",
+                  "ita",
+                  "por",
+                  "nld",
+                  "pol",
+                  "ces",
+                  "hun",
+                  "tur"
+                ],
+                "blocks": [
+                  "Basic Latin",
+                  "Latin-1 Supplement",
+                  "Latin Extended-A",
+                  "Latin Extended-B",
+                  "Latin Extended Additional"
+                ]
+              }
+            ],
+            "total": 11
           },
           "performance": {
             "fileSize": 21116,
@@ -22404,6 +23084,7 @@ export default {
             "unicodeRanges": [
               {
                 "name": "Basic Latin",
+                "script": "Latin",
                 "coverage": 0.7265625,
                 "start": 0,
                 "end": 127,
@@ -22412,6 +23093,7 @@ export default {
               },
               {
                 "name": "Latin-1 Supplement",
+                "script": "Latin",
                 "coverage": 0.5703125,
                 "start": 128,
                 "end": 255,
@@ -22420,6 +23102,7 @@ export default {
               },
               {
                 "name": "Latin Extended-A",
+                "script": "Latin",
                 "coverage": 0.6953125,
                 "start": 256,
                 "end": 383,
@@ -22428,6 +23111,7 @@ export default {
               },
               {
                 "name": "Latin Extended-B",
+                "script": "Latin",
                 "coverage": 0.1201923076923077,
                 "start": 384,
                 "end": 591,
@@ -22436,6 +23120,7 @@ export default {
               },
               {
                 "name": "Latin Extended Additional",
+                "script": "Latin",
                 "coverage": 0.1796875,
                 "start": 7680,
                 "end": 7935,
@@ -22444,6 +23129,35 @@ export default {
               }
             ],
             "glyphCount": 473
+          },
+          "languages": {
+            "scripts": [
+              {
+                "name": "Latin",
+                "coverage": 0.384,
+                "languages": [
+                  "eng",
+                  "fra",
+                  "deu",
+                  "spa",
+                  "ita",
+                  "por",
+                  "nld",
+                  "pol",
+                  "ces",
+                  "hun",
+                  "tur"
+                ],
+                "blocks": [
+                  "Basic Latin",
+                  "Latin-1 Supplement",
+                  "Latin Extended-A",
+                  "Latin Extended-B",
+                  "Latin Extended Additional"
+                ]
+              }
+            ],
+            "total": 11
           },
           "performance": {
             "fileSize": 69480,
@@ -22473,7 +23187,7 @@ export default {
     }
   },
   "buildInfo": {
-    "timestamp": "2025-09-11T13:27:42.333Z",
+    "timestamp": "2025-09-11T14:17:05.529Z",
     "version": "1.6.0",
     "fontCount": 6
   }
