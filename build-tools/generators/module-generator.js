@@ -842,7 +842,7 @@ export async function generateIndexModule(fontFamilies, outputDir) {
  * Provides easy access to all font family modules
  */
 
-${exports.join('\\n')}
+${exports.join('\n')}
 
 // Combined export
 export { default as allFonts } from './all.js';
@@ -851,7 +851,7 @@ export { default as allFonts } from './all.js';
 const fontMap = {
 ${Object.entries(fontFamilies).map(([familyKey, familyData]) => 
     `  '${familyData.key}': () => import('./${familyData.key}.js')`
-).join(',\\n')}
+).join(',\n')}
 };
 
 export async function getFontByKey(key) {
