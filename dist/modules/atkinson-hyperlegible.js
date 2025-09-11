@@ -10,10 +10,12 @@
 export default {
   "name": "Atkinson Hyperlegible",
   "key": "atkinson-hyperlegible",
-  "version": "1.0.0",
-  "author": "Braille Institute of America",
-  "license": "OFL-1.1",
-  "description": "",
+  "attribution": {
+    "version": "1.0.0",
+    "author": "Braille Institute of America",
+    "license": "OFL-1.1",
+    "description": ""
+  },
   "weight": {
     "range": "400-700",
     "byFormat": {
@@ -117,7 +119,7 @@ export default {
         "static": "AtkinsonHyperlegible-400-min.woff2",
         "variable": []
       },
-      "generatedAt": "2025-09-10T17:58:08.821Z"
+      "generatedAt": "2025-09-11T12:28:01.804Z"
     }
   }
 };

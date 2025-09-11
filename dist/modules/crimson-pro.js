@@ -10,8 +10,10 @@
 export default {
   "name": "Crimson Pro",
   "key": "crimson-pro",
-  "license": "OFL-1.1",
-  "description": "",
+  "attribution": {
+    "license": "OFL-1.1",
+    "description": ""
+  },
   "weight": {
     "range": "200-900",
     "byFormat": {
@@ -260,7 +262,7 @@ export default {
           "CrimsonProVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-10T17:58:08.820Z"
+      "generatedAt": "2025-09-11T12:28:01.803Z"
     }
   }
 };

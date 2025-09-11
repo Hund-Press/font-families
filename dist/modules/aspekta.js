@@ -314,7 +314,7 @@ export default {
         static: 'Aspekta-400-min.woff2',
         variable: ['AspektaVF-min.ttf', 'AspektaVF-min.woff2'],
       },
-      generatedAt: '2025-09-10T17:58:08.821Z',
+      generatedAt: '2025-09-11T12:28:01.804Z',
     },
   },
 }

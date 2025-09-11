@@ -10,8 +10,10 @@
 export default {
   "name": "Inconsolata",
   "key": "inconsolata",
-  "license": "OFL-1.1",
-  "description": "",
+  "attribution": {
+    "license": "OFL-1.1",
+    "description": ""
+  },
   "weight": {
     "range": "100-900",
     "byFormat": {
@@ -73,29 +75,18 @@ export default {
       }
     },
     "stylisticSets": {
-      "available": [
-        {
-          "tag": "ss01",
-          "name": "Stylistic Set 1",
-          "description": "Alternate character forms"
-        },
-        {
-          "tag": "ss02",
-          "name": "Stylistic Set 2",
-          "description": "Alternate punctuation"
-        },
-        {
-          "tag": "ss03",
-          "name": "Stylistic Set 3",
-          "description": "Alternate numerals"
-        }
-      ],
-      "count": 3,
-      "tags": [
-        "ss01",
-        "ss02",
-        "ss03"
-      ]
+      "ss01": {
+        "name": "Stylistic Set 1",
+        "description": "Alternate character forms"
+      },
+      "ss02": {
+        "name": "Stylistic Set 2",
+        "description": "Alternate punctuation"
+      },
+      "ss03": {
+        "name": "Stylistic Set 3",
+        "description": "Alternate numerals"
+      }
     },
     "capabilities": {
       "hasLigatures": true,
@@ -599,7 +590,7 @@ export default {
           "InconsolataVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-10T17:58:08.820Z"
+      "generatedAt": "2025-09-11T12:28:01.803Z"
     }
   }
 };

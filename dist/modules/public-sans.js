@@ -10,8 +10,10 @@
 export default {
   "name": "Public Sans",
   "key": "public-sans",
-  "license": "OFL-1.1",
-  "description": "",
+  "attribution": {
+    "license": "OFL-1.1",
+    "description": ""
+  },
   "weight": {
     "range": "100-900",
     "byFormat": {
@@ -76,17 +78,10 @@ export default {
       }
     },
     "stylisticSets": {
-      "available": [
-        {
-          "tag": "ss01",
-          "name": "Stylistic Set 1",
-          "description": "Alternate character forms"
-        }
-      ],
-      "count": 1,
-      "tags": [
-        "ss01"
-      ]
+      "ss01": {
+        "name": "Stylistic Set 1",
+        "description": "Alternate character forms"
+      }
     },
     "capabilities": {
       "hasLigatures": true,
@@ -289,7 +284,7 @@ export default {
           "PublicSansVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-10T17:58:08.819Z"
+      "generatedAt": "2025-09-11T12:28:01.802Z"
     }
   }
 };

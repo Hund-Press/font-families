@@ -9,8 +9,10 @@ export default {
   "public-sans": {
     "name": "Public Sans",
     "key": "public-sans",
-    "license": "OFL-1.1",
-    "description": "",
+    "attribution": {
+      "license": "OFL-1.1",
+      "description": ""
+    },
     "weight": {
       "range": "100-900",
       "byFormat": {
@@ -215,7 +217,9 @@ export default {
   "league-mono-thin-condensed": {
     "name": "League Mono Thin Condensed",
     "key": "league-mono-thin-condensed",
-    "description": "",
+    "attribution": {
+      "description": ""
+    },
     "weight": {
       "range": "100-800",
       "byFormat": {
@@ -612,8 +616,10 @@ export default {
   "inconsolata": {
     "name": "Inconsolata",
     "key": "inconsolata",
-    "license": "OFL-1.1",
-    "description": "",
+    "attribution": {
+      "license": "OFL-1.1",
+      "description": ""
+    },
     "weight": {
       "range": "100-900",
       "byFormat": {
@@ -1119,8 +1125,10 @@ export default {
   "crimson-pro": {
     "name": "Crimson Pro",
     "key": "crimson-pro",
-    "license": "OFL-1.1",
-    "description": "",
+    "attribution": {
+      "license": "OFL-1.1",
+      "description": ""
+    },
     "weight": {
       "range": "200-900",
       "byFormat": {
@@ -1310,10 +1318,12 @@ export default {
   "atkinson-hyperlegible": {
     "name": "Atkinson Hyperlegible",
     "key": "atkinson-hyperlegible",
-    "version": "1.0.0",
-    "author": "Braille Institute of America",
-    "license": "OFL-1.1",
-    "description": "",
+    "attribution": {
+      "version": "1.0.0",
+      "author": "Braille Institute of America",
+      "license": "OFL-1.1",
+      "description": ""
+    },
     "weight": {
       "range": "400-700",
       "byFormat": {
@@ -1372,10 +1382,12 @@ export default {
   "aspekta": {
     "name": "Aspekta",
     "key": "aspekta",
-    "version": "2.100",
-    "author": "Ivo Dolenc",
-    "license": "OFL-1.1",
-    "description": "",
+    "attribution": {
+      "version": "2.100",
+      "author": "Ivo Dolenc",
+      "license": "OFL-1.1",
+      "description": ""
+    },
     "weight": {
       "range": "50-1000",
       "byFormat": {
@@ -1590,8 +1602,10 @@ export default {
 export const publicSans = {
   "name": "Public Sans",
   "key": "public-sans",
-  "license": "OFL-1.1",
-  "description": "",
+  "attribution": {
+    "license": "OFL-1.1",
+    "description": ""
+  },
   "weight": {
     "range": "100-900",
     "byFormat": {
@@ -1795,7 +1809,9 @@ export const publicSans = {
 };\n\nexport const leagueMonoThinCondensed = {
   "name": "League Mono Thin Condensed",
   "key": "league-mono-thin-condensed",
-  "description": "",
+  "attribution": {
+    "description": ""
+  },
   "weight": {
     "range": "100-800",
     "byFormat": {
@@ -2191,8 +2207,10 @@ export const publicSans = {
 };\n\nexport const inconsolata = {
   "name": "Inconsolata",
   "key": "inconsolata",
-  "license": "OFL-1.1",
-  "description": "",
+  "attribution": {
+    "license": "OFL-1.1",
+    "description": ""
+  },
   "weight": {
     "range": "100-900",
     "byFormat": {
@@ -2697,8 +2715,10 @@ export const publicSans = {
 };\n\nexport const crimsonPro = {
   "name": "Crimson Pro",
   "key": "crimson-pro",
-  "license": "OFL-1.1",
-  "description": "",
+  "attribution": {
+    "license": "OFL-1.1",
+    "description": ""
+  },
   "weight": {
     "range": "200-900",
     "byFormat": {
@@ -2887,10 +2907,12 @@ export const publicSans = {
 };\n\nexport const atkinsonHyperlegible = {
   "name": "Atkinson Hyperlegible",
   "key": "atkinson-hyperlegible",
-  "version": "1.0.0",
-  "author": "Braille Institute of America",
-  "license": "OFL-1.1",
-  "description": "",
+  "attribution": {
+    "version": "1.0.0",
+    "author": "Braille Institute of America",
+    "license": "OFL-1.1",
+    "description": ""
+  },
   "weight": {
     "range": "400-700",
     "byFormat": {
@@ -2948,10 +2970,12 @@ export const publicSans = {
 };\n\nexport const aspekta = {
   "name": "Aspekta",
   "key": "aspekta",
-  "version": "2.100",
-  "author": "Ivo Dolenc",
-  "license": "OFL-1.1",
-  "description": "",
+  "attribution": {
+    "version": "2.100",
+    "author": "Ivo Dolenc",
+    "license": "OFL-1.1",
+    "description": ""
+  },
   "weight": {
     "range": "50-1000",
     "byFormat": {

@@ -8,8 +8,7 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import { validateFontFamily } from '../scanners/validation.js';
-import { normalizeFont, generateEnhancedFamilyMetadata } from '../scanners/fontkit-analyzer.js';
-import * as fontkit from 'fontkit';
+import { normalizeFont, generateEnhancedFamilyMetadata, analyzeFontFile } from '../scanners/fonttools-analyzer.js';
 
 /**
  * Generate contributor report with working examples
@@ -93,7 +92,7 @@ async function analyzeContributorFont(fontPath) {
         // Analyze directory structure
         analysis.structure = await analyzeFontStructure(fontPath);
         
-        // Scan fonts with fontkit
+        // Scan fonts with fonttools
         if (analysis.structure.hasFonts) {
             analysis.fontData = await analyzeFontsInPath(fontPath);
             
@@ -139,8 +138,8 @@ async function analyzeFontsInPath(fontPath) {
                 if (file.endsWith('.woff2') || file.endsWith('.woff')) {
                     const filePath = path.join(webfontsDir, file);
                     try {
-                        const font = await fontkit.open(filePath);
-                        const normalized = await normalizeFont(font, file, filePath);
+                        const analysis = await analyzeFontFile(filePath);
+                        const normalized = await normalizeFont(analysis, file, filePath);
                         if (file.toLowerCase().includes('vf') || file.toLowerCase().includes('variable')) {
                             fontData.variable[file] = normalized;
                         } else {
@@ -162,8 +161,8 @@ async function analyzeFontsInPath(fontPath) {
                 if (file.endsWith('.ttf')) {
                     const filePath = path.join(ttfDir, file);
                     try {
-                        const font = await fontkit.open(filePath);
-                        const normalized = await normalizeFont(font, file, filePath);
+                        const analysis = await analyzeFontFile(filePath);
+                        const normalized = await normalizeFont(analysis, file, filePath);
                         fontData.static[file] = normalized;
                     } catch (error) {
                         console.warn(`Failed to analyze ${file}: ${error.message}`);
@@ -181,8 +180,8 @@ async function analyzeFontsInPath(fontPath) {
                 if (file.endsWith('.ttf') || file.endsWith('.woff2')) {
                     const filePath = path.join(variableDir, file);
                     try {
-                        const font = await fontkit.open(filePath);
-                        const normalized = await normalizeFont(font, file, filePath);
+                        const analysis = await analyzeFontFile(filePath);
+                        const normalized = await normalizeFont(analysis, file, filePath);
                         fontData.variable[file] = normalized;
                     } catch (error) {
                         console.warn(`Failed to analyze ${file}: ${error.message}`);

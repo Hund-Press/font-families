@@ -1,9 +1,7 @@
 import { promises as fs } from 'fs'
 import path from 'path'
-import * as fontkit from 'fontkit'
 import { glob } from 'glob'
-import { normalizeFont } from './fonttools-analyzer.js'
-// './fontkit-analyzer.js';
+import { normalizeFont, extractCanonicalFamilyName, analyzeFontFile } from './fonttools-analyzer.js';
 
 /**
  * Detects if a font family folder follows UFR (Unified Font Repository) structure
@@ -308,10 +306,10 @@ async function scanUFRFamily(familyPath, folderName) {
       const fontFiles = await glob(path.join(dirPath, '*.{ttf,otf,woff,woff2}'))
       if (fontFiles.length > 0) {
         try {
-          const font = fontkit.openSync(fontFiles[0])
-          if (font.familyName) {
+          const familyName = await extractCanonicalFamilyName(fontFiles[0])
+          if (familyName) {
             // Clean up family name - remove weight suffixes and "Variable"
-            let cleanFamilyName = font.familyName
+            let cleanFamilyName = familyName
 
             // Remove "Variable" suffix if present
             cleanFamilyName = cleanFamilyName.replace(/\s+Variable$/i, '')
@@ -368,36 +366,22 @@ async function scanUFRFamily(familyPath, folderName) {
 
     for (const fontFile of fontFiles) {
       try {
-        const font = fontkit.openSync(fontFile)
+        const analysis = await analyzeFontFile(fontFile)
         const type = dir === 'variable' ? 'variable' : 'static'
 
-        if (font.fonts) {
-          // TrueType Collection or similar
-          for (const subFont of font.fonts) {
-            const postScriptName = subFont.postscriptName
-            if (postScriptName) {
-              familyData[type][postScriptName] = await normalizeFont(
-                subFont,
-                actualFamilyName,
-                fontFile
-              )
-            }
-          }
-        } else {
-          // Single font file
-          const postScriptName = font.postscriptName
-          if (postScriptName) {
-            // For variable fonts, use a descriptive key instead of PostScript name
-            const variableFontKey =
-              type === 'variable'
-                ? generateVariableFontKey(font, postScriptName)
-                : postScriptName
-            familyData[type][variableFontKey] = await normalizeFont(
-              font,
-              actualFamilyName,
-              fontFile
-            )
-          }
+        // Single font file (TTC support would need additional handling in fonttools)
+        const postScriptName = analysis.basic.postscriptName
+        if (postScriptName) {
+          // For variable fonts, use a descriptive key instead of PostScript name
+          const fontKey = type === 'variable'
+            ? generateVariableFontKey(analysis, postScriptName)
+            : postScriptName
+          
+          familyData[type][fontKey] = await normalizeFont(
+            analysis,
+            actualFamilyName,
+            fontFile
+          )
         }
       } catch (err) {
         console.error(`Error processing UFR font file ${fontFile}:`, err)
@@ -447,10 +431,10 @@ async function scanGenericFamily(familyPath, folderName) {
     })
 
     try {
-      const font = fontkit.openSync(sortedFiles[0])
-      if (font.familyName) {
+      const familyName = await extractCanonicalFamilyName(sortedFiles[0])
+      if (familyName) {
         // Clean up family name - remove weight suffixes and "Variable"
-        let cleanFamilyName = font.familyName
+        let cleanFamilyName = familyName
 
         // Remove "Variable" suffix if present
         cleanFamilyName = cleanFamilyName.replace(/\s+Variable$/i, '')
@@ -482,36 +466,22 @@ async function scanGenericFamily(familyPath, folderName) {
 
   for (const fontFile of fontFiles) {
     try {
-      const font = fontkit.openSync(fontFile)
+      const analysis = await analyzeFontFile(fontFile)
       const type = fontFile.includes('/variable/') ? 'variable' : 'static'
 
-      if (font.fonts) {
-        // TrueType Collection or similar
-        for (const subFont of font.fonts) {
-          const postScriptName = subFont.postscriptName
-          if (postScriptName) {
-            familyData[type][postScriptName] = await normalizeFont(
-              subFont,
-              actualFamilyName,
-              fontFile
-            )
-          }
-        }
-      } else {
-        // Single font file
-        const postScriptName = font.postscriptName
-        if (postScriptName) {
-          // For variable fonts, use a descriptive key instead of PostScript name
-          const variableFontKey =
-            type === 'variable'
-              ? generateVariableFontKey(font, postScriptName)
-              : postScriptName
-          familyData[type][variableFontKey] = await normalizeFont(
-            font,
-            actualFamilyName,
-            fontFile
-          )
-        }
+      // Single font file (TTC support would need additional handling in fonttools)
+      const postScriptName = analysis.basic.postscriptName
+      if (postScriptName) {
+        // For variable fonts, use a descriptive key instead of PostScript name
+        const fontKey = type === 'variable'
+          ? generateVariableFontKey(analysis, postScriptName)
+          : postScriptName
+        
+        familyData[type][fontKey] = await normalizeFont(
+          analysis,
+          actualFamilyName,
+          fontFile
+        )
       }
     } catch (err) {
       console.error(`Error processing generic font file ${fontFile}:`, err)
@@ -737,12 +707,12 @@ function slugifyFontName(name) {
     .replace(/^-|-$/g, '') // Remove leading/trailing hyphens
 }
 
-function generateVariableFontKey(font, postScriptName) {
+function generateVariableFontKey(analysis, postScriptName) {
   // For variable fonts, create a key that describes the axes
-  if (font.variationAxes && Object.keys(font.variationAxes).length > 0) {
-    const axes = Object.keys(font.variationAxes).sort()
-    const styleDesc =
-      font.subfamilyName && font.subfamilyName.toLowerCase().includes('italic')
+  if (analysis.variable && analysis.variable.axes && Object.keys(analysis.variable.axes).length > 0) {
+    const axes = Object.keys(analysis.variable.axes).sort()
+    const styleDesc = analysis.basic.subfamilyName && 
+      analysis.basic.subfamilyName.toLowerCase().includes('italic')
         ? 'Italic'
         : 'Regular'
     return `Variable${styleDesc}[${axes.join(',')}]`
