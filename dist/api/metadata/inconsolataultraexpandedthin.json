@@ -1,11 +1,11 @@
 {
-  "name": "Inconsolata",
-  "key": "inconsolata",
+  "name": "Inconsolata UltraExpanded Thin",
+  "key": "inconsolataultraexpandedthin",
   "licenseType": "OFL-1.1",
-  "description": "",
+  "description": "Unknown font family",
   "static": {
     "InconsolataUltraExpanded-Thin": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 100,
       "stretch": "expanded",
@@ -150,7 +150,7 @@
       }
     },
     "InconsolataUltraExpanded-SemiBold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 600,
       "stretch": "expanded",
@@ -295,7 +295,7 @@
       }
     },
     "InconsolataUltraExpanded-Regular": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 400,
       "stretch": "expanded",
@@ -440,7 +440,7 @@
       }
     },
     "InconsolataUltraExpanded-Medium": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 500,
       "stretch": "expanded",
@@ -585,7 +585,7 @@
       }
     },
     "InconsolataUltraExpanded-Light": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 300,
       "stretch": "expanded",
@@ -730,7 +730,7 @@
       }
     },
     "InconsolataUltraExpanded-ExtraLight": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 200,
       "stretch": "expanded",
@@ -875,7 +875,7 @@
       }
     },
     "InconsolataUltraExpanded-ExtraBold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 800,
       "stretch": "expanded",
@@ -1020,7 +1020,7 @@
       }
     },
     "InconsolataUltraExpanded-Bold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 700,
       "stretch": "expanded",
@@ -1165,7 +1165,7 @@
       }
     },
     "InconsolataUltraExpanded-Black": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 900,
       "stretch": "expanded",
@@ -1310,7 +1310,7 @@
       }
     },
     "InconsolataUltraCondensed-Thin": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 100,
       "stretch": "ultra-condensed",
@@ -1455,7 +1455,7 @@
       }
     },
     "InconsolataUltraCondensed-SemiBold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 600,
       "stretch": "ultra-condensed",
@@ -1600,7 +1600,7 @@
       }
     },
     "InconsolataUltraCondensed-Regular": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 400,
       "stretch": "ultra-condensed",
@@ -1745,7 +1745,7 @@
       }
     },
     "InconsolataUltraCondensed-Medium": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 500,
       "stretch": "ultra-condensed",
@@ -1890,7 +1890,7 @@
       }
     },
     "InconsolataUltraCondensed-Light": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 300,
       "stretch": "ultra-condensed",
@@ -2035,7 +2035,7 @@
       }
     },
     "InconsolataUltraCondensed-ExtraLight": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 200,
       "stretch": "ultra-condensed",
@@ -2180,7 +2180,7 @@
       }
     },
     "InconsolataUltraCondensed-ExtraBold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 800,
       "stretch": "ultra-condensed",
@@ -2325,7 +2325,7 @@
       }
     },
     "InconsolataUltraCondensed-Bold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 700,
       "stretch": "ultra-condensed",
@@ -2470,7 +2470,7 @@
       }
     },
     "InconsolataUltraCondensed-Black": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 900,
       "stretch": "ultra-condensed",
@@ -2615,7 +2615,7 @@
       }
     },
     "Inconsolata-Thin": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 100,
       "stretch": "normal",
@@ -2760,7 +2760,7 @@
       }
     },
     "InconsolataSemiExpanded-Thin": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 100,
       "stretch": "semi-expanded",
@@ -2905,7 +2905,7 @@
       }
     },
     "InconsolataSemiExpanded-SemiBold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 600,
       "stretch": "semi-expanded",
@@ -3050,7 +3050,7 @@
       }
     },
     "InconsolataSemiExpanded-Regular": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 400,
       "stretch": "semi-expanded",
@@ -3195,7 +3195,7 @@
       }
     },
     "InconsolataSemiExpanded-Medium": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 500,
       "stretch": "semi-expanded",
@@ -3340,7 +3340,7 @@
       }
     },
     "InconsolataSemiExpanded-Light": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 300,
       "stretch": "semi-expanded",
@@ -3485,7 +3485,7 @@
       }
     },
     "InconsolataSemiExpanded-ExtraLight": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 200,
       "stretch": "semi-expanded",
@@ -3630,7 +3630,7 @@
       }
     },
     "InconsolataSemiExpanded-ExtraBold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 800,
       "stretch": "semi-expanded",
@@ -3775,7 +3775,7 @@
       }
     },
     "InconsolataSemiExpanded-Bold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 700,
       "stretch": "semi-expanded",
@@ -3920,7 +3920,7 @@
       }
     },
     "InconsolataSemiExpanded-Black": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 900,
       "stretch": "semi-expanded",
@@ -4065,7 +4065,7 @@
       }
     },
     "InconsolataSemiCondensed-Thin": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 100,
       "stretch": "condensed",
@@ -4210,7 +4210,7 @@
       }
     },
     "InconsolataSemiCondensed-SemiBold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 600,
       "stretch": "condensed",
@@ -4355,7 +4355,7 @@
       }
     },
     "InconsolataSemiCondensed-Regular": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 400,
       "stretch": "condensed",
@@ -4500,7 +4500,7 @@
       }
     },
     "InconsolataSemiCondensed-Medium": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 500,
       "stretch": "condensed",
@@ -4645,7 +4645,7 @@
       }
     },
     "InconsolataSemiCondensed-Light": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 300,
       "stretch": "condensed",
@@ -4790,7 +4790,7 @@
       }
     },
     "InconsolataSemiCondensed-ExtraLight": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 200,
       "stretch": "condensed",
@@ -4935,7 +4935,7 @@
       }
     },
     "InconsolataSemiCondensed-ExtraBold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 800,
       "stretch": "condensed",
@@ -5080,7 +5080,7 @@
       }
     },
     "InconsolataSemiCondensed-Bold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 700,
       "stretch": "condensed",
@@ -5225,7 +5225,7 @@
       }
     },
     "InconsolataSemiCondensed-Black": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 900,
       "stretch": "condensed",
@@ -5370,7 +5370,7 @@
       }
     },
     "Inconsolata-SemiBold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 600,
       "stretch": "normal",
@@ -5515,7 +5515,7 @@
       }
     },
     "Inconsolata-Regular": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 400,
       "stretch": "normal",
@@ -5660,7 +5660,7 @@
       }
     },
     "Inconsolata-Medium": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 500,
       "stretch": "normal",
@@ -5805,7 +5805,7 @@
       }
     },
     "Inconsolata-Light": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 300,
       "stretch": "normal",
@@ -5950,7 +5950,7 @@
       }
     },
     "Inconsolata-ExtraLight": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 200,
       "stretch": "normal",
@@ -6095,7 +6095,7 @@
       }
     },
     "InconsolataExtraExpanded-Thin": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 100,
       "stretch": "expanded",
@@ -6240,7 +6240,7 @@
       }
     },
     "InconsolataExtraExpanded-SemiBold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 600,
       "stretch": "expanded",
@@ -6385,7 +6385,7 @@
       }
     },
     "InconsolataExtraExpanded-Regular": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 400,
       "stretch": "expanded",
@@ -6530,7 +6530,7 @@
       }
     },
     "InconsolataExtraExpanded-Medium": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 500,
       "stretch": "expanded",
@@ -6675,7 +6675,7 @@
       }
     },
     "InconsolataExtraExpanded-Light": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 300,
       "stretch": "expanded",
@@ -6820,7 +6820,7 @@
       }
     },
     "InconsolataExtraExpanded-ExtraLight": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 200,
       "stretch": "expanded",
@@ -6965,7 +6965,7 @@
       }
     },
     "InconsolataExtraExpanded-ExtraBold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 800,
       "stretch": "expanded",
@@ -7110,7 +7110,7 @@
       }
     },
     "InconsolataExtraExpanded-Bold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 700,
       "stretch": "expanded",
@@ -7255,7 +7255,7 @@
       }
     },
     "InconsolataExtraExpanded-Black": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 900,
       "stretch": "expanded",
@@ -7400,7 +7400,7 @@
       }
     },
     "InconsolataExtraCondensed-Thin": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 100,
       "stretch": "extra-condensed",
@@ -7545,7 +7545,7 @@
       }
     },
     "InconsolataExtraCondensed-SemiBold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 600,
       "stretch": "extra-condensed",
@@ -7690,7 +7690,7 @@
       }
     },
     "InconsolataExtraCondensed-Regular": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 400,
       "stretch": "extra-condensed",
@@ -7835,7 +7835,7 @@
       }
     },
     "InconsolataExtraCondensed-Medium": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 500,
       "stretch": "extra-condensed",
@@ -7980,7 +7980,7 @@
       }
     },
     "InconsolataExtraCondensed-Light": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 300,
       "stretch": "extra-condensed",
@@ -8125,7 +8125,7 @@
       }
     },
     "InconsolataExtraCondensed-ExtraLight": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 200,
       "stretch": "extra-condensed",
@@ -8270,7 +8270,7 @@
       }
     },
     "InconsolataExtraCondensed-ExtraBold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 800,
       "stretch": "extra-condensed",
@@ -8415,7 +8415,7 @@
       }
     },
     "InconsolataExtraCondensed-Bold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 700,
       "stretch": "extra-condensed",
@@ -8560,7 +8560,7 @@
       }
     },
     "InconsolataExtraCondensed-Black": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 900,
       "stretch": "extra-condensed",
@@ -8705,7 +8705,7 @@
       }
     },
     "Inconsolata-ExtraBold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 800,
       "stretch": "normal",
@@ -8850,7 +8850,7 @@
       }
     },
     "InconsolataExpanded-Thin": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 100,
       "stretch": "expanded",
@@ -8995,7 +8995,7 @@
       }
     },
     "InconsolataExpanded-SemiBold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 600,
       "stretch": "expanded",
@@ -9140,7 +9140,7 @@
       }
     },
     "InconsolataExpanded-Regular": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 400,
       "stretch": "expanded",
@@ -9285,7 +9285,7 @@
       }
     },
     "InconsolataExpanded-Medium": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 500,
       "stretch": "expanded",
@@ -9430,7 +9430,7 @@
       }
     },
     "InconsolataExpanded-Light": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 300,
       "stretch": "expanded",
@@ -9575,7 +9575,7 @@
       }
     },
     "InconsolataExpanded-ExtraLight": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 200,
       "stretch": "expanded",
@@ -9720,7 +9720,7 @@
       }
     },
     "InconsolataExpanded-ExtraBold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 800,
       "stretch": "expanded",
@@ -9865,7 +9865,7 @@
       }
     },
     "InconsolataExpanded-Bold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 700,
       "stretch": "expanded",
@@ -10010,7 +10010,7 @@
       }
     },
     "InconsolataExpanded-Black": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 900,
       "stretch": "expanded",
@@ -10155,7 +10155,7 @@
       }
     },
     "InconsolataCondensed-Thin": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 100,
       "stretch": "condensed",
@@ -10300,7 +10300,7 @@
       }
     },
     "InconsolataCondensed-SemiBold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 600,
       "stretch": "condensed",
@@ -10445,7 +10445,7 @@
       }
     },
     "InconsolataCondensed-Regular": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 400,
       "stretch": "condensed",
@@ -10590,7 +10590,7 @@
       }
     },
     "InconsolataCondensed-Medium": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 500,
       "stretch": "condensed",
@@ -10735,7 +10735,7 @@
       }
     },
     "InconsolataCondensed-Light": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 300,
       "stretch": "condensed",
@@ -10880,7 +10880,7 @@
       }
     },
     "InconsolataCondensed-ExtraLight": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 200,
       "stretch": "condensed",
@@ -11025,7 +11025,7 @@
       }
     },
     "InconsolataCondensed-ExtraBold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 800,
       "stretch": "condensed",
@@ -11170,7 +11170,7 @@
       }
     },
     "InconsolataCondensed-Bold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 700,
       "stretch": "condensed",
@@ -11315,7 +11315,7 @@
       }
     },
     "InconsolataCondensed-Black": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 900,
       "stretch": "condensed",
@@ -11460,7 +11460,7 @@
       }
     },
     "Inconsolata-Bold": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 700,
       "stretch": "normal",
@@ -11605,7 +11605,7 @@
       }
     },
     "Inconsolata-Black": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": 900,
       "stretch": "normal",
@@ -11752,7 +11752,7 @@
   },
   "variable": {
     "VariableRegular[wdth,wght]": {
-      "family": "Inconsolata",
+      "family": "Inconsolata UltraExpanded Thin",
       "style": "normal",
       "weight": {
         "min": 100,

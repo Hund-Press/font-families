@@ -3,15 +3,15 @@
     "title": "Font Families - Open Font Collection",
     "description": "Curated collection of open-licensed fonts",
     "version": "1.6.0",
-    "generated": "2025-09-09T20:15:11.224Z",
+    "generated": "2025-09-10T17:58:08.663Z",
     "fontCount": 5,
     "includesRestrictedFonts": false
   },
   "families": {
     "public-sans": {
-      "name": "public-sans",
+      "name": "Public Sans",
       "key": "public-sans",
-      "description": "Unknown font family",
+      "description": "",
       "license": "OFL-1.1",
       "capabilities": {
         "hasStatic": true,
@@ -292,9 +292,9 @@
       }
     },
     "inconsolata": {
-      "name": "inconsolata",
+      "name": "Inconsolata",
       "key": "inconsolata",
-      "description": "Unknown font family",
+      "description": "",
       "license": "OFL-1.1",
       "capabilities": {
         "hasStatic": true,
@@ -1192,9 +1192,9 @@
       }
     },
     "crimson-pro": {
-      "name": "crimson-pro",
+      "name": "Crimson Pro",
       "key": "crimson-pro",
-      "description": "Unknown font family",
+      "description": "",
       "license": "OFL-1.1",
       "capabilities": {
         "hasStatic": true,
@@ -1455,9 +1455,9 @@
       }
     },
     "atkinson-hyperlegible": {
-      "name": "atkinson-hyperlegible",
+      "name": "Atkinson Hyperlegible",
       "key": "atkinson-hyperlegible",
-      "description": "Atkinson hyperlegible font family",
+      "description": "",
       "license": "OFL-1.1",
       "author": "Braille Institute of America",
       "version": "1.0.0",
@@ -1565,9 +1565,9 @@
       }
     },
     "aspekta": {
-      "name": "aspekta",
+      "name": "Aspekta",
       "key": "aspekta",
-      "description": "Aspekta font family",
+      "description": "",
       "license": "OFL-1.1",
       "author": "Ivo Dolenc",
       "version": "2.100",

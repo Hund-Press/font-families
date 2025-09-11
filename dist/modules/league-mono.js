@@ -467,7 +467,7 @@ export default {
           "LeagueMonoVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-09T20:15:11.392Z"
+      "generatedAt": "2025-09-10T17:00:35.358Z"
     }
   }
 };

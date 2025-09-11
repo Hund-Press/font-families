@@ -1,11 +1,11 @@
 {
-  "name": "Crimson Pro",
-  "key": "crimson-pro",
+  "name": "Crimson Pro SemiBold",
+  "key": "crimsonprosemibold",
   "licenseType": "OFL-1.1",
-  "description": "",
+  "description": "Unknown font family",
   "static": {
     "CrimsonPro-SemiBoldItalic": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro SemiBold",
       "style": "italic",
       "weight": 600,
       "stretch": "normal",
@@ -142,7 +142,7 @@
       }
     },
     "CrimsonPro-SemiBold": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro SemiBold",
       "style": "normal",
       "weight": 600,
       "stretch": "normal",
@@ -279,7 +279,7 @@
       }
     },
     "CrimsonPro-Regular": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro SemiBold",
       "style": "normal",
       "weight": 400,
       "stretch": "normal",
@@ -416,7 +416,7 @@
       }
     },
     "CrimsonPro-MediumItalic": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro SemiBold",
       "style": "italic",
       "weight": 500,
       "stretch": "normal",
@@ -553,7 +553,7 @@
       }
     },
     "CrimsonPro-Medium": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro SemiBold",
       "style": "normal",
       "weight": 500,
       "stretch": "normal",
@@ -690,7 +690,7 @@
       }
     },
     "CrimsonPro-LightItalic": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro SemiBold",
       "style": "italic",
       "weight": 300,
       "stretch": "normal",
@@ -827,7 +827,7 @@
       }
     },
     "CrimsonPro-Light": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro SemiBold",
       "style": "normal",
       "weight": 300,
       "stretch": "normal",
@@ -964,7 +964,7 @@
       }
     },
     "CrimsonPro-Italic": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro SemiBold",
       "style": "italic",
       "weight": 400,
       "stretch": "normal",
@@ -1101,7 +1101,7 @@
       }
     },
     "CrimsonPro-ExtraLightItalic": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro SemiBold",
       "style": "italic",
       "weight": 200,
       "stretch": "normal",
@@ -1238,7 +1238,7 @@
       }
     },
     "CrimsonPro-ExtraLight": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro SemiBold",
       "style": "normal",
       "weight": 200,
       "stretch": "normal",
@@ -1375,7 +1375,7 @@
       }
     },
     "CrimsonPro-ExtraBoldItalic": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro SemiBold",
       "style": "italic",
       "weight": 800,
       "stretch": "normal",
@@ -1512,7 +1512,7 @@
       }
     },
     "CrimsonPro-ExtraBold": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro SemiBold",
       "style": "normal",
       "weight": 800,
       "stretch": "normal",
@@ -1649,7 +1649,7 @@
       }
     },
     "CrimsonPro-BoldItalic": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro SemiBold",
       "style": "italic",
       "weight": 700,
       "stretch": "normal",
@@ -1786,7 +1786,7 @@
       }
     },
     "CrimsonPro-Bold": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro SemiBold",
       "style": "normal",
       "weight": 700,
       "stretch": "normal",
@@ -1923,7 +1923,7 @@
       }
     },
     "CrimsonPro-BlackItalic": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro SemiBold",
       "style": "italic",
       "weight": 900,
       "stretch": "normal",
@@ -2060,7 +2060,7 @@
       }
     },
     "CrimsonPro-Black": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro SemiBold",
       "style": "normal",
       "weight": 900,
       "stretch": "normal",
@@ -2199,7 +2199,7 @@
   },
   "variable": {
     "VariableRegular[wght]": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro SemiBold",
       "style": "normal",
       "weight": {
         "min": 200,
@@ -2397,7 +2397,7 @@
       ]
     },
     "VariableItalic[wght]": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro SemiBold",
       "style": "italic",
       "weight": {
         "min": 200,

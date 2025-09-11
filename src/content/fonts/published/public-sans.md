@@ -1,7 +1,7 @@
 ---
 key: public-sans
 title: Public Sans
-description: "Unknown font family"
+description: "Public Sans font family"
 ---
 
 # {{ title }}

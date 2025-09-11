@@ -1,14 +1,14 @@
 {
-  "name": "Aspekta",
-  "key": "aspekta",
+  "name": "Aspekta 950",
+  "key": "aspekta950",
   "version": "2.100",
   "author": "Ivo Dolenc",
   "license": "OFL-1.1",
   "licenseType": "OFL-1.1",
-  "description": "",
+  "description": "Aspekta font family",
   "static": {
     "Aspekta-950": {
-      "family": "Aspekta",
+      "family": "Aspekta 950",
       "style": "normal",
       "weight": 950,
       "stretch": "normal",
@@ -209,7 +209,7 @@
       }
     },
     "Aspekta-900": {
-      "family": "Aspekta",
+      "family": "Aspekta 950",
       "style": "normal",
       "weight": 900,
       "stretch": "normal",
@@ -410,7 +410,7 @@
       }
     },
     "Aspekta-850": {
-      "family": "Aspekta",
+      "family": "Aspekta 950",
       "style": "normal",
       "weight": 850,
       "stretch": "normal",
@@ -611,7 +611,7 @@
       }
     },
     "Aspekta-800": {
-      "family": "Aspekta",
+      "family": "Aspekta 950",
       "style": "normal",
       "weight": 800,
       "stretch": "normal",
@@ -812,7 +812,7 @@
       }
     },
     "Aspekta-750": {
-      "family": "Aspekta",
+      "family": "Aspekta 950",
       "style": "normal",
       "weight": 750,
       "stretch": "normal",
@@ -1013,7 +1013,7 @@
       }
     },
     "Aspekta-700": {
-      "family": "Aspekta",
+      "family": "Aspekta 950",
       "style": "normal",
       "weight": 700,
       "stretch": "normal",
@@ -1214,7 +1214,7 @@
       }
     },
     "Aspekta-650": {
-      "family": "Aspekta",
+      "family": "Aspekta 950",
       "style": "normal",
       "weight": 650,
       "stretch": "normal",
@@ -1415,7 +1415,7 @@
       }
     },
     "Aspekta-600": {
-      "family": "Aspekta",
+      "family": "Aspekta 950",
       "style": "normal",
       "weight": 600,
       "stretch": "normal",
@@ -1616,7 +1616,7 @@
       }
     },
     "Aspekta-550": {
-      "family": "Aspekta",
+      "family": "Aspekta 950",
       "style": "normal",
       "weight": 550,
       "stretch": "normal",
@@ -1817,7 +1817,7 @@
       }
     },
     "Aspekta-500": {
-      "family": "Aspekta",
+      "family": "Aspekta 950",
       "style": "normal",
       "weight": 500,
       "stretch": "normal",
@@ -2018,7 +2018,7 @@
       }
     },
     "Aspekta-50": {
-      "family": "Aspekta",
+      "family": "Aspekta 950",
       "style": "normal",
       "weight": 50,
       "stretch": "normal",
@@ -2219,7 +2219,7 @@
       }
     },
     "Aspekta-450": {
-      "family": "Aspekta",
+      "family": "Aspekta 950",
       "style": "normal",
       "weight": 450,
       "stretch": "normal",
@@ -2420,7 +2420,7 @@
       }
     },
     "Aspekta-400": {
-      "family": "Aspekta",
+      "family": "Aspekta 950",
       "style": "normal",
       "weight": 400,
       "stretch": "normal",
@@ -2621,7 +2621,7 @@
       }
     },
     "Aspekta-350": {
-      "family": "Aspekta",
+      "family": "Aspekta 950",
       "style": "normal",
       "weight": 350,
       "stretch": "normal",
@@ -2822,7 +2822,7 @@
       }
     },
     "Aspekta-300": {
-      "family": "Aspekta",
+      "family": "Aspekta 950",
       "style": "normal",
       "weight": 300,
       "stretch": "normal",
@@ -3023,7 +3023,7 @@
       }
     },
     "Aspekta-250": {
-      "family": "Aspekta",
+      "family": "Aspekta 950",
       "style": "normal",
       "weight": 250,
       "stretch": "normal",
@@ -3224,7 +3224,7 @@
       }
     },
     "Aspekta-200": {
-      "family": "Aspekta",
+      "family": "Aspekta 950",
       "style": "normal",
       "weight": 200,
       "stretch": "normal",
@@ -3425,7 +3425,7 @@
       }
     },
     "Aspekta-150": {
-      "family": "Aspekta",
+      "family": "Aspekta 950",
       "style": "normal",
       "weight": 150,
       "stretch": "normal",
@@ -3626,7 +3626,7 @@
       }
     },
     "Aspekta-1000": {
-      "family": "Aspekta",
+      "family": "Aspekta 950",
       "style": "normal",
       "weight": 1000,
       "stretch": "normal",
@@ -3827,7 +3827,7 @@
       }
     },
     "Aspekta-100": {
-      "family": "Aspekta",
+      "family": "Aspekta 950",
       "style": "normal",
       "weight": 100,
       "stretch": "normal",
@@ -4030,7 +4030,7 @@
   },
   "variable": {
     "VariableRegular[wght]": {
-      "family": "Aspekta",
+      "family": "Aspekta 950",
       "style": "normal",
       "weight": {
         "min": 100,

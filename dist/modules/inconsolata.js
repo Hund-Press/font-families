@@ -1,5 +1,5 @@
 /**
- * inconsolata Font Family Module
+ * Inconsolata Font Family Module
  * 
  * Generated from font-families build system
  * License: OFL-1.1
@@ -8,10 +8,10 @@
  */
 
 export default {
-  "name": "inconsolata",
+  "name": "Inconsolata",
   "key": "inconsolata",
   "license": "OFL-1.1",
-  "description": "Unknown font family",
+  "description": "",
   "weight": {
     "range": "100-900",
     "byFormat": {
@@ -599,7 +599,7 @@ export default {
           "InconsolataVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-09T20:15:11.392Z"
+      "generatedAt": "2025-09-10T17:58:08.820Z"
     }
   }
 };

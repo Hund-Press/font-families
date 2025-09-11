@@ -1,11 +1,11 @@
 {
-  "name": "Public Sans",
-  "key": "public-sans",
+  "name": "Public Sans Thin",
+  "key": "publicsansthin",
   "licenseType": "OFL-1.1",
-  "description": "",
+  "description": "Unknown font family",
   "static": {
     "PublicSans-ThinItalic": {
-      "family": "Public Sans",
+      "family": "Public Sans Thin",
       "style": "italic",
       "weight": 100,
       "stretch": "normal",
@@ -143,7 +143,7 @@
       }
     },
     "PublicSans-Thin": {
-      "family": "Public Sans",
+      "family": "Public Sans Thin",
       "style": "normal",
       "weight": 100,
       "stretch": "normal",
@@ -281,7 +281,7 @@
       }
     },
     "PublicSans-SemiBoldItalic": {
-      "family": "Public Sans",
+      "family": "Public Sans Thin",
       "style": "italic",
       "weight": 600,
       "stretch": "normal",
@@ -419,7 +419,7 @@
       }
     },
     "PublicSans-SemiBold": {
-      "family": "Public Sans",
+      "family": "Public Sans Thin",
       "style": "normal",
       "weight": 600,
       "stretch": "normal",
@@ -557,7 +557,7 @@
       }
     },
     "PublicSans-Regular": {
-      "family": "Public Sans",
+      "family": "Public Sans Thin",
       "style": "normal",
       "weight": 400,
       "stretch": "normal",
@@ -695,7 +695,7 @@
       }
     },
     "PublicSans-MediumItalic": {
-      "family": "Public Sans",
+      "family": "Public Sans Thin",
       "style": "italic",
       "weight": 500,
       "stretch": "normal",
@@ -833,7 +833,7 @@
       }
     },
     "PublicSans-Medium": {
-      "family": "Public Sans",
+      "family": "Public Sans Thin",
       "style": "normal",
       "weight": 500,
       "stretch": "normal",
@@ -971,7 +971,7 @@
       }
     },
     "PublicSans-LightItalic": {
-      "family": "Public Sans",
+      "family": "Public Sans Thin",
       "style": "italic",
       "weight": 300,
       "stretch": "normal",
@@ -1109,7 +1109,7 @@
       }
     },
     "PublicSans-Light": {
-      "family": "Public Sans",
+      "family": "Public Sans Thin",
       "style": "normal",
       "weight": 300,
       "stretch": "normal",
@@ -1247,7 +1247,7 @@
       }
     },
     "PublicSans-Italic": {
-      "family": "Public Sans",
+      "family": "Public Sans Thin",
       "style": "italic",
       "weight": 400,
       "stretch": "normal",
@@ -1385,7 +1385,7 @@
       }
     },
     "PublicSans-ExtraLightItalic": {
-      "family": "Public Sans",
+      "family": "Public Sans Thin",
       "style": "italic",
       "weight": 200,
       "stretch": "normal",
@@ -1523,7 +1523,7 @@
       }
     },
     "PublicSans-ExtraLight": {
-      "family": "Public Sans",
+      "family": "Public Sans Thin",
       "style": "normal",
       "weight": 200,
       "stretch": "normal",
@@ -1661,7 +1661,7 @@
       }
     },
     "PublicSans-ExtraBoldItalic": {
-      "family": "Public Sans",
+      "family": "Public Sans Thin",
       "style": "italic",
       "weight": 800,
       "stretch": "normal",
@@ -1799,7 +1799,7 @@
       }
     },
     "PublicSans-ExtraBold": {
-      "family": "Public Sans",
+      "family": "Public Sans Thin",
       "style": "normal",
       "weight": 800,
       "stretch": "normal",
@@ -1937,7 +1937,7 @@
       }
     },
     "PublicSans-BoldItalic": {
-      "family": "Public Sans",
+      "family": "Public Sans Thin",
       "style": "italic",
       "weight": 700,
       "stretch": "normal",
@@ -2075,7 +2075,7 @@
       }
     },
     "PublicSans-Bold": {
-      "family": "Public Sans",
+      "family": "Public Sans Thin",
       "style": "normal",
       "weight": 700,
       "stretch": "normal",
@@ -2213,7 +2213,7 @@
       }
     },
     "PublicSans-BlackItalic": {
-      "family": "Public Sans",
+      "family": "Public Sans Thin",
       "style": "italic",
       "weight": 900,
       "stretch": "normal",
@@ -2351,7 +2351,7 @@
       }
     },
     "PublicSans-Black": {
-      "family": "Public Sans",
+      "family": "Public Sans Thin",
       "style": "normal",
       "weight": 900,
       "stretch": "normal",
@@ -2491,7 +2491,7 @@
   },
   "variable": {
     "VariableRegular[wght]": {
-      "family": "Public Sans",
+      "family": "Public Sans Thin",
       "style": "normal",
       "weight": {
         "min": 100,
@@ -2695,7 +2695,7 @@
       ]
     },
     "VariableItalic[wght]": {
-      "family": "Public Sans",
+      "family": "Public Sans Thin",
       "style": "italic",
       "weight": {
         "min": 100,

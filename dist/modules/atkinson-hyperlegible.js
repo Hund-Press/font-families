@@ -1,5 +1,5 @@
 /**
- * atkinson-hyperlegible Font Family Module
+ * Atkinson Hyperlegible Font Family Module
  * 
  * Generated from font-families build system
  * License: OFL-1.1
@@ -8,12 +8,12 @@
  */
 
 export default {
-  "name": "atkinson-hyperlegible",
+  "name": "Atkinson Hyperlegible",
   "key": "atkinson-hyperlegible",
   "version": "1.0.0",
   "author": "Braille Institute of America",
   "license": "OFL-1.1",
-  "description": "Atkinson hyperlegible font family",
+  "description": "",
   "weight": {
     "range": "400-700",
     "byFormat": {
@@ -71,28 +71,28 @@ export default {
   "faces": {
     "variable": {},
     "static": {
-      "AtkinsonHyperlegible-Regular": {
+      "Atkinson Hyperlegible-Regular": {
         "name": "Atkinson Hyperlegible Regular",
         "fileName": "AtkinsonHyperlegible-Regular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400
       },
-      "AtkinsonHyperlegible-Regular-Italic": {
+      "Atkinson Hyperlegible-Regular-Italic": {
         "name": "Atkinson Hyperlegible Regular Italic",
         "fileName": "AtkinsonHyperlegible-Italic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 400
       },
-      "AtkinsonHyperlegible-Bold-Italic": {
+      "Atkinson Hyperlegible-Bold-Italic": {
         "name": "Atkinson Hyperlegible Bold Italic",
         "fileName": "AtkinsonHyperlegible-BoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 700
       },
-      "AtkinsonHyperlegible-Bold": {
+      "Atkinson Hyperlegible-Bold": {
         "name": "Atkinson Hyperlegible Bold",
         "fileName": "AtkinsonHyperlegible-Bold.woff2",
         "format": "woff2",
@@ -117,7 +117,7 @@ export default {
         "static": "AtkinsonHyperlegible-400-min.woff2",
         "variable": []
       },
-      "generatedAt": "2025-09-09T20:15:11.393Z"
+      "generatedAt": "2025-09-10T17:58:08.821Z"
     }
   }
 };

@@ -1,7 +1,7 @@
 ---
 key: inconsolata
 title: Inconsolata
-description: "Unknown font family"
+description: "Inconsolata font family"
 ---
 
 # {{ title }}

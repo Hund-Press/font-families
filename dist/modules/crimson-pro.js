@@ -1,5 +1,5 @@
 /**
- * crimson-pro Font Family Module
+ * Crimson Pro Font Family Module
  * 
  * Generated from font-families build system
  * License: OFL-1.1
@@ -8,10 +8,10 @@
  */
 
 export default {
-  "name": "crimson-pro",
+  "name": "Crimson Pro",
   "key": "crimson-pro",
   "license": "OFL-1.1",
-  "description": "Unknown font family",
+  "description": "",
   "weight": {
     "range": "200-900",
     "byFormat": {
@@ -89,7 +89,7 @@ export default {
   },
   "faces": {
     "variable": {
-      "CrimsonProVariableRegular[wght]": {
+      "Crimson ProVariableRegular[wght]": {
         "name": "Crimson Pro Variable (weight)",
         "fileName": "CrimsonPro[wght].ttf",
         "format": "truetype",
@@ -107,7 +107,7 @@ export default {
         },
         "weightRange": "200 900"
       },
-      "CrimsonProVariableItalic[wght]": {
+      "Crimson ProVariableItalic[wght]": {
         "name": "Crimson Pro Italic Variable (weight)",
         "fileName": "CrimsonPro-Italic[wght].ttf",
         "format": "truetype",
@@ -127,112 +127,112 @@ export default {
       }
     },
     "static": {
-      "CrimsonPro-SemiBold-Italic": {
+      "Crimson Pro-SemiBold-Italic": {
         "name": "Crimson Pro SemiBold Italic",
         "fileName": "CrimsonPro-SemiBoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 600
       },
-      "CrimsonPro-SemiBold": {
+      "Crimson Pro-SemiBold": {
         "name": "Crimson Pro SemiBold",
         "fileName": "CrimsonPro-SemiBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 600
       },
-      "CrimsonPro-Regular": {
+      "Crimson Pro-Regular": {
         "name": "Crimson Pro Regular",
         "fileName": "CrimsonPro-Regular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400
       },
-      "CrimsonPro-Medium-Italic": {
+      "Crimson Pro-Medium-Italic": {
         "name": "Crimson Pro Medium Italic",
         "fileName": "CrimsonPro-MediumItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 500
       },
-      "CrimsonPro-Medium": {
+      "Crimson Pro-Medium": {
         "name": "Crimson Pro Medium",
         "fileName": "CrimsonPro-Medium.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 500
       },
-      "CrimsonPro-Light-Italic": {
+      "Crimson Pro-Light-Italic": {
         "name": "Crimson Pro Light Italic",
         "fileName": "CrimsonPro-LightItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 300
       },
-      "CrimsonPro-Light": {
+      "Crimson Pro-Light": {
         "name": "Crimson Pro Light",
         "fileName": "CrimsonPro-Light.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 300
       },
-      "CrimsonPro-Regular-Italic": {
+      "Crimson Pro-Regular-Italic": {
         "name": "Crimson Pro Regular Italic",
         "fileName": "CrimsonPro-Italic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 400
       },
-      "CrimsonPro-ExtraLight-Italic": {
+      "Crimson Pro-ExtraLight-Italic": {
         "name": "Crimson Pro ExtraLight Italic",
         "fileName": "CrimsonPro-ExtraLightItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 200
       },
-      "CrimsonPro-ExtraLight": {
+      "Crimson Pro-ExtraLight": {
         "name": "Crimson Pro ExtraLight",
         "fileName": "CrimsonPro-ExtraLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 200
       },
-      "CrimsonPro-ExtraBold-Italic": {
+      "Crimson Pro-ExtraBold-Italic": {
         "name": "Crimson Pro ExtraBold Italic",
         "fileName": "CrimsonPro-ExtraBoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 800
       },
-      "CrimsonPro-ExtraBold": {
+      "Crimson Pro-ExtraBold": {
         "name": "Crimson Pro ExtraBold",
         "fileName": "CrimsonPro-ExtraBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 800
       },
-      "CrimsonPro-Bold-Italic": {
+      "Crimson Pro-Bold-Italic": {
         "name": "Crimson Pro Bold Italic",
         "fileName": "CrimsonPro-BoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 700
       },
-      "CrimsonPro-Bold": {
+      "Crimson Pro-Bold": {
         "name": "Crimson Pro Bold",
         "fileName": "CrimsonPro-Bold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 700
       },
-      "CrimsonPro-Black-Italic": {
+      "Crimson Pro-Black-Italic": {
         "name": "Crimson Pro Black Italic",
         "fileName": "CrimsonPro-BlackItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 900
       },
-      "CrimsonPro-Black": {
+      "Crimson Pro-Black": {
         "name": "Crimson Pro Black",
         "fileName": "CrimsonPro-Black.woff2",
         "format": "woff2",
@@ -260,7 +260,7 @@ export default {
           "CrimsonProVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-09T20:15:11.393Z"
+      "generatedAt": "2025-09-10T17:58:08.820Z"
     }
   }
 };

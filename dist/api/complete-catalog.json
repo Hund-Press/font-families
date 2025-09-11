@@ -3,15 +3,15 @@
     "title": "Font Families - Complete Collection",
     "description": "Complete font collection including restricted-licensed fonts",
     "version": "1.6.0",
-    "generated": "2025-09-09T20:15:11.226Z",
+    "generated": "2025-09-10T17:58:08.665Z",
     "fontCount": 6,
     "includesRestrictedFonts": true
   },
   "families": {
     "public-sans": {
-      "name": "public-sans",
+      "name": "Public Sans",
       "key": "public-sans",
-      "description": "Unknown font family",
+      "description": "",
       "license": "OFL-1.1",
       "capabilities": {
         "hasStatic": true,
@@ -402,10 +402,10 @@
         "hasTabularFigures": true
       }
     },
-    "league-mono": {
-      "name": "league-mono",
-      "key": "league-mono",
-      "description": "League mono monospace font family with variable font technology and 40 weights. Ideal for code and terminal use",
+    "league-mono-thin-condensed": {
+      "name": "League Mono Thin Condensed",
+      "key": "league-mono-thin-condensed",
+      "description": "",
       "capabilities": {
         "hasStatic": true,
         "hasVariable": true,
@@ -416,418 +416,418 @@
         },
         "styleCount": 1,
         "formats": [
-          "opentype",
-          "truetype"
+          "truetype",
+          "woff"
         ]
       },
       "files": {
         "static": [
           {
             "key": "LeagueMono-WideUltraLight",
-            "fileName": "LeagueMono-WideUltraLight.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-WideUltraLight.ttf",
+            "format": "truetype",
             "weight": 200,
             "style": "normal",
             "stretch": "ultra-expanded",
-            "fileSize": 54208,
-            "fileSizeKB": 53
+            "fileSize": 65380,
+            "fileSizeKB": 64
           },
           {
             "key": "LeagueMono-WideThin",
-            "fileName": "LeagueMono-WideThin.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-WideThin.ttf",
+            "format": "truetype",
             "weight": 100,
             "style": "normal",
             "stretch": "ultra-expanded",
-            "fileSize": 48912,
-            "fileSizeKB": 48
+            "fileSize": 64564,
+            "fileSizeKB": 63
           },
           {
             "key": "LeagueMono-WideSemiBold",
-            "fileName": "LeagueMono-WideSemiBold.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-WideSemiBold.ttf",
+            "format": "truetype",
             "weight": 600,
             "style": "normal",
             "stretch": "ultra-expanded",
-            "fileSize": 54376,
-            "fileSizeKB": 53
+            "fileSize": 65760,
+            "fileSizeKB": 64
           },
           {
             "key": "LeagueMono-WideRegular",
-            "fileName": "LeagueMono-WideRegular.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-WideRegular.ttf",
+            "format": "truetype",
             "weight": 400,
             "style": "normal",
             "stretch": "ultra-expanded",
-            "fileSize": 53976,
-            "fileSizeKB": 53
+            "fileSize": 65864,
+            "fileSizeKB": 64
           },
           {
             "key": "LeagueMono-WideMedium",
-            "fileName": "LeagueMono-WideMedium.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-WideMedium.ttf",
+            "format": "truetype",
             "weight": 500,
             "style": "normal",
             "stretch": "ultra-expanded",
-            "fileSize": 53488,
-            "fileSizeKB": 52
+            "fileSize": 66152,
+            "fileSizeKB": 65
           },
           {
             "key": "LeagueMono-WideLight",
-            "fileName": "LeagueMono-WideLight.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-WideLight.ttf",
+            "format": "truetype",
             "weight": 300,
             "style": "normal",
             "stretch": "ultra-expanded",
-            "fileSize": 54916,
-            "fileSizeKB": 54
+            "fileSize": 66032,
+            "fileSizeKB": 64
           },
           {
             "key": "LeagueMono-WideExtraBold",
-            "fileName": "LeagueMono-WideExtraBold.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-WideExtraBold.ttf",
+            "format": "truetype",
             "weight": 800,
             "style": "normal",
             "stretch": "ultra-expanded",
-            "fileSize": 54740,
-            "fileSizeKB": 53
+            "fileSize": 66272,
+            "fileSizeKB": 65
           },
           {
             "key": "LeagueMono-WideBold",
-            "fileName": "LeagueMono-WideBold.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-WideBold.ttf",
+            "format": "truetype",
             "weight": 700,
             "style": "normal",
             "stretch": "ultra-expanded",
-            "fileSize": 54796,
-            "fileSizeKB": 54
+            "fileSize": 66212,
+            "fileSizeKB": 65
           },
           {
             "key": "LeagueMono-UltraLight",
-            "fileName": "LeagueMono-UltraLight.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-UltraLight.ttf",
+            "format": "truetype",
             "weight": 200,
             "style": "normal",
             "stretch": "normal",
-            "fileSize": 53432,
-            "fileSizeKB": 52
+            "fileSize": 65128,
+            "fileSizeKB": 64
           },
           {
             "key": "LeagueMono-Thin",
-            "fileName": "LeagueMono-Thin.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-Thin.ttf",
+            "format": "truetype",
             "weight": 100,
             "style": "normal",
             "stretch": "normal",
-            "fileSize": 48764,
-            "fileSizeKB": 48
+            "fileSize": 64144,
+            "fileSizeKB": 63
           },
           {
             "key": "LeagueMono-SemiBold",
-            "fileName": "LeagueMono-SemiBold.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-SemiBold.ttf",
+            "format": "truetype",
             "weight": 600,
             "style": "normal",
             "stretch": "normal",
-            "fileSize": 54828,
-            "fileSizeKB": 54
+            "fileSize": 65632,
+            "fileSizeKB": 64
           },
           {
             "key": "LeagueMono-Regular",
-            "fileName": "LeagueMono-Regular.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-Regular.ttf",
+            "format": "truetype",
             "weight": 400,
             "style": "normal",
             "stretch": "normal",
-            "fileSize": 54244,
-            "fileSizeKB": 53
+            "fileSize": 65408,
+            "fileSizeKB": 64
           },
           {
             "key": "LeagueMono-NarrowUltraLight",
-            "fileName": "LeagueMono-NarrowUltraLight.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-NarrowUltraLight.ttf",
+            "format": "truetype",
             "weight": 200,
             "style": "normal",
             "stretch": "semi-condensed",
-            "fileSize": 52984,
-            "fileSizeKB": 52
+            "fileSize": 65188,
+            "fileSizeKB": 64
           },
           {
             "key": "LeagueMono-NarrowThin",
-            "fileName": "LeagueMono-NarrowThin.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-NarrowThin.ttf",
+            "format": "truetype",
             "weight": 100,
             "style": "normal",
             "stretch": "semi-condensed",
-            "fileSize": 47808,
-            "fileSizeKB": 47
+            "fileSize": 64228,
+            "fileSizeKB": 63
           },
           {
             "key": "LeagueMono-NarrowSemiBold",
-            "fileName": "LeagueMono-NarrowSemiBold.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-NarrowSemiBold.ttf",
+            "format": "truetype",
             "weight": 600,
             "style": "normal",
             "stretch": "semi-condensed",
-            "fileSize": 54044,
-            "fileSizeKB": 53
+            "fileSize": 65172,
+            "fileSizeKB": 64
           },
           {
             "key": "LeagueMono-NarrowRegular",
-            "fileName": "LeagueMono-NarrowRegular.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-NarrowRegular.ttf",
+            "format": "truetype",
             "weight": 400,
             "style": "normal",
             "stretch": "semi-condensed",
-            "fileSize": 54024,
-            "fileSizeKB": 53
+            "fileSize": 65368,
+            "fileSizeKB": 64
           },
           {
             "key": "LeagueMono-NarrowMedium",
-            "fileName": "LeagueMono-NarrowMedium.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-NarrowMedium.ttf",
+            "format": "truetype",
             "weight": 500,
             "style": "normal",
             "stretch": "semi-condensed",
-            "fileSize": 53644,
-            "fileSizeKB": 52
+            "fileSize": 65500,
+            "fileSizeKB": 64
           },
           {
             "key": "LeagueMono-NarrowLight",
-            "fileName": "LeagueMono-NarrowLight.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-NarrowLight.ttf",
+            "format": "truetype",
             "weight": 300,
             "style": "normal",
             "stretch": "semi-condensed",
-            "fileSize": 54784,
-            "fileSizeKB": 54
+            "fileSize": 67200,
+            "fileSizeKB": 66
           },
           {
             "key": "LeagueMono-NarrowExtraBold",
-            "fileName": "LeagueMono-NarrowExtraBold.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-NarrowExtraBold.ttf",
+            "format": "truetype",
             "weight": 800,
             "style": "normal",
             "stretch": "semi-condensed",
-            "fileSize": 54804,
-            "fileSizeKB": 54
+            "fileSize": 65744,
+            "fileSizeKB": 64
           },
           {
             "key": "LeagueMono-NarrowBold",
-            "fileName": "LeagueMono-NarrowBold.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-NarrowBold.ttf",
+            "format": "truetype",
             "weight": 700,
             "style": "normal",
             "stretch": "semi-condensed",
-            "fileSize": 54360,
-            "fileSizeKB": 53
+            "fileSize": 65076,
+            "fileSizeKB": 64
           },
           {
             "key": "LeagueMono-Medium",
-            "fileName": "LeagueMono-Medium.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-Medium.ttf",
+            "format": "truetype",
             "weight": 500,
             "style": "normal",
             "stretch": "normal",
-            "fileSize": 53876,
-            "fileSizeKB": 53
+            "fileSize": 65816,
+            "fileSizeKB": 64
           },
           {
             "key": "LeagueMono-Light",
-            "fileName": "LeagueMono-Light.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-Light.ttf",
+            "format": "truetype",
             "weight": 300,
             "style": "normal",
             "stretch": "normal",
-            "fileSize": 54444,
-            "fileSizeKB": 53
+            "fileSize": 66244,
+            "fileSizeKB": 65
           },
           {
             "key": "LeagueMono-ExtraBold",
-            "fileName": "LeagueMono-ExtraBold.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-ExtraBold.ttf",
+            "format": "truetype",
             "weight": 800,
             "style": "normal",
             "stretch": "normal",
-            "fileSize": 54520,
-            "fileSizeKB": 53
+            "fileSize": 65688,
+            "fileSizeKB": 64
           },
           {
             "key": "LeagueMono-ExtendedUltraLight",
-            "fileName": "LeagueMono-ExtendedUltraLight.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-ExtendedUltraLight.ttf",
+            "format": "truetype",
             "weight": 200,
             "style": "normal",
             "stretch": "expanded",
-            "fileSize": 54068,
-            "fileSizeKB": 53
+            "fileSize": 66624,
+            "fileSizeKB": 65
           },
           {
             "key": "LeagueMono-ExtendedThin",
-            "fileName": "LeagueMono-ExtendedThin.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-ExtendedThin.ttf",
+            "format": "truetype",
             "weight": 100,
             "style": "normal",
             "stretch": "expanded",
-            "fileSize": 47772,
-            "fileSizeKB": 47
+            "fileSize": 64692,
+            "fileSizeKB": 63
           },
           {
             "key": "LeagueMono-ExtendedSemiBold",
-            "fileName": "LeagueMono-ExtendedSemiBold.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-ExtendedSemiBold.ttf",
+            "format": "truetype",
             "weight": 600,
             "style": "normal",
             "stretch": "expanded",
-            "fileSize": 54400,
-            "fileSizeKB": 53
+            "fileSize": 67076,
+            "fileSizeKB": 66
           },
           {
             "key": "LeagueMono-ExtendedRegular",
-            "fileName": "LeagueMono-ExtendedRegular.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-ExtendedRegular.ttf",
+            "format": "truetype",
             "weight": 400,
             "style": "normal",
             "stretch": "expanded",
-            "fileSize": 54664,
-            "fileSizeKB": 53
+            "fileSize": 67020,
+            "fileSizeKB": 65
           },
           {
             "key": "LeagueMono-ExtendedMedium",
-            "fileName": "LeagueMono-ExtendedMedium.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-ExtendedMedium.ttf",
+            "format": "truetype",
             "weight": 500,
             "style": "normal",
             "stretch": "expanded",
-            "fileSize": 54188,
-            "fileSizeKB": 53
+            "fileSize": 67444,
+            "fileSizeKB": 66
           },
           {
             "key": "LeagueMono-ExtendedLight",
-            "fileName": "LeagueMono-ExtendedLight.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-ExtendedLight.ttf",
+            "format": "truetype",
             "weight": 300,
             "style": "normal",
             "stretch": "expanded",
-            "fileSize": 55948,
-            "fileSizeKB": 55
+            "fileSize": 67040,
+            "fileSizeKB": 65
           },
           {
             "key": "LeagueMono-ExtendedExtraBold",
-            "fileName": "LeagueMono-ExtendedExtraBold.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-ExtendedExtraBold.ttf",
+            "format": "truetype",
             "weight": 800,
             "style": "normal",
             "stretch": "expanded",
-            "fileSize": 52404,
-            "fileSizeKB": 51
+            "fileSize": 67600,
+            "fileSizeKB": 66
           },
           {
             "key": "LeagueMono-ExtendedBold",
-            "fileName": "LeagueMono-ExtendedBold.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-ExtendedBold.ttf",
+            "format": "truetype",
             "weight": 700,
             "style": "normal",
             "stretch": "expanded",
-            "fileSize": 54924,
-            "fileSizeKB": 54
+            "fileSize": 68208,
+            "fileSizeKB": 67
           },
           {
             "key": "LeagueMono-CondensedUltraLight",
-            "fileName": "LeagueMono-CondensedUltraLight.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-CondensedUltraLight.ttf",
+            "format": "truetype",
             "weight": 200,
             "style": "normal",
             "stretch": "condensed",
-            "fileSize": 52844,
-            "fileSizeKB": 52
+            "fileSize": 64404,
+            "fileSizeKB": 63
           },
           {
             "key": "LeagueMono-CondensedThin",
-            "fileName": "LeagueMono-CondensedThin.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-CondensedThin.ttf",
+            "format": "truetype",
             "weight": 100,
             "style": "normal",
             "stretch": "condensed",
-            "fileSize": 47552,
-            "fileSizeKB": 46
+            "fileSize": 63840,
+            "fileSizeKB": 62
           },
           {
             "key": "LeagueMono-CondensedSemiBold",
-            "fileName": "LeagueMono-CondensedSemiBold.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-CondensedSemiBold.ttf",
+            "format": "truetype",
             "weight": 600,
             "style": "normal",
             "stretch": "condensed",
-            "fileSize": 53964,
-            "fileSizeKB": 53
+            "fileSize": 65324,
+            "fileSizeKB": 64
           },
           {
             "key": "LeagueMono-CondensedMedium",
-            "fileName": "LeagueMono-CondensedMedium.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-CondensedMedium.ttf",
+            "format": "truetype",
             "weight": 500,
             "style": "normal",
             "stretch": "condensed",
-            "fileSize": 53152,
-            "fileSizeKB": 52
+            "fileSize": 65964,
+            "fileSizeKB": 64
           },
           {
             "key": "LeagueMono-CondensedLight",
-            "fileName": "LeagueMono-CondensedLight.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-CondensedLight.ttf",
+            "format": "truetype",
             "weight": 300,
             "style": "normal",
             "stretch": "condensed",
-            "fileSize": 54556,
-            "fileSizeKB": 53
+            "fileSize": 66756,
+            "fileSizeKB": 65
           },
           {
             "key": "LeagueMono-CondensedExtraBold",
-            "fileName": "LeagueMono-CondensedExtraBold.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-CondensedExtraBold.ttf",
+            "format": "truetype",
             "weight": 800,
             "style": "normal",
             "stretch": "condensed",
-            "fileSize": 52240,
-            "fileSizeKB": 51
+            "fileSize": 64464,
+            "fileSizeKB": 63
           },
           {
             "key": "LeagueMono-CondensedBold",
-            "fileName": "LeagueMono-CondensedBold.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-CondensedBold.ttf",
+            "format": "truetype",
             "weight": 700,
             "style": "normal",
             "stretch": "condensed",
-            "fileSize": 54956,
-            "fileSizeKB": 54
+            "fileSize": 64700,
+            "fileSizeKB": 63
           },
           {
             "key": "LeagueMono-Condensed",
-            "fileName": "LeagueMono-Condensed.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-Condensed.ttf",
+            "format": "truetype",
             "weight": 400,
             "style": "normal",
             "stretch": "condensed",
-            "fileSize": 53244,
-            "fileSizeKB": 52
+            "fileSize": 66040,
+            "fileSizeKB": 64
           },
           {
             "key": "LeagueMono-Bold",
-            "fileName": "LeagueMono-Bold.otf",
-            "format": "opentype",
+            "fileName": "LeagueMono-Bold.ttf",
+            "format": "truetype",
             "weight": 700,
             "style": "normal",
             "stretch": "normal",
-            "fileSize": 54504,
-            "fileSizeKB": 53
+            "fileSize": 65540,
+            "fileSizeKB": 64
           }
         ],
         "variable": [
           {
             "key": "VariableRegular[wdth,wght]",
-            "fileName": "LeagueMono-VF.ttf",
-            "format": "truetype",
+            "fileName": "LeagueMono-VF.woff",
+            "format": "woff",
             "axes": {
               "wght": {
                 "min": 100,
@@ -841,8 +841,8 @@
               }
             },
             "style": "normal",
-            "fileSize": 117968,
-            "fileSizeKB": 115
+            "fileSize": 65824,
+            "fileSizeKB": 64
           }
         ]
       },
@@ -854,7 +854,7 @@
         "xHeight": 1000,
         "glyphCount": 589,
         "totalFiles": 41,
-        "totalSizeKB": 2204
+        "totalSizeKB": 2634
       },
       "detailed": {
         "languages": {
@@ -1193,18 +1193,18 @@
             "punctuation": "!@#$%^&*()_+-=[]{}|;:,.<>?"
           },
           "specimenFonts": {
-            "variable": "fonts/open-fonts/league-mono/fonts/variable/TTF/LeagueMono-VF.ttf",
-            "regular": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-WideRegular.otf",
-            "bold": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-WideExtraBold.otf"
+            "variable": "fonts/open-fonts/league-mono/fonts/variable/WOFF/LeagueMono-VF.woff",
+            "regular": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-WideRegular.ttf",
+            "bold": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-WideExtraBold.ttf"
           }
         }
       },
       "performance": {
         "fileCount": 41,
-        "totalSizeKB": 2204,
-        "averageSizeKB": 54,
-        "smallestFileKB": 46,
-        "largestFileKB": 115,
+        "totalSizeKB": 2634,
+        "averageSizeKB": 64,
+        "smallestFileKB": 62,
+        "largestFileKB": 67,
         "averageGlyphCount": 589
       },
       "typography": {
@@ -1227,9 +1227,9 @@
       }
     },
     "inconsolata": {
-      "name": "inconsolata",
+      "name": "Inconsolata",
       "key": "inconsolata",
-      "description": "Unknown font family",
+      "description": "",
       "license": "OFL-1.1",
       "capabilities": {
         "hasStatic": true,
@@ -2253,9 +2253,9 @@
       }
     },
     "crimson-pro": {
-      "name": "crimson-pro",
+      "name": "Crimson Pro",
       "key": "crimson-pro",
-      "description": "Unknown font family",
+      "description": "",
       "license": "OFL-1.1",
       "capabilities": {
         "hasStatic": true,
@@ -2627,9 +2627,9 @@
       }
     },
     "atkinson-hyperlegible": {
-      "name": "atkinson-hyperlegible",
+      "name": "Atkinson Hyperlegible",
       "key": "atkinson-hyperlegible",
-      "description": "Atkinson hyperlegible font family",
+      "description": "",
       "license": "OFL-1.1",
       "author": "Braille Institute of America",
       "version": "1.0.0",
@@ -2784,9 +2784,9 @@
       }
     },
     "aspekta": {
-      "name": "aspekta",
+      "name": "Aspekta",
       "key": "aspekta",
-      "description": "Aspekta font family",
+      "description": "",
       "license": "OFL-1.1",
       "author": "Ivo Dolenc",
       "version": "2.100",

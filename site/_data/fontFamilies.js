@@ -1,13 +1,13 @@
 export default {
   "fonts": {
     "public-sans": {
-      "name": "public-sans",
+      "name": "Public Sans",
       "key": "public-sans",
       "licenseType": "OFL-1.1",
-      "description": "Unknown font family",
+      "description": "",
       "static": {
         "PublicSans-ThinItalic": {
-          "family": "public-sans",
+          "family": "Public Sans",
           "style": "italic",
           "weight": 100,
           "stretch": "normal",
@@ -145,7 +145,7 @@ export default {
           }
         },
         "PublicSans-Thin": {
-          "family": "public-sans",
+          "family": "Public Sans",
           "style": "normal",
           "weight": 100,
           "stretch": "normal",
@@ -283,7 +283,7 @@ export default {
           }
         },
         "PublicSans-SemiBoldItalic": {
-          "family": "public-sans",
+          "family": "Public Sans",
           "style": "italic",
           "weight": 600,
           "stretch": "normal",
@@ -421,7 +421,7 @@ export default {
           }
         },
         "PublicSans-SemiBold": {
-          "family": "public-sans",
+          "family": "Public Sans",
           "style": "normal",
           "weight": 600,
           "stretch": "normal",
@@ -559,7 +559,7 @@ export default {
           }
         },
         "PublicSans-Regular": {
-          "family": "public-sans",
+          "family": "Public Sans",
           "style": "normal",
           "weight": 400,
           "stretch": "normal",
@@ -697,7 +697,7 @@ export default {
           }
         },
         "PublicSans-MediumItalic": {
-          "family": "public-sans",
+          "family": "Public Sans",
           "style": "italic",
           "weight": 500,
           "stretch": "normal",
@@ -835,7 +835,7 @@ export default {
           }
         },
         "PublicSans-Medium": {
-          "family": "public-sans",
+          "family": "Public Sans",
           "style": "normal",
           "weight": 500,
           "stretch": "normal",
@@ -973,7 +973,7 @@ export default {
           }
         },
         "PublicSans-LightItalic": {
-          "family": "public-sans",
+          "family": "Public Sans",
           "style": "italic",
           "weight": 300,
           "stretch": "normal",
@@ -1111,7 +1111,7 @@ export default {
           }
         },
         "PublicSans-Light": {
-          "family": "public-sans",
+          "family": "Public Sans",
           "style": "normal",
           "weight": 300,
           "stretch": "normal",
@@ -1249,7 +1249,7 @@ export default {
           }
         },
         "PublicSans-Italic": {
-          "family": "public-sans",
+          "family": "Public Sans",
           "style": "italic",
           "weight": 400,
           "stretch": "normal",
@@ -1387,7 +1387,7 @@ export default {
           }
         },
         "PublicSans-ExtraLightItalic": {
-          "family": "public-sans",
+          "family": "Public Sans",
           "style": "italic",
           "weight": 200,
           "stretch": "normal",
@@ -1525,7 +1525,7 @@ export default {
           }
         },
         "PublicSans-ExtraLight": {
-          "family": "public-sans",
+          "family": "Public Sans",
           "style": "normal",
           "weight": 200,
           "stretch": "normal",
@@ -1663,7 +1663,7 @@ export default {
           }
         },
         "PublicSans-ExtraBoldItalic": {
-          "family": "public-sans",
+          "family": "Public Sans",
           "style": "italic",
           "weight": 800,
           "stretch": "normal",
@@ -1801,7 +1801,7 @@ export default {
           }
         },
         "PublicSans-ExtraBold": {
-          "family": "public-sans",
+          "family": "Public Sans",
           "style": "normal",
           "weight": 800,
           "stretch": "normal",
@@ -1939,7 +1939,7 @@ export default {
           }
         },
         "PublicSans-BoldItalic": {
-          "family": "public-sans",
+          "family": "Public Sans",
           "style": "italic",
           "weight": 700,
           "stretch": "normal",
@@ -2077,7 +2077,7 @@ export default {
           }
         },
         "PublicSans-Bold": {
-          "family": "public-sans",
+          "family": "Public Sans",
           "style": "normal",
           "weight": 700,
           "stretch": "normal",
@@ -2215,7 +2215,7 @@ export default {
           }
         },
         "PublicSans-BlackItalic": {
-          "family": "public-sans",
+          "family": "Public Sans",
           "style": "italic",
           "weight": 900,
           "stretch": "normal",
@@ -2353,7 +2353,7 @@ export default {
           }
         },
         "PublicSans-Black": {
-          "family": "public-sans",
+          "family": "Public Sans",
           "style": "normal",
           "weight": 900,
           "stretch": "normal",
@@ -2493,7 +2493,7 @@ export default {
       },
       "variable": {
         "VariableRegular[wght]": {
-          "family": "public-sans",
+          "family": "Public Sans",
           "style": "normal",
           "weight": {
             "min": 100,
@@ -2697,7 +2697,7 @@ export default {
           ]
         },
         "VariableItalic[wght]": {
-          "family": "public-sans",
+          "family": "Public Sans",
           "style": "italic",
           "weight": {
             "min": 100,
@@ -2903,15 +2903,15 @@ export default {
       }
     },
     "league-mono": {
-      "name": "league-mono",
-      "key": "league-mono",
+      "name": "League Mono Thin Condensed",
+      "key": "league-mono-thin-condensed",
       "static": {
         "LeagueMono-WideUltraLight": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 200,
           "stretch": "ultra-expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-WideUltraLight.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-WideUltraLight.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -3024,21 +3024,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 54208,
-            "fileSizeKB": 53,
-            "glyphDensity": 92,
-            "format": "otf",
+            "fileSize": 65380,
+            "fileSizeKB": 64,
+            "glyphDensity": 111,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-WideThin": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 100,
           "stretch": "ultra-expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-WideThin.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-WideThin.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -3151,21 +3151,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 48912,
-            "fileSizeKB": 48,
-            "glyphDensity": 83,
-            "format": "otf",
+            "fileSize": 64564,
+            "fileSizeKB": 63,
+            "glyphDensity": 110,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-WideSemiBold": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 600,
           "stretch": "ultra-expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-WideSemiBold.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-WideSemiBold.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -3278,21 +3278,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 54376,
-            "fileSizeKB": 53,
-            "glyphDensity": 92,
-            "format": "otf",
+            "fileSize": 65760,
+            "fileSizeKB": 64,
+            "glyphDensity": 112,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-WideRegular": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 400,
           "stretch": "ultra-expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-WideRegular.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-WideRegular.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -3405,21 +3405,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 53976,
-            "fileSizeKB": 53,
-            "glyphDensity": 92,
-            "format": "otf",
+            "fileSize": 65864,
+            "fileSizeKB": 64,
+            "glyphDensity": 112,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-WideMedium": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 500,
           "stretch": "ultra-expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-WideMedium.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-WideMedium.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -3532,21 +3532,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 53488,
-            "fileSizeKB": 52,
-            "glyphDensity": 91,
-            "format": "otf",
+            "fileSize": 66152,
+            "fileSizeKB": 65,
+            "glyphDensity": 112,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-WideLight": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 300,
           "stretch": "ultra-expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-WideLight.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-WideLight.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -3659,21 +3659,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 54916,
-            "fileSizeKB": 54,
-            "glyphDensity": 93,
-            "format": "otf",
+            "fileSize": 66032,
+            "fileSizeKB": 64,
+            "glyphDensity": 112,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-WideExtraBold": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 800,
           "stretch": "ultra-expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-WideExtraBold.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-WideExtraBold.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -3786,21 +3786,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 54740,
-            "fileSizeKB": 53,
-            "glyphDensity": 93,
-            "format": "otf",
+            "fileSize": 66272,
+            "fileSizeKB": 65,
+            "glyphDensity": 113,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-WideBold": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 700,
           "stretch": "ultra-expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-WideBold.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-WideBold.ttf",
           "subfamilyName": "Bold",
           "metrics": {
             "unitsPerEm": 2000,
@@ -3913,21 +3913,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 54796,
-            "fileSizeKB": 54,
-            "glyphDensity": 93,
-            "format": "otf",
+            "fileSize": 66212,
+            "fileSizeKB": 65,
+            "glyphDensity": 112,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-UltraLight": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 200,
           "stretch": "normal",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-UltraLight.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-UltraLight.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -3947,7 +3947,7 @@ export default {
               "minX": 15,
               "minY": -572,
               "maxX": 1497,
-              "maxY": 2173
+              "maxY": 2174
             }
           },
           "spacing": {
@@ -4040,21 +4040,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 53432,
-            "fileSizeKB": 52,
-            "glyphDensity": 91,
-            "format": "otf",
+            "fileSize": 65128,
+            "fileSizeKB": 64,
+            "glyphDensity": 111,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-Thin": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 100,
           "stretch": "normal",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-Thin.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-Thin.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -4167,21 +4167,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 48764,
-            "fileSizeKB": 48,
-            "glyphDensity": 83,
-            "format": "otf",
+            "fileSize": 64144,
+            "fileSizeKB": 63,
+            "glyphDensity": 109,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-SemiBold": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 600,
           "stretch": "normal",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-SemiBold.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-SemiBold.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -4294,21 +4294,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 54828,
-            "fileSizeKB": 54,
-            "glyphDensity": 93,
-            "format": "otf",
+            "fileSize": 65632,
+            "fileSizeKB": 64,
+            "glyphDensity": 111,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-Regular": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 400,
           "stretch": "normal",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-Regular.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-Regular.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -4328,7 +4328,7 @@ export default {
               "minX": -16,
               "minY": -599,
               "maxX": 1536,
-              "maxY": 2192
+              "maxY": 2193
             }
           },
           "spacing": {
@@ -4421,21 +4421,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 54244,
-            "fileSizeKB": 53,
-            "glyphDensity": 92,
-            "format": "otf",
+            "fileSize": 65408,
+            "fileSizeKB": 64,
+            "glyphDensity": 111,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-NarrowUltraLight": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 200,
           "stretch": "semi-condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-NarrowUltraLight.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-NarrowUltraLight.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -4548,21 +4548,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 52984,
-            "fileSizeKB": 52,
-            "glyphDensity": 90,
-            "format": "otf",
+            "fileSize": 65188,
+            "fileSizeKB": 64,
+            "glyphDensity": 111,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-NarrowThin": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 100,
           "stretch": "semi-condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-NarrowThin.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-NarrowThin.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -4675,21 +4675,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 47808,
-            "fileSizeKB": 47,
-            "glyphDensity": 81,
-            "format": "otf",
+            "fileSize": 64228,
+            "fileSizeKB": 63,
+            "glyphDensity": 109,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-NarrowSemiBold": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 600,
           "stretch": "semi-condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-NarrowSemiBold.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-NarrowSemiBold.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -4707,7 +4707,7 @@ export default {
             },
             "bbox": {
               "minX": -131,
-              "minY": -629,
+              "minY": -630,
               "maxX": 1290,
               "maxY": 2215
             }
@@ -4802,21 +4802,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 54044,
-            "fileSizeKB": 53,
-            "glyphDensity": 92,
-            "format": "otf",
+            "fileSize": 65172,
+            "fileSizeKB": 64,
+            "glyphDensity": 111,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-NarrowRegular": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 400,
           "stretch": "semi-condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-NarrowRegular.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-NarrowRegular.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -4929,21 +4929,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 54024,
-            "fileSizeKB": 53,
-            "glyphDensity": 92,
-            "format": "otf",
+            "fileSize": 65368,
+            "fileSizeKB": 64,
+            "glyphDensity": 111,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-NarrowMedium": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 500,
           "stretch": "semi-condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-NarrowMedium.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-NarrowMedium.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -5056,21 +5056,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 53644,
-            "fileSizeKB": 52,
-            "glyphDensity": 91,
-            "format": "otf",
+            "fileSize": 65500,
+            "fileSizeKB": 64,
+            "glyphDensity": 111,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-NarrowLight": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 300,
           "stretch": "semi-condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-NarrowLight.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-NarrowLight.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -5183,21 +5183,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 54784,
-            "fileSizeKB": 54,
-            "glyphDensity": 93,
-            "format": "otf",
+            "fileSize": 67200,
+            "fileSizeKB": 66,
+            "glyphDensity": 114,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-NarrowExtraBold": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 800,
           "stretch": "semi-condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-NarrowExtraBold.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-NarrowExtraBold.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -5215,7 +5215,7 @@ export default {
             },
             "bbox": {
               "minX": -180,
-              "minY": -657,
+              "minY": -656,
               "maxX": 1333,
               "maxY": 2254
             }
@@ -5310,21 +5310,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 54804,
-            "fileSizeKB": 54,
-            "glyphDensity": 93,
-            "format": "otf",
+            "fileSize": 65744,
+            "fileSizeKB": 64,
+            "glyphDensity": 112,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-NarrowBold": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 700,
           "stretch": "semi-condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-NarrowBold.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-NarrowBold.ttf",
           "subfamilyName": "Bold",
           "metrics": {
             "unitsPerEm": 2000,
@@ -5437,21 +5437,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 54360,
-            "fileSizeKB": 53,
-            "glyphDensity": 92,
-            "format": "otf",
+            "fileSize": 65076,
+            "fileSizeKB": 64,
+            "glyphDensity": 110,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-Medium": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 500,
           "stretch": "normal",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-Medium.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-Medium.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -5564,21 +5564,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 53876,
-            "fileSizeKB": 53,
-            "glyphDensity": 91,
-            "format": "otf",
+            "fileSize": 65816,
+            "fileSizeKB": 64,
+            "glyphDensity": 112,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-Light": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 300,
           "stretch": "normal",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-Light.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-Light.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -5691,21 +5691,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 54444,
-            "fileSizeKB": 53,
-            "glyphDensity": 92,
-            "format": "otf",
+            "fileSize": 66244,
+            "fileSizeKB": 65,
+            "glyphDensity": 112,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-ExtraBold": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 800,
           "stretch": "normal",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-ExtraBold.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-ExtraBold.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -5723,7 +5723,7 @@ export default {
             },
             "bbox": {
               "minX": -120,
-              "minY": -654,
+              "minY": -653,
               "maxX": 1614,
               "maxY": 2257
             }
@@ -5818,21 +5818,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 54520,
-            "fileSizeKB": 53,
-            "glyphDensity": 93,
-            "format": "otf",
+            "fileSize": 65688,
+            "fileSizeKB": 64,
+            "glyphDensity": 112,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-ExtendedUltraLight": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 200,
           "stretch": "expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-ExtendedUltraLight.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-ExtendedUltraLight.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -5850,7 +5850,7 @@ export default {
             },
             "bbox": {
               "minX": 46,
-              "minY": -565,
+              "minY": -564,
               "maxX": 2209,
               "maxY": 2175
             }
@@ -5945,21 +5945,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 54068,
-            "fileSizeKB": 53,
-            "glyphDensity": 92,
-            "format": "otf",
+            "fileSize": 66624,
+            "fileSizeKB": 65,
+            "glyphDensity": 113,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-ExtendedThin": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 100,
           "stretch": "expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-ExtendedThin.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-ExtendedThin.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -6072,21 +6072,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 47772,
-            "fileSizeKB": 47,
-            "glyphDensity": 81,
-            "format": "otf",
+            "fileSize": 64692,
+            "fileSizeKB": 63,
+            "glyphDensity": 110,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-ExtendedSemiBold": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 600,
           "stretch": "expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-ExtendedSemiBold.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-ExtendedSemiBold.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -6104,7 +6104,7 @@ export default {
             },
             "bbox": {
               "minX": 18,
-              "minY": -620,
+              "minY": -619,
               "maxX": 2267,
               "maxY": 2233
             }
@@ -6199,21 +6199,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 54400,
-            "fileSizeKB": 53,
-            "glyphDensity": 92,
-            "format": "otf",
+            "fileSize": 67076,
+            "fileSizeKB": 66,
+            "glyphDensity": 114,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-ExtendedRegular": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 400,
           "stretch": "expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-ExtendedRegular.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-ExtendedRegular.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -6326,21 +6326,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 54664,
-            "fileSizeKB": 53,
-            "glyphDensity": 93,
-            "format": "otf",
+            "fileSize": 67020,
+            "fileSizeKB": 65,
+            "glyphDensity": 114,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-ExtendedMedium": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 500,
           "stretch": "expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-ExtendedMedium.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-ExtendedMedium.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -6453,21 +6453,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 54188,
-            "fileSizeKB": 53,
-            "glyphDensity": 92,
-            "format": "otf",
+            "fileSize": 67444,
+            "fileSizeKB": 66,
+            "glyphDensity": 115,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-ExtendedLight": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 300,
           "stretch": "expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-ExtendedLight.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-ExtendedLight.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -6485,7 +6485,7 @@ export default {
             },
             "bbox": {
               "minX": 45,
-              "minY": -578,
+              "minY": -579,
               "maxX": 2223,
               "maxY": 2185
             }
@@ -6580,21 +6580,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 55948,
-            "fileSizeKB": 55,
-            "glyphDensity": 95,
-            "format": "otf",
+            "fileSize": 67040,
+            "fileSizeKB": 65,
+            "glyphDensity": 114,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-ExtendedExtraBold": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 800,
           "stretch": "expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-ExtendedExtraBold.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-ExtendedExtraBold.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -6707,21 +6707,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 52404,
-            "fileSizeKB": 51,
-            "glyphDensity": 89,
-            "format": "otf",
+            "fileSize": 67600,
+            "fileSizeKB": 66,
+            "glyphDensity": 115,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-ExtendedBold": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 700,
           "stretch": "expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-ExtendedBold.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-ExtendedBold.ttf",
           "subfamilyName": "Bold",
           "metrics": {
             "unitsPerEm": 2000,
@@ -6739,7 +6739,7 @@ export default {
             },
             "bbox": {
               "minX": -2,
-              "minY": -633,
+              "minY": -634,
               "maxX": 2284,
               "maxY": 2251
             }
@@ -6834,21 +6834,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 54924,
-            "fileSizeKB": 54,
-            "glyphDensity": 93,
-            "format": "otf",
+            "fileSize": 68208,
+            "fileSizeKB": 67,
+            "glyphDensity": 116,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-CondensedUltraLight": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 200,
           "stretch": "condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-CondensedUltraLight.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-CondensedUltraLight.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -6866,7 +6866,7 @@ export default {
             },
             "bbox": {
               "minX": -91,
-              "minY": -578,
+              "minY": -577,
               "maxX": 990,
               "maxY": 2173
             }
@@ -6961,21 +6961,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 52844,
-            "fileSizeKB": 52,
-            "glyphDensity": 90,
-            "format": "otf",
+            "fileSize": 64404,
+            "fileSizeKB": 63,
+            "glyphDensity": 109,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-CondensedThin": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 100,
           "stretch": "condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-CondensedThin.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-CondensedThin.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -7088,21 +7088,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 47552,
-            "fileSizeKB": 46,
-            "glyphDensity": 81,
-            "format": "otf",
+            "fileSize": 63840,
+            "fileSizeKB": 62,
+            "glyphDensity": 108,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-CondensedSemiBold": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 600,
           "stretch": "condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-CondensedSemiBold.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-CondensedSemiBold.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -7120,7 +7120,7 @@ export default {
             },
             "bbox": {
               "minX": -184,
-              "minY": -632,
+              "minY": -631,
               "maxX": 1083,
               "maxY": 2210
             }
@@ -7215,21 +7215,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 53964,
-            "fileSizeKB": 53,
-            "glyphDensity": 92,
-            "format": "otf",
+            "fileSize": 65324,
+            "fileSizeKB": 64,
+            "glyphDensity": 111,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-CondensedMedium": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 500,
           "stretch": "condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-CondensedMedium.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-CondensedMedium.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -7342,21 +7342,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 53152,
-            "fileSizeKB": 52,
-            "glyphDensity": 90,
-            "format": "otf",
+            "fileSize": 65964,
+            "fileSizeKB": 64,
+            "glyphDensity": 112,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-CondensedLight": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 300,
           "stretch": "condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-CondensedLight.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-CondensedLight.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -7374,7 +7374,7 @@ export default {
             },
             "bbox": {
               "minX": -115,
-              "minY": -591,
+              "minY": -592,
               "maxX": 1014,
               "maxY": 2181
             }
@@ -7469,21 +7469,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 54556,
-            "fileSizeKB": 53,
-            "glyphDensity": 93,
-            "format": "otf",
+            "fileSize": 66756,
+            "fileSizeKB": 65,
+            "glyphDensity": 113,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-CondensedExtraBold": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 800,
           "stretch": "condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-CondensedExtraBold.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-CondensedExtraBold.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -7596,21 +7596,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 52240,
-            "fileSizeKB": 51,
-            "glyphDensity": 89,
-            "format": "otf",
+            "fileSize": 64464,
+            "fileSizeKB": 63,
+            "glyphDensity": 109,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-CondensedBold": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 700,
           "stretch": "condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-CondensedBold.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-CondensedBold.ttf",
           "subfamilyName": "Bold",
           "metrics": {
             "unitsPerEm": 2000,
@@ -7628,9 +7628,9 @@ export default {
             },
             "bbox": {
               "minX": -208,
-              "minY": -645,
+              "minY": -646,
               "maxX": 1107,
-              "maxY": 2226
+              "maxY": 2225
             }
           },
           "spacing": {
@@ -7723,21 +7723,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 54956,
-            "fileSizeKB": 54,
-            "glyphDensity": 93,
-            "format": "otf",
+            "fileSize": 64700,
+            "fileSizeKB": 63,
+            "glyphDensity": 110,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-Condensed": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 400,
           "stretch": "condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-Condensed.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-Condensed.ttf",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -7850,21 +7850,21 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 53244,
-            "fileSizeKB": 52,
-            "glyphDensity": 90,
-            "format": "otf",
+            "fileSize": 66040,
+            "fileSizeKB": 64,
+            "glyphDensity": 112,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
           }
         },
         "LeagueMono-Bold": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": 700,
           "stretch": "normal",
-          "path": "fonts/open-fonts/league-mono/fonts/static/OTF/LeagueMono-Bold.otf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-Bold.ttf",
           "subfamilyName": "Bold",
           "metrics": {
             "unitsPerEm": 2000,
@@ -7977,10 +7977,10 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 54504,
-            "fileSizeKB": 53,
-            "glyphDensity": 93,
-            "format": "otf",
+            "fileSize": 65540,
+            "fileSizeKB": 64,
+            "glyphDensity": 111,
+            "format": "ttf",
             "isVariable": false,
             "axisCount": 0,
             "tableCount": 10
@@ -7989,7 +7989,7 @@ export default {
       },
       "variable": {
         "VariableRegular[wdth,wght]": {
-          "family": "league-mono",
+          "family": "League Mono Thin Condensed",
           "style": "normal",
           "weight": {
             "min": 100,
@@ -8007,7 +8007,7 @@ export default {
               "200": "expanded"
             }
           },
-          "path": "fonts/open-fonts/league-mono/fonts/variable/TTF/LeagueMono-VF.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/variable/WOFF/LeagueMono-VF.woff",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -8120,10 +8120,10 @@ export default {
             ]
           },
           "performance": {
-            "fileSize": 117968,
-            "fileSizeKB": 115,
-            "glyphDensity": 200,
-            "format": "ttf",
+            "fileSize": 65824,
+            "fileSizeKB": 64,
+            "glyphDensity": 112,
+            "format": "woff",
             "isVariable": true,
             "axisCount": 2,
             "tableCount": 11
@@ -8424,16 +8424,16 @@ export default {
           ]
         }
       },
-      "description": "League mono monospace font family with variable font technology and 40 weights. Ideal for code and terminal use"
+      "description": ""
     },
     "inconsolata": {
-      "name": "inconsolata",
+      "name": "Inconsolata",
       "key": "inconsolata",
       "licenseType": "OFL-1.1",
-      "description": "Unknown font family",
+      "description": "",
       "static": {
         "InconsolataUltraExpanded-Thin": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 100,
           "stretch": "expanded",
@@ -8578,7 +8578,7 @@ export default {
           }
         },
         "InconsolataUltraExpanded-SemiBold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 600,
           "stretch": "expanded",
@@ -8723,7 +8723,7 @@ export default {
           }
         },
         "InconsolataUltraExpanded-Regular": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 400,
           "stretch": "expanded",
@@ -8868,7 +8868,7 @@ export default {
           }
         },
         "InconsolataUltraExpanded-Medium": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 500,
           "stretch": "expanded",
@@ -9013,7 +9013,7 @@ export default {
           }
         },
         "InconsolataUltraExpanded-Light": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 300,
           "stretch": "expanded",
@@ -9158,7 +9158,7 @@ export default {
           }
         },
         "InconsolataUltraExpanded-ExtraLight": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 200,
           "stretch": "expanded",
@@ -9303,7 +9303,7 @@ export default {
           }
         },
         "InconsolataUltraExpanded-ExtraBold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 800,
           "stretch": "expanded",
@@ -9448,7 +9448,7 @@ export default {
           }
         },
         "InconsolataUltraExpanded-Bold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 700,
           "stretch": "expanded",
@@ -9593,7 +9593,7 @@ export default {
           }
         },
         "InconsolataUltraExpanded-Black": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 900,
           "stretch": "expanded",
@@ -9738,7 +9738,7 @@ export default {
           }
         },
         "InconsolataUltraCondensed-Thin": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 100,
           "stretch": "ultra-condensed",
@@ -9883,7 +9883,7 @@ export default {
           }
         },
         "InconsolataUltraCondensed-SemiBold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 600,
           "stretch": "ultra-condensed",
@@ -10028,7 +10028,7 @@ export default {
           }
         },
         "InconsolataUltraCondensed-Regular": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 400,
           "stretch": "ultra-condensed",
@@ -10173,7 +10173,7 @@ export default {
           }
         },
         "InconsolataUltraCondensed-Medium": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 500,
           "stretch": "ultra-condensed",
@@ -10318,7 +10318,7 @@ export default {
           }
         },
         "InconsolataUltraCondensed-Light": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 300,
           "stretch": "ultra-condensed",
@@ -10463,7 +10463,7 @@ export default {
           }
         },
         "InconsolataUltraCondensed-ExtraLight": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 200,
           "stretch": "ultra-condensed",
@@ -10608,7 +10608,7 @@ export default {
           }
         },
         "InconsolataUltraCondensed-ExtraBold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 800,
           "stretch": "ultra-condensed",
@@ -10753,7 +10753,7 @@ export default {
           }
         },
         "InconsolataUltraCondensed-Bold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 700,
           "stretch": "ultra-condensed",
@@ -10898,7 +10898,7 @@ export default {
           }
         },
         "InconsolataUltraCondensed-Black": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 900,
           "stretch": "ultra-condensed",
@@ -11043,7 +11043,7 @@ export default {
           }
         },
         "Inconsolata-Thin": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 100,
           "stretch": "normal",
@@ -11188,7 +11188,7 @@ export default {
           }
         },
         "InconsolataSemiExpanded-Thin": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 100,
           "stretch": "semi-expanded",
@@ -11333,7 +11333,7 @@ export default {
           }
         },
         "InconsolataSemiExpanded-SemiBold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 600,
           "stretch": "semi-expanded",
@@ -11478,7 +11478,7 @@ export default {
           }
         },
         "InconsolataSemiExpanded-Regular": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 400,
           "stretch": "semi-expanded",
@@ -11623,7 +11623,7 @@ export default {
           }
         },
         "InconsolataSemiExpanded-Medium": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 500,
           "stretch": "semi-expanded",
@@ -11768,7 +11768,7 @@ export default {
           }
         },
         "InconsolataSemiExpanded-Light": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 300,
           "stretch": "semi-expanded",
@@ -11913,7 +11913,7 @@ export default {
           }
         },
         "InconsolataSemiExpanded-ExtraLight": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 200,
           "stretch": "semi-expanded",
@@ -12058,7 +12058,7 @@ export default {
           }
         },
         "InconsolataSemiExpanded-ExtraBold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 800,
           "stretch": "semi-expanded",
@@ -12203,7 +12203,7 @@ export default {
           }
         },
         "InconsolataSemiExpanded-Bold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 700,
           "stretch": "semi-expanded",
@@ -12348,7 +12348,7 @@ export default {
           }
         },
         "InconsolataSemiExpanded-Black": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 900,
           "stretch": "semi-expanded",
@@ -12493,7 +12493,7 @@ export default {
           }
         },
         "InconsolataSemiCondensed-Thin": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 100,
           "stretch": "condensed",
@@ -12638,7 +12638,7 @@ export default {
           }
         },
         "InconsolataSemiCondensed-SemiBold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 600,
           "stretch": "condensed",
@@ -12783,7 +12783,7 @@ export default {
           }
         },
         "InconsolataSemiCondensed-Regular": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 400,
           "stretch": "condensed",
@@ -12928,7 +12928,7 @@ export default {
           }
         },
         "InconsolataSemiCondensed-Medium": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 500,
           "stretch": "condensed",
@@ -13073,7 +13073,7 @@ export default {
           }
         },
         "InconsolataSemiCondensed-Light": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 300,
           "stretch": "condensed",
@@ -13218,7 +13218,7 @@ export default {
           }
         },
         "InconsolataSemiCondensed-ExtraLight": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 200,
           "stretch": "condensed",
@@ -13363,7 +13363,7 @@ export default {
           }
         },
         "InconsolataSemiCondensed-ExtraBold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 800,
           "stretch": "condensed",
@@ -13508,7 +13508,7 @@ export default {
           }
         },
         "InconsolataSemiCondensed-Bold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 700,
           "stretch": "condensed",
@@ -13653,7 +13653,7 @@ export default {
           }
         },
         "InconsolataSemiCondensed-Black": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 900,
           "stretch": "condensed",
@@ -13798,7 +13798,7 @@ export default {
           }
         },
         "Inconsolata-SemiBold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 600,
           "stretch": "normal",
@@ -13943,7 +13943,7 @@ export default {
           }
         },
         "Inconsolata-Regular": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 400,
           "stretch": "normal",
@@ -14088,7 +14088,7 @@ export default {
           }
         },
         "Inconsolata-Medium": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 500,
           "stretch": "normal",
@@ -14233,7 +14233,7 @@ export default {
           }
         },
         "Inconsolata-Light": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 300,
           "stretch": "normal",
@@ -14378,7 +14378,7 @@ export default {
           }
         },
         "Inconsolata-ExtraLight": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 200,
           "stretch": "normal",
@@ -14523,7 +14523,7 @@ export default {
           }
         },
         "InconsolataExtraExpanded-Thin": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 100,
           "stretch": "expanded",
@@ -14668,7 +14668,7 @@ export default {
           }
         },
         "InconsolataExtraExpanded-SemiBold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 600,
           "stretch": "expanded",
@@ -14813,7 +14813,7 @@ export default {
           }
         },
         "InconsolataExtraExpanded-Regular": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 400,
           "stretch": "expanded",
@@ -14958,7 +14958,7 @@ export default {
           }
         },
         "InconsolataExtraExpanded-Medium": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 500,
           "stretch": "expanded",
@@ -15103,7 +15103,7 @@ export default {
           }
         },
         "InconsolataExtraExpanded-Light": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 300,
           "stretch": "expanded",
@@ -15248,7 +15248,7 @@ export default {
           }
         },
         "InconsolataExtraExpanded-ExtraLight": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 200,
           "stretch": "expanded",
@@ -15393,7 +15393,7 @@ export default {
           }
         },
         "InconsolataExtraExpanded-ExtraBold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 800,
           "stretch": "expanded",
@@ -15538,7 +15538,7 @@ export default {
           }
         },
         "InconsolataExtraExpanded-Bold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 700,
           "stretch": "expanded",
@@ -15683,7 +15683,7 @@ export default {
           }
         },
         "InconsolataExtraExpanded-Black": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 900,
           "stretch": "expanded",
@@ -15828,7 +15828,7 @@ export default {
           }
         },
         "InconsolataExtraCondensed-Thin": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 100,
           "stretch": "extra-condensed",
@@ -15973,7 +15973,7 @@ export default {
           }
         },
         "InconsolataExtraCondensed-SemiBold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 600,
           "stretch": "extra-condensed",
@@ -16118,7 +16118,7 @@ export default {
           }
         },
         "InconsolataExtraCondensed-Regular": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 400,
           "stretch": "extra-condensed",
@@ -16263,7 +16263,7 @@ export default {
           }
         },
         "InconsolataExtraCondensed-Medium": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 500,
           "stretch": "extra-condensed",
@@ -16408,7 +16408,7 @@ export default {
           }
         },
         "InconsolataExtraCondensed-Light": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 300,
           "stretch": "extra-condensed",
@@ -16553,7 +16553,7 @@ export default {
           }
         },
         "InconsolataExtraCondensed-ExtraLight": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 200,
           "stretch": "extra-condensed",
@@ -16698,7 +16698,7 @@ export default {
           }
         },
         "InconsolataExtraCondensed-ExtraBold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 800,
           "stretch": "extra-condensed",
@@ -16843,7 +16843,7 @@ export default {
           }
         },
         "InconsolataExtraCondensed-Bold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 700,
           "stretch": "extra-condensed",
@@ -16988,7 +16988,7 @@ export default {
           }
         },
         "InconsolataExtraCondensed-Black": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 900,
           "stretch": "extra-condensed",
@@ -17133,7 +17133,7 @@ export default {
           }
         },
         "Inconsolata-ExtraBold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 800,
           "stretch": "normal",
@@ -17278,7 +17278,7 @@ export default {
           }
         },
         "InconsolataExpanded-Thin": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 100,
           "stretch": "expanded",
@@ -17423,7 +17423,7 @@ export default {
           }
         },
         "InconsolataExpanded-SemiBold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 600,
           "stretch": "expanded",
@@ -17568,7 +17568,7 @@ export default {
           }
         },
         "InconsolataExpanded-Regular": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 400,
           "stretch": "expanded",
@@ -17713,7 +17713,7 @@ export default {
           }
         },
         "InconsolataExpanded-Medium": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 500,
           "stretch": "expanded",
@@ -17858,7 +17858,7 @@ export default {
           }
         },
         "InconsolataExpanded-Light": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 300,
           "stretch": "expanded",
@@ -18003,7 +18003,7 @@ export default {
           }
         },
         "InconsolataExpanded-ExtraLight": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 200,
           "stretch": "expanded",
@@ -18148,7 +18148,7 @@ export default {
           }
         },
         "InconsolataExpanded-ExtraBold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 800,
           "stretch": "expanded",
@@ -18293,7 +18293,7 @@ export default {
           }
         },
         "InconsolataExpanded-Bold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 700,
           "stretch": "expanded",
@@ -18438,7 +18438,7 @@ export default {
           }
         },
         "InconsolataExpanded-Black": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 900,
           "stretch": "expanded",
@@ -18583,7 +18583,7 @@ export default {
           }
         },
         "InconsolataCondensed-Thin": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 100,
           "stretch": "condensed",
@@ -18728,7 +18728,7 @@ export default {
           }
         },
         "InconsolataCondensed-SemiBold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 600,
           "stretch": "condensed",
@@ -18873,7 +18873,7 @@ export default {
           }
         },
         "InconsolataCondensed-Regular": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 400,
           "stretch": "condensed",
@@ -19018,7 +19018,7 @@ export default {
           }
         },
         "InconsolataCondensed-Medium": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 500,
           "stretch": "condensed",
@@ -19163,7 +19163,7 @@ export default {
           }
         },
         "InconsolataCondensed-Light": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 300,
           "stretch": "condensed",
@@ -19308,7 +19308,7 @@ export default {
           }
         },
         "InconsolataCondensed-ExtraLight": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 200,
           "stretch": "condensed",
@@ -19453,7 +19453,7 @@ export default {
           }
         },
         "InconsolataCondensed-ExtraBold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 800,
           "stretch": "condensed",
@@ -19598,7 +19598,7 @@ export default {
           }
         },
         "InconsolataCondensed-Bold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 700,
           "stretch": "condensed",
@@ -19743,7 +19743,7 @@ export default {
           }
         },
         "InconsolataCondensed-Black": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 900,
           "stretch": "condensed",
@@ -19888,7 +19888,7 @@ export default {
           }
         },
         "Inconsolata-Bold": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 700,
           "stretch": "normal",
@@ -20033,7 +20033,7 @@ export default {
           }
         },
         "Inconsolata-Black": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": 900,
           "stretch": "normal",
@@ -20180,7 +20180,7 @@ export default {
       },
       "variable": {
         "VariableRegular[wdth,wght]": {
-          "family": "inconsolata",
+          "family": "Inconsolata",
           "style": "normal",
           "weight": {
             "min": 100,
@@ -20414,13 +20414,13 @@ export default {
       }
     },
     "crimson-pro": {
-      "name": "crimson-pro",
+      "name": "Crimson Pro",
       "key": "crimson-pro",
       "licenseType": "OFL-1.1",
-      "description": "Unknown font family",
+      "description": "",
       "static": {
         "CrimsonPro-SemiBoldItalic": {
-          "family": "crimson-pro",
+          "family": "Crimson Pro",
           "style": "italic",
           "weight": 600,
           "stretch": "normal",
@@ -20557,7 +20557,7 @@ export default {
           }
         },
         "CrimsonPro-SemiBold": {
-          "family": "crimson-pro",
+          "family": "Crimson Pro",
           "style": "normal",
           "weight": 600,
           "stretch": "normal",
@@ -20694,7 +20694,7 @@ export default {
           }
         },
         "CrimsonPro-Regular": {
-          "family": "crimson-pro",
+          "family": "Crimson Pro",
           "style": "normal",
           "weight": 400,
           "stretch": "normal",
@@ -20831,7 +20831,7 @@ export default {
           }
         },
         "CrimsonPro-MediumItalic": {
-          "family": "crimson-pro",
+          "family": "Crimson Pro",
           "style": "italic",
           "weight": 500,
           "stretch": "normal",
@@ -20968,7 +20968,7 @@ export default {
           }
         },
         "CrimsonPro-Medium": {
-          "family": "crimson-pro",
+          "family": "Crimson Pro",
           "style": "normal",
           "weight": 500,
           "stretch": "normal",
@@ -21105,7 +21105,7 @@ export default {
           }
         },
         "CrimsonPro-LightItalic": {
-          "family": "crimson-pro",
+          "family": "Crimson Pro",
           "style": "italic",
           "weight": 300,
           "stretch": "normal",
@@ -21242,7 +21242,7 @@ export default {
           }
         },
         "CrimsonPro-Light": {
-          "family": "crimson-pro",
+          "family": "Crimson Pro",
           "style": "normal",
           "weight": 300,
           "stretch": "normal",
@@ -21379,7 +21379,7 @@ export default {
           }
         },
         "CrimsonPro-Italic": {
-          "family": "crimson-pro",
+          "family": "Crimson Pro",
           "style": "italic",
           "weight": 400,
           "stretch": "normal",
@@ -21516,7 +21516,7 @@ export default {
           }
         },
         "CrimsonPro-ExtraLightItalic": {
-          "family": "crimson-pro",
+          "family": "Crimson Pro",
           "style": "italic",
           "weight": 200,
           "stretch": "normal",
@@ -21653,7 +21653,7 @@ export default {
           }
         },
         "CrimsonPro-ExtraLight": {
-          "family": "crimson-pro",
+          "family": "Crimson Pro",
           "style": "normal",
           "weight": 200,
           "stretch": "normal",
@@ -21790,7 +21790,7 @@ export default {
           }
         },
         "CrimsonPro-ExtraBoldItalic": {
-          "family": "crimson-pro",
+          "family": "Crimson Pro",
           "style": "italic",
           "weight": 800,
           "stretch": "normal",
@@ -21927,7 +21927,7 @@ export default {
           }
         },
         "CrimsonPro-ExtraBold": {
-          "family": "crimson-pro",
+          "family": "Crimson Pro",
           "style": "normal",
           "weight": 800,
           "stretch": "normal",
@@ -22064,7 +22064,7 @@ export default {
           }
         },
         "CrimsonPro-BoldItalic": {
-          "family": "crimson-pro",
+          "family": "Crimson Pro",
           "style": "italic",
           "weight": 700,
           "stretch": "normal",
@@ -22201,7 +22201,7 @@ export default {
           }
         },
         "CrimsonPro-Bold": {
-          "family": "crimson-pro",
+          "family": "Crimson Pro",
           "style": "normal",
           "weight": 700,
           "stretch": "normal",
@@ -22338,7 +22338,7 @@ export default {
           }
         },
         "CrimsonPro-BlackItalic": {
-          "family": "crimson-pro",
+          "family": "Crimson Pro",
           "style": "italic",
           "weight": 900,
           "stretch": "normal",
@@ -22475,7 +22475,7 @@ export default {
           }
         },
         "CrimsonPro-Black": {
-          "family": "crimson-pro",
+          "family": "Crimson Pro",
           "style": "normal",
           "weight": 900,
           "stretch": "normal",
@@ -22614,7 +22614,7 @@ export default {
       },
       "variable": {
         "VariableRegular[wght]": {
-          "family": "crimson-pro",
+          "family": "Crimson Pro",
           "style": "normal",
           "weight": {
             "min": 200,
@@ -22812,7 +22812,7 @@ export default {
           ]
         },
         "VariableItalic[wght]": {
-          "family": "crimson-pro",
+          "family": "Crimson Pro",
           "style": "italic",
           "weight": {
             "min": 200,
@@ -23012,16 +23012,16 @@ export default {
       }
     },
     "atkinson-hyperlegible": {
-      "name": "atkinson-hyperlegible",
+      "name": "Atkinson Hyperlegible",
       "key": "atkinson-hyperlegible",
       "version": "1.0.0",
       "author": "Braille Institute of America",
       "license": "OFL-1.1",
       "licenseType": "OFL-1.1",
-      "description": "Atkinson hyperlegible font family",
+      "description": "",
       "static": {
         "AtkinsonHyperlegible-Regular": {
-          "family": "atkinson-hyperlegible",
+          "family": "Atkinson Hyperlegible",
           "style": "normal",
           "weight": 400,
           "stretch": "normal",
@@ -23144,7 +23144,7 @@ export default {
           }
         },
         "AtkinsonHyperlegible-Italic": {
-          "family": "atkinson-hyperlegible",
+          "family": "Atkinson Hyperlegible",
           "style": "italic",
           "weight": 400,
           "stretch": "normal",
@@ -23267,7 +23267,7 @@ export default {
           }
         },
         "AtkinsonHyperlegible-BoldItalic": {
-          "family": "atkinson-hyperlegible",
+          "family": "Atkinson Hyperlegible",
           "style": "italic",
           "weight": 700,
           "stretch": "normal",
@@ -23390,7 +23390,7 @@ export default {
           }
         },
         "AtkinsonHyperlegible-Bold": {
-          "family": "atkinson-hyperlegible",
+          "family": "Atkinson Hyperlegible",
           "style": "normal",
           "weight": 700,
           "stretch": "normal",
@@ -23516,16 +23516,16 @@ export default {
       "variable": {}
     },
     "aspekta": {
-      "name": "aspekta",
+      "name": "Aspekta",
       "key": "aspekta",
       "version": "2.100",
       "author": "Ivo Dolenc",
       "license": "OFL-1.1",
       "licenseType": "OFL-1.1",
-      "description": "Aspekta font family",
+      "description": "",
       "static": {
         "Aspekta-950": {
-          "family": "aspekta",
+          "family": "Aspekta",
           "style": "normal",
           "weight": 950,
           "stretch": "normal",
@@ -23726,7 +23726,7 @@ export default {
           }
         },
         "Aspekta-900": {
-          "family": "aspekta",
+          "family": "Aspekta",
           "style": "normal",
           "weight": 900,
           "stretch": "normal",
@@ -23927,7 +23927,7 @@ export default {
           }
         },
         "Aspekta-850": {
-          "family": "aspekta",
+          "family": "Aspekta",
           "style": "normal",
           "weight": 850,
           "stretch": "normal",
@@ -24128,7 +24128,7 @@ export default {
           }
         },
         "Aspekta-800": {
-          "family": "aspekta",
+          "family": "Aspekta",
           "style": "normal",
           "weight": 800,
           "stretch": "normal",
@@ -24329,7 +24329,7 @@ export default {
           }
         },
         "Aspekta-750": {
-          "family": "aspekta",
+          "family": "Aspekta",
           "style": "normal",
           "weight": 750,
           "stretch": "normal",
@@ -24530,7 +24530,7 @@ export default {
           }
         },
         "Aspekta-700": {
-          "family": "aspekta",
+          "family": "Aspekta",
           "style": "normal",
           "weight": 700,
           "stretch": "normal",
@@ -24731,7 +24731,7 @@ export default {
           }
         },
         "Aspekta-650": {
-          "family": "aspekta",
+          "family": "Aspekta",
           "style": "normal",
           "weight": 650,
           "stretch": "normal",
@@ -24932,7 +24932,7 @@ export default {
           }
         },
         "Aspekta-600": {
-          "family": "aspekta",
+          "family": "Aspekta",
           "style": "normal",
           "weight": 600,
           "stretch": "normal",
@@ -25133,7 +25133,7 @@ export default {
           }
         },
         "Aspekta-550": {
-          "family": "aspekta",
+          "family": "Aspekta",
           "style": "normal",
           "weight": 550,
           "stretch": "normal",
@@ -25334,7 +25334,7 @@ export default {
           }
         },
         "Aspekta-500": {
-          "family": "aspekta",
+          "family": "Aspekta",
           "style": "normal",
           "weight": 500,
           "stretch": "normal",
@@ -25535,7 +25535,7 @@ export default {
           }
         },
         "Aspekta-50": {
-          "family": "aspekta",
+          "family": "Aspekta",
           "style": "normal",
           "weight": 50,
           "stretch": "normal",
@@ -25736,7 +25736,7 @@ export default {
           }
         },
         "Aspekta-450": {
-          "family": "aspekta",
+          "family": "Aspekta",
           "style": "normal",
           "weight": 450,
           "stretch": "normal",
@@ -25937,7 +25937,7 @@ export default {
           }
         },
         "Aspekta-400": {
-          "family": "aspekta",
+          "family": "Aspekta",
           "style": "normal",
           "weight": 400,
           "stretch": "normal",
@@ -26138,7 +26138,7 @@ export default {
           }
         },
         "Aspekta-350": {
-          "family": "aspekta",
+          "family": "Aspekta",
           "style": "normal",
           "weight": 350,
           "stretch": "normal",
@@ -26339,7 +26339,7 @@ export default {
           }
         },
         "Aspekta-300": {
-          "family": "aspekta",
+          "family": "Aspekta",
           "style": "normal",
           "weight": 300,
           "stretch": "normal",
@@ -26540,7 +26540,7 @@ export default {
           }
         },
         "Aspekta-250": {
-          "family": "aspekta",
+          "family": "Aspekta",
           "style": "normal",
           "weight": 250,
           "stretch": "normal",
@@ -26741,7 +26741,7 @@ export default {
           }
         },
         "Aspekta-200": {
-          "family": "aspekta",
+          "family": "Aspekta",
           "style": "normal",
           "weight": 200,
           "stretch": "normal",
@@ -26942,7 +26942,7 @@ export default {
           }
         },
         "Aspekta-150": {
-          "family": "aspekta",
+          "family": "Aspekta",
           "style": "normal",
           "weight": 150,
           "stretch": "normal",
@@ -27143,7 +27143,7 @@ export default {
           }
         },
         "Aspekta-1000": {
-          "family": "aspekta",
+          "family": "Aspekta",
           "style": "normal",
           "weight": 1000,
           "stretch": "normal",
@@ -27344,7 +27344,7 @@ export default {
           }
         },
         "Aspekta-100": {
-          "family": "aspekta",
+          "family": "Aspekta",
           "style": "normal",
           "weight": 100,
           "stretch": "normal",
@@ -27547,7 +27547,7 @@ export default {
       },
       "variable": {
         "VariableRegular[wght]": {
-          "family": "aspekta",
+          "family": "Aspekta",
           "style": "normal",
           "weight": {
             "min": 100,
@@ -27769,7 +27769,7 @@ export default {
     }
   },
   "buildInfo": {
-    "timestamp": "2025-09-09T20:15:11.404Z",
+    "timestamp": "2025-09-10T17:58:08.834Z",
     "version": "1.6.0",
     "fontCount": 6
   }

@@ -1,7 +1,7 @@
 ---
 key: crimson-pro
 title: Crimson Pro
-description: "Unknown font family"
+description: "Crimson Pro font family"
 ---
 
 # {{ title }}
