@@ -74,11 +74,13 @@ async function generateFamilyModuleContent(familyData, cdnBaseUrl, repoVersion =
         name: familyData.name,
         key: familyData.key,
         
-        // Font Designer abstraction  
-        version: familyData.version,
-        author: familyData.author,
-        license: familyData.license || familyData.licenseType,
-        description: familyData.description,
+        // Font Designer abstraction with attribution object
+        attribution: {
+            version: familyData.version,
+            author: familyData.author,
+            license: familyData.license || familyData.licenseType,
+            description: familyData.description,
+        },
         
         // ENHANCED: Ground truth weight information by format
         weight: generateWeightInfo(familyData),
@@ -288,30 +290,28 @@ function validateFontConfiguration(fontName, staticWeights, variableRange) {
  * @returns {Object|null} Stylistic sets structure
  */
 function generateStylisticSetsStructure(detailedSets, basicTags) {
+    const stylisticSets = {};
+    
     // If we have detailed metadata, use it
     if (detailedSets.length > 0) {
-        return {
-            available: detailedSets,
-            count: detailedSets.length,
-            tags: detailedSets.map(ss => ss.tag)
-        };
+        detailedSets.forEach(ss => {
+            stylisticSets[ss.tag] = {
+                name: ss.name || '',
+                description: ss.description || ''
+            };
+        });
+        return stylisticSets;
     }
     
     // If we have basic tags but no detailed metadata, create placeholder structure
     if (basicTags && basicTags.length > 0) {
-        const placeholders = {};
         basicTags.forEach(tag => {
-            placeholders[tag] = {
-                name: null,
-                description: null
+            stylisticSets[tag] = {
+                name: '',
+                description: ''
             };
         });
-        
-        return {
-            detected: basicTags,
-            count: basicTags.length,
-            metadata: placeholders
-        };
+        return stylisticSets;
     }
     
     return null;
@@ -673,10 +673,12 @@ export async function generateCombinedModule(fontFamilies, outputDir, cdnBaseUrl
         allFonts[familyData.key] = {
             name: familyData.name,
             key: familyData.key,
-            version: familyData.version,
-            author: familyData.author,
-            license: familyData.license || familyData.licenseType,
-            description: familyData.description,
+            attribution: {
+                version: familyData.version,
+                author: familyData.author,
+                license: familyData.license || familyData.licenseType,
+                description: familyData.description,
+            },
             weight: generateWeightInfo(familyData),
             cdnBase: generateCdnPaths(familyData, cdnBaseUrl, repoVersion),
             faces: transformFontFaces(familyData)
