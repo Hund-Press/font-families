@@ -47,7 +47,7 @@ export default {
     },
     "faces": {
       "variable": {
-        "Public SansVariableRegular[wght]": {
+        "public-sans-variable-regular[wght]": {
           "name": "Public Sans Variable (weight)",
           "fileName": "PublicSans[wght].ttf",
           "format": "truetype",
@@ -63,9 +63,31 @@ export default {
             "min": 100,
             "max": 900
           },
+          "metrics": {
+            "layout": {
+              "ascent": 1900,
+              "descent": -450,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1446,
+              "xHeight": 1034,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1612,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -293,
+                "minY": -480,
+                "maxX": 2393,
+                "maxY": 2050
+              }
+            }
+          },
           "weightRange": "100 900"
         },
-        "Public SansVariableItalic[wght]": {
+        "public-sans-variable-italic[wght]": {
           "name": "Public Sans Italic Variable (weight)",
           "fileName": "PublicSans-Italic[wght].ttf",
           "format": "truetype",
@@ -81,135 +103,553 @@ export default {
             "min": 100,
             "max": 900
           },
+          "metrics": {
+            "layout": {
+              "ascent": 1900,
+              "descent": -450,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1446,
+              "xHeight": 1034,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1541,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -367,
+                "minY": -480,
+                "maxX": 2202,
+                "maxY": 2023
+              }
+            }
+          },
           "weightRange": "100 900"
         }
       },
       "static": {
-        "Public Sans-Thin-Italic": {
+        "public-sans-thin-italic": {
           "name": "Public Sans Thin Italic",
           "fileName": "PublicSans-ThinItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
-          "fontWeight": 100
+          "fontWeight": 100,
+          "metrics": {
+            "layout": {
+              "ascent": 1900,
+              "descent": -450,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1446,
+              "xHeight": 1034,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1541,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -367,
+                "minY": -480,
+                "maxX": 2202,
+                "maxY": 2023
+              }
+            }
+          }
         },
-        "Public Sans-Thin": {
+        "public-sans-thin": {
           "name": "Public Sans Thin",
           "fileName": "PublicSans-Thin.woff",
           "format": "woff",
           "fontStyle": "normal",
-          "fontWeight": 100
+          "fontWeight": 100,
+          "metrics": {
+            "layout": {
+              "ascent": 1900,
+              "descent": -450,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1446,
+              "xHeight": 1034,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1612,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -293,
+                "minY": -480,
+                "maxX": 2393,
+                "maxY": 2050
+              }
+            }
+          }
         },
-        "Public Sans-SemiBold-Italic": {
+        "public-sans-semibold-italic": {
           "name": "Public Sans SemiBold Italic",
           "fileName": "PublicSans-SemiBoldItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
-          "fontWeight": 600
+          "fontWeight": 600,
+          "metrics": {
+            "layout": {
+              "ascent": 1900,
+              "descent": -450,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1446,
+              "xHeight": 1034,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1645,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -398,
+                "minY": -480,
+                "maxX": 2344,
+                "maxY": 2144
+              }
+            }
+          }
         },
-        "Public Sans-SemiBold": {
+        "public-sans-semibold": {
           "name": "Public Sans SemiBold",
           "fileName": "PublicSans-SemiBold.woff",
           "format": "woff",
           "fontStyle": "normal",
-          "fontWeight": 600
+          "fontWeight": 600,
+          "metrics": {
+            "layout": {
+              "ascent": 1900,
+              "descent": -450,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1446,
+              "xHeight": 1034,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1726,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -324,
+                "minY": -480,
+                "maxX": 2552,
+                "maxY": 2166
+              }
+            }
+          }
         },
-        "Public Sans-Regular": {
+        "public-sans-regular": {
           "name": "Public Sans Regular",
           "fileName": "PublicSans-Regular.woff",
           "format": "woff",
           "fontStyle": "normal",
-          "fontWeight": 400
+          "fontWeight": 400,
+          "metrics": {
+            "layout": {
+              "ascent": 1900,
+              "descent": -450,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1446,
+              "xHeight": 1034,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1685,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -313,
+                "minY": -480,
+                "maxX": 2496,
+                "maxY": 2125
+              }
+            }
+          }
         },
-        "Public Sans-Medium-Italic": {
+        "public-sans-medium-italic": {
           "name": "Public Sans Medium Italic",
           "fileName": "PublicSans-MediumItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
-          "fontWeight": 500
+          "fontWeight": 500,
+          "metrics": {
+            "layout": {
+              "ascent": 1900,
+              "descent": -450,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1446,
+              "xHeight": 1034,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1627,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -392,
+                "minY": -480,
+                "maxX": 2319,
+                "maxY": 2123
+              }
+            }
+          }
         },
-        "Public Sans-Medium": {
+        "public-sans-medium": {
           "name": "Public Sans Medium",
           "fileName": "PublicSans-Medium.woff",
           "format": "woff",
           "fontStyle": "normal",
-          "fontWeight": 500
+          "fontWeight": 500,
+          "metrics": {
+            "layout": {
+              "ascent": 1900,
+              "descent": -450,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1446,
+              "xHeight": 1034,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1706,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -319,
+                "minY": -480,
+                "maxX": 2524,
+                "maxY": 2146
+              }
+            }
+          }
         },
-        "Public Sans-Light-Italic": {
+        "public-sans-light-italic": {
           "name": "Public Sans Light Italic",
           "fileName": "PublicSans-LightItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
-          "fontWeight": 300
+          "fontWeight": 300,
+          "metrics": {
+            "layout": {
+              "ascent": 1900,
+              "descent": -450,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1446,
+              "xHeight": 1034,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1590,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -381,
+                "minY": -480,
+                "maxX": 2269,
+                "maxY": 2080
+              }
+            }
+          }
         },
-        "Public Sans-Light": {
+        "public-sans-light": {
           "name": "Public Sans Light",
           "fileName": "PublicSans-Light.woff",
           "format": "woff",
           "fontStyle": "normal",
-          "fontWeight": 300
+          "fontWeight": 300,
+          "metrics": {
+            "layout": {
+              "ascent": 1900,
+              "descent": -450,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1446,
+              "xHeight": 1034,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1666,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -308,
+                "minY": -480,
+                "maxX": 2468,
+                "maxY": 2105
+              }
+            }
+          }
         },
-        "Public Sans-Regular-Italic": {
+        "public-sans-regular-italic": {
           "name": "Public Sans Regular Italic",
           "fileName": "PublicSans-Italic.woff",
           "format": "woff",
           "fontStyle": "italic",
-          "fontWeight": 400
+          "fontWeight": 400,
+          "metrics": {
+            "layout": {
+              "ascent": 1900,
+              "descent": -450,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1446,
+              "xHeight": 1034,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1609,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -387,
+                "minY": -480,
+                "maxX": 2294,
+                "maxY": 2101
+              }
+            }
+          }
         },
-        "Public Sans-ExtraLight-Italic": {
+        "public-sans-extralight-italic": {
           "name": "Public Sans ExtraLight Italic",
           "fileName": "PublicSans-ExtraLightItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
-          "fontWeight": 200
+          "fontWeight": 200,
+          "metrics": {
+            "layout": {
+              "ascent": 1900,
+              "descent": -450,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1446,
+              "xHeight": 1034,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1571,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -376,
+                "minY": -480,
+                "maxX": 2242,
+                "maxY": 2057
+              }
+            }
+          }
         },
-        "Public Sans-ExtraLight": {
+        "public-sans-extralight": {
           "name": "Public Sans ExtraLight",
           "fileName": "PublicSans-ExtraLight.woff",
           "format": "woff",
           "fontStyle": "normal",
-          "fontWeight": 200
+          "fontWeight": 200,
+          "metrics": {
+            "layout": {
+              "ascent": 1900,
+              "descent": -450,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1446,
+              "xHeight": 1034,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1644,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -302,
+                "minY": -480,
+                "maxX": 2438,
+                "maxY": 2083
+              }
+            }
+          }
         },
-        "Public Sans-ExtraBold-Italic": {
+        "public-sans-extrabold-italic": {
           "name": "Public Sans ExtraBold Italic",
           "fileName": "PublicSans-ExtraBoldItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
-          "fontWeight": 800
+          "fontWeight": 800,
+          "metrics": {
+            "layout": {
+              "ascent": 1900,
+              "descent": -450,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1446,
+              "xHeight": 1034,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1706,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -416,
+                "minY": -480,
+                "maxX": 2427,
+                "maxY": 2215
+              }
+            }
+          }
         },
-        "Public Sans-ExtraBold": {
+        "public-sans-extrabold": {
           "name": "Public Sans ExtraBold",
           "fileName": "PublicSans-ExtraBold.woff",
           "format": "woff",
           "fontStyle": "normal",
-          "fontWeight": 800
+          "fontWeight": 800,
+          "metrics": {
+            "layout": {
+              "ascent": 1900,
+              "descent": -450,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1446,
+              "xHeight": 1034,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1802,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -358,
+                "minY": -480,
+                "maxX": 2645,
+                "maxY": 2234
+              }
+            }
+          }
         },
-        "Public Sans-Bold-Italic": {
+        "public-sans-bold-italic": {
           "name": "Public Sans Bold Italic",
           "fileName": "PublicSans-BoldItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
-          "fontWeight": 700
+          "fontWeight": 700,
+          "metrics": {
+            "layout": {
+              "ascent": 1900,
+              "descent": -450,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1446,
+              "xHeight": 1034,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1676,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -407,
+                "minY": -480,
+                "maxX": 2386,
+                "maxY": 2180
+              }
+            }
+          }
         },
-        "Public Sans-Bold": {
+        "public-sans-bold": {
           "name": "Public Sans Bold",
           "fileName": "PublicSans-Bold.woff",
           "format": "woff",
           "fontStyle": "normal",
-          "fontWeight": 700
+          "fontWeight": 700,
+          "metrics": {
+            "layout": {
+              "ascent": 1900,
+              "descent": -450,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1446,
+              "xHeight": 1034,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1760,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -334,
+                "minY": -480,
+                "maxX": 2599,
+                "maxY": 2201
+              }
+            }
+          }
         },
-        "Public Sans-Black-Italic": {
+        "public-sans-black-italic": {
           "name": "Public Sans Black Italic",
           "fileName": "PublicSans-BlackItalic.woff",
           "format": "woff",
           "fontStyle": "italic",
-          "fontWeight": 900
+          "fontWeight": 900,
+          "metrics": {
+            "layout": {
+              "ascent": 1900,
+              "descent": -450,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1446,
+              "xHeight": 1034,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1738,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -425,
+                "minY": -495,
+                "maxX": 2471,
+                "maxY": 2251
+              }
+            }
+          }
         },
-        "Public Sans-Black": {
+        "public-sans-black": {
           "name": "Public Sans Black",
           "fileName": "PublicSans-Black.woff",
           "format": "woff",
           "fontStyle": "normal",
-          "fontWeight": 900
+          "fontWeight": 900,
+          "metrics": {
+            "layout": {
+              "ascent": 1900,
+              "descent": -450,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1446,
+              "xHeight": 1034,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1849,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -389,
+                "minY": -495,
+                "maxX": 2692,
+                "maxY": 2269
+              }
+            }
+          }
         }
       }
     }
@@ -253,10 +693,10 @@ export default {
     },
     "faces": {
       "variable": {
-        "League Mono Thin CondensedVariableRegular[wdth,wght]": {
+        "league-mono-thin-condensed-variable-regular[wdth,wght]": {
           "name": "League Mono Thin Condensed Variable (weight, width)",
-          "fileName": "LeagueMono-VF.woff",
-          "format": "woff",
+          "fileName": "LeagueMono-VF.woff2",
+          "format": "woff2",
           "fontStyle": "normal",
           "axes": {
             "wght": {
@@ -275,340 +715,1235 @@ export default {
             "max": 800
           },
           "stretch": {
-            "min": "condensed",
-            "max": "expanded",
-            "default": "condensed",
-            "mapping": {
-              "50": "condensed",
-              "80": "semi-condensed",
-              "115": "normal",
-              "150": "extra-expanded",
-              "200": "expanded"
+            "min": "ultra-condensed",
+            "max": "ultra-expanded",
+            "default": "ultra-condensed"
+          },
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 623,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -68,
+                "minY": -564,
+                "maxX": 970,
+                "maxY": 2164
+              }
             }
           },
           "weightRange": "100 800"
         }
       },
       "static": {
-        "League Mono Thin Condensed-UltraExpanded-ExtraLight": {
+        "league-mono-thin-condensed-ultra-expanded-extralight": {
           "name": "League Mono Thin Condensed Ultra Expanded ExtraLight",
           "fileName": "LeagueMono-WideUltraLight.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 200,
-          "fontStretch": "ultra-expanded"
+          "fontStretch": "ultra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1053,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": 35,
+                "minY": -569,
+                "maxX": 1790,
+                "maxY": 2174
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-UltraExpanded-Thin": {
+        "league-mono-thin-condensed-ultra-expanded-thin": {
           "name": "League Mono Thin Condensed Ultra Expanded Thin",
           "fileName": "LeagueMono-WideThin.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 100,
-          "fontStretch": "ultra-expanded"
+          "fontStretch": "ultra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1042,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": 37,
+                "minY": -555,
+                "maxX": 1773,
+                "maxY": 2164
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-UltraExpanded-SemiBold": {
+        "league-mono-thin-condensed-ultra-expanded-semibold": {
           "name": "League Mono Thin Condensed Ultra Expanded SemiBold",
           "fileName": "LeagueMono-WideSemiBold.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 600,
-          "fontStretch": "ultra-expanded"
+          "fontStretch": "ultra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1121,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -8,
+                "minY": -624,
+                "maxX": 1860,
+                "maxY": 2226
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-UltraExpanded-Regular": {
+        "league-mono-thin-condensed-ultra-expanded-regular": {
           "name": "League Mono Thin Condensed Ultra Expanded Regular",
           "fileName": "LeagueMono-WideRegular.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 400,
-          "fontStretch": "ultra-expanded"
+          "fontStretch": "ultra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1081,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": 23,
+                "minY": -596,
+                "maxX": 1825,
+                "maxY": 2194
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-UltraExpanded-Medium": {
+        "league-mono-thin-condensed-ultra-expanded-medium": {
           "name": "League Mono Thin Condensed Ultra Expanded Medium",
           "fileName": "LeagueMono-WideMedium.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 500,
-          "fontStretch": "ultra-expanded"
+          "fontStretch": "ultra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1101,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": 7,
+                "minY": -610,
+                "maxX": 1842,
+                "maxY": 2210
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-UltraExpanded-Light": {
+        "league-mono-thin-condensed-ultra-expanded-light": {
           "name": "League Mono Thin Condensed Ultra Expanded Light",
           "fileName": "LeagueMono-WideLight.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 300,
-          "fontStretch": "ultra-expanded"
+          "fontStretch": "ultra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1065,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": 33,
+                "minY": -583,
+                "maxX": 1808,
+                "maxY": 2184
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-UltraExpanded-ExtraBold": {
+        "league-mono-thin-condensed-ultra-expanded-extrabold": {
           "name": "League Mono Thin Condensed Ultra Expanded ExtraBold",
           "fileName": "LeagueMono-WideExtraBold.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 800,
-          "fontStretch": "ultra-expanded"
+          "fontStretch": "ultra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1175,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -60,
+                "minY": -651,
+                "maxX": 1898,
+                "maxY": 2260
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-UltraExpanded-Bold": {
+        "league-mono-thin-condensed-ultra-expanded-bold": {
           "name": "League Mono Thin Condensed Ultra Expanded Bold",
           "fileName": "LeagueMono-WideBold.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 700,
-          "fontStretch": "ultra-expanded"
+          "fontStretch": "ultra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1145,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -32,
+                "minY": -637,
+                "maxX": 1877,
+                "maxY": 2241
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-ExtraLight": {
+        "league-mono-thin-condensed-extralight": {
           "name": "League Mono Thin Condensed ExtraLight",
           "fileName": "LeagueMono-UltraLight.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 200,
-          "fontStretch": "normal"
+          "fontStretch": "normal",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 889,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": 15,
+                "minY": -572,
+                "maxX": 1497,
+                "maxY": 2174
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-Thin": {
+        "league-mono-thin-condensed-thin": {
           "name": "League Mono Thin Condensed Thin",
           "fileName": "LeagueMono-Thin.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 100,
-          "fontStretch": "normal"
+          "fontStretch": "normal",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 878,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": 15,
+                "minY": -558,
+                "maxX": 1478,
+                "maxY": 2164
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-SemiBold": {
+        "league-mono-thin-condensed-semibold": {
           "name": "League Mono Thin Condensed SemiBold",
           "fileName": "LeagueMono-SemiBold.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 600,
-          "fontStretch": "normal"
+          "fontStretch": "normal",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 986,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -68,
+                "minY": -627,
+                "maxX": 1575,
+                "maxY": 2220
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-Regular": {
+        "league-mono-thin-condensed-regular": {
           "name": "League Mono Thin Condensed Regular",
           "fileName": "LeagueMono-Regular.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 400,
-          "fontStretch": "normal"
+          "fontStretch": "normal",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 931,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -16,
+                "minY": -599,
+                "maxX": 1536,
+                "maxY": 2193
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-SemiCondensed-ExtraLight": {
+        "league-mono-thin-condensed-semi-condensed-extralight": {
           "name": "League Mono Thin Condensed Semi Condensed ExtraLight",
           "fileName": "LeagueMono-NarrowUltraLight.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 200,
-          "fontStretch": "semi-condensed"
+          "fontStretch": "semi-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 742,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -32,
+                "minY": -575,
+                "maxX": 1204,
+                "maxY": 2173
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-SemiCondensed-Thin": {
+        "league-mono-thin-condensed-semi-condensed-thin": {
           "name": "League Mono Thin Condensed Semi Condensed Thin",
           "fileName": "LeagueMono-NarrowThin.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 100,
-          "fontStretch": "semi-condensed"
+          "fontStretch": "semi-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 715,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -8,
+                "minY": -561,
+                "maxX": 1183,
+                "maxY": 2164
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-SemiCondensed-SemiBold": {
+        "league-mono-thin-condensed-semi-condensed-semibold": {
           "name": "League Mono Thin Condensed Semi Condensed SemiBold",
           "fileName": "LeagueMono-NarrowSemiBold.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 600,
-          "fontStretch": "semi-condensed"
+          "fontStretch": "semi-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 853,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -131,
+                "minY": -630,
+                "maxX": 1290,
+                "maxY": 2215
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-SemiCondensed-Regular": {
+        "league-mono-thin-condensed-semi-condensed-regular": {
           "name": "League Mono Thin Condensed Semi Condensed Regular",
           "fileName": "LeagueMono-NarrowRegular.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 400,
-          "fontStretch": "semi-condensed"
+          "fontStretch": "semi-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 797,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -81,
+                "minY": -602,
+                "maxX": 1247,
+                "maxY": 2191
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-SemiCondensed-Medium": {
+        "league-mono-thin-condensed-semi-condensed-medium": {
           "name": "League Mono Thin Condensed Semi Condensed Medium",
           "fileName": "LeagueMono-NarrowMedium.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 500,
-          "fontStretch": "semi-condensed"
+          "fontStretch": "semi-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 825,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -106,
+                "minY": -616,
+                "maxX": 1269,
+                "maxY": 2201
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-SemiCondensed-Light": {
+        "league-mono-thin-condensed-semi-condensed-light": {
           "name": "League Mono Thin Condensed Semi Condensed Light",
           "fileName": "LeagueMono-NarrowLight.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 300,
-          "fontStretch": "semi-condensed"
+          "fontStretch": "semi-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 770,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -57,
+                "minY": -589,
+                "maxX": 1226,
+                "maxY": 2182
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-SemiCondensed-ExtraBold": {
+        "league-mono-thin-condensed-semi-condensed-extrabold": {
           "name": "League Mono Thin Condensed Semi Condensed ExtraBold",
           "fileName": "LeagueMono-NarrowExtraBold.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 800,
-          "fontStretch": "semi-condensed"
+          "fontStretch": "semi-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 908,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -180,
+                "minY": -656,
+                "maxX": 1333,
+                "maxY": 2254
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-SemiCondensed-Bold": {
+        "league-mono-thin-condensed-semi-condensed-bold": {
           "name": "League Mono Thin Condensed Semi Condensed Bold",
           "fileName": "LeagueMono-NarrowBold.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 700,
-          "fontStretch": "semi-condensed"
+          "fontStretch": "semi-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 880,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -155,
+                "minY": -643,
+                "maxX": 1311,
+                "maxY": 2229
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-Medium": {
+        "league-mono-thin-condensed-medium": {
           "name": "League Mono Thin Condensed Medium",
           "fileName": "LeagueMono-Medium.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 500,
-          "fontStretch": "normal"
+          "fontStretch": "normal",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 958,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -42,
+                "minY": -613,
+                "maxX": 1555,
+                "maxY": 2205
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-Light": {
+        "league-mono-thin-condensed-light": {
           "name": "League Mono Thin Condensed Light",
           "fileName": "LeagueMono-Light.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 300,
-          "fontStretch": "normal"
+          "fontStretch": "normal",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 904,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": 10,
+                "minY": -586,
+                "maxX": 1517,
+                "maxY": 2183
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-ExtraBold": {
+        "league-mono-thin-condensed-extrabold": {
           "name": "League Mono Thin Condensed ExtraBold",
           "fileName": "LeagueMono-ExtraBold.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 800,
-          "fontStretch": "normal"
+          "fontStretch": "normal",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1040,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -120,
+                "minY": -653,
+                "maxX": 1614,
+                "maxY": 2257
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-Expanded-ExtraLight": {
+        "league-mono-thin-condensed-expanded-extralight": {
           "name": "League Mono Thin Condensed Expanded ExtraLight",
           "fileName": "LeagueMono-ExtendedUltraLight.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 200,
-          "fontStretch": "expanded"
+          "fontStretch": "expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1298,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": 46,
+                "minY": -564,
+                "maxX": 2209,
+                "maxY": 2175
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-Expanded-Thin": {
+        "league-mono-thin-condensed-expanded-thin": {
           "name": "League Mono Thin Condensed Expanded Thin",
           "fileName": "LeagueMono-ExtendedThin.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 100,
-          "fontStretch": "expanded"
+          "fontStretch": "expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1289,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": 46,
+                "minY": -551,
+                "maxX": 2194,
+                "maxY": 2164
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-Expanded-SemiBold": {
+        "league-mono-thin-condensed-expanded-semibold": {
           "name": "League Mono Thin Condensed Expanded SemiBold",
           "fileName": "LeagueMono-ExtendedSemiBold.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 600,
-          "fontStretch": "expanded"
+          "fontStretch": "expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1349,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": 18,
+                "minY": -619,
+                "maxX": 2267,
+                "maxY": 2233
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-Expanded-Regular": {
+        "league-mono-thin-condensed-expanded-regular": {
           "name": "League Mono Thin Condensed Expanded Regular",
           "fileName": "LeagueMono-ExtendedRegular.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 400,
-          "fontStretch": "expanded"
+          "fontStretch": "expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1316,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": 45,
+                "minY": -592,
+                "maxX": 2238,
+                "maxY": 2198
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-Expanded-Medium": {
+        "league-mono-thin-condensed-expanded-medium": {
           "name": "League Mono Thin Condensed Expanded Medium",
           "fileName": "LeagueMono-ExtendedMedium.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 500,
-          "fontStretch": "expanded"
+          "fontStretch": "expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1329,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": 37,
+                "minY": -606,
+                "maxX": 2252,
+                "maxY": 2216
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-Expanded-Light": {
+        "league-mono-thin-condensed-expanded-light": {
           "name": "League Mono Thin Condensed Expanded Light",
           "fileName": "LeagueMono-ExtendedLight.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 300,
-          "fontStretch": "expanded"
+          "fontStretch": "expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1307,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": 45,
+                "minY": -579,
+                "maxX": 2223,
+                "maxY": 2185
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-Expanded-ExtraBold": {
+        "league-mono-thin-condensed-expanded-extrabold": {
           "name": "League Mono Thin Condensed Expanded ExtraBold",
           "fileName": "LeagueMono-ExtendedExtraBold.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 800,
-          "fontStretch": "expanded"
+          "fontStretch": "expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1399,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -21,
+                "minY": -647,
+                "maxX": 2311,
+                "maxY": 2268
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-Expanded-Bold": {
+        "league-mono-thin-condensed-expanded-bold": {
           "name": "League Mono Thin Condensed Expanded Bold",
           "fileName": "LeagueMono-ExtendedBold.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 700,
-          "fontStretch": "expanded"
+          "fontStretch": "expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1372,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -2,
+                "minY": -634,
+                "maxX": 2284,
+                "maxY": 2251
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-Condensed-ExtraLight": {
+        "league-mono-thin-condensed-condensed-extralight": {
           "name": "League Mono Thin Condensed Condensed ExtraLight",
           "fileName": "LeagueMono-CondensedUltraLight.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 200,
-          "fontStretch": "condensed"
+          "fontStretch": "condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 649,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -91,
+                "minY": -577,
+                "maxX": 990,
+                "maxY": 2173
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-Condensed-Thin": {
+        "league-mono-thin-condensed-condensed-thin": {
           "name": "League Mono Thin Condensed Condensed Thin",
           "fileName": "LeagueMono-CondensedThin.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 100,
-          "fontStretch": "condensed"
+          "fontStretch": "condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 623,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -68,
+                "minY": -564,
+                "maxX": 970,
+                "maxY": 2164
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-Condensed-SemiBold": {
+        "league-mono-thin-condensed-condensed-semibold": {
           "name": "League Mono Thin Condensed Condensed SemiBold",
           "fileName": "LeagueMono-CondensedSemiBold.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 600,
-          "fontStretch": "condensed"
+          "fontStretch": "condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 760,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -184,
+                "minY": -631,
+                "maxX": 1083,
+                "maxY": 2210
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-Condensed-Medium": {
+        "league-mono-thin-condensed-condensed-medium": {
           "name": "League Mono Thin Condensed Condensed Medium",
           "fileName": "LeagueMono-CondensedMedium.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 500,
-          "fontStretch": "condensed"
+          "fontStretch": "condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 733,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -161,
+                "minY": -618,
+                "maxX": 1060,
+                "maxY": 2198
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-Condensed-Light": {
+        "league-mono-thin-condensed-condensed-light": {
           "name": "League Mono Thin Condensed Condensed Light",
           "fileName": "LeagueMono-CondensedLight.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 300,
-          "fontStretch": "condensed"
+          "fontStretch": "condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 677,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -115,
+                "minY": -592,
+                "maxX": 1014,
+                "maxY": 2181
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-Condensed-ExtraBold": {
+        "league-mono-thin-condensed-condensed-extrabold": {
           "name": "League Mono Thin Condensed Condensed ExtraBold",
           "fileName": "LeagueMono-CondensedExtraBold.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 800,
-          "fontStretch": "condensed"
+          "fontStretch": "condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 817,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -231,
+                "minY": -659,
+                "maxX": 1130,
+                "maxY": 2251
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-Condensed-Bold": {
+        "league-mono-thin-condensed-condensed-bold": {
           "name": "League Mono Thin Condensed Condensed Bold",
           "fileName": "LeagueMono-CondensedBold.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 700,
-          "fontStretch": "condensed"
+          "fontStretch": "condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 789,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -208,
+                "minY": -646,
+                "maxX": 1107,
+                "maxY": 2225
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-Condensed-Regular": {
+        "league-mono-thin-condensed-condensed-regular": {
           "name": "League Mono Thin Condensed Condensed Regular",
           "fileName": "LeagueMono-Condensed.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 400,
-          "fontStretch": "condensed"
+          "fontStretch": "condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 705,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -138,
+                "minY": -605,
+                "maxX": 1037,
+                "maxY": 2190
+              }
+            }
+          }
         },
-        "League Mono Thin Condensed-Bold": {
+        "league-mono-thin-condensed-bold": {
           "name": "League Mono Thin Condensed Bold",
           "fileName": "LeagueMono-Bold.ttf",
           "format": "truetype",
           "fontStyle": "normal",
           "fontWeight": 700,
-          "fontStretch": "normal"
+          "fontStretch": "normal",
+          "metrics": {
+            "layout": {
+              "ascent": 1620,
+              "descent": -430,
+              "lineGap": 100
+            },
+            "sizing": {
+              "capHeight": 1400,
+              "xHeight": 1000,
+              "unitsPerEm": 2000
+            },
+            "fallback": {
+              "avgCharWidth": 1013,
+              "spaceWidth": 500,
+              "bbox": {
+                "minX": -94,
+                "minY": -640,
+                "maxX": 1594,
+                "maxY": 2235
+              }
+            }
+          }
         }
       }
     }
@@ -654,7 +1989,7 @@ export default {
     },
     "faces": {
       "variable": {
-        "InconsolataVariableRegular[wdth,wght]": {
+        "inconsolata-variable-regular[wdth,wght]": {
           "name": "Inconsolata Variable (weight, width)",
           "fileName": "Inconsolata[wdth,wght].ttf",
           "format": "truetype",
@@ -676,448 +2011,2195 @@ export default {
             "max": 900
           },
           "stretch": {
-            "min": "normal",
-            "max": "normal",
-            "default": "normal",
-            "mapping": {
-              "100": "normal"
+            "min": "ultra-condensed",
+            "max": "ultra-expanded",
+            "default": "normal"
+          },
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 457,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 921,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -80,
+                "minY": -400,
+                "maxX": 1455,
+                "maxY": 1000
+              }
             }
           },
           "weightRange": "100 900"
         }
       },
       "static": {
-        "Inconsolata-Expanded-Thin": {
-          "name": "Inconsolata Expanded Thin",
-          "fileName": "Inconsolata-ExpandedThin.woff2",
+        "inconsolata-ultra-expanded-thin": {
+          "name": "Inconsolata Ultra Expanded Thin",
+          "fileName": "Inconsolata-UltraExpandedThin.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 100,
-          "fontStretch": "expanded"
+          "fontStretch": "ultra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 457,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1842,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -160,
+                "minY": -400,
+                "maxX": 2910,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-Expanded-SemiBold": {
-          "name": "Inconsolata Expanded SemiBold",
-          "fileName": "Inconsolata-ExpandedSemiBold.woff2",
+        "inconsolata-ultra-expanded-semibold": {
+          "name": "Inconsolata Ultra Expanded SemiBold",
+          "fileName": "Inconsolata-UltraExpandedSemiBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 600,
-          "fontStretch": "expanded"
+          "fontStretch": "ultra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 463,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1842,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -160,
+                "minY": -400,
+                "maxX": 2910,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-Expanded-Regular": {
-          "name": "Inconsolata Expanded Regular",
-          "fileName": "Inconsolata-ExpandedRegular.woff2",
+        "inconsolata-ultra-expanded-regular": {
+          "name": "Inconsolata Ultra Expanded Regular",
+          "fileName": "Inconsolata-UltraExpandedRegular.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 400,
-          "fontStretch": "expanded"
+          "fontStretch": "ultra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 457,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1842,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -160,
+                "minY": -400,
+                "maxX": 2910,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-Expanded-Medium": {
-          "name": "Inconsolata Expanded Medium",
-          "fileName": "Inconsolata-ExpandedMedium.woff2",
+        "inconsolata-ultra-expanded-medium": {
+          "name": "Inconsolata Ultra Expanded Medium",
+          "fileName": "Inconsolata-UltraExpandedMedium.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 500,
-          "fontStretch": "expanded"
+          "fontStretch": "ultra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 460,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1842,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -160,
+                "minY": -400,
+                "maxX": 2910,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-Expanded-Light": {
-          "name": "Inconsolata Expanded Light",
-          "fileName": "Inconsolata-ExpandedLight.woff2",
+        "inconsolata-ultra-expanded-light": {
+          "name": "Inconsolata Ultra Expanded Light",
+          "fileName": "Inconsolata-UltraExpandedLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 300,
-          "fontStretch": "expanded"
+          "fontStretch": "ultra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 453,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1842,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -160,
+                "minY": -400,
+                "maxX": 2910,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-Expanded-ExtraLight": {
-          "name": "Inconsolata Expanded ExtraLight",
-          "fileName": "Inconsolata-ExpandedExtraLight.woff2",
+        "inconsolata-ultra-expanded-extralight": {
+          "name": "Inconsolata Ultra Expanded ExtraLight",
+          "fileName": "Inconsolata-UltraExpandedExtraLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 200,
-          "fontStretch": "expanded"
+          "fontStretch": "ultra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 449,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1842,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -160,
+                "minY": -400,
+                "maxX": 2910,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-Expanded-ExtraBold": {
-          "name": "Inconsolata Expanded ExtraBold",
-          "fileName": "Inconsolata-ExpandedExtraBold.woff2",
+        "inconsolata-ultra-expanded-extrabold": {
+          "name": "Inconsolata Ultra Expanded ExtraBold",
+          "fileName": "Inconsolata-UltraExpandedExtraBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 800,
-          "fontStretch": "expanded"
+          "fontStretch": "ultra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 468,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1844,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -164,
+                "minY": -400,
+                "maxX": 2910,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-Expanded-Bold": {
-          "name": "Inconsolata Expanded Bold",
-          "fileName": "Inconsolata-ExpandedBold.woff2",
+        "inconsolata-ultra-expanded-bold": {
+          "name": "Inconsolata Ultra Expanded Bold",
+          "fileName": "Inconsolata-UltraExpandedBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 700,
-          "fontStretch": "expanded"
+          "fontStretch": "ultra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 465,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1842,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -160,
+                "minY": -400,
+                "maxX": 2910,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-Expanded-Black": {
-          "name": "Inconsolata Expanded Black",
-          "fileName": "Inconsolata-ExpandedBlack.woff2",
+        "inconsolata-ultra-expanded-black": {
+          "name": "Inconsolata Ultra Expanded Black",
+          "fileName": "Inconsolata-UltraExpandedBlack.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 900,
-          "fontStretch": "expanded"
+          "fontStretch": "ultra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 471,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1850,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -173,
+                "minY": -400,
+                "maxX": 2910,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-UltraCondensed-Thin": {
+        "inconsolata-ultra-condensed-thin": {
           "name": "Inconsolata Ultra Condensed Thin",
           "fileName": "Inconsolata-UltraCondensedThin.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 100,
-          "fontStretch": "ultra-condensed"
+          "fontStretch": "ultra-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 457,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 461,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -40,
+                "minY": -400,
+                "maxX": 728,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-UltraCondensed-SemiBold": {
+        "inconsolata-ultra-condensed-semibold": {
           "name": "Inconsolata Ultra Condensed SemiBold",
           "fileName": "Inconsolata-UltraCondensedSemiBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 600,
-          "fontStretch": "ultra-condensed"
+          "fontStretch": "ultra-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 463,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 461,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -40,
+                "minY": -400,
+                "maxX": 728,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-UltraCondensed-Regular": {
+        "inconsolata-ultra-condensed-regular": {
           "name": "Inconsolata Ultra Condensed Regular",
           "fileName": "Inconsolata-UltraCondensedRegular.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 400,
-          "fontStretch": "ultra-condensed"
+          "fontStretch": "ultra-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 457,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 461,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -40,
+                "minY": -400,
+                "maxX": 728,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-UltraCondensed-Medium": {
+        "inconsolata-ultra-condensed-medium": {
           "name": "Inconsolata Ultra Condensed Medium",
           "fileName": "Inconsolata-UltraCondensedMedium.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 500,
-          "fontStretch": "ultra-condensed"
+          "fontStretch": "ultra-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 460,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 461,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -40,
+                "minY": -400,
+                "maxX": 728,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-UltraCondensed-Light": {
+        "inconsolata-ultra-condensed-light": {
           "name": "Inconsolata Ultra Condensed Light",
           "fileName": "Inconsolata-UltraCondensedLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 300,
-          "fontStretch": "ultra-condensed"
+          "fontStretch": "ultra-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 453,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 461,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -40,
+                "minY": -400,
+                "maxX": 728,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-UltraCondensed-ExtraLight": {
+        "inconsolata-ultra-condensed-extralight": {
           "name": "Inconsolata Ultra Condensed ExtraLight",
           "fileName": "Inconsolata-UltraCondensedExtraLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 200,
-          "fontStretch": "ultra-condensed"
+          "fontStretch": "ultra-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 449,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 461,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -40,
+                "minY": -400,
+                "maxX": 728,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-UltraCondensed-ExtraBold": {
+        "inconsolata-ultra-condensed-extrabold": {
           "name": "Inconsolata Ultra Condensed ExtraBold",
           "fileName": "Inconsolata-UltraCondensedExtraBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 800,
-          "fontStretch": "ultra-condensed"
+          "fontStretch": "ultra-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 468,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 461,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -40,
+                "minY": -400,
+                "maxX": 728,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-UltraCondensed-Bold": {
+        "inconsolata-ultra-condensed-bold": {
           "name": "Inconsolata Ultra Condensed Bold",
           "fileName": "Inconsolata-UltraCondensedBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 700,
-          "fontStretch": "ultra-condensed"
+          "fontStretch": "ultra-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 465,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 461,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -40,
+                "minY": -400,
+                "maxX": 728,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-UltraCondensed-Black": {
+        "inconsolata-ultra-condensed-black": {
           "name": "Inconsolata Ultra Condensed Black",
           "fileName": "Inconsolata-UltraCondensedBlack.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 900,
-          "fontStretch": "ultra-condensed"
+          "fontStretch": "ultra-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 471,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 461,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -40,
+                "minY": -400,
+                "maxX": 728,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-Thin": {
+        "inconsolata-thin": {
           "name": "Inconsolata Thin",
           "fileName": "Inconsolata-Thin.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 100,
-          "fontStretch": "normal"
+          "fontStretch": "normal",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 457,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 921,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -80,
+                "minY": -400,
+                "maxX": 1455,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-SemiExpanded-Thin": {
+        "inconsolata-semi-expanded-thin": {
           "name": "Inconsolata Semi Expanded Thin",
           "fileName": "Inconsolata-SemiExpandedThin.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 100,
-          "fontStretch": "semi-expanded"
+          "fontStretch": "semi-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 457,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1036,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -90,
+                "minY": -400,
+                "maxX": 1637,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-SemiExpanded-SemiBold": {
+        "inconsolata-semi-expanded-semibold": {
           "name": "Inconsolata Semi Expanded SemiBold",
           "fileName": "Inconsolata-SemiExpandedSemiBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 600,
-          "fontStretch": "semi-expanded"
+          "fontStretch": "semi-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 463,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1036,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -90,
+                "minY": -400,
+                "maxX": 1637,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-SemiExpanded-Regular": {
+        "inconsolata-semi-expanded-regular": {
           "name": "Inconsolata Semi Expanded Regular",
           "fileName": "Inconsolata-SemiExpandedRegular.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 400,
-          "fontStretch": "semi-expanded"
+          "fontStretch": "semi-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 457,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1036,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -90,
+                "minY": -400,
+                "maxX": 1637,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-SemiExpanded-Medium": {
+        "inconsolata-semi-expanded-medium": {
           "name": "Inconsolata Semi Expanded Medium",
           "fileName": "Inconsolata-SemiExpandedMedium.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 500,
-          "fontStretch": "semi-expanded"
+          "fontStretch": "semi-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 460,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1036,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -90,
+                "minY": -400,
+                "maxX": 1637,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-SemiExpanded-Light": {
+        "inconsolata-semi-expanded-light": {
           "name": "Inconsolata Semi Expanded Light",
           "fileName": "Inconsolata-SemiExpandedLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 300,
-          "fontStretch": "semi-expanded"
+          "fontStretch": "semi-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 453,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1036,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -90,
+                "minY": -400,
+                "maxX": 1637,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-SemiExpanded-ExtraLight": {
+        "inconsolata-semi-expanded-extralight": {
           "name": "Inconsolata Semi Expanded ExtraLight",
           "fileName": "Inconsolata-SemiExpandedExtraLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 200,
-          "fontStretch": "semi-expanded"
+          "fontStretch": "semi-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 449,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1036,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -90,
+                "minY": -400,
+                "maxX": 1637,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-SemiExpanded-ExtraBold": {
+        "inconsolata-semi-expanded-extrabold": {
           "name": "Inconsolata Semi Expanded ExtraBold",
           "fileName": "Inconsolata-SemiExpandedExtraBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 800,
-          "fontStretch": "semi-expanded"
+          "fontStretch": "semi-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 468,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1036,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -90,
+                "minY": -400,
+                "maxX": 1637,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-SemiExpanded-Bold": {
+        "inconsolata-semi-expanded-bold": {
           "name": "Inconsolata Semi Expanded Bold",
           "fileName": "Inconsolata-SemiExpandedBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 700,
-          "fontStretch": "semi-expanded"
+          "fontStretch": "semi-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 465,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1036,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -90,
+                "minY": -400,
+                "maxX": 1637,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-SemiExpanded-Black": {
+        "inconsolata-semi-expanded-black": {
           "name": "Inconsolata Semi Expanded Black",
           "fileName": "Inconsolata-SemiExpandedBlack.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 900,
-          "fontStretch": "semi-expanded"
+          "fontStretch": "semi-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 471,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1036,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -90,
+                "minY": -400,
+                "maxX": 1637,
+                "maxY": 1002
+              }
+            }
+          }
         },
-        "Inconsolata-Condensed-Thin": {
+        "inconsolata-condensed-thin": {
           "name": "Inconsolata Condensed Thin",
           "fileName": "Inconsolata-CondensedThin.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 100,
-          "fontStretch": "condensed"
+          "fontStretch": "condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 457,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 691,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -60,
+                "minY": -400,
+                "maxX": 1091,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-Condensed-SemiBold": {
+        "inconsolata-condensed-semibold": {
           "name": "Inconsolata Condensed SemiBold",
           "fileName": "Inconsolata-CondensedSemiBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 600,
-          "fontStretch": "condensed"
+          "fontStretch": "condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 463,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 691,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -60,
+                "minY": -400,
+                "maxX": 1091,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-Condensed-Regular": {
+        "inconsolata-condensed-regular": {
           "name": "Inconsolata Condensed Regular",
           "fileName": "Inconsolata-CondensedRegular.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 400,
-          "fontStretch": "condensed"
+          "fontStretch": "condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 457,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 691,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -60,
+                "minY": -400,
+                "maxX": 1091,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-Condensed-Medium": {
+        "inconsolata-condensed-medium": {
           "name": "Inconsolata Condensed Medium",
           "fileName": "Inconsolata-CondensedMedium.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 500,
-          "fontStretch": "condensed"
+          "fontStretch": "condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 460,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 691,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -60,
+                "minY": -400,
+                "maxX": 1091,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-Condensed-Light": {
+        "inconsolata-condensed-light": {
           "name": "Inconsolata Condensed Light",
           "fileName": "Inconsolata-CondensedLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 300,
-          "fontStretch": "condensed"
+          "fontStretch": "condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 453,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 691,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -60,
+                "minY": -400,
+                "maxX": 1091,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-Condensed-ExtraLight": {
+        "inconsolata-condensed-extralight": {
           "name": "Inconsolata Condensed ExtraLight",
           "fileName": "Inconsolata-CondensedExtraLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 200,
-          "fontStretch": "condensed"
+          "fontStretch": "condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 449,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 691,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -60,
+                "minY": -400,
+                "maxX": 1092,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-Condensed-ExtraBold": {
+        "inconsolata-condensed-extrabold": {
           "name": "Inconsolata Condensed ExtraBold",
           "fileName": "Inconsolata-CondensedExtraBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 800,
-          "fontStretch": "condensed"
+          "fontStretch": "condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 468,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 691,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -60,
+                "minY": -400,
+                "maxX": 1091,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-Condensed-Bold": {
+        "inconsolata-condensed-bold": {
           "name": "Inconsolata Condensed Bold",
           "fileName": "Inconsolata-CondensedBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 700,
-          "fontStretch": "condensed"
+          "fontStretch": "condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 465,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 691,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -60,
+                "minY": -400,
+                "maxX": 1091,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-Condensed-Black": {
+        "inconsolata-condensed-black": {
           "name": "Inconsolata Condensed Black",
           "fileName": "Inconsolata-CondensedBlack.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 900,
-          "fontStretch": "condensed"
+          "fontStretch": "condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 471,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 691,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -60,
+                "minY": -400,
+                "maxX": 1092,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-SemiBold": {
+        "inconsolata-semibold": {
           "name": "Inconsolata SemiBold",
           "fileName": "Inconsolata-SemiBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 600,
-          "fontStretch": "normal"
+          "fontStretch": "normal",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 463,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 921,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -80,
+                "minY": -400,
+                "maxX": 1455,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-Regular": {
+        "inconsolata-regular": {
           "name": "Inconsolata Regular",
           "fileName": "Inconsolata-Regular.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 400,
-          "fontStretch": "normal"
+          "fontStretch": "normal",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 457,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 921,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -80,
+                "minY": -400,
+                "maxX": 1455,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-Medium": {
+        "inconsolata-medium": {
           "name": "Inconsolata Medium",
           "fileName": "Inconsolata-Medium.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 500,
-          "fontStretch": "normal"
+          "fontStretch": "normal",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 460,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 921,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -80,
+                "minY": -400,
+                "maxX": 1455,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-Light": {
+        "inconsolata-light": {
           "name": "Inconsolata Light",
           "fileName": "Inconsolata-Light.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 300,
-          "fontStretch": "normal"
+          "fontStretch": "normal",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 453,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 921,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -80,
+                "minY": -400,
+                "maxX": 1455,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-ExtraLight": {
+        "inconsolata-extralight": {
           "name": "Inconsolata ExtraLight",
           "fileName": "Inconsolata-ExtraLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 200,
-          "fontStretch": "normal"
+          "fontStretch": "normal",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 449,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 921,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -80,
+                "minY": -400,
+                "maxX": 1455,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-ExtraCondensed-Thin": {
+        "inconsolata-extra-expanded-thin": {
+          "name": "Inconsolata Extra Expanded Thin",
+          "fileName": "Inconsolata-ExtraExpandedThin.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 100,
+          "fontStretch": "extra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 457,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1382,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -120,
+                "minY": -400,
+                "maxX": 2183,
+                "maxY": 1000
+              }
+            }
+          }
+        },
+        "inconsolata-extra-expanded-semibold": {
+          "name": "Inconsolata Extra Expanded SemiBold",
+          "fileName": "Inconsolata-ExtraExpandedSemiBold.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 600,
+          "fontStretch": "extra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 463,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1382,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -120,
+                "minY": -400,
+                "maxX": 2183,
+                "maxY": 1000
+              }
+            }
+          }
+        },
+        "inconsolata-extra-expanded-regular": {
+          "name": "Inconsolata Extra Expanded Regular",
+          "fileName": "Inconsolata-ExtraExpandedRegular.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 400,
+          "fontStretch": "extra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 457,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1382,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -120,
+                "minY": -400,
+                "maxX": 2183,
+                "maxY": 1000
+              }
+            }
+          }
+        },
+        "inconsolata-extra-expanded-medium": {
+          "name": "Inconsolata Extra Expanded Medium",
+          "fileName": "Inconsolata-ExtraExpandedMedium.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 500,
+          "fontStretch": "extra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 460,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1382,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -120,
+                "minY": -400,
+                "maxX": 2183,
+                "maxY": 1000
+              }
+            }
+          }
+        },
+        "inconsolata-extra-expanded-light": {
+          "name": "Inconsolata Extra Expanded Light",
+          "fileName": "Inconsolata-ExtraExpandedLight.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 300,
+          "fontStretch": "extra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 453,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1382,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -120,
+                "minY": -400,
+                "maxX": 2183,
+                "maxY": 1000
+              }
+            }
+          }
+        },
+        "inconsolata-extra-expanded-extralight": {
+          "name": "Inconsolata Extra Expanded ExtraLight",
+          "fileName": "Inconsolata-ExtraExpandedExtraLight.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 200,
+          "fontStretch": "extra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 449,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1382,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -120,
+                "minY": -400,
+                "maxX": 2183,
+                "maxY": 1000
+              }
+            }
+          }
+        },
+        "inconsolata-extra-expanded-extrabold": {
+          "name": "Inconsolata Extra Expanded ExtraBold",
+          "fileName": "Inconsolata-ExtraExpandedExtraBold.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 800,
+          "fontStretch": "extra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 468,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1382,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -120,
+                "minY": -400,
+                "maxX": 2183,
+                "maxY": 1000
+              }
+            }
+          }
+        },
+        "inconsolata-extra-expanded-bold": {
+          "name": "Inconsolata Extra Expanded Bold",
+          "fileName": "Inconsolata-ExtraExpandedBold.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 700,
+          "fontStretch": "extra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 465,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1382,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -120,
+                "minY": -400,
+                "maxX": 2183,
+                "maxY": 1000
+              }
+            }
+          }
+        },
+        "inconsolata-extra-expanded-black": {
+          "name": "Inconsolata Extra Expanded Black",
+          "fileName": "Inconsolata-ExtraExpandedBlack.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 900,
+          "fontStretch": "extra-expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 471,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1382,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -121,
+                "minY": -400,
+                "maxX": 2183,
+                "maxY": 1001
+              }
+            }
+          }
+        },
+        "inconsolata-extra-condensed-thin": {
           "name": "Inconsolata Extra Condensed Thin",
           "fileName": "Inconsolata-ExtraCondensedThin.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 100,
-          "fontStretch": "extra-condensed"
+          "fontStretch": "extra-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 457,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 575,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -50,
+                "minY": -400,
+                "maxX": 909,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-ExtraCondensed-SemiBold": {
+        "inconsolata-extra-condensed-semibold": {
           "name": "Inconsolata Extra Condensed SemiBold",
           "fileName": "Inconsolata-ExtraCondensedSemiBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 600,
-          "fontStretch": "extra-condensed"
+          "fontStretch": "extra-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 463,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 576,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -50,
+                "minY": -400,
+                "maxX": 910,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-ExtraCondensed-Regular": {
+        "inconsolata-extra-condensed-regular": {
           "name": "Inconsolata Extra Condensed Regular",
           "fileName": "Inconsolata-ExtraCondensedRegular.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 400,
-          "fontStretch": "extra-condensed"
+          "fontStretch": "extra-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 457,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 575,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -50,
+                "minY": -400,
+                "maxX": 909,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-ExtraCondensed-Medium": {
+        "inconsolata-extra-condensed-medium": {
           "name": "Inconsolata Extra Condensed Medium",
           "fileName": "Inconsolata-ExtraCondensedMedium.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 500,
-          "fontStretch": "extra-condensed"
+          "fontStretch": "extra-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 460,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 575,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -50,
+                "minY": -400,
+                "maxX": 909,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-ExtraCondensed-Light": {
+        "inconsolata-extra-condensed-light": {
           "name": "Inconsolata Extra Condensed Light",
           "fileName": "Inconsolata-ExtraCondensedLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 300,
-          "fontStretch": "extra-condensed"
+          "fontStretch": "extra-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 453,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 576,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -50,
+                "minY": -400,
+                "maxX": 910,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-ExtraCondensed-ExtraLight": {
+        "inconsolata-extra-condensed-extralight": {
           "name": "Inconsolata Extra Condensed ExtraLight",
           "fileName": "Inconsolata-ExtraCondensedExtraLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 200,
-          "fontStretch": "extra-condensed"
+          "fontStretch": "extra-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 449,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 576,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -50,
+                "minY": -400,
+                "maxX": 910,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-ExtraCondensed-ExtraBold": {
+        "inconsolata-extra-condensed-extrabold": {
           "name": "Inconsolata Extra Condensed ExtraBold",
           "fileName": "Inconsolata-ExtraCondensedExtraBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 800,
-          "fontStretch": "extra-condensed"
+          "fontStretch": "extra-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 468,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 576,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -50,
+                "minY": -400,
+                "maxX": 910,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-ExtraCondensed-Bold": {
+        "inconsolata-extra-condensed-bold": {
           "name": "Inconsolata Extra Condensed Bold",
           "fileName": "Inconsolata-ExtraCondensedBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 700,
-          "fontStretch": "extra-condensed"
+          "fontStretch": "extra-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 465,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 576,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -50,
+                "minY": -400,
+                "maxX": 910,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-ExtraCondensed-Black": {
+        "inconsolata-extra-condensed-black": {
           "name": "Inconsolata Extra Condensed Black",
           "fileName": "Inconsolata-ExtraCondensedBlack.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 900,
-          "fontStretch": "extra-condensed"
+          "fontStretch": "extra-condensed",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 471,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 576,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -50,
+                "minY": -400,
+                "maxX": 910,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-ExtraBold": {
+        "inconsolata-extrabold": {
           "name": "Inconsolata ExtraBold",
           "fileName": "Inconsolata-ExtraBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 800,
-          "fontStretch": "normal"
+          "fontStretch": "normal",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 468,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 921,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -80,
+                "minY": -400,
+                "maxX": 1455,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-Bold": {
+        "inconsolata-expanded-thin": {
+          "name": "Inconsolata Expanded Thin",
+          "fileName": "Inconsolata-ExpandedThin.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 100,
+          "fontStretch": "expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 457,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1151,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -100,
+                "minY": -400,
+                "maxX": 1819,
+                "maxY": 1000
+              }
+            }
+          }
+        },
+        "inconsolata-expanded-semibold": {
+          "name": "Inconsolata Expanded SemiBold",
+          "fileName": "Inconsolata-ExpandedSemiBold.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 600,
+          "fontStretch": "expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 463,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1151,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -100,
+                "minY": -400,
+                "maxX": 1819,
+                "maxY": 1000
+              }
+            }
+          }
+        },
+        "inconsolata-expanded-regular": {
+          "name": "Inconsolata Expanded Regular",
+          "fileName": "Inconsolata-ExpandedRegular.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 400,
+          "fontStretch": "expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 457,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1151,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -100,
+                "minY": -400,
+                "maxX": 1819,
+                "maxY": 1000
+              }
+            }
+          }
+        },
+        "inconsolata-expanded-medium": {
+          "name": "Inconsolata Expanded Medium",
+          "fileName": "Inconsolata-ExpandedMedium.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 500,
+          "fontStretch": "expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 460,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1151,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -100,
+                "minY": -400,
+                "maxX": 1819,
+                "maxY": 1000
+              }
+            }
+          }
+        },
+        "inconsolata-expanded-light": {
+          "name": "Inconsolata Expanded Light",
+          "fileName": "Inconsolata-ExpandedLight.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 300,
+          "fontStretch": "expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 453,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1151,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -100,
+                "minY": -400,
+                "maxX": 1819,
+                "maxY": 1000
+              }
+            }
+          }
+        },
+        "inconsolata-expanded-extralight": {
+          "name": "Inconsolata Expanded ExtraLight",
+          "fileName": "Inconsolata-ExpandedExtraLight.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 200,
+          "fontStretch": "expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 449,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1151,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -100,
+                "minY": -400,
+                "maxX": 1819,
+                "maxY": 1000
+              }
+            }
+          }
+        },
+        "inconsolata-expanded-extrabold": {
+          "name": "Inconsolata Expanded ExtraBold",
+          "fileName": "Inconsolata-ExpandedExtraBold.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 800,
+          "fontStretch": "expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 468,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1151,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -100,
+                "minY": -400,
+                "maxX": 1819,
+                "maxY": 1000
+              }
+            }
+          }
+        },
+        "inconsolata-expanded-bold": {
+          "name": "Inconsolata Expanded Bold",
+          "fileName": "Inconsolata-ExpandedBold.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 700,
+          "fontStretch": "expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 465,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1151,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -100,
+                "minY": -400,
+                "maxX": 1819,
+                "maxY": 1000
+              }
+            }
+          }
+        },
+        "inconsolata-expanded-black": {
+          "name": "Inconsolata Expanded Black",
+          "fileName": "Inconsolata-ExpandedBlack.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 900,
+          "fontStretch": "expanded",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 471,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 1151,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -100,
+                "minY": -400,
+                "maxX": 1819,
+                "maxY": 1001
+              }
+            }
+          }
+        },
+        "inconsolata-bold": {
           "name": "Inconsolata Bold",
           "fileName": "Inconsolata-Bold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 700,
-          "fontStretch": "normal"
+          "fontStretch": "normal",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 465,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 921,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -80,
+                "minY": -400,
+                "maxX": 1455,
+                "maxY": 1000
+              }
+            }
+          }
         },
-        "Inconsolata-Black": {
+        "inconsolata-black": {
           "name": "Inconsolata Black",
           "fileName": "Inconsolata-Black.woff2",
           "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 900,
-          "fontStretch": "normal"
+          "fontStretch": "normal",
+          "metrics": {
+            "layout": {
+              "ascent": 859,
+              "descent": -190,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 623,
+              "xHeight": 471,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 921,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -80,
+                "minY": -400,
+                "maxX": 1455,
+                "maxY": 1004
+              }
+            }
+          }
         }
       }
     }
@@ -1162,7 +4244,7 @@ export default {
     },
     "faces": {
       "variable": {
-        "Crimson ProVariableRegular[wght]": {
+        "crimson-pro-variable-regular[wght]": {
           "name": "Crimson Pro Variable (weight)",
           "fileName": "CrimsonPro[wght].ttf",
           "format": "truetype",
@@ -1178,9 +4260,31 @@ export default {
             "min": 200,
             "max": 900
           },
+          "metrics": {
+            "layout": {
+              "ascent": 918,
+              "descent": -220,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 587,
+              "xHeight": 430,
+              "unitsPerEm": 1024
+            },
+            "fallback": {
+              "avgCharWidth": 775,
+              "spaceWidth": 256,
+              "bbox": {
+                "minX": -110,
+                "minY": -286,
+                "maxX": 1181,
+                "maxY": 984
+              }
+            }
+          },
           "weightRange": "200 900"
         },
-        "Crimson ProVariableItalic[wght]": {
+        "crimson-pro-variable-italic[wght]": {
           "name": "Crimson Pro Italic Variable (weight)",
           "fileName": "CrimsonPro-Italic[wght].ttf",
           "format": "truetype",
@@ -1196,121 +4300,495 @@ export default {
             "min": 200,
             "max": 900
           },
+          "metrics": {
+            "layout": {
+              "ascent": 918,
+              "descent": -220,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 587,
+              "xHeight": 430,
+              "unitsPerEm": 1024
+            },
+            "fallback": {
+              "avgCharWidth": 835,
+              "spaceWidth": 256,
+              "bbox": {
+                "minX": -160,
+                "minY": -287,
+                "maxX": 1232,
+                "maxY": 990
+              }
+            }
+          },
           "weightRange": "200 900"
         }
       },
       "static": {
-        "Crimson Pro-SemiBold-Italic": {
+        "crimson-pro-semibold-italic": {
           "name": "Crimson Pro SemiBold Italic",
           "fileName": "CrimsonPro-SemiBoldItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
-          "fontWeight": 600
+          "fontWeight": 600,
+          "metrics": {
+            "layout": {
+              "ascent": 918,
+              "descent": -220,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 587,
+              "xHeight": 436,
+              "unitsPerEm": 1024
+            },
+            "fallback": {
+              "avgCharWidth": 856,
+              "spaceWidth": 256,
+              "bbox": {
+                "minX": -166,
+                "minY": -290,
+                "maxX": 1260,
+                "maxY": 996
+              }
+            }
+          }
         },
-        "Crimson Pro-SemiBold": {
+        "crimson-pro-semibold": {
           "name": "Crimson Pro SemiBold",
           "fileName": "CrimsonPro-SemiBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 600
+          "fontWeight": 600,
+          "metrics": {
+            "layout": {
+              "ascent": 918,
+              "descent": -220,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 587,
+              "xHeight": 436,
+              "unitsPerEm": 1024
+            },
+            "fallback": {
+              "avgCharWidth": 795,
+              "spaceWidth": 256,
+              "bbox": {
+                "minX": -113,
+                "minY": -289,
+                "maxX": 1212,
+                "maxY": 985
+              }
+            }
+          }
         },
-        "Crimson Pro-Regular": {
+        "crimson-pro-regular": {
           "name": "Crimson Pro Regular",
           "fileName": "CrimsonPro-Regular.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400
+          "fontWeight": 400,
+          "metrics": {
+            "layout": {
+              "ascent": 918,
+              "descent": -220,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 587,
+              "xHeight": 430,
+              "unitsPerEm": 1024
+            },
+            "fallback": {
+              "avgCharWidth": 775,
+              "spaceWidth": 256,
+              "bbox": {
+                "minX": -110,
+                "minY": -286,
+                "maxX": 1181,
+                "maxY": 984
+              }
+            }
+          }
         },
-        "Crimson Pro-Medium-Italic": {
+        "crimson-pro-medium-italic": {
           "name": "Crimson Pro Medium Italic",
           "fileName": "CrimsonPro-MediumItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
-          "fontWeight": 500
+          "fontWeight": 500,
+          "metrics": {
+            "layout": {
+              "ascent": 918,
+              "descent": -220,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 587,
+              "xHeight": 433,
+              "unitsPerEm": 1024
+            },
+            "fallback": {
+              "avgCharWidth": 845,
+              "spaceWidth": 256,
+              "bbox": {
+                "minX": -163,
+                "minY": -288,
+                "maxX": 1245,
+                "maxY": 993
+              }
+            }
+          }
         },
-        "Crimson Pro-Medium": {
+        "crimson-pro-medium": {
           "name": "Crimson Pro Medium",
           "fileName": "CrimsonPro-Medium.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 500
+          "fontWeight": 500,
+          "metrics": {
+            "layout": {
+              "ascent": 918,
+              "descent": -220,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 587,
+              "xHeight": 433,
+              "unitsPerEm": 1024
+            },
+            "fallback": {
+              "avgCharWidth": 784,
+              "spaceWidth": 256,
+              "bbox": {
+                "minX": -111,
+                "minY": -287,
+                "maxX": 1196,
+                "maxY": 984
+              }
+            }
+          }
         },
-        "Crimson Pro-Light-Italic": {
+        "crimson-pro-light-italic": {
           "name": "Crimson Pro Light Italic",
           "fileName": "CrimsonPro-LightItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
-          "fontWeight": 300
+          "fontWeight": 300,
+          "metrics": {
+            "layout": {
+              "ascent": 918,
+              "descent": -220,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 587,
+              "xHeight": 427,
+              "unitsPerEm": 1024
+            },
+            "fallback": {
+              "avgCharWidth": 827,
+              "spaceWidth": 256,
+              "bbox": {
+                "minX": -157,
+                "minY": -286,
+                "maxX": 1221,
+                "maxY": 987
+              }
+            }
+          }
         },
-        "Crimson Pro-Light": {
+        "crimson-pro-light": {
           "name": "Crimson Pro Light",
           "fileName": "CrimsonPro-Light.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 300
+          "fontWeight": 300,
+          "metrics": {
+            "layout": {
+              "ascent": 918,
+              "descent": -220,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 587,
+              "xHeight": 427,
+              "unitsPerEm": 1024
+            },
+            "fallback": {
+              "avgCharWidth": 766,
+              "spaceWidth": 256,
+              "bbox": {
+                "minX": -108,
+                "minY": -284,
+                "maxX": 1169,
+                "maxY": 984
+              }
+            }
+          }
         },
-        "Crimson Pro-Regular-Italic": {
+        "crimson-pro-regular-italic": {
           "name": "Crimson Pro Regular Italic",
           "fileName": "CrimsonPro-Italic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
-          "fontWeight": 400
+          "fontWeight": 400,
+          "metrics": {
+            "layout": {
+              "ascent": 918,
+              "descent": -220,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 587,
+              "xHeight": 430,
+              "unitsPerEm": 1024
+            },
+            "fallback": {
+              "avgCharWidth": 835,
+              "spaceWidth": 256,
+              "bbox": {
+                "minX": -160,
+                "minY": -287,
+                "maxX": 1232,
+                "maxY": 990
+              }
+            }
+          }
         },
-        "Crimson Pro-ExtraLight-Italic": {
+        "crimson-pro-extralight-italic": {
           "name": "Crimson Pro ExtraLight Italic",
           "fileName": "CrimsonPro-ExtraLightItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
-          "fontWeight": 200
+          "fontWeight": 200,
+          "metrics": {
+            "layout": {
+              "ascent": 918,
+              "descent": -220,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 587,
+              "xHeight": 425,
+              "unitsPerEm": 1024
+            },
+            "fallback": {
+              "avgCharWidth": 820,
+              "spaceWidth": 256,
+              "bbox": {
+                "minX": -155,
+                "minY": -285,
+                "maxX": 1212,
+                "maxY": 985
+              }
+            }
+          }
         },
-        "Crimson Pro-ExtraLight": {
+        "crimson-pro-extralight": {
           "name": "Crimson Pro ExtraLight",
           "fileName": "CrimsonPro-ExtraLight.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 200
+          "fontWeight": 200,
+          "metrics": {
+            "layout": {
+              "ascent": 918,
+              "descent": -220,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 587,
+              "xHeight": 425,
+              "unitsPerEm": 1024
+            },
+            "fallback": {
+              "avgCharWidth": 760,
+              "spaceWidth": 256,
+              "bbox": {
+                "minX": -107,
+                "minY": -283,
+                "maxX": 1159,
+                "maxY": 984
+              }
+            }
+          }
         },
-        "Crimson Pro-ExtraBold-Italic": {
+        "crimson-pro-extrabold-italic": {
           "name": "Crimson Pro ExtraBold Italic",
           "fileName": "CrimsonPro-ExtraBoldItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
-          "fontWeight": 800
+          "fontWeight": 800,
+          "metrics": {
+            "layout": {
+              "ascent": 918,
+              "descent": -220,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 587,
+              "xHeight": 443,
+              "unitsPerEm": 1024
+            },
+            "fallback": {
+              "avgCharWidth": 883,
+              "spaceWidth": 256,
+              "bbox": {
+                "minX": -174,
+                "minY": -293,
+                "maxX": 1298,
+                "maxY": 1003
+              }
+            }
+          }
         },
-        "Crimson Pro-ExtraBold": {
+        "crimson-pro-extrabold": {
           "name": "Crimson Pro ExtraBold",
           "fileName": "CrimsonPro-ExtraBold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 800
+          "fontWeight": 800,
+          "metrics": {
+            "layout": {
+              "ascent": 918,
+              "descent": -220,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 587,
+              "xHeight": 443,
+              "unitsPerEm": 1024
+            },
+            "fallback": {
+              "avgCharWidth": 823,
+              "spaceWidth": 256,
+              "bbox": {
+                "minX": -117,
+                "minY": -293,
+                "maxX": 1254,
+                "maxY": 994
+              }
+            }
+          }
         },
-        "Crimson Pro-Bold-Italic": {
+        "crimson-pro-bold-italic": {
           "name": "Crimson Pro Bold Italic",
           "fileName": "CrimsonPro-BoldItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
-          "fontWeight": 700
+          "fontWeight": 700,
+          "metrics": {
+            "layout": {
+              "ascent": 918,
+              "descent": -220,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 587,
+              "xHeight": 439,
+              "unitsPerEm": 1024
+            },
+            "fallback": {
+              "avgCharWidth": 869,
+              "spaceWidth": 256,
+              "bbox": {
+                "minX": -170,
+                "minY": -292,
+                "maxX": 1278,
+                "maxY": 999
+              }
+            }
+          }
         },
-        "Crimson Pro-Bold": {
+        "crimson-pro-bold": {
           "name": "Crimson Pro Bold",
           "fileName": "CrimsonPro-Bold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 700
+          "fontWeight": 700,
+          "metrics": {
+            "layout": {
+              "ascent": 918,
+              "descent": -220,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 587,
+              "xHeight": 439,
+              "unitsPerEm": 1024
+            },
+            "fallback": {
+              "avgCharWidth": 808,
+              "spaceWidth": 256,
+              "bbox": {
+                "minX": -115,
+                "minY": -291,
+                "maxX": 1232,
+                "maxY": 990
+              }
+            }
+          }
         },
-        "Crimson Pro-Black-Italic": {
+        "crimson-pro-black-italic": {
           "name": "Crimson Pro Black Italic",
           "fileName": "CrimsonPro-BlackItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
-          "fontWeight": 900
+          "fontWeight": 900,
+          "metrics": {
+            "layout": {
+              "ascent": 918,
+              "descent": -220,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 587,
+              "xHeight": 446,
+              "unitsPerEm": 1024
+            },
+            "fallback": {
+              "avgCharWidth": 895,
+              "spaceWidth": 256,
+              "bbox": {
+                "minX": -177,
+                "minY": -295,
+                "maxX": 1315,
+                "maxY": 1006
+              }
+            }
+          }
         },
-        "Crimson Pro-Black": {
+        "crimson-pro-black": {
           "name": "Crimson Pro Black",
           "fileName": "CrimsonPro-Black.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 900
+          "fontWeight": 900,
+          "metrics": {
+            "layout": {
+              "ascent": 918,
+              "descent": -220,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 587,
+              "xHeight": 446,
+              "unitsPerEm": 1024
+            },
+            "fallback": {
+              "avgCharWidth": 835,
+              "spaceWidth": 256,
+              "bbox": {
+                "minX": -119,
+                "minY": -295,
+                "maxX": 1272,
+                "maxY": 998
+              }
+            }
+          }
         }
       }
     }
@@ -1348,33 +4826,121 @@ export default {
     "faces": {
       "variable": {},
       "static": {
-        "Atkinson Hyperlegible-Regular": {
+        "atkinson-hyperlegible-regular": {
           "name": "Atkinson Hyperlegible Regular",
           "fileName": "AtkinsonHyperlegible-Regular.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400
+          "fontWeight": 400,
+          "metrics": {
+            "layout": {
+              "ascent": 950,
+              "descent": -290,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 668,
+              "xHeight": 496,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 809,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -58,
+                "minY": -250,
+                "maxX": 1290,
+                "maxY": 888
+              }
+            }
+          }
         },
-        "Atkinson Hyperlegible-Regular-Italic": {
+        "atkinson-hyperlegible-regular-italic": {
           "name": "Atkinson Hyperlegible Regular Italic",
           "fileName": "AtkinsonHyperlegible-Italic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
-          "fontWeight": 400
+          "fontWeight": 400,
+          "metrics": {
+            "layout": {
+              "ascent": 950,
+              "descent": -290,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 668,
+              "xHeight": 496,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 895,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -154,
+                "minY": -241,
+                "maxX": 1338,
+                "maxY": 885
+              }
+            }
+          }
         },
-        "Atkinson Hyperlegible-Bold-Italic": {
+        "atkinson-hyperlegible-bold-italic": {
           "name": "Atkinson Hyperlegible Bold Italic",
           "fileName": "AtkinsonHyperlegible-BoldItalic.woff2",
           "format": "woff2",
           "fontStyle": "italic",
-          "fontWeight": 700
+          "fontWeight": 700,
+          "metrics": {
+            "layout": {
+              "ascent": 950,
+              "descent": -290,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 668,
+              "xHeight": 496,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 955,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -174,
+                "minY": -248,
+                "maxX": 1417,
+                "maxY": 941
+              }
+            }
+          }
         },
-        "Atkinson Hyperlegible-Bold": {
+        "atkinson-hyperlegible-bold": {
           "name": "Atkinson Hyperlegible Bold",
           "fileName": "AtkinsonHyperlegible-Bold.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 700
+          "fontWeight": 700,
+          "metrics": {
+            "layout": {
+              "ascent": 950,
+              "descent": -290,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 668,
+              "xHeight": 496,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 871,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -70,
+                "minY": -251,
+                "maxX": 1382,
+                "maxY": 926
+              }
+            }
+          }
         }
       }
     }
@@ -1433,7 +4999,7 @@ export default {
     },
     "faces": {
       "variable": {
-        "AspektaVariableRegular[wght]": {
+        "aspekta-variable-regular[wght]": {
           "name": "Aspekta Variable (weight)",
           "fileName": "AspektaVF.ttf",
           "format": "truetype",
@@ -1449,149 +5015,611 @@ export default {
             "min": 100,
             "max": 900
           },
+          "metrics": {
+            "layout": {
+              "ascent": 1100,
+              "descent": -330,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 720,
+              "xHeight": 520,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 796,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -82,
+                "minY": -236,
+                "maxX": 1244,
+                "maxY": 932
+              }
+            }
+          },
           "weightRange": "100 900"
         }
       },
       "static": {
-        "Aspekta-950": {
+        "aspekta-950": {
           "name": "Aspekta 950",
           "fileName": "Aspekta-950.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 950
+          "fontWeight": 950,
+          "metrics": {
+            "layout": {
+              "ascent": 1100,
+              "descent": -330,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 720,
+              "xHeight": 520,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 851,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -93,
+                "minY": -236,
+                "maxX": 1325,
+                "maxY": 932
+              }
+            }
+          }
         },
-        "Aspekta-Black": {
+        "aspekta-black": {
           "name": "Aspekta Black",
           "fileName": "Aspekta-900.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 900
+          "fontWeight": 900,
+          "metrics": {
+            "layout": {
+              "ascent": 1100,
+              "descent": -330,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 720,
+              "xHeight": 520,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 843,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -92,
+                "minY": -236,
+                "maxX": 1313,
+                "maxY": 932
+              }
+            }
+          }
         },
-        "Aspekta-850": {
+        "aspekta-850": {
           "name": "Aspekta 850",
           "fileName": "Aspekta-850.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 850
+          "fontWeight": 850,
+          "metrics": {
+            "layout": {
+              "ascent": 1100,
+              "descent": -330,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 720,
+              "xHeight": 520,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 838,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -91,
+                "minY": -236,
+                "maxX": 1306,
+                "maxY": 932
+              }
+            }
+          }
         },
-        "Aspekta-ExtraBold": {
+        "aspekta-extrabold": {
           "name": "Aspekta ExtraBold",
           "fileName": "Aspekta-800.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 800
+          "fontWeight": 800,
+          "metrics": {
+            "layout": {
+              "ascent": 1100,
+              "descent": -330,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 720,
+              "xHeight": 520,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 833,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -89,
+                "minY": -236,
+                "maxX": 1299,
+                "maxY": 932
+              }
+            }
+          }
         },
-        "Aspekta-750": {
+        "aspekta-750": {
           "name": "Aspekta 750",
           "fileName": "Aspekta-750.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 750
+          "fontWeight": 750,
+          "metrics": {
+            "layout": {
+              "ascent": 1100,
+              "descent": -330,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 720,
+              "xHeight": 520,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 829,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -88,
+                "minY": -236,
+                "maxX": 1293,
+                "maxY": 932
+              }
+            }
+          }
         },
-        "Aspekta-Bold": {
+        "aspekta-bold": {
           "name": "Aspekta Bold",
           "fileName": "Aspekta-700.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 700
+          "fontWeight": 700,
+          "metrics": {
+            "layout": {
+              "ascent": 1100,
+              "descent": -330,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 720,
+              "xHeight": 520,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 824,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -87,
+                "minY": -236,
+                "maxX": 1286,
+                "maxY": 932
+              }
+            }
+          }
         },
-        "Aspekta-650": {
+        "aspekta-650": {
           "name": "Aspekta 650",
           "fileName": "Aspekta-650.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 650
+          "fontWeight": 650,
+          "metrics": {
+            "layout": {
+              "ascent": 1100,
+              "descent": -330,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 720,
+              "xHeight": 520,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 819,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -86,
+                "minY": -236,
+                "maxX": 1279,
+                "maxY": 932
+              }
+            }
+          }
         },
-        "Aspekta-SemiBold": {
+        "aspekta-semibold": {
           "name": "Aspekta SemiBold",
           "fileName": "Aspekta-600.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 600
+          "fontWeight": 600,
+          "metrics": {
+            "layout": {
+              "ascent": 1100,
+              "descent": -330,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 720,
+              "xHeight": 520,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 814,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -85,
+                "minY": -236,
+                "maxX": 1271,
+                "maxY": 932
+              }
+            }
+          }
         },
-        "Aspekta-550": {
+        "aspekta-550": {
           "name": "Aspekta 550",
           "fileName": "Aspekta-550.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 550
+          "fontWeight": 550,
+          "metrics": {
+            "layout": {
+              "ascent": 1100,
+              "descent": -330,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 720,
+              "xHeight": 520,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 809,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -84,
+                "minY": -236,
+                "maxX": 1264,
+                "maxY": 932
+              }
+            }
+          }
         },
-        "Aspekta-Medium": {
+        "aspekta-medium": {
           "name": "Aspekta Medium",
           "fileName": "Aspekta-500.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 500
+          "fontWeight": 500,
+          "metrics": {
+            "layout": {
+              "ascent": 1100,
+              "descent": -330,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 720,
+              "xHeight": 520,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 805,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -84,
+                "minY": -236,
+                "maxX": 1258,
+                "maxY": 932
+              }
+            }
+          }
         },
-        "Aspekta-50": {
+        "aspekta-50": {
           "name": "Aspekta 50",
           "fileName": "Aspekta-50.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 50
+          "fontWeight": 50,
+          "metrics": {
+            "layout": {
+              "ascent": 1100,
+              "descent": -330,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 720,
+              "xHeight": 520,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 699,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -75,
+                "minY": -223,
+                "maxX": 1090,
+                "maxY": 932
+              }
+            }
+          }
         },
-        "Aspekta-450": {
+        "aspekta-450": {
           "name": "Aspekta 450",
           "fileName": "Aspekta-450.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 450
+          "fontWeight": 450,
+          "metrics": {
+            "layout": {
+              "ascent": 1100,
+              "descent": -330,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 720,
+              "xHeight": 520,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 800,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -83,
+                "minY": -236,
+                "maxX": 1251,
+                "maxY": 932
+              }
+            }
+          }
         },
-        "Aspekta-Regular": {
+        "aspekta-regular": {
           "name": "Aspekta Regular",
           "fileName": "Aspekta-400.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 400
+          "fontWeight": 400,
+          "metrics": {
+            "layout": {
+              "ascent": 1100,
+              "descent": -330,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 720,
+              "xHeight": 520,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 796,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -82,
+                "minY": -236,
+                "maxX": 1244,
+                "maxY": 932
+              }
+            }
+          }
         },
-        "Aspekta-350": {
+        "aspekta-350": {
           "name": "Aspekta 350",
           "fileName": "Aspekta-350.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 350
+          "fontWeight": 350,
+          "metrics": {
+            "layout": {
+              "ascent": 1100,
+              "descent": -330,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 720,
+              "xHeight": 520,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 776,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -80,
+                "minY": -234,
+                "maxX": 1214,
+                "maxY": 932
+              }
+            }
+          }
         },
-        "Aspekta-Light": {
+        "aspekta-light": {
           "name": "Aspekta Light",
           "fileName": "Aspekta-300.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 300
+          "fontWeight": 300,
+          "metrics": {
+            "layout": {
+              "ascent": 1100,
+              "descent": -330,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 720,
+              "xHeight": 520,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 758,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -79,
+                "minY": -232,
+                "maxX": 1184,
+                "maxY": 932
+              }
+            }
+          }
         },
-        "Aspekta-250": {
+        "aspekta-250": {
           "name": "Aspekta 250",
           "fileName": "Aspekta-250.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 250
+          "fontWeight": 250,
+          "metrics": {
+            "layout": {
+              "ascent": 1100,
+              "descent": -330,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 720,
+              "xHeight": 520,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 739,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -77,
+                "minY": -230,
+                "maxX": 1154,
+                "maxY": 932
+              }
+            }
+          }
         },
-        "Aspekta-ExtraLight": {
+        "aspekta-extralight": {
           "name": "Aspekta ExtraLight",
           "fileName": "Aspekta-200.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 200
+          "fontWeight": 200,
+          "metrics": {
+            "layout": {
+              "ascent": 1100,
+              "descent": -330,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 720,
+              "xHeight": 520,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 719,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -76,
+                "minY": -228,
+                "maxX": 1123,
+                "maxY": 932
+              }
+            }
+          }
         },
-        "Aspekta-150": {
+        "aspekta-150": {
           "name": "Aspekta 150",
           "fileName": "Aspekta-150.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 150
+          "fontWeight": 150,
+          "metrics": {
+            "layout": {
+              "ascent": 1100,
+              "descent": -330,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 720,
+              "xHeight": 520,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 701,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -74,
+                "minY": -226,
+                "maxX": 1094,
+                "maxY": 932
+              }
+            }
+          }
         },
-        "Aspekta-1000": {
+        "aspekta-1000": {
           "name": "Aspekta 1000",
           "fileName": "Aspekta-1000.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 1000
+          "fontWeight": 1000,
+          "metrics": {
+            "layout": {
+              "ascent": 1100,
+              "descent": -330,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 720,
+              "xHeight": 520,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 858,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -95,
+                "minY": -237,
+                "maxX": 1335,
+                "maxY": 935
+              }
+            }
+          }
         },
-        "Aspekta-Thin": {
+        "aspekta-thin": {
           "name": "Aspekta Thin",
           "fileName": "Aspekta-100.woff2",
           "format": "woff2",
           "fontStyle": "normal",
-          "fontWeight": 100
+          "fontWeight": 100,
+          "metrics": {
+            "layout": {
+              "ascent": 1100,
+              "descent": -330,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 720,
+              "xHeight": 520,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 698,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -74,
+                "minY": -224,
+                "maxX": 1090,
+                "maxY": 932
+              }
+            }
+          }
         }
       }
     }
@@ -1640,7 +5668,7 @@ export const publicSans = {
   },
   "faces": {
     "variable": {
-      "Public SansVariableRegular[wght]": {
+      "public-sans-variable-regular[wght]": {
         "name": "Public Sans Variable (weight)",
         "fileName": "PublicSans[wght].ttf",
         "format": "truetype",
@@ -1656,9 +5684,31 @@ export const publicSans = {
           "min": 100,
           "max": 900
         },
+        "metrics": {
+          "layout": {
+            "ascent": 1900,
+            "descent": -450,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1446,
+            "xHeight": 1034,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1612,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -293,
+              "minY": -480,
+              "maxX": 2393,
+              "maxY": 2050
+            }
+          }
+        },
         "weightRange": "100 900"
       },
-      "Public SansVariableItalic[wght]": {
+      "public-sans-variable-italic[wght]": {
         "name": "Public Sans Italic Variable (weight)",
         "fileName": "PublicSans-Italic[wght].ttf",
         "format": "truetype",
@@ -1674,135 +5724,553 @@ export const publicSans = {
           "min": 100,
           "max": 900
         },
+        "metrics": {
+          "layout": {
+            "ascent": 1900,
+            "descent": -450,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1446,
+            "xHeight": 1034,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1541,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -367,
+              "minY": -480,
+              "maxX": 2202,
+              "maxY": 2023
+            }
+          }
+        },
         "weightRange": "100 900"
       }
     },
     "static": {
-      "Public Sans-Thin-Italic": {
+      "public-sans-thin-italic": {
         "name": "Public Sans Thin Italic",
         "fileName": "PublicSans-ThinItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 100
+        "fontWeight": 100,
+        "metrics": {
+          "layout": {
+            "ascent": 1900,
+            "descent": -450,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1446,
+            "xHeight": 1034,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1541,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -367,
+              "minY": -480,
+              "maxX": 2202,
+              "maxY": 2023
+            }
+          }
+        }
       },
-      "Public Sans-Thin": {
+      "public-sans-thin": {
         "name": "Public Sans Thin",
         "fileName": "PublicSans-Thin.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 100
+        "fontWeight": 100,
+        "metrics": {
+          "layout": {
+            "ascent": 1900,
+            "descent": -450,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1446,
+            "xHeight": 1034,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1612,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -293,
+              "minY": -480,
+              "maxX": 2393,
+              "maxY": 2050
+            }
+          }
+        }
       },
-      "Public Sans-SemiBold-Italic": {
+      "public-sans-semibold-italic": {
         "name": "Public Sans SemiBold Italic",
         "fileName": "PublicSans-SemiBoldItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 600
+        "fontWeight": 600,
+        "metrics": {
+          "layout": {
+            "ascent": 1900,
+            "descent": -450,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1446,
+            "xHeight": 1034,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1645,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -398,
+              "minY": -480,
+              "maxX": 2344,
+              "maxY": 2144
+            }
+          }
+        }
       },
-      "Public Sans-SemiBold": {
+      "public-sans-semibold": {
         "name": "Public Sans SemiBold",
         "fileName": "PublicSans-SemiBold.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 600
+        "fontWeight": 600,
+        "metrics": {
+          "layout": {
+            "ascent": 1900,
+            "descent": -450,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1446,
+            "xHeight": 1034,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1726,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -324,
+              "minY": -480,
+              "maxX": 2552,
+              "maxY": 2166
+            }
+          }
+        }
       },
-      "Public Sans-Regular": {
+      "public-sans-regular": {
         "name": "Public Sans Regular",
         "fileName": "PublicSans-Regular.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 400
+        "fontWeight": 400,
+        "metrics": {
+          "layout": {
+            "ascent": 1900,
+            "descent": -450,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1446,
+            "xHeight": 1034,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1685,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -313,
+              "minY": -480,
+              "maxX": 2496,
+              "maxY": 2125
+            }
+          }
+        }
       },
-      "Public Sans-Medium-Italic": {
+      "public-sans-medium-italic": {
         "name": "Public Sans Medium Italic",
         "fileName": "PublicSans-MediumItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 500
+        "fontWeight": 500,
+        "metrics": {
+          "layout": {
+            "ascent": 1900,
+            "descent": -450,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1446,
+            "xHeight": 1034,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1627,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -392,
+              "minY": -480,
+              "maxX": 2319,
+              "maxY": 2123
+            }
+          }
+        }
       },
-      "Public Sans-Medium": {
+      "public-sans-medium": {
         "name": "Public Sans Medium",
         "fileName": "PublicSans-Medium.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 500
+        "fontWeight": 500,
+        "metrics": {
+          "layout": {
+            "ascent": 1900,
+            "descent": -450,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1446,
+            "xHeight": 1034,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1706,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -319,
+              "minY": -480,
+              "maxX": 2524,
+              "maxY": 2146
+            }
+          }
+        }
       },
-      "Public Sans-Light-Italic": {
+      "public-sans-light-italic": {
         "name": "Public Sans Light Italic",
         "fileName": "PublicSans-LightItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 300
+        "fontWeight": 300,
+        "metrics": {
+          "layout": {
+            "ascent": 1900,
+            "descent": -450,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1446,
+            "xHeight": 1034,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1590,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -381,
+              "minY": -480,
+              "maxX": 2269,
+              "maxY": 2080
+            }
+          }
+        }
       },
-      "Public Sans-Light": {
+      "public-sans-light": {
         "name": "Public Sans Light",
         "fileName": "PublicSans-Light.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 300
+        "fontWeight": 300,
+        "metrics": {
+          "layout": {
+            "ascent": 1900,
+            "descent": -450,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1446,
+            "xHeight": 1034,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1666,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -308,
+              "minY": -480,
+              "maxX": 2468,
+              "maxY": 2105
+            }
+          }
+        }
       },
-      "Public Sans-Regular-Italic": {
+      "public-sans-regular-italic": {
         "name": "Public Sans Regular Italic",
         "fileName": "PublicSans-Italic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 400
+        "fontWeight": 400,
+        "metrics": {
+          "layout": {
+            "ascent": 1900,
+            "descent": -450,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1446,
+            "xHeight": 1034,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1609,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -387,
+              "minY": -480,
+              "maxX": 2294,
+              "maxY": 2101
+            }
+          }
+        }
       },
-      "Public Sans-ExtraLight-Italic": {
+      "public-sans-extralight-italic": {
         "name": "Public Sans ExtraLight Italic",
         "fileName": "PublicSans-ExtraLightItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 200
+        "fontWeight": 200,
+        "metrics": {
+          "layout": {
+            "ascent": 1900,
+            "descent": -450,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1446,
+            "xHeight": 1034,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1571,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -376,
+              "minY": -480,
+              "maxX": 2242,
+              "maxY": 2057
+            }
+          }
+        }
       },
-      "Public Sans-ExtraLight": {
+      "public-sans-extralight": {
         "name": "Public Sans ExtraLight",
         "fileName": "PublicSans-ExtraLight.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 200
+        "fontWeight": 200,
+        "metrics": {
+          "layout": {
+            "ascent": 1900,
+            "descent": -450,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1446,
+            "xHeight": 1034,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1644,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -302,
+              "minY": -480,
+              "maxX": 2438,
+              "maxY": 2083
+            }
+          }
+        }
       },
-      "Public Sans-ExtraBold-Italic": {
+      "public-sans-extrabold-italic": {
         "name": "Public Sans ExtraBold Italic",
         "fileName": "PublicSans-ExtraBoldItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 800
+        "fontWeight": 800,
+        "metrics": {
+          "layout": {
+            "ascent": 1900,
+            "descent": -450,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1446,
+            "xHeight": 1034,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1706,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -416,
+              "minY": -480,
+              "maxX": 2427,
+              "maxY": 2215
+            }
+          }
+        }
       },
-      "Public Sans-ExtraBold": {
+      "public-sans-extrabold": {
         "name": "Public Sans ExtraBold",
         "fileName": "PublicSans-ExtraBold.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 800
+        "fontWeight": 800,
+        "metrics": {
+          "layout": {
+            "ascent": 1900,
+            "descent": -450,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1446,
+            "xHeight": 1034,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1802,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -358,
+              "minY": -480,
+              "maxX": 2645,
+              "maxY": 2234
+            }
+          }
+        }
       },
-      "Public Sans-Bold-Italic": {
+      "public-sans-bold-italic": {
         "name": "Public Sans Bold Italic",
         "fileName": "PublicSans-BoldItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 700
+        "fontWeight": 700,
+        "metrics": {
+          "layout": {
+            "ascent": 1900,
+            "descent": -450,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1446,
+            "xHeight": 1034,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1676,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -407,
+              "minY": -480,
+              "maxX": 2386,
+              "maxY": 2180
+            }
+          }
+        }
       },
-      "Public Sans-Bold": {
+      "public-sans-bold": {
         "name": "Public Sans Bold",
         "fileName": "PublicSans-Bold.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 700
+        "fontWeight": 700,
+        "metrics": {
+          "layout": {
+            "ascent": 1900,
+            "descent": -450,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1446,
+            "xHeight": 1034,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1760,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -334,
+              "minY": -480,
+              "maxX": 2599,
+              "maxY": 2201
+            }
+          }
+        }
       },
-      "Public Sans-Black-Italic": {
+      "public-sans-black-italic": {
         "name": "Public Sans Black Italic",
         "fileName": "PublicSans-BlackItalic.woff",
         "format": "woff",
         "fontStyle": "italic",
-        "fontWeight": 900
+        "fontWeight": 900,
+        "metrics": {
+          "layout": {
+            "ascent": 1900,
+            "descent": -450,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1446,
+            "xHeight": 1034,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1738,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -425,
+              "minY": -495,
+              "maxX": 2471,
+              "maxY": 2251
+            }
+          }
+        }
       },
-      "Public Sans-Black": {
+      "public-sans-black": {
         "name": "Public Sans Black",
         "fileName": "PublicSans-Black.woff",
         "format": "woff",
         "fontStyle": "normal",
-        "fontWeight": 900
+        "fontWeight": 900,
+        "metrics": {
+          "layout": {
+            "ascent": 1900,
+            "descent": -450,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1446,
+            "xHeight": 1034,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1849,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -389,
+              "minY": -495,
+              "maxX": 2692,
+              "maxY": 2269
+            }
+          }
+        }
       }
     }
   }
@@ -1845,10 +6313,10 @@ export const publicSans = {
   },
   "faces": {
     "variable": {
-      "League Mono Thin CondensedVariableRegular[wdth,wght]": {
+      "league-mono-thin-condensed-variable-regular[wdth,wght]": {
         "name": "League Mono Thin Condensed Variable (weight, width)",
-        "fileName": "LeagueMono-VF.woff",
-        "format": "woff",
+        "fileName": "LeagueMono-VF.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "axes": {
           "wght": {
@@ -1867,340 +6335,1235 @@ export const publicSans = {
           "max": 800
         },
         "stretch": {
-          "min": "condensed",
-          "max": "expanded",
-          "default": "condensed",
-          "mapping": {
-            "50": "condensed",
-            "80": "semi-condensed",
-            "115": "normal",
-            "150": "extra-expanded",
-            "200": "expanded"
+          "min": "ultra-condensed",
+          "max": "ultra-expanded",
+          "default": "ultra-condensed"
+        },
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 623,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -68,
+              "minY": -564,
+              "maxX": 970,
+              "maxY": 2164
+            }
           }
         },
         "weightRange": "100 800"
       }
     },
     "static": {
-      "League Mono Thin Condensed-UltraExpanded-ExtraLight": {
+      "league-mono-thin-condensed-ultra-expanded-extralight": {
         "name": "League Mono Thin Condensed Ultra Expanded ExtraLight",
         "fileName": "LeagueMono-WideUltraLight.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 200,
-        "fontStretch": "ultra-expanded"
+        "fontStretch": "ultra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1053,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": 35,
+              "minY": -569,
+              "maxX": 1790,
+              "maxY": 2174
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-UltraExpanded-Thin": {
+      "league-mono-thin-condensed-ultra-expanded-thin": {
         "name": "League Mono Thin Condensed Ultra Expanded Thin",
         "fileName": "LeagueMono-WideThin.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 100,
-        "fontStretch": "ultra-expanded"
+        "fontStretch": "ultra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1042,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": 37,
+              "minY": -555,
+              "maxX": 1773,
+              "maxY": 2164
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-UltraExpanded-SemiBold": {
+      "league-mono-thin-condensed-ultra-expanded-semibold": {
         "name": "League Mono Thin Condensed Ultra Expanded SemiBold",
         "fileName": "LeagueMono-WideSemiBold.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 600,
-        "fontStretch": "ultra-expanded"
+        "fontStretch": "ultra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1121,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -8,
+              "minY": -624,
+              "maxX": 1860,
+              "maxY": 2226
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-UltraExpanded-Regular": {
+      "league-mono-thin-condensed-ultra-expanded-regular": {
         "name": "League Mono Thin Condensed Ultra Expanded Regular",
         "fileName": "LeagueMono-WideRegular.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 400,
-        "fontStretch": "ultra-expanded"
+        "fontStretch": "ultra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1081,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": 23,
+              "minY": -596,
+              "maxX": 1825,
+              "maxY": 2194
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-UltraExpanded-Medium": {
+      "league-mono-thin-condensed-ultra-expanded-medium": {
         "name": "League Mono Thin Condensed Ultra Expanded Medium",
         "fileName": "LeagueMono-WideMedium.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 500,
-        "fontStretch": "ultra-expanded"
+        "fontStretch": "ultra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1101,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": 7,
+              "minY": -610,
+              "maxX": 1842,
+              "maxY": 2210
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-UltraExpanded-Light": {
+      "league-mono-thin-condensed-ultra-expanded-light": {
         "name": "League Mono Thin Condensed Ultra Expanded Light",
         "fileName": "LeagueMono-WideLight.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 300,
-        "fontStretch": "ultra-expanded"
+        "fontStretch": "ultra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1065,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": 33,
+              "minY": -583,
+              "maxX": 1808,
+              "maxY": 2184
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-UltraExpanded-ExtraBold": {
+      "league-mono-thin-condensed-ultra-expanded-extrabold": {
         "name": "League Mono Thin Condensed Ultra Expanded ExtraBold",
         "fileName": "LeagueMono-WideExtraBold.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 800,
-        "fontStretch": "ultra-expanded"
+        "fontStretch": "ultra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1175,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -60,
+              "minY": -651,
+              "maxX": 1898,
+              "maxY": 2260
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-UltraExpanded-Bold": {
+      "league-mono-thin-condensed-ultra-expanded-bold": {
         "name": "League Mono Thin Condensed Ultra Expanded Bold",
         "fileName": "LeagueMono-WideBold.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 700,
-        "fontStretch": "ultra-expanded"
+        "fontStretch": "ultra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1145,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -32,
+              "minY": -637,
+              "maxX": 1877,
+              "maxY": 2241
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-ExtraLight": {
+      "league-mono-thin-condensed-extralight": {
         "name": "League Mono Thin Condensed ExtraLight",
         "fileName": "LeagueMono-UltraLight.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 200,
-        "fontStretch": "normal"
+        "fontStretch": "normal",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 889,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": 15,
+              "minY": -572,
+              "maxX": 1497,
+              "maxY": 2174
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-Thin": {
+      "league-mono-thin-condensed-thin": {
         "name": "League Mono Thin Condensed Thin",
         "fileName": "LeagueMono-Thin.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 100,
-        "fontStretch": "normal"
+        "fontStretch": "normal",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 878,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": 15,
+              "minY": -558,
+              "maxX": 1478,
+              "maxY": 2164
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-SemiBold": {
+      "league-mono-thin-condensed-semibold": {
         "name": "League Mono Thin Condensed SemiBold",
         "fileName": "LeagueMono-SemiBold.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 600,
-        "fontStretch": "normal"
+        "fontStretch": "normal",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 986,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -68,
+              "minY": -627,
+              "maxX": 1575,
+              "maxY": 2220
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-Regular": {
+      "league-mono-thin-condensed-regular": {
         "name": "League Mono Thin Condensed Regular",
         "fileName": "LeagueMono-Regular.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 400,
-        "fontStretch": "normal"
+        "fontStretch": "normal",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 931,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -16,
+              "minY": -599,
+              "maxX": 1536,
+              "maxY": 2193
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-SemiCondensed-ExtraLight": {
+      "league-mono-thin-condensed-semi-condensed-extralight": {
         "name": "League Mono Thin Condensed Semi Condensed ExtraLight",
         "fileName": "LeagueMono-NarrowUltraLight.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 200,
-        "fontStretch": "semi-condensed"
+        "fontStretch": "semi-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 742,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -32,
+              "minY": -575,
+              "maxX": 1204,
+              "maxY": 2173
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-SemiCondensed-Thin": {
+      "league-mono-thin-condensed-semi-condensed-thin": {
         "name": "League Mono Thin Condensed Semi Condensed Thin",
         "fileName": "LeagueMono-NarrowThin.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 100,
-        "fontStretch": "semi-condensed"
+        "fontStretch": "semi-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 715,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -8,
+              "minY": -561,
+              "maxX": 1183,
+              "maxY": 2164
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-SemiCondensed-SemiBold": {
+      "league-mono-thin-condensed-semi-condensed-semibold": {
         "name": "League Mono Thin Condensed Semi Condensed SemiBold",
         "fileName": "LeagueMono-NarrowSemiBold.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 600,
-        "fontStretch": "semi-condensed"
+        "fontStretch": "semi-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 853,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -131,
+              "minY": -630,
+              "maxX": 1290,
+              "maxY": 2215
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-SemiCondensed-Regular": {
+      "league-mono-thin-condensed-semi-condensed-regular": {
         "name": "League Mono Thin Condensed Semi Condensed Regular",
         "fileName": "LeagueMono-NarrowRegular.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 400,
-        "fontStretch": "semi-condensed"
+        "fontStretch": "semi-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 797,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -81,
+              "minY": -602,
+              "maxX": 1247,
+              "maxY": 2191
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-SemiCondensed-Medium": {
+      "league-mono-thin-condensed-semi-condensed-medium": {
         "name": "League Mono Thin Condensed Semi Condensed Medium",
         "fileName": "LeagueMono-NarrowMedium.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 500,
-        "fontStretch": "semi-condensed"
+        "fontStretch": "semi-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 825,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -106,
+              "minY": -616,
+              "maxX": 1269,
+              "maxY": 2201
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-SemiCondensed-Light": {
+      "league-mono-thin-condensed-semi-condensed-light": {
         "name": "League Mono Thin Condensed Semi Condensed Light",
         "fileName": "LeagueMono-NarrowLight.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 300,
-        "fontStretch": "semi-condensed"
+        "fontStretch": "semi-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 770,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -57,
+              "minY": -589,
+              "maxX": 1226,
+              "maxY": 2182
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-SemiCondensed-ExtraBold": {
+      "league-mono-thin-condensed-semi-condensed-extrabold": {
         "name": "League Mono Thin Condensed Semi Condensed ExtraBold",
         "fileName": "LeagueMono-NarrowExtraBold.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 800,
-        "fontStretch": "semi-condensed"
+        "fontStretch": "semi-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 908,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -180,
+              "minY": -656,
+              "maxX": 1333,
+              "maxY": 2254
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-SemiCondensed-Bold": {
+      "league-mono-thin-condensed-semi-condensed-bold": {
         "name": "League Mono Thin Condensed Semi Condensed Bold",
         "fileName": "LeagueMono-NarrowBold.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 700,
-        "fontStretch": "semi-condensed"
+        "fontStretch": "semi-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 880,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -155,
+              "minY": -643,
+              "maxX": 1311,
+              "maxY": 2229
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-Medium": {
+      "league-mono-thin-condensed-medium": {
         "name": "League Mono Thin Condensed Medium",
         "fileName": "LeagueMono-Medium.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 500,
-        "fontStretch": "normal"
+        "fontStretch": "normal",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 958,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -42,
+              "minY": -613,
+              "maxX": 1555,
+              "maxY": 2205
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-Light": {
+      "league-mono-thin-condensed-light": {
         "name": "League Mono Thin Condensed Light",
         "fileName": "LeagueMono-Light.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 300,
-        "fontStretch": "normal"
+        "fontStretch": "normal",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 904,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": 10,
+              "minY": -586,
+              "maxX": 1517,
+              "maxY": 2183
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-ExtraBold": {
+      "league-mono-thin-condensed-extrabold": {
         "name": "League Mono Thin Condensed ExtraBold",
         "fileName": "LeagueMono-ExtraBold.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 800,
-        "fontStretch": "normal"
+        "fontStretch": "normal",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1040,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -120,
+              "minY": -653,
+              "maxX": 1614,
+              "maxY": 2257
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-Expanded-ExtraLight": {
+      "league-mono-thin-condensed-expanded-extralight": {
         "name": "League Mono Thin Condensed Expanded ExtraLight",
         "fileName": "LeagueMono-ExtendedUltraLight.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 200,
-        "fontStretch": "expanded"
+        "fontStretch": "expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1298,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": 46,
+              "minY": -564,
+              "maxX": 2209,
+              "maxY": 2175
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-Expanded-Thin": {
+      "league-mono-thin-condensed-expanded-thin": {
         "name": "League Mono Thin Condensed Expanded Thin",
         "fileName": "LeagueMono-ExtendedThin.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 100,
-        "fontStretch": "expanded"
+        "fontStretch": "expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1289,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": 46,
+              "minY": -551,
+              "maxX": 2194,
+              "maxY": 2164
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-Expanded-SemiBold": {
+      "league-mono-thin-condensed-expanded-semibold": {
         "name": "League Mono Thin Condensed Expanded SemiBold",
         "fileName": "LeagueMono-ExtendedSemiBold.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 600,
-        "fontStretch": "expanded"
+        "fontStretch": "expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1349,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": 18,
+              "minY": -619,
+              "maxX": 2267,
+              "maxY": 2233
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-Expanded-Regular": {
+      "league-mono-thin-condensed-expanded-regular": {
         "name": "League Mono Thin Condensed Expanded Regular",
         "fileName": "LeagueMono-ExtendedRegular.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 400,
-        "fontStretch": "expanded"
+        "fontStretch": "expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1316,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": 45,
+              "minY": -592,
+              "maxX": 2238,
+              "maxY": 2198
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-Expanded-Medium": {
+      "league-mono-thin-condensed-expanded-medium": {
         "name": "League Mono Thin Condensed Expanded Medium",
         "fileName": "LeagueMono-ExtendedMedium.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 500,
-        "fontStretch": "expanded"
+        "fontStretch": "expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1329,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": 37,
+              "minY": -606,
+              "maxX": 2252,
+              "maxY": 2216
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-Expanded-Light": {
+      "league-mono-thin-condensed-expanded-light": {
         "name": "League Mono Thin Condensed Expanded Light",
         "fileName": "LeagueMono-ExtendedLight.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 300,
-        "fontStretch": "expanded"
+        "fontStretch": "expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1307,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": 45,
+              "minY": -579,
+              "maxX": 2223,
+              "maxY": 2185
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-Expanded-ExtraBold": {
+      "league-mono-thin-condensed-expanded-extrabold": {
         "name": "League Mono Thin Condensed Expanded ExtraBold",
         "fileName": "LeagueMono-ExtendedExtraBold.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 800,
-        "fontStretch": "expanded"
+        "fontStretch": "expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1399,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -21,
+              "minY": -647,
+              "maxX": 2311,
+              "maxY": 2268
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-Expanded-Bold": {
+      "league-mono-thin-condensed-expanded-bold": {
         "name": "League Mono Thin Condensed Expanded Bold",
         "fileName": "LeagueMono-ExtendedBold.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 700,
-        "fontStretch": "expanded"
+        "fontStretch": "expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1372,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -2,
+              "minY": -634,
+              "maxX": 2284,
+              "maxY": 2251
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-Condensed-ExtraLight": {
+      "league-mono-thin-condensed-condensed-extralight": {
         "name": "League Mono Thin Condensed Condensed ExtraLight",
         "fileName": "LeagueMono-CondensedUltraLight.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 200,
-        "fontStretch": "condensed"
+        "fontStretch": "condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 649,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -91,
+              "minY": -577,
+              "maxX": 990,
+              "maxY": 2173
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-Condensed-Thin": {
+      "league-mono-thin-condensed-condensed-thin": {
         "name": "League Mono Thin Condensed Condensed Thin",
         "fileName": "LeagueMono-CondensedThin.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 100,
-        "fontStretch": "condensed"
+        "fontStretch": "condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 623,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -68,
+              "minY": -564,
+              "maxX": 970,
+              "maxY": 2164
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-Condensed-SemiBold": {
+      "league-mono-thin-condensed-condensed-semibold": {
         "name": "League Mono Thin Condensed Condensed SemiBold",
         "fileName": "LeagueMono-CondensedSemiBold.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 600,
-        "fontStretch": "condensed"
+        "fontStretch": "condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 760,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -184,
+              "minY": -631,
+              "maxX": 1083,
+              "maxY": 2210
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-Condensed-Medium": {
+      "league-mono-thin-condensed-condensed-medium": {
         "name": "League Mono Thin Condensed Condensed Medium",
         "fileName": "LeagueMono-CondensedMedium.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 500,
-        "fontStretch": "condensed"
+        "fontStretch": "condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 733,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -161,
+              "minY": -618,
+              "maxX": 1060,
+              "maxY": 2198
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-Condensed-Light": {
+      "league-mono-thin-condensed-condensed-light": {
         "name": "League Mono Thin Condensed Condensed Light",
         "fileName": "LeagueMono-CondensedLight.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 300,
-        "fontStretch": "condensed"
+        "fontStretch": "condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 677,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -115,
+              "minY": -592,
+              "maxX": 1014,
+              "maxY": 2181
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-Condensed-ExtraBold": {
+      "league-mono-thin-condensed-condensed-extrabold": {
         "name": "League Mono Thin Condensed Condensed ExtraBold",
         "fileName": "LeagueMono-CondensedExtraBold.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 800,
-        "fontStretch": "condensed"
+        "fontStretch": "condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 817,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -231,
+              "minY": -659,
+              "maxX": 1130,
+              "maxY": 2251
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-Condensed-Bold": {
+      "league-mono-thin-condensed-condensed-bold": {
         "name": "League Mono Thin Condensed Condensed Bold",
         "fileName": "LeagueMono-CondensedBold.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 700,
-        "fontStretch": "condensed"
+        "fontStretch": "condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 789,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -208,
+              "minY": -646,
+              "maxX": 1107,
+              "maxY": 2225
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-Condensed-Regular": {
+      "league-mono-thin-condensed-condensed-regular": {
         "name": "League Mono Thin Condensed Condensed Regular",
         "fileName": "LeagueMono-Condensed.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 400,
-        "fontStretch": "condensed"
+        "fontStretch": "condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 705,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -138,
+              "minY": -605,
+              "maxX": 1037,
+              "maxY": 2190
+            }
+          }
+        }
       },
-      "League Mono Thin Condensed-Bold": {
+      "league-mono-thin-condensed-bold": {
         "name": "League Mono Thin Condensed Bold",
         "fileName": "LeagueMono-Bold.ttf",
         "format": "truetype",
         "fontStyle": "normal",
         "fontWeight": 700,
-        "fontStretch": "normal"
+        "fontStretch": "normal",
+        "metrics": {
+          "layout": {
+            "ascent": 1620,
+            "descent": -430,
+            "lineGap": 100
+          },
+          "sizing": {
+            "capHeight": 1400,
+            "xHeight": 1000,
+            "unitsPerEm": 2000
+          },
+          "fallback": {
+            "avgCharWidth": 1013,
+            "spaceWidth": 500,
+            "bbox": {
+              "minX": -94,
+              "minY": -640,
+              "maxX": 1594,
+              "maxY": 2235
+            }
+          }
+        }
       }
     }
   }
@@ -2245,7 +7608,7 @@ export const publicSans = {
   },
   "faces": {
     "variable": {
-      "InconsolataVariableRegular[wdth,wght]": {
+      "inconsolata-variable-regular[wdth,wght]": {
         "name": "Inconsolata Variable (weight, width)",
         "fileName": "Inconsolata[wdth,wght].ttf",
         "format": "truetype",
@@ -2267,448 +7630,2195 @@ export const publicSans = {
           "max": 900
         },
         "stretch": {
-          "min": "normal",
-          "max": "normal",
-          "default": "normal",
-          "mapping": {
-            "100": "normal"
+          "min": "ultra-condensed",
+          "max": "ultra-expanded",
+          "default": "normal"
+        },
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 457,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 921,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -80,
+              "minY": -400,
+              "maxX": 1455,
+              "maxY": 1000
+            }
           }
         },
         "weightRange": "100 900"
       }
     },
     "static": {
-      "Inconsolata-Expanded-Thin": {
-        "name": "Inconsolata Expanded Thin",
-        "fileName": "Inconsolata-ExpandedThin.woff2",
+      "inconsolata-ultra-expanded-thin": {
+        "name": "Inconsolata Ultra Expanded Thin",
+        "fileName": "Inconsolata-UltraExpandedThin.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 100,
-        "fontStretch": "expanded"
+        "fontStretch": "ultra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 457,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1842,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -160,
+              "minY": -400,
+              "maxX": 2910,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-Expanded-SemiBold": {
-        "name": "Inconsolata Expanded SemiBold",
-        "fileName": "Inconsolata-ExpandedSemiBold.woff2",
+      "inconsolata-ultra-expanded-semibold": {
+        "name": "Inconsolata Ultra Expanded SemiBold",
+        "fileName": "Inconsolata-UltraExpandedSemiBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 600,
-        "fontStretch": "expanded"
+        "fontStretch": "ultra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 463,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1842,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -160,
+              "minY": -400,
+              "maxX": 2910,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-Expanded-Regular": {
-        "name": "Inconsolata Expanded Regular",
-        "fileName": "Inconsolata-ExpandedRegular.woff2",
+      "inconsolata-ultra-expanded-regular": {
+        "name": "Inconsolata Ultra Expanded Regular",
+        "fileName": "Inconsolata-UltraExpandedRegular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400,
-        "fontStretch": "expanded"
+        "fontStretch": "ultra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 457,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1842,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -160,
+              "minY": -400,
+              "maxX": 2910,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-Expanded-Medium": {
-        "name": "Inconsolata Expanded Medium",
-        "fileName": "Inconsolata-ExpandedMedium.woff2",
+      "inconsolata-ultra-expanded-medium": {
+        "name": "Inconsolata Ultra Expanded Medium",
+        "fileName": "Inconsolata-UltraExpandedMedium.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 500,
-        "fontStretch": "expanded"
+        "fontStretch": "ultra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 460,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1842,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -160,
+              "minY": -400,
+              "maxX": 2910,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-Expanded-Light": {
-        "name": "Inconsolata Expanded Light",
-        "fileName": "Inconsolata-ExpandedLight.woff2",
+      "inconsolata-ultra-expanded-light": {
+        "name": "Inconsolata Ultra Expanded Light",
+        "fileName": "Inconsolata-UltraExpandedLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 300,
-        "fontStretch": "expanded"
+        "fontStretch": "ultra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 453,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1842,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -160,
+              "minY": -400,
+              "maxX": 2910,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-Expanded-ExtraLight": {
-        "name": "Inconsolata Expanded ExtraLight",
-        "fileName": "Inconsolata-ExpandedExtraLight.woff2",
+      "inconsolata-ultra-expanded-extralight": {
+        "name": "Inconsolata Ultra Expanded ExtraLight",
+        "fileName": "Inconsolata-UltraExpandedExtraLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 200,
-        "fontStretch": "expanded"
+        "fontStretch": "ultra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 449,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1842,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -160,
+              "minY": -400,
+              "maxX": 2910,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-Expanded-ExtraBold": {
-        "name": "Inconsolata Expanded ExtraBold",
-        "fileName": "Inconsolata-ExpandedExtraBold.woff2",
+      "inconsolata-ultra-expanded-extrabold": {
+        "name": "Inconsolata Ultra Expanded ExtraBold",
+        "fileName": "Inconsolata-UltraExpandedExtraBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 800,
-        "fontStretch": "expanded"
+        "fontStretch": "ultra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 468,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1844,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -164,
+              "minY": -400,
+              "maxX": 2910,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-Expanded-Bold": {
-        "name": "Inconsolata Expanded Bold",
-        "fileName": "Inconsolata-ExpandedBold.woff2",
+      "inconsolata-ultra-expanded-bold": {
+        "name": "Inconsolata Ultra Expanded Bold",
+        "fileName": "Inconsolata-UltraExpandedBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 700,
-        "fontStretch": "expanded"
+        "fontStretch": "ultra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 465,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1842,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -160,
+              "minY": -400,
+              "maxX": 2910,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-Expanded-Black": {
-        "name": "Inconsolata Expanded Black",
-        "fileName": "Inconsolata-ExpandedBlack.woff2",
+      "inconsolata-ultra-expanded-black": {
+        "name": "Inconsolata Ultra Expanded Black",
+        "fileName": "Inconsolata-UltraExpandedBlack.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 900,
-        "fontStretch": "expanded"
+        "fontStretch": "ultra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 471,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1850,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -173,
+              "minY": -400,
+              "maxX": 2910,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-UltraCondensed-Thin": {
+      "inconsolata-ultra-condensed-thin": {
         "name": "Inconsolata Ultra Condensed Thin",
         "fileName": "Inconsolata-UltraCondensedThin.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 100,
-        "fontStretch": "ultra-condensed"
+        "fontStretch": "ultra-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 457,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 461,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -40,
+              "minY": -400,
+              "maxX": 728,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-UltraCondensed-SemiBold": {
+      "inconsolata-ultra-condensed-semibold": {
         "name": "Inconsolata Ultra Condensed SemiBold",
         "fileName": "Inconsolata-UltraCondensedSemiBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 600,
-        "fontStretch": "ultra-condensed"
+        "fontStretch": "ultra-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 463,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 461,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -40,
+              "minY": -400,
+              "maxX": 728,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-UltraCondensed-Regular": {
+      "inconsolata-ultra-condensed-regular": {
         "name": "Inconsolata Ultra Condensed Regular",
         "fileName": "Inconsolata-UltraCondensedRegular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400,
-        "fontStretch": "ultra-condensed"
+        "fontStretch": "ultra-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 457,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 461,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -40,
+              "minY": -400,
+              "maxX": 728,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-UltraCondensed-Medium": {
+      "inconsolata-ultra-condensed-medium": {
         "name": "Inconsolata Ultra Condensed Medium",
         "fileName": "Inconsolata-UltraCondensedMedium.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 500,
-        "fontStretch": "ultra-condensed"
+        "fontStretch": "ultra-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 460,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 461,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -40,
+              "minY": -400,
+              "maxX": 728,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-UltraCondensed-Light": {
+      "inconsolata-ultra-condensed-light": {
         "name": "Inconsolata Ultra Condensed Light",
         "fileName": "Inconsolata-UltraCondensedLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 300,
-        "fontStretch": "ultra-condensed"
+        "fontStretch": "ultra-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 453,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 461,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -40,
+              "minY": -400,
+              "maxX": 728,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-UltraCondensed-ExtraLight": {
+      "inconsolata-ultra-condensed-extralight": {
         "name": "Inconsolata Ultra Condensed ExtraLight",
         "fileName": "Inconsolata-UltraCondensedExtraLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 200,
-        "fontStretch": "ultra-condensed"
+        "fontStretch": "ultra-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 449,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 461,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -40,
+              "minY": -400,
+              "maxX": 728,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-UltraCondensed-ExtraBold": {
+      "inconsolata-ultra-condensed-extrabold": {
         "name": "Inconsolata Ultra Condensed ExtraBold",
         "fileName": "Inconsolata-UltraCondensedExtraBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 800,
-        "fontStretch": "ultra-condensed"
+        "fontStretch": "ultra-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 468,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 461,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -40,
+              "minY": -400,
+              "maxX": 728,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-UltraCondensed-Bold": {
+      "inconsolata-ultra-condensed-bold": {
         "name": "Inconsolata Ultra Condensed Bold",
         "fileName": "Inconsolata-UltraCondensedBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 700,
-        "fontStretch": "ultra-condensed"
+        "fontStretch": "ultra-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 465,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 461,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -40,
+              "minY": -400,
+              "maxX": 728,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-UltraCondensed-Black": {
+      "inconsolata-ultra-condensed-black": {
         "name": "Inconsolata Ultra Condensed Black",
         "fileName": "Inconsolata-UltraCondensedBlack.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 900,
-        "fontStretch": "ultra-condensed"
+        "fontStretch": "ultra-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 471,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 461,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -40,
+              "minY": -400,
+              "maxX": 728,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-Thin": {
+      "inconsolata-thin": {
         "name": "Inconsolata Thin",
         "fileName": "Inconsolata-Thin.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 100,
-        "fontStretch": "normal"
+        "fontStretch": "normal",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 457,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 921,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -80,
+              "minY": -400,
+              "maxX": 1455,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-SemiExpanded-Thin": {
+      "inconsolata-semi-expanded-thin": {
         "name": "Inconsolata Semi Expanded Thin",
         "fileName": "Inconsolata-SemiExpandedThin.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 100,
-        "fontStretch": "semi-expanded"
+        "fontStretch": "semi-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 457,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1036,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -90,
+              "minY": -400,
+              "maxX": 1637,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-SemiExpanded-SemiBold": {
+      "inconsolata-semi-expanded-semibold": {
         "name": "Inconsolata Semi Expanded SemiBold",
         "fileName": "Inconsolata-SemiExpandedSemiBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 600,
-        "fontStretch": "semi-expanded"
+        "fontStretch": "semi-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 463,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1036,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -90,
+              "minY": -400,
+              "maxX": 1637,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-SemiExpanded-Regular": {
+      "inconsolata-semi-expanded-regular": {
         "name": "Inconsolata Semi Expanded Regular",
         "fileName": "Inconsolata-SemiExpandedRegular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400,
-        "fontStretch": "semi-expanded"
+        "fontStretch": "semi-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 457,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1036,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -90,
+              "minY": -400,
+              "maxX": 1637,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-SemiExpanded-Medium": {
+      "inconsolata-semi-expanded-medium": {
         "name": "Inconsolata Semi Expanded Medium",
         "fileName": "Inconsolata-SemiExpandedMedium.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 500,
-        "fontStretch": "semi-expanded"
+        "fontStretch": "semi-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 460,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1036,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -90,
+              "minY": -400,
+              "maxX": 1637,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-SemiExpanded-Light": {
+      "inconsolata-semi-expanded-light": {
         "name": "Inconsolata Semi Expanded Light",
         "fileName": "Inconsolata-SemiExpandedLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 300,
-        "fontStretch": "semi-expanded"
+        "fontStretch": "semi-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 453,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1036,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -90,
+              "minY": -400,
+              "maxX": 1637,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-SemiExpanded-ExtraLight": {
+      "inconsolata-semi-expanded-extralight": {
         "name": "Inconsolata Semi Expanded ExtraLight",
         "fileName": "Inconsolata-SemiExpandedExtraLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 200,
-        "fontStretch": "semi-expanded"
+        "fontStretch": "semi-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 449,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1036,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -90,
+              "minY": -400,
+              "maxX": 1637,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-SemiExpanded-ExtraBold": {
+      "inconsolata-semi-expanded-extrabold": {
         "name": "Inconsolata Semi Expanded ExtraBold",
         "fileName": "Inconsolata-SemiExpandedExtraBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 800,
-        "fontStretch": "semi-expanded"
+        "fontStretch": "semi-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 468,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1036,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -90,
+              "minY": -400,
+              "maxX": 1637,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-SemiExpanded-Bold": {
+      "inconsolata-semi-expanded-bold": {
         "name": "Inconsolata Semi Expanded Bold",
         "fileName": "Inconsolata-SemiExpandedBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 700,
-        "fontStretch": "semi-expanded"
+        "fontStretch": "semi-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 465,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1036,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -90,
+              "minY": -400,
+              "maxX": 1637,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-SemiExpanded-Black": {
+      "inconsolata-semi-expanded-black": {
         "name": "Inconsolata Semi Expanded Black",
         "fileName": "Inconsolata-SemiExpandedBlack.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 900,
-        "fontStretch": "semi-expanded"
+        "fontStretch": "semi-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 471,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1036,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -90,
+              "minY": -400,
+              "maxX": 1637,
+              "maxY": 1002
+            }
+          }
+        }
       },
-      "Inconsolata-Condensed-Thin": {
+      "inconsolata-condensed-thin": {
         "name": "Inconsolata Condensed Thin",
         "fileName": "Inconsolata-CondensedThin.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 100,
-        "fontStretch": "condensed"
+        "fontStretch": "condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 457,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 691,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -60,
+              "minY": -400,
+              "maxX": 1091,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-Condensed-SemiBold": {
+      "inconsolata-condensed-semibold": {
         "name": "Inconsolata Condensed SemiBold",
         "fileName": "Inconsolata-CondensedSemiBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 600,
-        "fontStretch": "condensed"
+        "fontStretch": "condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 463,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 691,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -60,
+              "minY": -400,
+              "maxX": 1091,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-Condensed-Regular": {
+      "inconsolata-condensed-regular": {
         "name": "Inconsolata Condensed Regular",
         "fileName": "Inconsolata-CondensedRegular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400,
-        "fontStretch": "condensed"
+        "fontStretch": "condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 457,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 691,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -60,
+              "minY": -400,
+              "maxX": 1091,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-Condensed-Medium": {
+      "inconsolata-condensed-medium": {
         "name": "Inconsolata Condensed Medium",
         "fileName": "Inconsolata-CondensedMedium.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 500,
-        "fontStretch": "condensed"
+        "fontStretch": "condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 460,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 691,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -60,
+              "minY": -400,
+              "maxX": 1091,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-Condensed-Light": {
+      "inconsolata-condensed-light": {
         "name": "Inconsolata Condensed Light",
         "fileName": "Inconsolata-CondensedLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 300,
-        "fontStretch": "condensed"
+        "fontStretch": "condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 453,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 691,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -60,
+              "minY": -400,
+              "maxX": 1091,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-Condensed-ExtraLight": {
+      "inconsolata-condensed-extralight": {
         "name": "Inconsolata Condensed ExtraLight",
         "fileName": "Inconsolata-CondensedExtraLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 200,
-        "fontStretch": "condensed"
+        "fontStretch": "condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 449,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 691,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -60,
+              "minY": -400,
+              "maxX": 1092,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-Condensed-ExtraBold": {
+      "inconsolata-condensed-extrabold": {
         "name": "Inconsolata Condensed ExtraBold",
         "fileName": "Inconsolata-CondensedExtraBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 800,
-        "fontStretch": "condensed"
+        "fontStretch": "condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 468,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 691,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -60,
+              "minY": -400,
+              "maxX": 1091,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-Condensed-Bold": {
+      "inconsolata-condensed-bold": {
         "name": "Inconsolata Condensed Bold",
         "fileName": "Inconsolata-CondensedBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 700,
-        "fontStretch": "condensed"
+        "fontStretch": "condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 465,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 691,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -60,
+              "minY": -400,
+              "maxX": 1091,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-Condensed-Black": {
+      "inconsolata-condensed-black": {
         "name": "Inconsolata Condensed Black",
         "fileName": "Inconsolata-CondensedBlack.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 900,
-        "fontStretch": "condensed"
+        "fontStretch": "condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 471,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 691,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -60,
+              "minY": -400,
+              "maxX": 1092,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-SemiBold": {
+      "inconsolata-semibold": {
         "name": "Inconsolata SemiBold",
         "fileName": "Inconsolata-SemiBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 600,
-        "fontStretch": "normal"
+        "fontStretch": "normal",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 463,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 921,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -80,
+              "minY": -400,
+              "maxX": 1455,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-Regular": {
+      "inconsolata-regular": {
         "name": "Inconsolata Regular",
         "fileName": "Inconsolata-Regular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400,
-        "fontStretch": "normal"
+        "fontStretch": "normal",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 457,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 921,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -80,
+              "minY": -400,
+              "maxX": 1455,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-Medium": {
+      "inconsolata-medium": {
         "name": "Inconsolata Medium",
         "fileName": "Inconsolata-Medium.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 500,
-        "fontStretch": "normal"
+        "fontStretch": "normal",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 460,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 921,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -80,
+              "minY": -400,
+              "maxX": 1455,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-Light": {
+      "inconsolata-light": {
         "name": "Inconsolata Light",
         "fileName": "Inconsolata-Light.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 300,
-        "fontStretch": "normal"
+        "fontStretch": "normal",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 453,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 921,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -80,
+              "minY": -400,
+              "maxX": 1455,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-ExtraLight": {
+      "inconsolata-extralight": {
         "name": "Inconsolata ExtraLight",
         "fileName": "Inconsolata-ExtraLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 200,
-        "fontStretch": "normal"
+        "fontStretch": "normal",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 449,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 921,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -80,
+              "minY": -400,
+              "maxX": 1455,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-ExtraCondensed-Thin": {
+      "inconsolata-extra-expanded-thin": {
+        "name": "Inconsolata Extra Expanded Thin",
+        "fileName": "Inconsolata-ExtraExpandedThin.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 100,
+        "fontStretch": "extra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 457,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1382,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -120,
+              "minY": -400,
+              "maxX": 2183,
+              "maxY": 1000
+            }
+          }
+        }
+      },
+      "inconsolata-extra-expanded-semibold": {
+        "name": "Inconsolata Extra Expanded SemiBold",
+        "fileName": "Inconsolata-ExtraExpandedSemiBold.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 600,
+        "fontStretch": "extra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 463,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1382,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -120,
+              "minY": -400,
+              "maxX": 2183,
+              "maxY": 1000
+            }
+          }
+        }
+      },
+      "inconsolata-extra-expanded-regular": {
+        "name": "Inconsolata Extra Expanded Regular",
+        "fileName": "Inconsolata-ExtraExpandedRegular.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 400,
+        "fontStretch": "extra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 457,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1382,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -120,
+              "minY": -400,
+              "maxX": 2183,
+              "maxY": 1000
+            }
+          }
+        }
+      },
+      "inconsolata-extra-expanded-medium": {
+        "name": "Inconsolata Extra Expanded Medium",
+        "fileName": "Inconsolata-ExtraExpandedMedium.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 500,
+        "fontStretch": "extra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 460,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1382,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -120,
+              "minY": -400,
+              "maxX": 2183,
+              "maxY": 1000
+            }
+          }
+        }
+      },
+      "inconsolata-extra-expanded-light": {
+        "name": "Inconsolata Extra Expanded Light",
+        "fileName": "Inconsolata-ExtraExpandedLight.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 300,
+        "fontStretch": "extra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 453,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1382,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -120,
+              "minY": -400,
+              "maxX": 2183,
+              "maxY": 1000
+            }
+          }
+        }
+      },
+      "inconsolata-extra-expanded-extralight": {
+        "name": "Inconsolata Extra Expanded ExtraLight",
+        "fileName": "Inconsolata-ExtraExpandedExtraLight.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 200,
+        "fontStretch": "extra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 449,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1382,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -120,
+              "minY": -400,
+              "maxX": 2183,
+              "maxY": 1000
+            }
+          }
+        }
+      },
+      "inconsolata-extra-expanded-extrabold": {
+        "name": "Inconsolata Extra Expanded ExtraBold",
+        "fileName": "Inconsolata-ExtraExpandedExtraBold.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 800,
+        "fontStretch": "extra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 468,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1382,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -120,
+              "minY": -400,
+              "maxX": 2183,
+              "maxY": 1000
+            }
+          }
+        }
+      },
+      "inconsolata-extra-expanded-bold": {
+        "name": "Inconsolata Extra Expanded Bold",
+        "fileName": "Inconsolata-ExtraExpandedBold.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 700,
+        "fontStretch": "extra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 465,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1382,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -120,
+              "minY": -400,
+              "maxX": 2183,
+              "maxY": 1000
+            }
+          }
+        }
+      },
+      "inconsolata-extra-expanded-black": {
+        "name": "Inconsolata Extra Expanded Black",
+        "fileName": "Inconsolata-ExtraExpandedBlack.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 900,
+        "fontStretch": "extra-expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 471,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1382,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -121,
+              "minY": -400,
+              "maxX": 2183,
+              "maxY": 1001
+            }
+          }
+        }
+      },
+      "inconsolata-extra-condensed-thin": {
         "name": "Inconsolata Extra Condensed Thin",
         "fileName": "Inconsolata-ExtraCondensedThin.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 100,
-        "fontStretch": "extra-condensed"
+        "fontStretch": "extra-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 457,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 575,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -50,
+              "minY": -400,
+              "maxX": 909,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-ExtraCondensed-SemiBold": {
+      "inconsolata-extra-condensed-semibold": {
         "name": "Inconsolata Extra Condensed SemiBold",
         "fileName": "Inconsolata-ExtraCondensedSemiBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 600,
-        "fontStretch": "extra-condensed"
+        "fontStretch": "extra-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 463,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 576,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -50,
+              "minY": -400,
+              "maxX": 910,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-ExtraCondensed-Regular": {
+      "inconsolata-extra-condensed-regular": {
         "name": "Inconsolata Extra Condensed Regular",
         "fileName": "Inconsolata-ExtraCondensedRegular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400,
-        "fontStretch": "extra-condensed"
+        "fontStretch": "extra-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 457,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 575,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -50,
+              "minY": -400,
+              "maxX": 909,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-ExtraCondensed-Medium": {
+      "inconsolata-extra-condensed-medium": {
         "name": "Inconsolata Extra Condensed Medium",
         "fileName": "Inconsolata-ExtraCondensedMedium.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 500,
-        "fontStretch": "extra-condensed"
+        "fontStretch": "extra-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 460,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 575,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -50,
+              "minY": -400,
+              "maxX": 909,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-ExtraCondensed-Light": {
+      "inconsolata-extra-condensed-light": {
         "name": "Inconsolata Extra Condensed Light",
         "fileName": "Inconsolata-ExtraCondensedLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 300,
-        "fontStretch": "extra-condensed"
+        "fontStretch": "extra-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 453,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 576,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -50,
+              "minY": -400,
+              "maxX": 910,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-ExtraCondensed-ExtraLight": {
+      "inconsolata-extra-condensed-extralight": {
         "name": "Inconsolata Extra Condensed ExtraLight",
         "fileName": "Inconsolata-ExtraCondensedExtraLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 200,
-        "fontStretch": "extra-condensed"
+        "fontStretch": "extra-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 449,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 576,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -50,
+              "minY": -400,
+              "maxX": 910,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-ExtraCondensed-ExtraBold": {
+      "inconsolata-extra-condensed-extrabold": {
         "name": "Inconsolata Extra Condensed ExtraBold",
         "fileName": "Inconsolata-ExtraCondensedExtraBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 800,
-        "fontStretch": "extra-condensed"
+        "fontStretch": "extra-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 468,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 576,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -50,
+              "minY": -400,
+              "maxX": 910,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-ExtraCondensed-Bold": {
+      "inconsolata-extra-condensed-bold": {
         "name": "Inconsolata Extra Condensed Bold",
         "fileName": "Inconsolata-ExtraCondensedBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 700,
-        "fontStretch": "extra-condensed"
+        "fontStretch": "extra-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 465,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 576,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -50,
+              "minY": -400,
+              "maxX": 910,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-ExtraCondensed-Black": {
+      "inconsolata-extra-condensed-black": {
         "name": "Inconsolata Extra Condensed Black",
         "fileName": "Inconsolata-ExtraCondensedBlack.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 900,
-        "fontStretch": "extra-condensed"
+        "fontStretch": "extra-condensed",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 471,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 576,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -50,
+              "minY": -400,
+              "maxX": 910,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-ExtraBold": {
+      "inconsolata-extrabold": {
         "name": "Inconsolata ExtraBold",
         "fileName": "Inconsolata-ExtraBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 800,
-        "fontStretch": "normal"
+        "fontStretch": "normal",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 468,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 921,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -80,
+              "minY": -400,
+              "maxX": 1455,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-Bold": {
+      "inconsolata-expanded-thin": {
+        "name": "Inconsolata Expanded Thin",
+        "fileName": "Inconsolata-ExpandedThin.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 100,
+        "fontStretch": "expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 457,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1151,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -100,
+              "minY": -400,
+              "maxX": 1819,
+              "maxY": 1000
+            }
+          }
+        }
+      },
+      "inconsolata-expanded-semibold": {
+        "name": "Inconsolata Expanded SemiBold",
+        "fileName": "Inconsolata-ExpandedSemiBold.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 600,
+        "fontStretch": "expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 463,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1151,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -100,
+              "minY": -400,
+              "maxX": 1819,
+              "maxY": 1000
+            }
+          }
+        }
+      },
+      "inconsolata-expanded-regular": {
+        "name": "Inconsolata Expanded Regular",
+        "fileName": "Inconsolata-ExpandedRegular.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 400,
+        "fontStretch": "expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 457,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1151,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -100,
+              "minY": -400,
+              "maxX": 1819,
+              "maxY": 1000
+            }
+          }
+        }
+      },
+      "inconsolata-expanded-medium": {
+        "name": "Inconsolata Expanded Medium",
+        "fileName": "Inconsolata-ExpandedMedium.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 500,
+        "fontStretch": "expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 460,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1151,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -100,
+              "minY": -400,
+              "maxX": 1819,
+              "maxY": 1000
+            }
+          }
+        }
+      },
+      "inconsolata-expanded-light": {
+        "name": "Inconsolata Expanded Light",
+        "fileName": "Inconsolata-ExpandedLight.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 300,
+        "fontStretch": "expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 453,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1151,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -100,
+              "minY": -400,
+              "maxX": 1819,
+              "maxY": 1000
+            }
+          }
+        }
+      },
+      "inconsolata-expanded-extralight": {
+        "name": "Inconsolata Expanded ExtraLight",
+        "fileName": "Inconsolata-ExpandedExtraLight.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 200,
+        "fontStretch": "expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 449,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1151,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -100,
+              "minY": -400,
+              "maxX": 1819,
+              "maxY": 1000
+            }
+          }
+        }
+      },
+      "inconsolata-expanded-extrabold": {
+        "name": "Inconsolata Expanded ExtraBold",
+        "fileName": "Inconsolata-ExpandedExtraBold.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 800,
+        "fontStretch": "expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 468,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1151,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -100,
+              "minY": -400,
+              "maxX": 1819,
+              "maxY": 1000
+            }
+          }
+        }
+      },
+      "inconsolata-expanded-bold": {
+        "name": "Inconsolata Expanded Bold",
+        "fileName": "Inconsolata-ExpandedBold.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 700,
+        "fontStretch": "expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 465,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1151,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -100,
+              "minY": -400,
+              "maxX": 1819,
+              "maxY": 1000
+            }
+          }
+        }
+      },
+      "inconsolata-expanded-black": {
+        "name": "Inconsolata Expanded Black",
+        "fileName": "Inconsolata-ExpandedBlack.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 900,
+        "fontStretch": "expanded",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 471,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 1151,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -100,
+              "minY": -400,
+              "maxX": 1819,
+              "maxY": 1001
+            }
+          }
+        }
+      },
+      "inconsolata-bold": {
         "name": "Inconsolata Bold",
         "fileName": "Inconsolata-Bold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 700,
-        "fontStretch": "normal"
+        "fontStretch": "normal",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 465,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 921,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -80,
+              "minY": -400,
+              "maxX": 1455,
+              "maxY": 1000
+            }
+          }
+        }
       },
-      "Inconsolata-Black": {
+      "inconsolata-black": {
         "name": "Inconsolata Black",
         "fileName": "Inconsolata-Black.woff2",
         "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 900,
-        "fontStretch": "normal"
+        "fontStretch": "normal",
+        "metrics": {
+          "layout": {
+            "ascent": 859,
+            "descent": -190,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 623,
+            "xHeight": 471,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 921,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -80,
+              "minY": -400,
+              "maxX": 1455,
+              "maxY": 1004
+            }
+          }
+        }
       }
     }
   }
@@ -2752,7 +9862,7 @@ export const publicSans = {
   },
   "faces": {
     "variable": {
-      "Crimson ProVariableRegular[wght]": {
+      "crimson-pro-variable-regular[wght]": {
         "name": "Crimson Pro Variable (weight)",
         "fileName": "CrimsonPro[wght].ttf",
         "format": "truetype",
@@ -2768,9 +9878,31 @@ export const publicSans = {
           "min": 200,
           "max": 900
         },
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 430,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 775,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -110,
+              "minY": -286,
+              "maxX": 1181,
+              "maxY": 984
+            }
+          }
+        },
         "weightRange": "200 900"
       },
-      "Crimson ProVariableItalic[wght]": {
+      "crimson-pro-variable-italic[wght]": {
         "name": "Crimson Pro Italic Variable (weight)",
         "fileName": "CrimsonPro-Italic[wght].ttf",
         "format": "truetype",
@@ -2786,121 +9918,495 @@ export const publicSans = {
           "min": 200,
           "max": 900
         },
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 430,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 835,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -160,
+              "minY": -287,
+              "maxX": 1232,
+              "maxY": 990
+            }
+          }
+        },
         "weightRange": "200 900"
       }
     },
     "static": {
-      "Crimson Pro-SemiBold-Italic": {
+      "crimson-pro-semibold-italic": {
         "name": "Crimson Pro SemiBold Italic",
         "fileName": "CrimsonPro-SemiBoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 600
+        "fontWeight": 600,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 436,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 856,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -166,
+              "minY": -290,
+              "maxX": 1260,
+              "maxY": 996
+            }
+          }
+        }
       },
-      "Crimson Pro-SemiBold": {
+      "crimson-pro-semibold": {
         "name": "Crimson Pro SemiBold",
         "fileName": "CrimsonPro-SemiBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 600
+        "fontWeight": 600,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 436,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 795,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -113,
+              "minY": -289,
+              "maxX": 1212,
+              "maxY": 985
+            }
+          }
+        }
       },
-      "Crimson Pro-Regular": {
+      "crimson-pro-regular": {
         "name": "Crimson Pro Regular",
         "fileName": "CrimsonPro-Regular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400
+        "fontWeight": 400,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 430,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 775,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -110,
+              "minY": -286,
+              "maxX": 1181,
+              "maxY": 984
+            }
+          }
+        }
       },
-      "Crimson Pro-Medium-Italic": {
+      "crimson-pro-medium-italic": {
         "name": "Crimson Pro Medium Italic",
         "fileName": "CrimsonPro-MediumItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 500
+        "fontWeight": 500,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 433,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 845,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -163,
+              "minY": -288,
+              "maxX": 1245,
+              "maxY": 993
+            }
+          }
+        }
       },
-      "Crimson Pro-Medium": {
+      "crimson-pro-medium": {
         "name": "Crimson Pro Medium",
         "fileName": "CrimsonPro-Medium.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 500
+        "fontWeight": 500,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 433,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 784,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -111,
+              "minY": -287,
+              "maxX": 1196,
+              "maxY": 984
+            }
+          }
+        }
       },
-      "Crimson Pro-Light-Italic": {
+      "crimson-pro-light-italic": {
         "name": "Crimson Pro Light Italic",
         "fileName": "CrimsonPro-LightItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 300
+        "fontWeight": 300,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 427,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 827,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -157,
+              "minY": -286,
+              "maxX": 1221,
+              "maxY": 987
+            }
+          }
+        }
       },
-      "Crimson Pro-Light": {
+      "crimson-pro-light": {
         "name": "Crimson Pro Light",
         "fileName": "CrimsonPro-Light.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 300
+        "fontWeight": 300,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 427,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 766,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -108,
+              "minY": -284,
+              "maxX": 1169,
+              "maxY": 984
+            }
+          }
+        }
       },
-      "Crimson Pro-Regular-Italic": {
+      "crimson-pro-regular-italic": {
         "name": "Crimson Pro Regular Italic",
         "fileName": "CrimsonPro-Italic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 400
+        "fontWeight": 400,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 430,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 835,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -160,
+              "minY": -287,
+              "maxX": 1232,
+              "maxY": 990
+            }
+          }
+        }
       },
-      "Crimson Pro-ExtraLight-Italic": {
+      "crimson-pro-extralight-italic": {
         "name": "Crimson Pro ExtraLight Italic",
         "fileName": "CrimsonPro-ExtraLightItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 200
+        "fontWeight": 200,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 425,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 820,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -155,
+              "minY": -285,
+              "maxX": 1212,
+              "maxY": 985
+            }
+          }
+        }
       },
-      "Crimson Pro-ExtraLight": {
+      "crimson-pro-extralight": {
         "name": "Crimson Pro ExtraLight",
         "fileName": "CrimsonPro-ExtraLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 200
+        "fontWeight": 200,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 425,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 760,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -107,
+              "minY": -283,
+              "maxX": 1159,
+              "maxY": 984
+            }
+          }
+        }
       },
-      "Crimson Pro-ExtraBold-Italic": {
+      "crimson-pro-extrabold-italic": {
         "name": "Crimson Pro ExtraBold Italic",
         "fileName": "CrimsonPro-ExtraBoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 800
+        "fontWeight": 800,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 443,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 883,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -174,
+              "minY": -293,
+              "maxX": 1298,
+              "maxY": 1003
+            }
+          }
+        }
       },
-      "Crimson Pro-ExtraBold": {
+      "crimson-pro-extrabold": {
         "name": "Crimson Pro ExtraBold",
         "fileName": "CrimsonPro-ExtraBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 800
+        "fontWeight": 800,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 443,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 823,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -117,
+              "minY": -293,
+              "maxX": 1254,
+              "maxY": 994
+            }
+          }
+        }
       },
-      "Crimson Pro-Bold-Italic": {
+      "crimson-pro-bold-italic": {
         "name": "Crimson Pro Bold Italic",
         "fileName": "CrimsonPro-BoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 700
+        "fontWeight": 700,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 439,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 869,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -170,
+              "minY": -292,
+              "maxX": 1278,
+              "maxY": 999
+            }
+          }
+        }
       },
-      "Crimson Pro-Bold": {
+      "crimson-pro-bold": {
         "name": "Crimson Pro Bold",
         "fileName": "CrimsonPro-Bold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 700
+        "fontWeight": 700,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 439,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 808,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -115,
+              "minY": -291,
+              "maxX": 1232,
+              "maxY": 990
+            }
+          }
+        }
       },
-      "Crimson Pro-Black-Italic": {
+      "crimson-pro-black-italic": {
         "name": "Crimson Pro Black Italic",
         "fileName": "CrimsonPro-BlackItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 900
+        "fontWeight": 900,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 446,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 895,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -177,
+              "minY": -295,
+              "maxX": 1315,
+              "maxY": 1006
+            }
+          }
+        }
       },
-      "Crimson Pro-Black": {
+      "crimson-pro-black": {
         "name": "Crimson Pro Black",
         "fileName": "CrimsonPro-Black.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 900
+        "fontWeight": 900,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 446,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 835,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -119,
+              "minY": -295,
+              "maxX": 1272,
+              "maxY": 998
+            }
+          }
+        }
       }
     }
   }
@@ -2937,33 +10443,121 @@ export const publicSans = {
   "faces": {
     "variable": {},
     "static": {
-      "Atkinson Hyperlegible-Regular": {
+      "atkinson-hyperlegible-regular": {
         "name": "Atkinson Hyperlegible Regular",
         "fileName": "AtkinsonHyperlegible-Regular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400
+        "fontWeight": 400,
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -290,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 668,
+            "xHeight": 496,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 809,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -58,
+              "minY": -250,
+              "maxX": 1290,
+              "maxY": 888
+            }
+          }
+        }
       },
-      "Atkinson Hyperlegible-Regular-Italic": {
+      "atkinson-hyperlegible-regular-italic": {
         "name": "Atkinson Hyperlegible Regular Italic",
         "fileName": "AtkinsonHyperlegible-Italic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 400
+        "fontWeight": 400,
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -290,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 668,
+            "xHeight": 496,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 895,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -154,
+              "minY": -241,
+              "maxX": 1338,
+              "maxY": 885
+            }
+          }
+        }
       },
-      "Atkinson Hyperlegible-Bold-Italic": {
+      "atkinson-hyperlegible-bold-italic": {
         "name": "Atkinson Hyperlegible Bold Italic",
         "fileName": "AtkinsonHyperlegible-BoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 700
+        "fontWeight": 700,
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -290,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 668,
+            "xHeight": 496,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 955,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -174,
+              "minY": -248,
+              "maxX": 1417,
+              "maxY": 941
+            }
+          }
+        }
       },
-      "Atkinson Hyperlegible-Bold": {
+      "atkinson-hyperlegible-bold": {
         "name": "Atkinson Hyperlegible Bold",
         "fileName": "AtkinsonHyperlegible-Bold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 700
+        "fontWeight": 700,
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -290,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 668,
+            "xHeight": 496,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 871,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -70,
+              "minY": -251,
+              "maxX": 1382,
+              "maxY": 926
+            }
+          }
+        }
       }
     }
   }
@@ -3021,7 +10615,7 @@ export const publicSans = {
   },
   "faces": {
     "variable": {
-      "AspektaVariableRegular[wght]": {
+      "aspekta-variable-regular[wght]": {
         "name": "Aspekta Variable (weight)",
         "fileName": "AspektaVF.ttf",
         "format": "truetype",
@@ -3037,149 +10631,611 @@ export const publicSans = {
           "min": 100,
           "max": 900
         },
+        "metrics": {
+          "layout": {
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 720,
+            "xHeight": 520,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 796,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -82,
+              "minY": -236,
+              "maxX": 1244,
+              "maxY": 932
+            }
+          }
+        },
         "weightRange": "100 900"
       }
     },
     "static": {
-      "Aspekta-950": {
+      "aspekta-950": {
         "name": "Aspekta 950",
         "fileName": "Aspekta-950.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 950
+        "fontWeight": 950,
+        "metrics": {
+          "layout": {
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 720,
+            "xHeight": 520,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 851,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -93,
+              "minY": -236,
+              "maxX": 1325,
+              "maxY": 932
+            }
+          }
+        }
       },
-      "Aspekta-Black": {
+      "aspekta-black": {
         "name": "Aspekta Black",
         "fileName": "Aspekta-900.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 900
+        "fontWeight": 900,
+        "metrics": {
+          "layout": {
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 720,
+            "xHeight": 520,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 843,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -92,
+              "minY": -236,
+              "maxX": 1313,
+              "maxY": 932
+            }
+          }
+        }
       },
-      "Aspekta-850": {
+      "aspekta-850": {
         "name": "Aspekta 850",
         "fileName": "Aspekta-850.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 850
+        "fontWeight": 850,
+        "metrics": {
+          "layout": {
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 720,
+            "xHeight": 520,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 838,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -91,
+              "minY": -236,
+              "maxX": 1306,
+              "maxY": 932
+            }
+          }
+        }
       },
-      "Aspekta-ExtraBold": {
+      "aspekta-extrabold": {
         "name": "Aspekta ExtraBold",
         "fileName": "Aspekta-800.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 800
+        "fontWeight": 800,
+        "metrics": {
+          "layout": {
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 720,
+            "xHeight": 520,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 833,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -89,
+              "minY": -236,
+              "maxX": 1299,
+              "maxY": 932
+            }
+          }
+        }
       },
-      "Aspekta-750": {
+      "aspekta-750": {
         "name": "Aspekta 750",
         "fileName": "Aspekta-750.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 750
+        "fontWeight": 750,
+        "metrics": {
+          "layout": {
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 720,
+            "xHeight": 520,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 829,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -88,
+              "minY": -236,
+              "maxX": 1293,
+              "maxY": 932
+            }
+          }
+        }
       },
-      "Aspekta-Bold": {
+      "aspekta-bold": {
         "name": "Aspekta Bold",
         "fileName": "Aspekta-700.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 700
+        "fontWeight": 700,
+        "metrics": {
+          "layout": {
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 720,
+            "xHeight": 520,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 824,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -87,
+              "minY": -236,
+              "maxX": 1286,
+              "maxY": 932
+            }
+          }
+        }
       },
-      "Aspekta-650": {
+      "aspekta-650": {
         "name": "Aspekta 650",
         "fileName": "Aspekta-650.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 650
+        "fontWeight": 650,
+        "metrics": {
+          "layout": {
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 720,
+            "xHeight": 520,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 819,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -86,
+              "minY": -236,
+              "maxX": 1279,
+              "maxY": 932
+            }
+          }
+        }
       },
-      "Aspekta-SemiBold": {
+      "aspekta-semibold": {
         "name": "Aspekta SemiBold",
         "fileName": "Aspekta-600.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 600
+        "fontWeight": 600,
+        "metrics": {
+          "layout": {
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 720,
+            "xHeight": 520,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 814,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -85,
+              "minY": -236,
+              "maxX": 1271,
+              "maxY": 932
+            }
+          }
+        }
       },
-      "Aspekta-550": {
+      "aspekta-550": {
         "name": "Aspekta 550",
         "fileName": "Aspekta-550.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 550
+        "fontWeight": 550,
+        "metrics": {
+          "layout": {
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 720,
+            "xHeight": 520,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 809,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -84,
+              "minY": -236,
+              "maxX": 1264,
+              "maxY": 932
+            }
+          }
+        }
       },
-      "Aspekta-Medium": {
+      "aspekta-medium": {
         "name": "Aspekta Medium",
         "fileName": "Aspekta-500.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 500
+        "fontWeight": 500,
+        "metrics": {
+          "layout": {
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 720,
+            "xHeight": 520,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 805,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -84,
+              "minY": -236,
+              "maxX": 1258,
+              "maxY": 932
+            }
+          }
+        }
       },
-      "Aspekta-50": {
+      "aspekta-50": {
         "name": "Aspekta 50",
         "fileName": "Aspekta-50.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 50
+        "fontWeight": 50,
+        "metrics": {
+          "layout": {
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 720,
+            "xHeight": 520,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 699,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -75,
+              "minY": -223,
+              "maxX": 1090,
+              "maxY": 932
+            }
+          }
+        }
       },
-      "Aspekta-450": {
+      "aspekta-450": {
         "name": "Aspekta 450",
         "fileName": "Aspekta-450.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 450
+        "fontWeight": 450,
+        "metrics": {
+          "layout": {
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 720,
+            "xHeight": 520,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 800,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -83,
+              "minY": -236,
+              "maxX": 1251,
+              "maxY": 932
+            }
+          }
+        }
       },
-      "Aspekta-Regular": {
+      "aspekta-regular": {
         "name": "Aspekta Regular",
         "fileName": "Aspekta-400.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400
+        "fontWeight": 400,
+        "metrics": {
+          "layout": {
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 720,
+            "xHeight": 520,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 796,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -82,
+              "minY": -236,
+              "maxX": 1244,
+              "maxY": 932
+            }
+          }
+        }
       },
-      "Aspekta-350": {
+      "aspekta-350": {
         "name": "Aspekta 350",
         "fileName": "Aspekta-350.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 350
+        "fontWeight": 350,
+        "metrics": {
+          "layout": {
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 720,
+            "xHeight": 520,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 776,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -80,
+              "minY": -234,
+              "maxX": 1214,
+              "maxY": 932
+            }
+          }
+        }
       },
-      "Aspekta-Light": {
+      "aspekta-light": {
         "name": "Aspekta Light",
         "fileName": "Aspekta-300.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 300
+        "fontWeight": 300,
+        "metrics": {
+          "layout": {
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 720,
+            "xHeight": 520,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 758,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -79,
+              "minY": -232,
+              "maxX": 1184,
+              "maxY": 932
+            }
+          }
+        }
       },
-      "Aspekta-250": {
+      "aspekta-250": {
         "name": "Aspekta 250",
         "fileName": "Aspekta-250.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 250
+        "fontWeight": 250,
+        "metrics": {
+          "layout": {
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 720,
+            "xHeight": 520,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 739,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -77,
+              "minY": -230,
+              "maxX": 1154,
+              "maxY": 932
+            }
+          }
+        }
       },
-      "Aspekta-ExtraLight": {
+      "aspekta-extralight": {
         "name": "Aspekta ExtraLight",
         "fileName": "Aspekta-200.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 200
+        "fontWeight": 200,
+        "metrics": {
+          "layout": {
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 720,
+            "xHeight": 520,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 719,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -76,
+              "minY": -228,
+              "maxX": 1123,
+              "maxY": 932
+            }
+          }
+        }
       },
-      "Aspekta-150": {
+      "aspekta-150": {
         "name": "Aspekta 150",
         "fileName": "Aspekta-150.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 150
+        "fontWeight": 150,
+        "metrics": {
+          "layout": {
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 720,
+            "xHeight": 520,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 701,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -74,
+              "minY": -226,
+              "maxX": 1094,
+              "maxY": 932
+            }
+          }
+        }
       },
-      "Aspekta-1000": {
+      "aspekta-1000": {
         "name": "Aspekta 1000",
         "fileName": "Aspekta-1000.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 1000
+        "fontWeight": 1000,
+        "metrics": {
+          "layout": {
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 720,
+            "xHeight": 520,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 858,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -95,
+              "minY": -237,
+              "maxX": 1335,
+              "maxY": 935
+            }
+          }
+        }
       },
-      "Aspekta-Thin": {
+      "aspekta-thin": {
         "name": "Aspekta Thin",
         "fileName": "Aspekta-100.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 100
+        "fontWeight": 100,
+        "metrics": {
+          "layout": {
+            "ascent": 1100,
+            "descent": -330,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 720,
+            "xHeight": 520,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 698,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -74,
+              "minY": -224,
+              "maxX": 1090,
+              "maxY": 932
+            }
+          }
+        }
       }
     }
   }

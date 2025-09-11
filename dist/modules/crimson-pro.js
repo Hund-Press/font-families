@@ -91,7 +91,7 @@ export default {
   },
   "faces": {
     "variable": {
-      "Crimson ProVariableRegular[wght]": {
+      "crimson-pro-variable-regular[wght]": {
         "name": "Crimson Pro Variable (weight)",
         "fileName": "CrimsonPro[wght].ttf",
         "format": "truetype",
@@ -107,9 +107,31 @@ export default {
           "min": 200,
           "max": 900
         },
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 430,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 775,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -110,
+              "minY": -286,
+              "maxX": 1181,
+              "maxY": 984
+            }
+          }
+        },
         "weightRange": "200 900"
       },
-      "Crimson ProVariableItalic[wght]": {
+      "crimson-pro-variable-italic[wght]": {
         "name": "Crimson Pro Italic Variable (weight)",
         "fileName": "CrimsonPro-Italic[wght].ttf",
         "format": "truetype",
@@ -125,121 +147,495 @@ export default {
           "min": 200,
           "max": 900
         },
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 430,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 835,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -160,
+              "minY": -287,
+              "maxX": 1232,
+              "maxY": 990
+            }
+          }
+        },
         "weightRange": "200 900"
       }
     },
     "static": {
-      "Crimson Pro-SemiBold-Italic": {
+      "crimson-pro-semibold-italic": {
         "name": "Crimson Pro SemiBold Italic",
         "fileName": "CrimsonPro-SemiBoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 600
+        "fontWeight": 600,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 436,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 856,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -166,
+              "minY": -290,
+              "maxX": 1260,
+              "maxY": 996
+            }
+          }
+        }
       },
-      "Crimson Pro-SemiBold": {
+      "crimson-pro-semibold": {
         "name": "Crimson Pro SemiBold",
         "fileName": "CrimsonPro-SemiBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 600
+        "fontWeight": 600,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 436,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 795,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -113,
+              "minY": -289,
+              "maxX": 1212,
+              "maxY": 985
+            }
+          }
+        }
       },
-      "Crimson Pro-Regular": {
+      "crimson-pro-regular": {
         "name": "Crimson Pro Regular",
         "fileName": "CrimsonPro-Regular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400
+        "fontWeight": 400,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 430,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 775,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -110,
+              "minY": -286,
+              "maxX": 1181,
+              "maxY": 984
+            }
+          }
+        }
       },
-      "Crimson Pro-Medium-Italic": {
+      "crimson-pro-medium-italic": {
         "name": "Crimson Pro Medium Italic",
         "fileName": "CrimsonPro-MediumItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 500
+        "fontWeight": 500,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 433,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 845,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -163,
+              "minY": -288,
+              "maxX": 1245,
+              "maxY": 993
+            }
+          }
+        }
       },
-      "Crimson Pro-Medium": {
+      "crimson-pro-medium": {
         "name": "Crimson Pro Medium",
         "fileName": "CrimsonPro-Medium.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 500
+        "fontWeight": 500,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 433,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 784,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -111,
+              "minY": -287,
+              "maxX": 1196,
+              "maxY": 984
+            }
+          }
+        }
       },
-      "Crimson Pro-Light-Italic": {
+      "crimson-pro-light-italic": {
         "name": "Crimson Pro Light Italic",
         "fileName": "CrimsonPro-LightItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 300
+        "fontWeight": 300,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 427,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 827,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -157,
+              "minY": -286,
+              "maxX": 1221,
+              "maxY": 987
+            }
+          }
+        }
       },
-      "Crimson Pro-Light": {
+      "crimson-pro-light": {
         "name": "Crimson Pro Light",
         "fileName": "CrimsonPro-Light.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 300
+        "fontWeight": 300,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 427,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 766,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -108,
+              "minY": -284,
+              "maxX": 1169,
+              "maxY": 984
+            }
+          }
+        }
       },
-      "Crimson Pro-Regular-Italic": {
+      "crimson-pro-regular-italic": {
         "name": "Crimson Pro Regular Italic",
         "fileName": "CrimsonPro-Italic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 400
+        "fontWeight": 400,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 430,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 835,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -160,
+              "minY": -287,
+              "maxX": 1232,
+              "maxY": 990
+            }
+          }
+        }
       },
-      "Crimson Pro-ExtraLight-Italic": {
+      "crimson-pro-extralight-italic": {
         "name": "Crimson Pro ExtraLight Italic",
         "fileName": "CrimsonPro-ExtraLightItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 200
+        "fontWeight": 200,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 425,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 820,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -155,
+              "minY": -285,
+              "maxX": 1212,
+              "maxY": 985
+            }
+          }
+        }
       },
-      "Crimson Pro-ExtraLight": {
+      "crimson-pro-extralight": {
         "name": "Crimson Pro ExtraLight",
         "fileName": "CrimsonPro-ExtraLight.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 200
+        "fontWeight": 200,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 425,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 760,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -107,
+              "minY": -283,
+              "maxX": 1159,
+              "maxY": 984
+            }
+          }
+        }
       },
-      "Crimson Pro-ExtraBold-Italic": {
+      "crimson-pro-extrabold-italic": {
         "name": "Crimson Pro ExtraBold Italic",
         "fileName": "CrimsonPro-ExtraBoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 800
+        "fontWeight": 800,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 443,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 883,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -174,
+              "minY": -293,
+              "maxX": 1298,
+              "maxY": 1003
+            }
+          }
+        }
       },
-      "Crimson Pro-ExtraBold": {
+      "crimson-pro-extrabold": {
         "name": "Crimson Pro ExtraBold",
         "fileName": "CrimsonPro-ExtraBold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 800
+        "fontWeight": 800,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 443,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 823,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -117,
+              "minY": -293,
+              "maxX": 1254,
+              "maxY": 994
+            }
+          }
+        }
       },
-      "Crimson Pro-Bold-Italic": {
+      "crimson-pro-bold-italic": {
         "name": "Crimson Pro Bold Italic",
         "fileName": "CrimsonPro-BoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 700
+        "fontWeight": 700,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 439,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 869,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -170,
+              "minY": -292,
+              "maxX": 1278,
+              "maxY": 999
+            }
+          }
+        }
       },
-      "Crimson Pro-Bold": {
+      "crimson-pro-bold": {
         "name": "Crimson Pro Bold",
         "fileName": "CrimsonPro-Bold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 700
+        "fontWeight": 700,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 439,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 808,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -115,
+              "minY": -291,
+              "maxX": 1232,
+              "maxY": 990
+            }
+          }
+        }
       },
-      "Crimson Pro-Black-Italic": {
+      "crimson-pro-black-italic": {
         "name": "Crimson Pro Black Italic",
         "fileName": "CrimsonPro-BlackItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 900
+        "fontWeight": 900,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 446,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 895,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -177,
+              "minY": -295,
+              "maxX": 1315,
+              "maxY": 1006
+            }
+          }
+        }
       },
-      "Crimson Pro-Black": {
+      "crimson-pro-black": {
         "name": "Crimson Pro Black",
         "fileName": "CrimsonPro-Black.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 900
+        "fontWeight": 900,
+        "metrics": {
+          "layout": {
+            "ascent": 918,
+            "descent": -220,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 587,
+            "xHeight": 446,
+            "unitsPerEm": 1024
+          },
+          "fallback": {
+            "avgCharWidth": 835,
+            "spaceWidth": 256,
+            "bbox": {
+              "minX": -119,
+              "minY": -295,
+              "maxX": 1272,
+              "maxY": 998
+            }
+          }
+        }
       }
     }
   },
@@ -262,7 +658,7 @@ export default {
           "CrimsonProVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-11T12:28:01.803Z"
+      "generatedAt": "2025-09-11T13:27:42.318Z"
     }
   }
 };

@@ -453,6 +453,11 @@ function transformFontFaces(familyData) {
                 faceData.stretch = fontData.stretch;
             }
             
+            // Add metrics if available
+            if (fontData.metrics) {
+                faceData.metrics = generateFaceMetrics(fontData.metrics);
+            }
+            
             faces.variable[standardizedKey] = faceData;
             
             // Add weight range for variable fonts
@@ -479,11 +484,71 @@ function transformFontFaces(familyData) {
                 faceData.fontStretch = fontData.stretch;
             }
             
+            // Add metrics if available
+            if (fontData.metrics) {
+                faceData.metrics = generateFaceMetrics(fontData.metrics);
+            }
+            
             faces.static[standardizedKey] = faceData;
         }
     }
     
     return faces;
+}
+
+/**
+ * Generate face metrics in grouped structure for web typography
+ * @param {Object} metricsData - Raw metrics from font analysis
+ * @returns {Object} Grouped metrics for web typography use
+ */
+function generateFaceMetrics(metricsData) {
+    if (!metricsData) return null;
+    
+    return {
+        layout: {
+            ascent: metricsData.ascent,
+            descent: metricsData.descent,
+            lineGap: metricsData.lineGap || 0
+        },
+        sizing: {
+            capHeight: metricsData.capHeight,
+            xHeight: metricsData.xHeight,
+            unitsPerEm: metricsData.unitsPerEm
+        },
+        fallback: {
+            avgCharWidth: calculateAverageCharWidth(metricsData),
+            spaceWidth: calculateSpaceWidth(metricsData),
+            bbox: metricsData.bbox
+        }
+    };
+}
+
+/**
+ * Calculate average character width from metrics
+ * @param {Object} metricsData - Font metrics data
+ * @returns {number|null} Average character width or null if not available
+ */
+function calculateAverageCharWidth(metricsData) {
+    // For now, estimate based on bbox and units per em
+    // This could be enhanced with actual glyph width analysis
+    if (metricsData.bbox && metricsData.unitsPerEm) {
+        const avgWidth = (metricsData.bbox.maxX - metricsData.bbox.minX) * 0.6; // Rough estimate
+        return Math.round(avgWidth);
+    }
+    return null;
+}
+
+/**
+ * Calculate space character width from metrics
+ * @param {Object} metricsData - Font metrics data
+ * @returns {number|null} Space width or null if not available
+ */
+function calculateSpaceWidth(metricsData) {
+    // Estimate space width as roughly 25% of units per em
+    if (metricsData.unitsPerEm) {
+        return Math.round(metricsData.unitsPerEm * 0.25);
+    }
+    return null;
 }
 
 /**
@@ -528,46 +593,46 @@ function generateVariableFaceName(familyName, fontData) {
  * @returns {string} Standardized face key
  */
 function generateStandardFaceKey(familyName, fontData, isVariable = false) {
-    // Convert family name to PascalCase (remove hyphens, capitalize words)
-    const pascalFamilyName = familyName
-        .split('-')
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-        .join('');
+    // Convert family name to kebab-case
+    const kebabFamilyName = familyName
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '');
     
     if (isVariable) {
-        // Variable font keys: FamilyNameVariable[axes]
+        // Variable font keys: family-name-variable-style[axes]
         const axes = Object.keys(fontData.axes || {}).sort().join(',');
-        const style = fontData.style === 'italic' ? 'Italic' : 'Regular';
-        return `${pascalFamilyName}Variable${style}[${axes}]`;
+        const style = fontData.style === 'italic' ? 'italic' : 'regular';
+        return `${kebabFamilyName}-variable-${style}[${axes}]`;
     }
     
-    // Static font keys: FamilyName-VariantWeightStyle
-    const parts = [pascalFamilyName];
+    // Static font keys: family-name-variant-weight-style
+    const parts = [kebabFamilyName];
     
     // Add stretch variant if not normal
     const stretch = fontData.stretch;
     if (stretch && stretch !== 'normal') {
         const stretchMap = {
-            'ultra-condensed': 'UltraCondensed',
-            'extra-condensed': 'ExtraCondensed', 
-            'condensed': 'Condensed',
-            'semi-condensed': 'SemiCondensed',
-            'semi-expanded': 'SemiExpanded',
-            'expanded': 'Expanded',
-            'extra-expanded': 'ExtraExpanded',
-            'ultra-expanded': 'UltraExpanded'
+            'ultra-condensed': 'ultra-condensed',
+            'extra-condensed': 'extra-condensed', 
+            'condensed': 'condensed',
+            'semi-condensed': 'semi-condensed',
+            'semi-expanded': 'semi-expanded',
+            'expanded': 'expanded',
+            'extra-expanded': 'extra-expanded',
+            'ultra-expanded': 'ultra-expanded'
         };
         parts.push(stretchMap[stretch] || stretch);
     }
     
     // Add weight
     const weight = fontData.weight || 400;
-    const weightName = getStandardWeightName(weight);
+    const weightName = getStandardWeightName(weight).toLowerCase();
     parts.push(weightName);
     
     // Add style if italic
     if (fontData.style === 'italic') {
-        parts.push('Italic');
+        parts.push('italic');
     }
     
     return parts.join('-');

@@ -3,7 +3,7 @@
     "title": "Font Families - Complete Collection",
     "description": "Complete font collection including restricted-licensed fonts",
     "version": "1.6.0",
-    "generated": "2025-09-11T12:28:01.585Z",
+    "generated": "2025-09-11T13:27:42.130Z",
     "fontCount": 6,
     "includesRestrictedFonts": true
   },
@@ -257,31 +257,43 @@
         "languages": {
           "unicodeRanges": {
             "Basic Latin": {
-              "coverage": 0.8,
+              "coverage": 0.7578125,
               "start": 0,
               "end": 127
             },
             "Latin-1 Supplement": {
-              "coverage": 0.7,
+              "coverage": 0.75,
               "start": 128,
               "end": 255
             },
             "Latin Extended-A": {
-              "coverage": 0.9,
+              "coverage": 0.96875,
               "start": 256,
               "end": 383
             },
             "Latin Extended-B": {
-              "coverage": 0.2,
+              "coverage": 0.21153846153846154,
               "start": 384,
               "end": 591
+            },
+            "Latin Extended Additional": {
+              "coverage": 0.4296875,
+              "start": 7680,
+              "end": 7935
+            },
+            "Greek and Coptic": {
+              "coverage": 0.006944444444444444,
+              "start": 880,
+              "end": 1023
             }
           },
           "scripts": [
             "Basic Latin",
             "Latin-1 Supplement",
             "Latin Extended-A",
-            "Latin Extended-B"
+            "Latin Extended-B",
+            "Latin Extended Additional",
+            "Greek and Coptic"
           ],
           "primaryScript": "Latin Extended-A"
         },
@@ -379,9 +391,12 @@
           "ccmp",
           "dnom",
           "frac",
+          "kern",
           "liga",
           "lnum",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "onum",
           "ordn",
@@ -391,10 +406,7 @@
           "ss01",
           "subs",
           "sups",
-          "tnum",
-          "kern",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "hasLigatures": true,
         "hasSmallCaps": false,
@@ -417,7 +429,7 @@
         "styleCount": 1,
         "formats": [
           "truetype",
-          "woff"
+          "woff2"
         ]
       },
       "files": {
@@ -826,8 +838,8 @@
         "variable": [
           {
             "key": "VariableRegular[wdth,wght]",
-            "fileName": "LeagueMono-VF.woff",
-            "format": "woff",
+            "fileName": "LeagueMono-VF.woff2",
+            "format": "woff2",
             "axes": {
               "wght": {
                 "min": 100,
@@ -841,8 +853,8 @@
               }
             },
             "style": "normal",
-            "fileSize": 65824,
-            "fileSizeKB": 64
+            "fileSize": 56576,
+            "fileSizeKB": 55
           }
         ]
       },
@@ -854,37 +866,43 @@
         "xHeight": 1000,
         "glyphCount": 589,
         "totalFiles": 41,
-        "totalSizeKB": 2634
+        "totalSizeKB": 2625
       },
       "detailed": {
         "languages": {
           "unicodeRanges": {
             "Basic Latin": {
-              "coverage": 0.7,
+              "coverage": 0.7421875,
               "start": 0,
               "end": 127
             },
             "Latin-1 Supplement": {
-              "coverage": 0.6,
+              "coverage": 0.6953125,
               "start": 128,
               "end": 255
             },
             "Latin Extended-A": {
-              "coverage": 0.9,
+              "coverage": 0.96875,
               "start": 256,
               "end": 383
             },
             "Latin Extended-B": {
-              "coverage": 0.4,
+              "coverage": 0.3269230769230769,
               "start": 384,
               "end": 591
+            },
+            "Latin Extended Additional": {
+              "coverage": 0.37890625,
+              "start": 7680,
+              "end": 7935
             }
           },
           "scripts": [
             "Basic Latin",
             "Latin-1 Supplement",
             "Latin Extended-A",
-            "Latin Extended-B"
+            "Latin Extended-B",
+            "Latin Extended Additional"
           ],
           "primaryScript": "Latin Extended-A"
         },
@@ -1193,7 +1211,7 @@
             "punctuation": "!@#$%^&*()_+-=[]{}|;:,.<>?"
           },
           "specimenFonts": {
-            "variable": "fonts/open-fonts/league-mono/fonts/variable/WOFF/LeagueMono-VF.woff",
+            "variable": "fonts/open-fonts/league-mono/fonts/variable/WOFF2/LeagueMono-VF.woff2",
             "regular": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-WideRegular.ttf",
             "bold": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-WideExtraBold.ttf"
           }
@@ -1201,9 +1219,9 @@
       },
       "performance": {
         "fileCount": 41,
-        "totalSizeKB": 2634,
+        "totalSizeKB": 2625,
         "averageSizeKB": 64,
-        "smallestFileKB": 62,
+        "smallestFileKB": 55,
         "largestFileKB": 67,
         "averageGlyphCount": 589
       },
@@ -1213,12 +1231,12 @@
           "case",
           "ccmp",
           "locl",
+          "mark",
+          "mkmk",
           "ordn",
           "pnum",
           "ss01",
-          "tnum",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "hasLigatures": false,
         "hasSmallCaps": false,
@@ -1253,7 +1271,7 @@
             "format": "woff2",
             "weight": 100,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "ultra-expanded",
             "fileSize": 41540,
             "fileSizeKB": 41
           },
@@ -1263,7 +1281,7 @@
             "format": "woff2",
             "weight": 600,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "ultra-expanded",
             "fileSize": 42140,
             "fileSizeKB": 41
           },
@@ -1273,7 +1291,7 @@
             "format": "woff2",
             "weight": 400,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "ultra-expanded",
             "fileSize": 41492,
             "fileSizeKB": 41
           },
@@ -1283,7 +1301,7 @@
             "format": "woff2",
             "weight": 500,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "ultra-expanded",
             "fileSize": 41868,
             "fileSizeKB": 41
           },
@@ -1293,7 +1311,7 @@
             "format": "woff2",
             "weight": 300,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "ultra-expanded",
             "fileSize": 41680,
             "fileSizeKB": 41
           },
@@ -1303,7 +1321,7 @@
             "format": "woff2",
             "weight": 200,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "ultra-expanded",
             "fileSize": 41488,
             "fileSizeKB": 41
           },
@@ -1313,7 +1331,7 @@
             "format": "woff2",
             "weight": 800,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "ultra-expanded",
             "fileSize": 42320,
             "fileSizeKB": 41
           },
@@ -1323,7 +1341,7 @@
             "format": "woff2",
             "weight": 700,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "ultra-expanded",
             "fileSize": 42324,
             "fileSizeKB": 41
           },
@@ -1333,7 +1351,7 @@
             "format": "woff2",
             "weight": 900,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "ultra-expanded",
             "fileSize": 42300,
             "fileSizeKB": 41
           },
@@ -1673,7 +1691,7 @@
             "format": "woff2",
             "weight": 100,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "extra-expanded",
             "fileSize": 40508,
             "fileSizeKB": 40
           },
@@ -1683,7 +1701,7 @@
             "format": "woff2",
             "weight": 600,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "extra-expanded",
             "fileSize": 41068,
             "fileSizeKB": 40
           },
@@ -1693,7 +1711,7 @@
             "format": "woff2",
             "weight": 400,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "extra-expanded",
             "fileSize": 40432,
             "fileSizeKB": 39
           },
@@ -1703,7 +1721,7 @@
             "format": "woff2",
             "weight": 500,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "extra-expanded",
             "fileSize": 40996,
             "fileSizeKB": 40
           },
@@ -1713,7 +1731,7 @@
             "format": "woff2",
             "weight": 300,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "extra-expanded",
             "fileSize": 40948,
             "fileSizeKB": 40
           },
@@ -1723,7 +1741,7 @@
             "format": "woff2",
             "weight": 200,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "extra-expanded",
             "fileSize": 40928,
             "fileSizeKB": 40
           },
@@ -1733,7 +1751,7 @@
             "format": "woff2",
             "weight": 800,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "extra-expanded",
             "fileSize": 41252,
             "fileSizeKB": 40
           },
@@ -1743,7 +1761,7 @@
             "format": "woff2",
             "weight": 700,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "extra-expanded",
             "fileSize": 41420,
             "fileSizeKB": 40
           },
@@ -1753,7 +1771,7 @@
             "format": "woff2",
             "weight": 900,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "extra-expanded",
             "fileSize": 41644,
             "fileSizeKB": 41
           },
@@ -2095,31 +2113,43 @@
         "languages": {
           "unicodeRanges": {
             "Basic Latin": {
-              "coverage": 0.8,
+              "coverage": 0.7578125,
               "start": 0,
               "end": 127
             },
             "Latin-1 Supplement": {
-              "coverage": 0.7,
+              "coverage": 0.75,
               "start": 128,
               "end": 255
             },
             "Latin Extended-A": {
-              "coverage": 0.9,
+              "coverage": 0.96875,
               "start": 256,
               "end": 383
             },
             "Latin Extended-B": {
-              "coverage": 0.3,
+              "coverage": 0.28846153846153844,
               "start": 384,
               "end": 591
+            },
+            "Latin Extended Additional": {
+              "coverage": 0.640625,
+              "start": 7680,
+              "end": 7935
+            },
+            "Greek and Coptic": {
+              "coverage": 0.006944444444444444,
+              "start": 880,
+              "end": 1023
             }
           },
           "scripts": [
             "Basic Latin",
             "Latin-1 Supplement",
             "Latin Extended-A",
-            "Latin Extended-B"
+            "Latin Extended-B",
+            "Latin Extended Additional",
+            "Greek and Coptic"
           ],
           "primaryScript": "Latin Extended-A"
         },
@@ -2234,6 +2264,8 @@
           "dnom",
           "frac",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "ordn",
           "salt",
@@ -2242,9 +2274,7 @@
           "ss03",
           "subs",
           "sups",
-          "zero",
-          "mark",
-          "mkmk"
+          "zero"
         ],
         "hasLigatures": true,
         "hasSmallCaps": false,
@@ -2481,27 +2511,32 @@
         "languages": {
           "unicodeRanges": {
             "Basic Latin": {
-              "coverage": 0.8,
+              "coverage": 0.7578125,
               "start": 0,
               "end": 127
             },
             "Latin-1 Supplement": {
-              "coverage": 0.7,
+              "coverage": 0.75,
               "start": 128,
               "end": 255
             },
             "Latin Extended-A": {
-              "coverage": 1,
+              "coverage": 0.9921875,
               "start": 256,
               "end": 383
             },
             "Latin Extended-B": {
-              "coverage": 0.3,
+              "coverage": 0.3125,
               "start": 384,
               "end": 591
             },
-            "Greek": {
-              "coverage": 0.1,
+            "Latin Extended Additional": {
+              "coverage": 0.640625,
+              "start": 7680,
+              "end": 7935
+            },
+            "Greek and Coptic": {
+              "coverage": 0.034722222222222224,
               "start": 880,
               "end": 1023
             }
@@ -2511,7 +2546,8 @@
             "Latin-1 Supplement",
             "Latin Extended-A",
             "Latin Extended-B",
-            "Greek"
+            "Latin Extended Additional",
+            "Greek and Coptic"
           ],
           "primaryScript": "Latin Extended-A"
         },
@@ -2604,9 +2640,12 @@
           "dlig",
           "dnom",
           "frac",
+          "kern",
           "liga",
           "lnum",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "onum",
           "ordn",
@@ -2615,9 +2654,6 @@
           "subs",
           "sups",
           "tnum",
-          "kern",
-          "mark",
-          "mkmk",
           "rvrn"
         ],
         "hasLigatures": true,
@@ -2711,22 +2747,27 @@
         "languages": {
           "unicodeRanges": {
             "Basic Latin": {
-              "coverage": 0.7,
+              "coverage": 0.75,
               "start": 0,
               "end": 127
             },
             "Latin-1 Supplement": {
-              "coverage": 0.7,
+              "coverage": 0.75,
               "start": 128,
               "end": 255
             },
             "Latin Extended-A": {
-              "coverage": 0.7,
+              "coverage": 0.65625,
               "start": 256,
               "end": 383
             },
-            "Greek": {
-              "coverage": 0.1,
+            "Latin Extended-B": {
+              "coverage": 0.02403846153846154,
+              "start": 384,
+              "end": 591
+            },
+            "Greek and Coptic": {
+              "coverage": 0.027777777777777776,
               "start": 880,
               "end": 1023
             }
@@ -2735,7 +2776,8 @@
             "Basic Latin",
             "Latin-1 Supplement",
             "Latin Extended-A",
-            "Greek"
+            "Latin Extended-B",
+            "Greek and Coptic"
           ],
           "primaryScript": "Basic Latin"
         },
@@ -2768,14 +2810,14 @@
           "case",
           "ccmp",
           "frac",
+          "kern",
           "locl",
+          "mark",
+          "mkmk",
           "ordn",
           "pnum",
           "sups",
-          "tnum",
-          "kern",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "hasLigatures": false,
         "hasSmallCaps": false,
@@ -3039,31 +3081,37 @@
         "languages": {
           "unicodeRanges": {
             "Basic Latin": {
-              "coverage": 0.7,
+              "coverage": 0.7265625,
               "start": 0,
               "end": 127
             },
             "Latin-1 Supplement": {
-              "coverage": 0.5,
+              "coverage": 0.5703125,
               "start": 128,
               "end": 255
             },
             "Latin Extended-A": {
-              "coverage": 0.5,
+              "coverage": 0.6953125,
               "start": 256,
               "end": 383
             },
             "Latin Extended-B": {
-              "coverage": 0.2,
+              "coverage": 0.1201923076923077,
               "start": 384,
               "end": 591
+            },
+            "Latin Extended Additional": {
+              "coverage": 0.1796875,
+              "start": 7680,
+              "end": 7935
             }
           },
           "scripts": [
             "Basic Latin",
             "Latin-1 Supplement",
             "Latin Extended-A",
-            "Latin Extended-B"
+            "Latin Extended-B",
+            "Latin Extended Additional"
           ],
           "primaryScript": "Basic Latin"
         },
@@ -3076,7 +3124,7 @@
           },
           "namedInstances": [
             {
-              "name": "Instance 2",
+              "name": "Regular",
               "coordinates": {
                 "wght": 400
               }
@@ -3112,6 +3160,7 @@
           "case",
           "ccmp",
           "locl",
+          "mark",
           "ss01",
           "ss02",
           "ss03",
@@ -3125,8 +3174,7 @@
           "ss11",
           "ss12",
           "ss13",
-          "ss14",
-          "mark"
+          "ss14"
         ],
         "hasLigatures": false,
         "hasSmallCaps": false,

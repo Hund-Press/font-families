@@ -5,7 +5,7 @@
   "description": "",
   "static": {
     "CrimsonPro-SemiBoldItalic": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro SemiBold",
       "style": "italic",
       "weight": 600,
       "stretch": "normal",
@@ -18,59 +18,12 @@
         "lineGap": 0,
         "capHeight": 587,
         "xHeight": 436,
-        "baseline": {
-          "hasBaseTable": false,
-          "alphabetic": 0,
-          "hanging": 734,
-          "ideographic": -220,
-          "mathematical": 459
-        },
         "bbox": {
           "minX": -166,
           "minY": -290,
           "maxX": 1260,
           "maxY": 996
         }
-      },
-      "spacing": {
-        "space": {
-          "advanceWidth": 195,
-          "leftSideBearing": null,
-          "rightSideBearing": null,
-          "width": null
-        },
-        "n": {
-          "advanceWidth": 557,
-          "leftSideBearing": 15,
-          "rightSideBearing": 25,
-          "width": 517
-        },
-        "M": {
-          "advanceWidth": 875,
-          "leftSideBearing": -8,
-          "rightSideBearing": -21,
-          "width": 904
-        },
-        "period": {
-          "advanceWidth": 264,
-          "leftSideBearing": 20,
-          "rightSideBearing": 83,
-          "width": 161
-        },
-        "em": {
-          "advanceWidth": 1000,
-          "leftSideBearing": -5,
-          "rightSideBearing": -7,
-          "width": 1012
-        },
-        "en": {
-          "advanceWidth": 500,
-          "leftSideBearing": -5,
-          "rightSideBearing": -7,
-          "width": 512
-        },
-        "spaceToN": 0.3500897666068223,
-        "MToN": 1.570915619389587
       },
       "features": {
         "openTypeFeatures": [
@@ -80,9 +33,12 @@
           "dlig",
           "dnom",
           "frac",
+          "kern",
           "liga",
           "lnum",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "onum",
           "ordn",
@@ -90,46 +46,60 @@
           "sinf",
           "subs",
           "sups",
-          "tnum",
-          "kern",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "stylisticSets": [],
-        "languageSupport": {},
-        "glyphCount": 832,
         "unicodeRanges": [
           {
             "name": "Basic Latin",
-            "coverage": 0.8,
+            "coverage": 0.7578125,
             "start": 0,
-            "end": 127
+            "end": 127,
+            "supported": 97,
+            "total": 128
           },
           {
             "name": "Latin-1 Supplement",
-            "coverage": 0.7,
+            "coverage": 0.75,
             "start": 128,
-            "end": 255
+            "end": 255,
+            "supported": 96,
+            "total": 128
           },
           {
             "name": "Latin Extended-A",
-            "coverage": 1,
+            "coverage": 0.9921875,
             "start": 256,
-            "end": 383
+            "end": 383,
+            "supported": 127,
+            "total": 128
           },
           {
             "name": "Latin Extended-B",
-            "coverage": 0.3,
+            "coverage": 0.3125,
             "start": 384,
-            "end": 591
+            "end": 591,
+            "supported": 65,
+            "total": 208
           },
           {
-            "name": "Greek",
-            "coverage": 0.1,
+            "name": "Latin Extended Additional",
+            "coverage": 0.640625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 164,
+            "total": 256
+          },
+          {
+            "name": "Greek and Coptic",
+            "coverage": 0.034722222222222224,
             "start": 880,
-            "end": 1023
+            "end": 1023,
+            "supported": 5,
+            "total": 144
           }
-        ]
+        ],
+        "glyphCount": 832
       },
       "performance": {
         "fileSize": 50696,
@@ -137,12 +107,11 @@
         "glyphDensity": 61,
         "format": "woff2",
         "isVariable": false,
-        "axisCount": 0,
-        "tableCount": 9
+        "axisCount": 0
       }
     },
     "CrimsonPro-SemiBold": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro SemiBold",
       "style": "normal",
       "weight": 600,
       "stretch": "normal",
@@ -155,59 +124,12 @@
         "lineGap": 0,
         "capHeight": 587,
         "xHeight": 436,
-        "baseline": {
-          "hasBaseTable": false,
-          "alphabetic": 0,
-          "hanging": 734,
-          "ideographic": -220,
-          "mathematical": 459
-        },
         "bbox": {
           "minX": -113,
           "minY": -289,
           "maxX": 1212,
           "maxY": 985
         }
-      },
-      "spacing": {
-        "space": {
-          "advanceWidth": 195,
-          "leftSideBearing": null,
-          "rightSideBearing": null,
-          "width": null
-        },
-        "n": {
-          "advanceWidth": 574,
-          "leftSideBearing": 14,
-          "rightSideBearing": 15,
-          "width": 545
-        },
-        "M": {
-          "advanceWidth": 875,
-          "leftSideBearing": 32,
-          "rightSideBearing": 37,
-          "width": 806
-        },
-        "period": {
-          "advanceWidth": 268,
-          "leftSideBearing": 51,
-          "rightSideBearing": 50,
-          "width": 167
-        },
-        "em": {
-          "advanceWidth": 1000,
-          "leftSideBearing": 0,
-          "rightSideBearing": 0,
-          "width": 1000
-        },
-        "en": {
-          "advanceWidth": 500,
-          "leftSideBearing": 0,
-          "rightSideBearing": 0,
-          "width": 500
-        },
-        "spaceToN": 0.3397212543554007,
-        "MToN": 1.524390243902439
       },
       "features": {
         "openTypeFeatures": [
@@ -217,9 +139,12 @@
           "dlig",
           "dnom",
           "frac",
+          "kern",
           "liga",
           "lnum",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "onum",
           "ordn",
@@ -227,46 +152,60 @@
           "sinf",
           "subs",
           "sups",
-          "tnum",
-          "kern",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "stylisticSets": [],
-        "languageSupport": {},
-        "glyphCount": 832,
         "unicodeRanges": [
           {
             "name": "Basic Latin",
-            "coverage": 0.8,
+            "coverage": 0.7578125,
             "start": 0,
-            "end": 127
+            "end": 127,
+            "supported": 97,
+            "total": 128
           },
           {
             "name": "Latin-1 Supplement",
-            "coverage": 0.7,
+            "coverage": 0.75,
             "start": 128,
-            "end": 255
+            "end": 255,
+            "supported": 96,
+            "total": 128
           },
           {
             "name": "Latin Extended-A",
-            "coverage": 1,
+            "coverage": 0.9921875,
             "start": 256,
-            "end": 383
+            "end": 383,
+            "supported": 127,
+            "total": 128
           },
           {
             "name": "Latin Extended-B",
-            "coverage": 0.3,
+            "coverage": 0.3125,
             "start": 384,
-            "end": 591
+            "end": 591,
+            "supported": 65,
+            "total": 208
           },
           {
-            "name": "Greek",
-            "coverage": 0.1,
+            "name": "Latin Extended Additional",
+            "coverage": 0.640625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 164,
+            "total": 256
+          },
+          {
+            "name": "Greek and Coptic",
+            "coverage": 0.034722222222222224,
             "start": 880,
-            "end": 1023
+            "end": 1023,
+            "supported": 5,
+            "total": 144
           }
-        ]
+        ],
+        "glyphCount": 832
       },
       "performance": {
         "fileSize": 49524,
@@ -274,8 +213,7 @@
         "glyphDensity": 60,
         "format": "woff2",
         "isVariable": false,
-        "axisCount": 0,
-        "tableCount": 9
+        "axisCount": 0
       }
     },
     "CrimsonPro-Regular": {
@@ -292,59 +230,12 @@
         "lineGap": 0,
         "capHeight": 587,
         "xHeight": 430,
-        "baseline": {
-          "hasBaseTable": false,
-          "alphabetic": 0,
-          "hanging": 734,
-          "ideographic": -220,
-          "mathematical": 459
-        },
         "bbox": {
           "minX": -110,
           "minY": -286,
           "maxX": 1181,
           "maxY": 984
         }
-      },
-      "spacing": {
-        "space": {
-          "advanceWidth": 192,
-          "leftSideBearing": null,
-          "rightSideBearing": null,
-          "width": null
-        },
-        "n": {
-          "advanceWidth": 550,
-          "leftSideBearing": 24,
-          "rightSideBearing": 23,
-          "width": 503
-        },
-        "M": {
-          "advanceWidth": 850,
-          "leftSideBearing": 40,
-          "rightSideBearing": 48,
-          "width": 762
-        },
-        "period": {
-          "advanceWidth": 234,
-          "leftSideBearing": 54,
-          "rightSideBearing": 54,
-          "width": 126
-        },
-        "em": {
-          "advanceWidth": 1000,
-          "leftSideBearing": 0,
-          "rightSideBearing": 0,
-          "width": 1000
-        },
-        "en": {
-          "advanceWidth": 500,
-          "leftSideBearing": 0,
-          "rightSideBearing": 0,
-          "width": 500
-        },
-        "spaceToN": 0.3490909090909091,
-        "MToN": 1.5454545454545454
       },
       "features": {
         "openTypeFeatures": [
@@ -354,9 +245,12 @@
           "dlig",
           "dnom",
           "frac",
+          "kern",
           "liga",
           "lnum",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "onum",
           "ordn",
@@ -364,46 +258,60 @@
           "sinf",
           "subs",
           "sups",
-          "tnum",
-          "kern",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "stylisticSets": [],
-        "languageSupport": {},
-        "glyphCount": 832,
         "unicodeRanges": [
           {
             "name": "Basic Latin",
-            "coverage": 0.8,
+            "coverage": 0.7578125,
             "start": 0,
-            "end": 127
+            "end": 127,
+            "supported": 97,
+            "total": 128
           },
           {
             "name": "Latin-1 Supplement",
-            "coverage": 0.7,
+            "coverage": 0.75,
             "start": 128,
-            "end": 255
+            "end": 255,
+            "supported": 96,
+            "total": 128
           },
           {
             "name": "Latin Extended-A",
-            "coverage": 1,
+            "coverage": 0.9921875,
             "start": 256,
-            "end": 383
+            "end": 383,
+            "supported": 127,
+            "total": 128
           },
           {
             "name": "Latin Extended-B",
-            "coverage": 0.3,
+            "coverage": 0.3125,
             "start": 384,
-            "end": 591
+            "end": 591,
+            "supported": 65,
+            "total": 208
           },
           {
-            "name": "Greek",
-            "coverage": 0.1,
+            "name": "Latin Extended Additional",
+            "coverage": 0.640625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 164,
+            "total": 256
+          },
+          {
+            "name": "Greek and Coptic",
+            "coverage": 0.034722222222222224,
             "start": 880,
-            "end": 1023
+            "end": 1023,
+            "supported": 5,
+            "total": 144
           }
-        ]
+        ],
+        "glyphCount": 832
       },
       "performance": {
         "fileSize": 48544,
@@ -411,12 +319,11 @@
         "glyphDensity": 58,
         "format": "woff2",
         "isVariable": false,
-        "axisCount": 0,
-        "tableCount": 9
+        "axisCount": 0
       }
     },
     "CrimsonPro-MediumItalic": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro Medium",
       "style": "italic",
       "weight": 500,
       "stretch": "normal",
@@ -429,59 +336,12 @@
         "lineGap": 0,
         "capHeight": 587,
         "xHeight": 433,
-        "baseline": {
-          "hasBaseTable": false,
-          "alphabetic": 0,
-          "hanging": 734,
-          "ideographic": -220,
-          "mathematical": 459
-        },
         "bbox": {
           "minX": -163,
           "minY": -288,
           "maxX": 1245,
           "maxY": 993
         }
-      },
-      "spacing": {
-        "space": {
-          "advanceWidth": 193,
-          "leftSideBearing": null,
-          "rightSideBearing": null,
-          "width": null
-        },
-        "n": {
-          "advanceWidth": 536,
-          "leftSideBearing": 20,
-          "rightSideBearing": 31,
-          "width": 485
-        },
-        "M": {
-          "advanceWidth": 862,
-          "leftSideBearing": -4,
-          "rightSideBearing": -20,
-          "width": 886
-        },
-        "period": {
-          "advanceWidth": 247,
-          "leftSideBearing": 19,
-          "rightSideBearing": 86,
-          "width": 142
-        },
-        "em": {
-          "advanceWidth": 1000,
-          "leftSideBearing": -4,
-          "rightSideBearing": -6,
-          "width": 1010
-        },
-        "en": {
-          "advanceWidth": 500,
-          "leftSideBearing": -4,
-          "rightSideBearing": -6,
-          "width": 510
-        },
-        "spaceToN": 0.36007462686567165,
-        "MToN": 1.6082089552238805
       },
       "features": {
         "openTypeFeatures": [
@@ -491,9 +351,12 @@
           "dlig",
           "dnom",
           "frac",
+          "kern",
           "liga",
           "lnum",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "onum",
           "ordn",
@@ -501,46 +364,60 @@
           "sinf",
           "subs",
           "sups",
-          "tnum",
-          "kern",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "stylisticSets": [],
-        "languageSupport": {},
-        "glyphCount": 832,
         "unicodeRanges": [
           {
             "name": "Basic Latin",
-            "coverage": 0.8,
+            "coverage": 0.7578125,
             "start": 0,
-            "end": 127
+            "end": 127,
+            "supported": 97,
+            "total": 128
           },
           {
             "name": "Latin-1 Supplement",
-            "coverage": 0.7,
+            "coverage": 0.75,
             "start": 128,
-            "end": 255
+            "end": 255,
+            "supported": 96,
+            "total": 128
           },
           {
             "name": "Latin Extended-A",
-            "coverage": 1,
+            "coverage": 0.9921875,
             "start": 256,
-            "end": 383
+            "end": 383,
+            "supported": 127,
+            "total": 128
           },
           {
             "name": "Latin Extended-B",
-            "coverage": 0.3,
+            "coverage": 0.3125,
             "start": 384,
-            "end": 591
+            "end": 591,
+            "supported": 65,
+            "total": 208
           },
           {
-            "name": "Greek",
-            "coverage": 0.1,
+            "name": "Latin Extended Additional",
+            "coverage": 0.640625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 164,
+            "total": 256
+          },
+          {
+            "name": "Greek and Coptic",
+            "coverage": 0.034722222222222224,
             "start": 880,
-            "end": 1023
+            "end": 1023,
+            "supported": 5,
+            "total": 144
           }
-        ]
+        ],
+        "glyphCount": 832
       },
       "performance": {
         "fileSize": 51008,
@@ -548,12 +425,11 @@
         "glyphDensity": 61,
         "format": "woff2",
         "isVariable": false,
-        "axisCount": 0,
-        "tableCount": 9
+        "axisCount": 0
       }
     },
     "CrimsonPro-Medium": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro Medium",
       "style": "normal",
       "weight": 500,
       "stretch": "normal",
@@ -566,59 +442,12 @@
         "lineGap": 0,
         "capHeight": 587,
         "xHeight": 433,
-        "baseline": {
-          "hasBaseTable": false,
-          "alphabetic": 0,
-          "hanging": 734,
-          "ideographic": -220,
-          "mathematical": 459
-        },
         "bbox": {
           "minX": -111,
           "minY": -287,
           "maxX": 1196,
           "maxY": 984
         }
-      },
-      "spacing": {
-        "space": {
-          "advanceWidth": 193,
-          "leftSideBearing": null,
-          "rightSideBearing": null,
-          "width": null
-        },
-        "n": {
-          "advanceWidth": 561,
-          "leftSideBearing": 19,
-          "rightSideBearing": 19,
-          "width": 523
-        },
-        "M": {
-          "advanceWidth": 862,
-          "leftSideBearing": 36,
-          "rightSideBearing": 43,
-          "width": 783
-        },
-        "period": {
-          "advanceWidth": 250,
-          "leftSideBearing": 53,
-          "rightSideBearing": 52,
-          "width": 145
-        },
-        "em": {
-          "advanceWidth": 1000,
-          "leftSideBearing": 0,
-          "rightSideBearing": 0,
-          "width": 1000
-        },
-        "en": {
-          "advanceWidth": 500,
-          "leftSideBearing": 0,
-          "rightSideBearing": 0,
-          "width": 500
-        },
-        "spaceToN": 0.34402852049910876,
-        "MToN": 1.536541889483066
       },
       "features": {
         "openTypeFeatures": [
@@ -628,9 +457,12 @@
           "dlig",
           "dnom",
           "frac",
+          "kern",
           "liga",
           "lnum",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "onum",
           "ordn",
@@ -638,46 +470,60 @@
           "sinf",
           "subs",
           "sups",
-          "tnum",
-          "kern",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "stylisticSets": [],
-        "languageSupport": {},
-        "glyphCount": 832,
         "unicodeRanges": [
           {
             "name": "Basic Latin",
-            "coverage": 0.8,
+            "coverage": 0.7578125,
             "start": 0,
-            "end": 127
+            "end": 127,
+            "supported": 97,
+            "total": 128
           },
           {
             "name": "Latin-1 Supplement",
-            "coverage": 0.7,
+            "coverage": 0.75,
             "start": 128,
-            "end": 255
+            "end": 255,
+            "supported": 96,
+            "total": 128
           },
           {
             "name": "Latin Extended-A",
-            "coverage": 1,
+            "coverage": 0.9921875,
             "start": 256,
-            "end": 383
+            "end": 383,
+            "supported": 127,
+            "total": 128
           },
           {
             "name": "Latin Extended-B",
-            "coverage": 0.3,
+            "coverage": 0.3125,
             "start": 384,
-            "end": 591
+            "end": 591,
+            "supported": 65,
+            "total": 208
           },
           {
-            "name": "Greek",
-            "coverage": 0.1,
+            "name": "Latin Extended Additional",
+            "coverage": 0.640625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 164,
+            "total": 256
+          },
+          {
+            "name": "Greek and Coptic",
+            "coverage": 0.034722222222222224,
             "start": 880,
-            "end": 1023
+            "end": 1023,
+            "supported": 5,
+            "total": 144
           }
-        ]
+        ],
+        "glyphCount": 832
       },
       "performance": {
         "fileSize": 49404,
@@ -685,12 +531,11 @@
         "glyphDensity": 59,
         "format": "woff2",
         "isVariable": false,
-        "axisCount": 0,
-        "tableCount": 9
+        "axisCount": 0
       }
     },
     "CrimsonPro-LightItalic": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro Light",
       "style": "italic",
       "weight": 300,
       "stretch": "normal",
@@ -703,59 +548,12 @@
         "lineGap": 0,
         "capHeight": 587,
         "xHeight": 427,
-        "baseline": {
-          "hasBaseTable": false,
-          "alphabetic": 0,
-          "hanging": 734,
-          "ideographic": -220,
-          "mathematical": 459
-        },
         "bbox": {
           "minX": -157,
           "minY": -286,
           "maxX": 1221,
           "maxY": 987
         }
-      },
-      "spacing": {
-        "space": {
-          "advanceWidth": 191,
-          "leftSideBearing": null,
-          "rightSideBearing": null,
-          "width": null
-        },
-        "n": {
-          "advanceWidth": 501,
-          "leftSideBearing": 27,
-          "rightSideBearing": 40,
-          "width": 434
-        },
-        "M": {
-          "advanceWidth": 840,
-          "leftSideBearing": 2,
-          "rightSideBearing": -18,
-          "width": 856
-        },
-        "period": {
-          "advanceWidth": 219,
-          "leftSideBearing": 19,
-          "rightSideBearing": 92,
-          "width": 108
-        },
-        "em": {
-          "advanceWidth": 1000,
-          "leftSideBearing": -3,
-          "rightSideBearing": -5,
-          "width": 1008
-        },
-        "en": {
-          "advanceWidth": 500,
-          "leftSideBearing": -4,
-          "rightSideBearing": -6,
-          "width": 510
-        },
-        "spaceToN": 0.3812375249500998,
-        "MToN": 1.6766467065868262
       },
       "features": {
         "openTypeFeatures": [
@@ -765,9 +563,12 @@
           "dlig",
           "dnom",
           "frac",
+          "kern",
           "liga",
           "lnum",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "onum",
           "ordn",
@@ -775,46 +576,60 @@
           "sinf",
           "subs",
           "sups",
-          "tnum",
-          "kern",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "stylisticSets": [],
-        "languageSupport": {},
-        "glyphCount": 832,
         "unicodeRanges": [
           {
             "name": "Basic Latin",
-            "coverage": 0.8,
+            "coverage": 0.7578125,
             "start": 0,
-            "end": 127
+            "end": 127,
+            "supported": 97,
+            "total": 128
           },
           {
             "name": "Latin-1 Supplement",
-            "coverage": 0.7,
+            "coverage": 0.75,
             "start": 128,
-            "end": 255
+            "end": 255,
+            "supported": 96,
+            "total": 128
           },
           {
             "name": "Latin Extended-A",
-            "coverage": 1,
+            "coverage": 0.9921875,
             "start": 256,
-            "end": 383
+            "end": 383,
+            "supported": 127,
+            "total": 128
           },
           {
             "name": "Latin Extended-B",
-            "coverage": 0.3,
+            "coverage": 0.3125,
             "start": 384,
-            "end": 591
+            "end": 591,
+            "supported": 65,
+            "total": 208
           },
           {
-            "name": "Greek",
-            "coverage": 0.1,
+            "name": "Latin Extended Additional",
+            "coverage": 0.640625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 164,
+            "total": 256
+          },
+          {
+            "name": "Greek and Coptic",
+            "coverage": 0.034722222222222224,
             "start": 880,
-            "end": 1023
+            "end": 1023,
+            "supported": 5,
+            "total": 144
           }
-        ]
+        ],
+        "glyphCount": 832
       },
       "performance": {
         "fileSize": 51424,
@@ -822,12 +637,11 @@
         "glyphDensity": 62,
         "format": "woff2",
         "isVariable": false,
-        "axisCount": 0,
-        "tableCount": 9
+        "axisCount": 0
       }
     },
     "CrimsonPro-Light": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro Light",
       "style": "normal",
       "weight": 300,
       "stretch": "normal",
@@ -840,59 +654,12 @@
         "lineGap": 0,
         "capHeight": 587,
         "xHeight": 427,
-        "baseline": {
-          "hasBaseTable": false,
-          "alphabetic": 0,
-          "hanging": 734,
-          "ideographic": -220,
-          "mathematical": 459
-        },
         "bbox": {
           "minX": -108,
           "minY": -284,
           "maxX": 1169,
           "maxY": 984
         }
-      },
-      "spacing": {
-        "space": {
-          "advanceWidth": 191,
-          "leftSideBearing": null,
-          "rightSideBearing": null,
-          "width": null
-        },
-        "n": {
-          "advanceWidth": 540,
-          "leftSideBearing": 28,
-          "rightSideBearing": 27,
-          "width": 485
-        },
-        "M": {
-          "advanceWidth": 840,
-          "leftSideBearing": 43,
-          "rightSideBearing": 53,
-          "width": 744
-        },
-        "period": {
-          "advanceWidth": 219,
-          "leftSideBearing": 55,
-          "rightSideBearing": 55,
-          "width": 109
-        },
-        "em": {
-          "advanceWidth": 1000,
-          "leftSideBearing": 0,
-          "rightSideBearing": 0,
-          "width": 1000
-        },
-        "en": {
-          "advanceWidth": 500,
-          "leftSideBearing": 0,
-          "rightSideBearing": 0,
-          "width": 500
-        },
-        "spaceToN": 0.3537037037037037,
-        "MToN": 1.5555555555555556
       },
       "features": {
         "openTypeFeatures": [
@@ -902,9 +669,12 @@
           "dlig",
           "dnom",
           "frac",
+          "kern",
           "liga",
           "lnum",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "onum",
           "ordn",
@@ -912,46 +682,60 @@
           "sinf",
           "subs",
           "sups",
-          "tnum",
-          "kern",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "stylisticSets": [],
-        "languageSupport": {},
-        "glyphCount": 832,
         "unicodeRanges": [
           {
             "name": "Basic Latin",
-            "coverage": 0.8,
+            "coverage": 0.7578125,
             "start": 0,
-            "end": 127
+            "end": 127,
+            "supported": 97,
+            "total": 128
           },
           {
             "name": "Latin-1 Supplement",
-            "coverage": 0.7,
+            "coverage": 0.75,
             "start": 128,
-            "end": 255
+            "end": 255,
+            "supported": 96,
+            "total": 128
           },
           {
             "name": "Latin Extended-A",
-            "coverage": 1,
+            "coverage": 0.9921875,
             "start": 256,
-            "end": 383
+            "end": 383,
+            "supported": 127,
+            "total": 128
           },
           {
             "name": "Latin Extended-B",
-            "coverage": 0.3,
+            "coverage": 0.3125,
             "start": 384,
-            "end": 591
+            "end": 591,
+            "supported": 65,
+            "total": 208
           },
           {
-            "name": "Greek",
-            "coverage": 0.1,
+            "name": "Latin Extended Additional",
+            "coverage": 0.640625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 164,
+            "total": 256
+          },
+          {
+            "name": "Greek and Coptic",
+            "coverage": 0.034722222222222224,
             "start": 880,
-            "end": 1023
+            "end": 1023,
+            "supported": 5,
+            "total": 144
           }
-        ]
+        ],
+        "glyphCount": 832
       },
       "performance": {
         "fileSize": 49852,
@@ -959,8 +743,7 @@
         "glyphDensity": 60,
         "format": "woff2",
         "isVariable": false,
-        "axisCount": 0,
-        "tableCount": 9
+        "axisCount": 0
       }
     },
     "CrimsonPro-Italic": {
@@ -977,59 +760,12 @@
         "lineGap": 0,
         "capHeight": 587,
         "xHeight": 430,
-        "baseline": {
-          "hasBaseTable": false,
-          "alphabetic": 0,
-          "hanging": 734,
-          "ideographic": -220,
-          "mathematical": 459
-        },
         "bbox": {
           "minX": -160,
           "minY": -287,
           "maxX": 1232,
           "maxY": 990
         }
-      },
-      "spacing": {
-        "space": {
-          "advanceWidth": 192,
-          "leftSideBearing": null,
-          "rightSideBearing": null,
-          "width": null
-        },
-        "n": {
-          "advanceWidth": 518,
-          "leftSideBearing": 24,
-          "rightSideBearing": 36,
-          "width": 458
-        },
-        "M": {
-          "advanceWidth": 850,
-          "leftSideBearing": -1,
-          "rightSideBearing": -19,
-          "width": 870
-        },
-        "period": {
-          "advanceWidth": 232,
-          "leftSideBearing": 19,
-          "rightSideBearing": 89,
-          "width": 124
-        },
-        "em": {
-          "advanceWidth": 1000,
-          "leftSideBearing": -4,
-          "rightSideBearing": -6,
-          "width": 1010
-        },
-        "en": {
-          "advanceWidth": 500,
-          "leftSideBearing": -4,
-          "rightSideBearing": -6,
-          "width": 510
-        },
-        "spaceToN": 0.37065637065637064,
-        "MToN": 1.640926640926641
       },
       "features": {
         "openTypeFeatures": [
@@ -1039,9 +775,12 @@
           "dlig",
           "dnom",
           "frac",
+          "kern",
           "liga",
           "lnum",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "onum",
           "ordn",
@@ -1049,46 +788,60 @@
           "sinf",
           "subs",
           "sups",
-          "tnum",
-          "kern",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "stylisticSets": [],
-        "languageSupport": {},
-        "glyphCount": 832,
         "unicodeRanges": [
           {
             "name": "Basic Latin",
-            "coverage": 0.8,
+            "coverage": 0.7578125,
             "start": 0,
-            "end": 127
+            "end": 127,
+            "supported": 97,
+            "total": 128
           },
           {
             "name": "Latin-1 Supplement",
-            "coverage": 0.7,
+            "coverage": 0.75,
             "start": 128,
-            "end": 255
+            "end": 255,
+            "supported": 96,
+            "total": 128
           },
           {
             "name": "Latin Extended-A",
-            "coverage": 1,
+            "coverage": 0.9921875,
             "start": 256,
-            "end": 383
+            "end": 383,
+            "supported": 127,
+            "total": 128
           },
           {
             "name": "Latin Extended-B",
-            "coverage": 0.3,
+            "coverage": 0.3125,
             "start": 384,
-            "end": 591
+            "end": 591,
+            "supported": 65,
+            "total": 208
           },
           {
-            "name": "Greek",
-            "coverage": 0.1,
+            "name": "Latin Extended Additional",
+            "coverage": 0.640625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 164,
+            "total": 256
+          },
+          {
+            "name": "Greek and Coptic",
+            "coverage": 0.034722222222222224,
             "start": 880,
-            "end": 1023
+            "end": 1023,
+            "supported": 5,
+            "total": 144
           }
-        ]
+        ],
+        "glyphCount": 832
       },
       "performance": {
         "fileSize": 50520,
@@ -1096,12 +849,11 @@
         "glyphDensity": 61,
         "format": "woff2",
         "isVariable": false,
-        "axisCount": 0,
-        "tableCount": 9
+        "axisCount": 0
       }
     },
     "CrimsonPro-ExtraLightItalic": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro ExtraLight",
       "style": "italic",
       "weight": 200,
       "stretch": "normal",
@@ -1114,59 +866,12 @@
         "lineGap": 0,
         "capHeight": 587,
         "xHeight": 425,
-        "baseline": {
-          "hasBaseTable": false,
-          "alphabetic": 0,
-          "hanging": 734,
-          "ideographic": -220,
-          "mathematical": 459
-        },
         "bbox": {
           "minX": -155,
           "minY": -285,
           "maxX": 1212,
           "maxY": 985
         }
-      },
-      "spacing": {
-        "space": {
-          "advanceWidth": 190,
-          "leftSideBearing": null,
-          "rightSideBearing": null,
-          "width": null
-        },
-        "n": {
-          "advanceWidth": 489,
-          "leftSideBearing": 30,
-          "rightSideBearing": 43,
-          "width": 416
-        },
-        "M": {
-          "advanceWidth": 832,
-          "leftSideBearing": 4,
-          "rightSideBearing": -18,
-          "width": 846
-        },
-        "period": {
-          "advanceWidth": 209,
-          "leftSideBearing": 19,
-          "rightSideBearing": 94,
-          "width": 96
-        },
-        "em": {
-          "advanceWidth": 1000,
-          "leftSideBearing": -3,
-          "rightSideBearing": -5,
-          "width": 1008
-        },
-        "en": {
-          "advanceWidth": 500,
-          "leftSideBearing": -4,
-          "rightSideBearing": -6,
-          "width": 510
-        },
-        "spaceToN": 0.3885480572597137,
-        "MToN": 1.7014314928425358
       },
       "features": {
         "openTypeFeatures": [
@@ -1176,9 +881,12 @@
           "dlig",
           "dnom",
           "frac",
+          "kern",
           "liga",
           "lnum",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "onum",
           "ordn",
@@ -1186,46 +894,60 @@
           "sinf",
           "subs",
           "sups",
-          "tnum",
-          "kern",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "stylisticSets": [],
-        "languageSupport": {},
-        "glyphCount": 832,
         "unicodeRanges": [
           {
             "name": "Basic Latin",
-            "coverage": 0.8,
+            "coverage": 0.7578125,
             "start": 0,
-            "end": 127
+            "end": 127,
+            "supported": 97,
+            "total": 128
           },
           {
             "name": "Latin-1 Supplement",
-            "coverage": 0.7,
+            "coverage": 0.75,
             "start": 128,
-            "end": 255
+            "end": 255,
+            "supported": 96,
+            "total": 128
           },
           {
             "name": "Latin Extended-A",
-            "coverage": 1,
+            "coverage": 0.9921875,
             "start": 256,
-            "end": 383
+            "end": 383,
+            "supported": 127,
+            "total": 128
           },
           {
             "name": "Latin Extended-B",
-            "coverage": 0.3,
+            "coverage": 0.3125,
             "start": 384,
-            "end": 591
+            "end": 591,
+            "supported": 65,
+            "total": 208
           },
           {
-            "name": "Greek",
-            "coverage": 0.1,
+            "name": "Latin Extended Additional",
+            "coverage": 0.640625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 164,
+            "total": 256
+          },
+          {
+            "name": "Greek and Coptic",
+            "coverage": 0.034722222222222224,
             "start": 880,
-            "end": 1023
+            "end": 1023,
+            "supported": 5,
+            "total": 144
           }
-        ]
+        ],
+        "glyphCount": 832
       },
       "performance": {
         "fileSize": 50324,
@@ -1233,12 +955,11 @@
         "glyphDensity": 60,
         "format": "woff2",
         "isVariable": false,
-        "axisCount": 0,
-        "tableCount": 9
+        "axisCount": 0
       }
     },
     "CrimsonPro-ExtraLight": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro ExtraLight",
       "style": "normal",
       "weight": 200,
       "stretch": "normal",
@@ -1251,59 +972,12 @@
         "lineGap": 0,
         "capHeight": 587,
         "xHeight": 425,
-        "baseline": {
-          "hasBaseTable": false,
-          "alphabetic": 0,
-          "hanging": 734,
-          "ideographic": -220,
-          "mathematical": 459
-        },
         "bbox": {
           "minX": -107,
           "minY": -283,
           "maxX": 1159,
           "maxY": 984
         }
-      },
-      "spacing": {
-        "space": {
-          "advanceWidth": 190,
-          "leftSideBearing": null,
-          "rightSideBearing": null,
-          "width": null
-        },
-        "n": {
-          "advanceWidth": 533,
-          "leftSideBearing": 31,
-          "rightSideBearing": 30,
-          "width": 472
-        },
-        "M": {
-          "advanceWidth": 832,
-          "leftSideBearing": 46,
-          "rightSideBearing": 56,
-          "width": 730
-        },
-        "period": {
-          "advanceWidth": 209,
-          "leftSideBearing": 56,
-          "rightSideBearing": 56,
-          "width": 97
-        },
-        "em": {
-          "advanceWidth": 1000,
-          "leftSideBearing": 0,
-          "rightSideBearing": 0,
-          "width": 1000
-        },
-        "en": {
-          "advanceWidth": 500,
-          "leftSideBearing": 0,
-          "rightSideBearing": 0,
-          "width": 500
-        },
-        "spaceToN": 0.35647279549718575,
-        "MToN": 1.5609756097560976
       },
       "features": {
         "openTypeFeatures": [
@@ -1313,9 +987,12 @@
           "dlig",
           "dnom",
           "frac",
+          "kern",
           "liga",
           "lnum",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "onum",
           "ordn",
@@ -1323,46 +1000,60 @@
           "sinf",
           "subs",
           "sups",
-          "tnum",
-          "kern",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "stylisticSets": [],
-        "languageSupport": {},
-        "glyphCount": 832,
         "unicodeRanges": [
           {
             "name": "Basic Latin",
-            "coverage": 0.8,
+            "coverage": 0.7578125,
             "start": 0,
-            "end": 127
+            "end": 127,
+            "supported": 97,
+            "total": 128
           },
           {
             "name": "Latin-1 Supplement",
-            "coverage": 0.7,
+            "coverage": 0.75,
             "start": 128,
-            "end": 255
+            "end": 255,
+            "supported": 96,
+            "total": 128
           },
           {
             "name": "Latin Extended-A",
-            "coverage": 1,
+            "coverage": 0.9921875,
             "start": 256,
-            "end": 383
+            "end": 383,
+            "supported": 127,
+            "total": 128
           },
           {
             "name": "Latin Extended-B",
-            "coverage": 0.3,
+            "coverage": 0.3125,
             "start": 384,
-            "end": 591
+            "end": 591,
+            "supported": 65,
+            "total": 208
           },
           {
-            "name": "Greek",
-            "coverage": 0.1,
+            "name": "Latin Extended Additional",
+            "coverage": 0.640625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 164,
+            "total": 256
+          },
+          {
+            "name": "Greek and Coptic",
+            "coverage": 0.034722222222222224,
             "start": 880,
-            "end": 1023
+            "end": 1023,
+            "supported": 5,
+            "total": 144
           }
-        ]
+        ],
+        "glyphCount": 832
       },
       "performance": {
         "fileSize": 49412,
@@ -1370,12 +1061,11 @@
         "glyphDensity": 59,
         "format": "woff2",
         "isVariable": false,
-        "axisCount": 0,
-        "tableCount": 9
+        "axisCount": 0
       }
     },
     "CrimsonPro-ExtraBoldItalic": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro ExtraBold",
       "style": "italic",
       "weight": 800,
       "stretch": "normal",
@@ -1388,59 +1078,12 @@
         "lineGap": 0,
         "capHeight": 587,
         "xHeight": 443,
-        "baseline": {
-          "hasBaseTable": false,
-          "alphabetic": 0,
-          "hanging": 734,
-          "ideographic": -220,
-          "mathematical": 459
-        },
         "bbox": {
           "minX": -174,
           "minY": -293,
           "maxX": 1298,
           "maxY": 1003
         }
-      },
-      "spacing": {
-        "space": {
-          "advanceWidth": 198,
-          "leftSideBearing": null,
-          "rightSideBearing": null,
-          "width": null
-        },
-        "n": {
-          "advanceWidth": 607,
-          "leftSideBearing": 5,
-          "rightSideBearing": 14,
-          "width": 588
-        },
-        "M": {
-          "advanceWidth": 907,
-          "leftSideBearing": -14,
-          "rightSideBearing": -24,
-          "width": 945
-        },
-        "period": {
-          "advanceWidth": 302,
-          "leftSideBearing": 21,
-          "rightSideBearing": 75,
-          "width": 206
-        },
-        "em": {
-          "advanceWidth": 1000,
-          "leftSideBearing": -6,
-          "rightSideBearing": -8,
-          "width": 1014
-        },
-        "en": {
-          "advanceWidth": 500,
-          "leftSideBearing": -6,
-          "rightSideBearing": -8,
-          "width": 514
-        },
-        "spaceToN": 0.3261943986820428,
-        "MToN": 1.4942339373970346
       },
       "features": {
         "openTypeFeatures": [
@@ -1450,9 +1093,12 @@
           "dlig",
           "dnom",
           "frac",
+          "kern",
           "liga",
           "lnum",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "onum",
           "ordn",
@@ -1460,46 +1106,60 @@
           "sinf",
           "subs",
           "sups",
-          "tnum",
-          "kern",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "stylisticSets": [],
-        "languageSupport": {},
-        "glyphCount": 832,
         "unicodeRanges": [
           {
             "name": "Basic Latin",
-            "coverage": 0.8,
+            "coverage": 0.7578125,
             "start": 0,
-            "end": 127
+            "end": 127,
+            "supported": 97,
+            "total": 128
           },
           {
             "name": "Latin-1 Supplement",
-            "coverage": 0.7,
+            "coverage": 0.75,
             "start": 128,
-            "end": 255
+            "end": 255,
+            "supported": 96,
+            "total": 128
           },
           {
             "name": "Latin Extended-A",
-            "coverage": 1,
+            "coverage": 0.9921875,
             "start": 256,
-            "end": 383
+            "end": 383,
+            "supported": 127,
+            "total": 128
           },
           {
             "name": "Latin Extended-B",
-            "coverage": 0.3,
+            "coverage": 0.3125,
             "start": 384,
-            "end": 591
+            "end": 591,
+            "supported": 65,
+            "total": 208
           },
           {
-            "name": "Greek",
-            "coverage": 0.1,
+            "name": "Latin Extended Additional",
+            "coverage": 0.640625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 164,
+            "total": 256
+          },
+          {
+            "name": "Greek and Coptic",
+            "coverage": 0.034722222222222224,
             "start": 880,
-            "end": 1023
+            "end": 1023,
+            "supported": 5,
+            "total": 144
           }
-        ]
+        ],
+        "glyphCount": 832
       },
       "performance": {
         "fileSize": 51828,
@@ -1507,12 +1167,11 @@
         "glyphDensity": 62,
         "format": "woff2",
         "isVariable": false,
-        "axisCount": 0,
-        "tableCount": 9
+        "axisCount": 0
       }
     },
     "CrimsonPro-ExtraBold": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro ExtraBold",
       "style": "normal",
       "weight": 800,
       "stretch": "normal",
@@ -1525,59 +1184,12 @@
         "lineGap": 0,
         "capHeight": 587,
         "xHeight": 443,
-        "baseline": {
-          "hasBaseTable": false,
-          "alphabetic": 0,
-          "hanging": 734,
-          "ideographic": -220,
-          "mathematical": 459
-        },
         "bbox": {
           "minX": -117,
           "minY": -293,
           "maxX": 1254,
           "maxY": 994
         }
-      },
-      "spacing": {
-        "space": {
-          "advanceWidth": 198,
-          "leftSideBearing": null,
-          "rightSideBearing": null,
-          "width": null
-        },
-        "n": {
-          "advanceWidth": 602,
-          "leftSideBearing": 8,
-          "rightSideBearing": 9,
-          "width": 585
-        },
-        "M": {
-          "advanceWidth": 907,
-          "leftSideBearing": 30,
-          "rightSideBearing": 30,
-          "width": 847
-        },
-        "period": {
-          "advanceWidth": 303,
-          "leftSideBearing": 48,
-          "rightSideBearing": 47,
-          "width": 208
-        },
-        "em": {
-          "advanceWidth": 1000,
-          "leftSideBearing": 0,
-          "rightSideBearing": 0,
-          "width": 1000
-        },
-        "en": {
-          "advanceWidth": 500,
-          "leftSideBearing": 0,
-          "rightSideBearing": 0,
-          "width": 500
-        },
-        "spaceToN": 0.3289036544850498,
-        "MToN": 1.5066445182724253
       },
       "features": {
         "openTypeFeatures": [
@@ -1587,9 +1199,12 @@
           "dlig",
           "dnom",
           "frac",
+          "kern",
           "liga",
           "lnum",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "onum",
           "ordn",
@@ -1597,46 +1212,60 @@
           "sinf",
           "subs",
           "sups",
-          "tnum",
-          "kern",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "stylisticSets": [],
-        "languageSupport": {},
-        "glyphCount": 832,
         "unicodeRanges": [
           {
             "name": "Basic Latin",
-            "coverage": 0.8,
+            "coverage": 0.7578125,
             "start": 0,
-            "end": 127
+            "end": 127,
+            "supported": 97,
+            "total": 128
           },
           {
             "name": "Latin-1 Supplement",
-            "coverage": 0.7,
+            "coverage": 0.75,
             "start": 128,
-            "end": 255
+            "end": 255,
+            "supported": 96,
+            "total": 128
           },
           {
             "name": "Latin Extended-A",
-            "coverage": 1,
+            "coverage": 0.9921875,
             "start": 256,
-            "end": 383
+            "end": 383,
+            "supported": 127,
+            "total": 128
           },
           {
             "name": "Latin Extended-B",
-            "coverage": 0.3,
+            "coverage": 0.3125,
             "start": 384,
-            "end": 591
+            "end": 591,
+            "supported": 65,
+            "total": 208
           },
           {
-            "name": "Greek",
-            "coverage": 0.1,
+            "name": "Latin Extended Additional",
+            "coverage": 0.640625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 164,
+            "total": 256
+          },
+          {
+            "name": "Greek and Coptic",
+            "coverage": 0.034722222222222224,
             "start": 880,
-            "end": 1023
+            "end": 1023,
+            "supported": 5,
+            "total": 144
           }
-        ]
+        ],
+        "glyphCount": 832
       },
       "performance": {
         "fileSize": 50224,
@@ -1644,8 +1273,7 @@
         "glyphDensity": 60,
         "format": "woff2",
         "isVariable": false,
-        "axisCount": 0,
-        "tableCount": 9
+        "axisCount": 0
       }
     },
     "CrimsonPro-BoldItalic": {
@@ -1662,59 +1290,12 @@
         "lineGap": 0,
         "capHeight": 587,
         "xHeight": 439,
-        "baseline": {
-          "hasBaseTable": false,
-          "alphabetic": 0,
-          "hanging": 734,
-          "ideographic": -220,
-          "mathematical": 459
-        },
         "bbox": {
           "minX": -170,
           "minY": -292,
           "maxX": 1278,
           "maxY": 999
         }
-      },
-      "spacing": {
-        "space": {
-          "advanceWidth": 197,
-          "leftSideBearing": null,
-          "rightSideBearing": null,
-          "width": null
-        },
-        "n": {
-          "advanceWidth": 581,
-          "leftSideBearing": 10,
-          "rightSideBearing": 19,
-          "width": 552
-        },
-        "M": {
-          "advanceWidth": 891,
-          "leftSideBearing": -11,
-          "rightSideBearing": -22,
-          "width": 924
-        },
-        "period": {
-          "advanceWidth": 283,
-          "leftSideBearing": 20,
-          "rightSideBearing": 80,
-          "width": 183
-        },
-        "em": {
-          "advanceWidth": 1000,
-          "leftSideBearing": -6,
-          "rightSideBearing": -7,
-          "width": 1013
-        },
-        "en": {
-          "advanceWidth": 500,
-          "leftSideBearing": -5,
-          "rightSideBearing": -8,
-          "width": 513
-        },
-        "spaceToN": 0.33907056798623064,
-        "MToN": 1.5335628227194493
       },
       "features": {
         "openTypeFeatures": [
@@ -1724,9 +1305,12 @@
           "dlig",
           "dnom",
           "frac",
+          "kern",
           "liga",
           "lnum",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "onum",
           "ordn",
@@ -1734,46 +1318,60 @@
           "sinf",
           "subs",
           "sups",
-          "tnum",
-          "kern",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "stylisticSets": [],
-        "languageSupport": {},
-        "glyphCount": 832,
         "unicodeRanges": [
           {
             "name": "Basic Latin",
-            "coverage": 0.8,
+            "coverage": 0.7578125,
             "start": 0,
-            "end": 127
+            "end": 127,
+            "supported": 97,
+            "total": 128
           },
           {
             "name": "Latin-1 Supplement",
-            "coverage": 0.7,
+            "coverage": 0.75,
             "start": 128,
-            "end": 255
+            "end": 255,
+            "supported": 96,
+            "total": 128
           },
           {
             "name": "Latin Extended-A",
-            "coverage": 1,
+            "coverage": 0.9921875,
             "start": 256,
-            "end": 383
+            "end": 383,
+            "supported": 127,
+            "total": 128
           },
           {
             "name": "Latin Extended-B",
-            "coverage": 0.3,
+            "coverage": 0.3125,
             "start": 384,
-            "end": 591
+            "end": 591,
+            "supported": 65,
+            "total": 208
           },
           {
-            "name": "Greek",
-            "coverage": 0.1,
+            "name": "Latin Extended Additional",
+            "coverage": 0.640625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 164,
+            "total": 256
+          },
+          {
+            "name": "Greek and Coptic",
+            "coverage": 0.034722222222222224,
             "start": 880,
-            "end": 1023
+            "end": 1023,
+            "supported": 5,
+            "total": 144
           }
-        ]
+        ],
+        "glyphCount": 832
       },
       "performance": {
         "fileSize": 51096,
@@ -1781,8 +1379,7 @@
         "glyphDensity": 61,
         "format": "woff2",
         "isVariable": false,
-        "axisCount": 0,
-        "tableCount": 9
+        "axisCount": 0
       }
     },
     "CrimsonPro-Bold": {
@@ -1799,59 +1396,12 @@
         "lineGap": 0,
         "capHeight": 587,
         "xHeight": 439,
-        "baseline": {
-          "hasBaseTable": false,
-          "alphabetic": 0,
-          "hanging": 734,
-          "ideographic": -220,
-          "mathematical": 459
-        },
         "bbox": {
           "minX": -115,
           "minY": -291,
           "maxX": 1232,
           "maxY": 990
         }
-      },
-      "spacing": {
-        "space": {
-          "advanceWidth": 197,
-          "leftSideBearing": null,
-          "rightSideBearing": null,
-          "width": null
-        },
-        "n": {
-          "advanceWidth": 588,
-          "leftSideBearing": 11,
-          "rightSideBearing": 12,
-          "width": 565
-        },
-        "M": {
-          "advanceWidth": 891,
-          "leftSideBearing": 31,
-          "rightSideBearing": 34,
-          "width": 826
-        },
-        "period": {
-          "advanceWidth": 285,
-          "leftSideBearing": 49,
-          "rightSideBearing": 48,
-          "width": 188
-        },
-        "em": {
-          "advanceWidth": 1000,
-          "leftSideBearing": 0,
-          "rightSideBearing": 0,
-          "width": 1000
-        },
-        "en": {
-          "advanceWidth": 500,
-          "leftSideBearing": 0,
-          "rightSideBearing": 0,
-          "width": 500
-        },
-        "spaceToN": 0.33503401360544216,
-        "MToN": 1.5153061224489797
       },
       "features": {
         "openTypeFeatures": [
@@ -1861,9 +1411,12 @@
           "dlig",
           "dnom",
           "frac",
+          "kern",
           "liga",
           "lnum",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "onum",
           "ordn",
@@ -1871,46 +1424,60 @@
           "sinf",
           "subs",
           "sups",
-          "tnum",
-          "kern",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "stylisticSets": [],
-        "languageSupport": {},
-        "glyphCount": 832,
         "unicodeRanges": [
           {
             "name": "Basic Latin",
-            "coverage": 0.8,
+            "coverage": 0.7578125,
             "start": 0,
-            "end": 127
+            "end": 127,
+            "supported": 97,
+            "total": 128
           },
           {
             "name": "Latin-1 Supplement",
-            "coverage": 0.7,
+            "coverage": 0.75,
             "start": 128,
-            "end": 255
+            "end": 255,
+            "supported": 96,
+            "total": 128
           },
           {
             "name": "Latin Extended-A",
-            "coverage": 1,
+            "coverage": 0.9921875,
             "start": 256,
-            "end": 383
+            "end": 383,
+            "supported": 127,
+            "total": 128
           },
           {
             "name": "Latin Extended-B",
-            "coverage": 0.3,
+            "coverage": 0.3125,
             "start": 384,
-            "end": 591
+            "end": 591,
+            "supported": 65,
+            "total": 208
           },
           {
-            "name": "Greek",
-            "coverage": 0.1,
+            "name": "Latin Extended Additional",
+            "coverage": 0.640625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 164,
+            "total": 256
+          },
+          {
+            "name": "Greek and Coptic",
+            "coverage": 0.034722222222222224,
             "start": 880,
-            "end": 1023
+            "end": 1023,
+            "supported": 5,
+            "total": 144
           }
-        ]
+        ],
+        "glyphCount": 832
       },
       "performance": {
         "fileSize": 49440,
@@ -1918,12 +1485,11 @@
         "glyphDensity": 59,
         "format": "woff2",
         "isVariable": false,
-        "axisCount": 0,
-        "tableCount": 9
+        "axisCount": 0
       }
     },
     "CrimsonPro-BlackItalic": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro Black",
       "style": "italic",
       "weight": 900,
       "stretch": "normal",
@@ -1936,59 +1502,12 @@
         "lineGap": 0,
         "capHeight": 587,
         "xHeight": 446,
-        "baseline": {
-          "hasBaseTable": false,
-          "alphabetic": 0,
-          "hanging": 734,
-          "ideographic": -220,
-          "mathematical": 459
-        },
         "bbox": {
           "minX": -177,
           "minY": -295,
           "maxX": 1315,
           "maxY": 1006
         }
-      },
-      "spacing": {
-        "space": {
-          "advanceWidth": 200,
-          "leftSideBearing": null,
-          "rightSideBearing": null,
-          "width": null
-        },
-        "n": {
-          "advanceWidth": 629,
-          "leftSideBearing": 1,
-          "rightSideBearing": 9,
-          "width": 619
-        },
-        "M": {
-          "advanceWidth": 922,
-          "leftSideBearing": -16,
-          "rightSideBearing": -24,
-          "width": 962
-        },
-        "period": {
-          "advanceWidth": 319,
-          "leftSideBearing": 21,
-          "rightSideBearing": 72,
-          "width": 226
-        },
-        "em": {
-          "advanceWidth": 1000,
-          "leftSideBearing": -7,
-          "rightSideBearing": -8,
-          "width": 1015
-        },
-        "en": {
-          "advanceWidth": 500,
-          "leftSideBearing": -6,
-          "rightSideBearing": -9,
-          "width": 515
-        },
-        "spaceToN": 0.3179650238473768,
-        "MToN": 1.465818759936407
       },
       "features": {
         "openTypeFeatures": [
@@ -1998,9 +1517,12 @@
           "dlig",
           "dnom",
           "frac",
+          "kern",
           "liga",
           "lnum",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "onum",
           "ordn",
@@ -2008,46 +1530,60 @@
           "sinf",
           "subs",
           "sups",
-          "tnum",
-          "kern",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "stylisticSets": [],
-        "languageSupport": {},
-        "glyphCount": 832,
         "unicodeRanges": [
           {
             "name": "Basic Latin",
-            "coverage": 0.8,
+            "coverage": 0.7578125,
             "start": 0,
-            "end": 127
+            "end": 127,
+            "supported": 97,
+            "total": 128
           },
           {
             "name": "Latin-1 Supplement",
-            "coverage": 0.7,
+            "coverage": 0.75,
             "start": 128,
-            "end": 255
+            "end": 255,
+            "supported": 96,
+            "total": 128
           },
           {
             "name": "Latin Extended-A",
-            "coverage": 1,
+            "coverage": 0.9921875,
             "start": 256,
-            "end": 383
+            "end": 383,
+            "supported": 127,
+            "total": 128
           },
           {
             "name": "Latin Extended-B",
-            "coverage": 0.3,
+            "coverage": 0.3125,
             "start": 384,
-            "end": 591
+            "end": 591,
+            "supported": 65,
+            "total": 208
           },
           {
-            "name": "Greek",
-            "coverage": 0.1,
+            "name": "Latin Extended Additional",
+            "coverage": 0.640625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 164,
+            "total": 256
+          },
+          {
+            "name": "Greek and Coptic",
+            "coverage": 0.034722222222222224,
             "start": 880,
-            "end": 1023
+            "end": 1023,
+            "supported": 5,
+            "total": 144
           }
-        ]
+        ],
+        "glyphCount": 832
       },
       "performance": {
         "fileSize": 51716,
@@ -2055,12 +1591,11 @@
         "glyphDensity": 62,
         "format": "woff2",
         "isVariable": false,
-        "axisCount": 0,
-        "tableCount": 9
+        "axisCount": 0
       }
     },
     "CrimsonPro-Black": {
-      "family": "Crimson Pro",
+      "family": "Crimson Pro Black",
       "style": "normal",
       "weight": 900,
       "stretch": "normal",
@@ -2073,59 +1608,12 @@
         "lineGap": 0,
         "capHeight": 587,
         "xHeight": 446,
-        "baseline": {
-          "hasBaseTable": false,
-          "alphabetic": 0,
-          "hanging": 734,
-          "ideographic": -220,
-          "mathematical": 459
-        },
         "bbox": {
           "minX": -119,
           "minY": -295,
           "maxX": 1272,
           "maxY": 998
         }
-      },
-      "spacing": {
-        "space": {
-          "advanceWidth": 200,
-          "leftSideBearing": null,
-          "rightSideBearing": null,
-          "width": null
-        },
-        "n": {
-          "advanceWidth": 614,
-          "leftSideBearing": 5,
-          "rightSideBearing": 6,
-          "width": 603
-        },
-        "M": {
-          "advanceWidth": 922,
-          "leftSideBearing": 29,
-          "rightSideBearing": 27,
-          "width": 866
-        },
-        "period": {
-          "advanceWidth": 319,
-          "leftSideBearing": 46,
-          "rightSideBearing": 46,
-          "width": 227
-        },
-        "em": {
-          "advanceWidth": 1000,
-          "leftSideBearing": 0,
-          "rightSideBearing": 0,
-          "width": 1000
-        },
-        "en": {
-          "advanceWidth": 500,
-          "leftSideBearing": 0,
-          "rightSideBearing": 0,
-          "width": 500
-        },
-        "spaceToN": 0.3257328990228013,
-        "MToN": 1.501628664495114
       },
       "features": {
         "openTypeFeatures": [
@@ -2135,9 +1623,12 @@
           "dlig",
           "dnom",
           "frac",
+          "kern",
           "liga",
           "lnum",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "onum",
           "ordn",
@@ -2145,46 +1636,60 @@
           "sinf",
           "subs",
           "sups",
-          "tnum",
-          "kern",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "stylisticSets": [],
-        "languageSupport": {},
-        "glyphCount": 832,
         "unicodeRanges": [
           {
             "name": "Basic Latin",
-            "coverage": 0.8,
+            "coverage": 0.7578125,
             "start": 0,
-            "end": 127
+            "end": 127,
+            "supported": 97,
+            "total": 128
           },
           {
             "name": "Latin-1 Supplement",
-            "coverage": 0.7,
+            "coverage": 0.75,
             "start": 128,
-            "end": 255
+            "end": 255,
+            "supported": 96,
+            "total": 128
           },
           {
             "name": "Latin Extended-A",
-            "coverage": 1,
+            "coverage": 0.9921875,
             "start": 256,
-            "end": 383
+            "end": 383,
+            "supported": 127,
+            "total": 128
           },
           {
             "name": "Latin Extended-B",
-            "coverage": 0.3,
+            "coverage": 0.3125,
             "start": 384,
-            "end": 591
+            "end": 591,
+            "supported": 65,
+            "total": 208
           },
           {
-            "name": "Greek",
-            "coverage": 0.1,
+            "name": "Latin Extended Additional",
+            "coverage": 0.640625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 164,
+            "total": 256
+          },
+          {
+            "name": "Greek and Coptic",
+            "coverage": 0.034722222222222224,
             "start": 880,
-            "end": 1023
+            "end": 1023,
+            "supported": 5,
+            "total": 144
           }
-        ]
+        ],
+        "glyphCount": 832
       },
       "performance": {
         "fileSize": 50452,
@@ -2192,8 +1697,7 @@
         "glyphDensity": 61,
         "format": "woff2",
         "isVariable": false,
-        "axisCount": 0,
-        "tableCount": 9
+        "axisCount": 0
       }
     }
   },
@@ -2215,59 +1719,12 @@
         "lineGap": 0,
         "capHeight": 587,
         "xHeight": 430,
-        "baseline": {
-          "hasBaseTable": false,
-          "alphabetic": 0,
-          "hanging": 734,
-          "ideographic": -220,
-          "mathematical": 459
-        },
         "bbox": {
           "minX": -110,
           "minY": -286,
           "maxX": 1181,
           "maxY": 984
         }
-      },
-      "spacing": {
-        "space": {
-          "advanceWidth": 192,
-          "leftSideBearing": null,
-          "rightSideBearing": null,
-          "width": null
-        },
-        "n": {
-          "advanceWidth": 550,
-          "leftSideBearing": 24,
-          "rightSideBearing": 23,
-          "width": 503
-        },
-        "M": {
-          "advanceWidth": 850,
-          "leftSideBearing": 40,
-          "rightSideBearing": 48,
-          "width": 762
-        },
-        "period": {
-          "advanceWidth": 234,
-          "leftSideBearing": 54,
-          "rightSideBearing": 54,
-          "width": 126
-        },
-        "em": {
-          "advanceWidth": 1000,
-          "leftSideBearing": 0,
-          "rightSideBearing": 0,
-          "width": 1000
-        },
-        "en": {
-          "advanceWidth": 500,
-          "leftSideBearing": 0,
-          "rightSideBearing": 0,
-          "width": 500
-        },
-        "spaceToN": 0.3490909090909091,
-        "MToN": 1.5454545454545454
       },
       "features": {
         "openTypeFeatures": [
@@ -2277,9 +1734,12 @@
           "dlig",
           "dnom",
           "frac",
+          "kern",
           "liga",
           "lnum",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "onum",
           "ordn",
@@ -2288,46 +1748,60 @@
           "sinf",
           "subs",
           "sups",
-          "tnum",
-          "kern",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "stylisticSets": [],
-        "languageSupport": {},
-        "glyphCount": 832,
         "unicodeRanges": [
           {
             "name": "Basic Latin",
-            "coverage": 0.8,
+            "coverage": 0.7578125,
             "start": 0,
-            "end": 127
+            "end": 127,
+            "supported": 97,
+            "total": 128
           },
           {
             "name": "Latin-1 Supplement",
-            "coverage": 0.7,
+            "coverage": 0.75,
             "start": 128,
-            "end": 255
+            "end": 255,
+            "supported": 96,
+            "total": 128
           },
           {
             "name": "Latin Extended-A",
-            "coverage": 1,
+            "coverage": 0.9921875,
             "start": 256,
-            "end": 383
+            "end": 383,
+            "supported": 127,
+            "total": 128
           },
           {
             "name": "Latin Extended-B",
-            "coverage": 0.3,
+            "coverage": 0.3125,
             "start": 384,
-            "end": 591
+            "end": 591,
+            "supported": 65,
+            "total": 208
           },
           {
-            "name": "Greek",
-            "coverage": 0.1,
+            "name": "Latin Extended Additional",
+            "coverage": 0.640625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 164,
+            "total": 256
+          },
+          {
+            "name": "Greek and Coptic",
+            "coverage": 0.034722222222222224,
             "start": 880,
-            "end": 1023
+            "end": 1023,
+            "supported": 5,
+            "total": 144
           }
-        ]
+        ],
+        "glyphCount": 832
       },
       "performance": {
         "fileSize": 246324,
@@ -2335,8 +1809,7 @@
         "glyphDensity": 296,
         "format": "ttf",
         "isVariable": true,
-        "axisCount": 1,
-        "tableCount": 11
+        "axisCount": 1
       },
       "axes": {
         "wght": {
@@ -2413,59 +1886,12 @@
         "lineGap": 0,
         "capHeight": 587,
         "xHeight": 430,
-        "baseline": {
-          "hasBaseTable": false,
-          "alphabetic": 0,
-          "hanging": 734,
-          "ideographic": -220,
-          "mathematical": 459
-        },
         "bbox": {
           "minX": -160,
           "minY": -287,
           "maxX": 1232,
           "maxY": 990
         }
-      },
-      "spacing": {
-        "space": {
-          "advanceWidth": 192,
-          "leftSideBearing": null,
-          "rightSideBearing": null,
-          "width": null
-        },
-        "n": {
-          "advanceWidth": 518,
-          "leftSideBearing": 24,
-          "rightSideBearing": 36,
-          "width": 458
-        },
-        "M": {
-          "advanceWidth": 850,
-          "leftSideBearing": -1,
-          "rightSideBearing": -19,
-          "width": 870
-        },
-        "period": {
-          "advanceWidth": 232,
-          "leftSideBearing": 19,
-          "rightSideBearing": 89,
-          "width": 124
-        },
-        "em": {
-          "advanceWidth": 1000,
-          "leftSideBearing": -4,
-          "rightSideBearing": -6,
-          "width": 1010
-        },
-        "en": {
-          "advanceWidth": 500,
-          "leftSideBearing": -4,
-          "rightSideBearing": -6,
-          "width": 510
-        },
-        "spaceToN": 0.37065637065637064,
-        "MToN": 1.640926640926641
       },
       "features": {
         "openTypeFeatures": [
@@ -2475,9 +1901,12 @@
           "dlig",
           "dnom",
           "frac",
+          "kern",
           "liga",
           "lnum",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "onum",
           "ordn",
@@ -2486,46 +1915,60 @@
           "sinf",
           "subs",
           "sups",
-          "tnum",
-          "kern",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "stylisticSets": [],
-        "languageSupport": {},
-        "glyphCount": 832,
         "unicodeRanges": [
           {
             "name": "Basic Latin",
-            "coverage": 0.8,
+            "coverage": 0.7578125,
             "start": 0,
-            "end": 127
+            "end": 127,
+            "supported": 97,
+            "total": 128
           },
           {
             "name": "Latin-1 Supplement",
-            "coverage": 0.7,
+            "coverage": 0.75,
             "start": 128,
-            "end": 255
+            "end": 255,
+            "supported": 96,
+            "total": 128
           },
           {
             "name": "Latin Extended-A",
-            "coverage": 1,
+            "coverage": 0.9921875,
             "start": 256,
-            "end": 383
+            "end": 383,
+            "supported": 127,
+            "total": 128
           },
           {
             "name": "Latin Extended-B",
-            "coverage": 0.3,
+            "coverage": 0.3125,
             "start": 384,
-            "end": 591
+            "end": 591,
+            "supported": 65,
+            "total": 208
           },
           {
-            "name": "Greek",
-            "coverage": 0.1,
+            "name": "Latin Extended Additional",
+            "coverage": 0.640625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 164,
+            "total": 256
+          },
+          {
+            "name": "Greek and Coptic",
+            "coverage": 0.034722222222222224,
             "start": 880,
-            "end": 1023
+            "end": 1023,
+            "supported": 5,
+            "total": 144
           }
-        ]
+        ],
+        "glyphCount": 832
       },
       "performance": {
         "fileSize": 253176,
@@ -2533,8 +1976,7 @@
         "glyphDensity": 304,
         "format": "ttf",
         "isVariable": true,
-        "axisCount": 1,
-        "tableCount": 11
+        "axisCount": 1
       },
       "axes": {
         "wght": {

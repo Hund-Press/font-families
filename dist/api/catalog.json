@@ -3,7 +3,7 @@
     "title": "Font Families - Open Font Collection",
     "description": "Curated collection of open-licensed fonts",
     "version": "1.6.0",
-    "generated": "2025-09-11T12:28:01.583Z",
+    "generated": "2025-09-11T13:27:42.127Z",
     "fontCount": 5,
     "includesRestrictedFonts": false
   },
@@ -268,9 +268,12 @@
           "ccmp",
           "dnom",
           "frac",
+          "kern",
           "liga",
           "lnum",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "onum",
           "ordn",
@@ -280,10 +283,7 @@
           "ss01",
           "subs",
           "sups",
-          "tnum",
-          "kern",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "hasLigatures": true,
         "hasSmallCaps": false,
@@ -318,7 +318,7 @@
             "format": "woff2",
             "weight": 100,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "ultra-expanded",
             "fileSize": 41540,
             "fileSizeKB": 41
           },
@@ -328,7 +328,7 @@
             "format": "woff2",
             "weight": 600,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "ultra-expanded",
             "fileSize": 42140,
             "fileSizeKB": 41
           },
@@ -338,7 +338,7 @@
             "format": "woff2",
             "weight": 400,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "ultra-expanded",
             "fileSize": 41492,
             "fileSizeKB": 41
           },
@@ -348,7 +348,7 @@
             "format": "woff2",
             "weight": 500,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "ultra-expanded",
             "fileSize": 41868,
             "fileSizeKB": 41
           },
@@ -358,7 +358,7 @@
             "format": "woff2",
             "weight": 300,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "ultra-expanded",
             "fileSize": 41680,
             "fileSizeKB": 41
           },
@@ -368,7 +368,7 @@
             "format": "woff2",
             "weight": 200,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "ultra-expanded",
             "fileSize": 41488,
             "fileSizeKB": 41
           },
@@ -378,7 +378,7 @@
             "format": "woff2",
             "weight": 800,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "ultra-expanded",
             "fileSize": 42320,
             "fileSizeKB": 41
           },
@@ -388,7 +388,7 @@
             "format": "woff2",
             "weight": 700,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "ultra-expanded",
             "fileSize": 42324,
             "fileSizeKB": 41
           },
@@ -398,7 +398,7 @@
             "format": "woff2",
             "weight": 900,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "ultra-expanded",
             "fileSize": 42300,
             "fileSizeKB": 41
           },
@@ -738,7 +738,7 @@
             "format": "woff2",
             "weight": 100,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "extra-expanded",
             "fileSize": 40508,
             "fileSizeKB": 40
           },
@@ -748,7 +748,7 @@
             "format": "woff2",
             "weight": 600,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "extra-expanded",
             "fileSize": 41068,
             "fileSizeKB": 40
           },
@@ -758,7 +758,7 @@
             "format": "woff2",
             "weight": 400,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "extra-expanded",
             "fileSize": 40432,
             "fileSizeKB": 39
           },
@@ -768,7 +768,7 @@
             "format": "woff2",
             "weight": 500,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "extra-expanded",
             "fileSize": 40996,
             "fileSizeKB": 40
           },
@@ -778,7 +778,7 @@
             "format": "woff2",
             "weight": 300,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "extra-expanded",
             "fileSize": 40948,
             "fileSizeKB": 40
           },
@@ -788,7 +788,7 @@
             "format": "woff2",
             "weight": 200,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "extra-expanded",
             "fileSize": 40928,
             "fileSizeKB": 40
           },
@@ -798,7 +798,7 @@
             "format": "woff2",
             "weight": 800,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "extra-expanded",
             "fileSize": 41252,
             "fileSizeKB": 40
           },
@@ -808,7 +808,7 @@
             "format": "woff2",
             "weight": 700,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "extra-expanded",
             "fileSize": 41420,
             "fileSizeKB": 40
           },
@@ -818,7 +818,7 @@
             "format": "woff2",
             "weight": 900,
             "style": "normal",
-            "stretch": "expanded",
+            "stretch": "extra-expanded",
             "fileSize": 41644,
             "fileSizeKB": 41
           },
@@ -1173,6 +1173,8 @@
           "dnom",
           "frac",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "ordn",
           "salt",
@@ -1181,9 +1183,7 @@
           "ss03",
           "subs",
           "sups",
-          "zero",
-          "mark",
-          "mkmk"
+          "zero"
         ],
         "hasLigatures": true,
         "hasSmallCaps": false,
@@ -1432,9 +1432,12 @@
           "dlig",
           "dnom",
           "frac",
+          "kern",
           "liga",
           "lnum",
           "locl",
+          "mark",
+          "mkmk",
           "numr",
           "onum",
           "ordn",
@@ -1443,9 +1446,6 @@
           "subs",
           "sups",
           "tnum",
-          "kern",
-          "mark",
-          "mkmk",
           "rvrn"
         ],
         "hasLigatures": true,
@@ -1549,14 +1549,14 @@
           "case",
           "ccmp",
           "frac",
+          "kern",
           "locl",
+          "mark",
+          "mkmk",
           "ordn",
           "pnum",
           "sups",
-          "tnum",
-          "kern",
-          "mark",
-          "mkmk"
+          "tnum"
         ],
         "hasLigatures": false,
         "hasSmallCaps": false,
@@ -1830,6 +1830,7 @@
           "case",
           "ccmp",
           "locl",
+          "mark",
           "ss01",
           "ss02",
           "ss03",
@@ -1843,8 +1844,7 @@
           "ss11",
           "ss12",
           "ss13",
-          "ss14",
-          "mark"
+          "ss14"
         ],
         "hasLigatures": false,
         "hasSmallCaps": false,

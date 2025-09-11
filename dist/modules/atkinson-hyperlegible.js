@@ -73,33 +73,121 @@ export default {
   "faces": {
     "variable": {},
     "static": {
-      "Atkinson Hyperlegible-Regular": {
+      "atkinson-hyperlegible-regular": {
         "name": "Atkinson Hyperlegible Regular",
         "fileName": "AtkinsonHyperlegible-Regular.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 400
+        "fontWeight": 400,
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -290,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 668,
+            "xHeight": 496,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 809,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -58,
+              "minY": -250,
+              "maxX": 1290,
+              "maxY": 888
+            }
+          }
+        }
       },
-      "Atkinson Hyperlegible-Regular-Italic": {
+      "atkinson-hyperlegible-regular-italic": {
         "name": "Atkinson Hyperlegible Regular Italic",
         "fileName": "AtkinsonHyperlegible-Italic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 400
+        "fontWeight": 400,
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -290,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 668,
+            "xHeight": 496,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 895,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -154,
+              "minY": -241,
+              "maxX": 1338,
+              "maxY": 885
+            }
+          }
+        }
       },
-      "Atkinson Hyperlegible-Bold-Italic": {
+      "atkinson-hyperlegible-bold-italic": {
         "name": "Atkinson Hyperlegible Bold Italic",
         "fileName": "AtkinsonHyperlegible-BoldItalic.woff2",
         "format": "woff2",
         "fontStyle": "italic",
-        "fontWeight": 700
+        "fontWeight": 700,
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -290,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 668,
+            "xHeight": 496,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 955,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -174,
+              "minY": -248,
+              "maxX": 1417,
+              "maxY": 941
+            }
+          }
+        }
       },
-      "Atkinson Hyperlegible-Bold": {
+      "atkinson-hyperlegible-bold": {
         "name": "Atkinson Hyperlegible Bold",
         "fileName": "AtkinsonHyperlegible-Bold.woff2",
         "format": "woff2",
         "fontStyle": "normal",
-        "fontWeight": 700
+        "fontWeight": 700,
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -290,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 668,
+            "xHeight": 496,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 871,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -70,
+              "minY": -251,
+              "maxX": 1382,
+              "maxY": 926
+            }
+          }
+        }
       }
     }
   },
@@ -119,7 +207,7 @@ export default {
         "static": "AtkinsonHyperlegible-400-min.woff2",
         "variable": []
       },
-      "generatedAt": "2025-09-11T12:28:01.804Z"
+      "generatedAt": "2025-09-11T13:27:42.319Z"
     }
   }
 };
