@@ -830,7 +830,7 @@ export default {
           "AspektaVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-11T14:34:54.989Z"
+      "generatedAt": "2025-09-11T19:38:35.708Z"
     }
   }
 };

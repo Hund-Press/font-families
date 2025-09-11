@@ -1,0 +1,17 @@
+{
+  "name": "Font Families API",
+  "version": "1.6.0",
+  "description": "Community-driven font collection API",
+  "_links": {
+    "self": { "href": "/api/" },
+    "catalog": { "href": "/api/catalog.json" },
+    "families": { "href": "/api/families/" },
+    "modules": { "href": "/modules/" }
+  },
+  "_capabilities": {
+    "fork": {
+      "repository": "https://github.com/hund-press/font-families",
+      "instructions": "Fork this repository, add your fonts, run npm run build"
+    }
+  }
+}

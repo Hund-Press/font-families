@@ -9,7 +9,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 
 /**
- * Generate catalog JSON file
+ * Generate catalog JSON file with HATEOAS links
  * @param {Object} fontFamilies - Font family data
  * @param {string} outputPath - Output file path
  * @param {Object} options - Generation options
@@ -26,7 +26,7 @@ export async function generateCatalog(fontFamilies, outputPath, options = {}) {
     console.log(`[catalog] Font families: ${Object.keys(fontFamilies).length}`);
     console.log(`[catalog] Include restricted: ${includeRestrictedFonts}`);
     
-    // Build catalog structure
+    // Build catalog structure with HATEOAS links
     const catalog = {
         meta: {
             title,
@@ -35,6 +35,11 @@ export async function generateCatalog(fontFamilies, outputPath, options = {}) {
             generated: new Date().toISOString(),
             fontCount: Object.keys(fontFamilies).length,
             includesRestrictedFonts: includeRestrictedFonts
+        },
+        _links: {
+            self: { href: '/api/catalog.json' },
+            root: { href: '/api/' },
+            families: { href: '/api/families/' }
         },
         families: {}
     };
@@ -46,11 +51,24 @@ export async function generateCatalog(fontFamilies, outputPath, options = {}) {
             continue;
         }
         
-        catalog.families[familyData.key] = transformFamilyForCatalog(familyData, {
+        const catalogEntry = transformFamilyForCatalog(familyData, {
             includeFullMetadata: includeRestrictedFonts,
             includePerformanceData: true,
-            includeTypographyFeatures: true
+            includeTypographyFeatures: true,
+            version: version
         });
+        
+        // Add HATEOAS links to family entry
+        catalogEntry._links = {
+            self: { href: `/api/families/${familyData.key}.json` },
+            module: { href: `/modules/${familyData.key}.js` },
+            preview: { href: `/fonts/${familyData.key}/` }
+        };
+        
+        catalog.families[familyData.key] = catalogEntry;
+        
+        // Generate individual family JSON file
+        await generateIndividualFamilyFile(familyData, catalogEntry, outputPath, version);
     }
     
     // Update final count after filtering
@@ -98,7 +116,8 @@ function transformFamilyForCatalog(familyData, options = {}) {
     const {
         includeFullMetadata = true,
         includePerformanceData = true,
-        includeTypographyFeatures = true
+        includeTypographyFeatures = true,
+        version = '1.0.0'
     } = options;
     
     const catalogEntry = {
@@ -116,8 +135,8 @@ function transformFamilyForCatalog(familyData, options = {}) {
         // Font capabilities summary
         capabilities: extractCapabilities(familyData),
         
-        // File organization
-        files: extractFileInformation(familyData),
+        // File organization with CDN links
+        files: extractFileInformation(familyData, version),
         
         // Quick access metrics
         metrics: extractQuickMetrics(familyData)
@@ -201,39 +220,51 @@ function extractCapabilities(familyData) {
  * @param {Object} familyData - Font family data
  * @returns {Object} File information
  */
-function extractFileInformation(familyData) {
+function extractFileInformation(familyData, version = '1.0.0') {
     const files = {
         static: [],
         variable: []
     };
     
-    // Static fonts
+    // Static fonts with CDN links
     if (familyData.static) {
         for (const [fontKey, fontData] of Object.entries(familyData.static)) {
+            const fileName = path.basename(fontData.path);
             files.static.push({
                 key: fontKey,
-                fileName: path.basename(fontData.path),
+                fileName: fileName,
                 format: getFormatFromPath(fontData.path),
                 weight: fontData.weight,
                 style: fontData.style,
                 stretch: fontData.stretch,
                 fileSize: fontData.performance?.fileSize,
-                fileSizeKB: fontData.performance?.fileSizeKB
+                fileSizeKB: fontData.performance?.fileSizeKB,
+                _links: {
+                    download: {
+                        href: `https://cdn.jsdelivr.net/gh/hund-press/font-families@v${version}/${familyData.key}/fonts/webfonts/${fileName}`
+                    }
+                }
             });
         }
     }
     
-    // Variable fonts
+    // Variable fonts with CDN links
     if (familyData.variable) {
         for (const [fontKey, fontData] of Object.entries(familyData.variable)) {
+            const fileName = path.basename(fontData.path);
             files.variable.push({
                 key: fontKey,
-                fileName: path.basename(fontData.path),
+                fileName: fileName,
                 format: getFormatFromPath(fontData.path),
                 axes: fontData.axes,
                 style: fontData.style,
                 fileSize: fontData.performance?.fileSize,
-                fileSizeKB: fontData.performance?.fileSizeKB
+                fileSizeKB: fontData.performance?.fileSizeKB,
+                _links: {
+                    download: {
+                        href: `https://cdn.jsdelivr.net/gh/hund-press/font-families@v${version}/${familyData.key}/fonts/webfonts/${fileName}`
+                    }
+                }
             });
         }
     }
@@ -488,5 +519,40 @@ function extractSpecimenFontPaths(familyData) {
     }
     
     return specimens;
+}
+
+/**
+ * Generate individual family JSON file
+ * @param {Object} familyData - Font family data
+ * @param {Object} catalogEntry - Processed catalog entry
+ * @param {string} catalogOutputPath - Main catalog output path
+ * @param {string} version - API version
+ */
+async function generateIndividualFamilyFile(familyData, catalogEntry, catalogOutputPath, version) {
+    const familyDir = path.join(path.dirname(catalogOutputPath), 'families');
+    const familyPath = path.join(familyDir, `${familyData.key}.json`);
+    
+    // Create enhanced family object with full HATEOAS structure
+    const familyFile = {
+        ...catalogEntry,
+        _links: {
+            self: { href: `/api/families/${familyData.key}.json` },
+            catalog: { href: '/api/catalog.json' },
+            module: { href: `/modules/${familyData.key}.js` },
+            preview: { href: `/fonts/${familyData.key}/` },
+            cdn: {
+                href: `https://cdn.jsdelivr.net/gh/hund-press/font-families@v${version}/${familyData.key}/`,
+                templated: false
+            }
+        }
+    };
+    
+    // Ensure family directory exists
+    await fs.mkdir(familyDir, { recursive: true });
+    
+    // Write individual family file
+    await fs.writeFile(familyPath, JSON.stringify(familyFile, null, 2));
+    
+    console.log(`[catalog] Generated individual family file: ${familyPath}`);
 }
 

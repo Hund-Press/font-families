@@ -3,9 +3,20 @@
     "title": "Font Families - Complete Collection",
     "description": "Complete font collection including restricted-licensed fonts",
     "version": "1.6.0",
-    "generated": "2025-09-11T14:34:54.795Z",
+    "generated": "2025-09-11T19:38:35.426Z",
     "fontCount": 6,
     "includesRestrictedFonts": true
+  },
+  "_links": {
+    "self": {
+      "href": "/api/catalog.json"
+    },
+    "root": {
+      "href": "/api/"
+    },
+    "families": {
+      "href": "/api/families/"
+    }
   },
   "families": {
     "public-sans": {
@@ -37,7 +48,12 @@
             "style": "italic",
             "stretch": "normal",
             "fileSize": 41772,
-            "fileSizeKB": 41
+            "fileSizeKB": 41,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/public-sans/fonts/webfonts/PublicSans-ThinItalic.woff"
+              }
+            }
           },
           {
             "key": "PublicSans-Thin",
@@ -47,7 +63,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 39560,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/public-sans/fonts/webfonts/PublicSans-Thin.woff"
+              }
+            }
           },
           {
             "key": "PublicSans-SemiBoldItalic",
@@ -57,7 +78,12 @@
             "style": "italic",
             "stretch": "normal",
             "fileSize": 44140,
-            "fileSizeKB": 43
+            "fileSizeKB": 43,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/public-sans/fonts/webfonts/PublicSans-SemiBoldItalic.woff"
+              }
+            }
           },
           {
             "key": "PublicSans-SemiBold",
@@ -67,7 +93,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 41704,
-            "fileSizeKB": 41
+            "fileSizeKB": 41,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/public-sans/fonts/webfonts/PublicSans-SemiBold.woff"
+              }
+            }
           },
           {
             "key": "PublicSans-Regular",
@@ -77,7 +108,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 41736,
-            "fileSizeKB": 41
+            "fileSizeKB": 41,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/public-sans/fonts/webfonts/PublicSans-Regular.woff"
+              }
+            }
           },
           {
             "key": "PublicSans-MediumItalic",
@@ -87,7 +123,12 @@
             "style": "italic",
             "stretch": "normal",
             "fileSize": 43952,
-            "fileSizeKB": 43
+            "fileSizeKB": 43,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/public-sans/fonts/webfonts/PublicSans-MediumItalic.woff"
+              }
+            }
           },
           {
             "key": "PublicSans-Medium",
@@ -97,7 +138,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 41812,
-            "fileSizeKB": 41
+            "fileSizeKB": 41,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/public-sans/fonts/webfonts/PublicSans-Medium.woff"
+              }
+            }
           },
           {
             "key": "PublicSans-LightItalic",
@@ -107,7 +153,12 @@
             "style": "italic",
             "stretch": "normal",
             "fileSize": 43704,
-            "fileSizeKB": 43
+            "fileSizeKB": 43,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/public-sans/fonts/webfonts/PublicSans-LightItalic.woff"
+              }
+            }
           },
           {
             "key": "PublicSans-Light",
@@ -117,7 +168,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 41620,
-            "fileSizeKB": 41
+            "fileSizeKB": 41,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/public-sans/fonts/webfonts/PublicSans-Light.woff"
+              }
+            }
           },
           {
             "key": "PublicSans-Italic",
@@ -127,7 +183,12 @@
             "style": "italic",
             "stretch": "normal",
             "fileSize": 43888,
-            "fileSizeKB": 43
+            "fileSizeKB": 43,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/public-sans/fonts/webfonts/PublicSans-Italic.woff"
+              }
+            }
           },
           {
             "key": "PublicSans-ExtraLightItalic",
@@ -137,7 +198,12 @@
             "style": "italic",
             "stretch": "normal",
             "fileSize": 43744,
-            "fileSizeKB": 43
+            "fileSizeKB": 43,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/public-sans/fonts/webfonts/PublicSans-ExtraLightItalic.woff"
+              }
+            }
           },
           {
             "key": "PublicSans-ExtraLight",
@@ -147,7 +213,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 41504,
-            "fileSizeKB": 41
+            "fileSizeKB": 41,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/public-sans/fonts/webfonts/PublicSans-ExtraLight.woff"
+              }
+            }
           },
           {
             "key": "PublicSans-ExtraBoldItalic",
@@ -157,7 +228,12 @@
             "style": "italic",
             "stretch": "normal",
             "fileSize": 44220,
-            "fileSizeKB": 43
+            "fileSizeKB": 43,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/public-sans/fonts/webfonts/PublicSans-ExtraBoldItalic.woff"
+              }
+            }
           },
           {
             "key": "PublicSans-ExtraBold",
@@ -167,7 +243,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 41612,
-            "fileSizeKB": 41
+            "fileSizeKB": 41,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/public-sans/fonts/webfonts/PublicSans-ExtraBold.woff"
+              }
+            }
           },
           {
             "key": "PublicSans-BoldItalic",
@@ -177,7 +258,12 @@
             "style": "italic",
             "stretch": "normal",
             "fileSize": 44404,
-            "fileSizeKB": 43
+            "fileSizeKB": 43,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/public-sans/fonts/webfonts/PublicSans-BoldItalic.woff"
+              }
+            }
           },
           {
             "key": "PublicSans-Bold",
@@ -187,7 +273,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 41804,
-            "fileSizeKB": 41
+            "fileSizeKB": 41,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/public-sans/fonts/webfonts/PublicSans-Bold.woff"
+              }
+            }
           },
           {
             "key": "PublicSans-BlackItalic",
@@ -197,7 +288,12 @@
             "style": "italic",
             "stretch": "normal",
             "fileSize": 42700,
-            "fileSizeKB": 42
+            "fileSizeKB": 42,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/public-sans/fonts/webfonts/PublicSans-BlackItalic.woff"
+              }
+            }
           },
           {
             "key": "PublicSans-Black",
@@ -207,7 +303,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 40036,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/public-sans/fonts/webfonts/PublicSans-Black.woff"
+              }
+            }
           }
         ],
         "variable": [
@@ -224,7 +325,12 @@
             },
             "style": "normal",
             "fileSize": 103316,
-            "fileSizeKB": 101
+            "fileSizeKB": 101,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/public-sans/fonts/webfonts/PublicSans[wght].ttf"
+              }
+            }
           },
           {
             "key": "VariableItalic[wght]",
@@ -239,7 +345,12 @@
             },
             "style": "italic",
             "fileSize": 107940,
-            "fileSizeKB": 105
+            "fileSizeKB": 105,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/public-sans/fonts/webfonts/PublicSans-Italic[wght].ttf"
+              }
+            }
           }
         ]
       },
@@ -412,6 +523,17 @@
         "hasSmallCaps": false,
         "hasOldStyleFigures": true,
         "hasTabularFigures": true
+      },
+      "_links": {
+        "self": {
+          "href": "/api/families/public-sans.json"
+        },
+        "module": {
+          "href": "/modules/public-sans.js"
+        },
+        "preview": {
+          "href": "/fonts/public-sans/"
+        }
       }
     },
     "league-mono-thin-condensed": {
@@ -442,7 +564,12 @@
             "style": "normal",
             "stretch": "ultra-expanded",
             "fileSize": 65380,
-            "fileSizeKB": 64
+            "fileSizeKB": 64,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-WideUltraLight.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-WideThin",
@@ -452,7 +579,12 @@
             "style": "normal",
             "stretch": "ultra-expanded",
             "fileSize": 64564,
-            "fileSizeKB": 63
+            "fileSizeKB": 63,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-WideThin.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-WideSemiBold",
@@ -462,7 +594,12 @@
             "style": "normal",
             "stretch": "ultra-expanded",
             "fileSize": 65760,
-            "fileSizeKB": 64
+            "fileSizeKB": 64,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-WideSemiBold.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-WideRegular",
@@ -472,7 +609,12 @@
             "style": "normal",
             "stretch": "ultra-expanded",
             "fileSize": 65864,
-            "fileSizeKB": 64
+            "fileSizeKB": 64,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-WideRegular.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-WideMedium",
@@ -482,7 +624,12 @@
             "style": "normal",
             "stretch": "ultra-expanded",
             "fileSize": 66152,
-            "fileSizeKB": 65
+            "fileSizeKB": 65,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-WideMedium.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-WideLight",
@@ -492,7 +639,12 @@
             "style": "normal",
             "stretch": "ultra-expanded",
             "fileSize": 66032,
-            "fileSizeKB": 64
+            "fileSizeKB": 64,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-WideLight.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-WideExtraBold",
@@ -502,7 +654,12 @@
             "style": "normal",
             "stretch": "ultra-expanded",
             "fileSize": 66272,
-            "fileSizeKB": 65
+            "fileSizeKB": 65,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-WideExtraBold.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-WideBold",
@@ -512,7 +669,12 @@
             "style": "normal",
             "stretch": "ultra-expanded",
             "fileSize": 66212,
-            "fileSizeKB": 65
+            "fileSizeKB": 65,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-WideBold.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-UltraLight",
@@ -522,7 +684,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 65128,
-            "fileSizeKB": 64
+            "fileSizeKB": 64,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-UltraLight.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-Thin",
@@ -532,7 +699,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 64144,
-            "fileSizeKB": 63
+            "fileSizeKB": 63,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-Thin.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-SemiBold",
@@ -542,7 +714,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 65632,
-            "fileSizeKB": 64
+            "fileSizeKB": 64,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-SemiBold.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-Regular",
@@ -552,7 +729,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 65408,
-            "fileSizeKB": 64
+            "fileSizeKB": 64,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-Regular.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-NarrowUltraLight",
@@ -562,7 +744,12 @@
             "style": "normal",
             "stretch": "semi-condensed",
             "fileSize": 65188,
-            "fileSizeKB": 64
+            "fileSizeKB": 64,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-NarrowUltraLight.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-NarrowThin",
@@ -572,7 +759,12 @@
             "style": "normal",
             "stretch": "semi-condensed",
             "fileSize": 64228,
-            "fileSizeKB": 63
+            "fileSizeKB": 63,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-NarrowThin.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-NarrowSemiBold",
@@ -582,7 +774,12 @@
             "style": "normal",
             "stretch": "semi-condensed",
             "fileSize": 65172,
-            "fileSizeKB": 64
+            "fileSizeKB": 64,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-NarrowSemiBold.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-NarrowRegular",
@@ -592,7 +789,12 @@
             "style": "normal",
             "stretch": "semi-condensed",
             "fileSize": 65368,
-            "fileSizeKB": 64
+            "fileSizeKB": 64,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-NarrowRegular.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-NarrowMedium",
@@ -602,7 +804,12 @@
             "style": "normal",
             "stretch": "semi-condensed",
             "fileSize": 65500,
-            "fileSizeKB": 64
+            "fileSizeKB": 64,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-NarrowMedium.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-NarrowLight",
@@ -612,7 +819,12 @@
             "style": "normal",
             "stretch": "semi-condensed",
             "fileSize": 67200,
-            "fileSizeKB": 66
+            "fileSizeKB": 66,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-NarrowLight.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-NarrowExtraBold",
@@ -622,7 +834,12 @@
             "style": "normal",
             "stretch": "semi-condensed",
             "fileSize": 65744,
-            "fileSizeKB": 64
+            "fileSizeKB": 64,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-NarrowExtraBold.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-NarrowBold",
@@ -632,7 +849,12 @@
             "style": "normal",
             "stretch": "semi-condensed",
             "fileSize": 65076,
-            "fileSizeKB": 64
+            "fileSizeKB": 64,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-NarrowBold.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-Medium",
@@ -642,7 +864,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 65816,
-            "fileSizeKB": 64
+            "fileSizeKB": 64,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-Medium.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-Light",
@@ -652,7 +879,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 66244,
-            "fileSizeKB": 65
+            "fileSizeKB": 65,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-Light.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-ExtraBold",
@@ -662,7 +894,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 65688,
-            "fileSizeKB": 64
+            "fileSizeKB": 64,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-ExtraBold.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-ExtendedUltraLight",
@@ -672,7 +909,12 @@
             "style": "normal",
             "stretch": "expanded",
             "fileSize": 66624,
-            "fileSizeKB": 65
+            "fileSizeKB": 65,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-ExtendedUltraLight.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-ExtendedThin",
@@ -682,7 +924,12 @@
             "style": "normal",
             "stretch": "expanded",
             "fileSize": 64692,
-            "fileSizeKB": 63
+            "fileSizeKB": 63,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-ExtendedThin.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-ExtendedSemiBold",
@@ -692,7 +939,12 @@
             "style": "normal",
             "stretch": "expanded",
             "fileSize": 67076,
-            "fileSizeKB": 66
+            "fileSizeKB": 66,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-ExtendedSemiBold.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-ExtendedRegular",
@@ -702,7 +954,12 @@
             "style": "normal",
             "stretch": "expanded",
             "fileSize": 67020,
-            "fileSizeKB": 65
+            "fileSizeKB": 65,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-ExtendedRegular.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-ExtendedMedium",
@@ -712,7 +969,12 @@
             "style": "normal",
             "stretch": "expanded",
             "fileSize": 67444,
-            "fileSizeKB": 66
+            "fileSizeKB": 66,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-ExtendedMedium.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-ExtendedLight",
@@ -722,7 +984,12 @@
             "style": "normal",
             "stretch": "expanded",
             "fileSize": 67040,
-            "fileSizeKB": 65
+            "fileSizeKB": 65,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-ExtendedLight.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-ExtendedExtraBold",
@@ -732,7 +999,12 @@
             "style": "normal",
             "stretch": "expanded",
             "fileSize": 67600,
-            "fileSizeKB": 66
+            "fileSizeKB": 66,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-ExtendedExtraBold.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-ExtendedBold",
@@ -742,7 +1014,12 @@
             "style": "normal",
             "stretch": "expanded",
             "fileSize": 68208,
-            "fileSizeKB": 67
+            "fileSizeKB": 67,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-ExtendedBold.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-CondensedUltraLight",
@@ -752,7 +1029,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 64404,
-            "fileSizeKB": 63
+            "fileSizeKB": 63,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-CondensedUltraLight.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-CondensedThin",
@@ -762,7 +1044,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 63840,
-            "fileSizeKB": 62
+            "fileSizeKB": 62,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-CondensedThin.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-CondensedSemiBold",
@@ -772,7 +1059,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 65324,
-            "fileSizeKB": 64
+            "fileSizeKB": 64,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-CondensedSemiBold.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-CondensedMedium",
@@ -782,7 +1074,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 65964,
-            "fileSizeKB": 64
+            "fileSizeKB": 64,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-CondensedMedium.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-CondensedLight",
@@ -792,7 +1089,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 66756,
-            "fileSizeKB": 65
+            "fileSizeKB": 65,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-CondensedLight.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-CondensedExtraBold",
@@ -802,7 +1104,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 64464,
-            "fileSizeKB": 63
+            "fileSizeKB": 63,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-CondensedExtraBold.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-CondensedBold",
@@ -812,7 +1119,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 64700,
-            "fileSizeKB": 63
+            "fileSizeKB": 63,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-CondensedBold.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-Condensed",
@@ -822,7 +1134,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 66040,
-            "fileSizeKB": 64
+            "fileSizeKB": 64,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-Condensed.ttf"
+              }
+            }
           },
           {
             "key": "LeagueMono-Bold",
@@ -832,7 +1149,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 65540,
-            "fileSizeKB": 64
+            "fileSizeKB": 64,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-Bold.ttf"
+              }
+            }
           }
         ],
         "variable": [
@@ -854,7 +1176,12 @@
             },
             "style": "normal",
             "fileSize": 56576,
-            "fileSizeKB": 55
+            "fileSizeKB": 55,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-VF.woff2"
+              }
+            }
           }
         ]
       },
@@ -1242,6 +1569,17 @@
         "hasSmallCaps": false,
         "hasOldStyleFigures": false,
         "hasTabularFigures": true
+      },
+      "_links": {
+        "self": {
+          "href": "/api/families/league-mono-thin-condensed.json"
+        },
+        "module": {
+          "href": "/modules/league-mono-thin-condensed.js"
+        },
+        "preview": {
+          "href": "/fonts/league-mono-thin-condensed/"
+        }
       }
     },
     "inconsolata": {
@@ -1273,7 +1611,12 @@
             "style": "normal",
             "stretch": "ultra-expanded",
             "fileSize": 41540,
-            "fileSizeKB": 41
+            "fileSizeKB": 41,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedThin.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataUltraExpanded-SemiBold",
@@ -1283,7 +1626,12 @@
             "style": "normal",
             "stretch": "ultra-expanded",
             "fileSize": 42140,
-            "fileSizeKB": 41
+            "fileSizeKB": 41,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedSemiBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataUltraExpanded-Regular",
@@ -1293,7 +1641,12 @@
             "style": "normal",
             "stretch": "ultra-expanded",
             "fileSize": 41492,
-            "fileSizeKB": 41
+            "fileSizeKB": 41,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedRegular.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataUltraExpanded-Medium",
@@ -1303,7 +1656,12 @@
             "style": "normal",
             "stretch": "ultra-expanded",
             "fileSize": 41868,
-            "fileSizeKB": 41
+            "fileSizeKB": 41,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedMedium.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataUltraExpanded-Light",
@@ -1313,7 +1671,12 @@
             "style": "normal",
             "stretch": "ultra-expanded",
             "fileSize": 41680,
-            "fileSizeKB": 41
+            "fileSizeKB": 41,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedLight.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataUltraExpanded-ExtraLight",
@@ -1323,7 +1686,12 @@
             "style": "normal",
             "stretch": "ultra-expanded",
             "fileSize": 41488,
-            "fileSizeKB": 41
+            "fileSizeKB": 41,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedExtraLight.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataUltraExpanded-ExtraBold",
@@ -1333,7 +1701,12 @@
             "style": "normal",
             "stretch": "ultra-expanded",
             "fileSize": 42320,
-            "fileSizeKB": 41
+            "fileSizeKB": 41,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedExtraBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataUltraExpanded-Bold",
@@ -1343,7 +1716,12 @@
             "style": "normal",
             "stretch": "ultra-expanded",
             "fileSize": 42324,
-            "fileSizeKB": 41
+            "fileSizeKB": 41,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataUltraExpanded-Black",
@@ -1353,7 +1731,12 @@
             "style": "normal",
             "stretch": "ultra-expanded",
             "fileSize": 42300,
-            "fileSizeKB": 41
+            "fileSizeKB": 41,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedBlack.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataUltraCondensed-Thin",
@@ -1363,7 +1746,12 @@
             "style": "normal",
             "stretch": "ultra-condensed",
             "fileSize": 38240,
-            "fileSizeKB": 37
+            "fileSizeKB": 37,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedThin.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataUltraCondensed-SemiBold",
@@ -1373,7 +1761,12 @@
             "style": "normal",
             "stretch": "ultra-condensed",
             "fileSize": 38732,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedSemiBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataUltraCondensed-Regular",
@@ -1383,7 +1776,12 @@
             "style": "normal",
             "stretch": "ultra-condensed",
             "fileSize": 38408,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedRegular.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataUltraCondensed-Medium",
@@ -1393,7 +1791,12 @@
             "style": "normal",
             "stretch": "ultra-condensed",
             "fileSize": 38756,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedMedium.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataUltraCondensed-Light",
@@ -1403,7 +1806,12 @@
             "style": "normal",
             "stretch": "ultra-condensed",
             "fileSize": 38588,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedLight.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataUltraCondensed-ExtraLight",
@@ -1413,7 +1821,12 @@
             "style": "normal",
             "stretch": "ultra-condensed",
             "fileSize": 38468,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedExtraLight.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataUltraCondensed-ExtraBold",
@@ -1423,7 +1836,12 @@
             "style": "normal",
             "stretch": "ultra-condensed",
             "fileSize": 39200,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedExtraBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataUltraCondensed-Bold",
@@ -1433,7 +1851,12 @@
             "style": "normal",
             "stretch": "ultra-condensed",
             "fileSize": 38852,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataUltraCondensed-Black",
@@ -1443,7 +1866,12 @@
             "style": "normal",
             "stretch": "ultra-condensed",
             "fileSize": 39388,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedBlack.woff2"
+              }
+            }
           },
           {
             "key": "Inconsolata-Thin",
@@ -1453,7 +1881,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 38752,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-Thin.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataSemiExpanded-Thin",
@@ -1463,7 +1896,12 @@
             "style": "normal",
             "stretch": "semi-expanded",
             "fileSize": 39608,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedThin.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataSemiExpanded-SemiBold",
@@ -1473,7 +1911,12 @@
             "style": "normal",
             "stretch": "semi-expanded",
             "fileSize": 40328,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedSemiBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataSemiExpanded-Regular",
@@ -1483,7 +1926,12 @@
             "style": "normal",
             "stretch": "semi-expanded",
             "fileSize": 39744,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedRegular.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataSemiExpanded-Medium",
@@ -1493,7 +1941,12 @@
             "style": "normal",
             "stretch": "semi-expanded",
             "fileSize": 40284,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedMedium.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataSemiExpanded-Light",
@@ -1503,7 +1956,12 @@
             "style": "normal",
             "stretch": "semi-expanded",
             "fileSize": 39808,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedLight.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataSemiExpanded-ExtraLight",
@@ -1513,7 +1971,12 @@
             "style": "normal",
             "stretch": "semi-expanded",
             "fileSize": 40128,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedExtraLight.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataSemiExpanded-ExtraBold",
@@ -1523,7 +1986,12 @@
             "style": "normal",
             "stretch": "semi-expanded",
             "fileSize": 40524,
-            "fileSizeKB": 40
+            "fileSizeKB": 40,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedExtraBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataSemiExpanded-Bold",
@@ -1533,7 +2001,12 @@
             "style": "normal",
             "stretch": "semi-expanded",
             "fileSize": 40444,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataSemiExpanded-Black",
@@ -1543,7 +2016,12 @@
             "style": "normal",
             "stretch": "semi-expanded",
             "fileSize": 40976,
-            "fileSizeKB": 40
+            "fileSizeKB": 40,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedBlack.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataSemiCondensed-Thin",
@@ -1553,7 +2031,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 38996,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedThin.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataSemiCondensed-SemiBold",
@@ -1563,7 +2046,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 39780,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedSemiBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataSemiCondensed-Regular",
@@ -1573,7 +2061,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 38952,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedRegular.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataSemiCondensed-Medium",
@@ -1583,7 +2076,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 39580,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedMedium.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataSemiCondensed-Light",
@@ -1593,7 +2091,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 39264,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedLight.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataSemiCondensed-ExtraLight",
@@ -1603,7 +2106,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 39376,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedExtraLight.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataSemiCondensed-ExtraBold",
@@ -1613,7 +2121,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 39916,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedExtraBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataSemiCondensed-Bold",
@@ -1623,7 +2136,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 39636,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataSemiCondensed-Black",
@@ -1633,7 +2151,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 40460,
-            "fileSizeKB": 40
+            "fileSizeKB": 40,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedBlack.woff2"
+              }
+            }
           },
           {
             "key": "Inconsolata-SemiBold",
@@ -1643,7 +2166,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 39540,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-SemiBold.woff2"
+              }
+            }
           },
           {
             "key": "Inconsolata-Regular",
@@ -1653,7 +2181,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 38772,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-Regular.woff2"
+              }
+            }
           },
           {
             "key": "Inconsolata-Medium",
@@ -1663,7 +2196,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 39496,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-Medium.woff2"
+              }
+            }
           },
           {
             "key": "Inconsolata-Light",
@@ -1673,7 +2211,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 39284,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-Light.woff2"
+              }
+            }
           },
           {
             "key": "Inconsolata-ExtraLight",
@@ -1683,7 +2226,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 39248,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExtraLight.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExtraExpanded-Thin",
@@ -1693,7 +2241,12 @@
             "style": "normal",
             "stretch": "extra-expanded",
             "fileSize": 40508,
-            "fileSizeKB": 40
+            "fileSizeKB": 40,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedThin.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExtraExpanded-SemiBold",
@@ -1703,7 +2256,12 @@
             "style": "normal",
             "stretch": "extra-expanded",
             "fileSize": 41068,
-            "fileSizeKB": 40
+            "fileSizeKB": 40,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedSemiBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExtraExpanded-Regular",
@@ -1713,7 +2271,12 @@
             "style": "normal",
             "stretch": "extra-expanded",
             "fileSize": 40432,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedRegular.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExtraExpanded-Medium",
@@ -1723,7 +2286,12 @@
             "style": "normal",
             "stretch": "extra-expanded",
             "fileSize": 40996,
-            "fileSizeKB": 40
+            "fileSizeKB": 40,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedMedium.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExtraExpanded-Light",
@@ -1733,7 +2301,12 @@
             "style": "normal",
             "stretch": "extra-expanded",
             "fileSize": 40948,
-            "fileSizeKB": 40
+            "fileSizeKB": 40,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedLight.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExtraExpanded-ExtraLight",
@@ -1743,7 +2316,12 @@
             "style": "normal",
             "stretch": "extra-expanded",
             "fileSize": 40928,
-            "fileSizeKB": 40
+            "fileSizeKB": 40,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedExtraLight.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExtraExpanded-ExtraBold",
@@ -1753,7 +2331,12 @@
             "style": "normal",
             "stretch": "extra-expanded",
             "fileSize": 41252,
-            "fileSizeKB": 40
+            "fileSizeKB": 40,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedExtraBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExtraExpanded-Bold",
@@ -1763,7 +2346,12 @@
             "style": "normal",
             "stretch": "extra-expanded",
             "fileSize": 41420,
-            "fileSizeKB": 40
+            "fileSizeKB": 40,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExtraExpanded-Black",
@@ -1773,7 +2361,12 @@
             "style": "normal",
             "stretch": "extra-expanded",
             "fileSize": 41644,
-            "fileSizeKB": 41
+            "fileSizeKB": 41,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedBlack.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExtraCondensed-Thin",
@@ -1783,7 +2376,12 @@
             "style": "normal",
             "stretch": "extra-condensed",
             "fileSize": 38716,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedThin.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExtraCondensed-SemiBold",
@@ -1793,7 +2391,12 @@
             "style": "normal",
             "stretch": "extra-condensed",
             "fileSize": 39244,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedSemiBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExtraCondensed-Regular",
@@ -1803,7 +2406,12 @@
             "style": "normal",
             "stretch": "extra-condensed",
             "fileSize": 38748,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedRegular.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExtraCondensed-Medium",
@@ -1813,7 +2421,12 @@
             "style": "normal",
             "stretch": "extra-condensed",
             "fileSize": 39072,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedMedium.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExtraCondensed-Light",
@@ -1823,7 +2436,12 @@
             "style": "normal",
             "stretch": "extra-condensed",
             "fileSize": 38788,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedLight.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExtraCondensed-ExtraLight",
@@ -1833,7 +2451,12 @@
             "style": "normal",
             "stretch": "extra-condensed",
             "fileSize": 38880,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedExtraLight.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExtraCondensed-ExtraBold",
@@ -1843,7 +2466,12 @@
             "style": "normal",
             "stretch": "extra-condensed",
             "fileSize": 39332,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedExtraBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExtraCondensed-Bold",
@@ -1853,7 +2481,12 @@
             "style": "normal",
             "stretch": "extra-condensed",
             "fileSize": 39456,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExtraCondensed-Black",
@@ -1863,7 +2496,12 @@
             "style": "normal",
             "stretch": "extra-condensed",
             "fileSize": 39724,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedBlack.woff2"
+              }
+            }
           },
           {
             "key": "Inconsolata-ExtraBold",
@@ -1873,7 +2511,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 39768,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExtraBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExpanded-Thin",
@@ -1883,7 +2526,12 @@
             "style": "normal",
             "stretch": "expanded",
             "fileSize": 40064,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExpandedThin.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExpanded-SemiBold",
@@ -1893,7 +2541,12 @@
             "style": "normal",
             "stretch": "expanded",
             "fileSize": 40524,
-            "fileSizeKB": 40
+            "fileSizeKB": 40,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExpandedSemiBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExpanded-Regular",
@@ -1903,7 +2556,12 @@
             "style": "normal",
             "stretch": "expanded",
             "fileSize": 39932,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExpandedRegular.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExpanded-Medium",
@@ -1913,7 +2571,12 @@
             "style": "normal",
             "stretch": "expanded",
             "fileSize": 40364,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExpandedMedium.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExpanded-Light",
@@ -1923,7 +2586,12 @@
             "style": "normal",
             "stretch": "expanded",
             "fileSize": 40204,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExpandedLight.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExpanded-ExtraLight",
@@ -1933,7 +2601,12 @@
             "style": "normal",
             "stretch": "expanded",
             "fileSize": 40364,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExpandedExtraLight.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExpanded-ExtraBold",
@@ -1943,7 +2616,12 @@
             "style": "normal",
             "stretch": "expanded",
             "fileSize": 41100,
-            "fileSizeKB": 40
+            "fileSizeKB": 40,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExpandedExtraBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExpanded-Bold",
@@ -1953,7 +2631,12 @@
             "style": "normal",
             "stretch": "expanded",
             "fileSize": 40544,
-            "fileSizeKB": 40
+            "fileSizeKB": 40,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExpandedBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataExpanded-Black",
@@ -1963,7 +2646,12 @@
             "style": "normal",
             "stretch": "expanded",
             "fileSize": 40996,
-            "fileSizeKB": 40
+            "fileSizeKB": 40,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-ExpandedBlack.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataCondensed-Thin",
@@ -1973,7 +2661,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 38744,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-CondensedThin.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataCondensed-SemiBold",
@@ -1983,7 +2676,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 39380,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-CondensedSemiBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataCondensed-Regular",
@@ -1993,7 +2691,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 38840,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-CondensedRegular.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataCondensed-Medium",
@@ -2003,7 +2706,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 39200,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-CondensedMedium.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataCondensed-Light",
@@ -2013,7 +2721,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 38992,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-CondensedLight.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataCondensed-ExtraLight",
@@ -2023,7 +2736,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 39108,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-CondensedExtraLight.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataCondensed-ExtraBold",
@@ -2033,7 +2751,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 39524,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-CondensedExtraBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataCondensed-Bold",
@@ -2043,7 +2766,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 39344,
-            "fileSizeKB": 38
+            "fileSizeKB": 38,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-CondensedBold.woff2"
+              }
+            }
           },
           {
             "key": "InconsolataCondensed-Black",
@@ -2053,7 +2781,12 @@
             "style": "normal",
             "stretch": "condensed",
             "fileSize": 39752,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-CondensedBlack.woff2"
+              }
+            }
           },
           {
             "key": "Inconsolata-Bold",
@@ -2063,7 +2796,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 39584,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-Bold.woff2"
+              }
+            }
           },
           {
             "key": "Inconsolata-Black",
@@ -2073,7 +2811,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 39872,
-            "fileSizeKB": 39
+            "fileSizeKB": 39,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata-Black.woff2"
+              }
+            }
           }
         ],
         "variable": [
@@ -2095,7 +2838,12 @@
             },
             "style": "normal",
             "fileSize": 345292,
-            "fileSizeKB": 337
+            "fileSizeKB": 337,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/inconsolata/fonts/webfonts/Inconsolata[wdth,wght].ttf"
+              }
+            }
           }
         ]
       },
@@ -2280,6 +3028,17 @@
         "hasSmallCaps": false,
         "hasOldStyleFigures": false,
         "hasTabularFigures": false
+      },
+      "_links": {
+        "self": {
+          "href": "/api/families/inconsolata.json"
+        },
+        "module": {
+          "href": "/modules/inconsolata.js"
+        },
+        "preview": {
+          "href": "/fonts/inconsolata/"
+        }
       }
     },
     "crimson-pro": {
@@ -2311,7 +3070,12 @@
             "style": "italic",
             "stretch": "normal",
             "fileSize": 50696,
-            "fileSizeKB": 50
+            "fileSizeKB": 50,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-SemiBoldItalic.woff2"
+              }
+            }
           },
           {
             "key": "CrimsonPro-SemiBold",
@@ -2321,7 +3085,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 49524,
-            "fileSizeKB": 48
+            "fileSizeKB": 48,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-SemiBold.woff2"
+              }
+            }
           },
           {
             "key": "CrimsonPro-Regular",
@@ -2331,7 +3100,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 48544,
-            "fileSizeKB": 47
+            "fileSizeKB": 47,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-Regular.woff2"
+              }
+            }
           },
           {
             "key": "CrimsonPro-MediumItalic",
@@ -2341,7 +3115,12 @@
             "style": "italic",
             "stretch": "normal",
             "fileSize": 51008,
-            "fileSizeKB": 50
+            "fileSizeKB": 50,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-MediumItalic.woff2"
+              }
+            }
           },
           {
             "key": "CrimsonPro-Medium",
@@ -2351,7 +3130,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 49404,
-            "fileSizeKB": 48
+            "fileSizeKB": 48,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-Medium.woff2"
+              }
+            }
           },
           {
             "key": "CrimsonPro-LightItalic",
@@ -2361,7 +3145,12 @@
             "style": "italic",
             "stretch": "normal",
             "fileSize": 51424,
-            "fileSizeKB": 50
+            "fileSizeKB": 50,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-LightItalic.woff2"
+              }
+            }
           },
           {
             "key": "CrimsonPro-Light",
@@ -2371,7 +3160,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 49852,
-            "fileSizeKB": 49
+            "fileSizeKB": 49,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-Light.woff2"
+              }
+            }
           },
           {
             "key": "CrimsonPro-Italic",
@@ -2381,7 +3175,12 @@
             "style": "italic",
             "stretch": "normal",
             "fileSize": 50520,
-            "fileSizeKB": 49
+            "fileSizeKB": 49,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-Italic.woff2"
+              }
+            }
           },
           {
             "key": "CrimsonPro-ExtraLightItalic",
@@ -2391,7 +3190,12 @@
             "style": "italic",
             "stretch": "normal",
             "fileSize": 50324,
-            "fileSizeKB": 49
+            "fileSizeKB": 49,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-ExtraLightItalic.woff2"
+              }
+            }
           },
           {
             "key": "CrimsonPro-ExtraLight",
@@ -2401,7 +3205,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 49412,
-            "fileSizeKB": 48
+            "fileSizeKB": 48,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-ExtraLight.woff2"
+              }
+            }
           },
           {
             "key": "CrimsonPro-ExtraBoldItalic",
@@ -2411,7 +3220,12 @@
             "style": "italic",
             "stretch": "normal",
             "fileSize": 51828,
-            "fileSizeKB": 51
+            "fileSizeKB": 51,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-ExtraBoldItalic.woff2"
+              }
+            }
           },
           {
             "key": "CrimsonPro-ExtraBold",
@@ -2421,7 +3235,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 50224,
-            "fileSizeKB": 49
+            "fileSizeKB": 49,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-ExtraBold.woff2"
+              }
+            }
           },
           {
             "key": "CrimsonPro-BoldItalic",
@@ -2431,7 +3250,12 @@
             "style": "italic",
             "stretch": "normal",
             "fileSize": 51096,
-            "fileSizeKB": 50
+            "fileSizeKB": 50,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-BoldItalic.woff2"
+              }
+            }
           },
           {
             "key": "CrimsonPro-Bold",
@@ -2441,7 +3265,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 49440,
-            "fileSizeKB": 48
+            "fileSizeKB": 48,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-Bold.woff2"
+              }
+            }
           },
           {
             "key": "CrimsonPro-BlackItalic",
@@ -2451,7 +3280,12 @@
             "style": "italic",
             "stretch": "normal",
             "fileSize": 51716,
-            "fileSizeKB": 51
+            "fileSizeKB": 51,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-BlackItalic.woff2"
+              }
+            }
           },
           {
             "key": "CrimsonPro-Black",
@@ -2461,7 +3295,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 50452,
-            "fileSizeKB": 49
+            "fileSizeKB": 49,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-Black.woff2"
+              }
+            }
           }
         ],
         "variable": [
@@ -2478,7 +3317,12 @@
             },
             "style": "normal",
             "fileSize": 246324,
-            "fileSizeKB": 241
+            "fileSizeKB": 241,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro[wght].ttf"
+              }
+            }
           },
           {
             "key": "VariableItalic[wght]",
@@ -2493,7 +3337,12 @@
             },
             "style": "italic",
             "fileSize": 253176,
-            "fileSizeKB": 247
+            "fileSizeKB": 247,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-Italic[wght].ttf"
+              }
+            }
           }
         ]
       },
@@ -2660,6 +3509,17 @@
         "hasSmallCaps": false,
         "hasOldStyleFigures": true,
         "hasTabularFigures": true
+      },
+      "_links": {
+        "self": {
+          "href": "/api/families/crimson-pro.json"
+        },
+        "module": {
+          "href": "/modules/crimson-pro.js"
+        },
+        "preview": {
+          "href": "/fonts/crimson-pro/"
+        }
       }
     },
     "atkinson-hyperlegible": {
@@ -2698,7 +3558,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 23196,
-            "fileSizeKB": 23
+            "fileSizeKB": 23,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Regular.woff2"
+              }
+            }
           },
           {
             "key": "AtkinsonHyperlegible-Italic",
@@ -2708,7 +3573,12 @@
             "style": "italic",
             "stretch": "normal",
             "fileSize": 24908,
-            "fileSizeKB": 24
+            "fileSizeKB": 24,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Italic.woff2"
+              }
+            }
           },
           {
             "key": "AtkinsonHyperlegible-BoldItalic",
@@ -2718,7 +3588,12 @@
             "style": "italic",
             "stretch": "normal",
             "fileSize": 25160,
-            "fileSizeKB": 25
+            "fileSizeKB": 25,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-BoldItalic.woff2"
+              }
+            }
           },
           {
             "key": "AtkinsonHyperlegible-Bold",
@@ -2728,7 +3603,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 23776,
-            "fileSizeKB": 23
+            "fileSizeKB": 23,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Bold.woff2"
+              }
+            }
           }
         ],
         "variable": []
@@ -2823,6 +3703,17 @@
         "hasSmallCaps": false,
         "hasOldStyleFigures": false,
         "hasTabularFigures": true
+      },
+      "_links": {
+        "self": {
+          "href": "/api/families/atkinson-hyperlegible.json"
+        },
+        "module": {
+          "href": "/modules/atkinson-hyperlegible.js"
+        },
+        "preview": {
+          "href": "/fonts/atkinson-hyperlegible/"
+        }
       }
     },
     "aspekta": {
@@ -2856,7 +3747,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 22860,
-            "fileSizeKB": 22
+            "fileSizeKB": 22,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-950.woff2"
+              }
+            }
           },
           {
             "key": "Aspekta-900",
@@ -2866,7 +3762,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 22596,
-            "fileSizeKB": 22
+            "fileSizeKB": 22,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-900.woff2"
+              }
+            }
           },
           {
             "key": "Aspekta-850",
@@ -2876,7 +3777,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 22756,
-            "fileSizeKB": 22
+            "fileSizeKB": 22,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-850.woff2"
+              }
+            }
           },
           {
             "key": "Aspekta-800",
@@ -2886,7 +3792,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 22608,
-            "fileSizeKB": 22
+            "fileSizeKB": 22,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-800.woff2"
+              }
+            }
           },
           {
             "key": "Aspekta-750",
@@ -2896,7 +3807,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 22420,
-            "fileSizeKB": 22
+            "fileSizeKB": 22,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-750.woff2"
+              }
+            }
           },
           {
             "key": "Aspekta-700",
@@ -2906,7 +3822,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 22168,
-            "fileSizeKB": 22
+            "fileSizeKB": 22,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-700.woff2"
+              }
+            }
           },
           {
             "key": "Aspekta-650",
@@ -2916,7 +3837,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 21980,
-            "fileSizeKB": 21
+            "fileSizeKB": 21,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-650.woff2"
+              }
+            }
           },
           {
             "key": "Aspekta-600",
@@ -2926,7 +3852,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 22140,
-            "fileSizeKB": 22
+            "fileSizeKB": 22,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-600.woff2"
+              }
+            }
           },
           {
             "key": "Aspekta-550",
@@ -2936,7 +3867,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 22016,
-            "fileSizeKB": 22
+            "fileSizeKB": 22,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-550.woff2"
+              }
+            }
           },
           {
             "key": "Aspekta-500",
@@ -2946,7 +3882,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 22124,
-            "fileSizeKB": 22
+            "fileSizeKB": 22,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-500.woff2"
+              }
+            }
           },
           {
             "key": "Aspekta-50",
@@ -2956,7 +3897,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 21396,
-            "fileSizeKB": 21
+            "fileSizeKB": 21,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-50.woff2"
+              }
+            }
           },
           {
             "key": "Aspekta-450",
@@ -2966,7 +3912,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 22240,
-            "fileSizeKB": 22
+            "fileSizeKB": 22,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-450.woff2"
+              }
+            }
           },
           {
             "key": "Aspekta-400",
@@ -2976,7 +3927,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 21748,
-            "fileSizeKB": 21
+            "fileSizeKB": 21,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-400.woff2"
+              }
+            }
           },
           {
             "key": "Aspekta-350",
@@ -2986,7 +3942,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 21956,
-            "fileSizeKB": 21
+            "fileSizeKB": 21,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-350.woff2"
+              }
+            }
           },
           {
             "key": "Aspekta-300",
@@ -2996,7 +3957,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 22600,
-            "fileSizeKB": 22
+            "fileSizeKB": 22,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-300.woff2"
+              }
+            }
           },
           {
             "key": "Aspekta-250",
@@ -3006,7 +3972,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 22024,
-            "fileSizeKB": 22
+            "fileSizeKB": 22,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-250.woff2"
+              }
+            }
           },
           {
             "key": "Aspekta-200",
@@ -3016,7 +3987,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 21884,
-            "fileSizeKB": 21
+            "fileSizeKB": 21,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-200.woff2"
+              }
+            }
           },
           {
             "key": "Aspekta-150",
@@ -3026,7 +4002,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 21596,
-            "fileSizeKB": 21
+            "fileSizeKB": 21,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-150.woff2"
+              }
+            }
           },
           {
             "key": "Aspekta-1000",
@@ -3036,7 +4017,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 23096,
-            "fileSizeKB": 23
+            "fileSizeKB": 23,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-1000.woff2"
+              }
+            }
           },
           {
             "key": "Aspekta-100",
@@ -3046,7 +4032,12 @@
             "style": "normal",
             "stretch": "normal",
             "fileSize": 21116,
-            "fileSizeKB": 21
+            "fileSizeKB": 21,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-100.woff2"
+              }
+            }
           }
         ],
         "variable": [
@@ -3063,7 +4054,12 @@
             },
             "style": "normal",
             "fileSize": 69480,
-            "fileSizeKB": 68
+            "fileSizeKB": 68,
+            "_links": {
+              "download": {
+                "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/AspektaVF.ttf"
+              }
+            }
           }
         ]
       },
@@ -3180,6 +4176,17 @@
         "hasSmallCaps": false,
         "hasOldStyleFigures": false,
         "hasTabularFigures": false
+      },
+      "_links": {
+        "self": {
+          "href": "/api/families/aspekta.json"
+        },
+        "module": {
+          "href": "/modules/aspekta.js"
+        },
+        "preview": {
+          "href": "/fonts/aspekta/"
+        }
       }
     }
   }

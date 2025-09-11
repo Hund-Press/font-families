@@ -1,0 +1,488 @@
+{
+  "name": "Crimson Pro",
+  "key": "crimson-pro",
+  "description": "",
+  "license": "OFL-1.1",
+  "capabilities": {
+    "hasStatic": true,
+    "hasVariable": true,
+    "weightRange": {
+      "min": 200,
+      "max": 900,
+      "type": "variable"
+    },
+    "styleCount": 2,
+    "formats": [
+      "woff2",
+      "truetype"
+    ]
+  },
+  "files": {
+    "static": [
+      {
+        "key": "CrimsonPro-SemiBoldItalic",
+        "fileName": "CrimsonPro-SemiBoldItalic.woff2",
+        "format": "woff2",
+        "weight": 600,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 50696,
+        "fileSizeKB": 50,
+        "_links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-SemiBoldItalic.woff2"
+          }
+        }
+      },
+      {
+        "key": "CrimsonPro-SemiBold",
+        "fileName": "CrimsonPro-SemiBold.woff2",
+        "format": "woff2",
+        "weight": 600,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 49524,
+        "fileSizeKB": 48,
+        "_links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-SemiBold.woff2"
+          }
+        }
+      },
+      {
+        "key": "CrimsonPro-Regular",
+        "fileName": "CrimsonPro-Regular.woff2",
+        "format": "woff2",
+        "weight": 400,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 48544,
+        "fileSizeKB": 47,
+        "_links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-Regular.woff2"
+          }
+        }
+      },
+      {
+        "key": "CrimsonPro-MediumItalic",
+        "fileName": "CrimsonPro-MediumItalic.woff2",
+        "format": "woff2",
+        "weight": 500,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 51008,
+        "fileSizeKB": 50,
+        "_links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-MediumItalic.woff2"
+          }
+        }
+      },
+      {
+        "key": "CrimsonPro-Medium",
+        "fileName": "CrimsonPro-Medium.woff2",
+        "format": "woff2",
+        "weight": 500,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 49404,
+        "fileSizeKB": 48,
+        "_links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-Medium.woff2"
+          }
+        }
+      },
+      {
+        "key": "CrimsonPro-LightItalic",
+        "fileName": "CrimsonPro-LightItalic.woff2",
+        "format": "woff2",
+        "weight": 300,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 51424,
+        "fileSizeKB": 50,
+        "_links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-LightItalic.woff2"
+          }
+        }
+      },
+      {
+        "key": "CrimsonPro-Light",
+        "fileName": "CrimsonPro-Light.woff2",
+        "format": "woff2",
+        "weight": 300,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 49852,
+        "fileSizeKB": 49,
+        "_links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-Light.woff2"
+          }
+        }
+      },
+      {
+        "key": "CrimsonPro-Italic",
+        "fileName": "CrimsonPro-Italic.woff2",
+        "format": "woff2",
+        "weight": 400,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 50520,
+        "fileSizeKB": 49,
+        "_links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-Italic.woff2"
+          }
+        }
+      },
+      {
+        "key": "CrimsonPro-ExtraLightItalic",
+        "fileName": "CrimsonPro-ExtraLightItalic.woff2",
+        "format": "woff2",
+        "weight": 200,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 50324,
+        "fileSizeKB": 49,
+        "_links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-ExtraLightItalic.woff2"
+          }
+        }
+      },
+      {
+        "key": "CrimsonPro-ExtraLight",
+        "fileName": "CrimsonPro-ExtraLight.woff2",
+        "format": "woff2",
+        "weight": 200,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 49412,
+        "fileSizeKB": 48,
+        "_links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-ExtraLight.woff2"
+          }
+        }
+      },
+      {
+        "key": "CrimsonPro-ExtraBoldItalic",
+        "fileName": "CrimsonPro-ExtraBoldItalic.woff2",
+        "format": "woff2",
+        "weight": 800,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 51828,
+        "fileSizeKB": 51,
+        "_links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-ExtraBoldItalic.woff2"
+          }
+        }
+      },
+      {
+        "key": "CrimsonPro-ExtraBold",
+        "fileName": "CrimsonPro-ExtraBold.woff2",
+        "format": "woff2",
+        "weight": 800,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 50224,
+        "fileSizeKB": 49,
+        "_links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-ExtraBold.woff2"
+          }
+        }
+      },
+      {
+        "key": "CrimsonPro-BoldItalic",
+        "fileName": "CrimsonPro-BoldItalic.woff2",
+        "format": "woff2",
+        "weight": 700,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 51096,
+        "fileSizeKB": 50,
+        "_links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-BoldItalic.woff2"
+          }
+        }
+      },
+      {
+        "key": "CrimsonPro-Bold",
+        "fileName": "CrimsonPro-Bold.woff2",
+        "format": "woff2",
+        "weight": 700,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 49440,
+        "fileSizeKB": 48,
+        "_links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-Bold.woff2"
+          }
+        }
+      },
+      {
+        "key": "CrimsonPro-BlackItalic",
+        "fileName": "CrimsonPro-BlackItalic.woff2",
+        "format": "woff2",
+        "weight": 900,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 51716,
+        "fileSizeKB": 51,
+        "_links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-BlackItalic.woff2"
+          }
+        }
+      },
+      {
+        "key": "CrimsonPro-Black",
+        "fileName": "CrimsonPro-Black.woff2",
+        "format": "woff2",
+        "weight": 900,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 50452,
+        "fileSizeKB": 49,
+        "_links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-Black.woff2"
+          }
+        }
+      }
+    ],
+    "variable": [
+      {
+        "key": "VariableRegular[wght]",
+        "fileName": "CrimsonPro[wght].ttf",
+        "format": "truetype",
+        "axes": {
+          "wght": {
+            "min": 200,
+            "max": 900,
+            "default": 400
+          }
+        },
+        "style": "normal",
+        "fileSize": 246324,
+        "fileSizeKB": 241,
+        "_links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro[wght].ttf"
+          }
+        }
+      },
+      {
+        "key": "VariableItalic[wght]",
+        "fileName": "CrimsonPro-Italic[wght].ttf",
+        "format": "truetype",
+        "axes": {
+          "wght": {
+            "min": 200,
+            "max": 900,
+            "default": 400
+          }
+        },
+        "style": "italic",
+        "fileSize": 253176,
+        "fileSizeKB": 247,
+        "_links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/fonts/webfonts/CrimsonPro-Italic[wght].ttf"
+          }
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "unitsPerEm": 1024,
+    "ascent": 918,
+    "descent": -220,
+    "capHeight": 587,
+    "xHeight": 436,
+    "glyphCount": 832,
+    "totalFiles": 18,
+    "totalSizeKB": 1274
+  },
+  "detailed": {
+    "languages": {
+      "unicodeRanges": {
+        "Basic Latin": {
+          "coverage": 0.7578125,
+          "start": 0,
+          "end": 127
+        },
+        "Latin-1 Supplement": {
+          "coverage": 0.75,
+          "start": 128,
+          "end": 255
+        },
+        "Latin Extended-A": {
+          "coverage": 0.9921875,
+          "start": 256,
+          "end": 383
+        },
+        "Latin Extended-B": {
+          "coverage": 0.3125,
+          "start": 384,
+          "end": 591
+        },
+        "Latin Extended Additional": {
+          "coverage": 0.640625,
+          "start": 7680,
+          "end": 7935
+        },
+        "Greek and Coptic": {
+          "coverage": 0.034722222222222224,
+          "start": 880,
+          "end": 1023
+        }
+      },
+      "scripts": [
+        "Basic Latin",
+        "Latin-1 Supplement",
+        "Latin Extended-A",
+        "Latin Extended-B",
+        "Latin Extended Additional",
+        "Greek and Coptic"
+      ],
+      "primaryScript": "Latin Extended-A"
+    },
+    "variations": {
+      "wght": {
+        "min": 200,
+        "max": 900,
+        "default": 400,
+        "description": "Weight"
+      },
+      "namedInstances": [
+        {
+          "name": "ExtraLight Italic",
+          "coordinates": {
+            "wght": 200
+          }
+        },
+        {
+          "name": "Light Italic",
+          "coordinates": {
+            "wght": 300
+          }
+        },
+        {
+          "name": "Italic",
+          "coordinates": {
+            "wght": 400
+          }
+        },
+        {
+          "name": "Medium Italic",
+          "coordinates": {
+            "wght": 500
+          }
+        },
+        {
+          "name": "SemiBold Italic",
+          "coordinates": {
+            "wght": 600
+          }
+        },
+        {
+          "name": "Bold Italic",
+          "coordinates": {
+            "wght": 700
+          }
+        },
+        {
+          "name": "ExtraBold Italic",
+          "coordinates": {
+            "wght": 800
+          }
+        },
+        {
+          "name": "Black Italic",
+          "coordinates": {
+            "wght": 900
+          }
+        }
+      ]
+    },
+    "specimens": {
+      "sampleText": {
+        "latin": "The quick brown fox jumps over the lazy dog",
+        "uppercase": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "lowercase": "abcdefghijklmnopqrstuvwxyz",
+        "numbers": "0123456789",
+        "punctuation": "!@#$%^&*()_+-=[]{}|;:,.<>?"
+      },
+      "specimenFonts": {
+        "variable": "fonts/open-fonts/crimson-pro/fonts/variable/CrimsonPro[wght].ttf",
+        "regular": "fonts/open-fonts/crimson-pro/fonts/webfonts/CrimsonPro-Regular.woff2",
+        "bold": "fonts/open-fonts/crimson-pro/fonts/webfonts/CrimsonPro-ExtraBoldItalic.woff2"
+      }
+    }
+  },
+  "performance": {
+    "fileCount": 18,
+    "totalSizeKB": 1274,
+    "averageSizeKB": 71,
+    "smallestFileKB": 47,
+    "largestFileKB": 247,
+    "averageGlyphCount": 832
+  },
+  "typography": {
+    "openTypeFeatures": [
+      "aalt",
+      "case",
+      "ccmp",
+      "dlig",
+      "dnom",
+      "frac",
+      "kern",
+      "liga",
+      "lnum",
+      "locl",
+      "mark",
+      "mkmk",
+      "numr",
+      "onum",
+      "ordn",
+      "pnum",
+      "sinf",
+      "subs",
+      "sups",
+      "tnum",
+      "rvrn"
+    ],
+    "hasLigatures": true,
+    "hasSmallCaps": false,
+    "hasOldStyleFigures": true,
+    "hasTabularFigures": true
+  },
+  "_links": {
+    "self": {
+      "href": "/api/families/crimson-pro.json"
+    },
+    "catalog": {
+      "href": "/api/catalog.json"
+    },
+    "module": {
+      "href": "/modules/crimson-pro.js"
+    },
+    "preview": {
+      "href": "/fonts/crimson-pro/"
+    },
+    "cdn": {
+      "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/crimson-pro/",
+      "templated": false
+    }
+  }
+}

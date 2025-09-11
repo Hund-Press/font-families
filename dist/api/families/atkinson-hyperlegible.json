@@ -1,0 +1,201 @@
+{
+  "name": "Atkinson Hyperlegible",
+  "key": "atkinson-hyperlegible",
+  "description": "",
+  "license": "OFL-1.1",
+  "author": "Braille Institute of America",
+  "version": "1.0.0",
+  "capabilities": {
+    "hasStatic": true,
+    "hasVariable": false,
+    "weightRange": {
+      "min": 400,
+      "max": 700,
+      "available": [
+        400,
+        400,
+        700,
+        700
+      ],
+      "type": "static"
+    },
+    "styleCount": 2,
+    "formats": [
+      "woff2"
+    ]
+  },
+  "files": {
+    "static": [
+      {
+        "key": "AtkinsonHyperlegible-Regular",
+        "fileName": "AtkinsonHyperlegible-Regular.woff2",
+        "format": "woff2",
+        "weight": 400,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 23196,
+        "fileSizeKB": 23,
+        "_links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Regular.woff2"
+          }
+        }
+      },
+      {
+        "key": "AtkinsonHyperlegible-Italic",
+        "fileName": "AtkinsonHyperlegible-Italic.woff2",
+        "format": "woff2",
+        "weight": 400,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 24908,
+        "fileSizeKB": 24,
+        "_links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Italic.woff2"
+          }
+        }
+      },
+      {
+        "key": "AtkinsonHyperlegible-BoldItalic",
+        "fileName": "AtkinsonHyperlegible-BoldItalic.woff2",
+        "format": "woff2",
+        "weight": 700,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 25160,
+        "fileSizeKB": 25,
+        "_links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-BoldItalic.woff2"
+          }
+        }
+      },
+      {
+        "key": "AtkinsonHyperlegible-Bold",
+        "fileName": "AtkinsonHyperlegible-Bold.woff2",
+        "format": "woff2",
+        "weight": 700,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 23776,
+        "fileSizeKB": 23,
+        "_links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Bold.woff2"
+          }
+        }
+      }
+    ],
+    "variable": []
+  },
+  "metrics": {
+    "unitsPerEm": 1000,
+    "ascent": 950,
+    "descent": -290,
+    "capHeight": 668,
+    "xHeight": 496,
+    "glyphCount": 369,
+    "totalFiles": 4,
+    "totalSizeKB": 95
+  },
+  "detailed": {
+    "languages": {
+      "unicodeRanges": {
+        "Basic Latin": {
+          "coverage": 0.75,
+          "start": 0,
+          "end": 127
+        },
+        "Latin-1 Supplement": {
+          "coverage": 0.75,
+          "start": 128,
+          "end": 255
+        },
+        "Latin Extended-A": {
+          "coverage": 0.65625,
+          "start": 256,
+          "end": 383
+        },
+        "Latin Extended-B": {
+          "coverage": 0.02403846153846154,
+          "start": 384,
+          "end": 591
+        },
+        "Greek and Coptic": {
+          "coverage": 0.027777777777777776,
+          "start": 880,
+          "end": 1023
+        }
+      },
+      "scripts": [
+        "Basic Latin",
+        "Latin-1 Supplement",
+        "Latin Extended-A",
+        "Latin Extended-B",
+        "Greek and Coptic"
+      ],
+      "primaryScript": "Basic Latin"
+    },
+    "variations": null,
+    "specimens": {
+      "sampleText": {
+        "latin": "The quick brown fox jumps over the lazy dog",
+        "uppercase": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "lowercase": "abcdefghijklmnopqrstuvwxyz",
+        "numbers": "0123456789",
+        "punctuation": "!@#$%^&*()_+-=[]{}|;:,.<>?"
+      },
+      "specimenFonts": {
+        "regular": "fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Regular.woff2",
+        "bold": "fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-BoldItalic.woff2"
+      }
+    }
+  },
+  "performance": {
+    "fileCount": 4,
+    "totalSizeKB": 95,
+    "averageSizeKB": 24,
+    "smallestFileKB": 23,
+    "largestFileKB": 25,
+    "averageGlyphCount": 369
+  },
+  "typography": {
+    "openTypeFeatures": [
+      "aalt",
+      "case",
+      "ccmp",
+      "frac",
+      "kern",
+      "locl",
+      "mark",
+      "mkmk",
+      "ordn",
+      "pnum",
+      "sups",
+      "tnum"
+    ],
+    "hasLigatures": false,
+    "hasSmallCaps": false,
+    "hasOldStyleFigures": false,
+    "hasTabularFigures": true
+  },
+  "_links": {
+    "self": {
+      "href": "/api/families/atkinson-hyperlegible.json"
+    },
+    "catalog": {
+      "href": "/api/catalog.json"
+    },
+    "module": {
+      "href": "/modules/atkinson-hyperlegible.js"
+    },
+    "preview": {
+      "href": "/fonts/atkinson-hyperlegible/"
+    },
+    "cdn": {
+      "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/atkinson-hyperlegible/",
+      "templated": false
+    }
+  }
+}
