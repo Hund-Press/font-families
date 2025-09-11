@@ -819,7 +819,7 @@ export default ${JSON.stringify(allFonts, null, 2)};
 // Individual exports for convenience
 ${Object.entries(allFonts).map(([key, data]) => 
     `export const ${camelCase(key)} = ${JSON.stringify(data, null, 2)};`
-).join('\\n\\n')}
+).join('\n\n')}
 `;
     
     await fs.writeFile(path.join(outputDir, 'all.js'), moduleContent);

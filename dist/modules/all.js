@@ -6274,7 +6274,9 @@ export const publicSans = {
       }
     }
   }
-};\n\nexport const leagueMonoThinCondensed = {
+};
+
+export const leagueMonoThinCondensed = {
   "name": "League Mono Thin Condensed",
   "key": "league-mono-thin-condensed",
   "attribution": {
@@ -7567,7 +7569,9 @@ export const publicSans = {
       }
     }
   }
-};\n\nexport const inconsolata = {
+};
+
+export const inconsolata = {
   "name": "Inconsolata",
   "key": "inconsolata",
   "attribution": {
@@ -9822,7 +9826,9 @@ export const publicSans = {
       }
     }
   }
-};\n\nexport const crimsonPro = {
+};
+
+export const crimsonPro = {
   "name": "Crimson Pro",
   "key": "crimson-pro",
   "attribution": {
@@ -10410,7 +10416,9 @@ export const publicSans = {
       }
     }
   }
-};\n\nexport const atkinsonHyperlegible = {
+};
+
+export const atkinsonHyperlegible = {
   "name": "Atkinson Hyperlegible",
   "key": "atkinson-hyperlegible",
   "attribution": {
@@ -10561,7 +10569,9 @@ export const publicSans = {
       }
     }
   }
-};\n\nexport const aspekta = {
+};
+
+export const aspekta = {
   "name": "Aspekta",
   "key": "aspekta",
   "attribution": {
