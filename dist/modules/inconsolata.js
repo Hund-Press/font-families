@@ -2338,7 +2338,7 @@ export default {
           "InconsolataVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-11T14:31:27.546Z"
+      "generatedAt": "2025-09-11T14:34:54.987Z"
     }
   }
 };
