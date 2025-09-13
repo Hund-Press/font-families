@@ -1036,8 +1036,11 @@
     "self": {
       "href": "/api/families/league-mono-thin-condensed.json"
     },
-    "catalog": {
-      "href": "/api/catalog.json"
+    "index": {
+      "href": "/api/families/"
+    },
+    "root": {
+      "href": "/api/"
     },
     "module": {
       "href": "/modules/league-mono-thin-condensed.js"

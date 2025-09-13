@@ -35,7 +35,7 @@ Rename the font family identifier from "slug" to "key" throughout the codebase t
 **Files:** All files in `dist/` (will be auto-updated by build)
 
 - `dist/modules/*.js` - Property in exported objects  
-- `dist/api/catalog.json` - Object keys and properties
+- `dist/api/families/*.json` - Object keys and properties
 - `dist/api/metadata/*.json` - Properties
 
 ### **Phase 3: Site Content & Templates**
@@ -183,7 +183,7 @@ Rename the font family identifier from "slug" to "key" throughout the codebase t
 **Status:** ✅ **AUTO-UPDATED** - All generated files now use `key`
 
 - ✅ `dist/modules/*.js` - All ES modules generated with `key` properties
-- ✅ `dist/api/catalog.json` - Catalog generated with `key` as object keys and properties
+- ✅ `dist/api/families/*.json` - Family endpoints generated with `key` properties
 - ✅ `dist/api/metadata/*.json` - Individual font metadata files use `key`
 
 **Result:** Generated files automatically updated by migrated build tools.

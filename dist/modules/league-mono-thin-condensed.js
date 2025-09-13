@@ -81,7 +81,7 @@ export default {
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/league-mono-thin-condensed/fonts/webfonts/",
     "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/league-mono-thin-condensed/fonts/ttf/",
     "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/league-mono-thin-condensed/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/_subsets/league-mono-thin-condensed/"
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/subsets/league-mono-thin-condensed/"
   },
   "faces": {
     "variable": {

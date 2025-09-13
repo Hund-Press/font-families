@@ -1273,144 +1273,6 @@
     "totalFiles": 82,
     "totalSizeKB": 3498
   },
-  "detailed": {
-    "languages": {
-      "unicodeRanges": {
-        "Basic Latin": {
-          "coverage": 0.7578125,
-          "start": 0,
-          "end": 127
-        },
-        "Latin-1 Supplement": {
-          "coverage": 0.75,
-          "start": 128,
-          "end": 255
-        },
-        "Latin Extended-A": {
-          "coverage": 0.96875,
-          "start": 256,
-          "end": 383
-        },
-        "Latin Extended-B": {
-          "coverage": 0.28846153846153844,
-          "start": 384,
-          "end": 591
-        },
-        "Latin Extended Additional": {
-          "coverage": 0.640625,
-          "start": 7680,
-          "end": 7935
-        },
-        "Greek and Coptic": {
-          "coverage": 0.006944444444444444,
-          "start": 880,
-          "end": 1023
-        }
-      },
-      "scripts": [
-        "Basic Latin",
-        "Latin-1 Supplement",
-        "Latin Extended-A",
-        "Latin Extended-B",
-        "Latin Extended Additional",
-        "Greek and Coptic"
-      ],
-      "primaryScript": "Latin Extended-A"
-    },
-    "variations": {
-      "wght": {
-        "min": 100,
-        "max": 900,
-        "default": 400,
-        "description": "Weight"
-      },
-      "wdth": {
-        "min": 50,
-        "max": 200,
-        "default": 100,
-        "description": "Width"
-      },
-      "namedInstances": [
-        {
-          "name": "Thin",
-          "coordinates": {
-            "wght": 100,
-            "wdth": 100
-          }
-        },
-        {
-          "name": "ExtraLight",
-          "coordinates": {
-            "wght": 200,
-            "wdth": 100
-          }
-        },
-        {
-          "name": "Light",
-          "coordinates": {
-            "wght": 300,
-            "wdth": 100
-          }
-        },
-        {
-          "name": "Regular",
-          "coordinates": {
-            "wght": 400,
-            "wdth": 100
-          }
-        },
-        {
-          "name": "Medium",
-          "coordinates": {
-            "wght": 500,
-            "wdth": 100
-          }
-        },
-        {
-          "name": "SemiBold",
-          "coordinates": {
-            "wght": 600,
-            "wdth": 100
-          }
-        },
-        {
-          "name": "Bold",
-          "coordinates": {
-            "wght": 700,
-            "wdth": 100
-          }
-        },
-        {
-          "name": "ExtraBold",
-          "coordinates": {
-            "wght": 800,
-            "wdth": 100
-          }
-        },
-        {
-          "name": "Black",
-          "coordinates": {
-            "wght": 900,
-            "wdth": 100
-          }
-        }
-      ]
-    },
-    "specimens": {
-      "sampleText": {
-        "latin": "The quick brown fox jumps over the lazy dog",
-        "uppercase": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-        "lowercase": "abcdefghijklmnopqrstuvwxyz",
-        "numbers": "0123456789",
-        "punctuation": "!@#$%^&*()_+-=[]{}|;:,.<>?"
-      },
-      "specimenFonts": {
-        "variable": "fonts/open-fonts/inconsolata/fonts/variable/Inconsolata[wdth,wght].ttf",
-        "regular": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedRegular.woff2",
-        "bold": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedExtraBold.woff2"
-      }
-    }
-  },
   "performance": {
     "fileCount": 82,
     "totalSizeKB": 3498,
@@ -1449,8 +1311,11 @@
     "self": {
       "href": "/api/families/inconsolata.json"
     },
-    "catalog": {
-      "href": "/api/catalog.json"
+    "index": {
+      "href": "/api/families/"
+    },
+    "root": {
+      "href": "/api/"
     },
     "module": {
       "href": "/modules/inconsolata.js"

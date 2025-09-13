@@ -69,7 +69,7 @@ export default {
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/",
     "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/atkinson-hyperlegible/fonts/ttf/",
     "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/atkinson-hyperlegible/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/_subsets/atkinson-hyperlegible/"
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/subsets/atkinson-hyperlegible/"
   },
   "faces": {
     "variable": {},
@@ -208,7 +208,7 @@ export default {
         "static": "AtkinsonHyperlegible-400-min.woff2",
         "variable": []
       },
-      "generatedAt": "2025-09-11T19:38:35.708Z"
+      "generatedAt": "2025-09-12T23:37:46.020Z"
     }
   }
 };

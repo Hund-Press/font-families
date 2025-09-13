@@ -1,23 +1,38 @@
-// Import font data from the repository root catalog
+// Import font data from the families index and individual family files
 import fs from 'fs';
 import path from 'path';
 
-function loadCatalogData() {
+function loadFamiliesData() {
   try {
-    const catalogPath = path.resolve('dist/api/catalog.json');
-    const catalogData = JSON.parse(fs.readFileSync(catalogPath, 'utf8'));
+    const familiesIndexPath = path.resolve('dist/api/families/index.json');
+    const indexData = JSON.parse(fs.readFileSync(familiesIndexPath, 'utf8'));
     
-    // Transform catalog structure to match template expectations
-    // Template expects: fontFamilies.fonts[slug]
-    // Catalog provides: families[slug]
+    const fonts = {};
+    let totalFiles = 0;
+    
+    // Load each individual family file
+    for (const [familyKey, familyInfo] of Object.entries(indexData.families || {})) {
+      try {
+        const familyPath = path.resolve(`dist/api/families/${familyKey}.json`);
+        const familyData = JSON.parse(fs.readFileSync(familyPath, 'utf8'));
+        fonts[familyKey] = familyData;
+        totalFiles += (familyData.files?.static?.length || 0) + (familyData.files?.variable?.length || 0);
+      } catch (error) {
+        console.warn(`Could not load family data for ${familyKey}:`, error.message);
+      }
+    }
+    
     return {
-      fonts: catalogData.families || {},
-      meta: catalogData.meta || {}
+      fonts,
+      meta: { 
+        fontCount: Object.keys(fonts).length,
+        totalFiles 
+      }
     };
   } catch (error) {
-    console.warn('Could not load catalog.json, returning empty data:', error.message);
+    console.warn('Could not load families index, returning empty data:', error.message);
     return { fonts: {}, meta: { fontCount: 0 } };
   }
 }
 
-export default loadCatalogData();
+export default loadFamiliesData();

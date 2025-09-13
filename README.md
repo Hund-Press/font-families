@@ -46,7 +46,7 @@ https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.0.0/{font-family}/fonts/
 ```
 font-families/
 ├── README.md                    # This file - usage and licensing
-├── catalog.json                 # Machine-readable font index
+├── dist/api/                    # API endpoints for font discovery
 ├── LICENSE.md                   # Repository-level licensing
 ├── aspekta/                     # Aspekta font family
 │   ├── README.md               # Font-specific documentation
@@ -155,7 +155,7 @@ To import new font families into the repository:
 
 4. **Verify Results**: Check that your font appears in:
    - `dist/modules/{font-name}.js` - ES module with CDN paths
-   - `dist/api/catalog.json` - Global font catalog
+   - `dist/api/families/` - Family-specific API endpoints
    - `dist/api/metadata/{font-name}.json` - Font-specific API data
    - `_subsets/{font-name}/` - Generated performance subsets
 
@@ -205,7 +205,7 @@ Each font family must include a `package.json` file with UFR metadata:
 ### Catalog API
 Machine-readable font information is available at:
 ```
-https://cdn.jsdelivr.net/gh/hund-press/font-families@main/catalog.json
+https://cdn.jsdelivr.net/gh/hund-press/font-families@main/dist/api/
 ```
 
 ### Family Metadata

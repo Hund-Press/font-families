@@ -1,11 +1,11 @@
 {
-  "family": "atkinson-hyperlegible",
+  "family": "public-sans",
   "originalFont": {
-    "name": "Atkinson Hyperlegible",
-    "version": "1.0.0",
-    "author": "Braille Institute of America",
+    "name": "Public Sans",
+    "version": "2.001",
+    "author": "USWDS",
     "license": "OFL-1.1",
-    "source": "../atkinson-hyperlegible/"
+    "source": "../public-sans/"
   },
   "subsets": {
     "min-chars": {
@@ -21,10 +21,13 @@
       ],
       "characterCount": 100,
       "status": "generated",
-      "generatedAt": "2025-09-11T19:38:35.708Z",
+      "generatedAt": "2025-09-12T23:37:46.017Z",
       "targetFiles": {
-        "static": "AtkinsonHyperlegible-400-min.woff2",
-        "variable": []
+        "static": "PublicSans-400-min.woff2",
+        "variable": [
+          "PublicSansVF-min.ttf",
+          "PublicSansVF-min.woff2"
+        ]
       },
       "note": "Minimal subset for font selection UI and performance-critical contexts"
     }
@@ -32,7 +35,7 @@
   "legalCompliance": {
     "originalLicense": "OFL-1.1",
     "derivativeStatus": "Planned derivative works will comply with OFL-1.1",
-    "attribution": "Original font design by Braille Institute of America. Subsets generated for web optimization only.",
-    "reservedFontName": "Atkinson Hyperlegible"
+    "attribution": "Original font design by USWDS. Subsets generated for web optimization only.",
+    "reservedFontName": "Public Sans"
   }
 }

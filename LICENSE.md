@@ -72,6 +72,6 @@ This repository maintains compliance with font licenses by:
 2. Maintaining complete original licensing information
 3. Clearly separating original fonts from derivative subsets
 4. Providing proper attribution for all font makers
-5. Including machine-readable license information in `catalog.json`
+5. Including machine-readable license information in API endpoints
 
 For questions about specific font licensing, refer to the original font maker's licensing terms in each font's directory.

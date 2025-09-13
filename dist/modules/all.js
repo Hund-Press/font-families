@@ -43,7 +43,7 @@ export default {
       "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/public-sans/fonts/webfonts/",
       "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/public-sans/fonts/ttf/",
       "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/public-sans/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/_subsets/public-sans/"
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/subsets/public-sans/"
     },
     "faces": {
       "variable": {
@@ -689,7 +689,7 @@ export default {
       "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/league-mono-thin-condensed/fonts/webfonts/",
       "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/league-mono-thin-condensed/fonts/ttf/",
       "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/league-mono-thin-condensed/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/_subsets/league-mono-thin-condensed/"
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/subsets/league-mono-thin-condensed/"
     },
     "faces": {
       "variable": {
@@ -1985,7 +1985,7 @@ export default {
       "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/inconsolata/fonts/webfonts/",
       "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/inconsolata/fonts/ttf/",
       "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/inconsolata/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/_subsets/inconsolata/"
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/subsets/inconsolata/"
     },
     "faces": {
       "variable": {
@@ -4240,7 +4240,7 @@ export default {
       "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/crimson-pro/fonts/webfonts/",
       "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/crimson-pro/fonts/ttf/",
       "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/crimson-pro/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/_subsets/crimson-pro/"
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/subsets/crimson-pro/"
     },
     "faces": {
       "variable": {
@@ -4821,7 +4821,7 @@ export default {
       "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/",
       "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/atkinson-hyperlegible/fonts/ttf/",
       "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/atkinson-hyperlegible/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/_subsets/atkinson-hyperlegible/"
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/subsets/atkinson-hyperlegible/"
     },
     "faces": {
       "variable": {},
@@ -4995,7 +4995,7 @@ export default {
       "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/aspekta/fonts/webfonts/",
       "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/aspekta/fonts/ttf/",
       "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/aspekta/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/_subsets/aspekta/"
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/subsets/aspekta/"
     },
     "faces": {
       "variable": {
@@ -5664,7 +5664,7 @@ export const publicSans = {
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/public-sans/fonts/webfonts/",
     "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/public-sans/fonts/ttf/",
     "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/public-sans/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/_subsets/public-sans/"
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/subsets/public-sans/"
   },
   "faces": {
     "variable": {
@@ -6311,7 +6311,7 @@ export const leagueMonoThinCondensed = {
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/league-mono-thin-condensed/fonts/webfonts/",
     "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/league-mono-thin-condensed/fonts/ttf/",
     "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/league-mono-thin-condensed/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/_subsets/league-mono-thin-condensed/"
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/subsets/league-mono-thin-condensed/"
   },
   "faces": {
     "variable": {
@@ -7608,7 +7608,7 @@ export const inconsolata = {
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/inconsolata/fonts/webfonts/",
     "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/inconsolata/fonts/ttf/",
     "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/inconsolata/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/_subsets/inconsolata/"
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/subsets/inconsolata/"
   },
   "faces": {
     "variable": {
@@ -9864,7 +9864,7 @@ export const crimsonPro = {
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/crimson-pro/fonts/webfonts/",
     "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/crimson-pro/fonts/ttf/",
     "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/crimson-pro/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/_subsets/crimson-pro/"
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/subsets/crimson-pro/"
   },
   "faces": {
     "variable": {
@@ -10446,7 +10446,7 @@ export const atkinsonHyperlegible = {
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/",
     "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/atkinson-hyperlegible/fonts/ttf/",
     "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/atkinson-hyperlegible/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/_subsets/atkinson-hyperlegible/"
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/subsets/atkinson-hyperlegible/"
   },
   "faces": {
     "variable": {},
@@ -10621,7 +10621,7 @@ export const aspekta = {
     "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/aspekta/fonts/webfonts/",
     "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/aspekta/fonts/ttf/",
     "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/aspekta/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/_subsets/aspekta/"
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/subsets/aspekta/"
   },
   "faces": {
     "variable": {

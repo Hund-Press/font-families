@@ -343,129 +343,6 @@
     "totalFiles": 20,
     "totalSizeKB": 955
   },
-  "detailed": {
-    "languages": {
-      "unicodeRanges": {
-        "Basic Latin": {
-          "coverage": 0.7578125,
-          "start": 0,
-          "end": 127
-        },
-        "Latin-1 Supplement": {
-          "coverage": 0.75,
-          "start": 128,
-          "end": 255
-        },
-        "Latin Extended-A": {
-          "coverage": 0.96875,
-          "start": 256,
-          "end": 383
-        },
-        "Latin Extended-B": {
-          "coverage": 0.21153846153846154,
-          "start": 384,
-          "end": 591
-        },
-        "Latin Extended Additional": {
-          "coverage": 0.4296875,
-          "start": 7680,
-          "end": 7935
-        },
-        "Greek and Coptic": {
-          "coverage": 0.006944444444444444,
-          "start": 880,
-          "end": 1023
-        }
-      },
-      "scripts": [
-        "Basic Latin",
-        "Latin-1 Supplement",
-        "Latin Extended-A",
-        "Latin Extended-B",
-        "Latin Extended Additional",
-        "Greek and Coptic"
-      ],
-      "primaryScript": "Latin Extended-A"
-    },
-    "variations": {
-      "wght": {
-        "min": 100,
-        "max": 900,
-        "default": 100,
-        "description": "Weight"
-      },
-      "namedInstances": [
-        {
-          "name": "Thin Italic",
-          "coordinates": {
-            "wght": 100
-          }
-        },
-        {
-          "name": "ExtraLight Italic",
-          "coordinates": {
-            "wght": 200
-          }
-        },
-        {
-          "name": "Light Italic",
-          "coordinates": {
-            "wght": 300
-          }
-        },
-        {
-          "name": "Italic",
-          "coordinates": {
-            "wght": 400
-          }
-        },
-        {
-          "name": "Medium Italic",
-          "coordinates": {
-            "wght": 500
-          }
-        },
-        {
-          "name": "SemiBold Italic",
-          "coordinates": {
-            "wght": 600
-          }
-        },
-        {
-          "name": "Bold Italic",
-          "coordinates": {
-            "wght": 700
-          }
-        },
-        {
-          "name": "ExtraBold Italic",
-          "coordinates": {
-            "wght": 800
-          }
-        },
-        {
-          "name": "Black Italic",
-          "coordinates": {
-            "wght": 900
-          }
-        }
-      ]
-    },
-    "specimens": {
-      "sampleText": {
-        "latin": "The quick brown fox jumps over the lazy dog",
-        "uppercase": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-        "lowercase": "abcdefghijklmnopqrstuvwxyz",
-        "numbers": "0123456789",
-        "punctuation": "!@#$%^&*()_+-=[]{}|;:,.<>?"
-      },
-      "specimenFonts": {
-        "variable": "fonts/open-fonts/public-sans/fonts/variable/PublicSans[wght].ttf",
-        "regular": "fonts/open-fonts/public-sans/fonts/webfonts/PublicSans-Regular.woff",
-        "bold": "fonts/open-fonts/public-sans/fonts/webfonts/PublicSans-ExtraBoldItalic.woff"
-      }
-    }
-  },
   "performance": {
     "fileCount": 20,
     "totalSizeKB": 955,
@@ -507,8 +384,11 @@
     "self": {
       "href": "/api/families/public-sans.json"
     },
-    "catalog": {
-      "href": "/api/catalog.json"
+    "index": {
+      "href": "/api/families/"
+    },
+    "root": {
+      "href": "/api/"
     },
     "module": {
       "href": "/modules/public-sans.js"

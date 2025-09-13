@@ -4,7 +4,6 @@
   "description": "Community-driven font collection API",
   "_links": {
     "self": { "href": "/api/" },
-    "catalog": { "href": "/api/catalog.json" },
     "families": { "href": "/api/families/" },
     "modules": { "href": "/modules/" }
   },

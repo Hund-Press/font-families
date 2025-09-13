@@ -1,11 +1,11 @@
 {
-  "family": "crimson-pro",
+  "family": "aspekta",
   "originalFont": {
-    "name": "Crimson Pro",
-    "version": "Unknown",
-    "author": "The Crimson Pro Project Authors",
+    "name": "Aspekta",
+    "version": "2.100",
+    "author": "Ivo Dolenc",
     "license": "OFL-1.1",
-    "source": "../crimson-pro/"
+    "source": "../aspekta/"
   },
   "subsets": {
     "min-chars": {
@@ -21,12 +21,12 @@
       ],
       "characterCount": 100,
       "status": "generated",
-      "generatedAt": "2025-09-11T19:38:35.707Z",
+      "generatedAt": "2025-09-12T23:37:46.021Z",
       "targetFiles": {
-        "static": "CrimsonPro-400-min.woff2",
+        "static": "Aspekta-400-min.woff2",
         "variable": [
-          "CrimsonProVF-min.ttf",
-          "CrimsonProVF-min.woff2"
+          "AspektaVF-min.ttf",
+          "AspektaVF-min.woff2"
         ]
       },
       "note": "Minimal subset for font selection UI and performance-critical contexts"
@@ -55,7 +55,7 @@
   "legalCompliance": {
     "originalLicense": "OFL-1.1",
     "derivativeStatus": "Planned derivative works will comply with OFL-1.1",
-    "attribution": "Original font design by The Crimson Pro Project Authors. Subsets generated for web optimization only.",
-    "reservedFontName": "Crimson Pro"
+    "attribution": "Original font design by Ivo Dolenc. Subsets generated for web optimization only.",
+    "reservedFontName": "Aspekta"
   }
 }

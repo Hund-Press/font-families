@@ -355,75 +355,6 @@
     "totalFiles": 21,
     "totalSizeKB": 502
   },
-  "detailed": {
-    "languages": {
-      "unicodeRanges": {
-        "Basic Latin": {
-          "coverage": 0.7265625,
-          "start": 0,
-          "end": 127
-        },
-        "Latin-1 Supplement": {
-          "coverage": 0.5703125,
-          "start": 128,
-          "end": 255
-        },
-        "Latin Extended-A": {
-          "coverage": 0.6953125,
-          "start": 256,
-          "end": 383
-        },
-        "Latin Extended-B": {
-          "coverage": 0.1201923076923077,
-          "start": 384,
-          "end": 591
-        },
-        "Latin Extended Additional": {
-          "coverage": 0.1796875,
-          "start": 7680,
-          "end": 7935
-        }
-      },
-      "scripts": [
-        "Basic Latin",
-        "Latin-1 Supplement",
-        "Latin Extended-A",
-        "Latin Extended-B",
-        "Latin Extended Additional"
-      ],
-      "primaryScript": "Basic Latin"
-    },
-    "variations": {
-      "wght": {
-        "min": 100,
-        "max": 900,
-        "default": 400,
-        "description": "Weight"
-      },
-      "namedInstances": [
-        {
-          "name": "Regular",
-          "coordinates": {
-            "wght": 400
-          }
-        }
-      ]
-    },
-    "specimens": {
-      "sampleText": {
-        "latin": "The quick brown fox jumps over the lazy dog",
-        "uppercase": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-        "lowercase": "abcdefghijklmnopqrstuvwxyz",
-        "numbers": "0123456789",
-        "punctuation": "!@#$%^&*()_+-=[]{}|;:,.<>?"
-      },
-      "specimenFonts": {
-        "variable": "fonts/open-fonts/aspekta/fonts/variable/AspektaVF.ttf",
-        "regular": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-400.woff2",
-        "bold": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-950.woff2"
-      }
-    }
-  },
   "performance": {
     "fileCount": 21,
     "totalSizeKB": 502,
@@ -463,8 +394,11 @@
     "self": {
       "href": "/api/families/aspekta.json"
     },
-    "catalog": {
-      "href": "/api/catalog.json"
+    "index": {
+      "href": "/api/families/"
+    },
+    "root": {
+      "href": "/api/"
     },
     "module": {
       "href": "/modules/aspekta.js"

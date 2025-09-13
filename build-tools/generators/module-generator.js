@@ -456,7 +456,7 @@ function generateCdnPaths(familyData, cdnBaseUrl, repoVersion = 'latest') {
         static: `${baseCdnUrl}/fonts/open-fonts/${familyData.key}/fonts/webfonts/`,
         ttf: `${baseCdnUrl}/fonts/open-fonts/${familyData.key}/fonts/ttf/`,
         otf: `${baseCdnUrl}/fonts/open-fonts/${familyData.key}/fonts/otf/`,
-        subsets: `${baseCdnUrl}/_subsets/${familyData.key}/`
+        subsets: `${baseCdnUrl}/subsets/${familyData.key}/`
     };
 }
 
@@ -876,7 +876,7 @@ export const availableFonts = Object.keys(fontMap);
  */
 async function generateSubsetInfo(familyData) {
     const subsets = {};
-    const subsetMetadataPath = path.join('_subsets', familyData.key, 'metadata.json');
+    const subsetMetadataPath = path.join('subsets', familyData.key, 'metadata.json');
     
     try {
         const metadataContent = await fs.readFile(subsetMetadataPath, 'utf8');

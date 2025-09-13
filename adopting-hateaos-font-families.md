@@ -11,7 +11,7 @@ The font-families project has undergone a major architectural shift to implement
 The font-families project now provides a fully discoverable hypermedia API:
 
 - **Root Discovery**: `/api/index.json` - Entry point with capabilities and navigation
-- **Enhanced Catalog**: `/api/catalog.json` - Full catalog with HATEOAS links  
+- **Family Index**: `/api/families/index.json` - Lightweight index with HATEOAS links  
 - **Individual Families**: `/api/families/{family}.json` - Dedicated endpoints per family
 - **CDN Integration**: Direct download links embedded in all resources
 
@@ -32,7 +32,7 @@ The font-families project now provides a fully discoverable hypermedia API:
 // Discovery-driven structure with embedded navigation
 {
   "_links": {
-    "self": { "href": "/api/catalog.json" },
+    "self": { "href": "/api/families/index.json" },
     "root": { "href": "/api/" },
     "families": { "href": "/api/families/" }
   },
@@ -67,7 +67,7 @@ The font-families project now provides a fully discoverable hypermedia API:
 
 **❌ Old Approach (Hardcoded):**
 ```javascript
-const CATALOG_URL = 'https://cdn.jsdelivr.net/gh/hund-press/font-families@latest/dist/api/catalog.json';
+const FAMILIES_INDEX_URL = 'https://cdn.jsdelivr.net/gh/hund-press/font-families@latest/dist/api/families/index.json';
 ```
 
 **✅ New Approach (Discovery-Based):**
@@ -124,7 +124,7 @@ const aspektaData = await aspektaResponse.json();
 **Example Fix:**
 ```javascript
 // OLD
-const CATALOG_URL = 'https://cdn.jsdelivr.net/gh/hund-press/font-families/dist/api/catalog.json';
+const FAMILIES_INDEX_URL = 'https://cdn.jsdelivr.net/gh/hund-press/font-families/dist/api/families/index.json';
 
 // NEW - Start with discovery
 const ROOT_API = 'https://cdn.jsdelivr.net/gh/hund-press/font-families/dist/api/index.json';
@@ -165,7 +165,7 @@ const fixedContent = moduleContent.replace(/regex/, 'fixed-url');
 
 ### 4. Update Test Fixtures
 
-**File**: `tests/fixtures/font-families/catalog.json`
+**File**: `tests/fixtures/font-families/api/families/index.json`
 
 **Needs Update To:**
 - Include HATEOAS `_links` structure  

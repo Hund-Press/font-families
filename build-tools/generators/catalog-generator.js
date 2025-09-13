@@ -9,37 +9,30 @@ import { promises as fs } from 'fs';
 import path from 'path';
 
 /**
- * Generate catalog JSON file with HATEOAS links
+ * Generate families index and individual family files
  * @param {Object} fontFamilies - Font family data
- * @param {string} outputPath - Output file path
+ * @param {string} outputPath - Output directory path (not used, for compatibility)
  * @param {Object} options - Generation options
  */
 export async function generateCatalog(fontFamilies, outputPath, options = {}) {
     const {
         includeRestrictedFonts = false,
-        title = 'Font Families Catalog',
-        description = 'Curated font collection',
         version = '1.0.0'
     } = options;
     
-    console.log(`[catalog] Generating catalog: ${path.basename(outputPath)}`);
-    console.log(`[catalog] Font families: ${Object.keys(fontFamilies).length}`);
-    console.log(`[catalog] Include restricted: ${includeRestrictedFonts}`);
+    console.log(`[families] Generating families index and individual files`);
+    console.log(`[families] Font families: ${Object.keys(fontFamilies).length}`);
+    console.log(`[families] Include restricted: ${includeRestrictedFonts}`);
     
-    // Build catalog structure with HATEOAS links
-    const catalog = {
-        meta: {
-            title,
-            description,
-            version,
-            generated: new Date().toISOString(),
-            fontCount: Object.keys(fontFamilies).length,
-            includesRestrictedFonts: includeRestrictedFonts
-        },
+    const familiesDir = path.join(path.dirname(outputPath), 'families');
+    
+    // Build families index
+    const familiesIndex = {
+        name: 'Font Families Index',
+        description: 'Index of all available font families',
         _links: {
-            self: { href: '/api/catalog.json' },
-            root: { href: '/api/' },
-            families: { href: '/api/families/' }
+            self: { href: '/api/families/' },
+            root: { href: '/api/' }
         },
         families: {}
     };
@@ -51,6 +44,15 @@ export async function generateCatalog(fontFamilies, outputPath, options = {}) {
             continue;
         }
         
+        // Add to families index (just name and link)
+        familiesIndex.families[familyData.key] = {
+            name: familyData.name,
+            _links: {
+                self: { href: `/api/families/${familyData.key}.json` }
+            }
+        };
+        
+        // Generate individual family JSON file
         const catalogEntry = transformFamilyForCatalog(familyData, {
             includeFullMetadata: includeRestrictedFonts,
             includePerformanceData: true,
@@ -58,30 +60,18 @@ export async function generateCatalog(fontFamilies, outputPath, options = {}) {
             version: version
         });
         
-        // Add HATEOAS links to family entry
-        catalogEntry._links = {
-            self: { href: `/api/families/${familyData.key}.json` },
-            module: { href: `/modules/${familyData.key}.js` },
-            preview: { href: `/fonts/${familyData.key}/` }
-        };
-        
-        catalog.families[familyData.key] = catalogEntry;
-        
-        // Generate individual family JSON file
-        await generateIndividualFamilyFile(familyData, catalogEntry, outputPath, version);
+        await generateIndividualFamilyFile(familyData, catalogEntry, familiesDir, version);
     }
     
-    // Update final count after filtering
-    catalog.meta.fontCount = Object.keys(catalog.families).length;
+    // Ensure families directory exists
+    await fs.mkdir(familiesDir, { recursive: true });
     
-    // Ensure output directory exists
-    await fs.mkdir(path.dirname(outputPath), { recursive: true });
+    // Write families index file
+    const indexPath = path.join(familiesDir, 'index.json');
+    await fs.writeFile(indexPath, JSON.stringify(familiesIndex, null, 2));
     
-    // Write catalog file
-    await fs.writeFile(outputPath, JSON.stringify(catalog, null, 2));
-    
-    console.log(`[catalog] Generated catalog with ${catalog.meta.fontCount} families`);
-    console.log(`[catalog] Written to: ${outputPath}`);
+    console.log(`[families] Generated families index with ${Object.keys(familiesIndex.families).length} families`);
+    console.log(`[families] Written to: ${indexPath}`);
 }
 
 /**
@@ -525,19 +515,19 @@ function extractSpecimenFontPaths(familyData) {
  * Generate individual family JSON file
  * @param {Object} familyData - Font family data
  * @param {Object} catalogEntry - Processed catalog entry
- * @param {string} catalogOutputPath - Main catalog output path
+ * @param {string} familiesDir - Families directory path
  * @param {string} version - API version
  */
-async function generateIndividualFamilyFile(familyData, catalogEntry, catalogOutputPath, version) {
-    const familyDir = path.join(path.dirname(catalogOutputPath), 'families');
-    const familyPath = path.join(familyDir, `${familyData.key}.json`);
+async function generateIndividualFamilyFile(familyData, catalogEntry, familiesDir, version) {
+    const familyPath = path.join(familiesDir, `${familyData.key}.json`);
     
     // Create enhanced family object with full HATEOAS structure
     const familyFile = {
         ...catalogEntry,
         _links: {
             self: { href: `/api/families/${familyData.key}.json` },
-            catalog: { href: '/api/catalog.json' },
+            index: { href: '/api/families/' },
+            root: { href: '/api/' },
             module: { href: `/modules/${familyData.key}.js` },
             preview: { href: `/fonts/${familyData.key}/` },
             cdn: {
@@ -548,11 +538,11 @@ async function generateIndividualFamilyFile(familyData, catalogEntry, catalogOut
     };
     
     // Ensure family directory exists
-    await fs.mkdir(familyDir, { recursive: true });
+    await fs.mkdir(familiesDir, { recursive: true });
     
     // Write individual family file
     await fs.writeFile(familyPath, JSON.stringify(familyFile, null, 2));
     
-    console.log(`[catalog] Generated individual family file: ${familyPath}`);
+    console.log(`[families] Generated individual family file: ${familyPath}`);
 }
 

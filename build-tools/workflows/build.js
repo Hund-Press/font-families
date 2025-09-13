@@ -5,7 +5,7 @@
  * 
  * Master build process that:
  * 1. Scans fonts in both open-fonts/ and restricted-fonts/
- * 2. Generates separate catalogs: catalog.json (open only) and complete-catalog.json (all)
+ * 2. Generates family index and individual family endpoints for API navigation
  * 3. Creates ES modules for open fonts only (public CDN)
  * 4. Validates licensing and file integrity
  * 5. Builds catalog site with open fonts only
@@ -183,26 +183,16 @@ async function validateAllLicensing(openFonts, restrictedFonts) {
 }
 
 /**
- * Generate all catalog files
+ * Generate families index and individual family files
  */
 async function generateAllCatalogs(openFonts, allFonts) {
     // Get package version for catalog metadata
     const packageJson = JSON.parse(await fs.readFile('./package.json', 'utf8'));
     const version = packageJson.version;
     
-    // Generate public catalog (open fonts only)
-    await generateCatalog(openFonts, path.join(BUILD_CONFIG.apiDir, 'catalog.json'), {
+    // Generate families index and individual files (open fonts only)
+    await generateCatalog(openFonts, path.join(BUILD_CONFIG.apiDir, 'families'), {
         includeRestrictedFonts: false,
-        title: 'Font Families - Open Font Collection',
-        description: 'Curated collection of open-licensed fonts',
-        version
-    });
-    
-    // Generate complete catalog (all fonts) 
-    await generateCatalog(allFonts, path.join(BUILD_CONFIG.apiDir, 'complete-catalog.json'), {
-        includeRestrictedFonts: true,
-        title: 'Font Families - Complete Collection', 
-        description: 'Complete font collection including restricted-licensed fonts',
         version
     });
     
@@ -328,8 +318,7 @@ async function buildCatalogSite(openFonts) {
  */
 async function finalValidation() {
     const requiredFiles = [
-        path.join(BUILD_CONFIG.apiDir, 'catalog.json'),
-        path.join(BUILD_CONFIG.apiDir, 'complete-catalog.json'),
+        path.join(BUILD_CONFIG.apiDir, 'families', 'index.json'),
         path.join(BUILD_CONFIG.modulesDir, 'index.js'),
         path.join('./site/_data', 'fontFamilies.js')
     ];
@@ -351,7 +340,7 @@ async function finalValidation() {
  * Validate generated subset files
  */
 async function validateSubsets() {
-    const subsetsDir = '_subsets';
+    const subsetsDir = 'subsets';
     
     try {
         const families = await fs.readdir(subsetsDir);

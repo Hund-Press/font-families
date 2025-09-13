@@ -19,7 +19,7 @@ import { promisify } from 'util';
 const execAsync = promisify(exec);
 
 const CONFIG = {
-    subsetsDir: './_subsets',
+    subsetsDir: './subsets',
     fontsDir: './fonts/open-fonts',
     // Character sets for different subset types
     characterSets: {

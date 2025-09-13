@@ -158,7 +158,6 @@ Successfully implemented a fully functional HATEOAS API without expanding functi
   "description": "Community-driven font collection API",
   "_links": {
     "self": { "href": "/api/" },
-    "catalog": { "href": "/api/catalog.json" },
     "families": { "href": "/api/families/" },
     "modules": { "href": "/modules/" }
   },
@@ -171,7 +170,7 @@ Successfully implemented a fully functional HATEOAS API without expanding functi
 }
 ```
 
-#### **Enhanced Catalog Structure** (`/api/catalog.json`)
+#### **Family Index Structure** (`/api/families/index.json`)
 - Added top-level `_links` with self, root, and families navigation
 - Each family entry includes HATEOAS links:
   - Individual family JSON file
@@ -206,7 +205,7 @@ Every font file now includes direct download links:
 
 ### **Future Implementation Path**
 
-~~1. **Phase 1**: Add `_links` to existing catalog.json~~ ✅ **COMPLETE**
+~~1. **Phase 1**: Add `_links` to existing catalog.json~~ ✅ **REPLACED with family endpoints**
 2. **Phase 2**: Create dedicated API endpoints with full HATEOAS *(partially complete - individual family endpoints implemented)*
 3. **Phase 3**: Add templated URLs and action affordances *(future enhancement)*
 4. **Phase 4**: Client SDKs that leverage hypermedia for auto-discovery *(future enhancement)*
