@@ -1,0 +1,80 @@
+{
+  "family": "crimson-pro",
+  "name": "Crimson Pro Subsets",
+  "derivativeWorkNotice": {
+    "status": "Performance-optimized derivative works",
+    "originalSource": "/api/families/crimson-pro.json",
+    "legalCompliance": "OFL-1.1 compliant derivatives with full attribution"
+  },
+  "links": {
+    "self": {
+      "href": "/api/subsets/crimson-pro.json"
+    },
+    "original-family": {
+      "href": "/api/families/crimson-pro.json"
+    },
+    "subsets": {
+      "href": "/api/subsets/crimson-pro/"
+    }
+  },
+  "subsets": {
+    "min-chars": {
+      "description": "Minimal character set for performance-critical contexts (100 characters)",
+      "status": "generated",
+      "characterCount": 100,
+      "unicodeRanges": [
+        "U+0020-007F",
+        "U+00A0",
+        "U+2013-2014",
+        "U+2018-2019",
+        "U+201C-201D",
+        "U+2026"
+      ],
+      "generatedAt": "2025-09-12T23:37:46.019Z",
+      "links": {
+        "self": {
+          "href": "/api/subsets/crimson-pro/min-chars.json"
+        }
+      },
+      "fileSizes": {
+        "static": 34.4,
+        "variable": 0
+      }
+    },
+    "latin-basic": {
+      "description": "Basic Latin character set (A-Z, a-z, 0-9, basic punctuation)",
+      "status": "planned",
+      "unicodeRanges": [
+        "U+0020-007F",
+        "U+00A0-00FF"
+      ],
+      "generatedAt": null,
+      "links": {
+        "self": {
+          "href": "/api/subsets/crimson-pro/latin-basic.json"
+        }
+      }
+    },
+    "cyrillic": {
+      "description": "Cyrillic character set for Russian, Bulgarian, Serbian, etc.",
+      "status": "planned",
+      "unicodeRanges": [
+        "U+0400-04FF",
+        "U+0500-052F"
+      ],
+      "generatedAt": null,
+      "links": {
+        "self": {
+          "href": "/api/subsets/crimson-pro/cyrillic.json"
+        }
+      }
+    }
+  },
+  "sourceFont": {
+    "name": "Crimson Pro",
+    "version": "Unknown",
+    "author": "The Crimson Pro Project Authors",
+    "license": "OFL-1.1",
+    "originalLocation": "/crimson-pro/"
+  }
+}

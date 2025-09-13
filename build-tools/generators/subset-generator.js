@@ -290,9 +290,11 @@ class SubsetGenerator {
     }
 
     /**
-     * Create subset metadata file
+     * Create subset metadata file with HATEOAS links
      */
-    async createSubsetMetadata(subsetDir, subsetName, characterSet, generatedFiles, sourceMetadata) {
+    async createSubsetMetadata(subsetDir, subsetName, characterSet, generatedFiles, sourceMetadata, version = 'v1.7.0') {
+        const familyName = sourceMetadata.family;
+        
         const metadata = {
             subset: subsetName,
             description: characterSet.description,
@@ -302,12 +304,38 @@ class SubsetGenerator {
             generatedAt: new Date().toISOString(),
             generatedBy: 'font-families-subset-generator',
             method: 'fonttools pyftsubset',
-            files: generatedFiles.map(file => ({
-                filename: path.basename(file.outputPath),
-                size: file.size,
-                format: path.extname(file.outputPath).substring(1),
-                command: file.command
-            })),
+            links: {
+                self: { href: `/subsets/${familyName}/${subsetName}/metadata.json` },
+                api: { href: `/api/subsets/${familyName}/${subsetName}.json` },
+                parent: { href: `/subsets/${familyName}/metadata.json` },
+                "original-family": { href: `/api/families/${familyName}.json` }
+            },
+            files: generatedFiles.map(file => {
+                const filename = path.basename(file.outputPath);
+                const format = path.extname(file.outputPath).substring(1);
+                const isVariable = filename.includes('VF');
+                
+                const fileInfo = {
+                    filename: filename,
+                    size: file.size,
+                    format: format,
+                    weight: !isVariable ? 400 : undefined,
+                    style: 'normal',
+                    isVariable: isVariable,
+                    links: {
+                        download: {
+                            href: `https://cdn.jsdelivr.net/gh/hund-press/font-families@${version}/subsets/${familyName}/${subsetName}/${filename}`
+                        }
+                    },
+                    command: file.command
+                };
+                
+                if (isVariable) {
+                    fileInfo.axes = { wght: { min: 100, max: 900, default: 400 } };
+                }
+                
+                return fileInfo;
+            }),
             sourceFont: {
                 family: sourceMetadata.family,
                 name: sourceMetadata.originalFont.name,

@@ -14,24 +14,52 @@
   "generatedAt": "2025-09-01T14:47:55.076Z",
   "generatedBy": "font-families-subset-generator",
   "method": "fonttools pyftsubset",
+  "links": {
+    "self": { "href": "/subsets/aspekta/min-chars/metadata.json" },
+    "api": { "href": "/api/subsets/aspekta/min-chars.json" },
+    "parent": { "href": "/subsets/aspekta/metadata.json" },
+    "original-family": { "href": "/api/families/aspekta.json" }
+  },
   "files": [
     {
       "filename": "Aspekta-400-min.woff2",
       "size": 4244,
       "format": "woff2",
-      "command": "source .venv/bin/activate && pyftsubset \"fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-400.woff2\" --text=\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\\\"#$%&'()*+,-./:;=?[]_ —–''\\\"\\\"…\" --output-file=\"_subsets/aspekta/min-chars/Aspekta-400-min.woff2\" --flavor=woff2 --desubroutinize --with-zopfli --layout-features-=kern --drop-tables+=GPOS,GSUB --no-hinting"
+      "weight": 400,
+      "style": "normal",
+      "isVariable": false,
+      "links": {
+        "download": {
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.7.0/subsets/aspekta/min-chars/Aspekta-400-min.woff2"
+        }
+      },
+      "command": "source .venv/bin/activate && pyftsubset \"fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-400.woff2\" --text=\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\\\"#$%&'()*+,-./:;=?[]_ —–''\\\"\\\"…\" --output-file=\"subsets/aspekta/min-chars/Aspekta-400-min.woff2\" --flavor=woff2 --desubroutinize --with-zopfli --layout-features-=kern --drop-tables+=GPOS,GSUB --no-hinting"
     },
     {
       "filename": "AspektaVF-min.ttf",
       "size": 16224,
       "format": "ttf",
-      "command": "source .venv/bin/activate && pyftsubset \"fonts/open-fonts/aspekta/fonts/variable/AspektaVF.ttf\" --text=\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\\\"#$%&'()*+,-./:;=?[]_ —–''\\\"\\\"…\" --output-file=\"_subsets/aspekta/min-chars/AspektaVF-min.ttf\" --desubroutinize --layout-features-=kern --drop-tables+=GPOS,GSUB --no-hinting"
+      "isVariable": true,
+      "axes": { "wght": { "min": 100, "max": 900, "default": 400 } },
+      "links": {
+        "download": {
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.7.0/subsets/aspekta/min-chars/AspektaVF-min.ttf"
+        }
+      },
+      "command": "source .venv/bin/activate && pyftsubset \"fonts/open-fonts/aspekta/fonts/variable/AspektaVF.ttf\" --text=\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\\\"#$%&'()*+,-./:;=?[]_ —–''\\\"\\\"…\" --output-file=\"subsets/aspekta/min-chars/AspektaVF-min.ttf\" --desubroutinize --layout-features-=kern --drop-tables+=GPOS,GSUB --no-hinting"
     },
     {
       "filename": "AspektaVF-min.woff2",
       "size": 9848,
       "format": "woff2",
-      "command": "source .venv/bin/activate && pyftsubset \"fonts/open-fonts/aspekta/fonts/variable/AspektaVF.ttf\" --text=\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\\\"#$%&'()*+,-./:;=?[]_ —–''\\\"\\\"…\" --output-file=\"_subsets/aspekta/min-chars/AspektaVF-min.woff2\" --flavor=woff2 --desubroutinize --with-zopfli --layout-features-=kern --drop-tables+=GPOS,GSUB --no-hinting"
+      "isVariable": true,
+      "axes": { "wght": { "min": 100, "max": 900, "default": 400 } },
+      "links": {
+        "download": {
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.7.0/subsets/aspekta/min-chars/AspektaVF-min.woff2"
+        }
+      },
+      "command": "source .venv/bin/activate && pyftsubset \"fonts/open-fonts/aspekta/fonts/variable/AspektaVF.ttf\" --text=\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\\\"#$%&'()*+,-./:;=?[]_ —–''\\\"\\\"…\" --output-file=\"subsets/aspekta/min-chars/AspektaVF-min.woff2\" --flavor=woff2 --desubroutinize --with-zopfli --layout-features-=kern --drop-tables+=GPOS,GSUB --no-hinting"
     }
   ],
   "sourceFont": {

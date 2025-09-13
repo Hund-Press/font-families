@@ -1,0 +1,79 @@
+{
+  "family": "crimson-pro",
+  "subset": "min-chars",
+  "description": "Minimal character set for performance-critical contexts",
+  "derivativeWorkNotice": {
+    "status": "This is a derivative work optimized for web performance",
+    "originalAuthor": "The Crimson Pro Project Authors",
+    "originalLicense": "OFL-1.1",
+    "derivativeCompliance": "Subset generation complies with OFL-1.1 requirements"
+  },
+  "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+,-./:;=?[]_ —–''\"\"…",
+  "unicodeRanges": [
+    "U+0020-007F",
+    "U+00A0",
+    "U+2013-2014",
+    "U+2018-2019",
+    "U+201C-201D",
+    "U+2026"
+  ],
+  "characterCount": 100,
+  "generatedAt": "2025-09-02T13:22:07.305Z",
+  "generationMethod": "fonttools pyftsubset",
+  "links": {
+    "self": {
+      "href": "/api/subsets/crimson-pro/min-chars.json"
+    },
+    "parent": {
+      "href": "/api/subsets/crimson-pro.json"
+    },
+    "original-family": {
+      "href": "/api/families/crimson-pro.json"
+    }
+  },
+  "files": [
+    {
+      "filename": "CrimsonPro-400-min.woff2",
+      "format": "woff2",
+      "fileSize": 6056,
+      "fileSizeKB": 5.9,
+      "compressionRatio": 0.275,
+      "links": {
+        "download": {
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.7.0/subsets/crimson-pro/min-chars/CrimsonPro-400-min.woff2"
+        }
+      }
+    },
+    {
+      "filename": "CrimsonProVF-min.ttf",
+      "format": "ttf",
+      "fileSize": 35196,
+      "fileSizeKB": 34.4,
+      "compressionRatio": 1.6,
+      "links": {
+        "download": {
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.7.0/subsets/crimson-pro/min-chars/CrimsonProVF-min.ttf"
+        }
+      }
+    },
+    {
+      "filename": "CrimsonProVF-min.woff2",
+      "format": "woff2",
+      "fileSize": 20280,
+      "fileSizeKB": 19.8,
+      "compressionRatio": 0.922,
+      "links": {
+        "download": {
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.7.0/subsets/crimson-pro/min-chars/CrimsonProVF-min.woff2"
+        }
+      }
+    }
+  ],
+  "performanceMetrics": {
+    "originalSizeKB": 22,
+    "subsetSizeKB": 5.9,
+    "sizeReduction": "73%",
+    "estimatedLoadTime3G": "0.1s",
+    "recommendedUseCase": "Enhanced typography, extended character support"
+  }
+}

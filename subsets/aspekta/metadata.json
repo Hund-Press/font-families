@@ -7,6 +7,11 @@
     "license": "OFL-1.1",
     "source": "../aspekta/"
   },
+  "links": {
+    "self": { "href": "/subsets/aspekta/metadata.json" },
+    "api": { "href": "/api/subsets/aspekta.json" },
+    "original-family": { "href": "/api/families/aspekta.json" }
+  },
   "subsets": {
     "min-chars": {
       "description": "Minimal character set for performance-critical contexts (100 characters)",

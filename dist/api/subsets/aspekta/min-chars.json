@@ -1,0 +1,98 @@
+{
+  "family": "aspekta",
+  "subset": "min-chars",
+  "description": "Minimal character set for performance-critical contexts",
+  "derivativeWorkNotice": {
+    "status": "This is a derivative work optimized for web performance",
+    "originalAuthor": "Ivo Dolenc",
+    "originalLicense": "OFL-1.1",
+    "derivativeCompliance": "Subset generation complies with OFL-1.1 requirements"
+  },
+  "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+,-./:;=?[]_ —–''\"\"…",
+  "unicodeRanges": [
+    "U+0020-007F",
+    "U+00A0",
+    "U+2013-2014",
+    "U+2018-2019",
+    "U+201C-201D",
+    "U+2026"
+  ],
+  "characterCount": 100,
+  "generatedAt": "2025-09-01T14:47:55.076Z",
+  "generationMethod": "fonttools pyftsubset",
+  "links": {
+    "self": {
+      "href": "/api/subsets/aspekta/min-chars.json"
+    },
+    "parent": {
+      "href": "/api/subsets/aspekta.json"
+    },
+    "original-family": {
+      "href": "/api/families/aspekta.json"
+    }
+  },
+  "files": [
+    {
+      "filename": "Aspekta-400-min.woff2",
+      "format": "woff2",
+      "weight": 400,
+      "style": "normal",
+      "isVariable": false,
+      "fileSize": 4244,
+      "fileSizeKB": 4.1,
+      "compressionRatio": 0.193,
+      "links": {
+        "download": {
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.7.0/subsets/aspekta/min-chars/Aspekta-400-min.woff2"
+        }
+      }
+    },
+    {
+      "filename": "AspektaVF-min.ttf",
+      "format": "ttf",
+      "isVariable": true,
+      "fileSize": 16224,
+      "fileSizeKB": 15.8,
+      "compressionRatio": 0.239,
+      "axes": {
+        "wght": {
+          "min": 100,
+          "max": 900,
+          "default": 400
+        }
+      },
+      "links": {
+        "download": {
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.7.0/subsets/aspekta/min-chars/AspektaVF-min.ttf"
+        }
+      }
+    },
+    {
+      "filename": "AspektaVF-min.woff2",
+      "format": "woff2",
+      "isVariable": true,
+      "fileSize": 9848,
+      "fileSizeKB": 9.6,
+      "compressionRatio": 0.145,
+      "axes": {
+        "wght": {
+          "min": 100,
+          "max": 900,
+          "default": 400
+        }
+      },
+      "links": {
+        "download": {
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.7.0/subsets/aspekta/min-chars/AspektaVF-min.woff2"
+        }
+      }
+    }
+  ],
+  "performanceMetrics": {
+    "originalSizeKB": 22,
+    "subsetSizeKB": 4.1,
+    "sizeReduction": "81%",
+    "estimatedLoadTime3G": "0.1s",
+    "recommendedUseCase": "Critical path font loading, font picker previews"
+  }
+}

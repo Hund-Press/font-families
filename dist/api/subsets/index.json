@@ -1,0 +1,57 @@
+{
+  "name": "Font Subsets API",
+  "description": "Performance-optimized derivative works from original font families",
+  "links": {
+    "self": {
+      "href": "/api/subsets/"
+    },
+    "root": {
+      "href": "/api/"
+    }
+  },
+  "derivativeWorkNotice": {
+    "status": "These are derivative works generated for web performance optimization",
+    "originalSources": "All original fonts remain in font family directories",
+    "legalCompliance": "Full attribution and licensing preserved in subset metadata"
+  },
+  "availableSubsets": {
+    "min-chars": {
+      "description": "100-character minimal set for critical performance",
+      "characterCount": 100,
+      "useCase": "First paint optimization, font picker previews"
+    },
+    "latin-basic": {
+      "description": "Basic Latin + Latin-1 Supplement",
+      "characterCount": 500,
+      "useCase": "Western European languages"
+    },
+    "cyrillic": {
+      "description": "Cyrillic script support",
+      "characterCount": 200,
+      "useCase": "Russian, Bulgarian, Serbian languages"
+    }
+  },
+  "families": {
+    ".DS_Store": {
+      "href": "/api/subsets/.DS_Store.json"
+    },
+    "aspekta": {
+      "href": "/api/subsets/aspekta.json"
+    },
+    "atkinson-hyperlegible": {
+      "href": "/api/subsets/atkinson-hyperlegible.json"
+    },
+    "crimson-pro": {
+      "href": "/api/subsets/crimson-pro.json"
+    },
+    "inconsolata": {
+      "href": "/api/subsets/inconsolata.json"
+    },
+    "league-mono": {
+      "href": "/api/subsets/league-mono.json"
+    },
+    "public-sans": {
+      "href": "/api/subsets/public-sans.json"
+    }
+  }
+}

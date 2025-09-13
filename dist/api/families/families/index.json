@@ -1,0 +1,22 @@
+{
+  "name": "Font Families Index",
+  "description": "Index of all available font families",
+  "links": {
+    "self": {
+      "href": "/api/families/"
+    },
+    "root": {
+      "href": "/api/"
+    }
+  },
+  "families": {
+    "aspekta": {
+      "name": "Aspekta",
+      "links": {
+        "self": {
+          "href": "/api/families/aspekta.json"
+        }
+      }
+    }
+  }
+}

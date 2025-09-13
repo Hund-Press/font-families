@@ -1,0 +1,80 @@
+{
+  "family": "aspekta",
+  "name": "Aspekta Subsets",
+  "derivativeWorkNotice": {
+    "status": "Performance-optimized derivative works",
+    "originalSource": "/api/families/aspekta.json",
+    "legalCompliance": "OFL-1.1 compliant derivatives with full attribution"
+  },
+  "links": {
+    "self": {
+      "href": "/api/subsets/aspekta.json"
+    },
+    "original-family": {
+      "href": "/api/families/aspekta.json"
+    },
+    "subsets": {
+      "href": "/api/subsets/aspekta/"
+    }
+  },
+  "subsets": {
+    "min-chars": {
+      "description": "Minimal character set for performance-critical contexts (100 characters)",
+      "status": "generated",
+      "characterCount": 100,
+      "unicodeRanges": [
+        "U+0020-007F",
+        "U+00A0",
+        "U+2013-2014",
+        "U+2018-2019",
+        "U+201C-201D",
+        "U+2026"
+      ],
+      "generatedAt": "2025-09-12T23:37:46.021Z",
+      "links": {
+        "self": {
+          "href": "/api/subsets/aspekta/min-chars.json"
+        }
+      },
+      "fileSizes": {
+        "static": 4.1,
+        "variable": 15.8
+      }
+    },
+    "latin-basic": {
+      "description": "Basic Latin character set (A-Z, a-z, 0-9, basic punctuation)",
+      "status": "planned",
+      "unicodeRanges": [
+        "U+0020-007F",
+        "U+00A0-00FF"
+      ],
+      "generatedAt": null,
+      "links": {
+        "self": {
+          "href": "/api/subsets/aspekta/latin-basic.json"
+        }
+      }
+    },
+    "cyrillic": {
+      "description": "Cyrillic character set for Russian, Bulgarian, Serbian, etc.",
+      "status": "planned",
+      "unicodeRanges": [
+        "U+0400-04FF",
+        "U+0500-052F"
+      ],
+      "generatedAt": null,
+      "links": {
+        "self": {
+          "href": "/api/subsets/aspekta/cyrillic.json"
+        }
+      }
+    }
+  },
+  "sourceFont": {
+    "name": "Aspekta",
+    "version": "2.100",
+    "author": "Ivo Dolenc",
+    "license": "OFL-1.1",
+    "originalLocation": "/aspekta/"
+  }
+}

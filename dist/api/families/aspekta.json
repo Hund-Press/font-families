@@ -30,9 +30,9 @@
         "stretch": "normal",
         "fileSize": 22860,
         "fileSizeKB": 22,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-950.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.7.0/aspekta/fonts/webfonts/Aspekta-950.woff2"
           }
         }
       },
@@ -390,7 +390,7 @@
     "hasOldStyleFigures": false,
     "hasTabularFigures": false
   },
-  "_links": {
+  "links": {
     "self": {
       "href": "/api/families/aspekta.json"
     },
@@ -406,9 +406,18 @@
     "preview": {
       "href": "/fonts/aspekta/"
     },
+    "subsets": { 
+      "href": "/api/subsets/aspekta.json",
+      "title": "Performance subsets for this family"
+    },
     "cdn": {
-      "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/",
+      "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.7.0/aspekta/",
       "templated": false
     }
+  },
+  "subset_capabilities": {
+    "available": ["min-chars"],
+    "planned": ["latin-basic", "cyrillic"],
+    "derivativeStatus": "Optimized derivatives available"
   }
 }

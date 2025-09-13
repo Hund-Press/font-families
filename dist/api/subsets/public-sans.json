@@ -1,0 +1,52 @@
+{
+  "family": "public-sans",
+  "name": "Public Sans Subsets",
+  "derivativeWorkNotice": {
+    "status": "Performance-optimized derivative works",
+    "originalSource": "/api/families/public-sans.json",
+    "legalCompliance": "OFL-1.1 compliant derivatives with full attribution"
+  },
+  "links": {
+    "self": {
+      "href": "/api/subsets/public-sans.json"
+    },
+    "original-family": {
+      "href": "/api/families/public-sans.json"
+    },
+    "subsets": {
+      "href": "/api/subsets/public-sans/"
+    }
+  },
+  "subsets": {
+    "min-chars": {
+      "description": "Minimal character set for performance-critical contexts (100 characters)",
+      "status": "generated",
+      "characterCount": 100,
+      "unicodeRanges": [
+        "U+0020-007F",
+        "U+00A0",
+        "U+2013-2014",
+        "U+2018-2019",
+        "U+201C-201D",
+        "U+2026"
+      ],
+      "generatedAt": "2025-09-12T23:37:46.017Z",
+      "links": {
+        "self": {
+          "href": "/api/subsets/public-sans/min-chars.json"
+        }
+      },
+      "fileSizes": {
+        "static": 16.7,
+        "variable": 0
+      }
+    }
+  },
+  "sourceFont": {
+    "name": "Public Sans",
+    "version": "2.001",
+    "author": "USWDS",
+    "license": "OFL-1.1",
+    "originalLocation": "/public-sans/"
+  }
+}

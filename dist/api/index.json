@@ -1,16 +1,26 @@
 {
   "name": "Font Families API",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Community-driven font collection API",
-  "_links": {
+  "links": {
     "self": { "href": "/api/" },
     "families": { "href": "/api/families/" },
-    "modules": { "href": "/modules/" }
+    "modules": { "href": "/modules/" },
+    "subsets": { 
+      "href": "/api/subsets/",
+      "title": "Performance-optimized font subsets"
+    }
   },
-  "_capabilities": {
+  "capabilities": {
     "fork": {
       "repository": "https://github.com/hund-press/font-families",
       "instructions": "Fork this repository, add your fonts, run npm run build"
+    },
+    "subsets": {
+      "description": "Language and performance-optimized derivative works",
+      "types": ["min-chars", "latin-basic", "cyrillic", "arabic", "cjk-basic"],
+      "formats": ["woff2", "ttf"],
+      "status": "derivative-works"
     }
   }
 }

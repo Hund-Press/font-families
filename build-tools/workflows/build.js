@@ -17,7 +17,7 @@ import { exec } from 'child_process';
 import { promisify } from 'util';
 import { scanFontFamilies } from '../scanners/ufr-scanner.js';
 import { generateModules } from '../generators/module-generator.js';
-import { generateCatalog } from '../generators/catalog-generator.js';
+import { generateCatalog, generateSubsetAPIs } from '../generators/catalog-generator.js';
 import { generateDocumentation } from '../generators/doc-generator.js';
 import { validateLicensing } from '../scanners/validation.js';
 import { SubsetGenerator } from '../generators/subset-generator.js';
@@ -65,6 +65,10 @@ async function build() {
         // Phase 4: Generate font subsets (open fonts only)
         console.log('[build] Phase 4: Font subset generation');
         await generateAllSubsets(openFonts);
+        
+        // Phase 4.5: Generate subset API endpoints
+        console.log('[build] Phase 4.5: Subset API generation');
+        await generateSubsetAPIs(BUILD_CONFIG.apiDir);
         
         // Phase 5: Generate ES modules (open fonts only for public CDN)
         console.log('[build] Phase 5: ES module generation');
