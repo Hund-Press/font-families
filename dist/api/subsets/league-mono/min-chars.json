@@ -40,7 +40,7 @@
       "compressionRatio": 1.381,
       "links": {
         "download": {
-          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.7.0/subsets/league-mono/min-chars/LeagueMonoVF-min.ttf"
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.8.0/subsets/league-mono/min-chars/LeagueMonoVF-min.ttf"
         }
       }
     },
@@ -52,7 +52,7 @@
       "compressionRatio": 0.878,
       "links": {
         "download": {
-          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.7.0/subsets/league-mono/min-chars/LeagueMonoVF-min.woff2"
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.8.0/subsets/league-mono/min-chars/LeagueMonoVF-min.woff2"
         }
       }
     }

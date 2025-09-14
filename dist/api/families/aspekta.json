@@ -14,10 +14,7 @@
       "type": "variable"
     },
     "styleCount": 1,
-    "formats": [
-      "woff2",
-      "truetype"
-    ]
+    "formats": ["woff2", "truetype"]
   },
   "files": {
     "static": [
@@ -406,7 +403,7 @@
     "preview": {
       "href": "/fonts/aspekta/"
     },
-    "subsets": { 
+    "subsets": {
       "href": "/api/subsets/aspekta.json",
       "title": "Performance subsets for this family"
     },
