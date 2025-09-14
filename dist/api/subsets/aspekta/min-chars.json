@@ -43,7 +43,7 @@
       "compressionRatio": 0.193,
       "links": {
         "download": {
-          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.8.0/subsets/aspekta/min-chars/Aspekta-400-min.woff2"
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.0/subsets/aspekta/min-chars/Aspekta-400-min.woff2"
         }
       }
     },
@@ -63,7 +63,7 @@
       },
       "links": {
         "download": {
-          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.8.0/subsets/aspekta/min-chars/AspektaVF-min.ttf"
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.0/subsets/aspekta/min-chars/AspektaVF-min.ttf"
         }
       }
     },
@@ -83,7 +83,7 @@
       },
       "links": {
         "download": {
-          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.8.0/subsets/aspekta/min-chars/AspektaVF-min.woff2"
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.0/subsets/aspekta/min-chars/AspektaVF-min.woff2"
         }
       }
     }

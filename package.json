@@ -1,6 +1,6 @@
 {
   "name": "@hund-press/font-families",
-  "version": "1.6.0",
+  "version": "1.9.0",
   "description": "Comprehensive font resource platform with processing, community curation, and public catalog site",
   "main": "dist/modules/index.js",
   "type": "module",
@@ -14,6 +14,10 @@
     "generate-docs": "node build-tools/generators/doc-generator.js",
     "build-site": "eleventy --config=eleventy.config.js",
     "dev": "npm run build && npm run build-site",
+    "version:check": "node build-tools/scripts/version-sync.js check",
+    "version:sync": "node build-tools/scripts/version-sync.js sync",
+    "version:bump": "node build-tools/scripts/version-sync.js bump",
+    "version:current": "node build-tools/scripts/version-sync.js current",
     "clean": "rm -rf dist .font-families-build",
     "test": "node --test tests/**/*.test.js",
     "lint": "eslint build-tools/ src/ tests/",

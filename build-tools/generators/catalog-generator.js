@@ -7,6 +7,7 @@
 
 import { promises as fs } from 'fs';
 import path from 'path';
+import { getCurrentVersion } from '../utils/version-manager.js';
 
 /**
  * Generate families index and individual family files
@@ -15,10 +16,10 @@ import path from 'path';
  * @param {Object} options - Generation options
  */
 export async function generateCatalog(fontFamilies, outputPath, options = {}) {
-    const {
-        includeRestrictedFonts = false,
-        version = '1.0.0'
-    } = options;
+    let { includeRestrictedFonts = false, version = null } = options;
+    
+    // Use robust version detection
+    version = await getCurrentVersion(version, { includeVPrefix: false });
     
     console.log(`[families] Generating families index and individual files`);
     console.log(`[families] Font families: ${Object.keys(fontFamilies).length}`);
@@ -556,7 +557,9 @@ async function generateIndividualFamilyFile(familyData, catalogEntry, familiesDi
  * @param {string} catalogOutputPath - Base output path for API files
  * @param {string} version - API version
  */
-export async function generateSubsetAPIs(catalogOutputPath, version = 'v1.7.0') {
+export async function generateSubsetAPIs(catalogOutputPath, version = null) {
+    // Use robust version detection with v prefix for CDN URLs
+    version = await getCurrentVersion(version, { includeVPrefix: true });
     console.log('[subsets] Generating subset API endpoints');
     
     const subsetsDir = path.join(process.cwd(), 'subsets');

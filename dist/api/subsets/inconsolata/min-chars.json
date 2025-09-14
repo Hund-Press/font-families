@@ -40,7 +40,7 @@
       "compressionRatio": 0.239,
       "links": {
         "download": {
-          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.8.0/subsets/inconsolata/min-chars/Inconsolata-400-min.woff2"
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.0/subsets/inconsolata/min-chars/Inconsolata-400-min.woff2"
         }
       }
     },
@@ -52,7 +52,7 @@
       "compressionRatio": 2.489,
       "links": {
         "download": {
-          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.8.0/subsets/inconsolata/min-chars/InconsolataVF-min.ttf"
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.0/subsets/inconsolata/min-chars/InconsolataVF-min.ttf"
         }
       }
     },
@@ -64,7 +64,7 @@
       "compressionRatio": 1.564,
       "links": {
         "download": {
-          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.8.0/subsets/inconsolata/min-chars/InconsolataVF-min.woff2"
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.0/subsets/inconsolata/min-chars/InconsolataVF-min.woff2"
         }
       }
     }
