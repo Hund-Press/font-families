@@ -105,11 +105,11 @@ export default {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.1/fonts/open-fonts/league-mono-thin-condensed/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.1/fonts/open-fonts/league-mono-thin-condensed/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.1/fonts/open-fonts/league-mono-thin-condensed/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.1/fonts/open-fonts/league-mono-thin-condensed/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.1/subsets/league-mono-thin-condensed/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.2/fonts/open-fonts/league-mono-thin-condensed/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.2/fonts/open-fonts/league-mono-thin-condensed/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.2/fonts/open-fonts/league-mono-thin-condensed/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.2/fonts/open-fonts/league-mono-thin-condensed/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.2/subsets/league-mono-thin-condensed/"
   },
   "faces": {
     "variable": {
