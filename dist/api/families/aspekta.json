@@ -14,7 +14,10 @@
       "type": "variable"
     },
     "styleCount": 1,
-    "formats": ["woff2", "truetype"]
+    "formats": [
+      "woff2",
+      "truetype"
+    ]
   },
   "files": {
     "static": [
@@ -29,7 +32,7 @@
         "fileSizeKB": 22,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.7.0/aspekta/fonts/webfonts/Aspekta-950.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/aspekta/fonts/webfonts/Aspekta-950.woff2"
           }
         }
       },
@@ -42,9 +45,9 @@
         "stretch": "normal",
         "fileSize": 22596,
         "fileSizeKB": 22,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-900.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/aspekta/fonts/webfonts/Aspekta-900.woff2"
           }
         }
       },
@@ -57,9 +60,9 @@
         "stretch": "normal",
         "fileSize": 22756,
         "fileSizeKB": 22,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-850.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/aspekta/fonts/webfonts/Aspekta-850.woff2"
           }
         }
       },
@@ -72,9 +75,9 @@
         "stretch": "normal",
         "fileSize": 22608,
         "fileSizeKB": 22,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-800.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/aspekta/fonts/webfonts/Aspekta-800.woff2"
           }
         }
       },
@@ -87,9 +90,9 @@
         "stretch": "normal",
         "fileSize": 22420,
         "fileSizeKB": 22,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-750.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/aspekta/fonts/webfonts/Aspekta-750.woff2"
           }
         }
       },
@@ -102,9 +105,9 @@
         "stretch": "normal",
         "fileSize": 22168,
         "fileSizeKB": 22,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-700.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/aspekta/fonts/webfonts/Aspekta-700.woff2"
           }
         }
       },
@@ -117,9 +120,9 @@
         "stretch": "normal",
         "fileSize": 21980,
         "fileSizeKB": 21,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-650.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/aspekta/fonts/webfonts/Aspekta-650.woff2"
           }
         }
       },
@@ -132,9 +135,9 @@
         "stretch": "normal",
         "fileSize": 22140,
         "fileSizeKB": 22,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-600.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/aspekta/fonts/webfonts/Aspekta-600.woff2"
           }
         }
       },
@@ -147,9 +150,9 @@
         "stretch": "normal",
         "fileSize": 22016,
         "fileSizeKB": 22,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-550.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/aspekta/fonts/webfonts/Aspekta-550.woff2"
           }
         }
       },
@@ -162,9 +165,9 @@
         "stretch": "normal",
         "fileSize": 22124,
         "fileSizeKB": 22,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-500.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/aspekta/fonts/webfonts/Aspekta-500.woff2"
           }
         }
       },
@@ -177,9 +180,9 @@
         "stretch": "normal",
         "fileSize": 21396,
         "fileSizeKB": 21,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-50.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/aspekta/fonts/webfonts/Aspekta-50.woff2"
           }
         }
       },
@@ -192,9 +195,9 @@
         "stretch": "normal",
         "fileSize": 22240,
         "fileSizeKB": 22,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-450.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/aspekta/fonts/webfonts/Aspekta-450.woff2"
           }
         }
       },
@@ -207,9 +210,9 @@
         "stretch": "normal",
         "fileSize": 21748,
         "fileSizeKB": 21,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-400.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/aspekta/fonts/webfonts/Aspekta-400.woff2"
           }
         }
       },
@@ -222,9 +225,9 @@
         "stretch": "normal",
         "fileSize": 21956,
         "fileSizeKB": 21,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-350.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/aspekta/fonts/webfonts/Aspekta-350.woff2"
           }
         }
       },
@@ -237,9 +240,9 @@
         "stretch": "normal",
         "fileSize": 22600,
         "fileSizeKB": 22,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-300.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/aspekta/fonts/webfonts/Aspekta-300.woff2"
           }
         }
       },
@@ -252,9 +255,9 @@
         "stretch": "normal",
         "fileSize": 22024,
         "fileSizeKB": 22,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-250.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/aspekta/fonts/webfonts/Aspekta-250.woff2"
           }
         }
       },
@@ -267,9 +270,9 @@
         "stretch": "normal",
         "fileSize": 21884,
         "fileSizeKB": 21,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-200.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/aspekta/fonts/webfonts/Aspekta-200.woff2"
           }
         }
       },
@@ -282,9 +285,9 @@
         "stretch": "normal",
         "fileSize": 21596,
         "fileSizeKB": 21,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-150.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/aspekta/fonts/webfonts/Aspekta-150.woff2"
           }
         }
       },
@@ -297,9 +300,9 @@
         "stretch": "normal",
         "fileSize": 23096,
         "fileSizeKB": 23,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-1000.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/aspekta/fonts/webfonts/Aspekta-1000.woff2"
           }
         }
       },
@@ -312,9 +315,9 @@
         "stretch": "normal",
         "fileSize": 21116,
         "fileSizeKB": 21,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/Aspekta-100.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/aspekta/fonts/webfonts/Aspekta-100.woff2"
           }
         }
       }
@@ -334,9 +337,9 @@
         "style": "normal",
         "fileSize": 69480,
         "fileSizeKB": 68,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/aspekta/fonts/webfonts/AspektaVF.ttf"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/aspekta/fonts/webfonts/AspektaVF.ttf"
           }
         }
       }
@@ -408,13 +411,18 @@
       "title": "Performance subsets for this family"
     },
     "cdn": {
-      "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.7.0/aspekta/",
+      "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/aspekta/",
       "templated": false
     }
   },
   "subset_capabilities": {
-    "available": ["min-chars"],
-    "planned": ["latin-basic", "cyrillic"],
+    "available": [
+      "min-chars"
+    ],
+    "planned": [
+      "latin-basic",
+      "cyrillic"
+    ],
     "derivativeStatus": "Optimized derivatives available"
   }
 }

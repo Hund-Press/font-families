@@ -39,7 +39,35 @@ export default {
       }
     }
   },
-  "languages": null,
+  "languages": {
+    "scripts": [
+      {
+        "name": "Latin",
+        "coverage": 0.638,
+        "languages": [
+          "eng",
+          "fra",
+          "deu",
+          "spa",
+          "ita",
+          "por",
+          "nld",
+          "pol",
+          "ces",
+          "hun",
+          "tur"
+        ],
+        "blocks": [
+          "Basic Latin",
+          "Latin-1 Supplement",
+          "Latin Extended-A",
+          "Latin Extended-B",
+          "Latin Extended Additional"
+        ]
+      }
+    ],
+    "total": 11
+  },
   "features": {
     "openType": {
       "categories": {
@@ -97,11 +125,11 @@ export default {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/inconsolata/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/inconsolata/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/inconsolata/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/fonts/open-fonts/inconsolata/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.6.0/subsets/inconsolata/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.1/fonts/open-fonts/inconsolata/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.1/fonts/open-fonts/inconsolata/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.1/fonts/open-fonts/inconsolata/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.1/fonts/open-fonts/inconsolata/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.1/subsets/inconsolata/"
   },
   "faces": {
     "variable": {
@@ -2338,7 +2366,7 @@ export default {
           "InconsolataVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-12T23:37:46.019Z"
+      "generatedAt": "2025-09-17T21:13:23.989Z"
     }
   }
 };

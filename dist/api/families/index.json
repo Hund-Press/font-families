@@ -1,7 +1,7 @@
 {
   "name": "Font Families Index",
   "description": "Index of all available font families",
-  "_links": {
+  "links": {
     "self": {
       "href": "/api/families/"
     },
@@ -12,7 +12,7 @@
   "families": {
     "public-sans": {
       "name": "Public Sans",
-      "_links": {
+      "links": {
         "self": {
           "href": "/api/families/public-sans.json"
         }
@@ -20,7 +20,7 @@
     },
     "inconsolata": {
       "name": "Inconsolata",
-      "_links": {
+      "links": {
         "self": {
           "href": "/api/families/inconsolata.json"
         }
@@ -28,7 +28,7 @@
     },
     "crimson-pro": {
       "name": "Crimson Pro",
-      "_links": {
+      "links": {
         "self": {
           "href": "/api/families/crimson-pro.json"
         }
@@ -36,7 +36,7 @@
     },
     "atkinson-hyperlegible": {
       "name": "Atkinson Hyperlegible",
-      "_links": {
+      "links": {
         "self": {
           "href": "/api/families/atkinson-hyperlegible.json"
         }
@@ -44,7 +44,7 @@
     },
     "aspekta": {
       "name": "Aspekta",
-      "_links": {
+      "links": {
         "self": {
           "href": "/api/families/aspekta.json"
         }

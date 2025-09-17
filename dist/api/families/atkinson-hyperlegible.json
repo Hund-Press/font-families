@@ -35,9 +35,9 @@
         "stretch": "normal",
         "fileSize": 23196,
         "fileSizeKB": 23,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Regular.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Regular.woff2"
           }
         }
       },
@@ -50,9 +50,9 @@
         "stretch": "normal",
         "fileSize": 24908,
         "fileSizeKB": 24,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Italic.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Italic.woff2"
           }
         }
       },
@@ -65,9 +65,9 @@
         "stretch": "normal",
         "fileSize": 25160,
         "fileSizeKB": 25,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-BoldItalic.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-BoldItalic.woff2"
           }
         }
       },
@@ -80,9 +80,9 @@
         "stretch": "normal",
         "fileSize": 23776,
         "fileSizeKB": 23,
-        "_links": {
+        "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Bold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Bold.woff2"
           }
         }
       }
@@ -127,7 +127,7 @@
     "hasOldStyleFigures": false,
     "hasTabularFigures": true
   },
-  "_links": {
+  "links": {
     "self": {
       "href": "/api/families/atkinson-hyperlegible.json"
     },
@@ -143,9 +143,20 @@
     "preview": {
       "href": "/fonts/atkinson-hyperlegible/"
     },
+    "subsets": {
+      "href": "/api/subsets/atkinson-hyperlegible.json",
+      "title": "Performance subsets for this family"
+    },
     "cdn": {
-      "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/atkinson-hyperlegible/",
+      "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.1/atkinson-hyperlegible/",
       "templated": false
     }
+  },
+  "subset_capabilities": {
+    "available": [
+      "min-chars"
+    ],
+    "planned": [],
+    "derivativeStatus": "Optimized derivatives available"
   }
 }

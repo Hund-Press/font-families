@@ -27,7 +27,7 @@
         "stretch": "ultra-expanded",
         "fileSize": 65380,
         "fileSizeKB": 64,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-WideUltraLight.ttf"
           }
@@ -42,7 +42,7 @@
         "stretch": "ultra-expanded",
         "fileSize": 64564,
         "fileSizeKB": 63,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-WideThin.ttf"
           }
@@ -57,7 +57,7 @@
         "stretch": "ultra-expanded",
         "fileSize": 65760,
         "fileSizeKB": 64,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-WideSemiBold.ttf"
           }
@@ -72,7 +72,7 @@
         "stretch": "ultra-expanded",
         "fileSize": 65864,
         "fileSizeKB": 64,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-WideRegular.ttf"
           }
@@ -87,7 +87,7 @@
         "stretch": "ultra-expanded",
         "fileSize": 66152,
         "fileSizeKB": 65,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-WideMedium.ttf"
           }
@@ -102,7 +102,7 @@
         "stretch": "ultra-expanded",
         "fileSize": 66032,
         "fileSizeKB": 64,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-WideLight.ttf"
           }
@@ -117,7 +117,7 @@
         "stretch": "ultra-expanded",
         "fileSize": 66272,
         "fileSizeKB": 65,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-WideExtraBold.ttf"
           }
@@ -132,7 +132,7 @@
         "stretch": "ultra-expanded",
         "fileSize": 66212,
         "fileSizeKB": 65,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-WideBold.ttf"
           }
@@ -147,7 +147,7 @@
         "stretch": "normal",
         "fileSize": 65128,
         "fileSizeKB": 64,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-UltraLight.ttf"
           }
@@ -162,7 +162,7 @@
         "stretch": "normal",
         "fileSize": 64144,
         "fileSizeKB": 63,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-Thin.ttf"
           }
@@ -177,7 +177,7 @@
         "stretch": "normal",
         "fileSize": 65632,
         "fileSizeKB": 64,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-SemiBold.ttf"
           }
@@ -192,7 +192,7 @@
         "stretch": "normal",
         "fileSize": 65408,
         "fileSizeKB": 64,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-Regular.ttf"
           }
@@ -207,7 +207,7 @@
         "stretch": "semi-condensed",
         "fileSize": 65188,
         "fileSizeKB": 64,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-NarrowUltraLight.ttf"
           }
@@ -222,7 +222,7 @@
         "stretch": "semi-condensed",
         "fileSize": 64228,
         "fileSizeKB": 63,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-NarrowThin.ttf"
           }
@@ -237,7 +237,7 @@
         "stretch": "semi-condensed",
         "fileSize": 65172,
         "fileSizeKB": 64,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-NarrowSemiBold.ttf"
           }
@@ -252,7 +252,7 @@
         "stretch": "semi-condensed",
         "fileSize": 65368,
         "fileSizeKB": 64,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-NarrowRegular.ttf"
           }
@@ -267,7 +267,7 @@
         "stretch": "semi-condensed",
         "fileSize": 65500,
         "fileSizeKB": 64,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-NarrowMedium.ttf"
           }
@@ -282,7 +282,7 @@
         "stretch": "semi-condensed",
         "fileSize": 67200,
         "fileSizeKB": 66,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-NarrowLight.ttf"
           }
@@ -297,7 +297,7 @@
         "stretch": "semi-condensed",
         "fileSize": 65744,
         "fileSizeKB": 64,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-NarrowExtraBold.ttf"
           }
@@ -312,7 +312,7 @@
         "stretch": "semi-condensed",
         "fileSize": 65076,
         "fileSizeKB": 64,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-NarrowBold.ttf"
           }
@@ -327,7 +327,7 @@
         "stretch": "normal",
         "fileSize": 65816,
         "fileSizeKB": 64,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-Medium.ttf"
           }
@@ -342,7 +342,7 @@
         "stretch": "normal",
         "fileSize": 66244,
         "fileSizeKB": 65,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-Light.ttf"
           }
@@ -357,7 +357,7 @@
         "stretch": "normal",
         "fileSize": 65688,
         "fileSizeKB": 64,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-ExtraBold.ttf"
           }
@@ -372,7 +372,7 @@
         "stretch": "expanded",
         "fileSize": 66624,
         "fileSizeKB": 65,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-ExtendedUltraLight.ttf"
           }
@@ -387,7 +387,7 @@
         "stretch": "expanded",
         "fileSize": 64692,
         "fileSizeKB": 63,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-ExtendedThin.ttf"
           }
@@ -402,7 +402,7 @@
         "stretch": "expanded",
         "fileSize": 67076,
         "fileSizeKB": 66,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-ExtendedSemiBold.ttf"
           }
@@ -417,7 +417,7 @@
         "stretch": "expanded",
         "fileSize": 67020,
         "fileSizeKB": 65,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-ExtendedRegular.ttf"
           }
@@ -432,7 +432,7 @@
         "stretch": "expanded",
         "fileSize": 67444,
         "fileSizeKB": 66,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-ExtendedMedium.ttf"
           }
@@ -447,7 +447,7 @@
         "stretch": "expanded",
         "fileSize": 67040,
         "fileSizeKB": 65,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-ExtendedLight.ttf"
           }
@@ -462,7 +462,7 @@
         "stretch": "expanded",
         "fileSize": 67600,
         "fileSizeKB": 66,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-ExtendedExtraBold.ttf"
           }
@@ -477,7 +477,7 @@
         "stretch": "expanded",
         "fileSize": 68208,
         "fileSizeKB": 67,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-ExtendedBold.ttf"
           }
@@ -492,7 +492,7 @@
         "stretch": "condensed",
         "fileSize": 64404,
         "fileSizeKB": 63,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-CondensedUltraLight.ttf"
           }
@@ -507,7 +507,7 @@
         "stretch": "condensed",
         "fileSize": 63840,
         "fileSizeKB": 62,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-CondensedThin.ttf"
           }
@@ -522,7 +522,7 @@
         "stretch": "condensed",
         "fileSize": 65324,
         "fileSizeKB": 64,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-CondensedSemiBold.ttf"
           }
@@ -537,7 +537,7 @@
         "stretch": "condensed",
         "fileSize": 65964,
         "fileSizeKB": 64,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-CondensedMedium.ttf"
           }
@@ -552,7 +552,7 @@
         "stretch": "condensed",
         "fileSize": 66756,
         "fileSizeKB": 65,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-CondensedLight.ttf"
           }
@@ -567,7 +567,7 @@
         "stretch": "condensed",
         "fileSize": 64464,
         "fileSizeKB": 63,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-CondensedExtraBold.ttf"
           }
@@ -582,7 +582,7 @@
         "stretch": "condensed",
         "fileSize": 64700,
         "fileSizeKB": 63,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-CondensedBold.ttf"
           }
@@ -597,7 +597,7 @@
         "stretch": "condensed",
         "fileSize": 66040,
         "fileSizeKB": 64,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-Condensed.ttf"
           }
@@ -612,7 +612,7 @@
         "stretch": "normal",
         "fileSize": 65540,
         "fileSizeKB": 64,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-Bold.ttf"
           }
@@ -639,7 +639,7 @@
         "style": "normal",
         "fileSize": 56576,
         "fileSizeKB": 55,
-        "_links": {
+        "links": {
           "download": {
             "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.6.0/league-mono-thin-condensed/fonts/webfonts/LeagueMono-VF.woff2"
           }
@@ -1032,7 +1032,7 @@
     "hasOldStyleFigures": false,
     "hasTabularFigures": true
   },
-  "_links": {
+  "links": {
     "self": {
       "href": "/api/families/league-mono-thin-condensed.json"
     },
