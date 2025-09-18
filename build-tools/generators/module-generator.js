@@ -884,11 +884,14 @@ async function generateSubsetInfo(familyData) {
         
         for (const [subsetName, subsetConfig] of Object.entries(metadata.subsets || {})) {
             if (subsetConfig.status === 'generated') {
+                // Check what files actually exist instead of trusting targetFiles
+                const actualFiles = await getActualSubsetFiles(familyData.key, subsetName);
+                
                 subsets[subsetName] = {
                     description: subsetConfig.description,
                     characterCount: subsetConfig.characterCount,
                     unicodeRanges: subsetConfig.unicodeRanges,
-                    files: subsetConfig.targetFiles || {},
+                    files: actualFiles,
                     generatedAt: subsetConfig.generatedAt
                 };
             }
@@ -899,6 +902,43 @@ async function generateSubsetInfo(familyData) {
     }
     
     return subsets;
+}
+
+/**
+ * Get actually existing subset files instead of relying on metadata
+ * @param {string} familyKey - Font family key
+ * @param {string} subsetName - Subset name (e.g., 'min-chars')
+ * @returns {Object} Files that actually exist
+ */
+async function getActualSubsetFiles(familyKey, subsetName) {
+    const subsetDir = path.join('subsets', familyKey, subsetName);
+    const actualFiles = {
+        static: "",
+        variable: []
+    };
+    
+    try {
+        const files = await fs.readdir(subsetDir);
+        
+        for (const file of files) {
+            if (file.endsWith('.woff2') || file.endsWith('.ttf')) {
+                // Determine if it's a variable or static file
+                if (file.includes('VF-min')) {
+                    actualFiles.variable.push(file);
+                } else if (file.includes('-400-min')) {
+                    actualFiles.static = file;
+                }
+            }
+        }
+        
+        // Sort variable files for consistency
+        actualFiles.variable.sort();
+        
+    } catch (error) {
+        console.log(`[modules] Could not read subset directory for ${familyKey}/${subsetName}`);
+    }
+    
+    return actualFiles;
 }
 
 /**

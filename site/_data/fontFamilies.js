@@ -3103,15 +3103,15 @@ export default {
       }
     },
     "league-mono": {
-      "name": "League Mono Thin Condensed",
-      "key": "league-mono-thin-condensed",
+      "name": "League Mono",
+      "key": "league-mono",
       "static": {
         "LeagueMono-WideUltraLight": {
           "family": "League Mono Wide UltraLight",
           "style": "normal",
           "weight": 200,
           "stretch": "ultra-expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-WideUltraLight.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-WideUltraLight.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -3226,10 +3226,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 65380,
-            "fileSizeKB": 64,
-            "glyphDensity": 111,
-            "format": "ttf",
+            "fileSize": 26888,
+            "fileSizeKB": 26,
+            "glyphDensity": 46,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -3239,7 +3239,7 @@ export default {
           "style": "normal",
           "weight": 100,
           "stretch": "ultra-expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-WideThin.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-WideThin.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -3354,10 +3354,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 64564,
-            "fileSizeKB": 63,
-            "glyphDensity": 110,
-            "format": "ttf",
+            "fileSize": 26556,
+            "fileSizeKB": 26,
+            "glyphDensity": 45,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -3367,7 +3367,7 @@ export default {
           "style": "normal",
           "weight": 600,
           "stretch": "ultra-expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-WideSemiBold.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-WideSemiBold.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -3482,10 +3482,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 65760,
-            "fileSizeKB": 64,
-            "glyphDensity": 112,
-            "format": "ttf",
+            "fileSize": 27068,
+            "fileSizeKB": 26,
+            "glyphDensity": 46,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -3495,7 +3495,7 @@ export default {
           "style": "normal",
           "weight": 400,
           "stretch": "ultra-expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-WideRegular.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-WideRegular.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -3610,10 +3610,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 65864,
-            "fileSizeKB": 64,
-            "glyphDensity": 112,
-            "format": "ttf",
+            "fileSize": 27116,
+            "fileSizeKB": 26,
+            "glyphDensity": 46,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -3623,7 +3623,7 @@ export default {
           "style": "normal",
           "weight": 500,
           "stretch": "ultra-expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-WideMedium.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-WideMedium.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -3738,10 +3738,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 66152,
-            "fileSizeKB": 65,
-            "glyphDensity": 112,
-            "format": "ttf",
+            "fileSize": 27272,
+            "fileSizeKB": 27,
+            "glyphDensity": 46,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -3751,7 +3751,7 @@ export default {
           "style": "normal",
           "weight": 300,
           "stretch": "ultra-expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-WideLight.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-WideLight.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -3866,10 +3866,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 66032,
-            "fileSizeKB": 64,
-            "glyphDensity": 112,
-            "format": "ttf",
+            "fileSize": 27136,
+            "fileSizeKB": 27,
+            "glyphDensity": 46,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -3879,7 +3879,7 @@ export default {
           "style": "normal",
           "weight": 800,
           "stretch": "ultra-expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-WideExtraBold.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-WideExtraBold.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -3994,10 +3994,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 66272,
-            "fileSizeKB": 65,
-            "glyphDensity": 113,
-            "format": "ttf",
+            "fileSize": 27148,
+            "fileSizeKB": 27,
+            "glyphDensity": 46,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -4007,7 +4007,7 @@ export default {
           "style": "normal",
           "weight": 700,
           "stretch": "ultra-expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-WideBold.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-WideBold.woff2",
           "subfamilyName": "Bold",
           "metrics": {
             "unitsPerEm": 2000,
@@ -4122,10 +4122,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 66212,
-            "fileSizeKB": 65,
-            "glyphDensity": 112,
-            "format": "ttf",
+            "fileSize": 27088,
+            "fileSizeKB": 26,
+            "glyphDensity": 46,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -4135,7 +4135,7 @@ export default {
           "style": "normal",
           "weight": 200,
           "stretch": "normal",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-UltraLight.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-UltraLight.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -4250,10 +4250,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 65128,
-            "fileSizeKB": 64,
-            "glyphDensity": 111,
-            "format": "ttf",
+            "fileSize": 26692,
+            "fileSizeKB": 26,
+            "glyphDensity": 45,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -4263,7 +4263,7 @@ export default {
           "style": "normal",
           "weight": 100,
           "stretch": "normal",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-Thin.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-Thin.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -4378,10 +4378,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 64144,
-            "fileSizeKB": 63,
-            "glyphDensity": 109,
-            "format": "ttf",
+            "fileSize": 26096,
+            "fileSizeKB": 25,
+            "glyphDensity": 44,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -4391,7 +4391,7 @@ export default {
           "style": "normal",
           "weight": 600,
           "stretch": "normal",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-SemiBold.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-SemiBold.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -4506,10 +4506,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 65632,
-            "fileSizeKB": 64,
-            "glyphDensity": 111,
-            "format": "ttf",
+            "fileSize": 26776,
+            "fileSizeKB": 26,
+            "glyphDensity": 45,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -4519,7 +4519,7 @@ export default {
           "style": "normal",
           "weight": 400,
           "stretch": "normal",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-Regular.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-Regular.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -4634,10 +4634,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 65408,
-            "fileSizeKB": 64,
-            "glyphDensity": 111,
-            "format": "ttf",
+            "fileSize": 26724,
+            "fileSizeKB": 26,
+            "glyphDensity": 45,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -4647,7 +4647,7 @@ export default {
           "style": "normal",
           "weight": 200,
           "stretch": "semi-condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-NarrowUltraLight.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-NarrowUltraLight.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -4762,10 +4762,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 65188,
-            "fileSizeKB": 64,
-            "glyphDensity": 111,
-            "format": "ttf",
+            "fileSize": 26412,
+            "fileSizeKB": 26,
+            "glyphDensity": 45,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -4775,7 +4775,7 @@ export default {
           "style": "normal",
           "weight": 100,
           "stretch": "semi-condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-NarrowThin.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-NarrowThin.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -4890,10 +4890,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 64228,
-            "fileSizeKB": 63,
-            "glyphDensity": 109,
-            "format": "ttf",
+            "fileSize": 25836,
+            "fileSizeKB": 25,
+            "glyphDensity": 44,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -4903,7 +4903,7 @@ export default {
           "style": "normal",
           "weight": 600,
           "stretch": "semi-condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-NarrowSemiBold.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-NarrowSemiBold.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -5018,10 +5018,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 65172,
-            "fileSizeKB": 64,
-            "glyphDensity": 111,
-            "format": "ttf",
+            "fileSize": 26604,
+            "fileSizeKB": 26,
+            "glyphDensity": 45,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -5031,7 +5031,7 @@ export default {
           "style": "normal",
           "weight": 400,
           "stretch": "semi-condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-NarrowRegular.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-NarrowRegular.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -5146,10 +5146,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 65368,
-            "fileSizeKB": 64,
-            "glyphDensity": 111,
-            "format": "ttf",
+            "fileSize": 26468,
+            "fileSizeKB": 26,
+            "glyphDensity": 45,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -5159,7 +5159,7 @@ export default {
           "style": "normal",
           "weight": 500,
           "stretch": "semi-condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-NarrowMedium.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-NarrowMedium.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -5274,10 +5274,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 65500,
-            "fileSizeKB": 64,
-            "glyphDensity": 111,
-            "format": "ttf",
+            "fileSize": 26652,
+            "fileSizeKB": 26,
+            "glyphDensity": 45,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -5287,7 +5287,7 @@ export default {
           "style": "normal",
           "weight": 300,
           "stretch": "semi-condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-NarrowLight.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-NarrowLight.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -5402,10 +5402,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 67200,
-            "fileSizeKB": 66,
-            "glyphDensity": 114,
-            "format": "ttf",
+            "fileSize": 26736,
+            "fileSizeKB": 26,
+            "glyphDensity": 45,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -5415,7 +5415,7 @@ export default {
           "style": "normal",
           "weight": 800,
           "stretch": "semi-condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-NarrowExtraBold.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-NarrowExtraBold.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -5530,10 +5530,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 65744,
-            "fileSizeKB": 64,
-            "glyphDensity": 112,
-            "format": "ttf",
+            "fileSize": 26472,
+            "fileSizeKB": 26,
+            "glyphDensity": 45,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -5543,7 +5543,7 @@ export default {
           "style": "normal",
           "weight": 700,
           "stretch": "semi-condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-NarrowBold.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-NarrowBold.woff2",
           "subfamilyName": "Bold",
           "metrics": {
             "unitsPerEm": 2000,
@@ -5658,10 +5658,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 65076,
-            "fileSizeKB": 64,
-            "glyphDensity": 110,
-            "format": "ttf",
+            "fileSize": 26436,
+            "fileSizeKB": 26,
+            "glyphDensity": 45,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -5671,7 +5671,7 @@ export default {
           "style": "normal",
           "weight": 500,
           "stretch": "normal",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-Medium.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-Medium.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -5786,10 +5786,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 65816,
-            "fileSizeKB": 64,
-            "glyphDensity": 112,
-            "format": "ttf",
+            "fileSize": 26728,
+            "fileSizeKB": 26,
+            "glyphDensity": 45,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -5799,7 +5799,7 @@ export default {
           "style": "normal",
           "weight": 300,
           "stretch": "normal",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-Light.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-Light.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -5914,10 +5914,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 66244,
-            "fileSizeKB": 65,
-            "glyphDensity": 112,
-            "format": "ttf",
+            "fileSize": 26864,
+            "fileSizeKB": 26,
+            "glyphDensity": 46,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -5927,7 +5927,7 @@ export default {
           "style": "normal",
           "weight": 800,
           "stretch": "normal",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-ExtraBold.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-ExtraBold.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -6042,10 +6042,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 65688,
-            "fileSizeKB": 64,
-            "glyphDensity": 112,
-            "format": "ttf",
+            "fileSize": 26768,
+            "fileSizeKB": 26,
+            "glyphDensity": 45,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -6055,7 +6055,7 @@ export default {
           "style": "normal",
           "weight": 200,
           "stretch": "expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-ExtendedUltraLight.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-ExtendedUltraLight.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -6170,10 +6170,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 66624,
-            "fileSizeKB": 65,
-            "glyphDensity": 113,
-            "format": "ttf",
+            "fileSize": 27552,
+            "fileSizeKB": 27,
+            "glyphDensity": 47,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -6183,7 +6183,7 @@ export default {
           "style": "normal",
           "weight": 100,
           "stretch": "expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-ExtendedThin.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-ExtendedThin.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -6298,10 +6298,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 64692,
-            "fileSizeKB": 63,
-            "glyphDensity": 110,
-            "format": "ttf",
+            "fileSize": 26604,
+            "fileSizeKB": 26,
+            "glyphDensity": 45,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -6311,7 +6311,7 @@ export default {
           "style": "normal",
           "weight": 600,
           "stretch": "expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-ExtendedSemiBold.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-ExtendedSemiBold.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -6426,10 +6426,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 67076,
-            "fileSizeKB": 66,
-            "glyphDensity": 114,
-            "format": "ttf",
+            "fileSize": 27648,
+            "fileSizeKB": 27,
+            "glyphDensity": 47,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -6439,7 +6439,7 @@ export default {
           "style": "normal",
           "weight": 400,
           "stretch": "expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-ExtendedRegular.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-ExtendedRegular.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -6554,10 +6554,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 67020,
-            "fileSizeKB": 65,
-            "glyphDensity": 114,
-            "format": "ttf",
+            "fileSize": 27664,
+            "fileSizeKB": 27,
+            "glyphDensity": 47,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -6567,7 +6567,7 @@ export default {
           "style": "normal",
           "weight": 500,
           "stretch": "expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-ExtendedMedium.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-ExtendedMedium.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -6682,10 +6682,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 67444,
-            "fileSizeKB": 66,
-            "glyphDensity": 115,
-            "format": "ttf",
+            "fileSize": 27740,
+            "fileSizeKB": 27,
+            "glyphDensity": 47,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -6695,7 +6695,7 @@ export default {
           "style": "normal",
           "weight": 300,
           "stretch": "expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-ExtendedLight.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-ExtendedLight.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -6810,10 +6810,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 67040,
-            "fileSizeKB": 65,
-            "glyphDensity": 114,
-            "format": "ttf",
+            "fileSize": 27648,
+            "fileSizeKB": 27,
+            "glyphDensity": 47,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -6823,7 +6823,7 @@ export default {
           "style": "normal",
           "weight": 800,
           "stretch": "expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-ExtendedExtraBold.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-ExtendedExtraBold.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -6938,10 +6938,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 67600,
-            "fileSizeKB": 66,
-            "glyphDensity": 115,
-            "format": "ttf",
+            "fileSize": 27596,
+            "fileSizeKB": 27,
+            "glyphDensity": 47,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -6951,7 +6951,7 @@ export default {
           "style": "normal",
           "weight": 700,
           "stretch": "expanded",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-ExtendedBold.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-ExtendedBold.woff2",
           "subfamilyName": "Bold",
           "metrics": {
             "unitsPerEm": 2000,
@@ -7066,10 +7066,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 68208,
-            "fileSizeKB": 67,
-            "glyphDensity": 116,
-            "format": "ttf",
+            "fileSize": 27772,
+            "fileSizeKB": 27,
+            "glyphDensity": 47,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -7079,7 +7079,7 @@ export default {
           "style": "normal",
           "weight": 200,
           "stretch": "condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-CondensedUltraLight.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-CondensedUltraLight.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -7194,10 +7194,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 64404,
-            "fileSizeKB": 63,
-            "glyphDensity": 109,
-            "format": "ttf",
+            "fileSize": 26344,
+            "fileSizeKB": 26,
+            "glyphDensity": 45,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -7207,7 +7207,7 @@ export default {
           "style": "normal",
           "weight": 100,
           "stretch": "condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-CondensedThin.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-CondensedThin.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -7322,10 +7322,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 63840,
-            "fileSizeKB": 62,
-            "glyphDensity": 108,
-            "format": "ttf",
+            "fileSize": 25608,
+            "fileSizeKB": 25,
+            "glyphDensity": 43,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -7335,7 +7335,7 @@ export default {
           "style": "normal",
           "weight": 600,
           "stretch": "condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-CondensedSemiBold.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-CondensedSemiBold.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -7450,10 +7450,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 65324,
-            "fileSizeKB": 64,
-            "glyphDensity": 111,
-            "format": "ttf",
+            "fileSize": 26452,
+            "fileSizeKB": 26,
+            "glyphDensity": 45,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -7463,7 +7463,7 @@ export default {
           "style": "normal",
           "weight": 500,
           "stretch": "condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-CondensedMedium.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-CondensedMedium.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -7578,10 +7578,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 65964,
-            "fileSizeKB": 64,
-            "glyphDensity": 112,
-            "format": "ttf",
+            "fileSize": 26724,
+            "fileSizeKB": 26,
+            "glyphDensity": 45,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -7591,7 +7591,7 @@ export default {
           "style": "normal",
           "weight": 300,
           "stretch": "condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-CondensedLight.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-CondensedLight.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -7706,10 +7706,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 66756,
-            "fileSizeKB": 65,
-            "glyphDensity": 113,
-            "format": "ttf",
+            "fileSize": 26704,
+            "fileSizeKB": 26,
+            "glyphDensity": 45,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -7719,7 +7719,7 @@ export default {
           "style": "normal",
           "weight": 800,
           "stretch": "condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-CondensedExtraBold.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-CondensedExtraBold.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -7834,10 +7834,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 64464,
-            "fileSizeKB": 63,
-            "glyphDensity": 109,
-            "format": "ttf",
+            "fileSize": 26108,
+            "fileSizeKB": 25,
+            "glyphDensity": 44,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -7847,7 +7847,7 @@ export default {
           "style": "normal",
           "weight": 700,
           "stretch": "condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-CondensedBold.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-CondensedBold.woff2",
           "subfamilyName": "Bold",
           "metrics": {
             "unitsPerEm": 2000,
@@ -7962,10 +7962,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 64700,
-            "fileSizeKB": 63,
-            "glyphDensity": 110,
-            "format": "ttf",
+            "fileSize": 26508,
+            "fileSizeKB": 26,
+            "glyphDensity": 45,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -7975,7 +7975,7 @@ export default {
           "style": "normal",
           "weight": 400,
           "stretch": "condensed",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-Condensed.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-Condensed.woff2",
           "subfamilyName": "Regular",
           "metrics": {
             "unitsPerEm": 2000,
@@ -8090,10 +8090,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 66040,
-            "fileSizeKB": 64,
-            "glyphDensity": 112,
-            "format": "ttf",
+            "fileSize": 26588,
+            "fileSizeKB": 26,
+            "glyphDensity": 45,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -8103,7 +8103,7 @@ export default {
           "style": "normal",
           "weight": 700,
           "stretch": "normal",
-          "path": "fonts/open-fonts/league-mono/fonts/static/TTF/LeagueMono-Bold.ttf",
+          "path": "fonts/open-fonts/league-mono/fonts/static/WOFF2/LeagueMono-Bold.woff2",
           "subfamilyName": "Bold",
           "metrics": {
             "unitsPerEm": 2000,
@@ -8218,10 +8218,10 @@ export default {
             "total": 11
           },
           "performance": {
-            "fileSize": 65540,
-            "fileSizeKB": 64,
-            "glyphDensity": 111,
-            "format": "ttf",
+            "fileSize": 26792,
+            "fileSizeKB": 26,
+            "glyphDensity": 45,
+            "format": "woff2",
             "isVariable": false,
             "axisCount": 0
           }
@@ -28913,7 +28913,7 @@ export default {
     }
   },
   "buildInfo": {
-    "timestamp": "2025-09-18T12:34:18.656Z",
+    "timestamp": "2025-09-18T16:53:15.506Z",
     "version": "1.9.3",
     "fontCount": 6
   }

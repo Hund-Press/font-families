@@ -1,7 +1,7 @@
 ---
 key: league-mono
 title: League Mono
-description: "League mono monospace font family with variable font technology and 40 weights. Ideal for code and terminal use"
+description: "League Mono font family"
 ---
 
 # {{ title }}

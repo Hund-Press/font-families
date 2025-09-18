@@ -4,6 +4,66 @@ import { glob } from 'glob'
 import { normalizeFont, extractCanonicalFamilyName, analyzeFontFile } from './fonttools-analyzer.js';
 
 /**
+ * Normalize font family name to core family by removing variant descriptors
+ * Handles cases like:
+ * - "League Mono Thin Condensed" -> "League Mono"
+ * - "Public Sans Light" -> "Public Sans" 
+ * - "Inconsolata Variable" -> "Inconsolata"
+ * - "Aspekta 950" -> "Aspekta"
+ * 
+ * @param {string} familyName - Raw family name from font metadata
+ * @returns {string} Normalized core family name
+ */
+function normalizeToCoreFamilyName(familyName) {
+    if (!familyName || typeof familyName !== 'string') {
+        return familyName;
+    }
+    
+    let normalized = familyName.trim();
+    
+    // Remove "Variable" suffix (common in variable fonts)
+    normalized = normalized.replace(/\s+Variable$/i, '');
+    
+    // Remove numeric weight suffixes (like "Aspekta 950", "Font 100")
+    normalized = normalized.replace(/\s+\d{2,4}$/g, '');
+    
+    // Define comprehensive lists of variant descriptors
+    const weightTerms = [
+        'Thin', 'Hairline', 'UltraLight', 'ExtraLight', 'Light',
+        'Regular', 'Normal', 'Book', 'Roman', 'Medium', 
+        'SemiBold', 'DemiBold', 'Bold', 'ExtraBold', 'UltraBold', 
+        'Black', 'Heavy', 'Ultra', 'Fat'
+    ];
+    
+    const widthTerms = [
+        'UltraCondensed', 'ExtraCondensed', 'Condensed', 'SemiCondensed', 'Compressed', 'Narrow',
+        'SemiExpanded', 'Expanded', 'ExtraExpanded', 'UltraExpanded', 'Extended', 'Wide'
+    ];
+    
+    const styleTerms = [
+        'Italic', 'Oblique', 'Slanted', 'Inclined'
+    ];
+    
+    // Create a comprehensive pattern that matches variant descriptors anywhere in the name
+    const allVariantTerms = [...weightTerms, ...widthTerms, ...styleTerms];
+    
+    // Remove variant terms that appear as separate words
+    // This handles cases like "League Mono Condensed Thin" where variants are in the middle
+    const variantPattern = new RegExp(`\\b(${allVariantTerms.join('|')})\\b`, 'gi');
+    normalized = normalized.replace(variantPattern, '');
+    
+    // Clean up extra whitespace and return the core family name
+    normalized = normalized.replace(/\s+/g, ' ').trim();
+    
+    // Safeguard: if we removed everything, return the original
+    if (!normalized || normalized.length < 2) {
+        return familyName;
+    }
+    
+    return normalized;
+}
+
+/**
  * Detects if a font family folder follows UFR (Unified Font Repository) structure
  * @param {string} familyPath - Path to the font family folder
  * @returns {Promise<boolean>} True if UFR structure is detected
@@ -308,20 +368,8 @@ async function scanUFRFamily(familyPath, folderName) {
         try {
           const familyName = await extractCanonicalFamilyName(fontFiles[0])
           if (familyName) {
-            // Clean up family name - remove weight suffixes and "Variable"
-            let cleanFamilyName = familyName
-
-            // Remove "Variable" suffix if present
-            cleanFamilyName = cleanFamilyName.replace(/\s+Variable$/i, '')
-
-            // Remove weight suffixes (numbers at the end like "950", "100", etc.)
-            cleanFamilyName = cleanFamilyName.replace(/\s+\d+$/, '')
-
-            // Remove common weight names at the end
-            cleanFamilyName = cleanFamilyName.replace(
-              /\s+(Thin|ExtraLight|Light|Regular|Medium|SemiBold|Bold|ExtraBold|Black|Ultra|Heavy)$/i,
-              ''
-            )
+            // Clean up family name - remove variant descriptors to get core family name
+            let cleanFamilyName = normalizeToCoreFamilyName(familyName)
 
             actualFamilyName = cleanFamilyName.trim()
             break
@@ -433,20 +481,8 @@ async function scanGenericFamily(familyPath, folderName) {
     try {
       const familyName = await extractCanonicalFamilyName(sortedFiles[0])
       if (familyName) {
-        // Clean up family name - remove weight suffixes and "Variable"
-        let cleanFamilyName = familyName
-
-        // Remove "Variable" suffix if present
-        cleanFamilyName = cleanFamilyName.replace(/\s+Variable$/i, '')
-
-        // Remove weight suffixes (numbers at the end like "950", "100", etc.)
-        cleanFamilyName = cleanFamilyName.replace(/\s+\d+$/, '')
-
-        // Remove common weight names at the end
-        cleanFamilyName = cleanFamilyName.replace(
-          /\s+(Thin|ExtraLight|Light|Regular|Medium|SemiBold|Bold|ExtraBold|Black|Ultra|Heavy)$/i,
-          ''
-        )
+        // Clean up family name - remove variant descriptors to get core family name
+        let cleanFamilyName = normalizeToCoreFamilyName(familyName)
 
         actualFamilyName = cleanFamilyName.trim()
       }

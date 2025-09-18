@@ -1,5 +1,5 @@
 /**
- * League Mono Thin Condensed Font Family Module
+ * League Mono Font Family Module
  * 
  * Generated from font-families build system
  * License: Unknown
@@ -8,8 +8,8 @@
  */
 
 export default {
-  "name": "League Mono Thin Condensed",
-  "key": "league-mono-thin-condensed",
+  "name": "League Mono",
+  "key": "league-mono",
   "attribution": {
     "description": ""
   },
@@ -105,16 +105,16 @@ export default {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.3/fonts/open-fonts/league-mono-thin-condensed/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.3/fonts/open-fonts/league-mono-thin-condensed/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.3/fonts/open-fonts/league-mono-thin-condensed/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.3/fonts/open-fonts/league-mono-thin-condensed/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.3/subsets/league-mono-thin-condensed/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.3/fonts/open-fonts/league-mono/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.3/fonts/open-fonts/league-mono/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.3/fonts/open-fonts/league-mono/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.3/fonts/open-fonts/league-mono/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.3/subsets/league-mono/"
   },
   "faces": {
     "variable": {
-      "league-mono-thin-condensed-variable-regular[wdth,wght]": {
-        "name": "League Mono Thin Condensed Variable (weight, width)",
+      "league-mono-variable-regular[wdth,wght]": {
+        "name": "League Mono Variable (weight, width)",
         "fileName": "LeagueMono-VF.woff2",
         "format": "woff2",
         "fontStyle": "normal",
@@ -165,10 +165,10 @@ export default {
       }
     },
     "static": {
-      "league-mono-thin-condensed-ultra-expanded-extralight": {
-        "name": "League Mono Thin Condensed Ultra Expanded ExtraLight",
-        "fileName": "LeagueMono-WideUltraLight.ttf",
-        "format": "truetype",
+      "league-mono-ultra-expanded-extralight": {
+        "name": "League Mono Ultra Expanded ExtraLight",
+        "fileName": "LeagueMono-WideUltraLight.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 200,
         "fontStretch": "ultra-expanded",
@@ -195,10 +195,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-ultra-expanded-thin": {
-        "name": "League Mono Thin Condensed Ultra Expanded Thin",
-        "fileName": "LeagueMono-WideThin.ttf",
-        "format": "truetype",
+      "league-mono-ultra-expanded-thin": {
+        "name": "League Mono Ultra Expanded Thin",
+        "fileName": "LeagueMono-WideThin.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 100,
         "fontStretch": "ultra-expanded",
@@ -225,10 +225,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-ultra-expanded-semibold": {
-        "name": "League Mono Thin Condensed Ultra Expanded SemiBold",
-        "fileName": "LeagueMono-WideSemiBold.ttf",
-        "format": "truetype",
+      "league-mono-ultra-expanded-semibold": {
+        "name": "League Mono Ultra Expanded SemiBold",
+        "fileName": "LeagueMono-WideSemiBold.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 600,
         "fontStretch": "ultra-expanded",
@@ -255,10 +255,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-ultra-expanded-regular": {
-        "name": "League Mono Thin Condensed Ultra Expanded Regular",
-        "fileName": "LeagueMono-WideRegular.ttf",
-        "format": "truetype",
+      "league-mono-ultra-expanded-regular": {
+        "name": "League Mono Ultra Expanded Regular",
+        "fileName": "LeagueMono-WideRegular.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400,
         "fontStretch": "ultra-expanded",
@@ -285,10 +285,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-ultra-expanded-medium": {
-        "name": "League Mono Thin Condensed Ultra Expanded Medium",
-        "fileName": "LeagueMono-WideMedium.ttf",
-        "format": "truetype",
+      "league-mono-ultra-expanded-medium": {
+        "name": "League Mono Ultra Expanded Medium",
+        "fileName": "LeagueMono-WideMedium.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 500,
         "fontStretch": "ultra-expanded",
@@ -315,10 +315,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-ultra-expanded-light": {
-        "name": "League Mono Thin Condensed Ultra Expanded Light",
-        "fileName": "LeagueMono-WideLight.ttf",
-        "format": "truetype",
+      "league-mono-ultra-expanded-light": {
+        "name": "League Mono Ultra Expanded Light",
+        "fileName": "LeagueMono-WideLight.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 300,
         "fontStretch": "ultra-expanded",
@@ -345,10 +345,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-ultra-expanded-extrabold": {
-        "name": "League Mono Thin Condensed Ultra Expanded ExtraBold",
-        "fileName": "LeagueMono-WideExtraBold.ttf",
-        "format": "truetype",
+      "league-mono-ultra-expanded-extrabold": {
+        "name": "League Mono Ultra Expanded ExtraBold",
+        "fileName": "LeagueMono-WideExtraBold.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 800,
         "fontStretch": "ultra-expanded",
@@ -375,10 +375,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-ultra-expanded-bold": {
-        "name": "League Mono Thin Condensed Ultra Expanded Bold",
-        "fileName": "LeagueMono-WideBold.ttf",
-        "format": "truetype",
+      "league-mono-ultra-expanded-bold": {
+        "name": "League Mono Ultra Expanded Bold",
+        "fileName": "LeagueMono-WideBold.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 700,
         "fontStretch": "ultra-expanded",
@@ -405,10 +405,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-extralight": {
-        "name": "League Mono Thin Condensed ExtraLight",
-        "fileName": "LeagueMono-UltraLight.ttf",
-        "format": "truetype",
+      "league-mono-extralight": {
+        "name": "League Mono ExtraLight",
+        "fileName": "LeagueMono-UltraLight.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 200,
         "fontStretch": "normal",
@@ -435,10 +435,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-thin": {
-        "name": "League Mono Thin Condensed Thin",
-        "fileName": "LeagueMono-Thin.ttf",
-        "format": "truetype",
+      "league-mono-thin": {
+        "name": "League Mono Thin",
+        "fileName": "LeagueMono-Thin.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 100,
         "fontStretch": "normal",
@@ -465,10 +465,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-semibold": {
-        "name": "League Mono Thin Condensed SemiBold",
-        "fileName": "LeagueMono-SemiBold.ttf",
-        "format": "truetype",
+      "league-mono-semibold": {
+        "name": "League Mono SemiBold",
+        "fileName": "LeagueMono-SemiBold.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 600,
         "fontStretch": "normal",
@@ -495,10 +495,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-regular": {
-        "name": "League Mono Thin Condensed Regular",
-        "fileName": "LeagueMono-Regular.ttf",
-        "format": "truetype",
+      "league-mono-regular": {
+        "name": "League Mono Regular",
+        "fileName": "LeagueMono-Regular.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400,
         "fontStretch": "normal",
@@ -525,10 +525,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-semi-condensed-extralight": {
-        "name": "League Mono Thin Condensed Semi Condensed ExtraLight",
-        "fileName": "LeagueMono-NarrowUltraLight.ttf",
-        "format": "truetype",
+      "league-mono-semi-condensed-extralight": {
+        "name": "League Mono Semi Condensed ExtraLight",
+        "fileName": "LeagueMono-NarrowUltraLight.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 200,
         "fontStretch": "semi-condensed",
@@ -555,10 +555,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-semi-condensed-thin": {
-        "name": "League Mono Thin Condensed Semi Condensed Thin",
-        "fileName": "LeagueMono-NarrowThin.ttf",
-        "format": "truetype",
+      "league-mono-semi-condensed-thin": {
+        "name": "League Mono Semi Condensed Thin",
+        "fileName": "LeagueMono-NarrowThin.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 100,
         "fontStretch": "semi-condensed",
@@ -585,10 +585,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-semi-condensed-semibold": {
-        "name": "League Mono Thin Condensed Semi Condensed SemiBold",
-        "fileName": "LeagueMono-NarrowSemiBold.ttf",
-        "format": "truetype",
+      "league-mono-semi-condensed-semibold": {
+        "name": "League Mono Semi Condensed SemiBold",
+        "fileName": "LeagueMono-NarrowSemiBold.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 600,
         "fontStretch": "semi-condensed",
@@ -615,10 +615,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-semi-condensed-regular": {
-        "name": "League Mono Thin Condensed Semi Condensed Regular",
-        "fileName": "LeagueMono-NarrowRegular.ttf",
-        "format": "truetype",
+      "league-mono-semi-condensed-regular": {
+        "name": "League Mono Semi Condensed Regular",
+        "fileName": "LeagueMono-NarrowRegular.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400,
         "fontStretch": "semi-condensed",
@@ -645,10 +645,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-semi-condensed-medium": {
-        "name": "League Mono Thin Condensed Semi Condensed Medium",
-        "fileName": "LeagueMono-NarrowMedium.ttf",
-        "format": "truetype",
+      "league-mono-semi-condensed-medium": {
+        "name": "League Mono Semi Condensed Medium",
+        "fileName": "LeagueMono-NarrowMedium.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 500,
         "fontStretch": "semi-condensed",
@@ -675,10 +675,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-semi-condensed-light": {
-        "name": "League Mono Thin Condensed Semi Condensed Light",
-        "fileName": "LeagueMono-NarrowLight.ttf",
-        "format": "truetype",
+      "league-mono-semi-condensed-light": {
+        "name": "League Mono Semi Condensed Light",
+        "fileName": "LeagueMono-NarrowLight.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 300,
         "fontStretch": "semi-condensed",
@@ -705,10 +705,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-semi-condensed-extrabold": {
-        "name": "League Mono Thin Condensed Semi Condensed ExtraBold",
-        "fileName": "LeagueMono-NarrowExtraBold.ttf",
-        "format": "truetype",
+      "league-mono-semi-condensed-extrabold": {
+        "name": "League Mono Semi Condensed ExtraBold",
+        "fileName": "LeagueMono-NarrowExtraBold.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 800,
         "fontStretch": "semi-condensed",
@@ -735,10 +735,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-semi-condensed-bold": {
-        "name": "League Mono Thin Condensed Semi Condensed Bold",
-        "fileName": "LeagueMono-NarrowBold.ttf",
-        "format": "truetype",
+      "league-mono-semi-condensed-bold": {
+        "name": "League Mono Semi Condensed Bold",
+        "fileName": "LeagueMono-NarrowBold.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 700,
         "fontStretch": "semi-condensed",
@@ -765,10 +765,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-medium": {
-        "name": "League Mono Thin Condensed Medium",
-        "fileName": "LeagueMono-Medium.ttf",
-        "format": "truetype",
+      "league-mono-medium": {
+        "name": "League Mono Medium",
+        "fileName": "LeagueMono-Medium.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 500,
         "fontStretch": "normal",
@@ -795,10 +795,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-light": {
-        "name": "League Mono Thin Condensed Light",
-        "fileName": "LeagueMono-Light.ttf",
-        "format": "truetype",
+      "league-mono-light": {
+        "name": "League Mono Light",
+        "fileName": "LeagueMono-Light.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 300,
         "fontStretch": "normal",
@@ -825,10 +825,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-extrabold": {
-        "name": "League Mono Thin Condensed ExtraBold",
-        "fileName": "LeagueMono-ExtraBold.ttf",
-        "format": "truetype",
+      "league-mono-extrabold": {
+        "name": "League Mono ExtraBold",
+        "fileName": "LeagueMono-ExtraBold.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 800,
         "fontStretch": "normal",
@@ -855,10 +855,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-expanded-extralight": {
-        "name": "League Mono Thin Condensed Expanded ExtraLight",
-        "fileName": "LeagueMono-ExtendedUltraLight.ttf",
-        "format": "truetype",
+      "league-mono-expanded-extralight": {
+        "name": "League Mono Expanded ExtraLight",
+        "fileName": "LeagueMono-ExtendedUltraLight.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 200,
         "fontStretch": "expanded",
@@ -885,10 +885,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-expanded-thin": {
-        "name": "League Mono Thin Condensed Expanded Thin",
-        "fileName": "LeagueMono-ExtendedThin.ttf",
-        "format": "truetype",
+      "league-mono-expanded-thin": {
+        "name": "League Mono Expanded Thin",
+        "fileName": "LeagueMono-ExtendedThin.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 100,
         "fontStretch": "expanded",
@@ -915,10 +915,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-expanded-semibold": {
-        "name": "League Mono Thin Condensed Expanded SemiBold",
-        "fileName": "LeagueMono-ExtendedSemiBold.ttf",
-        "format": "truetype",
+      "league-mono-expanded-semibold": {
+        "name": "League Mono Expanded SemiBold",
+        "fileName": "LeagueMono-ExtendedSemiBold.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 600,
         "fontStretch": "expanded",
@@ -945,10 +945,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-expanded-regular": {
-        "name": "League Mono Thin Condensed Expanded Regular",
-        "fileName": "LeagueMono-ExtendedRegular.ttf",
-        "format": "truetype",
+      "league-mono-expanded-regular": {
+        "name": "League Mono Expanded Regular",
+        "fileName": "LeagueMono-ExtendedRegular.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400,
         "fontStretch": "expanded",
@@ -975,10 +975,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-expanded-medium": {
-        "name": "League Mono Thin Condensed Expanded Medium",
-        "fileName": "LeagueMono-ExtendedMedium.ttf",
-        "format": "truetype",
+      "league-mono-expanded-medium": {
+        "name": "League Mono Expanded Medium",
+        "fileName": "LeagueMono-ExtendedMedium.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 500,
         "fontStretch": "expanded",
@@ -1005,10 +1005,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-expanded-light": {
-        "name": "League Mono Thin Condensed Expanded Light",
-        "fileName": "LeagueMono-ExtendedLight.ttf",
-        "format": "truetype",
+      "league-mono-expanded-light": {
+        "name": "League Mono Expanded Light",
+        "fileName": "LeagueMono-ExtendedLight.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 300,
         "fontStretch": "expanded",
@@ -1035,10 +1035,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-expanded-extrabold": {
-        "name": "League Mono Thin Condensed Expanded ExtraBold",
-        "fileName": "LeagueMono-ExtendedExtraBold.ttf",
-        "format": "truetype",
+      "league-mono-expanded-extrabold": {
+        "name": "League Mono Expanded ExtraBold",
+        "fileName": "LeagueMono-ExtendedExtraBold.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 800,
         "fontStretch": "expanded",
@@ -1065,10 +1065,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-expanded-bold": {
-        "name": "League Mono Thin Condensed Expanded Bold",
-        "fileName": "LeagueMono-ExtendedBold.ttf",
-        "format": "truetype",
+      "league-mono-expanded-bold": {
+        "name": "League Mono Expanded Bold",
+        "fileName": "LeagueMono-ExtendedBold.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 700,
         "fontStretch": "expanded",
@@ -1095,10 +1095,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-condensed-extralight": {
-        "name": "League Mono Thin Condensed Condensed ExtraLight",
-        "fileName": "LeagueMono-CondensedUltraLight.ttf",
-        "format": "truetype",
+      "league-mono-condensed-extralight": {
+        "name": "League Mono Condensed ExtraLight",
+        "fileName": "LeagueMono-CondensedUltraLight.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 200,
         "fontStretch": "condensed",
@@ -1125,10 +1125,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-condensed-thin": {
-        "name": "League Mono Thin Condensed Condensed Thin",
-        "fileName": "LeagueMono-CondensedThin.ttf",
-        "format": "truetype",
+      "league-mono-condensed-thin": {
+        "name": "League Mono Condensed Thin",
+        "fileName": "LeagueMono-CondensedThin.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 100,
         "fontStretch": "condensed",
@@ -1155,10 +1155,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-condensed-semibold": {
-        "name": "League Mono Thin Condensed Condensed SemiBold",
-        "fileName": "LeagueMono-CondensedSemiBold.ttf",
-        "format": "truetype",
+      "league-mono-condensed-semibold": {
+        "name": "League Mono Condensed SemiBold",
+        "fileName": "LeagueMono-CondensedSemiBold.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 600,
         "fontStretch": "condensed",
@@ -1185,10 +1185,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-condensed-medium": {
-        "name": "League Mono Thin Condensed Condensed Medium",
-        "fileName": "LeagueMono-CondensedMedium.ttf",
-        "format": "truetype",
+      "league-mono-condensed-medium": {
+        "name": "League Mono Condensed Medium",
+        "fileName": "LeagueMono-CondensedMedium.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 500,
         "fontStretch": "condensed",
@@ -1215,10 +1215,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-condensed-light": {
-        "name": "League Mono Thin Condensed Condensed Light",
-        "fileName": "LeagueMono-CondensedLight.ttf",
-        "format": "truetype",
+      "league-mono-condensed-light": {
+        "name": "League Mono Condensed Light",
+        "fileName": "LeagueMono-CondensedLight.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 300,
         "fontStretch": "condensed",
@@ -1245,10 +1245,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-condensed-extrabold": {
-        "name": "League Mono Thin Condensed Condensed ExtraBold",
-        "fileName": "LeagueMono-CondensedExtraBold.ttf",
-        "format": "truetype",
+      "league-mono-condensed-extrabold": {
+        "name": "League Mono Condensed ExtraBold",
+        "fileName": "LeagueMono-CondensedExtraBold.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 800,
         "fontStretch": "condensed",
@@ -1275,10 +1275,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-condensed-bold": {
-        "name": "League Mono Thin Condensed Condensed Bold",
-        "fileName": "LeagueMono-CondensedBold.ttf",
-        "format": "truetype",
+      "league-mono-condensed-bold": {
+        "name": "League Mono Condensed Bold",
+        "fileName": "LeagueMono-CondensedBold.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 700,
         "fontStretch": "condensed",
@@ -1305,10 +1305,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-condensed-regular": {
-        "name": "League Mono Thin Condensed Condensed Regular",
-        "fileName": "LeagueMono-Condensed.ttf",
-        "format": "truetype",
+      "league-mono-condensed-regular": {
+        "name": "League Mono Condensed Regular",
+        "fileName": "LeagueMono-Condensed.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400,
         "fontStretch": "condensed",
@@ -1335,10 +1335,10 @@ export default {
           }
         }
       },
-      "league-mono-thin-condensed-bold": {
-        "name": "League Mono Thin Condensed Bold",
-        "fileName": "LeagueMono-Bold.ttf",
-        "format": "truetype",
+      "league-mono-bold": {
+        "name": "League Mono Bold",
+        "fileName": "LeagueMono-Bold.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 700,
         "fontStretch": "normal",
@@ -1367,5 +1367,26 @@ export default {
       }
     }
   },
-  "subsets": {}
+  "subsets": {
+    "min-chars": {
+      "description": "Minimal character set for performance-critical contexts (100 characters)",
+      "characterCount": 100,
+      "unicodeRanges": [
+        "U+0020-007F",
+        "U+00A0",
+        "U+2013-2014",
+        "U+2018-2019",
+        "U+201C-201D",
+        "U+2026"
+      ],
+      "files": {
+        "static": "",
+        "variable": [
+          "LeagueMonoVF-min.ttf",
+          "LeagueMonoVF-min.woff2"
+        ]
+      },
+      "generatedAt": "2025-09-18T16:53:15.462Z"
+    }
+  }
 };

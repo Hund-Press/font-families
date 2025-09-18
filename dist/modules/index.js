@@ -5,7 +5,7 @@
  */
 
 export { default as publicSans } from './public-sans.js';
-export { default as leagueMonoThinCondensed } from './league-mono-thin-condensed.js';
+export { default as leagueMono } from './league-mono.js';
 export { default as inconsolata } from './inconsolata.js';
 export { default as crimsonPro } from './crimson-pro.js';
 export { default as atkinsonHyperlegible } from './atkinson-hyperlegible.js';
@@ -17,7 +17,7 @@ export { default as allFonts } from './all.js';
 // Utility function to get font by slug
 const fontMap = {
   'public-sans': () => import('./public-sans.js'),
-  'league-mono-thin-condensed': () => import('./league-mono-thin-condensed.js'),
+  'league-mono': () => import('./league-mono.js'),
   'inconsolata': () => import('./inconsolata.js'),
   'crimson-pro': () => import('./crimson-pro.js'),
   'atkinson-hyperlegible': () => import('./atkinson-hyperlegible.js'),

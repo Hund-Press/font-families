@@ -747,13 +747,13 @@ export default {
         "U+2026"
       ],
       "files": {
-        "static": "PublicSans-400-min.woff2",
+        "static": "",
         "variable": [
           "PublicSansVF-min.ttf",
           "PublicSansVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-18T12:34:18.603Z"
+      "generatedAt": "2025-09-18T16:53:15.460Z"
     }
   }
 };
