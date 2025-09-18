@@ -105,11 +105,11 @@ export default {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.3/fonts/open-fonts/league-mono/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.3/fonts/open-fonts/league-mono/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.3/fonts/open-fonts/league-mono/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.3/fonts/open-fonts/league-mono/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.3/subsets/league-mono/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.4/fonts/open-fonts/league-mono/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.4/fonts/open-fonts/league-mono/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.4/fonts/open-fonts/league-mono/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.4/fonts/open-fonts/league-mono/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.4/subsets/league-mono/"
   },
   "faces": {
     "variable": {
@@ -1386,7 +1386,7 @@ export default {
           "LeagueMonoVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-18T16:53:15.462Z"
+      "generatedAt": "2025-09-18T17:02:00.913Z"
     }
   }
 };

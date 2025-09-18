@@ -37,7 +37,7 @@
         "fileSizeKB": 23,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.3/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Regular.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.4/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Regular.woff2"
           }
         }
       },
@@ -52,7 +52,7 @@
         "fileSizeKB": 24,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.3/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Italic.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.4/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Italic.woff2"
           }
         }
       },
@@ -67,7 +67,7 @@
         "fileSizeKB": 25,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.3/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-BoldItalic.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.4/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-BoldItalic.woff2"
           }
         }
       },
@@ -82,7 +82,7 @@
         "fileSizeKB": 23,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.3/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Bold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.4/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Bold.woff2"
           }
         }
       }
@@ -148,7 +148,7 @@
       "title": "Performance subsets for this family"
     },
     "cdn": {
-      "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.3/atkinson-hyperlegible/",
+      "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.4/atkinson-hyperlegible/",
       "templated": false
     }
   },
