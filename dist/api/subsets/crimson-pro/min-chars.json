@@ -40,7 +40,7 @@
       "compressionRatio": 0.275,
       "links": {
         "download": {
-          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.2/subsets/crimson-pro/min-chars/CrimsonPro-400-min.woff2"
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.3/subsets/crimson-pro/min-chars/CrimsonPro-400-min.woff2"
         }
       }
     },
@@ -52,7 +52,7 @@
       "compressionRatio": 1.6,
       "links": {
         "download": {
-          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.2/subsets/crimson-pro/min-chars/CrimsonProVF-min.ttf"
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.3/subsets/crimson-pro/min-chars/CrimsonProVF-min.ttf"
         }
       }
     },
@@ -64,7 +64,7 @@
       "compressionRatio": 0.922,
       "links": {
         "download": {
-          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.2/subsets/crimson-pro/min-chars/CrimsonProVF-min.woff2"
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.9.3/subsets/crimson-pro/min-chars/CrimsonProVF-min.woff2"
         }
       }
     }

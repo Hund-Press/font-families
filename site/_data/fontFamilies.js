@@ -28913,8 +28913,8 @@ export default {
     }
   },
   "buildInfo": {
-    "timestamp": "2025-09-17T21:18:05.222Z",
-    "version": "1.9.2",
+    "timestamp": "2025-09-18T12:34:18.656Z",
+    "version": "1.9.3",
     "fontCount": 6
   }
 }

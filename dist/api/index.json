@@ -1,6 +1,6 @@
 {
   "name": "Font Families API",
-  "version": "1.9.2",
+  "version": "1.9.3",
   "description": "Community-driven font collection API",
   "links": {
     "self": { "href": "/api/" },
