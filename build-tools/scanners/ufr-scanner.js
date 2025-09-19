@@ -1,66 +1,96 @@
 import { promises as fs } from 'fs'
 import path from 'path'
 import { glob } from 'glob'
-import { normalizeFont, extractCanonicalFamilyName, analyzeFontFile } from './fonttools-analyzer.js';
+import {
+  normalizeFont,
+  extractCanonicalFamilyName,
+  analyzeFontFile,
+} from './fonttools-analyzer.js'
 
 /**
  * Normalize font family name to core family by removing variant descriptors
  * Handles cases like:
  * - "League Mono Thin Condensed" -> "League Mono"
- * - "Public Sans Light" -> "Public Sans" 
+ * - "Public Sans Light" -> "Public Sans"
  * - "Inconsolata Variable" -> "Inconsolata"
  * - "Aspekta 950" -> "Aspekta"
- * 
+ *
  * @param {string} familyName - Raw family name from font metadata
  * @returns {string} Normalized core family name
  */
 function normalizeToCoreFamilyName(familyName) {
-    if (!familyName || typeof familyName !== 'string') {
-        return familyName;
-    }
-    
-    let normalized = familyName.trim();
-    
-    // Remove "Variable" suffix (common in variable fonts)
-    normalized = normalized.replace(/\s+Variable$/i, '');
-    
-    // Remove numeric weight suffixes (like "Aspekta 950", "Font 100")
-    normalized = normalized.replace(/\s+\d{2,4}$/g, '');
-    
-    // Define comprehensive lists of variant descriptors
-    const weightTerms = [
-        'Thin', 'Hairline', 'UltraLight', 'ExtraLight', 'Light',
-        'Regular', 'Normal', 'Book', 'Roman', 'Medium', 
-        'SemiBold', 'DemiBold', 'Bold', 'ExtraBold', 'UltraBold', 
-        'Black', 'Heavy', 'Ultra', 'Fat'
-    ];
-    
-    const widthTerms = [
-        'UltraCondensed', 'ExtraCondensed', 'Condensed', 'SemiCondensed', 'Compressed', 'Narrow',
-        'SemiExpanded', 'Expanded', 'ExtraExpanded', 'UltraExpanded', 'Extended', 'Wide'
-    ];
-    
-    const styleTerms = [
-        'Italic', 'Oblique', 'Slanted', 'Inclined'
-    ];
-    
-    // Create a comprehensive pattern that matches variant descriptors anywhere in the name
-    const allVariantTerms = [...weightTerms, ...widthTerms, ...styleTerms];
-    
-    // Remove variant terms that appear as separate words
-    // This handles cases like "League Mono Condensed Thin" where variants are in the middle
-    const variantPattern = new RegExp(`\\b(${allVariantTerms.join('|')})\\b`, 'gi');
-    normalized = normalized.replace(variantPattern, '');
-    
-    // Clean up extra whitespace and return the core family name
-    normalized = normalized.replace(/\s+/g, ' ').trim();
-    
-    // Safeguard: if we removed everything, return the original
-    if (!normalized || normalized.length < 2) {
-        return familyName;
-    }
-    
-    return normalized;
+  if (!familyName || typeof familyName !== 'string') {
+    return familyName
+  }
+
+  let normalized = familyName.trim()
+
+  // Remove "Variable" suffix (common in variable fonts)
+  normalized = normalized.replace(/\s+Variable$/i, '')
+
+  // Remove numeric weight suffixes (like "Aspekta 950", "Font 100")
+  normalized = normalized.replace(/\s+\d{2,4}$/g, '')
+
+  // Define comprehensive lists of variant descriptors
+  const weightTerms = [
+    'Thin',
+    'Hairline',
+    'UltraLight',
+    'ExtraLight',
+    'Light',
+    'Regular',
+    'Normal',
+    'Book',
+    'Roman',
+    'Medium',
+    'SemiBold',
+    'DemiBold',
+    'Bold',
+    'ExtraBold',
+    'UltraBold',
+    'Black',
+    'Heavy',
+    'Ultra',
+    'Fat',
+  ]
+
+  const widthTerms = [
+    'UltraCondensed',
+    'ExtraCondensed',
+    'Condensed',
+    'SemiCondensed',
+    'Compressed',
+    'Narrow',
+    'SemiExpanded',
+    'Expanded',
+    'ExtraExpanded',
+    'UltraExpanded',
+    'Extended',
+    'Wide',
+  ]
+
+  const styleTerms = ['Italic', 'Oblique', 'Slanted', 'Inclined']
+
+  // Create a comprehensive pattern that matches variant descriptors anywhere in the name
+  const allVariantTerms = [...weightTerms, ...widthTerms, ...styleTerms]
+
+  // Remove variant terms that appear as separate words
+  // This handles cases like "League Mono Condensed Thin" where variants are in the middle
+  const variantPattern = new RegExp(
+    `\\b(${allVariantTerms.join('|')})\\b`,
+    'gi'
+  )
+  normalized = normalized.replace(variantPattern, '')
+
+  // Clean up extra whitespace and return the core family name
+  normalized = normalized.replace(/\s+/g, ' ').trim()
+
+  // Safeguard: if we removed everything, return the original
+  if (!normalized || normalized.length < 2) {
+    return familyName
+  }
+
+  return normalized
 }
 
 /**
@@ -421,10 +451,11 @@ async function scanUFRFamily(familyPath, folderName) {
         const postScriptName = analysis.basic.postscriptName
         if (postScriptName) {
           // For variable fonts, use a descriptive key instead of PostScript name
-          const fontKey = type === 'variable'
-            ? generateVariableFontKey(analysis, postScriptName)
-            : postScriptName
-          
+          const fontKey =
+            type === 'variable'
+              ? generateVariableFontKey(analysis, postScriptName)
+              : postScriptName
+
           familyData[type][fontKey] = await normalizeFont(
             analysis,
             actualFamilyName,
@@ -509,10 +540,11 @@ async function scanGenericFamily(familyPath, folderName) {
       const postScriptName = analysis.basic.postscriptName
       if (postScriptName) {
         // For variable fonts, use a descriptive key instead of PostScript name
-        const fontKey = type === 'variable'
-          ? generateVariableFontKey(analysis, postScriptName)
-          : postScriptName
-        
+        const fontKey =
+          type === 'variable'
+            ? generateVariableFontKey(analysis, postScriptName)
+            : postScriptName
+
         familyData[type][fontKey] = await normalizeFont(
           analysis,
           actualFamilyName,
@@ -745,9 +777,14 @@ function slugifyFontName(name) {
 
 function generateVariableFontKey(analysis, postScriptName) {
   // For variable fonts, create a key that describes the axes
-  if (analysis.variable && analysis.variable.axes && Object.keys(analysis.variable.axes).length > 0) {
+  if (
+    analysis.variable &&
+    analysis.variable.axes &&
+    Object.keys(analysis.variable.axes).length > 0
+  ) {
     const axes = Object.keys(analysis.variable.axes).sort()
-    const styleDesc = analysis.basic.subfamilyName && 
+    const styleDesc =
+      analysis.basic.subfamilyName &&
       analysis.basic.subfamilyName.toLowerCase().includes('italic')
         ? 'Italic'
         : 'Regular'

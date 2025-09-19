@@ -1386,7 +1386,7 @@ export default {
           "LeagueMonoVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-18T17:02:00.913Z"
+      "generatedAt": "2025-09-18T17:09:46.673Z"
     }
   }
 };

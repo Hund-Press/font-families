@@ -3,10 +3,16 @@
   "version": "1.9.4",
   "description": "Community-driven font collection API",
   "links": {
-    "self": { "href": "/api/" },
-    "families": { "href": "/api/families/" },
-    "modules": { "href": "/modules/" },
-    "subsets": { 
+    "self": {
+      "href": "/api/"
+    },
+    "families": {
+      "href": "/api/families/"
+    },
+    "modules": {
+      "href": "/modules/"
+    },
+    "subsets": {
       "href": "/api/subsets/",
       "title": "Performance-optimized font subsets"
     }
@@ -18,8 +24,17 @@
     },
     "subsets": {
       "description": "Language and performance-optimized derivative works",
-      "types": ["min-chars", "latin-basic", "cyrillic", "arabic", "cjk-basic"],
-      "formats": ["woff2", "ttf"],
+      "types": [
+        "min-chars",
+        "latin-basic",
+        "cyrillic",
+        "arabic",
+        "cjk-basic"
+      ],
+      "formats": [
+        "woff2",
+        "ttf"
+      ],
       "status": "derivative-works"
     }
   }

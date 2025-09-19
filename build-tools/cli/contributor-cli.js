@@ -2,73 +2,73 @@
 
 /**
  * Contributor CLI Tool
- * 
+ *
  * Command-line interface for font contribution validation and quality assessment.
  * Provides working examples and comparative analysis instead of abstract rules.
  */
 
-import { promises as fs } from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-import { runContributorValidation } from '../workflows/contributor-validation.js';
+import { promises as fs } from 'fs'
+import path from 'path'
+import { fileURLToPath } from 'url'
+import { runContributorValidation } from '../workflows/contributor-validation.js'
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 /**
  * Parse command line arguments
  */
 function parseArgs() {
-    const args = process.argv.slice(2);
-    const config = {
-        command: null,
-        fontPath: null,
-        outputPath: null,
-        reference: null,
-        help: false
-    };
-    
-    for (let i = 0; i < args.length; i++) {
-        const arg = args[i];
-        
-        switch (arg) {
-            case 'validate':
-            case 'check':
-            case 'analyze':
-                config.command = 'validate';
-                break;
-            case 'example':
-            case 'demo':
-                config.command = 'example';
-                break;
-            case '--help':
-            case '-h':
-                config.help = true;
-                break;
-            case '--output':
-            case '-o':
-                config.outputPath = args[++i];
-                break;
-            case '--reference':
-            case '-r':
-                config.reference = args[++i];
-                break;
-            default:
-                if (!config.fontPath && !arg.startsWith('-')) {
-                    config.fontPath = arg;
-                }
-                break;
+  const args = process.argv.slice(2)
+  const config = {
+    command: null,
+    fontPath: null,
+    outputPath: null,
+    reference: null,
+    help: false,
+  }
+
+  for (let i = 0; i < args.length; i++) {
+    const arg = args[i]
+
+    switch (arg) {
+      case 'validate':
+      case 'check':
+      case 'analyze':
+        config.command = 'validate'
+        break
+      case 'example':
+      case 'demo':
+        config.command = 'example'
+        break
+      case '--help':
+      case '-h':
+        config.help = true
+        break
+      case '--output':
+      case '-o':
+        config.outputPath = args[++i]
+        break
+      case '--reference':
+      case '-r':
+        config.reference = args[++i]
+        break
+      default:
+        if (!config.fontPath && !arg.startsWith('-')) {
+          config.fontPath = arg
         }
+        break
     }
-    
-    return config;
+  }
+
+  return config
 }
 
 /**
  * Print help information
  */
 function printHelp() {
-    console.log(`
+  console.log(`
 Font Families Contributor Tool
 
 USAGE:
@@ -103,14 +103,14 @@ reference implementations.
 The goal is to help contributors understand quality standards through concrete
 examples that show the difference between adequate and excellent font 
 contributions.
-`);
+`)
 }
 
 /**
  * Show example of well-structured contribution
  */
 async function showExample() {
-    console.log(`
+  console.log(`
 🎯 EXAMPLE: Well-Structured Font Contribution
 
 The Aspekta font in this repository demonstrates excellent contribution structure:
@@ -165,9 +165,9 @@ Running 'contributor-cli validate fonts/open-fonts/aspekta' shows:
 
 This demonstrates the quality standard for font contributions. Your contribution
 will be compared against this reference to identify improvement opportunities.
-`);
+`)
 
-    console.log(`
+  console.log(`
 🛠️  QUICK START FOR NEW CONTRIBUTION:
 
 1. Create UFR structure:
@@ -197,67 +197,69 @@ will be compared against this reference to identify improvement opportunities.
 
 This approach ensures your contribution meets community standards and provides
 an excellent user experience for font consumers.
-`);
+`)
 }
 
 /**
  * Main CLI entry point
  */
 async function main() {
-    const config = parseArgs();
-    
-    if (config.help || !config.command) {
-        printHelp();
-        return;
-    }
-    
-    try {
-        switch (config.command) {
-            case 'validate':
-                if (!config.fontPath) {
-                    console.error('❌ Error: Font path required for validation');
-                    console.error('Usage: contributor-cli validate <font-path>');
-                    process.exit(1);
-                }
-                
-                console.log(`🔍 Validating contribution: ${config.fontPath}`);
-                console.log('📊 Generating quality report with working examples...\n');
-                
-                const report = await runContributorValidation(config.fontPath, config.outputPath);
-                
-                if (config.outputPath) {
-                    console.log(`\n📄 Detailed report saved: ${config.outputPath}`);
-                }
-                
-                // Exit with error code if validation fails
-                if (report.contributorAnalysis && !report.contributorAnalysis.exists) {
-                    process.exit(1);
-                }
-                
-                break;
-                
-            case 'example':
-                await showExample();
-                break;
-                
-            default:
-                console.error(`❌ Unknown command: ${config.command}`);
-                printHelp();
-                process.exit(1);
+  const config = parseArgs()
+
+  if (config.help || !config.command) {
+    printHelp()
+    return
+  }
+
+  try {
+    switch (config.command) {
+      case 'validate':
+        if (!config.fontPath) {
+          console.error('❌ Error: Font path required for validation')
+          console.error('Usage: contributor-cli validate <font-path>')
+          process.exit(1)
         }
-        
-    } catch (error) {
-        console.error(`❌ Error: ${error.message}`);
-        process.exit(1);
+
+        console.log(`🔍 Validating contribution: ${config.fontPath}`)
+        console.log('📊 Generating quality report with working examples...\n')
+
+        const report = await runContributorValidation(
+          config.fontPath,
+          config.outputPath
+        )
+
+        if (config.outputPath) {
+          console.log(`\n📄 Detailed report saved: ${config.outputPath}`)
+        }
+
+        // Exit with error code if validation fails
+        if (report.contributorAnalysis && !report.contributorAnalysis.exists) {
+          process.exit(1)
+        }
+
+        break
+
+      case 'example':
+        await showExample()
+        break
+
+      default:
+        console.error(`❌ Unknown command: ${config.command}`)
+        printHelp()
+        process.exit(1)
     }
+  } catch (error) {
+    console.error(`❌ Error: ${error.message}`)
+    process.exit(1)
+  }
 }
 
 // Run CLI if this file is executed directly
 if (process.argv[1] === __filename) {
-    main().catch(error => {
-        console.error(`Fatal error: ${error.message}`);
-        process.exit(1);
-    });
+  main().catch((error) => {
+    console.error(`Fatal error: ${error.message}`)
+    process.exit(1)
+  })
 }
 
-export { main, parseArgs, showExample };
+export { main, parseArgs, showExample }

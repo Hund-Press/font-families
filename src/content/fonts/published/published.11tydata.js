@@ -1,4 +1,4 @@
 export default {
-    layout: 'page',
-    tags: 'fonts'
-};
+  layout: 'page',
+  tags: 'fonts',
+}

@@ -2,31 +2,36 @@
 
 /**
  * Font Documentation Generator
- * 
+ *
  * Programmatically generates markdown documentation files for font families
  * based on their UFR metadata and API data.
  */
 
-import { promises as fs } from 'fs';
-import path from 'path';
+import { promises as fs } from 'fs'
+import path from 'path'
 
-const DOCS_DIR = './src/content/fonts/published';
+const DOCS_DIR = './src/content/fonts/published'
 
 /**
  * Generate markdown documentation for a font family
  */
 function generateFontDocumentation(fontData) {
-    const { name, key, author, license, version, description } = fontData;
-    
-    // Clean up font name for title (remove npm scoping, capitalize)
-    const cleanTitle = name.replace(/^@[^\/]+\//, '').split('-').map(word => 
-        word.charAt(0).toUpperCase() + word.slice(1)
-    ).join(' ');
-    
-    // Escape description for YAML
-    const safeDescription = (description || `${cleanTitle} font family`).replace(/"/g, '\\"');
-    
-    return `---
+  const { name, key, author, license, version, description } = fontData
+
+  // Clean up font name for title (remove npm scoping, capitalize)
+  const cleanTitle = name
+    .replace(/^@[^\/]+\//, '')
+    .split('-')
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ')
+
+  // Escape description for YAML
+  const safeDescription = (description || `${cleanTitle} font family`).replace(
+    /"/g,
+    '\\"'
+  )
+
+  return `---
 key: ${key}
 title: ${cleanTitle}
 description: "${safeDescription}"
@@ -130,148 +135,158 @@ pre {
   overflow-x: auto;
 }
 </style>
-`;
+`
 }
 
 /**
  * Load font data from various sources
  */
 async function loadFontData(fontKey) {
+  try {
+    // Try to load from API metadata first
+    const apiMetadataPath = path.join(
+      'dist',
+      'api',
+      'metadata',
+      `${fontKey}.json`
+    )
     try {
-        // Try to load from API metadata first
-        const apiMetadataPath = path.join('dist', 'api', 'metadata', `${fontKey}.json`);
-        try {
-            const apiData = JSON.parse(await fs.readFile(apiMetadataPath, 'utf8'));
-            return {
-                name: apiData.name,
-                key: fontKey,
-                author: apiData.author,
-                license: apiData.license,
-                version: apiData.version,
-                description: apiData.description
-            };
-        } catch (error) {
-            // Fallback to UFR package.json
-            const ufrPath = path.join('fonts', 'open-fonts', fontKey, 'package.json');
-            const ufrData = JSON.parse(await fs.readFile(ufrPath, 'utf8'));
-            
-            return {
-                name: ufrData.name,
-                key: fontKey,
-                author: ufrData.author,
-                license: ufrData.license,
-                version: ufrData.version,
-                description: ufrData.description
-            };
-        }
+      const apiData = JSON.parse(await fs.readFile(apiMetadataPath, 'utf8'))
+      return {
+        name: apiData.name,
+        key: fontKey,
+        author: apiData.author,
+        license: apiData.license,
+        version: apiData.version,
+        description: apiData.description,
+      }
     } catch (error) {
-        console.error(`Warning: Could not load metadata for ${fontKey}: ${error.message}`);
-        return {
-            name: fontKey,
-            key: fontKey,
-            author: 'Unknown',
-            license: 'Unknown',
-            version: 'Unknown',
-            description: `${fontKey.charAt(0).toUpperCase() + fontKey.slice(1)} font family`
-        };
+      // Fallback to UFR package.json
+      const ufrPath = path.join('fonts', 'open-fonts', fontKey, 'package.json')
+      const ufrData = JSON.parse(await fs.readFile(ufrPath, 'utf8'))
+
+      return {
+        name: ufrData.name,
+        key: fontKey,
+        author: ufrData.author,
+        license: ufrData.license,
+        version: ufrData.version,
+        description: ufrData.description,
+      }
     }
+  } catch (error) {
+    console.error(
+      `Warning: Could not load metadata for ${fontKey}: ${error.message}`
+    )
+    return {
+      name: fontKey,
+      key: fontKey,
+      author: 'Unknown',
+      license: 'Unknown',
+      version: 'Unknown',
+      description: `${fontKey.charAt(0).toUpperCase() + fontKey.slice(1)} font family`,
+    }
+  }
 }
 
 /**
  * Get list of all font families in open-fonts directory
  */
 async function getFontFamilies() {
-    try {
-        const openFontsDir = './fonts/open-fonts';
-        const entries = await fs.readdir(openFontsDir, { withFileTypes: true });
-        
-        return entries
-            .filter(entry => entry.isDirectory() && !entry.name.startsWith('.'))
-            .map(entry => entry.name);
-    } catch (error) {
-        console.error('Error reading font families:', error.message);
-        return [];
-    }
+  try {
+    const openFontsDir = './fonts/open-fonts'
+    const entries = await fs.readdir(openFontsDir, { withFileTypes: true })
+
+    return entries
+      .filter((entry) => entry.isDirectory() && !entry.name.startsWith('.'))
+      .map((entry) => entry.name)
+  } catch (error) {
+    console.error('Error reading font families:', error.message)
+    return []
+  }
 }
 
 /**
  * Check if documentation file already exists and is newer than source data
  */
 async function shouldRegenerateDoc(fontKey) {
-    const docPath = path.join(DOCS_DIR, `${fontKey}.md`);
-    
+  const docPath = path.join(DOCS_DIR, `${fontKey}.md`)
+
+  try {
+    const docStats = await fs.stat(docPath)
+
+    // Check if source UFR package.json is newer
     try {
-        const docStats = await fs.stat(docPath);
-        
-        // Check if source UFR package.json is newer
-        try {
-            const ufrPath = path.join('fonts', 'open-fonts', fontKey, 'package.json');
-            const ufrStats = await fs.stat(ufrPath);
-            
-            // Regenerate if UFR is newer than doc
-            return ufrStats.mtime > docStats.mtime;
-        } catch {
-            // If we can't read UFR file, regenerate
-            return true;
-        }
+      const ufrPath = path.join('fonts', 'open-fonts', fontKey, 'package.json')
+      const ufrStats = await fs.stat(ufrPath)
+
+      // Regenerate if UFR is newer than doc
+      return ufrStats.mtime > docStats.mtime
     } catch {
-        // If doc doesn't exist, generate it
-        return true;
+      // If we can't read UFR file, regenerate
+      return true
     }
+  } catch {
+    // If doc doesn't exist, generate it
+    return true
+  }
 }
 
 /**
  * Generate documentation for all font families
  */
 export async function generateDocumentation() {
-    console.log('[doc-generator] Starting font documentation generation...');
-    
-    // Ensure docs directory exists
-    await fs.mkdir(DOCS_DIR, { recursive: true });
-    
-    const fontFamilies = await getFontFamilies();
-    console.log(`[doc-generator] Found ${fontFamilies.length} font families`);
-    
-    let generated = 0;
-    let skipped = 0;
-    
-    for (const fontKey of fontFamilies) {
-        try {
-            const shouldRegenerate = await shouldRegenerateDoc(fontKey);
-            
-            if (!shouldRegenerate) {
-                console.log(`[doc-generator] Skipping ${fontKey} (up to date)`);
-                skipped++;
-                continue;
-            }
-            
-            console.log(`[doc-generator] Generating documentation for ${fontKey}...`);
-            
-            const fontData = await loadFontData(fontKey);
-            const documentation = generateFontDocumentation(fontData);
-            
-            const outputPath = path.join(DOCS_DIR, `${fontKey}.md`);
-            await fs.writeFile(outputPath, documentation);
-            
-            generated++;
-            console.log(`[doc-generator] ✓ Generated ${outputPath}`);
-            
-        } catch (error) {
-            console.error(`[doc-generator] ✗ Failed to generate documentation for ${fontKey}: ${error.message}`);
-        }
+  console.log('[doc-generator] Starting font documentation generation...')
+
+  // Ensure docs directory exists
+  await fs.mkdir(DOCS_DIR, { recursive: true })
+
+  const fontFamilies = await getFontFamilies()
+  console.log(`[doc-generator] Found ${fontFamilies.length} font families`)
+
+  let generated = 0
+  let skipped = 0
+
+  for (const fontKey of fontFamilies) {
+    try {
+      const shouldRegenerate = await shouldRegenerateDoc(fontKey)
+
+      if (!shouldRegenerate) {
+        console.log(`[doc-generator] Skipping ${fontKey} (up to date)`)
+        skipped++
+        continue
+      }
+
+      console.log(`[doc-generator] Generating documentation for ${fontKey}...`)
+
+      const fontData = await loadFontData(fontKey)
+      const documentation = generateFontDocumentation(fontData)
+
+      const outputPath = path.join(DOCS_DIR, `${fontKey}.md`)
+      await fs.writeFile(outputPath, documentation)
+
+      generated++
+      console.log(`[doc-generator] ✓ Generated ${outputPath}`)
+    } catch (error) {
+      console.error(
+        `[doc-generator] ✗ Failed to generate documentation for ${fontKey}: ${error.message}`
+      )
     }
-    
-    console.log(`[doc-generator] Documentation generation complete: ${generated} generated, ${skipped} skipped`);
+  }
+
+  console.log(
+    `[doc-generator] Documentation generation complete: ${generated} generated, ${skipped} skipped`
+  )
 }
 
 /**
  * CLI execution
  */
 if (import.meta.url === `file://${process.argv[1]}`) {
-    generateDocumentation()
-        .then(() => process.exit(0))
-        .catch(error => {
-            console.error('[doc-generator] Fatal error:', error);
-            process.exit(1);
-        });
+  generateDocumentation()
+    .then(() => process.exit(0))
+    .catch((error) => {
+      console.error('[doc-generator] Fatal error:', error)
+      process.exit(1)
+    })
 }
