@@ -59,7 +59,7 @@ jobs:
         run: npm ci
 
       - name: Setup Python for font processing
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
@@ -226,7 +226,7 @@ jobs:
         run: npm ci
 
       - name: Setup Python for font processing
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
