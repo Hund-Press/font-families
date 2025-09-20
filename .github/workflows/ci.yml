@@ -1,0 +1,251 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    name: Test Suite
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x, 22.x]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run linting
+        run: npm run lint
+
+      - name: Check code formatting
+        run: npm run format:check
+
+      - name: Run tests
+        run: npm test
+
+      - name: Check version sync
+        run: npm run version:check
+        continue-on-error: true
+
+  build:
+    name: Build Pipeline
+    runs-on: ubuntu-latest
+    needs: test
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Setup Python for font processing
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install fonttools[ufo,lxml,woff,unicode]
+
+      - name: Run full build pipeline
+        run: npm run build
+
+      - name: Generate documentation
+        run: npm run generate-docs
+        continue-on-error: true
+
+      - name: Build site
+        run: npm run build-site
+        continue-on-error: true
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-artifacts-${{ github.sha }}
+          path: |
+            dist/
+            _site/
+          retention-days: 7
+
+  quality-gates:
+    name: Quality Gates
+    runs-on: ubuntu-latest
+    needs: [test, build]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Download build artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: build-artifacts-${{ github.sha }}
+
+      - name: Validate font processing results
+        run: |
+          if [ -d "dist/modules" ]; then
+            echo "✅ Font modules generated successfully"
+            ls -la dist/modules/ | head -10
+          else
+            echo "❌ Font modules not found"
+            exit 1
+          fi
+
+      - name: Check API endpoints
+        run: |
+          if [ -d "dist/api" ]; then
+            echo "✅ API endpoints generated successfully"
+            find dist/api -name "*.json" | wc -l
+          else
+            echo "⚠️  API endpoints not found"
+          fi
+
+      - name: Validate documentation
+        run: |
+          if [ -d "src/content/fonts/published" ]; then
+            echo "✅ Font documentation generated"
+            find src/content/fonts/published -name "*.md" | wc -l
+          else
+            echo "⚠️  Font documentation not found"
+          fi
+
+      - name: Check site build
+        run: |
+          if [ -d "_site" ]; then
+            echo "✅ Site built successfully"
+            ls -la _site/ | head -5
+          else
+            echo "⚠️  Site build not found"
+          fi
+
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    needs: [test, build, quality-gates]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          cache: 'npm'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Download build artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: build-artifacts-${{ github.sha }}
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Check if release needed
+        id: check-release
+        run: |
+          if npm run version:check; then
+            echo "Version is synced, no release needed"
+            echo "needs-release=false" >> $GITHUB_OUTPUT
+          else
+            echo "Version mismatch detected, preparing release"
+            echo "needs-release=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Sync version and create release
+        if: steps.check-release.outputs.needs-release == 'true'
+        run: |
+          npm run version:sync
+          git add package.json
+          git commit -m "chore: sync version to git tag" || true
+          git push
+
+      - name: Publish to npm
+        if: steps.check-release.outputs.needs-release == 'true'
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  deploy:
+    name: Deploy Documentation
+    runs-on: ubuntu-latest
+    needs: [test, build, quality-gates]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Setup Python for font processing
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install fonttools[ufo,lxml,woff,unicode]
+
+      - name: Build for production
+        run: |
+          npm run build
+          npm run generate-docs
+          npm run build-site
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          cname: font-families.hund.press
+        env:
+          NODE_ENV: production

@@ -2,8 +2,6 @@
 """
 Font Inspector - fontTools-based font analysis for multi-language support
 
-Replacement for FontKit with comprehensive Unicode support for all major written languages.
-Provides font metadata extraction, OpenType feature analysis, and character coverage.
 """
 
 import sys
