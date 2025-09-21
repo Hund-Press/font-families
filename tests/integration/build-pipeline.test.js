@@ -49,7 +49,7 @@ test('Build Pipeline Integration - Font Processing Flow', async (t) => {
       )
 
       // Test font scanning
-      const { scanFontFamilies } = await import('../../build-tools/scanners/ufr-scanner.js')
+      const { scanFontFamilies } = await import('../../src/build-tools/scanners/ufr-scanner.js')
       
       const fontData = await scanFontFamilies(
         openFontsDir,
@@ -60,7 +60,7 @@ test('Build Pipeline Integration - Font Processing Flow', async (t) => {
 
       // Test that scanned data can be used for module generation
       if (Object.keys(fontData).length > 0) {
-        const { generateModules } = await import('../../build-tools/generators/module-generator.js')
+        const { generateModules } = await import('../../src/build-tools/generators/module-generator.js')
         
         await generateModules(fontData, workspace.getOutputPath('modules'), {
           generateIndividualModules: true,
@@ -104,7 +104,7 @@ test('Build Pipeline Integration - Font Processing Flow', async (t) => {
       await createTestFontStructure(fontsDir, 'legacy-font')
 
       // Test scanning mixed sources
-      const { scanFontFamilies } = await import('../../build-tools/scanners/ufr-scanner.js')
+      const { scanFontFamilies } = await import('../../src/build-tools/scanners/ufr-scanner.js')
       
       const fontData = await scanFontFamilies(
         fontsDir,
@@ -150,7 +150,7 @@ test('Build Pipeline Integration - Module Generation Flow', async (t) => {
         })
       }
 
-      const { generateModules } = await import('../../build-tools/generators/module-generator.js')
+      const { generateModules } = await import('../../src/build-tools/generators/module-generator.js')
       
       // Generate both individual and combined modules
       await generateModules(fontFamilies, workspace.getOutputPath('modules'), {
@@ -203,7 +203,7 @@ test('Build Pipeline Integration - Module Generation Flow', async (t) => {
         })
       }
 
-      const { generateModules } = await import('../../build-tools/generators/module-generator.js')
+      const { generateModules } = await import('../../src/build-tools/generators/module-generator.js')
       
       await generateModules(fontFamilies, workspace.getOutputPath('modules'))
 
@@ -240,7 +240,7 @@ test('Build Pipeline Integration - Catalog Generation Flow', async (t) => {
         })
       }
 
-      const { generateCatalog } = await import('../../build-tools/generators/catalog-generator.js')
+      const { generateCatalog } = await import('../../src/build-tools/generators/catalog-generator.js')
       
       await generateCatalog(fontFamilies, workspace.getOutputPath('api/families'), {
         version: '1.0.0',
@@ -296,13 +296,13 @@ test('Build Pipeline Integration - Cross-Module Data Flow', async (t) => {
       }
 
       // Generate modules
-      const { generateModules } = await import('../../build-tools/generators/module-generator.js')
+      const { generateModules } = await import('../../src/build-tools/generators/module-generator.js')
       await generateModules(fontFamilies, workspace.getOutputPath('modules'), {
         repoVersion: 'v2.1.0'
       })
 
       // Generate catalog
-      const { generateCatalog } = await import('../../build-tools/generators/catalog-generator.js')
+      const { generateCatalog } = await import('../../src/build-tools/generators/catalog-generator.js')
       await generateCatalog(fontFamilies, workspace.getOutputPath('api/families'), {
         version: '2.1.0'
       })
@@ -345,7 +345,7 @@ test('Build Pipeline Integration - Cross-Module Data Flow', async (t) => {
         }
       }
 
-      const { generateModules } = await import('../../build-tools/generators/module-generator.js')
+      const { generateModules } = await import('../../src/build-tools/generators/module-generator.js')
       
       // Should handle gracefully without crashing
       try {
@@ -392,7 +392,7 @@ test('Build Pipeline Integration - Performance and Validation', async (t) => {
 
       const startTime = Date.now()
 
-      const { generateModules } = await import('../../build-tools/generators/module-generator.js')
+      const { generateModules } = await import('../../src/build-tools/generators/module-generator.js')
       await generateModules(fontFamilies, workspace.getOutputPath('modules'))
 
       const duration = Date.now() - startTime
@@ -422,10 +422,10 @@ test('Build Pipeline Integration - Performance and Validation', async (t) => {
       }
 
       // Generate outputs
-      const { generateModules } = await import('../../build-tools/generators/module-generator.js')
+      const { generateModules } = await import('../../src/build-tools/generators/module-generator.js')
       await generateModules(fontFamilies, workspace.getOutputPath('modules'))
 
-      const { generateCatalog } = await import('../../build-tools/generators/catalog-generator.js')
+      const { generateCatalog } = await import('../../src/build-tools/generators/catalog-generator.js')
       await generateCatalog(fontFamilies, workspace.getOutputPath('api/families'))
 
       // Validate JavaScript syntax

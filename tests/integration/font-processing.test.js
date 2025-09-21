@@ -56,7 +56,7 @@ test('Font Processing Integration - UFR Detection and Analysis', async (t) => {
       )
 
       // Test UFR structure detection
-      const { hasUFRStructure, extractUFRMetadata, scanUFRFamily } = await import('../../build-tools/scanners/ufr-scanner.js')
+      const { hasUFRStructure, extractUFRMetadata, scanUFRFamily } = await import('../../src/build-tools/scanners/ufr-scanner.js')
       
       const isUFR = await hasUFRStructure(fontDir)
       assert.ok(isUFR, 'Should detect UFR structure')
@@ -85,7 +85,7 @@ test('Font Processing Integration - UFR Detection and Analysis', async (t) => {
       await createTestFontStructure(workspace.fontsDir, 'legacy-integration')
 
       // Test legacy scanning
-      const { scanGenericFamily } = await import('../../build-tools/scanners/ufr-scanner.js')
+      const { scanGenericFamily } = await import('../../src/build-tools/scanners/ufr-scanner.js')
       
       const familyData = await scanGenericFamily(fontDir, 'legacy-integration')
       
@@ -149,7 +149,7 @@ test('Font Processing Integration - Metadata Flow', async (t) => {
       await fs.writeFile(path.join(fontDir, fontdata.variableFont.file), Buffer.alloc(2048))
 
       // Process through scanning
-      const { scanUFRFamily } = await import('../../build-tools/scanners/ufr-scanner.js')
+      const { scanUFRFamily } = await import('../../src/build-tools/scanners/ufr-scanner.js')
       const scannedData = await scanUFRFamily(fontDir, 'metadata-test')
 
       if (scannedData) {
@@ -160,7 +160,7 @@ test('Font Processing Integration - Metadata Flow', async (t) => {
         assert.ok(scannedData.variableFont, 'Should preserve variable font info')
 
         // Process through module generation
-        const { generateModules } = await import('../../build-tools/generators/module-generator.js')
+        const { generateModules } = await import('../../src/build-tools/generators/module-generator.js')
         const fontFamilies = { 'metadata-test': scannedData }
         
         await generateModules(fontFamilies, workspace.getOutputPath('modules'), {
@@ -198,7 +198,7 @@ test('Font Processing Integration - Metadata Flow', async (t) => {
         JSON.stringify(minimalFontdata, null, 2)
       )
 
-      const { scanUFRFamily } = await import('../../build-tools/scanners/ufr-scanner.js')
+      const { scanUFRFamily } = await import('../../src/build-tools/scanners/ufr-scanner.js')
       const scannedData = await scanUFRFamily(fontDir, 'minimal-metadata')
 
       // Should handle gracefully
@@ -241,7 +241,7 @@ test('Font Processing Integration - Subset Generation Workflow', async (t) => {
       })
 
       // Test subset generator integration
-      const { SubsetGenerator } = await import('../../build-tools/generators/subset-generator.js')
+      const { SubsetGenerator } = await import('../../src/build-tools/generators/subset-generator.js')
       const generator = new SubsetGenerator()
 
       try {
@@ -297,7 +297,7 @@ test('Font Processing Integration - Subset Generation Workflow', async (t) => {
         }
       })
 
-      const { generateModules } = await import('../../build-tools/generators/module-generator.js')
+      const { generateModules } = await import('../../src/build-tools/generators/module-generator.js')
       const fontFamilies = { 'font-with-subsets': fontWithSubsets }
       
       await generateModules(fontFamilies, workspace.getOutputPath('modules'), {
@@ -351,7 +351,7 @@ test('Font Processing Integration - License Validation Workflow', async (t) => {
       })
 
       // Test license validation
-      const { validateLicensing } = await import('../../build-tools/scanners/validation.js')
+      const { validateLicensing } = await import('../../src/build-tools/scanners/validation.js')
       
       const openValid = await validateLicensing(openFont, 'open')
       const proprietaryValid = await validateLicensing(proprietaryFont, 'open')
@@ -362,7 +362,7 @@ test('Font Processing Integration - License Validation Workflow', async (t) => {
       assert.ok(!unknownValid, 'Unknown license should not be valid open license')
 
       // Test that module generation respects licensing
-      const { generateModules } = await import('../../build-tools/generators/module-generator.js')
+      const { generateModules } = await import('../../src/build-tools/generators/module-generator.js')
       const allFonts = { 
         'open-font': openFont,
         'proprietary-font': proprietaryFont,
@@ -399,7 +399,7 @@ test('Font Processing Integration - License Validation Workflow', async (t) => {
         { license: undefined, expected: false }
       ]
 
-      const { validateLicensing } = await import('../../build-tools/scanners/validation.js')
+      const { validateLicensing } = await import('../../src/build-tools/scanners/validation.js')
 
       for (const testCase of licenseCases) {
         const font = createMockFontMetadata({
@@ -435,7 +435,7 @@ test('Font Processing Integration - Error Propagation', async (t) => {
 
     try {
       // Test with invalid paths
-      const { scanUFRFamily, scanGenericFamily } = await import('../../build-tools/scanners/ufr-scanner.js')
+      const { scanUFRFamily, scanGenericFamily } = await import('../../src/build-tools/scanners/ufr-scanner.js')
       
       const ufrResult = await scanUFRFamily('/nonexistent/path', 'missing-font')
       const genericResult = await scanGenericFamily('/nonexistent/path', 'missing-font')
@@ -465,7 +465,7 @@ test('Font Processing Integration - Error Propagation', async (t) => {
         variants: 'not an object'
       }
 
-      const { generateModules } = await import('../../build-tools/generators/module-generator.js')
+      const { generateModules } = await import('../../src/build-tools/generators/module-generator.js')
       
       try {
         await generateModules({ 'malformed': malformedFont }, workspace.getOutputPath('modules'))

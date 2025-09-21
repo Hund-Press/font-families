@@ -61,8 +61,8 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1.
       `.trim())
 
       // Test validation components
-      const { validateLicensing } = await import('../../../build-tools/scanners/validation.js')
-      const { hasUFRStructure, scanUFRFamily } = await import('../../../build-tools/scanners/ufr-scanner.js')
+      const { validateLicensing } = await import('../../../src/build-tools/scanners/validation.js')
+      const { hasUFRStructure, scanUFRFamily } = await import('../../../src/build-tools/scanners/ufr-scanner.js')
 
       // Test structure validation
       const hasValidStructure = await hasUFRStructure(fontDir)
@@ -105,7 +105,7 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1.
         }
       }))
 
-      const { scanUFRFamily } = await import('../../../build-tools/scanners/ufr-scanner.js')
+      const { scanUFRFamily } = await import('../../../src/build-tools/scanners/ufr-scanner.js')
       
       // Should handle gracefully but may return null or incomplete data
       const familyData = await scanUFRFamily(fontDir, 'incomplete-submission')
@@ -155,7 +155,7 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1.
         }
       ]
 
-      const { validateLicensing } = await import('../../../build-tools/scanners/validation.js')
+      const { validateLicensing } = await import('../../../src/build-tools/scanners/validation.js')
 
       for (const testCase of licenseCases) {
         const fontData = createMockFontMetadata({
@@ -224,7 +224,7 @@ test('Contributor Validation - File Structure Requirements', async (t) => {
         }
       ]
 
-      const { hasUFRStructure } = await import('../../../build-tools/scanners/ufr-scanner.js')
+      const { hasUFRStructure } = await import('../../../src/build-tools/scanners/ufr-scanner.js')
 
       for (const testCase of structureCases) {
         const testDir = workspace.getFontsPath(testCase.name)
@@ -253,7 +253,7 @@ test('Contributor Validation - File Structure Requirements', async (t) => {
       await fs.mkdir(fontDir, { recursive: true })
       await fs.writeFile(path.join(fontDir, 'fontdata.json'), 'invalid json{')
 
-      const { extractUFRMetadata } = await import('../../../build-tools/scanners/ufr-scanner.js')
+      const { extractUFRMetadata } = await import('../../../src/build-tools/scanners/ufr-scanner.js')
       
       const metadata = await extractUFRMetadata(fontDir, workspace.fontsDir)
       
@@ -370,7 +370,7 @@ test('Contributor Validation - Font Quality Checks', async (t) => {
           JSON.stringify(testCase.metadata, null, 2)
         )
 
-        const { extractUFRMetadata } = await import('../../../build-tools/scanners/ufr-scanner.js')
+        const { extractUFRMetadata } = await import('../../../src/build-tools/scanners/ufr-scanner.js')
         const metadata = await extractUFRMetadata(fontDir, workspace.fontsDir)
 
         if (testCase.isComplete) {
@@ -423,19 +423,19 @@ test('Contributor Validation - Build Integration', async (t) => {
       }))
 
       // Test scanning
-      const { scanUFRFamily } = await import('../../../build-tools/scanners/ufr-scanner.js')
+      const { scanUFRFamily } = await import('../../../src/build-tools/scanners/ufr-scanner.js')
       const familyData = await scanUFRFamily(fontDir, 'pipeline-test')
       
       assert.ok(familyData, 'Valid contribution should scan successfully')
 
       if (familyData) {
         // Test license validation
-        const { validateLicensing } = await import('../../../build-tools/scanners/validation.js')
+        const { validateLicensing } = await import('../../../src/build-tools/scanners/validation.js')
         const isValidLicense = await validateLicensing(familyData, 'open')
         assert.ok(isValidLicense, 'Valid contribution should pass license validation')
 
         // Test module generation
-        const { generateModules } = await import('../../../build-tools/generators/module-generator.js')
+        const { generateModules } = await import('../../../src/build-tools/generators/module-generator.js')
         await generateModules(
           { 'pipeline-test': familyData },
           workspace.getOutputPath('modules')
@@ -445,7 +445,7 @@ test('Contributor Validation - Build Integration', async (t) => {
         assert.ok(moduleExists, 'Valid contribution should generate module')
 
         // Test catalog generation
-        const { generateCatalog } = await import('../../../build-tools/generators/catalog-generator.js')
+        const { generateCatalog } = await import('../../../src/build-tools/generators/catalog-generator.js')
         await generateCatalog(
           { 'pipeline-test': familyData },
           workspace.getOutputPath('api/families')
@@ -503,7 +503,7 @@ test('Contributor Validation - Build Integration', async (t) => {
           JSON.stringify(testCase.metadata, null, 2)
         )
 
-        const { scanUFRFamily } = await import('../../../build-tools/scanners/ufr-scanner.js')
+        const { scanUFRFamily } = await import('../../../src/build-tools/scanners/ufr-scanner.js')
         
         // Should not crash, but may return null or log warnings
         try {
@@ -569,7 +569,7 @@ test('Contributor Validation - Error Reporting', async (t) => {
         console.logs.warn.length = 0
         console.logs.error.length = 0
 
-        const { scanUFRFamily } = await import('../../../build-tools/scanners/ufr-scanner.js')
+        const { scanUFRFamily } = await import('../../../src/build-tools/scanners/ufr-scanner.js')
         await scanUFRFamily(fontDir, testCase.name)
 
         // Check that some form of logging occurred
@@ -603,7 +603,7 @@ test('Contributor Validation - Error Reporting', async (t) => {
             await fs.writeFile(path.join(fontsSubdir, 'font.ttf'), Buffer.alloc(1024))
             await fs.writeFile(path.join(fontDir, 'OFL.txt'), 'License text')
             
-            const { hasUFRStructure } = await import('../../../build-tools/scanners/ufr-scanner.js')
+            const { hasUFRStructure } = await import('../../../src/build-tools/scanners/ufr-scanner.js')
             return await hasUFRStructure(fontDir)
           }
         },
@@ -617,7 +617,7 @@ test('Contributor Validation - Error Reporting', async (t) => {
               version: '1.0.0'
             }))
             
-            const { extractUFRMetadata } = await import('../../../build-tools/scanners/ufr-scanner.js')
+            const { extractUFRMetadata } = await import('../../../src/build-tools/scanners/ufr-scanner.js')
             const metadata = await extractUFRMetadata(fontDir, workspace.fontsDir)
             return metadata && metadata.license === 'OFL-1.1'
           }
@@ -626,7 +626,7 @@ test('Contributor Validation - Error Reporting', async (t) => {
           name: 'scan-validation',
           test: async () => {
             const fontDir = workspace.getFontsPath('contribution-workflow')
-            const { scanUFRFamily } = await import('../../../build-tools/scanners/ufr-scanner.js')
+            const { scanUFRFamily } = await import('../../../src/build-tools/scanners/ufr-scanner.js')
             const familyData = await scanUFRFamily(fontDir, 'contribution-workflow')
             return familyData !== null
           }
@@ -638,7 +638,7 @@ test('Contributor Validation - Error Reporting', async (t) => {
               family: 'Contribution Workflow Font',
               license: 'OFL-1.1'
             })
-            const { validateLicensing } = await import('../../../build-tools/scanners/validation.js')
+            const { validateLicensing } = await import('../../../src/build-tools/scanners/validation.js')
             return await validateLicensing(fontData, 'open')
           }
         }

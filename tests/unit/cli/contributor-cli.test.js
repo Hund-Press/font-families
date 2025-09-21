@@ -5,7 +5,7 @@
 import { jest } from '@jest/globals'
 import { promises as fs } from 'fs'
 import path from 'path'
-import { main, parseArgs, showExample } from '../../../build-tools/cli/contributor-cli.js'
+import { main, parseArgs, showExample } from '../../../src/build-tools/cli/contributor-cli.js'
 import {
   createTempDir,
   cleanupTempDir,
@@ -14,11 +14,11 @@ import {
 } from '../../helpers/test-helpers.js'
 
 // Mock the contributor validation module
-jest.unstable_mockModule('../../../build-tools/workflows/contributor-validation.js', () => ({
+jest.unstable_mockModule('../../../src/build-tools/workflows/contributor-validation.js', () => ({
   runContributorValidation: jest.fn()
 }))
 
-const { runContributorValidation } = await import('../../../build-tools/workflows/contributor-validation.js')
+const { runContributorValidation } = await import('../../../src/build-tools/workflows/contributor-validation.js')
 
 describe('Contributor CLI', () => {
   let tempDir

@@ -105,7 +105,7 @@ function showUsage() {
   console.log(`
 🏷️  Version Management Tool
 
-Usage: node build-tools/scripts/version-sync.js <command>
+Usage: node src/build-tools/scripts/version-sync.js <command>
 
 Commands:
   check     Check if package.json and git tag are synchronized

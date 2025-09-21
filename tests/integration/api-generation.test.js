@@ -66,7 +66,7 @@ test('API Generation Integration - Complete API Structure', async (t) => {
       }
 
       // Generate ES modules
-      const { generateModules } = await import('../../build-tools/generators/module-generator.js')
+      const { generateModules } = await import('../../src/build-tools/generators/module-generator.js')
       await generateModules(fontFamilies, workspace.getOutputPath('modules'), {
         generateIndividualModules: true,
         generateCombinedModule: true,
@@ -75,7 +75,7 @@ test('API Generation Integration - Complete API Structure', async (t) => {
       })
 
       // Generate catalog API
-      const { generateCatalog } = await import('../../build-tools/generators/catalog-generator.js')
+      const { generateCatalog } = await import('../../src/build-tools/generators/catalog-generator.js')
       await generateCatalog(fontFamilies, workspace.getOutputPath('api/families'), {
         version: '2.0.0',
         includeRestrictedFonts: false
@@ -134,13 +134,13 @@ test('API Generation Integration - Complete API Structure', async (t) => {
       const testVersion = 'v1.5.0'
 
       // Generate with consistent versioning
-      const { generateModules } = await import('../../build-tools/generators/module-generator.js')
+      const { generateModules } = await import('../../src/build-tools/generators/module-generator.js')
       await generateModules(fontFamilies, workspace.getOutputPath('modules'), {
         repoVersion: testVersion,
         cdnBaseUrl: 'https://cdn.example.com/font-families@{version}'
       })
 
-      const { generateCatalog } = await import('../../build-tools/generators/catalog-generator.js')
+      const { generateCatalog } = await import('../../src/build-tools/generators/catalog-generator.js')
       await generateCatalog(fontFamilies, workspace.getOutputPath('api/families'), {
         version: testVersion.replace('v', '')
       })
@@ -189,7 +189,7 @@ test('API Generation Integration - CDN URL Generation', async (t) => {
         })
       }
 
-      const { generateModules } = await import('../../build-tools/generators/module-generator.js')
+      const { generateModules } = await import('../../src/build-tools/generators/module-generator.js')
       await generateModules(fontFamilies, workspace.getOutputPath('modules'), {
         cdnBaseUrl: 'https://cdn.jsdelivr.net/gh/user/repo@{version}',
         repoVersion: 'v3.1.0'
@@ -231,7 +231,7 @@ test('API Generation Integration - CDN URL Generation', async (t) => {
         })
       }
 
-      const { generateModules } = await import('../../build-tools/generators/module-generator.js')
+      const { generateModules } = await import('../../src/build-tools/generators/module-generator.js')
       
       // Test various CDN URL templates
       const templates = [
@@ -298,12 +298,12 @@ test('API Generation Integration - Cross-Format Consistency', async (t) => {
       }
 
       // Generate both outputs
-      const { generateModules } = await import('../../build-tools/generators/module-generator.js')
+      const { generateModules } = await import('../../src/build-tools/generators/module-generator.js')
       await generateModules(fontFamilies, workspace.getOutputPath('modules'), {
         repoVersion: 'v1.2.3'
       })
 
-      const { generateCatalog } = await import('../../build-tools/generators/catalog-generator.js')
+      const { generateCatalog } = await import('../../src/build-tools/generators/catalog-generator.js')
       await generateCatalog(fontFamilies, workspace.getOutputPath('api/families'), {
         version: '1.2.3'
       })
@@ -368,10 +368,10 @@ test('API Generation Integration - Cross-Format Consistency', async (t) => {
       }
 
       // Generate outputs
-      const { generateModules } = await import('../../build-tools/generators/module-generator.js')
+      const { generateModules } = await import('../../src/build-tools/generators/module-generator.js')
       await generateModules(fontFamilies, workspace.getOutputPath('modules'))
 
-      const { generateCatalog } = await import('../../build-tools/generators/catalog-generator.js')
+      const { generateCatalog } = await import('../../src/build-tools/generators/catalog-generator.js')
       await generateCatalog(fontFamilies, workspace.getOutputPath('api/families'))
 
       // Verify subset information consistency
@@ -426,13 +426,13 @@ test('API Generation Integration - Performance and Scalability', async (t) => {
       const startTime = Date.now()
 
       // Generate all outputs
-      const { generateModules } = await import('../../build-tools/generators/module-generator.js')
+      const { generateModules } = await import('../../src/build-tools/generators/module-generator.js')
       await generateModules(fontFamilies, workspace.getOutputPath('modules'), {
         generateIndividualModules: true,
         generateCombinedModule: true
       })
 
-      const { generateCatalog } = await import('../../build-tools/generators/catalog-generator.js')
+      const { generateCatalog } = await import('../../src/build-tools/generators/catalog-generator.js')
       await generateCatalog(fontFamilies, workspace.getOutputPath('api/families'))
 
       const duration = Date.now() - startTime
@@ -473,10 +473,10 @@ test('API Generation Integration - Performance and Scalability', async (t) => {
       }
 
       // Generate outputs
-      const { generateModules } = await import('../../build-tools/generators/module-generator.js')
+      const { generateModules } = await import('../../src/build-tools/generators/module-generator.js')
       await generateModules(fontFamilies, workspace.getOutputPath('modules'))
 
-      const { generateCatalog } = await import('../../build-tools/generators/catalog-generator.js')
+      const { generateCatalog } = await import('../../src/build-tools/generators/catalog-generator.js')
       await generateCatalog(fontFamilies, workspace.getOutputPath('api/families'))
 
       // Validate JavaScript syntax

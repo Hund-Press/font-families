@@ -10,10 +10,10 @@ git clone https://github.com/your-org/font-families
 cd font-families
 
 # Validate your font contribution
-node build-tools/cli/contributor-cli.js validate path/to/your-font
+node src/build-tools/cli/contributor-cli.js validate path/to/your-font
 
 # See example of excellent contribution structure
-node build-tools/cli/contributor-cli.js example
+node src/build-tools/cli/contributor-cli.js example
 ```
 
 **Core Principle**: Show quality through comparison, not compliance with abstract requirements.
@@ -75,7 +75,7 @@ my-font-attempt/
 
 ```bash
 # Run validation with detailed feedback
-node build-tools/cli/contributor-cli.js validate my-awesome-font --output report.json
+node src/build-tools/cli/contributor-cli.js validate my-awesome-font --output report.json
 
 # View comparative analysis
 cat report.json | jq '.comparative.userExperience'
@@ -259,10 +259,10 @@ This repository supports community-scale development through:
 ### CLI Tool Help
 ```bash
 # Show usage examples
-node build-tools/cli/contributor-cli.js --help
+node src/build-tools/cli/contributor-cli.js --help
 
 # Run example validation  
-node build-tools/cli/contributor-cli.js example
+node src/build-tools/cli/contributor-cli.js example
 ```
 
 ### Common Questions

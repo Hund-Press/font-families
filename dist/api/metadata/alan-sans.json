@@ -9,7 +9,7 @@
       "style": "normal",
       "weight": 600,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Alan-Sans/fonts/webfonts/AlanSans-SemiBold.woff2",
+      "path": "fonts/open-fonts/alan-sans/fonts/webfonts/AlanSans-SemiBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -153,7 +153,7 @@
       "style": "normal",
       "weight": 400,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Alan-Sans/fonts/webfonts/AlanSans-Regular.woff2",
+      "path": "fonts/open-fonts/alan-sans/fonts/webfonts/AlanSans-Regular.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -297,7 +297,7 @@
       "style": "normal",
       "weight": 500,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Alan-Sans/fonts/webfonts/AlanSans-Medium.woff2",
+      "path": "fonts/open-fonts/alan-sans/fonts/webfonts/AlanSans-Medium.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -441,7 +441,7 @@
       "style": "normal",
       "weight": 300,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Alan-Sans/fonts/webfonts/AlanSans-Light.woff2",
+      "path": "fonts/open-fonts/alan-sans/fonts/webfonts/AlanSans-Light.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -585,7 +585,7 @@
       "style": "normal",
       "weight": 800,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Alan-Sans/fonts/webfonts/AlanSans-ExtraBold.woff2",
+      "path": "fonts/open-fonts/alan-sans/fonts/webfonts/AlanSans-ExtraBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -729,7 +729,7 @@
       "style": "normal",
       "weight": 700,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Alan-Sans/fonts/webfonts/AlanSans-Bold.woff2",
+      "path": "fonts/open-fonts/alan-sans/fonts/webfonts/AlanSans-Bold.woff2",
       "subfamilyName": "Bold",
       "metrics": {
         "unitsPerEm": 1000,
@@ -873,7 +873,7 @@
       "style": "normal",
       "weight": 900,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Alan-Sans/fonts/webfonts/AlanSans-Black.woff2",
+      "path": "fonts/open-fonts/alan-sans/fonts/webfonts/AlanSans-Black.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -1022,7 +1022,7 @@
         "max": 900
       },
       "stretch": "normal",
-      "path": "fonts/open-fonts/Alan-Sans/fonts/variable/AlanSans[wght].ttf",
+      "path": "fonts/open-fonts/alan-sans/fonts/variable/AlanSans[wght].ttf",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,

@@ -1,5 +1,5 @@
 ---
-key: Alan-Sans
+key: alan-sans
 title: Alan Sans
 description: "Alan Sans font family"
 ---
@@ -88,7 +88,7 @@ Free to use in any project, commercial or personal.
   line-height: 1.4;
 }
 
-[data-font="Alan-Sans"] {
+[data-font="alan-sans"] {
   font-family: 'Alan Sans', system-ui, sans-serif;
 }
 

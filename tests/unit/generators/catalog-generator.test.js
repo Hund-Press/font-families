@@ -5,7 +5,7 @@
 import { jest } from '@jest/globals'
 import { promises as fs } from 'fs'
 import path from 'path'
-import { generateCatalog, generateSubsetAPIs } from '../../../build-tools/generators/catalog-generator.js'
+import { generateCatalog, generateSubsetAPIs } from '../../../src/build-tools/generators/catalog-generator.js'
 import {
   createTempDir,
   cleanupTempDir,

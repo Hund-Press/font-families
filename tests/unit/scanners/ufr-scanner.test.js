@@ -12,7 +12,7 @@ import {
   extractUFRMetadata,
   scanUFRFamily,
   scanGenericFamily,
-} from '../../../build-tools/scanners/ufr-scanner.js'
+} from '../../../src/build-tools/scanners/ufr-scanner.js'
 import { TempWorkspace } from '../../helpers/temp-workspace.js'
 import { mockConsole } from '../../helpers/test-helpers.js'
 

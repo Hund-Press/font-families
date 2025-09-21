@@ -73,7 +73,7 @@ Current coverage targets:
 ### Test Structure
 ```javascript
 import { jest } from '@jest/globals'
-import { moduleToTest } from '../../../build-tools/module.js'
+import { moduleToTest } from '../../../src/build-tools/module.js'
 import { mockConsole, createTempDir } from '../../helpers/test-helpers.js'
 
 describe('Module Name', () => {

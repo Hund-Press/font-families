@@ -11,7 +11,7 @@ import {
   validateUFRCompliance,
   validateMetadata,
   validateFontFamily
-} from '../../../build-tools/scanners/validation.js'
+} from '../../../src/build-tools/scanners/validation.js'
 import {
   createTempDir,
   cleanupTempDir,

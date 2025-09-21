@@ -9,7 +9,7 @@ import path from 'path'
 import {
   SubsetGenerator,
   CONFIG,
-} from '../build-tools/generators/subset-generator.js'
+} from '../src/build-tools/generators/subset-generator.js'
 
 const TEST_FAMILY = 'aspekta'
 const TEST_SUBSET = 'min-chars'

@@ -10,27 +10,19 @@
     }
   },
   "families": {
-    "aspekta": {
-      "name": "Aspekta",
+    "work-sans": {
+      "name": "Work Sans",
       "links": {
         "self": {
-          "href": "/api/families/aspekta.json"
+          "href": "/api/families/work-sans.json"
         }
       }
     },
-    "atkinson-hyperlegible": {
-      "name": "Atkinson Hyperlegible",
+    "public-sans": {
+      "name": "Public Sans",
       "links": {
         "self": {
-          "href": "/api/families/atkinson-hyperlegible.json"
-        }
-      }
-    },
-    "crimson-pro": {
-      "name": "Crimson Pro",
-      "links": {
-        "self": {
-          "href": "/api/families/crimson-pro.json"
+          "href": "/api/families/public-sans.json"
         }
       }
     },
@@ -42,11 +34,35 @@
         }
       }
     },
-    "public-sans": {
-      "name": "Public Sans",
+    "crimson-pro": {
+      "name": "Crimson Pro",
       "links": {
         "self": {
-          "href": "/api/families/public-sans.json"
+          "href": "/api/families/crimson-pro.json"
+        }
+      }
+    },
+    "atkinson-hyperlegible": {
+      "name": "Atkinson Hyperlegible",
+      "links": {
+        "self": {
+          "href": "/api/families/atkinson-hyperlegible.json"
+        }
+      }
+    },
+    "aspekta": {
+      "name": "Aspekta",
+      "links": {
+        "self": {
+          "href": "/api/families/aspekta.json"
+        }
+      }
+    },
+    "alan-sans": {
+      "name": "Alan Sans",
+      "links": {
+        "self": {
+          "href": "/api/families/alan-sans.json"
         }
       }
     }

@@ -8,7 +8,7 @@ import { test } from 'node:test'
 import assert from 'node:assert'
 import { promises as fs } from 'fs'
 import path from 'path'
-import { build, BUILD_CONFIG } from '../../../build-tools/workflows/build.js'
+import { build, BUILD_CONFIG } from '../../../src/build-tools/workflows/build.js'
 import { TempWorkspace } from '../../helpers/temp-workspace.js'
 import { mockConsole, createTestFontStructure } from '../../helpers/test-helpers.js'
 
@@ -103,7 +103,7 @@ test('Build Workflow - Font Scanning Integration', async (t) => {
       }))
 
       // Test the scanning part only by importing and calling specific functions
-      const { scanFontFamilies } = await import('../../../build-tools/scanners/ufr-scanner.js')
+      const { scanFontFamilies } = await import('../../../src/build-tools/scanners/ufr-scanner.js')
       
       const fontData = await scanFontFamilies(
         openFontsDir,
@@ -122,7 +122,7 @@ test('Build Workflow - Font Scanning Integration', async (t) => {
 
     try {
       // Test with non-existent directories
-      const { scanFontFamilies } = await import('../../../build-tools/scanners/ufr-scanner.js')
+      const { scanFontFamilies } = await import('../../../src/build-tools/scanners/ufr-scanner.js')
       
       // Should not throw, might return empty object or handle gracefully
       const fontData = await scanFontFamilies(
@@ -165,7 +165,7 @@ test('Build Workflow - Pipeline Phases', async (t) => {
       await workspace.createOutputFile('site/_data/fontFamilies.js', 'export default { fonts: {} }')
 
       // Test validation function logic by importing it
-      const buildModule = await import('../../../build-tools/workflows/build.js')
+      const buildModule = await import('../../../src/build-tools/workflows/build.js')
       
       // The validation checks file existence
       const requiredFiles = [
@@ -303,7 +303,7 @@ test('Build Workflow - Error Recovery', async (t) => {
       }))
 
       // Test individual component that should handle errors gracefully
-      const { SubsetGenerator } = await import('../../../build-tools/generators/subset-generator.js')
+      const { SubsetGenerator } = await import('../../../src/build-tools/generators/subset-generator.js')
       const generator = new SubsetGenerator()
 
       try {

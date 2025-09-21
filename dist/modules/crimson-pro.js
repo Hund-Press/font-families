@@ -687,7 +687,7 @@ export default {
           "CrimsonProVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-21T17:06:32.311Z"
+      "generatedAt": "2025-09-21T22:43:35.413Z"
     }
   }
 };

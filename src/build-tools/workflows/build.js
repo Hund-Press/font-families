@@ -339,7 +339,7 @@ async function buildCatalogSite(openFonts) {
   }
 
   // Create Eleventy data file
-  const dataDir = path.join('./site/_data')
+  const dataDir = path.join('./src/11ty/data')
   await fs.mkdir(dataDir, { recursive: true })
 
   const fontFamiliesData = {
@@ -388,7 +388,7 @@ async function finalValidation() {
     path.join(BUILD_CONFIG.apiDir, 'index.json'),
     path.join(BUILD_CONFIG.apiDir, 'families', 'index.json'),
     path.join(BUILD_CONFIG.modulesDir, 'index.js'),
-    path.join('./site/_data', 'fontFamilies.js'),
+    path.join('./src/11ty/data', 'fontFamilies.js'),
   ]
 
   for (const file of requiredFiles) {

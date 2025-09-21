@@ -13,7 +13,7 @@ import {
   getNextVersion,
   isVersionSynced,
   syncVersionToGitTag
-} from '../../../build-tools/utils/version-manager.js'
+} from '../../../src/build-tools/utils/version-manager.js'
 import { TempWorkspace } from '../../helpers/temp-workspace.js'
 import { mockConsole } from '../../helpers/test-helpers.js'
 

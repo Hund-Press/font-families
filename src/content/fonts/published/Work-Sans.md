@@ -1,5 +1,5 @@
 ---
-key: Work-Sans
+key: work-sans
 title: Work Sans
 description: "Work Sans font family"
 ---
@@ -88,7 +88,7 @@ Free to use in any project, commercial or personal.
   line-height: 1.4;
 }
 
-[data-font="Work-Sans"] {
+[data-font="work-sans"] {
   font-family: 'Work Sans', system-ui, sans-serif;
 }
 

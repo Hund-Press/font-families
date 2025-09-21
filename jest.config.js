@@ -27,22 +27,22 @@ export default {
     '/dist/',
     '/_site/',
     '/fonts/',
-    '/build-tools/.venv/'
+    '/src/build-tools/.venv/'
   ],
 
   // Module name mapping for absolute imports
   moduleNameMapping: {
     '^@/(.*)$': '<rootDir>/$1',
-    '^@build-tools/(.*)$': '<rootDir>/build-tools/$1',
+    '^@build-tools/(.*)$': '<rootDir>/src/build-tools/$1',
     '^@tests/(.*)$': '<rootDir>/tests/$1'
   },
 
   // Coverage configuration
   collectCoverageFrom: [
-    'build-tools/**/*.js',
-    '!build-tools/**/*.test.js',
-    '!build-tools/.venv/**',
-    '!build-tools/font-inspector.py',
+    'src/build-tools/**/*.js',
+    '!src/build-tools/**/*.test.js',
+    '!src/build-tools/.venv/**',
+    '!src/build-tools/font-inspector.py',
     '!**/node_modules/**'
   ],
 

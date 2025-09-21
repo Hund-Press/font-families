@@ -6,7 +6,7 @@
 
 import { test } from 'node:test'
 import assert from 'node:assert'
-import { generateModules } from '../../../build-tools/generators/module-generator.js'
+import { generateModules } from '../../../src/build-tools/generators/module-generator.js'
 import { TempWorkspace } from '../../helpers/temp-workspace.js'
 import {
   createMockFontMetadata,

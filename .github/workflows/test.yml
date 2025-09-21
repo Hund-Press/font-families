@@ -4,14 +4,14 @@ on:
   push:
     branches: [main, develop]
     paths:
-      - 'build-tools/**'
+      - 'src/build-tools/**'
       - 'tests/**'
       - 'package.json'
       - 'jest.config.js'
   pull_request:
     branches: [main]
     paths:
-      - 'build-tools/**'
+      - 'src/build-tools/**'
       - 'tests/**'
       - 'package.json'
       - 'jest.config.js'

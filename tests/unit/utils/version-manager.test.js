@@ -11,7 +11,7 @@ import {
   getNextVersion,
   isVersionSynced,
   syncVersionToGitTag
-} from '../../../build-tools/utils/version-manager.js'
+} from '../../../src/build-tools/utils/version-manager.js'
 import {
   createTempDir,
   cleanupTempDir,

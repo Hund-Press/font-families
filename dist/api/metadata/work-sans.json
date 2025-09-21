@@ -23,7 +23,7 @@
       "style": "italic",
       "weight": 100,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Work-Sans/fonts/webfonts/WorkSans-ThinItalic.woff2",
+      "path": "fonts/open-fonts/work-sans/fonts/webfonts/WorkSans-ThinItalic.woff2",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 1000,
@@ -198,7 +198,7 @@
       "style": "normal",
       "weight": 100,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Work-Sans/fonts/webfonts/WorkSans-Thin.woff2",
+      "path": "fonts/open-fonts/work-sans/fonts/webfonts/WorkSans-Thin.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -388,7 +388,7 @@
       "style": "italic",
       "weight": 600,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Work-Sans/fonts/webfonts/WorkSans-SemiBoldItalic.woff2",
+      "path": "fonts/open-fonts/work-sans/fonts/webfonts/WorkSans-SemiBoldItalic.woff2",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 1000,
@@ -563,7 +563,7 @@
       "style": "normal",
       "weight": 600,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Work-Sans/fonts/webfonts/WorkSans-SemiBold.woff2",
+      "path": "fonts/open-fonts/work-sans/fonts/webfonts/WorkSans-SemiBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -753,7 +753,7 @@
       "style": "normal",
       "weight": 400,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Work-Sans/fonts/webfonts/WorkSans-Regular.woff2",
+      "path": "fonts/open-fonts/work-sans/fonts/webfonts/WorkSans-Regular.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -943,7 +943,7 @@
       "style": "italic",
       "weight": 500,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Work-Sans/fonts/webfonts/WorkSans-MediumItalic.woff2",
+      "path": "fonts/open-fonts/work-sans/fonts/webfonts/WorkSans-MediumItalic.woff2",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 1000,
@@ -1118,7 +1118,7 @@
       "style": "normal",
       "weight": 500,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Work-Sans/fonts/webfonts/WorkSans-Medium.woff2",
+      "path": "fonts/open-fonts/work-sans/fonts/webfonts/WorkSans-Medium.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -1308,7 +1308,7 @@
       "style": "italic",
       "weight": 300,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Work-Sans/fonts/webfonts/WorkSans-LightItalic.woff2",
+      "path": "fonts/open-fonts/work-sans/fonts/webfonts/WorkSans-LightItalic.woff2",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 1000,
@@ -1483,7 +1483,7 @@
       "style": "normal",
       "weight": 300,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Work-Sans/fonts/webfonts/WorkSans-Light.woff2",
+      "path": "fonts/open-fonts/work-sans/fonts/webfonts/WorkSans-Light.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -1673,7 +1673,7 @@
       "style": "italic",
       "weight": 400,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Work-Sans/fonts/webfonts/WorkSans-Italic.woff2",
+      "path": "fonts/open-fonts/work-sans/fonts/webfonts/WorkSans-Italic.woff2",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 1000,
@@ -1848,7 +1848,7 @@
       "style": "italic",
       "weight": 200,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Work-Sans/fonts/webfonts/WorkSans-ExtraLightItalic.woff2",
+      "path": "fonts/open-fonts/work-sans/fonts/webfonts/WorkSans-ExtraLightItalic.woff2",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 1000,
@@ -2023,7 +2023,7 @@
       "style": "normal",
       "weight": 200,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Work-Sans/fonts/webfonts/WorkSans-ExtraLight.woff2",
+      "path": "fonts/open-fonts/work-sans/fonts/webfonts/WorkSans-ExtraLight.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -2213,7 +2213,7 @@
       "style": "italic",
       "weight": 800,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Work-Sans/fonts/webfonts/WorkSans-ExtraBoldItalic.woff2",
+      "path": "fonts/open-fonts/work-sans/fonts/webfonts/WorkSans-ExtraBoldItalic.woff2",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 1000,
@@ -2388,7 +2388,7 @@
       "style": "normal",
       "weight": 800,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Work-Sans/fonts/webfonts/WorkSans-ExtraBold.woff2",
+      "path": "fonts/open-fonts/work-sans/fonts/webfonts/WorkSans-ExtraBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -2578,7 +2578,7 @@
       "style": "italic",
       "weight": 700,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Work-Sans/fonts/webfonts/WorkSans-BoldItalic.woff2",
+      "path": "fonts/open-fonts/work-sans/fonts/webfonts/WorkSans-BoldItalic.woff2",
       "subfamilyName": "Bold Italic",
       "metrics": {
         "unitsPerEm": 1000,
@@ -2753,7 +2753,7 @@
       "style": "normal",
       "weight": 700,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Work-Sans/fonts/webfonts/WorkSans-Bold.woff2",
+      "path": "fonts/open-fonts/work-sans/fonts/webfonts/WorkSans-Bold.woff2",
       "subfamilyName": "Bold",
       "metrics": {
         "unitsPerEm": 1000,
@@ -2943,7 +2943,7 @@
       "style": "italic",
       "weight": 900,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Work-Sans/fonts/webfonts/WorkSans-BlackItalic.woff2",
+      "path": "fonts/open-fonts/work-sans/fonts/webfonts/WorkSans-BlackItalic.woff2",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 1000,
@@ -3118,7 +3118,7 @@
       "style": "normal",
       "weight": 900,
       "stretch": "normal",
-      "path": "fonts/open-fonts/Work-Sans/fonts/webfonts/WorkSans-Black.woff2",
+      "path": "fonts/open-fonts/work-sans/fonts/webfonts/WorkSans-Black.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -3313,7 +3313,7 @@
         "max": 900
       },
       "stretch": "normal",
-      "path": "fonts/open-fonts/Work-Sans/fonts/variable/WorkSans[wght].ttf",
+      "path": "fonts/open-fonts/work-sans/fonts/variable/WorkSans[wght].ttf",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -3570,7 +3570,7 @@
         "max": 900
       },
       "stretch": "normal",
-      "path": "fonts/open-fonts/Work-Sans/fonts/variable/WorkSans-Italic[wght].ttf",
+      "path": "fonts/open-fonts/work-sans/fonts/variable/WorkSans-Italic[wght].ttf",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 1000,

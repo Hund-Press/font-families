@@ -13,7 +13,7 @@ import {
   generateEnhancedFamilyMetadata,
   generateKey,
   formatFamilyName
-} from '../../../build-tools/scanners/fonttools-analyzer.js'
+} from '../../../src/build-tools/scanners/fonttools-analyzer.js'
 import {
   createTempDir,
   cleanupTempDir,

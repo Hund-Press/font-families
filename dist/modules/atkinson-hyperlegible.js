@@ -235,7 +235,7 @@ export default {
         "static": "AtkinsonHyperlegible-400-min.woff2",
         "variable": []
       },
-      "generatedAt": "2025-09-21T17:06:32.312Z"
+      "generatedAt": "2025-09-21T22:43:35.414Z"
     }
   }
 };
