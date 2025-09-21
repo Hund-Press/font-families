@@ -1,0 +1,436 @@
+{
+  "name": "Work Sans",
+  "key": "work-sans",
+  "description": "",
+  "license": "OFL-1.1",
+  "author": "Wei Huang <wweeiihhuuaanngg@gmail.com>",
+  "capabilities": {
+    "hasStatic": true,
+    "hasVariable": true,
+    "weightRange": {
+      "min": 100,
+      "max": 900,
+      "type": "variable"
+    },
+    "styleCount": 2,
+    "formats": [
+      "woff2",
+      "truetype"
+    ]
+  },
+  "files": {
+    "static": [
+      {
+        "key": "WorkSans-ThinItalic",
+        "fileName": "WorkSans-ThinItalic.woff2",
+        "format": "woff2",
+        "weight": 100,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 66420,
+        "fileSizeKB": 65,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/work-sans/fonts/webfonts/WorkSans-ThinItalic.woff2"
+          }
+        }
+      },
+      {
+        "key": "WorkSans-Thin",
+        "fileName": "WorkSans-Thin.woff2",
+        "format": "woff2",
+        "weight": 100,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 72252,
+        "fileSizeKB": 71,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/work-sans/fonts/webfonts/WorkSans-Thin.woff2"
+          }
+        }
+      },
+      {
+        "key": "WorkSans-SemiBoldItalic",
+        "fileName": "WorkSans-SemiBoldItalic.woff2",
+        "format": "woff2",
+        "weight": 600,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 70460,
+        "fileSizeKB": 69,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/work-sans/fonts/webfonts/WorkSans-SemiBoldItalic.woff2"
+          }
+        }
+      },
+      {
+        "key": "WorkSans-SemiBold",
+        "fileName": "WorkSans-SemiBold.woff2",
+        "format": "woff2",
+        "weight": 600,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 76560,
+        "fileSizeKB": 75,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/work-sans/fonts/webfonts/WorkSans-SemiBold.woff2"
+          }
+        }
+      },
+      {
+        "key": "WorkSans-Regular",
+        "fileName": "WorkSans-Regular.woff2",
+        "format": "woff2",
+        "weight": 400,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 71988,
+        "fileSizeKB": 70,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/work-sans/fonts/webfonts/WorkSans-Regular.woff2"
+          }
+        }
+      },
+      {
+        "key": "WorkSans-MediumItalic",
+        "fileName": "WorkSans-MediumItalic.woff2",
+        "format": "woff2",
+        "weight": 500,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 70620,
+        "fileSizeKB": 69,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/work-sans/fonts/webfonts/WorkSans-MediumItalic.woff2"
+          }
+        }
+      },
+      {
+        "key": "WorkSans-Medium",
+        "fileName": "WorkSans-Medium.woff2",
+        "format": "woff2",
+        "weight": 500,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 76900,
+        "fileSizeKB": 75,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/work-sans/fonts/webfonts/WorkSans-Medium.woff2"
+          }
+        }
+      },
+      {
+        "key": "WorkSans-LightItalic",
+        "fileName": "WorkSans-LightItalic.woff2",
+        "format": "woff2",
+        "weight": 300,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 69000,
+        "fileSizeKB": 67,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/work-sans/fonts/webfonts/WorkSans-LightItalic.woff2"
+          }
+        }
+      },
+      {
+        "key": "WorkSans-Light",
+        "fileName": "WorkSans-Light.woff2",
+        "format": "woff2",
+        "weight": 300,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 74652,
+        "fileSizeKB": 73,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/work-sans/fonts/webfonts/WorkSans-Light.woff2"
+          }
+        }
+      },
+      {
+        "key": "WorkSans-Italic",
+        "fileName": "WorkSans-Italic.woff2",
+        "format": "woff2",
+        "weight": 400,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 66376,
+        "fileSizeKB": 65,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/work-sans/fonts/webfonts/WorkSans-Italic.woff2"
+          }
+        }
+      },
+      {
+        "key": "WorkSans-ExtraLightItalic",
+        "fileName": "WorkSans-ExtraLightItalic.woff2",
+        "format": "woff2",
+        "weight": 200,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 69660,
+        "fileSizeKB": 68,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/work-sans/fonts/webfonts/WorkSans-ExtraLightItalic.woff2"
+          }
+        }
+      },
+      {
+        "key": "WorkSans-ExtraLight",
+        "fileName": "WorkSans-ExtraLight.woff2",
+        "format": "woff2",
+        "weight": 200,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 75208,
+        "fileSizeKB": 73,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/work-sans/fonts/webfonts/WorkSans-ExtraLight.woff2"
+          }
+        }
+      },
+      {
+        "key": "WorkSans-ExtraBoldItalic",
+        "fileName": "WorkSans-ExtraBoldItalic.woff2",
+        "format": "woff2",
+        "weight": 800,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 70432,
+        "fileSizeKB": 69,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/work-sans/fonts/webfonts/WorkSans-ExtraBoldItalic.woff2"
+          }
+        }
+      },
+      {
+        "key": "WorkSans-ExtraBold",
+        "fileName": "WorkSans-ExtraBold.woff2",
+        "format": "woff2",
+        "weight": 800,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 77024,
+        "fileSizeKB": 75,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/work-sans/fonts/webfonts/WorkSans-ExtraBold.woff2"
+          }
+        }
+      },
+      {
+        "key": "WorkSans-BoldItalic",
+        "fileName": "WorkSans-BoldItalic.woff2",
+        "format": "woff2",
+        "weight": 700,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 70512,
+        "fileSizeKB": 69,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/work-sans/fonts/webfonts/WorkSans-BoldItalic.woff2"
+          }
+        }
+      },
+      {
+        "key": "WorkSans-Bold",
+        "fileName": "WorkSans-Bold.woff2",
+        "format": "woff2",
+        "weight": 700,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 76284,
+        "fileSizeKB": 74,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/work-sans/fonts/webfonts/WorkSans-Bold.woff2"
+          }
+        }
+      },
+      {
+        "key": "WorkSans-BlackItalic",
+        "fileName": "WorkSans-BlackItalic.woff2",
+        "format": "woff2",
+        "weight": 900,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 63968,
+        "fileSizeKB": 62,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/work-sans/fonts/webfonts/WorkSans-BlackItalic.woff2"
+          }
+        }
+      },
+      {
+        "key": "WorkSans-Black",
+        "fileName": "WorkSans-Black.woff2",
+        "format": "woff2",
+        "weight": 900,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 70312,
+        "fileSizeKB": 69,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/work-sans/fonts/webfonts/WorkSans-Black.woff2"
+          }
+        }
+      }
+    ],
+    "variable": [
+      {
+        "key": "VariableRegular[wght]",
+        "fileName": "WorkSans[wght].ttf",
+        "format": "truetype",
+        "axes": {
+          "wght": {
+            "min": 100,
+            "max": 900,
+            "default": 400
+          }
+        },
+        "style": "normal",
+        "fileSize": 361072,
+        "fileSizeKB": 353,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/work-sans/fonts/webfonts/WorkSans[wght].ttf"
+          }
+        }
+      },
+      {
+        "key": "VariableItalic[wght]",
+        "fileName": "WorkSans-Italic[wght].ttf",
+        "format": "truetype",
+        "axes": {
+          "wght": {
+            "min": 100,
+            "max": 900,
+            "default": 400
+          }
+        },
+        "style": "italic",
+        "fileSize": 336756,
+        "fileSizeKB": 329,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/work-sans/fonts/webfonts/WorkSans-Italic[wght].ttf"
+          }
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "unitsPerEm": 1000,
+    "ascent": 930,
+    "descent": -243,
+    "capHeight": 660,
+    "xHeight": 500,
+    "glyphCount": 1229,
+    "totalFiles": 20,
+    "totalSizeKB": 1940
+  },
+  "performance": {
+    "fileCount": 20,
+    "totalSizeKB": 1940,
+    "averageSizeKB": 97,
+    "smallestFileKB": 62,
+    "largestFileKB": 353,
+    "averageGlyphCount": 1289
+  },
+  "typography": {
+    "openTypeFeatures": [
+      "aalt",
+      "c2sc",
+      "calt",
+      "case",
+      "ccmp",
+      "cpsp",
+      "dlig",
+      "dnom",
+      "frac",
+      "hist",
+      "kern",
+      "liga",
+      "lnum",
+      "locl",
+      "mark",
+      "mkmk",
+      "nalt",
+      "numr",
+      "onum",
+      "ordn",
+      "ornm",
+      "pnum",
+      "salt",
+      "sinf",
+      "smcp",
+      "ss02",
+      "ss03",
+      "ss04",
+      "ss05",
+      "subs",
+      "sups",
+      "tnum",
+      "zero",
+      "cswh",
+      "ss01",
+      "ss06",
+      "swsh",
+      "titl",
+      "rvrn"
+    ],
+    "hasLigatures": true,
+    "hasSmallCaps": true,
+    "hasOldStyleFigures": true,
+    "hasTabularFigures": true
+  },
+  "links": {
+    "self": {
+      "href": "/api/families/work-sans.json"
+    },
+    "index": {
+      "href": "/api/families/"
+    },
+    "root": {
+      "href": "/api/"
+    },
+    "module": {
+      "href": "/modules/work-sans.js"
+    },
+    "preview": {
+      "href": "/fonts/work-sans/"
+    },
+    "subsets": {
+      "href": "/api/subsets/work-sans.json",
+      "title": "Performance subsets for this family"
+    },
+    "cdn": {
+      "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/work-sans/",
+      "templated": false
+    }
+  },
+  "subset_capabilities": {
+    "available": [],
+    "planned": [
+      "min-chars",
+      "latin-basic",
+      "cyrillic"
+    ],
+    "derivativeStatus": "Derivatives planned"
+  }
+}

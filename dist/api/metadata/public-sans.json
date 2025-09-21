@@ -9,7 +9,7 @@
       "style": "italic",
       "weight": 100,
       "stretch": "normal",
-      "path": "fonts/open-fonts/public-sans/fonts/webfonts/PublicSans-ThinItalic.woff",
+      "path": "fonts/open-fonts/public-sans/fonts/WEBFONTS/PublicSans-ThinItalic.woff",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 2000,
@@ -157,7 +157,7 @@
       "style": "normal",
       "weight": 100,
       "stretch": "normal",
-      "path": "fonts/open-fonts/public-sans/fonts/webfonts/PublicSans-Thin.woff",
+      "path": "fonts/open-fonts/public-sans/fonts/WEBFONTS/PublicSans-Thin.woff",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 2000,
@@ -305,7 +305,7 @@
       "style": "italic",
       "weight": 600,
       "stretch": "normal",
-      "path": "fonts/open-fonts/public-sans/fonts/webfonts/PublicSans-SemiBoldItalic.woff",
+      "path": "fonts/open-fonts/public-sans/fonts/WEBFONTS/PublicSans-SemiBoldItalic.woff",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 2000,
@@ -453,7 +453,7 @@
       "style": "normal",
       "weight": 600,
       "stretch": "normal",
-      "path": "fonts/open-fonts/public-sans/fonts/webfonts/PublicSans-SemiBold.woff",
+      "path": "fonts/open-fonts/public-sans/fonts/WEBFONTS/PublicSans-SemiBold.woff",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 2000,
@@ -601,7 +601,7 @@
       "style": "normal",
       "weight": 400,
       "stretch": "normal",
-      "path": "fonts/open-fonts/public-sans/fonts/webfonts/PublicSans-Regular.woff",
+      "path": "fonts/open-fonts/public-sans/fonts/WEBFONTS/PublicSans-Regular.woff",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 2000,
@@ -749,7 +749,7 @@
       "style": "italic",
       "weight": 500,
       "stretch": "normal",
-      "path": "fonts/open-fonts/public-sans/fonts/webfonts/PublicSans-MediumItalic.woff",
+      "path": "fonts/open-fonts/public-sans/fonts/WEBFONTS/PublicSans-MediumItalic.woff",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 2000,
@@ -897,7 +897,7 @@
       "style": "normal",
       "weight": 500,
       "stretch": "normal",
-      "path": "fonts/open-fonts/public-sans/fonts/webfonts/PublicSans-Medium.woff",
+      "path": "fonts/open-fonts/public-sans/fonts/WEBFONTS/PublicSans-Medium.woff",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 2000,
@@ -1045,7 +1045,7 @@
       "style": "italic",
       "weight": 300,
       "stretch": "normal",
-      "path": "fonts/open-fonts/public-sans/fonts/webfonts/PublicSans-LightItalic.woff",
+      "path": "fonts/open-fonts/public-sans/fonts/WEBFONTS/PublicSans-LightItalic.woff",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 2000,
@@ -1193,7 +1193,7 @@
       "style": "normal",
       "weight": 300,
       "stretch": "normal",
-      "path": "fonts/open-fonts/public-sans/fonts/webfonts/PublicSans-Light.woff",
+      "path": "fonts/open-fonts/public-sans/fonts/WEBFONTS/PublicSans-Light.woff",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 2000,
@@ -1341,7 +1341,7 @@
       "style": "italic",
       "weight": 400,
       "stretch": "normal",
-      "path": "fonts/open-fonts/public-sans/fonts/webfonts/PublicSans-Italic.woff",
+      "path": "fonts/open-fonts/public-sans/fonts/WEBFONTS/PublicSans-Italic.woff",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 2000,
@@ -1489,7 +1489,7 @@
       "style": "italic",
       "weight": 200,
       "stretch": "normal",
-      "path": "fonts/open-fonts/public-sans/fonts/webfonts/PublicSans-ExtraLightItalic.woff",
+      "path": "fonts/open-fonts/public-sans/fonts/WEBFONTS/PublicSans-ExtraLightItalic.woff",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 2000,
@@ -1637,7 +1637,7 @@
       "style": "normal",
       "weight": 200,
       "stretch": "normal",
-      "path": "fonts/open-fonts/public-sans/fonts/webfonts/PublicSans-ExtraLight.woff",
+      "path": "fonts/open-fonts/public-sans/fonts/WEBFONTS/PublicSans-ExtraLight.woff",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 2000,
@@ -1785,7 +1785,7 @@
       "style": "italic",
       "weight": 800,
       "stretch": "normal",
-      "path": "fonts/open-fonts/public-sans/fonts/webfonts/PublicSans-ExtraBoldItalic.woff",
+      "path": "fonts/open-fonts/public-sans/fonts/WEBFONTS/PublicSans-ExtraBoldItalic.woff",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 2000,
@@ -1933,7 +1933,7 @@
       "style": "normal",
       "weight": 800,
       "stretch": "normal",
-      "path": "fonts/open-fonts/public-sans/fonts/webfonts/PublicSans-ExtraBold.woff",
+      "path": "fonts/open-fonts/public-sans/fonts/WEBFONTS/PublicSans-ExtraBold.woff",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 2000,
@@ -2081,7 +2081,7 @@
       "style": "italic",
       "weight": 700,
       "stretch": "normal",
-      "path": "fonts/open-fonts/public-sans/fonts/webfonts/PublicSans-BoldItalic.woff",
+      "path": "fonts/open-fonts/public-sans/fonts/WEBFONTS/PublicSans-BoldItalic.woff",
       "subfamilyName": "Bold Italic",
       "metrics": {
         "unitsPerEm": 2000,
@@ -2229,7 +2229,7 @@
       "style": "normal",
       "weight": 700,
       "stretch": "normal",
-      "path": "fonts/open-fonts/public-sans/fonts/webfonts/PublicSans-Bold.woff",
+      "path": "fonts/open-fonts/public-sans/fonts/WEBFONTS/PublicSans-Bold.woff",
       "subfamilyName": "Bold",
       "metrics": {
         "unitsPerEm": 2000,
@@ -2377,7 +2377,7 @@
       "style": "italic",
       "weight": 900,
       "stretch": "normal",
-      "path": "fonts/open-fonts/public-sans/fonts/webfonts/PublicSans-BlackItalic.woff",
+      "path": "fonts/open-fonts/public-sans/fonts/WEBFONTS/PublicSans-BlackItalic.woff",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 2000,
@@ -2525,7 +2525,7 @@
       "style": "normal",
       "weight": 900,
       "stretch": "normal",
-      "path": "fonts/open-fonts/public-sans/fonts/webfonts/PublicSans-Black.woff",
+      "path": "fonts/open-fonts/public-sans/fonts/WEBFONTS/PublicSans-Black.woff",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 2000,
@@ -2678,7 +2678,7 @@
         "max": 900
       },
       "stretch": "normal",
-      "path": "fonts/open-fonts/public-sans/fonts/variable/PublicSans[wght].ttf",
+      "path": "fonts/open-fonts/public-sans/fonts/VARIABLE/PublicSans[wght].ttf",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 2000,
@@ -2892,7 +2892,7 @@
         "max": 900
       },
       "stretch": "normal",
-      "path": "fonts/open-fonts/public-sans/fonts/variable/PublicSans-Italic[wght].ttf",
+      "path": "fonts/open-fonts/public-sans/fonts/VARIABLE/PublicSans-Italic[wght].ttf",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 2000,

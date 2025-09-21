@@ -1,35 +1,30 @@
 ---
-title: Atkinson Hyperlegible
 key: atkinson-hyperlegible
-description: "A font designed to increase legibility for readers with low vision by emphasizing character recognition"
-author: Braille Institute of America
-license: OFL-1.1
-version: 1.0.0
-tags:
-  - font
-  - accessibility
-  - legibility
-  - reading
+title: Atkinson Hyperlegible
+description: "Atkinson Hyperlegible font family"
 ---
+
+# {{ title }}
 
 **{{ description }}**
 
-- **Designer**: {{ author }}
-- **License**: {{ license }}
-- **Version**: {{ version }}
+- **Designer**: Braille Institute of America
+- **License**: OFL-1.1
+- **Version**: 1.0.0
 - **Character Sets**: Latin Extended support
+
+{{ fontData.description }}
 
 ## Font Specimen
 
 <div class="specimen-showcase">
-  <div class="specimen-large" data-font="atkinson-hyperlegible">
+  <div class="specimen-large" data-font="{{ key }}">
     <h2>The quick brown fox jumps over the lazy dog</h2>
   </div>
-  <div class="specimen-weights" data-font="atkinson-hyperlegible">
+  
+  <div class="specimen-weights" data-font="{{ key }}">
     <div class="weight-demo" data-weight="400">Regular: Typography matters for readability</div>
-    <div class="weight-demo" data-weight="400" data-style="italic">Italic: Typography matters for readability</div>
     <div class="weight-demo" data-weight="700">Bold: Typography matters for readability</div>
-    <div class="weight-demo" data-weight="700" data-style="italic">Bold Italic: Typography matters for readability</div>
   </div>
 </div>
 
@@ -39,15 +34,15 @@ tags:
 
 ```css
 @font-face {
-  font-family: 'Atkinson Hyperlegible';
-  src: url('https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.2.0/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Regular.woff2') format('woff2');
+  font-family: '{{ title }}';
+  src: url('https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.5.0/{{ key }}/fonts/webfonts/{{ title }}-400.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 body {
-  font-family: 'Atkinson Hyperlegible', system-ui, sans-serif;
+  font-family: '{{ title }}', system-ui, sans-serif;
 }
 ```
 
@@ -55,7 +50,7 @@ body {
 
 ```html
 <link rel="preload" 
-      href="https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.2.0/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Regular.woff2" 
+      href="https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.5.0/{{ key }}/fonts/webfonts/{{ title }}-400.woff2" 
       as="font" 
       type="font/woff2" 
       crossorigin>
@@ -63,7 +58,7 @@ body {
 
 ## License
 
-Atkinson Hyperlegible is licensed under **{{ license }}** by **{{ author }}**.
+{{ title }} is licensed under **OFL-1.1** by **Braille Institute of America**.
 
 Free to use in any project, commercial or personal.
 
@@ -99,7 +94,6 @@ Free to use in any project, commercial or personal.
 
 [data-weight="400"] { font-weight: 400; }
 [data-weight="700"] { font-weight: 700; }
-[data-style="italic"] { font-style: italic; }
 
 pre {
   background: #f5f5f5;

@@ -113,10 +113,14 @@ async function hasUFRStructure(familyPath) {
     const licensePaths = [
       // Check in fonts/ directory first
       path.join(fontsDir, 'LICENSE.txt'),
+      path.join(fontsDir, 'LICENSE.md'),
       path.join(fontsDir, 'OFL.txt'),
+      path.join(fontsDir, 'OFL.md'),
       // Also check in root directory
       path.join(familyPath, 'LICENSE.txt'),
+      path.join(familyPath, 'LICENSE.md'),
       path.join(familyPath, 'OFL.txt'),
+      path.join(familyPath, 'OFL.md'),
     ]
 
     let hasLicense = false
@@ -150,6 +154,77 @@ async function hasUFRStructure(familyPath) {
     return hasLicense || hasPackageJson
   } catch (error) {
     return false
+  }
+}
+
+/**
+ * Parse AUTHORS.txt file for copyright authors
+ * @param {string} filePath - Path to AUTHORS.txt
+ * @returns {Promise<string[]>} Array of author entries
+ */
+async function parseAuthorsFile(filePath) {
+  try {
+    const content = await fs.readFile(filePath, 'utf8')
+    const authors = []
+
+    for (const line of content.split('\n')) {
+      const trimmed = line.trim()
+      // Skip comments and empty lines
+      if (trimmed && !trimmed.startsWith('#')) {
+        authors.push(trimmed)
+      }
+    }
+
+    return authors
+  } catch (error) {
+    return []
+  }
+}
+
+/**
+ * Parse CONTRIBUTORS.txt file for project contributors
+ * @param {string} filePath - Path to CONTRIBUTORS.txt
+ * @returns {Promise<string[]>} Array of contributor entries
+ */
+async function parseContributorsFile(filePath) {
+  try {
+    const content = await fs.readFile(filePath, 'utf8')
+    const contributors = []
+
+    for (const line of content.split('\n')) {
+      const trimmed = line.trim()
+      // Skip comments and empty lines
+      if (trimmed && !trimmed.startsWith('#')) {
+        contributors.push(trimmed)
+      }
+    }
+
+    return contributors
+  } catch (error) {
+    return []
+  }
+}
+
+/**
+ * Extract metadata from AUTHORS.txt and CONTRIBUTORS.txt files
+ * @param {string} familyPath - Path to font family directory
+ * @returns {Promise<Object>} Extracted author metadata
+ */
+async function extractAuthorMetadata(familyPath) {
+  const authorsPath = path.join(familyPath, 'AUTHORS.txt')
+  const contributorsPath = path.join(familyPath, 'CONTRIBUTORS.txt')
+
+  const authors = await parseAuthorsFile(authorsPath)
+  const contributors = await parseContributorsFile(contributorsPath)
+
+  // Primary author from AUTHORS.txt (first non-comment line)
+  const primaryAuthor = authors.length > 0 ? authors[0] : null
+
+  return {
+    authors,
+    contributors,
+    primaryAuthor,
+    hasAuthorFiles: authors.length > 0 || contributors.length > 0
   }
 }
 
@@ -222,12 +297,33 @@ async function extractUFRMetadata(familyPath, fontsDir) {
     }
   }
 
-  // 3. Extract from LICENSE.txt/OFL.txt (license verification and copyright)
+  // 2.5. Fallback to AUTHORS.txt and CONTRIBUTORS.txt if package.json is incomplete
+  const authorMetadata = await extractAuthorMetadata(familyPath)
+
+  if (authorMetadata.hasAuthorFiles) {
+    // Use author files as fallback for missing package.json data
+    if (!metadata.author && authorMetadata.primaryAuthor) {
+      metadata.author = authorMetadata.primaryAuthor
+      console.log(`[fonts] UFR author from AUTHORS.txt: ${metadata.author}`)
+    }
+
+    // Store additional author metadata for later use
+    metadata.authorFiles = {
+      authors: authorMetadata.authors,
+      contributors: authorMetadata.contributors
+    }
+  }
+
+  // 3. Extract from LICENSE.txt/OFL.txt/LICENSE.md/OFL.md (license verification and copyright)
   const licensePaths = [
     path.join(fontsDir, 'LICENSE.txt'),
+    path.join(fontsDir, 'LICENSE.md'),
     path.join(fontsDir, 'OFL.txt'),
+    path.join(fontsDir, 'OFL.md'),
     path.join(familyPath, 'LICENSE.txt'),
+    path.join(familyPath, 'LICENSE.md'),
     path.join(familyPath, 'OFL.txt'),
+    path.join(familyPath, 'OFL.md'),
   ]
 
   for (const licensePath of licensePaths) {
@@ -419,11 +515,12 @@ async function scanUFRFamily(familyPath, folderName) {
     name: actualFamilyName,
     key: fontKey,
     version: metadata.version, // NEW: official release version
-    author: metadata.author, // NEW: from package.json or license
+    author: metadata.author, // NEW: from package.json or AUTHORS.txt
     license: metadata.license, // NEW: from package.json
     licenseType: metadata.licenseType, // NEW: detected license type
     description: metadata.description, // NEW: from README.md
     copyrightYear: metadata.copyrightYear, // NEW: from license file
+    authorFiles: metadata.authorFiles, // NEW: from AUTHORS.txt and CONTRIBUTORS.txt
     static: {},
     variable: {},
   }
@@ -445,7 +542,7 @@ async function scanUFRFamily(familyPath, folderName) {
     for (const fontFile of fontFiles) {
       try {
         const analysis = await analyzeFontFile(fontFile)
-        const type = dir === 'variable' ? 'variable' : 'static'
+        const type = dir.toLowerCase().includes('variable') ? 'variable' : 'static'
 
         // Single font file (TTC support would need additional handling in fonttools)
         const postScriptName = analysis.basic.postscriptName

@@ -1,0 +1,228 @@
+{
+  "name": "Alan Sans",
+  "key": "alan-sans",
+  "description": "",
+  "license": "OFL-1.1",
+  "capabilities": {
+    "hasStatic": true,
+    "hasVariable": true,
+    "weightRange": {
+      "min": 300,
+      "max": 900,
+      "type": "variable"
+    },
+    "styleCount": 1,
+    "formats": [
+      "woff2",
+      "truetype"
+    ]
+  },
+  "files": {
+    "static": [
+      {
+        "key": "AlanSans-SemiBold",
+        "fileName": "AlanSans-SemiBold.woff2",
+        "format": "woff2",
+        "weight": 600,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 38776,
+        "fileSizeKB": 38,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/alan-sans/fonts/webfonts/AlanSans-SemiBold.woff2"
+          }
+        }
+      },
+      {
+        "key": "AlanSans-Regular",
+        "fileName": "AlanSans-Regular.woff2",
+        "format": "woff2",
+        "weight": 400,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 38888,
+        "fileSizeKB": 38,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/alan-sans/fonts/webfonts/AlanSans-Regular.woff2"
+          }
+        }
+      },
+      {
+        "key": "AlanSans-Medium",
+        "fileName": "AlanSans-Medium.woff2",
+        "format": "woff2",
+        "weight": 500,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 38888,
+        "fileSizeKB": 38,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/alan-sans/fonts/webfonts/AlanSans-Medium.woff2"
+          }
+        }
+      },
+      {
+        "key": "AlanSans-Light",
+        "fileName": "AlanSans-Light.woff2",
+        "format": "woff2",
+        "weight": 300,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 37572,
+        "fileSizeKB": 37,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/alan-sans/fonts/webfonts/AlanSans-Light.woff2"
+          }
+        }
+      },
+      {
+        "key": "AlanSans-ExtraBold",
+        "fileName": "AlanSans-ExtraBold.woff2",
+        "format": "woff2",
+        "weight": 800,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 38732,
+        "fileSizeKB": 38,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/alan-sans/fonts/webfonts/AlanSans-ExtraBold.woff2"
+          }
+        }
+      },
+      {
+        "key": "AlanSans-Bold",
+        "fileName": "AlanSans-Bold.woff2",
+        "format": "woff2",
+        "weight": 700,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 38796,
+        "fileSizeKB": 38,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/alan-sans/fonts/webfonts/AlanSans-Bold.woff2"
+          }
+        }
+      },
+      {
+        "key": "AlanSans-Black",
+        "fileName": "AlanSans-Black.woff2",
+        "format": "woff2",
+        "weight": 900,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 38060,
+        "fileSizeKB": 37,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/alan-sans/fonts/webfonts/AlanSans-Black.woff2"
+          }
+        }
+      }
+    ],
+    "variable": [
+      {
+        "key": "VariableRegular[wght]",
+        "fileName": "AlanSans[wght].ttf",
+        "format": "truetype",
+        "axes": {
+          "wght": {
+            "min": 300,
+            "max": 900,
+            "default": 300
+          }
+        },
+        "style": "normal",
+        "fileSize": 134888,
+        "fileSizeKB": 132,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/alan-sans/fonts/webfonts/AlanSans[wght].ttf"
+          }
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "unitsPerEm": 1000,
+    "ascent": 990,
+    "descent": -310,
+    "capHeight": 680,
+    "xHeight": 500,
+    "glyphCount": 469,
+    "totalFiles": 8,
+    "totalSizeKB": 396
+  },
+  "performance": {
+    "fileCount": 8,
+    "totalSizeKB": 396,
+    "averageSizeKB": 50,
+    "smallestFileKB": 37,
+    "largestFileKB": 132,
+    "averageGlyphCount": 469
+  },
+  "typography": {
+    "openTypeFeatures": [
+      "aalt",
+      "case",
+      "ccmp",
+      "kern",
+      "liga",
+      "lnum",
+      "locl",
+      "mark",
+      "mkmk",
+      "onum",
+      "ordn",
+      "pnum",
+      "ss01",
+      "ss02",
+      "ss03",
+      "tnum",
+      "rvrn"
+    ],
+    "hasLigatures": true,
+    "hasSmallCaps": false,
+    "hasOldStyleFigures": true,
+    "hasTabularFigures": true
+  },
+  "links": {
+    "self": {
+      "href": "/api/families/alan-sans.json"
+    },
+    "index": {
+      "href": "/api/families/"
+    },
+    "root": {
+      "href": "/api/"
+    },
+    "module": {
+      "href": "/modules/alan-sans.js"
+    },
+    "preview": {
+      "href": "/fonts/alan-sans/"
+    },
+    "subsets": {
+      "href": "/api/subsets/alan-sans.json",
+      "title": "Performance subsets for this family"
+    },
+    "cdn": {
+      "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/alan-sans/",
+      "templated": false
+    }
+  },
+  "subset_capabilities": {
+    "available": [],
+    "planned": [
+      "min-chars",
+      "latin-basic",
+      "cyrillic"
+    ],
+    "derivativeStatus": "Derivatives planned"
+  }
+}

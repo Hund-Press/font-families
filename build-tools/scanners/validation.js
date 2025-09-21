@@ -97,9 +97,12 @@ async function validateLicenseFileExists(familyData) {
   // Common license file names
   const licenseFiles = [
     'LICENSE.txt',
+    'LICENSE.md',
     'LICENSE',
     'OFL.txt',
+    'OFL.md',
     'LICENCE.txt',
+    'LICENCE.md',
     'LICENCE',
   ]
 

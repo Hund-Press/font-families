@@ -47,9 +47,6 @@
     "inconsolata": {
       "href": "/api/subsets/inconsolata.json"
     },
-    "league-mono": {
-      "href": "/api/subsets/league-mono.json"
-    },
     "public-sans": {
       "href": "/api/subsets/public-sans.json"
     }

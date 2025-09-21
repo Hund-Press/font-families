@@ -10,27 +10,11 @@
     }
   },
   "families": {
-    "public-sans": {
-      "name": "Public Sans",
+    "aspekta": {
+      "name": "Aspekta",
       "links": {
         "self": {
-          "href": "/api/families/public-sans.json"
-        }
-      }
-    },
-    "inconsolata": {
-      "name": "Inconsolata",
-      "links": {
-        "self": {
-          "href": "/api/families/inconsolata.json"
-        }
-      }
-    },
-    "crimson-pro": {
-      "name": "Crimson Pro",
-      "links": {
-        "self": {
-          "href": "/api/families/crimson-pro.json"
+          "href": "/api/families/aspekta.json"
         }
       }
     },
@@ -42,11 +26,27 @@
         }
       }
     },
-    "aspekta": {
-      "name": "Aspekta",
+    "crimson-pro": {
+      "name": "Crimson Pro",
       "links": {
         "self": {
-          "href": "/api/families/aspekta.json"
+          "href": "/api/families/crimson-pro.json"
+        }
+      }
+    },
+    "inconsolata": {
+      "name": "Inconsolata",
+      "links": {
+        "self": {
+          "href": "/api/families/inconsolata.json"
+        }
+      }
+    },
+    "public-sans": {
+      "name": "Public Sans",
+      "links": {
+        "self": {
+          "href": "/api/families/public-sans.json"
         }
       }
     }

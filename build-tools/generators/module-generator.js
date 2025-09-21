@@ -18,16 +18,9 @@ const execAsync = promisify(exec)
  * @returns {Promise<string>} Formatted code
  */
 async function formatJavaScript(code) {
-  try {
-    const { stdout } = await execAsync(
-      `npx prettier --parser babel --stdin-filepath temp.js`,
-      { input: code }
-    )
-    return stdout
-  } catch (error) {
-    console.warn(`[format] Failed to format code: ${error.message}`)
-    return code // Return original code if formatting fails
-  }
+  // Temporarily disabled prettier formatting to resolve hanging issues
+  // TODO: Re-enable with better performance handling for large objects
+  return code
 }
 
 /**

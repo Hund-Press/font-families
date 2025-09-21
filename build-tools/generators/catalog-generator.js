@@ -25,7 +25,7 @@ export async function generateCatalog(fontFamilies, outputPath, options = {}) {
   console.log(`[families] Font families: ${Object.keys(fontFamilies).length}`)
   console.log(`[families] Include restricted: ${includeRestrictedFonts}`)
 
-  const familiesDir = path.join(path.dirname(outputPath), 'families')
+  const familiesDir = path.dirname(outputPath)
 
   // Build families index
   const familiesIndex = {

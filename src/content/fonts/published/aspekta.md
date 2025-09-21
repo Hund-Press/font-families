@@ -1,16 +1,16 @@
 ---
 key: aspekta
 title: Aspekta
-description: A versatile sans-serif typeface by Ivo Dolenc, designed for clarity and readability
+description: "Aspekta font family"
 ---
 
 # {{ title }}
 
 **{{ description }}**
 
-- **Designer**: {{ fontData.author }}
-- **License**: {{ fontData.license }} 
-- **Version**: {{ fontData.version }}
+- **Designer**: Ivo Dolenc
+- **License**: OFL-1.1
+- **Version**: 2.100
 - **Character Sets**: Latin Extended support
 
 {{ fontData.description }}
@@ -35,7 +35,7 @@ description: A versatile sans-serif typeface by Ivo Dolenc, designed for clarity
 ```css
 @font-face {
   font-family: '{{ title }}';
-  src: url('https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.2.0/{{ key }}/fonts/webfonts/{{ title }}-400.woff2') format('woff2');
+  src: url('https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.5.0/{{ key }}/fonts/webfonts/{{ title }}-400.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -50,7 +50,7 @@ body {
 
 ```html
 <link rel="preload" 
-      href="https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.2.0/{{ key }}/fonts/webfonts/{{ title }}-400.woff2" 
+      href="https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.5.0/{{ key }}/fonts/webfonts/{{ title }}-400.woff2" 
       as="font" 
       type="font/woff2" 
       crossorigin>
@@ -58,7 +58,7 @@ body {
 
 ## License
 
-{{ title }} is licensed under **{{ fontData.license }}** by **{{ fontData.author }}**.
+{{ title }} is licensed under **OFL-1.1** by **Ivo Dolenc**.
 
 Free to use in any project, commercial or personal.
 

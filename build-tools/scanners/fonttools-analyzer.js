@@ -410,7 +410,6 @@ export function formatFamilyName(rawName) {
     'plex-mono': 'IBM Plex Mono',
     'public-sans': 'Public Sans',
     clearsans: 'Clear Sans',
-    'league-mono': 'League Mono',
     aspekta: 'Aspekta',
     'crimson-pro': 'Crimson Pro',
   }

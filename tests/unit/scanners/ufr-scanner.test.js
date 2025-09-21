@@ -270,7 +270,7 @@ test('UFR Scanner - Integration with Real Project Structure', async (t) => {
 
     try {
       // Test with an actual font directory from the project if it exists
-      const projectFonts = ['aspekta', 'public-sans', 'league-mono']
+      const projectFonts = ['aspekta', 'public-sans']
 
       for (const fontName of projectFonts) {
         try {

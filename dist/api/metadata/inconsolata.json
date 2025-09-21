@@ -9,7 +9,7 @@
       "style": "normal",
       "weight": 100,
       "stretch": "ultra-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedThin.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-UltraExpandedThin.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -164,7 +164,7 @@
       "style": "normal",
       "weight": 600,
       "stretch": "ultra-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedSemiBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-UltraExpandedSemiBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -319,7 +319,7 @@
       "style": "normal",
       "weight": 400,
       "stretch": "ultra-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedRegular.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-UltraExpandedRegular.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -474,7 +474,7 @@
       "style": "normal",
       "weight": 500,
       "stretch": "ultra-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedMedium.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-UltraExpandedMedium.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -629,7 +629,7 @@
       "style": "normal",
       "weight": 300,
       "stretch": "ultra-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedLight.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-UltraExpandedLight.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -784,7 +784,7 @@
       "style": "normal",
       "weight": 200,
       "stretch": "ultra-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedExtraLight.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-UltraExpandedExtraLight.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -939,7 +939,7 @@
       "style": "normal",
       "weight": 800,
       "stretch": "ultra-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedExtraBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-UltraExpandedExtraBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -1094,7 +1094,7 @@
       "style": "normal",
       "weight": 700,
       "stretch": "ultra-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-UltraExpandedBold.woff2",
       "subfamilyName": "Bold",
       "metrics": {
         "unitsPerEm": 1000,
@@ -1249,7 +1249,7 @@
       "style": "normal",
       "weight": 900,
       "stretch": "ultra-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedBlack.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-UltraExpandedBlack.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -1404,7 +1404,7 @@
       "style": "normal",
       "weight": 100,
       "stretch": "ultra-condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedThin.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-UltraCondensedThin.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -1559,7 +1559,7 @@
       "style": "normal",
       "weight": 600,
       "stretch": "ultra-condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedSemiBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-UltraCondensedSemiBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -1714,7 +1714,7 @@
       "style": "normal",
       "weight": 400,
       "stretch": "ultra-condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedRegular.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-UltraCondensedRegular.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -1869,7 +1869,7 @@
       "style": "normal",
       "weight": 500,
       "stretch": "ultra-condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedMedium.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-UltraCondensedMedium.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -2024,7 +2024,7 @@
       "style": "normal",
       "weight": 300,
       "stretch": "ultra-condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedLight.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-UltraCondensedLight.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -2179,7 +2179,7 @@
       "style": "normal",
       "weight": 200,
       "stretch": "ultra-condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedExtraLight.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-UltraCondensedExtraLight.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -2334,7 +2334,7 @@
       "style": "normal",
       "weight": 800,
       "stretch": "ultra-condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedExtraBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-UltraCondensedExtraBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -2489,7 +2489,7 @@
       "style": "normal",
       "weight": 700,
       "stretch": "ultra-condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-UltraCondensedBold.woff2",
       "subfamilyName": "Bold",
       "metrics": {
         "unitsPerEm": 1000,
@@ -2644,7 +2644,7 @@
       "style": "normal",
       "weight": 900,
       "stretch": "ultra-condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedBlack.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-UltraCondensedBlack.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -2799,7 +2799,7 @@
       "style": "normal",
       "weight": 100,
       "stretch": "normal",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-Thin.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-Thin.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -2954,7 +2954,7 @@
       "style": "normal",
       "weight": 100,
       "stretch": "semi-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedThin.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-SemiExpandedThin.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -3109,7 +3109,7 @@
       "style": "normal",
       "weight": 600,
       "stretch": "semi-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedSemiBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-SemiExpandedSemiBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -3264,7 +3264,7 @@
       "style": "normal",
       "weight": 400,
       "stretch": "semi-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedRegular.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-SemiExpandedRegular.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -3419,7 +3419,7 @@
       "style": "normal",
       "weight": 500,
       "stretch": "semi-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedMedium.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-SemiExpandedMedium.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -3574,7 +3574,7 @@
       "style": "normal",
       "weight": 300,
       "stretch": "semi-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedLight.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-SemiExpandedLight.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -3729,7 +3729,7 @@
       "style": "normal",
       "weight": 200,
       "stretch": "semi-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedExtraLight.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-SemiExpandedExtraLight.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -3884,7 +3884,7 @@
       "style": "normal",
       "weight": 800,
       "stretch": "semi-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedExtraBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-SemiExpandedExtraBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -4039,7 +4039,7 @@
       "style": "normal",
       "weight": 700,
       "stretch": "semi-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-SemiExpandedBold.woff2",
       "subfamilyName": "Bold",
       "metrics": {
         "unitsPerEm": 1000,
@@ -4194,7 +4194,7 @@
       "style": "normal",
       "weight": 900,
       "stretch": "semi-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedBlack.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-SemiExpandedBlack.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -4349,7 +4349,7 @@
       "style": "normal",
       "weight": 100,
       "stretch": "condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedThin.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-SemiCondensedThin.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -4504,7 +4504,7 @@
       "style": "normal",
       "weight": 600,
       "stretch": "condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedSemiBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-SemiCondensedSemiBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -4659,7 +4659,7 @@
       "style": "normal",
       "weight": 400,
       "stretch": "condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedRegular.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-SemiCondensedRegular.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -4814,7 +4814,7 @@
       "style": "normal",
       "weight": 500,
       "stretch": "condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedMedium.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-SemiCondensedMedium.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -4969,7 +4969,7 @@
       "style": "normal",
       "weight": 300,
       "stretch": "condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedLight.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-SemiCondensedLight.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -5124,7 +5124,7 @@
       "style": "normal",
       "weight": 200,
       "stretch": "condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedExtraLight.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-SemiCondensedExtraLight.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -5279,7 +5279,7 @@
       "style": "normal",
       "weight": 800,
       "stretch": "condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedExtraBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-SemiCondensedExtraBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -5434,7 +5434,7 @@
       "style": "normal",
       "weight": 700,
       "stretch": "condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-SemiCondensedBold.woff2",
       "subfamilyName": "Bold",
       "metrics": {
         "unitsPerEm": 1000,
@@ -5589,7 +5589,7 @@
       "style": "normal",
       "weight": 900,
       "stretch": "condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedBlack.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-SemiCondensedBlack.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -5744,7 +5744,7 @@
       "style": "normal",
       "weight": 600,
       "stretch": "normal",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-SemiBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-SemiBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -5899,7 +5899,7 @@
       "style": "normal",
       "weight": 400,
       "stretch": "normal",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-Regular.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-Regular.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -6054,7 +6054,7 @@
       "style": "normal",
       "weight": 500,
       "stretch": "normal",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-Medium.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-Medium.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -6209,7 +6209,7 @@
       "style": "normal",
       "weight": 300,
       "stretch": "normal",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-Light.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-Light.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -6364,7 +6364,7 @@
       "style": "normal",
       "weight": 200,
       "stretch": "normal",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExtraLight.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExtraLight.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -6519,7 +6519,7 @@
       "style": "normal",
       "weight": 100,
       "stretch": "extra-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedThin.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExtraExpandedThin.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -6674,7 +6674,7 @@
       "style": "normal",
       "weight": 600,
       "stretch": "extra-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedSemiBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExtraExpandedSemiBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -6829,7 +6829,7 @@
       "style": "normal",
       "weight": 400,
       "stretch": "extra-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedRegular.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExtraExpandedRegular.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -6984,7 +6984,7 @@
       "style": "normal",
       "weight": 500,
       "stretch": "extra-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedMedium.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExtraExpandedMedium.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -7139,7 +7139,7 @@
       "style": "normal",
       "weight": 300,
       "stretch": "extra-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedLight.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExtraExpandedLight.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -7294,7 +7294,7 @@
       "style": "normal",
       "weight": 200,
       "stretch": "extra-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedExtraLight.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExtraExpandedExtraLight.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -7449,7 +7449,7 @@
       "style": "normal",
       "weight": 800,
       "stretch": "extra-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedExtraBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExtraExpandedExtraBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -7604,7 +7604,7 @@
       "style": "normal",
       "weight": 700,
       "stretch": "extra-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExtraExpandedBold.woff2",
       "subfamilyName": "Bold",
       "metrics": {
         "unitsPerEm": 1000,
@@ -7759,7 +7759,7 @@
       "style": "normal",
       "weight": 900,
       "stretch": "extra-expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedBlack.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExtraExpandedBlack.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -7914,7 +7914,7 @@
       "style": "normal",
       "weight": 100,
       "stretch": "extra-condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedThin.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExtraCondensedThin.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -8069,7 +8069,7 @@
       "style": "normal",
       "weight": 600,
       "stretch": "extra-condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedSemiBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExtraCondensedSemiBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -8224,7 +8224,7 @@
       "style": "normal",
       "weight": 400,
       "stretch": "extra-condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedRegular.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExtraCondensedRegular.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -8379,7 +8379,7 @@
       "style": "normal",
       "weight": 500,
       "stretch": "extra-condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedMedium.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExtraCondensedMedium.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -8534,7 +8534,7 @@
       "style": "normal",
       "weight": 300,
       "stretch": "extra-condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedLight.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExtraCondensedLight.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -8689,7 +8689,7 @@
       "style": "normal",
       "weight": 200,
       "stretch": "extra-condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedExtraLight.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExtraCondensedExtraLight.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -8844,7 +8844,7 @@
       "style": "normal",
       "weight": 800,
       "stretch": "extra-condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedExtraBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExtraCondensedExtraBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -8999,7 +8999,7 @@
       "style": "normal",
       "weight": 700,
       "stretch": "extra-condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExtraCondensedBold.woff2",
       "subfamilyName": "Bold",
       "metrics": {
         "unitsPerEm": 1000,
@@ -9154,7 +9154,7 @@
       "style": "normal",
       "weight": 900,
       "stretch": "extra-condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedBlack.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExtraCondensedBlack.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -9309,7 +9309,7 @@
       "style": "normal",
       "weight": 800,
       "stretch": "normal",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExtraBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExtraBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -9464,7 +9464,7 @@
       "style": "normal",
       "weight": 100,
       "stretch": "expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExpandedThin.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExpandedThin.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -9619,7 +9619,7 @@
       "style": "normal",
       "weight": 600,
       "stretch": "expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExpandedSemiBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExpandedSemiBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -9774,7 +9774,7 @@
       "style": "normal",
       "weight": 400,
       "stretch": "expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExpandedRegular.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExpandedRegular.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -9929,7 +9929,7 @@
       "style": "normal",
       "weight": 500,
       "stretch": "expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExpandedMedium.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExpandedMedium.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -10084,7 +10084,7 @@
       "style": "normal",
       "weight": 300,
       "stretch": "expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExpandedLight.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExpandedLight.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -10239,7 +10239,7 @@
       "style": "normal",
       "weight": 200,
       "stretch": "expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExpandedExtraLight.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExpandedExtraLight.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -10394,7 +10394,7 @@
       "style": "normal",
       "weight": 800,
       "stretch": "expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExpandedExtraBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExpandedExtraBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -10549,7 +10549,7 @@
       "style": "normal",
       "weight": 700,
       "stretch": "expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExpandedBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExpandedBold.woff2",
       "subfamilyName": "Bold",
       "metrics": {
         "unitsPerEm": 1000,
@@ -10704,7 +10704,7 @@
       "style": "normal",
       "weight": 900,
       "stretch": "expanded",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-ExpandedBlack.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-ExpandedBlack.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -10859,7 +10859,7 @@
       "style": "normal",
       "weight": 100,
       "stretch": "condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-CondensedThin.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-CondensedThin.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -11014,7 +11014,7 @@
       "style": "normal",
       "weight": 600,
       "stretch": "condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-CondensedSemiBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-CondensedSemiBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -11169,7 +11169,7 @@
       "style": "normal",
       "weight": 400,
       "stretch": "condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-CondensedRegular.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-CondensedRegular.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -11324,7 +11324,7 @@
       "style": "normal",
       "weight": 500,
       "stretch": "condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-CondensedMedium.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-CondensedMedium.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -11479,7 +11479,7 @@
       "style": "normal",
       "weight": 300,
       "stretch": "condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-CondensedLight.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-CondensedLight.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -11634,7 +11634,7 @@
       "style": "normal",
       "weight": 200,
       "stretch": "condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-CondensedExtraLight.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-CondensedExtraLight.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -11789,7 +11789,7 @@
       "style": "normal",
       "weight": 800,
       "stretch": "condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-CondensedExtraBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-CondensedExtraBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -11944,7 +11944,7 @@
       "style": "normal",
       "weight": 700,
       "stretch": "condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-CondensedBold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-CondensedBold.woff2",
       "subfamilyName": "Bold",
       "metrics": {
         "unitsPerEm": 1000,
@@ -12099,7 +12099,7 @@
       "style": "normal",
       "weight": 900,
       "stretch": "condensed",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-CondensedBlack.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-CondensedBlack.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -12254,7 +12254,7 @@
       "style": "normal",
       "weight": 700,
       "stretch": "normal",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-Bold.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-Bold.woff2",
       "subfamilyName": "Bold",
       "metrics": {
         "unitsPerEm": 1000,
@@ -12409,7 +12409,7 @@
       "style": "normal",
       "weight": 900,
       "stretch": "normal",
-      "path": "fonts/open-fonts/inconsolata/fonts/webfonts/Inconsolata-Black.woff2",
+      "path": "fonts/open-fonts/inconsolata/fonts/WEBFONTS/Inconsolata-Black.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -12573,7 +12573,7 @@
         "max": "ultra-expanded",
         "default": "normal"
       },
-      "path": "fonts/open-fonts/inconsolata/fonts/variable/Inconsolata[wdth,wght].ttf",
+      "path": "fonts/open-fonts/inconsolata/fonts/VARIABLE/Inconsolata[wdth,wght].ttf",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,

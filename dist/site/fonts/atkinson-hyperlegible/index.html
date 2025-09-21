@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atkinson Hyperlegible</title>
+  <meta name="description" content="A font designed to increase legibility for readers with low vision by emphasizing character recognition">
+  
+  <style>body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-relaxed);
+  color: var(--color-text);
+  background: var(--color-background);
+}
+
+/* Main Layout Grid */
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+main {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: var(--space-xl);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  main {
+    padding: var(--space-base);
+  }
+}
+
+/* Focus Management */
+*:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Box Sizing Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+@import './page/layout.css';
+/* Typography for Content Area */
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+  font-family: 'Aspekta', system-ui, sans-serif;
+  font-weight: 700;
+  line-height: var(--line-height-tight);
+  margin: 0 0 var(--space-base) 0;
+  color: var(--color-text);
+}
+
+main h1 {
+  font-size: var(--font-size-4xl);
+  margin-bottom: var(--space-lg);
+}
+
+main h2 {
+  font-size: var(--font-size-2xl);
+  margin-top: var(--space-2xl);
+}
+
+main h3 {
+  font-size: var(--font-size-xl);
+  margin-top: var(--space-xl);
+}
+
+main p {
+  margin: 0 0 var(--space-base) 0;
+  line-height: var(--line-height-relaxed);
+}
+
+main a {
+  color: var(--color-primary);
+  transition: color var(--transition-fast);
+}
+
+main a:hover {
+  color: var(--color-primary-hover);
+}
+
+/* Lists */
+main ul,
+main ol {
+  margin: 0 0 var(--space-base) 0;
+  padding-left: var(--space-lg);
+}
+
+main li {
+  margin: var(--space-sm) 0;
+}
+
+/* Code */
+main code {
+  background: var(--color-background-code);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-sm);
+  font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace;
+  font-size: 0.9em;
+}
+
+main pre {
+  background: #2d3748;
+  color: #e2e8f0;
+  padding: var(--space-base);
+  border-radius: var(--radius-base);
+  overflow-x: auto;
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-normal);
+  margin: var(--space-base) 0;
+}
+
+main pre code {
+  background: none;
+  padding: 0;
+  color: inherit;
+}
+
+/* Blockquotes */
+main blockquote {
+  margin: var(--space-lg) 0;
+  padding: var(--space-base) var(--space-lg);
+  border-left: 4px solid var(--color-border);
+  background: var(--color-background-alt);
+  font-style: italic;
+}
+@import './content/typography.css';
+:root {
+  /* Color System */
+  --color-primary: #0066cc;
+  --color-primary-hover: #0052a3;
+  --color-text: #333;
+  --color-text-light: #666;
+  --color-border: #e1e1e1;
+  --color-background: #ffffff;
+  --color-background-alt: #f8f8f8;
+  --color-background-code: #f5f5f5;
+  
+  /* Typography Scale */
+  --font-size-small: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-large: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+  --font-size-3xl: 2.5rem;
+  --font-size-4xl: 3rem;
+  
+  /* Line Heights */
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.4;
+  --line-height-relaxed: 1.6;
+  
+  /* Spacing Scale */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-base: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  
+  /* Border Radius */
+  --radius-sm: 3px;
+  --radius-base: 6px;
+  --radius-lg: 8px;
+  
+  /* Container Widths */
+  --container-max-width: 1200px;
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-medium: 0.3s ease;
+}
+
+/* Font Loading */
+@font-face {
+  font-family: 'Aspekta';
+  src: url('https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.2.0/aspekta/fonts/webfonts/Aspekta-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aspekta';
+  src: url('https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.2.0/aspekta/fonts/webfonts/Aspekta-700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@import './root/design-tokens.css';</style>
+  
+  
+  
+</head>
+<body>
+
+
+
+
+
+
+  <site-header></site-header>
+  <main><p><strong>A font designed to increase legibility for readers with low vision by emphasizing character recognition</strong></p>
+<ul>
+<li><strong>Designer</strong>: Braille Institute of America</li>
+<li><strong>License</strong>: OFL-1.1</li>
+<li><strong>Version</strong>: 1.0.0</li>
+<li><strong>Character Sets</strong>: Latin Extended support</li>
+</ul>
+<h2>Font Specimen</h2>
+<div class="specimen-showcase">
+  <div class="specimen-large" data-font="atkinson-hyperlegible">
+    <h2>The quick brown fox jumps over the lazy dog</h2>
+  </div>
+  <div class="specimen-weights" data-font="atkinson-hyperlegible">
+    <div class="weight-demo" data-weight="400">Regular: Typography matters for readability</div>
+    <div class="weight-demo" data-weight="400" data-style="italic">Italic: Typography matters for readability</div>
+    <div class="weight-demo" data-weight="700">Bold: Typography matters for readability</div>
+    <div class="weight-demo" data-weight="700" data-style="italic">Bold Italic: Typography matters for readability</div>
+  </div>
+</div>
+<h2>Quick Integration</h2>
+<h3>CSS</h3>
+<pre><code class="language-css">@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  src: url('https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.2.0/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Atkinson Hyperlegible', system-ui, sans-serif;
+}
+</code></pre>
+<h3>HTML with preload</h3>
+<pre><code class="language-html">&lt;link rel=&quot;preload&quot; 
+      href=&quot;https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.2.0/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Regular.woff2&quot; 
+      as=&quot;font&quot; 
+      type=&quot;font/woff2&quot; 
+      crossorigin&gt;
+</code></pre>
+<h2>License</h2>
+<p>Atkinson Hyperlegible is licensed under <strong>OFL-1.1</strong> by <strong>Braille Institute of America</strong>.</p>
+<p>Free to use in any project, commercial or personal.</p>
+<style>
+.specimen-showcase {
+  margin: 2rem 0;
+  padding: 2rem;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.specimen-large h2 {
+  font-size: 2.5rem;
+  margin: 0 0 2rem 0;
+  line-height: 1.2;
+}
+
+.specimen-weights {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.weight-demo {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+[data-font="atkinson-hyperlegible"] {
+  font-family: 'Atkinson Hyperlegible', system-ui, sans-serif;
+}
+
+[data-weight="400"] { font-weight: 400; }
+[data-weight="700"] { font-weight: 700; }
+[data-style="italic"] { font-style: italic; }
+
+pre {
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+</style></main>
+  <site-footer></site-footer>
+</body>
+</html>

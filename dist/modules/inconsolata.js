@@ -125,11 +125,11 @@ export default {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.4/fonts/open-fonts/inconsolata/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.4/fonts/open-fonts/inconsolata/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.4/fonts/open-fonts/inconsolata/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.4/fonts/open-fonts/inconsolata/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.9.4/subsets/inconsolata/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.10.0/fonts/open-fonts/inconsolata/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.10.0/fonts/open-fonts/inconsolata/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.10.0/fonts/open-fonts/inconsolata/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.10.0/fonts/open-fonts/inconsolata/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.10.0/subsets/inconsolata/"
   },
   "faces": {
     "variable": {
@@ -2366,7 +2366,7 @@ export default {
           "InconsolataVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-18T17:09:46.673Z"
+      "generatedAt": "2025-09-21T17:06:32.311Z"
     }
   }
 };

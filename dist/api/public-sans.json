@@ -1,0 +1,415 @@
+{
+  "name": "Public Sans",
+  "key": "public-sans",
+  "description": "",
+  "license": "OFL-1.1",
+  "capabilities": {
+    "hasStatic": true,
+    "hasVariable": true,
+    "weightRange": {
+      "min": 100,
+      "max": 900,
+      "type": "variable"
+    },
+    "styleCount": 2,
+    "formats": [
+      "woff",
+      "truetype"
+    ]
+  },
+  "files": {
+    "static": [
+      {
+        "key": "PublicSans-ThinItalic",
+        "fileName": "PublicSans-ThinItalic.woff",
+        "format": "woff",
+        "weight": 100,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 41772,
+        "fileSizeKB": 41,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/public-sans/fonts/webfonts/PublicSans-ThinItalic.woff"
+          }
+        }
+      },
+      {
+        "key": "PublicSans-Thin",
+        "fileName": "PublicSans-Thin.woff",
+        "format": "woff",
+        "weight": 100,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 39560,
+        "fileSizeKB": 39,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/public-sans/fonts/webfonts/PublicSans-Thin.woff"
+          }
+        }
+      },
+      {
+        "key": "PublicSans-SemiBoldItalic",
+        "fileName": "PublicSans-SemiBoldItalic.woff",
+        "format": "woff",
+        "weight": 600,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 44140,
+        "fileSizeKB": 43,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/public-sans/fonts/webfonts/PublicSans-SemiBoldItalic.woff"
+          }
+        }
+      },
+      {
+        "key": "PublicSans-SemiBold",
+        "fileName": "PublicSans-SemiBold.woff",
+        "format": "woff",
+        "weight": 600,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 41704,
+        "fileSizeKB": 41,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/public-sans/fonts/webfonts/PublicSans-SemiBold.woff"
+          }
+        }
+      },
+      {
+        "key": "PublicSans-Regular",
+        "fileName": "PublicSans-Regular.woff",
+        "format": "woff",
+        "weight": 400,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 41736,
+        "fileSizeKB": 41,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/public-sans/fonts/webfonts/PublicSans-Regular.woff"
+          }
+        }
+      },
+      {
+        "key": "PublicSans-MediumItalic",
+        "fileName": "PublicSans-MediumItalic.woff",
+        "format": "woff",
+        "weight": 500,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 43952,
+        "fileSizeKB": 43,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/public-sans/fonts/webfonts/PublicSans-MediumItalic.woff"
+          }
+        }
+      },
+      {
+        "key": "PublicSans-Medium",
+        "fileName": "PublicSans-Medium.woff",
+        "format": "woff",
+        "weight": 500,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 41812,
+        "fileSizeKB": 41,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/public-sans/fonts/webfonts/PublicSans-Medium.woff"
+          }
+        }
+      },
+      {
+        "key": "PublicSans-LightItalic",
+        "fileName": "PublicSans-LightItalic.woff",
+        "format": "woff",
+        "weight": 300,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 43704,
+        "fileSizeKB": 43,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/public-sans/fonts/webfonts/PublicSans-LightItalic.woff"
+          }
+        }
+      },
+      {
+        "key": "PublicSans-Light",
+        "fileName": "PublicSans-Light.woff",
+        "format": "woff",
+        "weight": 300,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 41620,
+        "fileSizeKB": 41,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/public-sans/fonts/webfonts/PublicSans-Light.woff"
+          }
+        }
+      },
+      {
+        "key": "PublicSans-Italic",
+        "fileName": "PublicSans-Italic.woff",
+        "format": "woff",
+        "weight": 400,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 43888,
+        "fileSizeKB": 43,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/public-sans/fonts/webfonts/PublicSans-Italic.woff"
+          }
+        }
+      },
+      {
+        "key": "PublicSans-ExtraLightItalic",
+        "fileName": "PublicSans-ExtraLightItalic.woff",
+        "format": "woff",
+        "weight": 200,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 43744,
+        "fileSizeKB": 43,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/public-sans/fonts/webfonts/PublicSans-ExtraLightItalic.woff"
+          }
+        }
+      },
+      {
+        "key": "PublicSans-ExtraLight",
+        "fileName": "PublicSans-ExtraLight.woff",
+        "format": "woff",
+        "weight": 200,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 41504,
+        "fileSizeKB": 41,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/public-sans/fonts/webfonts/PublicSans-ExtraLight.woff"
+          }
+        }
+      },
+      {
+        "key": "PublicSans-ExtraBoldItalic",
+        "fileName": "PublicSans-ExtraBoldItalic.woff",
+        "format": "woff",
+        "weight": 800,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 44220,
+        "fileSizeKB": 43,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/public-sans/fonts/webfonts/PublicSans-ExtraBoldItalic.woff"
+          }
+        }
+      },
+      {
+        "key": "PublicSans-ExtraBold",
+        "fileName": "PublicSans-ExtraBold.woff",
+        "format": "woff",
+        "weight": 800,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 41612,
+        "fileSizeKB": 41,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/public-sans/fonts/webfonts/PublicSans-ExtraBold.woff"
+          }
+        }
+      },
+      {
+        "key": "PublicSans-BoldItalic",
+        "fileName": "PublicSans-BoldItalic.woff",
+        "format": "woff",
+        "weight": 700,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 44404,
+        "fileSizeKB": 43,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/public-sans/fonts/webfonts/PublicSans-BoldItalic.woff"
+          }
+        }
+      },
+      {
+        "key": "PublicSans-Bold",
+        "fileName": "PublicSans-Bold.woff",
+        "format": "woff",
+        "weight": 700,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 41804,
+        "fileSizeKB": 41,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/public-sans/fonts/webfonts/PublicSans-Bold.woff"
+          }
+        }
+      },
+      {
+        "key": "PublicSans-BlackItalic",
+        "fileName": "PublicSans-BlackItalic.woff",
+        "format": "woff",
+        "weight": 900,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 42700,
+        "fileSizeKB": 42,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/public-sans/fonts/webfonts/PublicSans-BlackItalic.woff"
+          }
+        }
+      },
+      {
+        "key": "PublicSans-Black",
+        "fileName": "PublicSans-Black.woff",
+        "format": "woff",
+        "weight": 900,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 40036,
+        "fileSizeKB": 39,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/public-sans/fonts/webfonts/PublicSans-Black.woff"
+          }
+        }
+      }
+    ],
+    "variable": [
+      {
+        "key": "VariableRegular[wght]",
+        "fileName": "PublicSans[wght].ttf",
+        "format": "truetype",
+        "axes": {
+          "wght": {
+            "min": 100,
+            "max": 900,
+            "default": 100
+          }
+        },
+        "style": "normal",
+        "fileSize": 103316,
+        "fileSizeKB": 101,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/public-sans/fonts/webfonts/PublicSans[wght].ttf"
+          }
+        }
+      },
+      {
+        "key": "VariableItalic[wght]",
+        "fileName": "PublicSans-Italic[wght].ttf",
+        "format": "truetype",
+        "axes": {
+          "wght": {
+            "min": 100,
+            "max": 900,
+            "default": 100
+          }
+        },
+        "style": "italic",
+        "fileSize": 107940,
+        "fileSizeKB": 105,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/public-sans/fonts/webfonts/PublicSans-Italic[wght].ttf"
+          }
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "unitsPerEm": 2000,
+    "ascent": 1900,
+    "descent": -450,
+    "capHeight": 1446,
+    "xHeight": 1034,
+    "glyphCount": 648,
+    "totalFiles": 20,
+    "totalSizeKB": 955
+  },
+  "performance": {
+    "fileCount": 20,
+    "totalSizeKB": 955,
+    "averageSizeKB": 48,
+    "smallestFileKB": 39,
+    "largestFileKB": 105,
+    "averageGlyphCount": 648
+  },
+  "typography": {
+    "openTypeFeatures": [
+      "aalt",
+      "calt",
+      "ccmp",
+      "dnom",
+      "frac",
+      "kern",
+      "liga",
+      "lnum",
+      "locl",
+      "mark",
+      "mkmk",
+      "numr",
+      "onum",
+      "ordn",
+      "pnum",
+      "salt",
+      "sinf",
+      "ss01",
+      "subs",
+      "sups",
+      "tnum"
+    ],
+    "hasLigatures": true,
+    "hasSmallCaps": false,
+    "hasOldStyleFigures": true,
+    "hasTabularFigures": true
+  },
+  "links": {
+    "self": {
+      "href": "/api/families/public-sans.json"
+    },
+    "index": {
+      "href": "/api/families/"
+    },
+    "root": {
+      "href": "/api/"
+    },
+    "module": {
+      "href": "/modules/public-sans.js"
+    },
+    "preview": {
+      "href": "/fonts/public-sans/"
+    },
+    "subsets": {
+      "href": "/api/subsets/public-sans.json",
+      "title": "Performance subsets for this family"
+    },
+    "cdn": {
+      "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.0/public-sans/",
+      "templated": false
+    }
+  },
+  "subset_capabilities": {
+    "available": [
+      "min-chars"
+    ],
+    "planned": [],
+    "derivativeStatus": "Optimized derivatives available"
+  }
+}
