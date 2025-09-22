@@ -92,11 +92,11 @@ export default {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.2/fonts/open-fonts/atkinson-hyperlegible/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.2/fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.2/fonts/open-fonts/atkinson-hyperlegible/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.2/fonts/open-fonts/atkinson-hyperlegible/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.2/subsets/atkinson-hyperlegible/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/fonts/open-fonts/atkinson-hyperlegible/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/fonts/open-fonts/atkinson-hyperlegible/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/fonts/open-fonts/atkinson-hyperlegible/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/subsets/atkinson-hyperlegible/"
   },
   "faces": {
     "variable": {},
@@ -235,7 +235,7 @@ export default {
         "static": "AtkinsonHyperlegible-400-min.woff2",
         "variable": []
       },
-      "generatedAt": "2025-09-22T00:22:12.128Z"
+      "generatedAt": "2025-09-22T00:31:01.237Z"
     }
   }
 };

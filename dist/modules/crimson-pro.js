@@ -112,11 +112,11 @@ export default {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.2/fonts/open-fonts/crimson-pro/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.2/fonts/open-fonts/crimson-pro/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.2/fonts/open-fonts/crimson-pro/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.2/fonts/open-fonts/crimson-pro/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.2/subsets/crimson-pro/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/fonts/open-fonts/crimson-pro/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/fonts/open-fonts/crimson-pro/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/fonts/open-fonts/crimson-pro/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/fonts/open-fonts/crimson-pro/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/subsets/crimson-pro/"
   },
   "faces": {
     "variable": {
@@ -687,7 +687,7 @@ export default {
           "CrimsonProVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-22T00:22:12.127Z"
+      "generatedAt": "2025-09-22T00:31:01.236Z"
     }
   }
 };
