@@ -1,5 +1,5 @@
 ---
-key: Work-Sans
+key: work-sans
 title: Work Sans
 description: "Work Sans font family"
 ---

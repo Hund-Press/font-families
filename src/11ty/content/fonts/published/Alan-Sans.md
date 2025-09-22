@@ -1,5 +1,5 @@
 ---
-key: Alan-Sans
+key: alan-sans
 title: Alan Sans
 description: "Alan Sans font family"
 ---
