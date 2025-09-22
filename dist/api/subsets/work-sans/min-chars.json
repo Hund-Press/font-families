@@ -1,0 +1,100 @@
+{
+  "family": "work-sans",
+  "subset": "min-chars",
+  "description": "Minimal character set for performance-critical contexts (100 characters)",
+  "derivativeWorkNotice": {
+    "status": "This is a derivative work optimized for web performance",
+    "originalAuthor": "Wei Huang <wweeiihhuuaanngg@gmail.com>",
+    "originalLicense": "OFL-1.1",
+    "derivativeCompliance": "Subset generation complies with OFL-1.1 requirements"
+  },
+  "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+,-./:;=?[]_ —–''\"\"…",
+  "unicodeRanges": [
+    "U+0020-007F",
+    "U+00A0",
+    "U+2013-2014",
+    "U+2018-2019",
+    "U+201C-201D",
+    "U+2026"
+  ],
+  "characterCount": 100,
+  "generatedAt": "2025-09-22T12:48:48.965Z",
+  "generationMethod": "fonttools pyftsubset",
+  "links": {
+    "self": {
+      "href": "/api/subsets/work-sans/min-chars.json"
+    },
+    "parent": {
+      "href": "/api/subsets/work-sans.json"
+    },
+    "original-family": {
+      "href": "/api/families/work-sans.json"
+    }
+  },
+  "files": [
+    {
+      "filename": "WorkSans-400-min.woff2",
+      "format": "woff2",
+      "weight": 400,
+      "style": "normal",
+      "isVariable": false,
+      "fileSize": 4480,
+      "fileSizeKB": 4.4,
+      "compressionRatio": 0.204,
+      "links": {
+        "download": {
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/subsets/work-sans/min-chars/WorkSans-400-min.woff2"
+        }
+      }
+    },
+    {
+      "filename": "WorkSansVF-min.ttf",
+      "format": "ttf",
+      "style": "normal",
+      "isVariable": true,
+      "fileSize": 20896,
+      "fileSizeKB": 20.4,
+      "compressionRatio": 0.307,
+      "axes": {
+        "wght": {
+          "min": 100,
+          "max": 900,
+          "default": 400
+        }
+      },
+      "links": {
+        "download": {
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/subsets/work-sans/min-chars/WorkSansVF-min.ttf"
+        }
+      }
+    },
+    {
+      "filename": "WorkSansVF-min.woff2",
+      "format": "woff2",
+      "style": "normal",
+      "isVariable": true,
+      "fileSize": 13616,
+      "fileSizeKB": 13.3,
+      "compressionRatio": 0.2,
+      "axes": {
+        "wght": {
+          "min": 100,
+          "max": 900,
+          "default": 400
+        }
+      },
+      "links": {
+        "download": {
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/subsets/work-sans/min-chars/WorkSansVF-min.woff2"
+        }
+      }
+    }
+  ],
+  "performanceMetrics": {
+    "originalSizeKB": 22,
+    "subsetSizeKB": 4.4,
+    "sizeReduction": "80%",
+    "estimatedLoadTime3G": "0.1s",
+    "recommendedUseCase": "Critical path font loading, font picker previews"
+  }
+}

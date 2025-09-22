@@ -35,6 +35,9 @@
     ".DS_Store": {
       "href": "/api/subsets/.DS_Store.json"
     },
+    "alan-sans": {
+      "href": "/api/subsets/alan-sans.json"
+    },
     "aspekta": {
       "href": "/api/subsets/aspekta.json"
     },
@@ -49,6 +52,9 @@
     },
     "public-sans": {
       "href": "/api/subsets/public-sans.json"
+    },
+    "work-sans": {
+      "href": "/api/subsets/work-sans.json"
     }
   }
 }

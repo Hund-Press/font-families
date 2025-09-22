@@ -28380,8 +28380,8 @@ export default {
     }
   },
   "buildInfo": {
-    "timestamp": "2025-09-22T00:31:01.265Z",
-    "version": "1.10.3",
+    "timestamp": "2025-09-22T12:49:53.139Z",
+    "version": "1.10.4",
     "fontCount": 7
   }
 }

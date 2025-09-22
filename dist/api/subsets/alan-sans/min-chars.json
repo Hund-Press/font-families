@@ -1,0 +1,100 @@
+{
+  "family": "alan-sans",
+  "subset": "min-chars",
+  "description": "Minimal character set for performance-critical contexts (100 characters)",
+  "derivativeWorkNotice": {
+    "status": "This is a derivative work optimized for web performance",
+    "originalAuthor": "Unknown",
+    "originalLicense": "OFL-1.1",
+    "derivativeCompliance": "Subset generation complies with OFL-1.1 requirements"
+  },
+  "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+,-./:;=?[]_ —–''\"\"…",
+  "unicodeRanges": [
+    "U+0020-007F",
+    "U+00A0",
+    "U+2013-2014",
+    "U+2018-2019",
+    "U+201C-201D",
+    "U+2026"
+  ],
+  "characterCount": 100,
+  "generatedAt": "2025-09-22T12:48:41.402Z",
+  "generationMethod": "fonttools pyftsubset",
+  "links": {
+    "self": {
+      "href": "/api/subsets/alan-sans/min-chars.json"
+    },
+    "parent": {
+      "href": "/api/subsets/alan-sans.json"
+    },
+    "original-family": {
+      "href": "/api/families/alan-sans.json"
+    }
+  },
+  "files": [
+    {
+      "filename": "AlanSans-400-min.woff2",
+      "format": "woff2",
+      "weight": 400,
+      "style": "normal",
+      "isVariable": false,
+      "fileSize": 4632,
+      "fileSizeKB": 4.5,
+      "compressionRatio": 0.211,
+      "links": {
+        "download": {
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/subsets/alan-sans/min-chars/AlanSans-400-min.woff2"
+        }
+      }
+    },
+    {
+      "filename": "AlanSansVF-min.ttf",
+      "format": "ttf",
+      "style": "normal",
+      "isVariable": true,
+      "fileSize": 16740,
+      "fileSizeKB": 16.3,
+      "compressionRatio": 0.246,
+      "axes": {
+        "wght": {
+          "min": 100,
+          "max": 900,
+          "default": 400
+        }
+      },
+      "links": {
+        "download": {
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/subsets/alan-sans/min-chars/AlanSansVF-min.ttf"
+        }
+      }
+    },
+    {
+      "filename": "AlanSansVF-min.woff2",
+      "format": "woff2",
+      "style": "normal",
+      "isVariable": true,
+      "fileSize": 9904,
+      "fileSizeKB": 9.7,
+      "compressionRatio": 0.146,
+      "axes": {
+        "wght": {
+          "min": 100,
+          "max": 900,
+          "default": 400
+        }
+      },
+      "links": {
+        "download": {
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/subsets/alan-sans/min-chars/AlanSansVF-min.woff2"
+        }
+      }
+    }
+  ],
+  "performanceMetrics": {
+    "originalSizeKB": 22,
+    "subsetSizeKB": 4.5,
+    "sizeReduction": "80%",
+    "estimatedLoadTime3G": "0.1s",
+    "recommendedUseCase": "Critical path font loading, font picker previews"
+  }
+}

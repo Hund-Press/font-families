@@ -162,11 +162,11 @@ export default {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/fonts/open-fonts/work-sans/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/fonts/open-fonts/work-sans/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/fonts/open-fonts/work-sans/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/fonts/open-fonts/work-sans/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/subsets/work-sans/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/work-sans/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/work-sans/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/work-sans/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/work-sans/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/subsets/work-sans/"
   },
   "faces": {
     "variable": {
@@ -776,5 +776,26 @@ export default {
       }
     }
   },
-  "subsets": {}
+  "subsets": {
+    "min-chars": {
+      "description": "Minimal character set for performance-critical contexts (100 characters)",
+      "characterCount": 100,
+      "unicodeRanges": [
+        "U+0020-007F",
+        "U+00A0",
+        "U+2013-2014",
+        "U+2018-2019",
+        "U+201C-201D",
+        "U+2026"
+      ],
+      "files": {
+        "static": "WorkSans-400-min.woff2",
+        "variable": [
+          "WorkSansVF-min.ttf",
+          "WorkSansVF-min.woff2"
+        ]
+      },
+      "generatedAt": "2025-09-22T12:49:53.101Z"
+    }
+  }
 };

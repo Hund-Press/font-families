@@ -1,0 +1,52 @@
+{
+  "family": "work-sans",
+  "originalFont": {
+    "name": "Work Sans",
+    "version": "1.0.0",
+    "author": "Wei Huang <wweeiihhuuaanngg@gmail.com>",
+    "license": "OFL-1.1",
+    "source": "../fonts/open-fonts/work-sans/"
+  },
+  "links": {
+    "self": {
+      "href": "/subsets/work-sans/metadata.json"
+    },
+    "api": {
+      "href": "/api/subsets/work-sans.json"
+    },
+    "original-family": {
+      "href": "/api/families/work-sans.json"
+    }
+  },
+  "subsets": {
+    "min-chars": {
+      "description": "Minimal character set for performance-critical contexts (100 characters)",
+      "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+,-./:;=?[]_ —–''\"\"…",
+      "unicodeRanges": [
+        "U+0020-007F",
+        "U+00A0",
+        "U+2013-2014",
+        "U+2018-2019",
+        "U+201C-201D",
+        "U+2026"
+      ],
+      "characterCount": 100,
+      "status": "generated",
+      "generatedAt": "2025-09-22T12:49:53.101Z",
+      "targetFiles": {
+        "static": "WorkSans-400-min.woff2",
+        "variable": [
+          "WorkSansVF-min.ttf",
+          "WorkSansVF-min.woff2"
+        ]
+      },
+      "note": "Minimal subset for font selection UI and performance-critical contexts"
+    }
+  },
+  "legalCompliance": {
+    "originalLicense": "OFL-1.1",
+    "derivativeStatus": "Planned derivative works will comply with original license",
+    "attribution": "Original font design by Wei Huang <wweeiihhuuaanngg@gmail.com>. Subsets generated for web optimization only.",
+    "reservedFontName": "Work Sans"
+  }
+}

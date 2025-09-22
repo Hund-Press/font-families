@@ -205,7 +205,7 @@ class SubsetGenerator {
   }
 
   /**
-   * Load family subset metadata
+   * Load family subset metadata, creating it if it doesn't exist
    */
   async loadFamilyMetadata(familyName) {
     const metadataPath = path.join(
@@ -218,8 +218,123 @@ class SubsetGenerator {
       const content = await fs.readFile(metadataPath, 'utf8')
       return JSON.parse(content)
     } catch (error) {
+      // If metadata doesn't exist, create it automatically
+      console.log(
+        `[subset-metadata] Creating initial metadata for ${familyName}...`
+      )
+      return await this.createFamilyMetadata(familyName)
+    }
+  }
+
+  /**
+   * Create initial family metadata from API metadata
+   */
+  async createFamilyMetadata(familyName) {
+    try {
+      // Load API metadata to get font information
+      const apiMetadataPath = path.join(
+        'dist',
+        'api',
+        'metadata',
+        `${familyName}.json`
+      )
+      const apiMetadata = JSON.parse(await fs.readFile(apiMetadataPath, 'utf8'))
+
+      // Determine target filenames based on available fonts
+      const targetFiles = { static: null, variable: [] }
+
+      // Find regular weight static font (weight 400, style normal)
+      if (apiMetadata.static) {
+        const staticFonts = Object.entries(apiMetadata.static).filter(
+          ([key, font]) =>
+            font.weight === 400 &&
+            font.style === 'normal' &&
+            font.path.endsWith('.woff2')
+        )
+
+        if (staticFonts.length > 0) {
+          const fontName = staticFonts[0][1].family.replace(/\s+/g, '')
+          targetFiles.static = `${fontName}-400-min.woff2`
+        }
+      }
+
+      // Find variable fonts
+      if (apiMetadata.variable) {
+        const variableFonts = Object.entries(apiMetadata.variable).filter(
+          ([key, font]) => font.style === 'normal'
+        )
+
+        if (variableFonts.length > 0) {
+          const fontName = apiMetadata.name.replace(/\s+/g, '')
+          targetFiles.variable = [
+            `${fontName}VF-min.ttf`,
+            `${fontName}VF-min.woff2`
+          ]
+        }
+      }
+
+      // Create family metadata structure
+      const familyMetadata = {
+        family: familyName,
+        originalFont: {
+          name: apiMetadata.name,
+          version: apiMetadata.version || '1.0.0',
+          author: apiMetadata.author || apiMetadata.authorFiles?.authors?.[0] || 'Unknown',
+          license: apiMetadata.licenseType || 'Unknown',
+          source: `../fonts/open-fonts/${familyName}/`
+        },
+        links: {
+          self: {
+            href: `/subsets/${familyName}/metadata.json`
+          },
+          api: {
+            href: `/api/subsets/${familyName}.json`
+          },
+          'original-family': {
+            href: `/api/families/${familyName}.json`
+          }
+        },
+        subsets: {
+          'min-chars': {
+            description: 'Minimal character set for performance-critical contexts (100 characters)',
+            characters: `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!"#$%&'()*+,-./:;=?[]_ —–''""…`,
+            unicodeRanges: [
+              'U+0020-007F',
+              'U+00A0',
+              'U+2013-2014',
+              'U+2018-2019',
+              'U+201C-201D',
+              'U+2026'
+            ],
+            characterCount: 100,
+            status: 'planned',
+            generatedAt: null,
+            targetFiles: targetFiles,
+            note: 'Minimal subset for font selection UI and performance-critical contexts'
+          }
+        },
+        legalCompliance: {
+          originalLicense: apiMetadata.licenseType || 'Unknown',
+          derivativeStatus: 'Planned derivative works will comply with original license',
+          attribution: `Original font design by ${apiMetadata.author || apiMetadata.authorFiles?.authors?.[0] || 'Unknown'}. Subsets generated for web optimization only.`,
+          reservedFontName: apiMetadata.name
+        }
+      }
+
+      // Create subset directory
+      const subsetDir = path.join(CONFIG.subsetsDir, familyName)
+      await fs.mkdir(subsetDir, { recursive: true })
+
+      // Write metadata file
+      const metadataPath = path.join(subsetDir, 'metadata.json')
+      await fs.writeFile(metadataPath, JSON.stringify(familyMetadata, null, 2))
+
+      console.log(`✓ Created initial metadata: ${metadataPath}`)
+      return familyMetadata
+
+    } catch (error) {
       throw new Error(
-        `Could not load metadata for ${familyName}: ${error.message}`
+        `Could not create metadata for ${familyName}: ${error.message}`
       )
     }
   }
