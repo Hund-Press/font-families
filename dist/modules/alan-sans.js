@@ -122,11 +122,11 @@ export default {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.10.0/fonts/open-fonts/alan-sans/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.10.0/fonts/open-fonts/alan-sans/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.10.0/fonts/open-fonts/alan-sans/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.10.0/fonts/open-fonts/alan-sans/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@1.10.0/subsets/alan-sans/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.2/fonts/open-fonts/alan-sans/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.2/fonts/open-fonts/alan-sans/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.2/fonts/open-fonts/alan-sans/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.2/fonts/open-fonts/alan-sans/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.2/subsets/alan-sans/"
   },
   "faces": {
     "variable": {

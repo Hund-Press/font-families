@@ -305,12 +305,13 @@ async function generateAllModules(openFonts) {
   let repoVersion
   try {
     const packageJson = JSON.parse(await fs.readFile('./package.json', 'utf8'))
-    repoVersion = packageJson.version
+    repoVersion = `v${packageJson.version}`
   } catch (error) {
     console.warn(
       '[build] Could not read package.json version, using environment variable'
     )
-    repoVersion = process.env.npm_package_version || 'latest'
+    const envVersion = process.env.npm_package_version
+    repoVersion = envVersion ? `v${envVersion}` : 'latest'
   }
 
   console.log(`[modules] Using repository version: ${repoVersion}`)

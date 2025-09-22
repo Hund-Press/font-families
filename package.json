@@ -1,6 +1,6 @@
 {
   "name": "@hund-press/font-families",
-  "version": "1.10.1",
+  "version": "1.10.2",
   "description": "Comprehensive font resource platform with processing, community curation, and public catalog site",
   "main": "dist/modules/index.js",
   "type": "module",
@@ -27,7 +27,10 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "prepare": "npm run build",
-    "release": "npm run build && npm run test && npm version patch && git push --follow-tags"
+    "release": "node src/build-tools/scripts/release.js",
+    "release:patch": "node src/build-tools/scripts/release.js patch",
+    "release:minor": "node src/build-tools/scripts/release.js minor",
+    "release:major": "node src/build-tools/scripts/release.js major"
   },
   "repository": {
     "type": "git",
