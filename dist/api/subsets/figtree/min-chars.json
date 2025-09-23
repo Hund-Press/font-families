@@ -1,0 +1,100 @@
+{
+  "family": "figtree",
+  "subset": "min-chars",
+  "description": "Minimal character set for performance-critical contexts (100 characters)",
+  "derivativeWorkNotice": {
+    "status": "This is a derivative work optimized for web performance",
+    "originalAuthor": "Erik Kennedy <erik.d.kennedy@gmail.com>",
+    "originalLicense": "OFL-1.1",
+    "derivativeCompliance": "Subset generation complies with OFL-1.1 requirements"
+  },
+  "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+,-./:;=?[]_ —–''\"\"…",
+  "unicodeRanges": [
+    "U+0020-007F",
+    "U+00A0",
+    "U+2013-2014",
+    "U+2018-2019",
+    "U+201C-201D",
+    "U+2026"
+  ],
+  "characterCount": 100,
+  "generatedAt": "2025-09-23T13:43:07.243Z",
+  "generationMethod": "fonttools pyftsubset",
+  "links": {
+    "self": {
+      "href": "/api/subsets/figtree/min-chars.json"
+    },
+    "parent": {
+      "href": "/api/subsets/figtree.json"
+    },
+    "original-family": {
+      "href": "/api/families/figtree.json"
+    }
+  },
+  "files": [
+    {
+      "filename": "Figtree-400-min.woff2",
+      "format": "woff2",
+      "weight": 400,
+      "style": "normal",
+      "isVariable": false,
+      "fileSize": 4212,
+      "fileSizeKB": 4.1,
+      "compressionRatio": 0.191,
+      "links": {
+        "download": {
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/figtree/min-chars/Figtree-400-min.woff2"
+        }
+      }
+    },
+    {
+      "filename": "FigtreeVF-min.ttf",
+      "format": "ttf",
+      "style": "normal",
+      "isVariable": true,
+      "fileSize": 14500,
+      "fileSizeKB": 14.2,
+      "compressionRatio": 0.213,
+      "axes": {
+        "wght": {
+          "min": 100,
+          "max": 900,
+          "default": 400
+        }
+      },
+      "links": {
+        "download": {
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/figtree/min-chars/FigtreeVF-min.ttf"
+        }
+      }
+    },
+    {
+      "filename": "FigtreeVF-min.woff2",
+      "format": "woff2",
+      "style": "normal",
+      "isVariable": true,
+      "fileSize": 8516,
+      "fileSizeKB": 8.3,
+      "compressionRatio": 0.125,
+      "axes": {
+        "wght": {
+          "min": 100,
+          "max": 900,
+          "default": 400
+        }
+      },
+      "links": {
+        "download": {
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/figtree/min-chars/FigtreeVF-min.woff2"
+        }
+      }
+    }
+  ],
+  "performanceMetrics": {
+    "originalSizeKB": 22,
+    "subsetSizeKB": 4.1,
+    "sizeReduction": "81%",
+    "estimatedLoadTime3G": "0.1s",
+    "recommendedUseCase": "Critical path font loading, font picker previews"
+  }
+}

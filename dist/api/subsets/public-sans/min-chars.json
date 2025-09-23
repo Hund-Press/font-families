@@ -40,7 +40,7 @@
       "compressionRatio": 0.776,
       "links": {
         "download": {
-          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/subsets/public-sans/min-chars/PublicSansVF-min.ttf"
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/public-sans/min-chars/PublicSansVF-min.ttf"
         }
       }
     },
@@ -52,7 +52,7 @@
       "compressionRatio": 0.477,
       "links": {
         "download": {
-          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/subsets/public-sans/min-chars/PublicSansVF-min.woff2"
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/public-sans/min-chars/PublicSansVF-min.woff2"
         }
       }
     }

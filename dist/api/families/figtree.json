@@ -1,0 +1,354 @@
+{
+  "name": "Figtree",
+  "key": "figtree",
+  "description": "A simple and friendly geometric sans serif font.\n\n![](documentation/figtree-banner.png)\n\n![](documentation/figtree-letterforms.png)\n\n![](documentation/figtree-vibes.png)\n\n![](documentation/figtree-fea",
+  "license": "OFL-1.1",
+  "author": "Erik Kennedy <erik.d.kennedy@gmail.com>",
+  "capabilities": {
+    "hasStatic": true,
+    "hasVariable": true,
+    "weightRange": {
+      "min": 300,
+      "max": 900,
+      "type": "variable"
+    },
+    "styleCount": 2,
+    "formats": [
+      "woff2",
+      "truetype"
+    ]
+  },
+  "files": {
+    "static": [
+      {
+        "key": "Figtree-SemiBoldItalic",
+        "fileName": "Figtree-SemiBoldItalic.woff2",
+        "format": "woff2",
+        "weight": 600,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 23940,
+        "fileSizeKB": 23,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/figtree/fonts/webfonts/Figtree-SemiBoldItalic.woff2"
+          }
+        }
+      },
+      {
+        "key": "Figtree-SemiBold",
+        "fileName": "Figtree-SemiBold.woff2",
+        "format": "woff2",
+        "weight": 600,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 23480,
+        "fileSizeKB": 23,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/figtree/fonts/webfonts/Figtree-SemiBold.woff2"
+          }
+        }
+      },
+      {
+        "key": "Figtree-Regular",
+        "fileName": "Figtree-Regular.woff2",
+        "format": "woff2",
+        "weight": 400,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 23324,
+        "fileSizeKB": 23,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/figtree/fonts/webfonts/Figtree-Regular.woff2"
+          }
+        }
+      },
+      {
+        "key": "Figtree-MediumItalic",
+        "fileName": "Figtree-MediumItalic.woff2",
+        "format": "woff2",
+        "weight": 500,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 23720,
+        "fileSizeKB": 23,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/figtree/fonts/webfonts/Figtree-MediumItalic.woff2"
+          }
+        }
+      },
+      {
+        "key": "Figtree-Medium",
+        "fileName": "Figtree-Medium.woff2",
+        "format": "woff2",
+        "weight": 500,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 23344,
+        "fileSizeKB": 23,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/figtree/fonts/webfonts/Figtree-Medium.woff2"
+          }
+        }
+      },
+      {
+        "key": "Figtree-LightItalic",
+        "fileName": "Figtree-LightItalic.woff2",
+        "format": "woff2",
+        "weight": 300,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 22420,
+        "fileSizeKB": 22,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/figtree/fonts/webfonts/Figtree-LightItalic.woff2"
+          }
+        }
+      },
+      {
+        "key": "Figtree-Light",
+        "fileName": "Figtree-Light.woff2",
+        "format": "woff2",
+        "weight": 300,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 21876,
+        "fileSizeKB": 21,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/figtree/fonts/webfonts/Figtree-Light.woff2"
+          }
+        }
+      },
+      {
+        "key": "Figtree-Italic",
+        "fileName": "Figtree-Italic.woff2",
+        "format": "woff2",
+        "weight": 400,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 23972,
+        "fileSizeKB": 23,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/figtree/fonts/webfonts/Figtree-Italic.woff2"
+          }
+        }
+      },
+      {
+        "key": "Figtree-ExtraBoldItalic",
+        "fileName": "Figtree-ExtraBoldItalic.woff2",
+        "format": "woff2",
+        "weight": 800,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 23872,
+        "fileSizeKB": 23,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/figtree/fonts/webfonts/Figtree-ExtraBoldItalic.woff2"
+          }
+        }
+      },
+      {
+        "key": "Figtree-ExtraBold",
+        "fileName": "Figtree-ExtraBold.woff2",
+        "format": "woff2",
+        "weight": 800,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 23432,
+        "fileSizeKB": 23,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/figtree/fonts/webfonts/Figtree-ExtraBold.woff2"
+          }
+        }
+      },
+      {
+        "key": "Figtree-BoldItalic",
+        "fileName": "Figtree-BoldItalic.woff2",
+        "format": "woff2",
+        "weight": 700,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 23928,
+        "fileSizeKB": 23,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/figtree/fonts/webfonts/Figtree-BoldItalic.woff2"
+          }
+        }
+      },
+      {
+        "key": "Figtree-Bold",
+        "fileName": "Figtree-Bold.woff2",
+        "format": "woff2",
+        "weight": 700,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 23612,
+        "fileSizeKB": 23,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/figtree/fonts/webfonts/Figtree-Bold.woff2"
+          }
+        }
+      },
+      {
+        "key": "Figtree-BlackItalic",
+        "fileName": "Figtree-BlackItalic.woff2",
+        "format": "woff2",
+        "weight": 900,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 23504,
+        "fileSizeKB": 23,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/figtree/fonts/webfonts/Figtree-BlackItalic.woff2"
+          }
+        }
+      },
+      {
+        "key": "Figtree-Black",
+        "fileName": "Figtree-Black.woff2",
+        "format": "woff2",
+        "weight": 900,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 23080,
+        "fileSizeKB": 23,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/figtree/fonts/webfonts/Figtree-Black.woff2"
+          }
+        }
+      }
+    ],
+    "variable": [
+      {
+        "key": "VariableRegular[wght]",
+        "fileName": "Figtree[wght].ttf",
+        "format": "truetype",
+        "axes": {
+          "wght": {
+            "min": 300,
+            "max": 900,
+            "default": 300
+          }
+        },
+        "style": "normal",
+        "fileSize": 64020,
+        "fileSizeKB": 63,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/figtree/fonts/webfonts/Figtree[wght].ttf"
+          }
+        }
+      },
+      {
+        "key": "VariableItalic[wght]",
+        "fileName": "Figtree-Italic[wght].ttf",
+        "format": "truetype",
+        "axes": {
+          "wght": {
+            "min": 300,
+            "max": 900,
+            "default": 300
+          }
+        },
+        "style": "italic",
+        "fileSize": 64564,
+        "fileSizeKB": 63,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/figtree/fonts/webfonts/Figtree-Italic[wght].ttf"
+          }
+        }
+      }
+    ]
+  },
+  "metrics": {
+    "unitsPerEm": 1000,
+    "ascent": 950,
+    "descent": -250,
+    "capHeight": 700,
+    "xHeight": 500,
+    "glyphCount": 459,
+    "totalFiles": 16,
+    "totalSizeKB": 445
+  },
+  "performance": {
+    "fileCount": 16,
+    "totalSizeKB": 445,
+    "averageSizeKB": 28,
+    "smallestFileKB": 21,
+    "largestFileKB": 63,
+    "averageGlyphCount": 459
+  },
+  "typography": {
+    "openTypeFeatures": [
+      "aalt",
+      "case",
+      "ccmp",
+      "dnom",
+      "frac",
+      "kern",
+      "locl",
+      "mark",
+      "mkmk",
+      "numr",
+      "ordn",
+      "pnum",
+      "sinf",
+      "ss01",
+      "ss02",
+      "subs",
+      "sups",
+      "tnum",
+      "rvrn"
+    ],
+    "hasLigatures": false,
+    "hasSmallCaps": false,
+    "hasOldStyleFigures": false,
+    "hasTabularFigures": true
+  },
+  "links": {
+    "self": {
+      "href": "/api/families/figtree.json"
+    },
+    "index": {
+      "href": "/api/families/"
+    },
+    "root": {
+      "href": "/api/"
+    },
+    "module": {
+      "href": "/modules/figtree.js"
+    },
+    "preview": {
+      "href": "/fonts/figtree/"
+    },
+    "subsets": {
+      "href": "/api/subsets/figtree.json",
+      "title": "Performance subsets for this family"
+    },
+    "cdn": {
+      "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/figtree/",
+      "templated": false
+    }
+  },
+  "subset_capabilities": {
+    "available": [
+      "min-chars"
+    ],
+    "planned": [],
+    "derivativeStatus": "Optimized derivatives available"
+  }
+}

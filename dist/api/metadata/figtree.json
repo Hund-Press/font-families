@@ -1,0 +1,2386 @@
+{
+  "name": "Figtree",
+  "key": "figtree",
+  "author": "Erik Kennedy <erik.d.kennedy@gmail.com>",
+  "licenseType": "OFL-1.1",
+  "description": "A simple and friendly geometric sans serif font.\n\n![](documentation/figtree-banner.png)\n\n![](documentation/figtree-letterforms.png)\n\n![](documentation/figtree-vibes.png)\n\n![](documentation/figtree-fea",
+  "authorFiles": {
+    "authors": [
+      "Erik Kennedy <erik.d.kennedy@gmail.com>"
+    ],
+    "contributors": [
+      "Erik Kennedy <erik.d.kennedy@gmail.com>",
+      "Emma Marichal <bonjour@emmamarichal.fr>"
+    ]
+  },
+  "static": {
+    "Figtree-SemiBoldItalic": {
+      "family": "Figtree Semibold",
+      "style": "italic",
+      "weight": 600,
+      "stretch": "normal",
+      "path": "fonts/open-fonts/figtree/fonts/webfonts/Figtree-SemiBoldItalic.woff2",
+      "subfamilyName": "Italic",
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascent": 950,
+        "descent": -250,
+        "lineGap": 0,
+        "capHeight": 700,
+        "xHeight": 500,
+        "bbox": {
+          "minX": -176,
+          "minY": -222,
+          "maxX": 1121,
+          "maxY": 937
+        }
+      },
+      "features": {
+        "openTypeFeatures": [
+          "aalt",
+          "case",
+          "ccmp",
+          "dnom",
+          "frac",
+          "kern",
+          "locl",
+          "mark",
+          "mkmk",
+          "numr",
+          "ordn",
+          "pnum",
+          "sinf",
+          "ss01",
+          "ss02",
+          "subs",
+          "sups",
+          "tnum"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": ""
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": ""
+          }
+        ],
+        "unicodeRanges": [
+          {
+            "name": "Basic Latin",
+            "script": "Latin",
+            "coverage": 0.75,
+            "start": 0,
+            "end": 127,
+            "supported": 96,
+            "total": 128
+          },
+          {
+            "name": "Latin-1 Supplement",
+            "script": "Latin",
+            "coverage": 0.7421875,
+            "start": 128,
+            "end": 255,
+            "supported": 95,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-A",
+            "script": "Latin",
+            "coverage": 0.8515625,
+            "start": 256,
+            "end": 383,
+            "supported": 109,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-B",
+            "script": "Latin",
+            "coverage": 0.03365384615384615,
+            "start": 384,
+            "end": 591,
+            "supported": 7,
+            "total": 208
+          },
+          {
+            "name": "Latin Extended Additional",
+            "script": "Latin",
+            "coverage": 0.03515625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 9,
+            "total": 256
+          }
+        ],
+        "glyphCount": 459
+      },
+      "languages": {
+        "scripts": [
+          {
+            "name": "Latin",
+            "coverage": 0.373,
+            "languages": [
+              "eng",
+              "fra",
+              "deu",
+              "spa",
+              "ita",
+              "por",
+              "nld",
+              "pol",
+              "ces",
+              "hun",
+              "tur"
+            ],
+            "blocks": [
+              "Basic Latin",
+              "Latin-1 Supplement",
+              "Latin Extended-A",
+              "Latin Extended-B",
+              "Latin Extended Additional"
+            ]
+          }
+        ],
+        "total": 11
+      },
+      "performance": {
+        "fileSize": 23940,
+        "fileSizeKB": 23,
+        "glyphDensity": 52,
+        "format": "woff2",
+        "isVariable": false,
+        "axisCount": 0
+      }
+    },
+    "Figtree-SemiBold": {
+      "family": "Figtree SemiBold",
+      "style": "normal",
+      "weight": 600,
+      "stretch": "normal",
+      "path": "fonts/open-fonts/figtree/fonts/webfonts/Figtree-SemiBold.woff2",
+      "subfamilyName": "Regular",
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascent": 950,
+        "descent": -250,
+        "lineGap": 0,
+        "capHeight": 700,
+        "xHeight": 500,
+        "bbox": {
+          "minX": -176,
+          "minY": -220,
+          "maxX": 1100,
+          "maxY": 937
+        }
+      },
+      "features": {
+        "openTypeFeatures": [
+          "aalt",
+          "case",
+          "ccmp",
+          "dnom",
+          "frac",
+          "kern",
+          "locl",
+          "mark",
+          "mkmk",
+          "numr",
+          "ordn",
+          "pnum",
+          "sinf",
+          "ss01",
+          "ss02",
+          "subs",
+          "sups",
+          "tnum"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": ""
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": ""
+          }
+        ],
+        "unicodeRanges": [
+          {
+            "name": "Basic Latin",
+            "script": "Latin",
+            "coverage": 0.75,
+            "start": 0,
+            "end": 127,
+            "supported": 96,
+            "total": 128
+          },
+          {
+            "name": "Latin-1 Supplement",
+            "script": "Latin",
+            "coverage": 0.7421875,
+            "start": 128,
+            "end": 255,
+            "supported": 95,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-A",
+            "script": "Latin",
+            "coverage": 0.8515625,
+            "start": 256,
+            "end": 383,
+            "supported": 109,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-B",
+            "script": "Latin",
+            "coverage": 0.03365384615384615,
+            "start": 384,
+            "end": 591,
+            "supported": 7,
+            "total": 208
+          },
+          {
+            "name": "Latin Extended Additional",
+            "script": "Latin",
+            "coverage": 0.03515625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 9,
+            "total": 256
+          }
+        ],
+        "glyphCount": 459
+      },
+      "languages": {
+        "scripts": [
+          {
+            "name": "Latin",
+            "coverage": 0.373,
+            "languages": [
+              "eng",
+              "fra",
+              "deu",
+              "spa",
+              "ita",
+              "por",
+              "nld",
+              "pol",
+              "ces",
+              "hun",
+              "tur"
+            ],
+            "blocks": [
+              "Basic Latin",
+              "Latin-1 Supplement",
+              "Latin Extended-A",
+              "Latin Extended-B",
+              "Latin Extended Additional"
+            ]
+          }
+        ],
+        "total": 11
+      },
+      "performance": {
+        "fileSize": 23480,
+        "fileSizeKB": 23,
+        "glyphDensity": 51,
+        "format": "woff2",
+        "isVariable": false,
+        "axisCount": 0
+      }
+    },
+    "Figtree-Regular": {
+      "family": "Figtree",
+      "style": "normal",
+      "weight": 400,
+      "stretch": "normal",
+      "path": "fonts/open-fonts/figtree/fonts/webfonts/Figtree-Regular.woff2",
+      "subfamilyName": "Regular",
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascent": 950,
+        "descent": -250,
+        "lineGap": 0,
+        "capHeight": 700,
+        "xHeight": 500,
+        "bbox": {
+          "minX": -172,
+          "minY": -220,
+          "maxX": 1100,
+          "maxY": 917
+        }
+      },
+      "features": {
+        "openTypeFeatures": [
+          "aalt",
+          "case",
+          "ccmp",
+          "dnom",
+          "frac",
+          "kern",
+          "locl",
+          "mark",
+          "mkmk",
+          "numr",
+          "ordn",
+          "pnum",
+          "sinf",
+          "ss01",
+          "ss02",
+          "subs",
+          "sups",
+          "tnum"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": ""
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": ""
+          }
+        ],
+        "unicodeRanges": [
+          {
+            "name": "Basic Latin",
+            "script": "Latin",
+            "coverage": 0.75,
+            "start": 0,
+            "end": 127,
+            "supported": 96,
+            "total": 128
+          },
+          {
+            "name": "Latin-1 Supplement",
+            "script": "Latin",
+            "coverage": 0.7421875,
+            "start": 128,
+            "end": 255,
+            "supported": 95,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-A",
+            "script": "Latin",
+            "coverage": 0.8515625,
+            "start": 256,
+            "end": 383,
+            "supported": 109,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-B",
+            "script": "Latin",
+            "coverage": 0.03365384615384615,
+            "start": 384,
+            "end": 591,
+            "supported": 7,
+            "total": 208
+          },
+          {
+            "name": "Latin Extended Additional",
+            "script": "Latin",
+            "coverage": 0.03515625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 9,
+            "total": 256
+          }
+        ],
+        "glyphCount": 459
+      },
+      "languages": {
+        "scripts": [
+          {
+            "name": "Latin",
+            "coverage": 0.373,
+            "languages": [
+              "eng",
+              "fra",
+              "deu",
+              "spa",
+              "ita",
+              "por",
+              "nld",
+              "pol",
+              "ces",
+              "hun",
+              "tur"
+            ],
+            "blocks": [
+              "Basic Latin",
+              "Latin-1 Supplement",
+              "Latin Extended-A",
+              "Latin Extended-B",
+              "Latin Extended Additional"
+            ]
+          }
+        ],
+        "total": 11
+      },
+      "performance": {
+        "fileSize": 23324,
+        "fileSizeKB": 23,
+        "glyphDensity": 51,
+        "format": "woff2",
+        "isVariable": false,
+        "axisCount": 0
+      }
+    },
+    "Figtree-MediumItalic": {
+      "family": "Figtree Medium",
+      "style": "italic",
+      "weight": 500,
+      "stretch": "normal",
+      "path": "fonts/open-fonts/figtree/fonts/webfonts/Figtree-MediumItalic.woff2",
+      "subfamilyName": "Italic",
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascent": 950,
+        "descent": -250,
+        "lineGap": 0,
+        "capHeight": 700,
+        "xHeight": 500,
+        "bbox": {
+          "minX": -174,
+          "minY": -222,
+          "maxX": 1122,
+          "maxY": 927
+        }
+      },
+      "features": {
+        "openTypeFeatures": [
+          "aalt",
+          "case",
+          "ccmp",
+          "dnom",
+          "frac",
+          "kern",
+          "locl",
+          "mark",
+          "mkmk",
+          "numr",
+          "ordn",
+          "pnum",
+          "sinf",
+          "ss01",
+          "ss02",
+          "subs",
+          "sups",
+          "tnum"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": ""
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": ""
+          }
+        ],
+        "unicodeRanges": [
+          {
+            "name": "Basic Latin",
+            "script": "Latin",
+            "coverage": 0.75,
+            "start": 0,
+            "end": 127,
+            "supported": 96,
+            "total": 128
+          },
+          {
+            "name": "Latin-1 Supplement",
+            "script": "Latin",
+            "coverage": 0.7421875,
+            "start": 128,
+            "end": 255,
+            "supported": 95,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-A",
+            "script": "Latin",
+            "coverage": 0.8515625,
+            "start": 256,
+            "end": 383,
+            "supported": 109,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-B",
+            "script": "Latin",
+            "coverage": 0.03365384615384615,
+            "start": 384,
+            "end": 591,
+            "supported": 7,
+            "total": 208
+          },
+          {
+            "name": "Latin Extended Additional",
+            "script": "Latin",
+            "coverage": 0.03515625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 9,
+            "total": 256
+          }
+        ],
+        "glyphCount": 459
+      },
+      "languages": {
+        "scripts": [
+          {
+            "name": "Latin",
+            "coverage": 0.373,
+            "languages": [
+              "eng",
+              "fra",
+              "deu",
+              "spa",
+              "ita",
+              "por",
+              "nld",
+              "pol",
+              "ces",
+              "hun",
+              "tur"
+            ],
+            "blocks": [
+              "Basic Latin",
+              "Latin-1 Supplement",
+              "Latin Extended-A",
+              "Latin Extended-B",
+              "Latin Extended Additional"
+            ]
+          }
+        ],
+        "total": 11
+      },
+      "performance": {
+        "fileSize": 23720,
+        "fileSizeKB": 23,
+        "glyphDensity": 52,
+        "format": "woff2",
+        "isVariable": false,
+        "axisCount": 0
+      }
+    },
+    "Figtree-Medium": {
+      "family": "Figtree Medium",
+      "style": "normal",
+      "weight": 500,
+      "stretch": "normal",
+      "path": "fonts/open-fonts/figtree/fonts/webfonts/Figtree-Medium.woff2",
+      "subfamilyName": "Regular",
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascent": 950,
+        "descent": -250,
+        "lineGap": 0,
+        "capHeight": 700,
+        "xHeight": 500,
+        "bbox": {
+          "minX": -174,
+          "minY": -220,
+          "maxX": 1100,
+          "maxY": 927
+        }
+      },
+      "features": {
+        "openTypeFeatures": [
+          "aalt",
+          "case",
+          "ccmp",
+          "dnom",
+          "frac",
+          "kern",
+          "locl",
+          "mark",
+          "mkmk",
+          "numr",
+          "ordn",
+          "pnum",
+          "sinf",
+          "ss01",
+          "ss02",
+          "subs",
+          "sups",
+          "tnum"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": ""
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": ""
+          }
+        ],
+        "unicodeRanges": [
+          {
+            "name": "Basic Latin",
+            "script": "Latin",
+            "coverage": 0.75,
+            "start": 0,
+            "end": 127,
+            "supported": 96,
+            "total": 128
+          },
+          {
+            "name": "Latin-1 Supplement",
+            "script": "Latin",
+            "coverage": 0.7421875,
+            "start": 128,
+            "end": 255,
+            "supported": 95,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-A",
+            "script": "Latin",
+            "coverage": 0.8515625,
+            "start": 256,
+            "end": 383,
+            "supported": 109,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-B",
+            "script": "Latin",
+            "coverage": 0.03365384615384615,
+            "start": 384,
+            "end": 591,
+            "supported": 7,
+            "total": 208
+          },
+          {
+            "name": "Latin Extended Additional",
+            "script": "Latin",
+            "coverage": 0.03515625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 9,
+            "total": 256
+          }
+        ],
+        "glyphCount": 459
+      },
+      "languages": {
+        "scripts": [
+          {
+            "name": "Latin",
+            "coverage": 0.373,
+            "languages": [
+              "eng",
+              "fra",
+              "deu",
+              "spa",
+              "ita",
+              "por",
+              "nld",
+              "pol",
+              "ces",
+              "hun",
+              "tur"
+            ],
+            "blocks": [
+              "Basic Latin",
+              "Latin-1 Supplement",
+              "Latin Extended-A",
+              "Latin Extended-B",
+              "Latin Extended Additional"
+            ]
+          }
+        ],
+        "total": 11
+      },
+      "performance": {
+        "fileSize": 23344,
+        "fileSizeKB": 23,
+        "glyphDensity": 51,
+        "format": "woff2",
+        "isVariable": false,
+        "axisCount": 0
+      }
+    },
+    "Figtree-LightItalic": {
+      "family": "Figtree Light",
+      "style": "italic",
+      "weight": 300,
+      "stretch": "normal",
+      "path": "fonts/open-fonts/figtree/fonts/webfonts/Figtree-LightItalic.woff2",
+      "subfamilyName": "Italic",
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascent": 950,
+        "descent": -250,
+        "lineGap": 0,
+        "capHeight": 700,
+        "xHeight": 500,
+        "bbox": {
+          "minX": -170,
+          "minY": -222,
+          "maxX": 1125,
+          "maxY": 912
+        }
+      },
+      "features": {
+        "openTypeFeatures": [
+          "aalt",
+          "case",
+          "ccmp",
+          "dnom",
+          "frac",
+          "kern",
+          "locl",
+          "mark",
+          "mkmk",
+          "numr",
+          "ordn",
+          "pnum",
+          "sinf",
+          "ss01",
+          "ss02",
+          "subs",
+          "sups",
+          "tnum"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": ""
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": ""
+          }
+        ],
+        "unicodeRanges": [
+          {
+            "name": "Basic Latin",
+            "script": "Latin",
+            "coverage": 0.75,
+            "start": 0,
+            "end": 127,
+            "supported": 96,
+            "total": 128
+          },
+          {
+            "name": "Latin-1 Supplement",
+            "script": "Latin",
+            "coverage": 0.7421875,
+            "start": 128,
+            "end": 255,
+            "supported": 95,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-A",
+            "script": "Latin",
+            "coverage": 0.8515625,
+            "start": 256,
+            "end": 383,
+            "supported": 109,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-B",
+            "script": "Latin",
+            "coverage": 0.03365384615384615,
+            "start": 384,
+            "end": 591,
+            "supported": 7,
+            "total": 208
+          },
+          {
+            "name": "Latin Extended Additional",
+            "script": "Latin",
+            "coverage": 0.03515625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 9,
+            "total": 256
+          }
+        ],
+        "glyphCount": 459
+      },
+      "languages": {
+        "scripts": [
+          {
+            "name": "Latin",
+            "coverage": 0.373,
+            "languages": [
+              "eng",
+              "fra",
+              "deu",
+              "spa",
+              "ita",
+              "por",
+              "nld",
+              "pol",
+              "ces",
+              "hun",
+              "tur"
+            ],
+            "blocks": [
+              "Basic Latin",
+              "Latin-1 Supplement",
+              "Latin Extended-A",
+              "Latin Extended-B",
+              "Latin Extended Additional"
+            ]
+          }
+        ],
+        "total": 11
+      },
+      "performance": {
+        "fileSize": 22420,
+        "fileSizeKB": 22,
+        "glyphDensity": 49,
+        "format": "woff2",
+        "isVariable": false,
+        "axisCount": 0
+      }
+    },
+    "Figtree-Light": {
+      "family": "Figtree Light",
+      "style": "normal",
+      "weight": 300,
+      "stretch": "normal",
+      "path": "fonts/open-fonts/figtree/fonts/webfonts/Figtree-Light.woff2",
+      "subfamilyName": "Regular",
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascent": 950,
+        "descent": -250,
+        "lineGap": 0,
+        "capHeight": 700,
+        "xHeight": 500,
+        "bbox": {
+          "minX": -170,
+          "minY": -220,
+          "maxX": 1100,
+          "maxY": 912
+        }
+      },
+      "features": {
+        "openTypeFeatures": [
+          "aalt",
+          "case",
+          "ccmp",
+          "dnom",
+          "frac",
+          "kern",
+          "locl",
+          "mark",
+          "mkmk",
+          "numr",
+          "ordn",
+          "pnum",
+          "sinf",
+          "ss01",
+          "ss02",
+          "subs",
+          "sups",
+          "tnum"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": ""
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": ""
+          }
+        ],
+        "unicodeRanges": [
+          {
+            "name": "Basic Latin",
+            "script": "Latin",
+            "coverage": 0.75,
+            "start": 0,
+            "end": 127,
+            "supported": 96,
+            "total": 128
+          },
+          {
+            "name": "Latin-1 Supplement",
+            "script": "Latin",
+            "coverage": 0.7421875,
+            "start": 128,
+            "end": 255,
+            "supported": 95,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-A",
+            "script": "Latin",
+            "coverage": 0.8515625,
+            "start": 256,
+            "end": 383,
+            "supported": 109,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-B",
+            "script": "Latin",
+            "coverage": 0.03365384615384615,
+            "start": 384,
+            "end": 591,
+            "supported": 7,
+            "total": 208
+          },
+          {
+            "name": "Latin Extended Additional",
+            "script": "Latin",
+            "coverage": 0.03515625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 9,
+            "total": 256
+          }
+        ],
+        "glyphCount": 459
+      },
+      "languages": {
+        "scripts": [
+          {
+            "name": "Latin",
+            "coverage": 0.373,
+            "languages": [
+              "eng",
+              "fra",
+              "deu",
+              "spa",
+              "ita",
+              "por",
+              "nld",
+              "pol",
+              "ces",
+              "hun",
+              "tur"
+            ],
+            "blocks": [
+              "Basic Latin",
+              "Latin-1 Supplement",
+              "Latin Extended-A",
+              "Latin Extended-B",
+              "Latin Extended Additional"
+            ]
+          }
+        ],
+        "total": 11
+      },
+      "performance": {
+        "fileSize": 21876,
+        "fileSizeKB": 21,
+        "glyphDensity": 48,
+        "format": "woff2",
+        "isVariable": false,
+        "axisCount": 0
+      }
+    },
+    "Figtree-Italic": {
+      "family": "Figtree",
+      "style": "italic",
+      "weight": 400,
+      "stretch": "normal",
+      "path": "fonts/open-fonts/figtree/fonts/webfonts/Figtree-Italic.woff2",
+      "subfamilyName": "Italic",
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascent": 950,
+        "descent": -250,
+        "lineGap": 0,
+        "capHeight": 700,
+        "xHeight": 500,
+        "bbox": {
+          "minX": -172,
+          "minY": -222,
+          "maxX": 1124,
+          "maxY": 917
+        }
+      },
+      "features": {
+        "openTypeFeatures": [
+          "aalt",
+          "case",
+          "ccmp",
+          "dnom",
+          "frac",
+          "kern",
+          "locl",
+          "mark",
+          "mkmk",
+          "numr",
+          "ordn",
+          "pnum",
+          "sinf",
+          "ss01",
+          "ss02",
+          "subs",
+          "sups",
+          "tnum"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": ""
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": ""
+          }
+        ],
+        "unicodeRanges": [
+          {
+            "name": "Basic Latin",
+            "script": "Latin",
+            "coverage": 0.75,
+            "start": 0,
+            "end": 127,
+            "supported": 96,
+            "total": 128
+          },
+          {
+            "name": "Latin-1 Supplement",
+            "script": "Latin",
+            "coverage": 0.7421875,
+            "start": 128,
+            "end": 255,
+            "supported": 95,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-A",
+            "script": "Latin",
+            "coverage": 0.8515625,
+            "start": 256,
+            "end": 383,
+            "supported": 109,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-B",
+            "script": "Latin",
+            "coverage": 0.03365384615384615,
+            "start": 384,
+            "end": 591,
+            "supported": 7,
+            "total": 208
+          },
+          {
+            "name": "Latin Extended Additional",
+            "script": "Latin",
+            "coverage": 0.03515625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 9,
+            "total": 256
+          }
+        ],
+        "glyphCount": 459
+      },
+      "languages": {
+        "scripts": [
+          {
+            "name": "Latin",
+            "coverage": 0.373,
+            "languages": [
+              "eng",
+              "fra",
+              "deu",
+              "spa",
+              "ita",
+              "por",
+              "nld",
+              "pol",
+              "ces",
+              "hun",
+              "tur"
+            ],
+            "blocks": [
+              "Basic Latin",
+              "Latin-1 Supplement",
+              "Latin Extended-A",
+              "Latin Extended-B",
+              "Latin Extended Additional"
+            ]
+          }
+        ],
+        "total": 11
+      },
+      "performance": {
+        "fileSize": 23972,
+        "fileSizeKB": 23,
+        "glyphDensity": 52,
+        "format": "woff2",
+        "isVariable": false,
+        "axisCount": 0
+      }
+    },
+    "Figtree-ExtraBoldItalic": {
+      "family": "Figtree ExtraBold",
+      "style": "italic",
+      "weight": 800,
+      "stretch": "normal",
+      "path": "fonts/open-fonts/figtree/fonts/webfonts/Figtree-ExtraBoldItalic.woff2",
+      "subfamilyName": "Italic",
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascent": 950,
+        "descent": -250,
+        "lineGap": 0,
+        "capHeight": 700,
+        "xHeight": 500,
+        "bbox": {
+          "minX": -182,
+          "minY": -222,
+          "maxX": 1119,
+          "maxY": 964
+        }
+      },
+      "features": {
+        "openTypeFeatures": [
+          "aalt",
+          "case",
+          "ccmp",
+          "dnom",
+          "frac",
+          "kern",
+          "locl",
+          "mark",
+          "mkmk",
+          "numr",
+          "ordn",
+          "pnum",
+          "sinf",
+          "ss01",
+          "ss02",
+          "subs",
+          "sups",
+          "tnum"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": ""
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": ""
+          }
+        ],
+        "unicodeRanges": [
+          {
+            "name": "Basic Latin",
+            "script": "Latin",
+            "coverage": 0.75,
+            "start": 0,
+            "end": 127,
+            "supported": 96,
+            "total": 128
+          },
+          {
+            "name": "Latin-1 Supplement",
+            "script": "Latin",
+            "coverage": 0.7421875,
+            "start": 128,
+            "end": 255,
+            "supported": 95,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-A",
+            "script": "Latin",
+            "coverage": 0.8515625,
+            "start": 256,
+            "end": 383,
+            "supported": 109,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-B",
+            "script": "Latin",
+            "coverage": 0.03365384615384615,
+            "start": 384,
+            "end": 591,
+            "supported": 7,
+            "total": 208
+          },
+          {
+            "name": "Latin Extended Additional",
+            "script": "Latin",
+            "coverage": 0.03515625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 9,
+            "total": 256
+          }
+        ],
+        "glyphCount": 459
+      },
+      "languages": {
+        "scripts": [
+          {
+            "name": "Latin",
+            "coverage": 0.373,
+            "languages": [
+              "eng",
+              "fra",
+              "deu",
+              "spa",
+              "ita",
+              "por",
+              "nld",
+              "pol",
+              "ces",
+              "hun",
+              "tur"
+            ],
+            "blocks": [
+              "Basic Latin",
+              "Latin-1 Supplement",
+              "Latin Extended-A",
+              "Latin Extended-B",
+              "Latin Extended Additional"
+            ]
+          }
+        ],
+        "total": 11
+      },
+      "performance": {
+        "fileSize": 23872,
+        "fileSizeKB": 23,
+        "glyphDensity": 52,
+        "format": "woff2",
+        "isVariable": false,
+        "axisCount": 0
+      }
+    },
+    "Figtree-ExtraBold": {
+      "family": "Figtree ExtraBold",
+      "style": "normal",
+      "weight": 800,
+      "stretch": "normal",
+      "path": "fonts/open-fonts/figtree/fonts/webfonts/Figtree-ExtraBold.woff2",
+      "subfamilyName": "Regular",
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascent": 950,
+        "descent": -250,
+        "lineGap": 0,
+        "capHeight": 700,
+        "xHeight": 500,
+        "bbox": {
+          "minX": -183,
+          "minY": -220,
+          "maxX": 1100,
+          "maxY": 964
+        }
+      },
+      "features": {
+        "openTypeFeatures": [
+          "aalt",
+          "case",
+          "ccmp",
+          "dnom",
+          "frac",
+          "kern",
+          "locl",
+          "mark",
+          "mkmk",
+          "numr",
+          "ordn",
+          "pnum",
+          "sinf",
+          "ss01",
+          "ss02",
+          "subs",
+          "sups",
+          "tnum"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": ""
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": ""
+          }
+        ],
+        "unicodeRanges": [
+          {
+            "name": "Basic Latin",
+            "script": "Latin",
+            "coverage": 0.75,
+            "start": 0,
+            "end": 127,
+            "supported": 96,
+            "total": 128
+          },
+          {
+            "name": "Latin-1 Supplement",
+            "script": "Latin",
+            "coverage": 0.7421875,
+            "start": 128,
+            "end": 255,
+            "supported": 95,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-A",
+            "script": "Latin",
+            "coverage": 0.8515625,
+            "start": 256,
+            "end": 383,
+            "supported": 109,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-B",
+            "script": "Latin",
+            "coverage": 0.03365384615384615,
+            "start": 384,
+            "end": 591,
+            "supported": 7,
+            "total": 208
+          },
+          {
+            "name": "Latin Extended Additional",
+            "script": "Latin",
+            "coverage": 0.03515625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 9,
+            "total": 256
+          }
+        ],
+        "glyphCount": 459
+      },
+      "languages": {
+        "scripts": [
+          {
+            "name": "Latin",
+            "coverage": 0.373,
+            "languages": [
+              "eng",
+              "fra",
+              "deu",
+              "spa",
+              "ita",
+              "por",
+              "nld",
+              "pol",
+              "ces",
+              "hun",
+              "tur"
+            ],
+            "blocks": [
+              "Basic Latin",
+              "Latin-1 Supplement",
+              "Latin Extended-A",
+              "Latin Extended-B",
+              "Latin Extended Additional"
+            ]
+          }
+        ],
+        "total": 11
+      },
+      "performance": {
+        "fileSize": 23432,
+        "fileSizeKB": 23,
+        "glyphDensity": 51,
+        "format": "woff2",
+        "isVariable": false,
+        "axisCount": 0
+      }
+    },
+    "Figtree-BoldItalic": {
+      "family": "Figtree",
+      "style": "italic",
+      "weight": 700,
+      "stretch": "normal",
+      "path": "fonts/open-fonts/figtree/fonts/webfonts/Figtree-BoldItalic.woff2",
+      "subfamilyName": "Bold Italic",
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascent": 950,
+        "descent": -250,
+        "lineGap": 0,
+        "capHeight": 700,
+        "xHeight": 500,
+        "bbox": {
+          "minX": -179,
+          "minY": -222,
+          "maxX": 1120,
+          "maxY": 949
+        }
+      },
+      "features": {
+        "openTypeFeatures": [
+          "aalt",
+          "case",
+          "ccmp",
+          "dnom",
+          "frac",
+          "kern",
+          "locl",
+          "mark",
+          "mkmk",
+          "numr",
+          "ordn",
+          "pnum",
+          "sinf",
+          "ss01",
+          "ss02",
+          "subs",
+          "sups",
+          "tnum"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": ""
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": ""
+          }
+        ],
+        "unicodeRanges": [
+          {
+            "name": "Basic Latin",
+            "script": "Latin",
+            "coverage": 0.75,
+            "start": 0,
+            "end": 127,
+            "supported": 96,
+            "total": 128
+          },
+          {
+            "name": "Latin-1 Supplement",
+            "script": "Latin",
+            "coverage": 0.7421875,
+            "start": 128,
+            "end": 255,
+            "supported": 95,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-A",
+            "script": "Latin",
+            "coverage": 0.8515625,
+            "start": 256,
+            "end": 383,
+            "supported": 109,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-B",
+            "script": "Latin",
+            "coverage": 0.03365384615384615,
+            "start": 384,
+            "end": 591,
+            "supported": 7,
+            "total": 208
+          },
+          {
+            "name": "Latin Extended Additional",
+            "script": "Latin",
+            "coverage": 0.03515625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 9,
+            "total": 256
+          }
+        ],
+        "glyphCount": 459
+      },
+      "languages": {
+        "scripts": [
+          {
+            "name": "Latin",
+            "coverage": 0.373,
+            "languages": [
+              "eng",
+              "fra",
+              "deu",
+              "spa",
+              "ita",
+              "por",
+              "nld",
+              "pol",
+              "ces",
+              "hun",
+              "tur"
+            ],
+            "blocks": [
+              "Basic Latin",
+              "Latin-1 Supplement",
+              "Latin Extended-A",
+              "Latin Extended-B",
+              "Latin Extended Additional"
+            ]
+          }
+        ],
+        "total": 11
+      },
+      "performance": {
+        "fileSize": 23928,
+        "fileSizeKB": 23,
+        "glyphDensity": 52,
+        "format": "woff2",
+        "isVariable": false,
+        "axisCount": 0
+      }
+    },
+    "Figtree-Bold": {
+      "family": "Figtree",
+      "style": "normal",
+      "weight": 700,
+      "stretch": "normal",
+      "path": "fonts/open-fonts/figtree/fonts/webfonts/Figtree-Bold.woff2",
+      "subfamilyName": "Bold",
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascent": 950,
+        "descent": -250,
+        "lineGap": 0,
+        "capHeight": 700,
+        "xHeight": 500,
+        "bbox": {
+          "minX": -179,
+          "minY": -220,
+          "maxX": 1100,
+          "maxY": 949
+        }
+      },
+      "features": {
+        "openTypeFeatures": [
+          "aalt",
+          "case",
+          "ccmp",
+          "dnom",
+          "frac",
+          "kern",
+          "locl",
+          "mark",
+          "mkmk",
+          "numr",
+          "ordn",
+          "pnum",
+          "sinf",
+          "ss01",
+          "ss02",
+          "subs",
+          "sups",
+          "tnum"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": ""
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": ""
+          }
+        ],
+        "unicodeRanges": [
+          {
+            "name": "Basic Latin",
+            "script": "Latin",
+            "coverage": 0.75,
+            "start": 0,
+            "end": 127,
+            "supported": 96,
+            "total": 128
+          },
+          {
+            "name": "Latin-1 Supplement",
+            "script": "Latin",
+            "coverage": 0.7421875,
+            "start": 128,
+            "end": 255,
+            "supported": 95,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-A",
+            "script": "Latin",
+            "coverage": 0.8515625,
+            "start": 256,
+            "end": 383,
+            "supported": 109,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-B",
+            "script": "Latin",
+            "coverage": 0.03365384615384615,
+            "start": 384,
+            "end": 591,
+            "supported": 7,
+            "total": 208
+          },
+          {
+            "name": "Latin Extended Additional",
+            "script": "Latin",
+            "coverage": 0.03515625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 9,
+            "total": 256
+          }
+        ],
+        "glyphCount": 459
+      },
+      "languages": {
+        "scripts": [
+          {
+            "name": "Latin",
+            "coverage": 0.373,
+            "languages": [
+              "eng",
+              "fra",
+              "deu",
+              "spa",
+              "ita",
+              "por",
+              "nld",
+              "pol",
+              "ces",
+              "hun",
+              "tur"
+            ],
+            "blocks": [
+              "Basic Latin",
+              "Latin-1 Supplement",
+              "Latin Extended-A",
+              "Latin Extended-B",
+              "Latin Extended Additional"
+            ]
+          }
+        ],
+        "total": 11
+      },
+      "performance": {
+        "fileSize": 23612,
+        "fileSizeKB": 23,
+        "glyphDensity": 51,
+        "format": "woff2",
+        "isVariable": false,
+        "axisCount": 0
+      }
+    },
+    "Figtree-BlackItalic": {
+      "family": "Figtree Black",
+      "style": "italic",
+      "weight": 900,
+      "stretch": "normal",
+      "path": "fonts/open-fonts/figtree/fonts/webfonts/Figtree-BlackItalic.woff2",
+      "subfamilyName": "Italic",
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascent": 950,
+        "descent": -250,
+        "lineGap": 0,
+        "capHeight": 700,
+        "xHeight": 500,
+        "bbox": {
+          "minX": -186,
+          "minY": -222,
+          "maxX": 1121,
+          "maxY": 979
+        }
+      },
+      "features": {
+        "openTypeFeatures": [
+          "aalt",
+          "case",
+          "ccmp",
+          "dnom",
+          "frac",
+          "kern",
+          "locl",
+          "mark",
+          "mkmk",
+          "numr",
+          "ordn",
+          "pnum",
+          "sinf",
+          "ss01",
+          "ss02",
+          "subs",
+          "sups",
+          "tnum"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": ""
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": ""
+          }
+        ],
+        "unicodeRanges": [
+          {
+            "name": "Basic Latin",
+            "script": "Latin",
+            "coverage": 0.75,
+            "start": 0,
+            "end": 127,
+            "supported": 96,
+            "total": 128
+          },
+          {
+            "name": "Latin-1 Supplement",
+            "script": "Latin",
+            "coverage": 0.7421875,
+            "start": 128,
+            "end": 255,
+            "supported": 95,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-A",
+            "script": "Latin",
+            "coverage": 0.8515625,
+            "start": 256,
+            "end": 383,
+            "supported": 109,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-B",
+            "script": "Latin",
+            "coverage": 0.03365384615384615,
+            "start": 384,
+            "end": 591,
+            "supported": 7,
+            "total": 208
+          },
+          {
+            "name": "Latin Extended Additional",
+            "script": "Latin",
+            "coverage": 0.03515625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 9,
+            "total": 256
+          }
+        ],
+        "glyphCount": 459
+      },
+      "languages": {
+        "scripts": [
+          {
+            "name": "Latin",
+            "coverage": 0.373,
+            "languages": [
+              "eng",
+              "fra",
+              "deu",
+              "spa",
+              "ita",
+              "por",
+              "nld",
+              "pol",
+              "ces",
+              "hun",
+              "tur"
+            ],
+            "blocks": [
+              "Basic Latin",
+              "Latin-1 Supplement",
+              "Latin Extended-A",
+              "Latin Extended-B",
+              "Latin Extended Additional"
+            ]
+          }
+        ],
+        "total": 11
+      },
+      "performance": {
+        "fileSize": 23504,
+        "fileSizeKB": 23,
+        "glyphDensity": 51,
+        "format": "woff2",
+        "isVariable": false,
+        "axisCount": 0
+      }
+    },
+    "Figtree-Black": {
+      "family": "Figtree Black",
+      "style": "normal",
+      "weight": 900,
+      "stretch": "normal",
+      "path": "fonts/open-fonts/figtree/fonts/webfonts/Figtree-Black.woff2",
+      "subfamilyName": "Regular",
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascent": 950,
+        "descent": -250,
+        "lineGap": 0,
+        "capHeight": 700,
+        "xHeight": 500,
+        "bbox": {
+          "minX": -206,
+          "minY": -220,
+          "maxX": 1100,
+          "maxY": 979
+        }
+      },
+      "features": {
+        "openTypeFeatures": [
+          "aalt",
+          "case",
+          "ccmp",
+          "dnom",
+          "frac",
+          "kern",
+          "locl",
+          "mark",
+          "mkmk",
+          "numr",
+          "ordn",
+          "pnum",
+          "sinf",
+          "ss01",
+          "ss02",
+          "subs",
+          "sups",
+          "tnum"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": ""
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": ""
+          }
+        ],
+        "unicodeRanges": [
+          {
+            "name": "Basic Latin",
+            "script": "Latin",
+            "coverage": 0.75,
+            "start": 0,
+            "end": 127,
+            "supported": 96,
+            "total": 128
+          },
+          {
+            "name": "Latin-1 Supplement",
+            "script": "Latin",
+            "coverage": 0.7421875,
+            "start": 128,
+            "end": 255,
+            "supported": 95,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-A",
+            "script": "Latin",
+            "coverage": 0.8515625,
+            "start": 256,
+            "end": 383,
+            "supported": 109,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-B",
+            "script": "Latin",
+            "coverage": 0.03365384615384615,
+            "start": 384,
+            "end": 591,
+            "supported": 7,
+            "total": 208
+          },
+          {
+            "name": "Latin Extended Additional",
+            "script": "Latin",
+            "coverage": 0.03515625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 9,
+            "total": 256
+          }
+        ],
+        "glyphCount": 459
+      },
+      "languages": {
+        "scripts": [
+          {
+            "name": "Latin",
+            "coverage": 0.373,
+            "languages": [
+              "eng",
+              "fra",
+              "deu",
+              "spa",
+              "ita",
+              "por",
+              "nld",
+              "pol",
+              "ces",
+              "hun",
+              "tur"
+            ],
+            "blocks": [
+              "Basic Latin",
+              "Latin-1 Supplement",
+              "Latin Extended-A",
+              "Latin Extended-B",
+              "Latin Extended Additional"
+            ]
+          }
+        ],
+        "total": 11
+      },
+      "performance": {
+        "fileSize": 23080,
+        "fileSizeKB": 23,
+        "glyphDensity": 50,
+        "format": "woff2",
+        "isVariable": false,
+        "axisCount": 0
+      }
+    }
+  },
+  "variable": {
+    "VariableRegular[wght]": {
+      "family": "Figtree Light",
+      "style": "normal",
+      "weight": {
+        "min": 300,
+        "max": 900
+      },
+      "stretch": "normal",
+      "path": "fonts/open-fonts/figtree/fonts/variable/Figtree[wght].ttf",
+      "subfamilyName": "Regular",
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascent": 950,
+        "descent": -250,
+        "lineGap": 0,
+        "capHeight": 700,
+        "xHeight": 500,
+        "bbox": {
+          "minX": -170,
+          "minY": -220,
+          "maxX": 1100,
+          "maxY": 912
+        }
+      },
+      "features": {
+        "openTypeFeatures": [
+          "aalt",
+          "case",
+          "ccmp",
+          "dnom",
+          "frac",
+          "kern",
+          "locl",
+          "mark",
+          "mkmk",
+          "numr",
+          "ordn",
+          "pnum",
+          "rvrn",
+          "sinf",
+          "ss01",
+          "ss02",
+          "subs",
+          "sups",
+          "tnum"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": ""
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": ""
+          }
+        ],
+        "unicodeRanges": [
+          {
+            "name": "Basic Latin",
+            "script": "Latin",
+            "coverage": 0.75,
+            "start": 0,
+            "end": 127,
+            "supported": 96,
+            "total": 128
+          },
+          {
+            "name": "Latin-1 Supplement",
+            "script": "Latin",
+            "coverage": 0.7421875,
+            "start": 128,
+            "end": 255,
+            "supported": 95,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-A",
+            "script": "Latin",
+            "coverage": 0.8515625,
+            "start": 256,
+            "end": 383,
+            "supported": 109,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-B",
+            "script": "Latin",
+            "coverage": 0.03365384615384615,
+            "start": 384,
+            "end": 591,
+            "supported": 7,
+            "total": 208
+          },
+          {
+            "name": "Latin Extended Additional",
+            "script": "Latin",
+            "coverage": 0.03515625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 9,
+            "total": 256
+          }
+        ],
+        "glyphCount": 459
+      },
+      "languages": {
+        "scripts": [
+          {
+            "name": "Latin",
+            "coverage": 0.373,
+            "languages": [
+              "eng",
+              "fra",
+              "deu",
+              "spa",
+              "ita",
+              "por",
+              "nld",
+              "pol",
+              "ces",
+              "hun",
+              "tur"
+            ],
+            "blocks": [
+              "Basic Latin",
+              "Latin-1 Supplement",
+              "Latin Extended-A",
+              "Latin Extended-B",
+              "Latin Extended Additional"
+            ]
+          }
+        ],
+        "total": 11
+      },
+      "performance": {
+        "fileSize": 64020,
+        "fileSizeKB": 63,
+        "glyphDensity": 139,
+        "format": "ttf",
+        "isVariable": true,
+        "axisCount": 1
+      },
+      "axes": {
+        "wght": {
+          "min": 300,
+          "max": 900,
+          "default": 300
+        }
+      },
+      "namedInstances": [
+        {
+          "name": "Light",
+          "coordinates": {
+            "wght": 300
+          }
+        },
+        {
+          "name": "Regular",
+          "coordinates": {
+            "wght": 400
+          }
+        },
+        {
+          "name": "Medium",
+          "coordinates": {
+            "wght": 500
+          }
+        },
+        {
+          "name": "SemiBold",
+          "coordinates": {
+            "wght": 600
+          }
+        },
+        {
+          "name": "Bold",
+          "coordinates": {
+            "wght": 700
+          }
+        },
+        {
+          "name": "ExtraBold",
+          "coordinates": {
+            "wght": 800
+          }
+        },
+        {
+          "name": "Black",
+          "coordinates": {
+            "wght": 900
+          }
+        }
+      ]
+    },
+    "VariableItalic[wght]": {
+      "family": "Figtree Light",
+      "style": "italic",
+      "weight": {
+        "min": 300,
+        "max": 900
+      },
+      "stretch": "normal",
+      "path": "fonts/open-fonts/figtree/fonts/variable/Figtree-Italic[wght].ttf",
+      "subfamilyName": "Italic",
+      "metrics": {
+        "unitsPerEm": 1000,
+        "ascent": 950,
+        "descent": -250,
+        "lineGap": 0,
+        "capHeight": 700,
+        "xHeight": 500,
+        "bbox": {
+          "minX": -170,
+          "minY": -222,
+          "maxX": 1125,
+          "maxY": 912
+        }
+      },
+      "features": {
+        "openTypeFeatures": [
+          "aalt",
+          "case",
+          "ccmp",
+          "dnom",
+          "frac",
+          "kern",
+          "locl",
+          "mark",
+          "mkmk",
+          "numr",
+          "ordn",
+          "pnum",
+          "rvrn",
+          "sinf",
+          "ss01",
+          "ss02",
+          "subs",
+          "sups",
+          "tnum"
+        ],
+        "stylisticSets": [
+          {
+            "tag": "ss01",
+            "name": "Stylistic Set 1",
+            "description": ""
+          },
+          {
+            "tag": "ss02",
+            "name": "Stylistic Set 2",
+            "description": ""
+          }
+        ],
+        "unicodeRanges": [
+          {
+            "name": "Basic Latin",
+            "script": "Latin",
+            "coverage": 0.75,
+            "start": 0,
+            "end": 127,
+            "supported": 96,
+            "total": 128
+          },
+          {
+            "name": "Latin-1 Supplement",
+            "script": "Latin",
+            "coverage": 0.7421875,
+            "start": 128,
+            "end": 255,
+            "supported": 95,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-A",
+            "script": "Latin",
+            "coverage": 0.8515625,
+            "start": 256,
+            "end": 383,
+            "supported": 109,
+            "total": 128
+          },
+          {
+            "name": "Latin Extended-B",
+            "script": "Latin",
+            "coverage": 0.03365384615384615,
+            "start": 384,
+            "end": 591,
+            "supported": 7,
+            "total": 208
+          },
+          {
+            "name": "Latin Extended Additional",
+            "script": "Latin",
+            "coverage": 0.03515625,
+            "start": 7680,
+            "end": 7935,
+            "supported": 9,
+            "total": 256
+          }
+        ],
+        "glyphCount": 459
+      },
+      "languages": {
+        "scripts": [
+          {
+            "name": "Latin",
+            "coverage": 0.373,
+            "languages": [
+              "eng",
+              "fra",
+              "deu",
+              "spa",
+              "ita",
+              "por",
+              "nld",
+              "pol",
+              "ces",
+              "hun",
+              "tur"
+            ],
+            "blocks": [
+              "Basic Latin",
+              "Latin-1 Supplement",
+              "Latin Extended-A",
+              "Latin Extended-B",
+              "Latin Extended Additional"
+            ]
+          }
+        ],
+        "total": 11
+      },
+      "performance": {
+        "fileSize": 64564,
+        "fileSizeKB": 63,
+        "glyphDensity": 141,
+        "format": "ttf",
+        "isVariable": true,
+        "axisCount": 1
+      },
+      "axes": {
+        "wght": {
+          "min": 300,
+          "max": 900,
+          "default": 300
+        }
+      },
+      "namedInstances": [
+        {
+          "name": "Light Italic",
+          "coordinates": {
+            "wght": 300
+          }
+        },
+        {
+          "name": "Italic",
+          "coordinates": {
+            "wght": 400
+          }
+        },
+        {
+          "name": "Medium Italic",
+          "coordinates": {
+            "wght": 500
+          }
+        },
+        {
+          "name": "SemiBold Italic",
+          "coordinates": {
+            "wght": 600
+          }
+        },
+        {
+          "name": "Bold Italic",
+          "coordinates": {
+            "wght": 700
+          }
+        },
+        {
+          "name": "ExtraBold Italic",
+          "coordinates": {
+            "wght": 800
+          }
+        },
+        {
+          "name": "Black Italic",
+          "coordinates": {
+            "wght": 900
+          }
+        }
+      ]
+    }
+  }
+}

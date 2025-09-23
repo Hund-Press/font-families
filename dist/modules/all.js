@@ -40,11 +40,11 @@ export default {
       }
     },
     "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/work-sans/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/work-sans/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/work-sans/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/work-sans/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/subsets/work-sans/"
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/work-sans/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/work-sans/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/work-sans/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/work-sans/fonts/otf/",
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/work-sans/"
     },
     "faces": {
       "variable": {
@@ -688,11 +688,11 @@ export default {
       }
     },
     "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/public-sans/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/public-sans/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/public-sans/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/public-sans/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/subsets/public-sans/"
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/public-sans/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/public-sans/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/public-sans/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/public-sans/fonts/otf/",
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/public-sans/"
     },
     "faces": {
       "variable": {
@@ -1336,11 +1336,11 @@ export default {
       }
     },
     "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/inconsolata/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/inconsolata/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/inconsolata/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/inconsolata/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/subsets/inconsolata/"
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/inconsolata/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/inconsolata/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/inconsolata/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/inconsolata/fonts/otf/",
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/inconsolata/"
     },
     "faces": {
       "variable": {
@@ -3559,6 +3559,864 @@ export default {
       }
     }
   },
+  "gentium": {
+    "name": "Gentium",
+    "key": "gentium",
+    "attribution": {
+      "license": "OFL-1.1",
+      "description": ""
+    },
+    "weight": {
+      "range": "400-800",
+      "byFormat": {
+        "variable": null,
+        "static": {
+          "min": 400,
+          "max": 800,
+          "instances": [
+            400,
+            500,
+            600,
+            700,
+            800
+          ]
+        }
+      }
+    },
+    "cdnBase": {
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/gentium/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/gentium/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/gentium/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/gentium/fonts/otf/",
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/gentium/"
+    },
+    "faces": {
+      "variable": {},
+      "static": {
+        "gentium-semibold-italic": {
+          "name": "Gentium SemiBold Italic",
+          "fileName": "Gentium-SemiBoldItalic.woff",
+          "format": "woff",
+          "fontStyle": "italic",
+          "fontWeight": 600,
+          "metrics": {
+            "layout": {
+              "ascent": 1940,
+              "descent": -550,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1260,
+              "xHeight": 930,
+              "unitsPerEm": 2048
+            },
+            "fallback": {
+              "avgCharWidth": 3341,
+              "spaceWidth": 512,
+              "bbox": {
+                "minX": -1194,
+                "minY": -1407,
+                "maxX": 4374,
+                "maxY": 2600
+              }
+            }
+          }
+        },
+        "gentium-semibold": {
+          "name": "Gentium SemiBold",
+          "fileName": "Gentium-SemiBold.woff",
+          "format": "woff",
+          "fontStyle": "normal",
+          "fontWeight": 600,
+          "metrics": {
+            "layout": {
+              "ascent": 1940,
+              "descent": -550,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1260,
+              "xHeight": 930,
+              "unitsPerEm": 2048
+            },
+            "fallback": {
+              "avgCharWidth": 3593,
+              "spaceWidth": 512,
+              "bbox": {
+                "minX": -1408,
+                "minY": -1421,
+                "maxX": 4581,
+                "maxY": 2600
+              }
+            }
+          }
+        },
+        "gentium-regular": {
+          "name": "Gentium Regular",
+          "fileName": "Gentium-Regular.woff",
+          "format": "woff",
+          "fontStyle": "normal",
+          "fontWeight": 400,
+          "metrics": {
+            "layout": {
+              "ascent": 1940,
+              "descent": -550,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1260,
+              "xHeight": 930,
+              "unitsPerEm": 2048
+            },
+            "fallback": {
+              "avgCharWidth": 3473,
+              "spaceWidth": 512,
+              "bbox": {
+                "minX": -1386,
+                "minY": -1400,
+                "maxX": 4402,
+                "maxY": 2600
+              }
+            }
+          }
+        },
+        "gentium-medium-italic": {
+          "name": "Gentium Medium Italic",
+          "fileName": "Gentium-MediumItalic.woff",
+          "format": "woff",
+          "fontStyle": "italic",
+          "fontWeight": 500,
+          "metrics": {
+            "layout": {
+              "ascent": 1940,
+              "descent": -550,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1260,
+              "xHeight": 930,
+              "unitsPerEm": 2048
+            },
+            "fallback": {
+              "avgCharWidth": 3290,
+              "spaceWidth": 512,
+              "bbox": {
+                "minX": -1168,
+                "minY": -1389,
+                "maxX": 4316,
+                "maxY": 2600
+              }
+            }
+          }
+        },
+        "gentium-medium": {
+          "name": "Gentium Medium",
+          "fileName": "Gentium-Medium.woff",
+          "format": "woff",
+          "fontStyle": "normal",
+          "fontWeight": 500,
+          "metrics": {
+            "layout": {
+              "ascent": 1940,
+              "descent": -550,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1260,
+              "xHeight": 930,
+              "unitsPerEm": 2048
+            },
+            "fallback": {
+              "avgCharWidth": 3532,
+              "spaceWidth": 512,
+              "bbox": {
+                "minX": -1395,
+                "minY": -1410,
+                "maxX": 4492,
+                "maxY": 2600
+              }
+            }
+          }
+        },
+        "gentium-regular-italic": {
+          "name": "Gentium Regular Italic",
+          "fileName": "Gentium-Italic.woff",
+          "format": "woff",
+          "fontStyle": "italic",
+          "fontWeight": 400,
+          "metrics": {
+            "layout": {
+              "ascent": 1940,
+              "descent": -550,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1260,
+              "xHeight": 930,
+              "unitsPerEm": 2048
+            },
+            "fallback": {
+              "avgCharWidth": 3240,
+              "spaceWidth": 512,
+              "bbox": {
+                "minX": -1142,
+                "minY": -1372,
+                "maxX": 4258,
+                "maxY": 2600
+              }
+            }
+          }
+        },
+        "gentium-extrabold-italic": {
+          "name": "Gentium ExtraBold Italic",
+          "fileName": "Gentium-ExtraBoldItalic.woff",
+          "format": "woff",
+          "fontStyle": "italic",
+          "fontWeight": 800,
+          "metrics": {
+            "layout": {
+              "ascent": 1940,
+              "descent": -550,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1260,
+              "xHeight": 930,
+              "unitsPerEm": 2048
+            },
+            "fallback": {
+              "avgCharWidth": 3447,
+              "spaceWidth": 512,
+              "bbox": {
+                "minX": -1255,
+                "minY": -1442,
+                "maxX": 4490,
+                "maxY": 2600
+              }
+            }
+          }
+        },
+        "gentium-extrabold": {
+          "name": "Gentium ExtraBold",
+          "fileName": "Gentium-ExtraBold.woff",
+          "format": "woff",
+          "fontStyle": "normal",
+          "fontWeight": 800,
+          "metrics": {
+            "layout": {
+              "ascent": 1940,
+              "descent": -550,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1260,
+              "xHeight": 930,
+              "unitsPerEm": 2048
+            },
+            "fallback": {
+              "avgCharWidth": 3723,
+              "spaceWidth": 512,
+              "bbox": {
+                "minX": -1445,
+                "minY": -1445,
+                "maxX": 4760,
+                "maxY": 2600
+              }
+            }
+          }
+        },
+        "gentium-bold-italic": {
+          "name": "Gentium Bold Italic",
+          "fileName": "Gentium-BoldItalic.woff",
+          "format": "woff",
+          "fontStyle": "italic",
+          "fontWeight": 700,
+          "metrics": {
+            "layout": {
+              "ascent": 1940,
+              "descent": -550,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1260,
+              "xHeight": 930,
+              "unitsPerEm": 2048
+            },
+            "fallback": {
+              "avgCharWidth": 3394,
+              "spaceWidth": 512,
+              "bbox": {
+                "minX": -1225,
+                "minY": -1424,
+                "maxX": 4432,
+                "maxY": 2600
+              }
+            }
+          }
+        },
+        "gentium-bold": {
+          "name": "Gentium Bold",
+          "fileName": "Gentium-Bold.woff",
+          "format": "woff",
+          "fontStyle": "normal",
+          "fontWeight": 700,
+          "metrics": {
+            "layout": {
+              "ascent": 1940,
+              "descent": -550,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 1260,
+              "xHeight": 930,
+              "unitsPerEm": 2048
+            },
+            "fallback": {
+              "avgCharWidth": 3659,
+              "spaceWidth": 512,
+              "bbox": {
+                "minX": -1427,
+                "minY": -1432,
+                "maxX": 4671,
+                "maxY": 2600
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "figtree": {
+    "name": "Figtree",
+    "key": "figtree",
+    "attribution": {
+      "author": "Erik Kennedy <erik.d.kennedy@gmail.com>",
+      "license": "OFL-1.1",
+      "description": "A simple and friendly geometric sans serif font.\n\n![](documentation/figtree-banner.png)\n\n![](documentation/figtree-letterforms.png)\n\n![](documentation/figtree-vibes.png)\n\n![](documentation/figtree-fea"
+    },
+    "weight": {
+      "range": "300-900",
+      "byFormat": {
+        "variable": {
+          "min": 300,
+          "max": 900,
+          "default": 400
+        },
+        "static": {
+          "min": 300,
+          "max": 900,
+          "instances": [
+            300,
+            400,
+            500,
+            600,
+            700,
+            800,
+            900
+          ]
+        }
+      }
+    },
+    "cdnBase": {
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/figtree/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/figtree/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/figtree/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/figtree/fonts/otf/",
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/figtree/"
+    },
+    "faces": {
+      "variable": {
+        "figtree-variable-regular[wght]": {
+          "name": "Figtree Variable (weight)",
+          "fileName": "Figtree[wght].ttf",
+          "format": "truetype",
+          "fontStyle": "normal",
+          "axes": {
+            "wght": {
+              "min": 300,
+              "max": 900,
+              "default": 300
+            }
+          },
+          "weight": {
+            "min": 300,
+            "max": 900
+          },
+          "metrics": {
+            "layout": {
+              "ascent": 950,
+              "descent": -250,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 700,
+              "xHeight": 500,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 762,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -170,
+                "minY": -220,
+                "maxX": 1100,
+                "maxY": 912
+              }
+            }
+          },
+          "weightRange": "300 900"
+        },
+        "figtree-variable-italic[wght]": {
+          "name": "Figtree Italic Variable (weight)",
+          "fileName": "Figtree-Italic[wght].ttf",
+          "format": "truetype",
+          "fontStyle": "italic",
+          "axes": {
+            "wght": {
+              "min": 300,
+              "max": 900,
+              "default": 300
+            }
+          },
+          "weight": {
+            "min": 300,
+            "max": 900
+          },
+          "metrics": {
+            "layout": {
+              "ascent": 950,
+              "descent": -250,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 700,
+              "xHeight": 500,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 777,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -170,
+                "minY": -222,
+                "maxX": 1125,
+                "maxY": 912
+              }
+            }
+          },
+          "weightRange": "300 900"
+        }
+      },
+      "static": {
+        "figtree-semibold-italic": {
+          "name": "Figtree SemiBold Italic",
+          "fileName": "Figtree-SemiBoldItalic.woff2",
+          "format": "woff2",
+          "fontStyle": "italic",
+          "fontWeight": 600,
+          "metrics": {
+            "layout": {
+              "ascent": 950,
+              "descent": -250,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 700,
+              "xHeight": 500,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 778,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -176,
+                "minY": -222,
+                "maxX": 1121,
+                "maxY": 937
+              }
+            }
+          }
+        },
+        "figtree-semibold": {
+          "name": "Figtree SemiBold",
+          "fileName": "Figtree-SemiBold.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 600,
+          "metrics": {
+            "layout": {
+              "ascent": 950,
+              "descent": -250,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 700,
+              "xHeight": 500,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 766,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -176,
+                "minY": -220,
+                "maxX": 1100,
+                "maxY": 937
+              }
+            }
+          }
+        },
+        "figtree-regular": {
+          "name": "Figtree Regular",
+          "fileName": "Figtree-Regular.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 400,
+          "metrics": {
+            "layout": {
+              "ascent": 950,
+              "descent": -250,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 700,
+              "xHeight": 500,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 763,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -172,
+                "minY": -220,
+                "maxX": 1100,
+                "maxY": 917
+              }
+            }
+          }
+        },
+        "figtree-medium-italic": {
+          "name": "Figtree Medium Italic",
+          "fileName": "Figtree-MediumItalic.woff2",
+          "format": "woff2",
+          "fontStyle": "italic",
+          "fontWeight": 500,
+          "metrics": {
+            "layout": {
+              "ascent": 950,
+              "descent": -250,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 700,
+              "xHeight": 500,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 778,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -174,
+                "minY": -222,
+                "maxX": 1122,
+                "maxY": 927
+              }
+            }
+          }
+        },
+        "figtree-medium": {
+          "name": "Figtree Medium",
+          "fileName": "Figtree-Medium.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 500,
+          "metrics": {
+            "layout": {
+              "ascent": 950,
+              "descent": -250,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 700,
+              "xHeight": 500,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 764,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -174,
+                "minY": -220,
+                "maxX": 1100,
+                "maxY": 927
+              }
+            }
+          }
+        },
+        "figtree-light-italic": {
+          "name": "Figtree Light Italic",
+          "fileName": "Figtree-LightItalic.woff2",
+          "format": "woff2",
+          "fontStyle": "italic",
+          "fontWeight": 300,
+          "metrics": {
+            "layout": {
+              "ascent": 950,
+              "descent": -250,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 700,
+              "xHeight": 500,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 777,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -170,
+                "minY": -222,
+                "maxX": 1125,
+                "maxY": 912
+              }
+            }
+          }
+        },
+        "figtree-light": {
+          "name": "Figtree Light",
+          "fileName": "Figtree-Light.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 300,
+          "metrics": {
+            "layout": {
+              "ascent": 950,
+              "descent": -250,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 700,
+              "xHeight": 500,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 762,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -170,
+                "minY": -220,
+                "maxX": 1100,
+                "maxY": 912
+              }
+            }
+          }
+        },
+        "figtree-regular-italic": {
+          "name": "Figtree Regular Italic",
+          "fileName": "Figtree-Italic.woff2",
+          "format": "woff2",
+          "fontStyle": "italic",
+          "fontWeight": 400,
+          "metrics": {
+            "layout": {
+              "ascent": 950,
+              "descent": -250,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 700,
+              "xHeight": 500,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 778,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -172,
+                "minY": -222,
+                "maxX": 1124,
+                "maxY": 917
+              }
+            }
+          }
+        },
+        "figtree-extrabold-italic": {
+          "name": "Figtree ExtraBold Italic",
+          "fileName": "Figtree-ExtraBoldItalic.woff2",
+          "format": "woff2",
+          "fontStyle": "italic",
+          "fontWeight": 800,
+          "metrics": {
+            "layout": {
+              "ascent": 950,
+              "descent": -250,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 700,
+              "xHeight": 500,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 781,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -182,
+                "minY": -222,
+                "maxX": 1119,
+                "maxY": 964
+              }
+            }
+          }
+        },
+        "figtree-extrabold": {
+          "name": "Figtree ExtraBold",
+          "fileName": "Figtree-ExtraBold.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 800,
+          "metrics": {
+            "layout": {
+              "ascent": 950,
+              "descent": -250,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 700,
+              "xHeight": 500,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 770,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -183,
+                "minY": -220,
+                "maxX": 1100,
+                "maxY": 964
+              }
+            }
+          }
+        },
+        "figtree-bold-italic": {
+          "name": "Figtree Bold Italic",
+          "fileName": "Figtree-BoldItalic.woff2",
+          "format": "woff2",
+          "fontStyle": "italic",
+          "fontWeight": 700,
+          "metrics": {
+            "layout": {
+              "ascent": 950,
+              "descent": -250,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 700,
+              "xHeight": 500,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 779,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -179,
+                "minY": -222,
+                "maxX": 1120,
+                "maxY": 949
+              }
+            }
+          }
+        },
+        "figtree-bold": {
+          "name": "Figtree Bold",
+          "fileName": "Figtree-Bold.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 700,
+          "metrics": {
+            "layout": {
+              "ascent": 950,
+              "descent": -250,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 700,
+              "xHeight": 500,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 767,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -179,
+                "minY": -220,
+                "maxX": 1100,
+                "maxY": 949
+              }
+            }
+          }
+        },
+        "figtree-black-italic": {
+          "name": "Figtree Black Italic",
+          "fileName": "Figtree-BlackItalic.woff2",
+          "format": "woff2",
+          "fontStyle": "italic",
+          "fontWeight": 900,
+          "metrics": {
+            "layout": {
+              "ascent": 950,
+              "descent": -250,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 700,
+              "xHeight": 500,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 784,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -186,
+                "minY": -222,
+                "maxX": 1121,
+                "maxY": 979
+              }
+            }
+          }
+        },
+        "figtree-black": {
+          "name": "Figtree Black",
+          "fileName": "Figtree-Black.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 900,
+          "metrics": {
+            "layout": {
+              "ascent": 950,
+              "descent": -250,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 700,
+              "xHeight": 500,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 784,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -206,
+                "minY": -220,
+                "maxX": 1100,
+                "maxY": 979
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "crimson-pro": {
     "name": "Crimson Pro",
     "key": "crimson-pro",
@@ -3591,11 +4449,11 @@ export default {
       }
     },
     "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/crimson-pro/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/crimson-pro/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/crimson-pro/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/crimson-pro/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/subsets/crimson-pro/"
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/crimson-pro/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/crimson-pro/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/crimson-pro/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/crimson-pro/fonts/otf/",
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/crimson-pro/"
     },
     "faces": {
       "variable": {
@@ -4172,11 +5030,11 @@ export default {
       }
     },
     "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/atkinson-hyperlegible/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/atkinson-hyperlegible/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/atkinson-hyperlegible/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/subsets/atkinson-hyperlegible/"
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/atkinson-hyperlegible/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/atkinson-hyperlegible/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/atkinson-hyperlegible/fonts/otf/",
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/atkinson-hyperlegible/"
     },
     "faces": {
       "variable": {},
@@ -4346,11 +5204,11 @@ export default {
       }
     },
     "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/aspekta/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/aspekta/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/aspekta/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/aspekta/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/subsets/aspekta/"
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/aspekta/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/aspekta/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/aspekta/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/aspekta/fonts/otf/",
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/aspekta/"
     },
     "faces": {
       "variable": {
@@ -5010,11 +5868,11 @@ export default {
       }
     },
     "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/alan-sans/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/alan-sans/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/alan-sans/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/alan-sans/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/subsets/alan-sans/"
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/alan-sans/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/alan-sans/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/alan-sans/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/alan-sans/fonts/otf/",
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/alan-sans/"
     },
     "faces": {
       "variable": {
@@ -5303,11 +6161,11 @@ export const workSans = {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/work-sans/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/work-sans/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/work-sans/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/work-sans/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/subsets/work-sans/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/work-sans/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/work-sans/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/work-sans/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/work-sans/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/work-sans/"
   },
   "faces": {
     "variable": {
@@ -5952,11 +6810,11 @@ export const publicSans = {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/public-sans/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/public-sans/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/public-sans/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/public-sans/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/subsets/public-sans/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/public-sans/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/public-sans/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/public-sans/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/public-sans/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/public-sans/"
   },
   "faces": {
     "variable": {
@@ -6601,11 +7459,11 @@ export const inconsolata = {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/inconsolata/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/inconsolata/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/inconsolata/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/inconsolata/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/subsets/inconsolata/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/inconsolata/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/inconsolata/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/inconsolata/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/inconsolata/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/inconsolata/"
   },
   "faces": {
     "variable": {
@@ -8825,6 +9683,866 @@ export const inconsolata = {
   }
 };
 
+export const gentium = {
+  "name": "Gentium",
+  "key": "gentium",
+  "attribution": {
+    "license": "OFL-1.1",
+    "description": ""
+  },
+  "weight": {
+    "range": "400-800",
+    "byFormat": {
+      "variable": null,
+      "static": {
+        "min": 400,
+        "max": 800,
+        "instances": [
+          400,
+          500,
+          600,
+          700,
+          800
+        ]
+      }
+    }
+  },
+  "cdnBase": {
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/gentium/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/gentium/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/gentium/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/gentium/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/gentium/"
+  },
+  "faces": {
+    "variable": {},
+    "static": {
+      "gentium-semibold-italic": {
+        "name": "Gentium SemiBold Italic",
+        "fileName": "Gentium-SemiBoldItalic.woff",
+        "format": "woff",
+        "fontStyle": "italic",
+        "fontWeight": 600,
+        "metrics": {
+          "layout": {
+            "ascent": 1940,
+            "descent": -550,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1260,
+            "xHeight": 930,
+            "unitsPerEm": 2048
+          },
+          "fallback": {
+            "avgCharWidth": 3341,
+            "spaceWidth": 512,
+            "bbox": {
+              "minX": -1194,
+              "minY": -1407,
+              "maxX": 4374,
+              "maxY": 2600
+            }
+          }
+        }
+      },
+      "gentium-semibold": {
+        "name": "Gentium SemiBold",
+        "fileName": "Gentium-SemiBold.woff",
+        "format": "woff",
+        "fontStyle": "normal",
+        "fontWeight": 600,
+        "metrics": {
+          "layout": {
+            "ascent": 1940,
+            "descent": -550,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1260,
+            "xHeight": 930,
+            "unitsPerEm": 2048
+          },
+          "fallback": {
+            "avgCharWidth": 3593,
+            "spaceWidth": 512,
+            "bbox": {
+              "minX": -1408,
+              "minY": -1421,
+              "maxX": 4581,
+              "maxY": 2600
+            }
+          }
+        }
+      },
+      "gentium-regular": {
+        "name": "Gentium Regular",
+        "fileName": "Gentium-Regular.woff",
+        "format": "woff",
+        "fontStyle": "normal",
+        "fontWeight": 400,
+        "metrics": {
+          "layout": {
+            "ascent": 1940,
+            "descent": -550,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1260,
+            "xHeight": 930,
+            "unitsPerEm": 2048
+          },
+          "fallback": {
+            "avgCharWidth": 3473,
+            "spaceWidth": 512,
+            "bbox": {
+              "minX": -1386,
+              "minY": -1400,
+              "maxX": 4402,
+              "maxY": 2600
+            }
+          }
+        }
+      },
+      "gentium-medium-italic": {
+        "name": "Gentium Medium Italic",
+        "fileName": "Gentium-MediumItalic.woff",
+        "format": "woff",
+        "fontStyle": "italic",
+        "fontWeight": 500,
+        "metrics": {
+          "layout": {
+            "ascent": 1940,
+            "descent": -550,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1260,
+            "xHeight": 930,
+            "unitsPerEm": 2048
+          },
+          "fallback": {
+            "avgCharWidth": 3290,
+            "spaceWidth": 512,
+            "bbox": {
+              "minX": -1168,
+              "minY": -1389,
+              "maxX": 4316,
+              "maxY": 2600
+            }
+          }
+        }
+      },
+      "gentium-medium": {
+        "name": "Gentium Medium",
+        "fileName": "Gentium-Medium.woff",
+        "format": "woff",
+        "fontStyle": "normal",
+        "fontWeight": 500,
+        "metrics": {
+          "layout": {
+            "ascent": 1940,
+            "descent": -550,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1260,
+            "xHeight": 930,
+            "unitsPerEm": 2048
+          },
+          "fallback": {
+            "avgCharWidth": 3532,
+            "spaceWidth": 512,
+            "bbox": {
+              "minX": -1395,
+              "minY": -1410,
+              "maxX": 4492,
+              "maxY": 2600
+            }
+          }
+        }
+      },
+      "gentium-regular-italic": {
+        "name": "Gentium Regular Italic",
+        "fileName": "Gentium-Italic.woff",
+        "format": "woff",
+        "fontStyle": "italic",
+        "fontWeight": 400,
+        "metrics": {
+          "layout": {
+            "ascent": 1940,
+            "descent": -550,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1260,
+            "xHeight": 930,
+            "unitsPerEm": 2048
+          },
+          "fallback": {
+            "avgCharWidth": 3240,
+            "spaceWidth": 512,
+            "bbox": {
+              "minX": -1142,
+              "minY": -1372,
+              "maxX": 4258,
+              "maxY": 2600
+            }
+          }
+        }
+      },
+      "gentium-extrabold-italic": {
+        "name": "Gentium ExtraBold Italic",
+        "fileName": "Gentium-ExtraBoldItalic.woff",
+        "format": "woff",
+        "fontStyle": "italic",
+        "fontWeight": 800,
+        "metrics": {
+          "layout": {
+            "ascent": 1940,
+            "descent": -550,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1260,
+            "xHeight": 930,
+            "unitsPerEm": 2048
+          },
+          "fallback": {
+            "avgCharWidth": 3447,
+            "spaceWidth": 512,
+            "bbox": {
+              "minX": -1255,
+              "minY": -1442,
+              "maxX": 4490,
+              "maxY": 2600
+            }
+          }
+        }
+      },
+      "gentium-extrabold": {
+        "name": "Gentium ExtraBold",
+        "fileName": "Gentium-ExtraBold.woff",
+        "format": "woff",
+        "fontStyle": "normal",
+        "fontWeight": 800,
+        "metrics": {
+          "layout": {
+            "ascent": 1940,
+            "descent": -550,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1260,
+            "xHeight": 930,
+            "unitsPerEm": 2048
+          },
+          "fallback": {
+            "avgCharWidth": 3723,
+            "spaceWidth": 512,
+            "bbox": {
+              "minX": -1445,
+              "minY": -1445,
+              "maxX": 4760,
+              "maxY": 2600
+            }
+          }
+        }
+      },
+      "gentium-bold-italic": {
+        "name": "Gentium Bold Italic",
+        "fileName": "Gentium-BoldItalic.woff",
+        "format": "woff",
+        "fontStyle": "italic",
+        "fontWeight": 700,
+        "metrics": {
+          "layout": {
+            "ascent": 1940,
+            "descent": -550,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1260,
+            "xHeight": 930,
+            "unitsPerEm": 2048
+          },
+          "fallback": {
+            "avgCharWidth": 3394,
+            "spaceWidth": 512,
+            "bbox": {
+              "minX": -1225,
+              "minY": -1424,
+              "maxX": 4432,
+              "maxY": 2600
+            }
+          }
+        }
+      },
+      "gentium-bold": {
+        "name": "Gentium Bold",
+        "fileName": "Gentium-Bold.woff",
+        "format": "woff",
+        "fontStyle": "normal",
+        "fontWeight": 700,
+        "metrics": {
+          "layout": {
+            "ascent": 1940,
+            "descent": -550,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 1260,
+            "xHeight": 930,
+            "unitsPerEm": 2048
+          },
+          "fallback": {
+            "avgCharWidth": 3659,
+            "spaceWidth": 512,
+            "bbox": {
+              "minX": -1427,
+              "minY": -1432,
+              "maxX": 4671,
+              "maxY": 2600
+            }
+          }
+        }
+      }
+    }
+  }
+};
+
+export const figtree = {
+  "name": "Figtree",
+  "key": "figtree",
+  "attribution": {
+    "author": "Erik Kennedy <erik.d.kennedy@gmail.com>",
+    "license": "OFL-1.1",
+    "description": "A simple and friendly geometric sans serif font.\n\n![](documentation/figtree-banner.png)\n\n![](documentation/figtree-letterforms.png)\n\n![](documentation/figtree-vibes.png)\n\n![](documentation/figtree-fea"
+  },
+  "weight": {
+    "range": "300-900",
+    "byFormat": {
+      "variable": {
+        "min": 300,
+        "max": 900,
+        "default": 400
+      },
+      "static": {
+        "min": 300,
+        "max": 900,
+        "instances": [
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900
+        ]
+      }
+    }
+  },
+  "cdnBase": {
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/figtree/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/figtree/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/figtree/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/figtree/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/figtree/"
+  },
+  "faces": {
+    "variable": {
+      "figtree-variable-regular[wght]": {
+        "name": "Figtree Variable (weight)",
+        "fileName": "Figtree[wght].ttf",
+        "format": "truetype",
+        "fontStyle": "normal",
+        "axes": {
+          "wght": {
+            "min": 300,
+            "max": 900,
+            "default": 300
+          }
+        },
+        "weight": {
+          "min": 300,
+          "max": 900
+        },
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -250,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 700,
+            "xHeight": 500,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 762,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -170,
+              "minY": -220,
+              "maxX": 1100,
+              "maxY": 912
+            }
+          }
+        },
+        "weightRange": "300 900"
+      },
+      "figtree-variable-italic[wght]": {
+        "name": "Figtree Italic Variable (weight)",
+        "fileName": "Figtree-Italic[wght].ttf",
+        "format": "truetype",
+        "fontStyle": "italic",
+        "axes": {
+          "wght": {
+            "min": 300,
+            "max": 900,
+            "default": 300
+          }
+        },
+        "weight": {
+          "min": 300,
+          "max": 900
+        },
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -250,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 700,
+            "xHeight": 500,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 777,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -170,
+              "minY": -222,
+              "maxX": 1125,
+              "maxY": 912
+            }
+          }
+        },
+        "weightRange": "300 900"
+      }
+    },
+    "static": {
+      "figtree-semibold-italic": {
+        "name": "Figtree SemiBold Italic",
+        "fileName": "Figtree-SemiBoldItalic.woff2",
+        "format": "woff2",
+        "fontStyle": "italic",
+        "fontWeight": 600,
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -250,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 700,
+            "xHeight": 500,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 778,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -176,
+              "minY": -222,
+              "maxX": 1121,
+              "maxY": 937
+            }
+          }
+        }
+      },
+      "figtree-semibold": {
+        "name": "Figtree SemiBold",
+        "fileName": "Figtree-SemiBold.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 600,
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -250,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 700,
+            "xHeight": 500,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 766,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -176,
+              "minY": -220,
+              "maxX": 1100,
+              "maxY": 937
+            }
+          }
+        }
+      },
+      "figtree-regular": {
+        "name": "Figtree Regular",
+        "fileName": "Figtree-Regular.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 400,
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -250,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 700,
+            "xHeight": 500,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 763,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -172,
+              "minY": -220,
+              "maxX": 1100,
+              "maxY": 917
+            }
+          }
+        }
+      },
+      "figtree-medium-italic": {
+        "name": "Figtree Medium Italic",
+        "fileName": "Figtree-MediumItalic.woff2",
+        "format": "woff2",
+        "fontStyle": "italic",
+        "fontWeight": 500,
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -250,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 700,
+            "xHeight": 500,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 778,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -174,
+              "minY": -222,
+              "maxX": 1122,
+              "maxY": 927
+            }
+          }
+        }
+      },
+      "figtree-medium": {
+        "name": "Figtree Medium",
+        "fileName": "Figtree-Medium.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 500,
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -250,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 700,
+            "xHeight": 500,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 764,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -174,
+              "minY": -220,
+              "maxX": 1100,
+              "maxY": 927
+            }
+          }
+        }
+      },
+      "figtree-light-italic": {
+        "name": "Figtree Light Italic",
+        "fileName": "Figtree-LightItalic.woff2",
+        "format": "woff2",
+        "fontStyle": "italic",
+        "fontWeight": 300,
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -250,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 700,
+            "xHeight": 500,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 777,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -170,
+              "minY": -222,
+              "maxX": 1125,
+              "maxY": 912
+            }
+          }
+        }
+      },
+      "figtree-light": {
+        "name": "Figtree Light",
+        "fileName": "Figtree-Light.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 300,
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -250,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 700,
+            "xHeight": 500,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 762,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -170,
+              "minY": -220,
+              "maxX": 1100,
+              "maxY": 912
+            }
+          }
+        }
+      },
+      "figtree-regular-italic": {
+        "name": "Figtree Regular Italic",
+        "fileName": "Figtree-Italic.woff2",
+        "format": "woff2",
+        "fontStyle": "italic",
+        "fontWeight": 400,
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -250,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 700,
+            "xHeight": 500,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 778,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -172,
+              "minY": -222,
+              "maxX": 1124,
+              "maxY": 917
+            }
+          }
+        }
+      },
+      "figtree-extrabold-italic": {
+        "name": "Figtree ExtraBold Italic",
+        "fileName": "Figtree-ExtraBoldItalic.woff2",
+        "format": "woff2",
+        "fontStyle": "italic",
+        "fontWeight": 800,
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -250,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 700,
+            "xHeight": 500,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 781,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -182,
+              "minY": -222,
+              "maxX": 1119,
+              "maxY": 964
+            }
+          }
+        }
+      },
+      "figtree-extrabold": {
+        "name": "Figtree ExtraBold",
+        "fileName": "Figtree-ExtraBold.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 800,
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -250,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 700,
+            "xHeight": 500,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 770,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -183,
+              "minY": -220,
+              "maxX": 1100,
+              "maxY": 964
+            }
+          }
+        }
+      },
+      "figtree-bold-italic": {
+        "name": "Figtree Bold Italic",
+        "fileName": "Figtree-BoldItalic.woff2",
+        "format": "woff2",
+        "fontStyle": "italic",
+        "fontWeight": 700,
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -250,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 700,
+            "xHeight": 500,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 779,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -179,
+              "minY": -222,
+              "maxX": 1120,
+              "maxY": 949
+            }
+          }
+        }
+      },
+      "figtree-bold": {
+        "name": "Figtree Bold",
+        "fileName": "Figtree-Bold.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 700,
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -250,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 700,
+            "xHeight": 500,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 767,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -179,
+              "minY": -220,
+              "maxX": 1100,
+              "maxY": 949
+            }
+          }
+        }
+      },
+      "figtree-black-italic": {
+        "name": "Figtree Black Italic",
+        "fileName": "Figtree-BlackItalic.woff2",
+        "format": "woff2",
+        "fontStyle": "italic",
+        "fontWeight": 900,
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -250,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 700,
+            "xHeight": 500,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 784,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -186,
+              "minY": -222,
+              "maxX": 1121,
+              "maxY": 979
+            }
+          }
+        }
+      },
+      "figtree-black": {
+        "name": "Figtree Black",
+        "fileName": "Figtree-Black.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 900,
+        "metrics": {
+          "layout": {
+            "ascent": 950,
+            "descent": -250,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 700,
+            "xHeight": 500,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 784,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -206,
+              "minY": -220,
+              "maxX": 1100,
+              "maxY": 979
+            }
+          }
+        }
+      }
+    }
+  }
+};
+
 export const crimsonPro = {
   "name": "Crimson Pro",
   "key": "crimson-pro",
@@ -8857,11 +10575,11 @@ export const crimsonPro = {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/crimson-pro/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/crimson-pro/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/crimson-pro/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/crimson-pro/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/subsets/crimson-pro/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/crimson-pro/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/crimson-pro/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/crimson-pro/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/crimson-pro/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/crimson-pro/"
   },
   "faces": {
     "variable": {
@@ -9439,11 +11157,11 @@ export const atkinsonHyperlegible = {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/atkinson-hyperlegible/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/atkinson-hyperlegible/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/atkinson-hyperlegible/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/subsets/atkinson-hyperlegible/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/atkinson-hyperlegible/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/atkinson-hyperlegible/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/atkinson-hyperlegible/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/atkinson-hyperlegible/"
   },
   "faces": {
     "variable": {},
@@ -9614,11 +11332,11 @@ export const aspekta = {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/aspekta/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/aspekta/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/aspekta/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/aspekta/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/subsets/aspekta/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/aspekta/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/aspekta/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/aspekta/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/aspekta/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/aspekta/"
   },
   "faces": {
     "variable": {
@@ -10279,11 +11997,11 @@ export const alanSans = {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/alan-sans/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/alan-sans/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/alan-sans/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/fonts/open-fonts/alan-sans/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.4/subsets/alan-sans/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/alan-sans/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/alan-sans/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/alan-sans/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/alan-sans/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/alan-sans/"
   },
   "faces": {
     "variable": {

@@ -1,0 +1,58 @@
+{
+  "family": "gentium",
+  "subset": "min-chars",
+  "description": "Minimal character set for performance-critical contexts (100 characters)",
+  "derivativeWorkNotice": {
+    "status": "This is a derivative work optimized for web performance",
+    "originalAuthor": "Unknown",
+    "originalLicense": "OFL-1.1",
+    "derivativeCompliance": "Subset generation complies with OFL-1.1 requirements"
+  },
+  "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+,-./:;=?[]_ —–''\"\"…",
+  "unicodeRanges": [
+    "U+0020-007F",
+    "U+00A0",
+    "U+2013-2014",
+    "U+2018-2019",
+    "U+201C-201D",
+    "U+2026"
+  ],
+  "characterCount": 100,
+  "generatedAt": "2025-09-23T14:07:12.566Z",
+  "generationMethod": "fonttools pyftsubset",
+  "links": {
+    "self": {
+      "href": "/api/subsets/gentium/min-chars.json"
+    },
+    "parent": {
+      "href": "/api/subsets/gentium.json"
+    },
+    "original-family": {
+      "href": "/api/families/gentium.json"
+    }
+  },
+  "files": [
+    {
+      "filename": "Gentium-400-min.woff2",
+      "format": "woff2",
+      "weight": 400,
+      "style": "normal",
+      "isVariable": false,
+      "fileSize": 8862,
+      "fileSizeKB": 8.7,
+      "compressionRatio": 0.403,
+      "links": {
+        "download": {
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/gentium/min-chars/Gentium-400-min.woff2"
+        }
+      }
+    }
+  ],
+  "performanceMetrics": {
+    "originalSizeKB": 22,
+    "subsetSizeKB": 8.7,
+    "sizeReduction": "60%",
+    "estimatedLoadTime3G": "0.2s",
+    "recommendedUseCase": "Enhanced typography, extended character support"
+  }
+}

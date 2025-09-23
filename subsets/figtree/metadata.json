@@ -1,0 +1,52 @@
+{
+  "family": "figtree",
+  "originalFont": {
+    "name": "Figtree",
+    "version": "1.0.0",
+    "author": "Erik Kennedy <erik.d.kennedy@gmail.com>",
+    "license": "OFL-1.1",
+    "source": "../fonts/open-fonts/figtree/"
+  },
+  "links": {
+    "self": {
+      "href": "/subsets/figtree/metadata.json"
+    },
+    "api": {
+      "href": "/api/subsets/figtree.json"
+    },
+    "original-family": {
+      "href": "/api/families/figtree.json"
+    }
+  },
+  "subsets": {
+    "min-chars": {
+      "description": "Minimal character set for performance-critical contexts (100 characters)",
+      "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+,-./:;=?[]_ —–''\"\"…",
+      "unicodeRanges": [
+        "U+0020-007F",
+        "U+00A0",
+        "U+2013-2014",
+        "U+2018-2019",
+        "U+201C-201D",
+        "U+2026"
+      ],
+      "characterCount": 100,
+      "status": "generated",
+      "generatedAt": "2025-09-23T14:10:05.556Z",
+      "targetFiles": {
+        "static": "Figtree-400-min.woff2",
+        "variable": [
+          "FigtreeVF-min.ttf",
+          "FigtreeVF-min.woff2"
+        ]
+      },
+      "note": "Minimal subset for font selection UI and performance-critical contexts"
+    }
+  },
+  "legalCompliance": {
+    "originalLicense": "OFL-1.1",
+    "derivativeStatus": "Planned derivative works will comply with original license",
+    "attribution": "Original font design by Erik Kennedy <erik.d.kennedy@gmail.com>. Subsets generated for web optimization only.",
+    "reservedFontName": "Figtree"
+  }
+}

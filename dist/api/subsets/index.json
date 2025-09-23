@@ -47,6 +47,12 @@
     "crimson-pro": {
       "href": "/api/subsets/crimson-pro.json"
     },
+    "figtree": {
+      "href": "/api/subsets/figtree.json"
+    },
+    "gentium": {
+      "href": "/api/subsets/gentium.json"
+    },
     "inconsolata": {
       "href": "/api/subsets/inconsolata.json"
     },

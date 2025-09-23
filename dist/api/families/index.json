@@ -34,6 +34,22 @@
         }
       }
     },
+    "gentium": {
+      "name": "Gentium",
+      "links": {
+        "self": {
+          "href": "/api/families/gentium.json"
+        }
+      }
+    },
+    "figtree": {
+      "name": "Figtree",
+      "links": {
+        "self": {
+          "href": "/api/families/figtree.json"
+        }
+      }
+    },
     "crimson-pro": {
       "name": "Crimson Pro",
       "links": {

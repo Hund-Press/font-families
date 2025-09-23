@@ -1,0 +1,52 @@
+{
+  "family": "figtree",
+  "name": "Figtree Subsets",
+  "derivativeWorkNotice": {
+    "status": "Performance-optimized derivative works",
+    "originalSource": "/api/families/figtree.json",
+    "legalCompliance": "OFL-1.1 compliant derivatives with full attribution"
+  },
+  "links": {
+    "self": {
+      "href": "/api/subsets/figtree.json"
+    },
+    "original-family": {
+      "href": "/api/families/figtree.json"
+    },
+    "subsets": {
+      "href": "/api/subsets/figtree/"
+    }
+  },
+  "subsets": {
+    "min-chars": {
+      "description": "Minimal character set for performance-critical contexts (100 characters)",
+      "status": "generated",
+      "characterCount": 100,
+      "unicodeRanges": [
+        "U+0020-007F",
+        "U+00A0",
+        "U+2013-2014",
+        "U+2018-2019",
+        "U+201C-201D",
+        "U+2026"
+      ],
+      "generatedAt": "2025-09-23T14:10:05.556Z",
+      "links": {
+        "self": {
+          "href": "/api/subsets/figtree/min-chars.json"
+        }
+      },
+      "fileSizes": {
+        "static": 4.1,
+        "variable": 14.2
+      }
+    }
+  },
+  "sourceFont": {
+    "name": "Figtree",
+    "version": "1.0.0",
+    "author": "Erik Kennedy <erik.d.kennedy@gmail.com>",
+    "license": "OFL-1.1",
+    "originalLocation": "/figtree/"
+  }
+}

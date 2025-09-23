@@ -43,7 +43,7 @@
       "compressionRatio": 0.204,
       "links": {
         "download": {
-          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/subsets/work-sans/min-chars/WorkSans-400-min.woff2"
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/work-sans/min-chars/WorkSans-400-min.woff2"
         }
       }
     },
@@ -64,7 +64,7 @@
       },
       "links": {
         "download": {
-          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/subsets/work-sans/min-chars/WorkSansVF-min.ttf"
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/work-sans/min-chars/WorkSansVF-min.ttf"
         }
       }
     },
@@ -85,7 +85,7 @@
       },
       "links": {
         "download": {
-          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.3/subsets/work-sans/min-chars/WorkSansVF-min.woff2"
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/work-sans/min-chars/WorkSansVF-min.woff2"
         }
       }
     }

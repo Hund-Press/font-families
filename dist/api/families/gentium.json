@@ -1,0 +1,298 @@
+{
+  "name": "Gentium",
+  "key": "gentium",
+  "description": "",
+  "license": "OFL-1.1",
+  "capabilities": {
+    "hasStatic": true,
+    "hasVariable": false,
+    "weightRange": {
+      "min": 400,
+      "max": 800,
+      "available": [
+        400,
+        400,
+        500,
+        500,
+        600,
+        600,
+        700,
+        700,
+        800,
+        800
+      ],
+      "type": "static"
+    },
+    "styleCount": 2,
+    "formats": [
+      "woff"
+    ]
+  },
+  "files": {
+    "static": [
+      {
+        "key": "Gentium-SemiBoldItalic",
+        "fileName": "Gentium-SemiBoldItalic.woff",
+        "format": "woff",
+        "weight": 600,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 542631,
+        "fileSizeKB": 530,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/gentium/fonts/webfonts/Gentium-SemiBoldItalic.woff"
+          }
+        }
+      },
+      {
+        "key": "Gentium-SemiBold",
+        "fileName": "Gentium-SemiBold.woff",
+        "format": "woff",
+        "weight": 600,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 501235,
+        "fileSizeKB": 489,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/gentium/fonts/webfonts/Gentium-SemiBold.woff"
+          }
+        }
+      },
+      {
+        "key": "Gentium-Regular",
+        "fileName": "Gentium-Regular.woff",
+        "format": "woff",
+        "weight": 400,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 483143,
+        "fileSizeKB": 472,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/gentium/fonts/webfonts/Gentium-Regular.woff"
+          }
+        }
+      },
+      {
+        "key": "Gentium-MediumItalic",
+        "fileName": "Gentium-MediumItalic.woff",
+        "format": "woff",
+        "weight": 500,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 542667,
+        "fileSizeKB": 530,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/gentium/fonts/webfonts/Gentium-MediumItalic.woff"
+          }
+        }
+      },
+      {
+        "key": "Gentium-Medium",
+        "fileName": "Gentium-Medium.woff",
+        "format": "woff",
+        "weight": 500,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 501111,
+        "fileSizeKB": 489,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/gentium/fonts/webfonts/Gentium-Medium.woff"
+          }
+        }
+      },
+      {
+        "key": "Gentium-Italic",
+        "fileName": "Gentium-Italic.woff",
+        "format": "woff",
+        "weight": 400,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 521055,
+        "fileSizeKB": 509,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/gentium/fonts/webfonts/Gentium-Italic.woff"
+          }
+        }
+      },
+      {
+        "key": "Gentium-ExtraBoldItalic",
+        "fileName": "Gentium-ExtraBoldItalic.woff",
+        "format": "woff",
+        "weight": 800,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 535287,
+        "fileSizeKB": 523,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/gentium/fonts/webfonts/Gentium-ExtraBoldItalic.woff"
+          }
+        }
+      },
+      {
+        "key": "Gentium-ExtraBold",
+        "fileName": "Gentium-ExtraBold.woff",
+        "format": "woff",
+        "weight": 800,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 495923,
+        "fileSizeKB": 484,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/gentium/fonts/webfonts/Gentium-ExtraBold.woff"
+          }
+        }
+      },
+      {
+        "key": "Gentium-BoldItalic",
+        "fileName": "Gentium-BoldItalic.woff",
+        "format": "woff",
+        "weight": 700,
+        "style": "italic",
+        "stretch": "normal",
+        "fileSize": 547383,
+        "fileSizeKB": 535,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/gentium/fonts/webfonts/Gentium-BoldItalic.woff"
+          }
+        }
+      },
+      {
+        "key": "Gentium-Bold",
+        "fileName": "Gentium-Bold.woff",
+        "format": "woff",
+        "weight": 700,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 505907,
+        "fileSizeKB": 494,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/gentium/fonts/webfonts/Gentium-Bold.woff"
+          }
+        }
+      }
+    ],
+    "variable": []
+  },
+  "metrics": {
+    "unitsPerEm": 2048,
+    "ascent": 1940,
+    "descent": -550,
+    "capHeight": 1260,
+    "xHeight": 930,
+    "glyphCount": 4760,
+    "totalFiles": 10,
+    "totalSizeKB": 5055
+  },
+  "performance": {
+    "fileCount": 10,
+    "totalSizeKB": 5055,
+    "averageSizeKB": 506,
+    "smallestFileKB": 472,
+    "largestFileKB": 535,
+    "averageGlyphCount": 4760
+  },
+  "typography": {
+    "openTypeFeatures": [
+      "aalt",
+      "c2sc",
+      "ccmp",
+      "cv13",
+      "cv14",
+      "cv17",
+      "cv19",
+      "cv20",
+      "cv25",
+      "cv28",
+      "cv37",
+      "cv43",
+      "cv44",
+      "cv46",
+      "cv47",
+      "cv49",
+      "cv55",
+      "cv57",
+      "cv62",
+      "cv68",
+      "cv69",
+      "cv70",
+      "cv71",
+      "cv75",
+      "cv76",
+      "cv77",
+      "cv78",
+      "cv79",
+      "cv80",
+      "cv81",
+      "cv82",
+      "cv83",
+      "cv84",
+      "cv90",
+      "cv91",
+      "cv92",
+      "cv98",
+      "frac",
+      "kern",
+      "liga",
+      "lnum",
+      "locl",
+      "mark",
+      "mkmk",
+      "onum",
+      "smcp",
+      "ss01",
+      "ss04",
+      "ss05",
+      "ss07",
+      "ss11",
+      "ss12",
+      "subs",
+      "sups"
+    ],
+    "hasLigatures": true,
+    "hasSmallCaps": true,
+    "hasOldStyleFigures": true,
+    "hasTabularFigures": false
+  },
+  "links": {
+    "self": {
+      "href": "/api/families/gentium.json"
+    },
+    "index": {
+      "href": "/api/families/"
+    },
+    "root": {
+      "href": "/api/"
+    },
+    "module": {
+      "href": "/modules/gentium.js"
+    },
+    "preview": {
+      "href": "/fonts/gentium/"
+    },
+    "subsets": {
+      "href": "/api/subsets/gentium.json",
+      "title": "Performance subsets for this family"
+    },
+    "cdn": {
+      "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/gentium/",
+      "templated": false
+    }
+  },
+  "subset_capabilities": {
+    "available": [
+      "min-chars"
+    ],
+    "planned": [],
+    "derivativeStatus": "Optimized derivatives available"
+  }
+}
