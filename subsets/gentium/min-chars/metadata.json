@@ -1,0 +1,61 @@
+{
+  "subset": "min-chars",
+  "description": "Minimal character set for performance-critical contexts (100 characters)",
+  "characters": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\"#$%&'()*+,-./:;=?[]_ —–''\"\"…",
+  "unicodeRanges": [
+    "U+0020-007F",
+    "U+00A0",
+    "U+2013-2014",
+    "U+2018-2019",
+    "U+201C-201D",
+    "U+2026"
+  ],
+  "characterCount": 100,
+  "generatedAt": "2025-09-23T14:07:12.566Z",
+  "generatedBy": "font-families-subset-generator",
+  "method": "fonttools pyftsubset",
+  "links": {
+    "self": {
+      "href": "/subsets/gentium/min-chars/metadata.json"
+    },
+    "api": {
+      "href": "/api/subsets/gentium/min-chars.json"
+    },
+    "parent": {
+      "href": "/subsets/gentium/metadata.json"
+    },
+    "original-family": {
+      "href": "/api/families/gentium.json"
+    }
+  },
+  "files": [
+    {
+      "filename": "Gentium-400-min.woff2",
+      "size": 8862,
+      "format": "woff2",
+      "weight": 400,
+      "style": "normal",
+      "isVariable": false,
+      "links": {
+        "download": {
+          "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.7.0/subsets/gentium/min-chars/Gentium-400-min.woff2"
+        }
+      },
+      "command": "source .venv/bin/activate && pyftsubset \"fonts/open-fonts/gentium/fonts/webfonts/Gentium-Regular.woff\" --output-file=\"subsets/gentium/min-chars/Gentium-400-min.woff2\" --text=\"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!\\\"#$%&'()*+,-./:;=?[]_ —–''\\\"\\\"…\" --flavor=woff2 --desubroutinize --with-zopfli --layout-features-=kern --drop-tables+=GPOS,GSUB --no-hinting"
+    }
+  ],
+  "sourceFont": {
+    "family": "gentium",
+    "name": "Gentium",
+    "version": "1.0.0",
+    "author": "Unknown",
+    "license": "OFL-1.1",
+    "source": "../fonts/open-fonts/gentium/"
+  },
+  "legalCompliance": {
+    "originalLicense": "OFL-1.1",
+    "derivativeStatus": "This is a derivative work optimized for web performance. Original font design and copyright belong to the original author.",
+    "attribution": "Original font design by Unknown. Subsets generated for web optimization only.",
+    "reservedFontName": "Gentium"
+  }
+}

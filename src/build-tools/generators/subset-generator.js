@@ -249,7 +249,7 @@ class SubsetGenerator {
           ([key, font]) =>
             font.weight === 400 &&
             font.style === 'normal' &&
-            font.path.endsWith('.woff2')
+            (font.path.endsWith('.woff2') || font.path.endsWith('.woff'))
         )
 
         if (staticFonts.length > 0) {
@@ -530,7 +530,7 @@ class SubsetGenerator {
             ([key, font]) =>
               font.weight === 400 &&
               font.style === 'normal' &&
-              font.path.endsWith('.woff2')
+              (font.path.endsWith('.woff2') || font.path.endsWith('.woff'))
           )
           .map(([key, font]) => ({ key, ...font }))
 
@@ -590,6 +590,28 @@ class SubsetGenerator {
 
       const subsetDir = path.join(CONFIG.subsetsDir, familyName, subsetType)
       const subsetGeneratedAt = new Date(subsetConfig.generatedAt)
+
+      // Check if subset files actually exist
+      try {
+        const subsetMetadataPath = path.join(subsetDir, 'metadata.json')
+        await fs.access(subsetMetadataPath)
+
+        // Check if the subset metadata has any files listed
+        const subsetMetadata = JSON.parse(await fs.readFile(subsetMetadataPath, 'utf8'))
+        if (!subsetMetadata.files || subsetMetadata.files.length === 0) {
+          console.log(`📁 No subset files listed in metadata for ${familyName}/${subsetType}`)
+          return true
+        }
+
+        // Check that all listed files actually exist
+        for (const file of subsetMetadata.files) {
+          const filePath = path.join(subsetDir, file.filename)
+          await fs.access(filePath)
+        }
+      } catch (error) {
+        console.log(`📁 Subset files missing for ${familyName}/${subsetType}: ${error.message}`)
+        return true // Files don't exist, need regeneration
+      }
 
       // Check if any source font is newer than the subset
       const familyFontsDir = path.join(CONFIG.fontsDir, familyName, 'fonts')

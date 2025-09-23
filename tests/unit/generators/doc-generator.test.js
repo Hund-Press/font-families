@@ -2,7 +2,6 @@
  * Tests for Doc Generator
  */
 
-import { jest } from '@jest/globals'
 import { promises as fs } from 'fs'
 import path from 'path'
 import { generateDocumentation } from '../../../src/build-tools/generators/doc-generator.js'

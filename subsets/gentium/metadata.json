@@ -1,21 +1,21 @@
 {
-  "family": "work-sans",
+  "family": "gentium",
   "originalFont": {
-    "name": "Work Sans",
+    "name": "Gentium",
     "version": "1.0.0",
-    "author": "Wei Huang <wweeiihhuuaanngg@gmail.com>",
+    "author": "Unknown",
     "license": "OFL-1.1",
-    "source": "../fonts/open-fonts/work-sans/"
+    "source": "../fonts/open-fonts/gentium/"
   },
   "links": {
     "self": {
-      "href": "/subsets/work-sans/metadata.json"
+      "href": "/subsets/gentium/metadata.json"
     },
     "api": {
-      "href": "/api/subsets/work-sans.json"
+      "href": "/api/subsets/gentium.json"
     },
     "original-family": {
-      "href": "/api/families/work-sans.json"
+      "href": "/api/families/gentium.json"
     }
   },
   "subsets": {
@@ -32,13 +32,10 @@
       ],
       "characterCount": 100,
       "status": "generated",
-      "generatedAt": "2025-09-23T14:07:28.325Z",
+      "generatedAt": "2025-09-23T14:07:28.328Z",
       "targetFiles": {
-        "static": "WorkSans-400-min.woff2",
-        "variable": [
-          "WorkSansVF-min.ttf",
-          "WorkSansVF-min.woff2"
-        ]
+        "static": "Gentium-400-min.woff2",
+        "variable": []
       },
       "note": "Minimal subset for font selection UI and performance-critical contexts"
     }
@@ -46,7 +43,7 @@
   "legalCompliance": {
     "originalLicense": "OFL-1.1",
     "derivativeStatus": "Planned derivative works will comply with original license",
-    "attribution": "Original font design by Wei Huang <wweeiihhuuaanngg@gmail.com>. Subsets generated for web optimization only.",
-    "reservedFontName": "Work Sans"
+    "attribution": "Original font design by Unknown. Subsets generated for web optimization only.",
+    "reservedFontName": "Gentium"
   }
 }
