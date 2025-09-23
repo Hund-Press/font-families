@@ -119,11 +119,11 @@ export default {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/figtree/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/figtree/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/figtree/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/figtree/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/figtree/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/figtree/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/figtree/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/figtree/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/figtree/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/figtree/"
   },
   "faces": {
     "variable": {
@@ -636,7 +636,7 @@ export default {
           "FigtreeVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-23T14:10:05.556Z"
+      "generatedAt": "2025-09-23T14:31:46.720Z"
     }
   }
 };

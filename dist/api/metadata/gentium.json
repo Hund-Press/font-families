@@ -9,7 +9,7 @@
       "style": "italic",
       "weight": 600,
       "stretch": "normal",
-      "path": "fonts/open-fonts/gentium/fonts/webfonts/Gentium-SemiBoldItalic.woff",
+      "path": "fonts/open-fonts/gentium/fonts/webfonts/Gentium-SemiBoldItalic.woff2",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 2048,
@@ -246,10 +246,10 @@
         "total": 18
       },
       "performance": {
-        "fileSize": 542631,
-        "fileSizeKB": 530,
-        "glyphDensity": 114,
-        "format": "woff",
+        "fileSize": 400906,
+        "fileSizeKB": 392,
+        "glyphDensity": 84,
+        "format": "woff2",
         "isVariable": false,
         "axisCount": 0
       }
@@ -259,7 +259,7 @@
       "style": "normal",
       "weight": 600,
       "stretch": "normal",
-      "path": "fonts/open-fonts/gentium/fonts/webfonts/Gentium-SemiBold.woff",
+      "path": "fonts/open-fonts/gentium/fonts/webfonts/Gentium-SemiBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 2048,
@@ -496,10 +496,10 @@
         "total": 18
       },
       "performance": {
-        "fileSize": 501235,
-        "fileSizeKB": 489,
-        "glyphDensity": 105,
-        "format": "woff",
+        "fileSize": 368606,
+        "fileSizeKB": 360,
+        "glyphDensity": 77,
+        "format": "woff2",
         "isVariable": false,
         "axisCount": 0
       }
@@ -509,7 +509,7 @@
       "style": "normal",
       "weight": 400,
       "stretch": "normal",
-      "path": "fonts/open-fonts/gentium/fonts/webfonts/Gentium-Regular.woff",
+      "path": "fonts/open-fonts/gentium/fonts/webfonts/Gentium-Regular.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 2048,
@@ -746,10 +746,10 @@
         "total": 18
       },
       "performance": {
-        "fileSize": 483143,
-        "fileSizeKB": 472,
-        "glyphDensity": 102,
-        "format": "woff",
+        "fileSize": 351106,
+        "fileSizeKB": 343,
+        "glyphDensity": 74,
+        "format": "woff2",
         "isVariable": false,
         "axisCount": 0
       }
@@ -759,7 +759,7 @@
       "style": "italic",
       "weight": 500,
       "stretch": "normal",
-      "path": "fonts/open-fonts/gentium/fonts/webfonts/Gentium-MediumItalic.woff",
+      "path": "fonts/open-fonts/gentium/fonts/webfonts/Gentium-MediumItalic.woff2",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 2048,
@@ -996,10 +996,10 @@
         "total": 18
       },
       "performance": {
-        "fileSize": 542667,
-        "fileSizeKB": 530,
-        "glyphDensity": 114,
-        "format": "woff",
+        "fileSize": 401146,
+        "fileSizeKB": 392,
+        "glyphDensity": 84,
+        "format": "woff2",
         "isVariable": false,
         "axisCount": 0
       }
@@ -1009,7 +1009,7 @@
       "style": "normal",
       "weight": 500,
       "stretch": "normal",
-      "path": "fonts/open-fonts/gentium/fonts/webfonts/Gentium-Medium.woff",
+      "path": "fonts/open-fonts/gentium/fonts/webfonts/Gentium-Medium.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 2048,
@@ -1246,10 +1246,10 @@
         "total": 18
       },
       "performance": {
-        "fileSize": 501111,
-        "fileSizeKB": 489,
-        "glyphDensity": 105,
-        "format": "woff",
+        "fileSize": 369718,
+        "fileSizeKB": 361,
+        "glyphDensity": 78,
+        "format": "woff2",
         "isVariable": false,
         "axisCount": 0
       }
@@ -1259,7 +1259,7 @@
       "style": "italic",
       "weight": 400,
       "stretch": "normal",
-      "path": "fonts/open-fonts/gentium/fonts/webfonts/Gentium-Italic.woff",
+      "path": "fonts/open-fonts/gentium/fonts/webfonts/Gentium-Italic.woff2",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 2048,
@@ -1496,10 +1496,10 @@
         "total": 18
       },
       "performance": {
-        "fileSize": 521055,
-        "fileSizeKB": 509,
-        "glyphDensity": 109,
-        "format": "woff",
+        "fileSize": 379102,
+        "fileSizeKB": 370,
+        "glyphDensity": 80,
+        "format": "woff2",
         "isVariable": false,
         "axisCount": 0
       }
@@ -1509,7 +1509,7 @@
       "style": "italic",
       "weight": 800,
       "stretch": "normal",
-      "path": "fonts/open-fonts/gentium/fonts/webfonts/Gentium-ExtraBoldItalic.woff",
+      "path": "fonts/open-fonts/gentium/fonts/webfonts/Gentium-ExtraBoldItalic.woff2",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 2048,
@@ -1746,10 +1746,10 @@
         "total": 18
       },
       "performance": {
-        "fileSize": 535287,
-        "fileSizeKB": 523,
-        "glyphDensity": 112,
-        "format": "woff",
+        "fileSize": 391814,
+        "fileSizeKB": 383,
+        "glyphDensity": 82,
+        "format": "woff2",
         "isVariable": false,
         "axisCount": 0
       }
@@ -1759,7 +1759,7 @@
       "style": "normal",
       "weight": 800,
       "stretch": "normal",
-      "path": "fonts/open-fonts/gentium/fonts/webfonts/Gentium-ExtraBold.woff",
+      "path": "fonts/open-fonts/gentium/fonts/webfonts/Gentium-ExtraBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 2048,
@@ -1996,10 +1996,10 @@
         "total": 18
       },
       "performance": {
-        "fileSize": 495923,
-        "fileSizeKB": 484,
-        "glyphDensity": 104,
-        "format": "woff",
+        "fileSize": 363222,
+        "fileSizeKB": 355,
+        "glyphDensity": 76,
+        "format": "woff2",
         "isVariable": false,
         "axisCount": 0
       }
@@ -2009,7 +2009,7 @@
       "style": "italic",
       "weight": 700,
       "stretch": "normal",
-      "path": "fonts/open-fonts/gentium/fonts/webfonts/Gentium-BoldItalic.woff",
+      "path": "fonts/open-fonts/gentium/fonts/webfonts/Gentium-BoldItalic.woff2",
       "subfamilyName": "Bold Italic",
       "metrics": {
         "unitsPerEm": 2048,
@@ -2246,10 +2246,10 @@
         "total": 18
       },
       "performance": {
-        "fileSize": 547383,
-        "fileSizeKB": 535,
-        "glyphDensity": 115,
-        "format": "woff",
+        "fileSize": 404934,
+        "fileSizeKB": 395,
+        "glyphDensity": 85,
+        "format": "woff2",
         "isVariable": false,
         "axisCount": 0
       }
@@ -2259,7 +2259,7 @@
       "style": "normal",
       "weight": 700,
       "stretch": "normal",
-      "path": "fonts/open-fonts/gentium/fonts/webfonts/Gentium-Bold.woff",
+      "path": "fonts/open-fonts/gentium/fonts/webfonts/Gentium-Bold.woff2",
       "subfamilyName": "Bold",
       "metrics": {
         "unitsPerEm": 2048,
@@ -2496,10 +2496,10 @@
         "total": 18
       },
       "performance": {
-        "fileSize": 505907,
-        "fileSizeKB": 494,
-        "glyphDensity": 106,
-        "format": "woff",
+        "fileSize": 374014,
+        "fileSizeKB": 365,
+        "glyphDensity": 79,
+        "format": "woff2",
         "isVariable": false,
         "axisCount": 0
       }

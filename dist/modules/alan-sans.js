@@ -122,11 +122,11 @@ export default {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/alan-sans/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/alan-sans/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/alan-sans/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/alan-sans/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/alan-sans/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/alan-sans/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/alan-sans/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/alan-sans/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/alan-sans/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/alan-sans/"
   },
   "faces": {
     "variable": {
@@ -172,6 +172,35 @@ export default {
       }
     },
     "static": {
+      "alan-sans-light": {
+        "name": "Alan Sans Light",
+        "fileName": "AlanSans-Light.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 300,
+        "metrics": {
+          "layout": {
+            "ascent": 990,
+            "descent": -310,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 680,
+            "xHeight": 500,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 730,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -56,
+              "minY": -212,
+              "maxX": 1160,
+              "maxY": 912
+            }
+          }
+        }
+      },
       "alan-sans-semibold": {
         "name": "Alan Sans SemiBold",
         "fileName": "AlanSans-SemiBold.woff2",
@@ -254,35 +283,6 @@ export default {
               "minX": -70,
               "minY": -212,
               "maxX": 1176,
-              "maxY": 912
-            }
-          }
-        }
-      },
-      "alan-sans-light": {
-        "name": "Alan Sans Light",
-        "fileName": "AlanSans-Light.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 300,
-        "metrics": {
-          "layout": {
-            "ascent": 990,
-            "descent": -310,
-            "lineGap": 0
-          },
-          "sizing": {
-            "capHeight": 680,
-            "xHeight": 500,
-            "unitsPerEm": 1000
-          },
-          "fallback": {
-            "avgCharWidth": 730,
-            "spaceWidth": 250,
-            "bbox": {
-              "minX": -56,
-              "minY": -212,
-              "maxX": 1160,
               "maxY": 912
             }
           }
@@ -396,7 +396,7 @@ export default {
           "AlanSansVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-23T14:10:05.560Z"
+      "generatedAt": "2025-09-23T14:31:46.723Z"
     }
   }
 };

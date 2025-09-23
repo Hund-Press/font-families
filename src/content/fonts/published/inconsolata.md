@@ -8,7 +8,7 @@ description: "Inconsolata font family"
 
 **{{ description }}**
 
-- **Designer**: Unknown
+- **Designer**: Cyreal <contact@cyreal.org>
 - **License**: Unknown
 - **Version**: Unknown
 - **Character Sets**: Latin Extended support
@@ -58,7 +58,7 @@ body {
 
 ## License
 
-{{ title }} is licensed under **Unknown** by **Unknown**.
+{{ title }} is licensed under **Unknown** by **Cyreal <contact@cyreal.org>**.
 
 Free to use in any project, commercial or personal.
 

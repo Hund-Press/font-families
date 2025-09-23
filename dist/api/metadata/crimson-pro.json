@@ -1,15 +1,27 @@
 {
   "name": "Crimson Pro",
   "key": "crimson-pro",
+  "author": "Sebastian Kosch",
   "licenseType": "OFL-1.1",
   "description": "",
+  "authorFiles": {
+    "authors": [
+      "Sebastian Kosch",
+      "Jacques Le Bailly <fonthausen@baronvonfonthausen.com>"
+    ],
+    "contributors": [
+      "Sebastian Kosch",
+      "Jacques Le Bailly <fonthausen@baronvonfonthausen.com>",
+      "Marc Foley <marc@mfoley.uk>"
+    ]
+  },
   "static": {
     "CrimsonPro-SemiBoldItalic": {
       "family": "Crimson Pro SemiBold",
       "style": "italic",
       "weight": 600,
       "stretch": "normal",
-      "path": "fonts/open-fonts/crimson-pro/fonts/WEBFONTS/CrimsonPro-SemiBoldItalic.woff2",
+      "path": "fonts/open-fonts/crimson-pro/fonts/webfonts/CrimsonPro-SemiBoldItalic.woff2",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 1024,
@@ -150,7 +162,7 @@
       "style": "normal",
       "weight": 600,
       "stretch": "normal",
-      "path": "fonts/open-fonts/crimson-pro/fonts/WEBFONTS/CrimsonPro-SemiBold.woff2",
+      "path": "fonts/open-fonts/crimson-pro/fonts/webfonts/CrimsonPro-SemiBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1024,
@@ -291,7 +303,7 @@
       "style": "normal",
       "weight": 400,
       "stretch": "normal",
-      "path": "fonts/open-fonts/crimson-pro/fonts/WEBFONTS/CrimsonPro-Regular.woff2",
+      "path": "fonts/open-fonts/crimson-pro/fonts/webfonts/CrimsonPro-Regular.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1024,
@@ -432,7 +444,7 @@
       "style": "italic",
       "weight": 500,
       "stretch": "normal",
-      "path": "fonts/open-fonts/crimson-pro/fonts/WEBFONTS/CrimsonPro-MediumItalic.woff2",
+      "path": "fonts/open-fonts/crimson-pro/fonts/webfonts/CrimsonPro-MediumItalic.woff2",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 1024,
@@ -573,7 +585,7 @@
       "style": "normal",
       "weight": 500,
       "stretch": "normal",
-      "path": "fonts/open-fonts/crimson-pro/fonts/WEBFONTS/CrimsonPro-Medium.woff2",
+      "path": "fonts/open-fonts/crimson-pro/fonts/webfonts/CrimsonPro-Medium.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1024,
@@ -714,7 +726,7 @@
       "style": "italic",
       "weight": 300,
       "stretch": "normal",
-      "path": "fonts/open-fonts/crimson-pro/fonts/WEBFONTS/CrimsonPro-LightItalic.woff2",
+      "path": "fonts/open-fonts/crimson-pro/fonts/webfonts/CrimsonPro-LightItalic.woff2",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 1024,
@@ -855,7 +867,7 @@
       "style": "normal",
       "weight": 300,
       "stretch": "normal",
-      "path": "fonts/open-fonts/crimson-pro/fonts/WEBFONTS/CrimsonPro-Light.woff2",
+      "path": "fonts/open-fonts/crimson-pro/fonts/webfonts/CrimsonPro-Light.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1024,
@@ -996,7 +1008,7 @@
       "style": "italic",
       "weight": 400,
       "stretch": "normal",
-      "path": "fonts/open-fonts/crimson-pro/fonts/WEBFONTS/CrimsonPro-Italic.woff2",
+      "path": "fonts/open-fonts/crimson-pro/fonts/webfonts/CrimsonPro-Italic.woff2",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 1024,
@@ -1137,7 +1149,7 @@
       "style": "italic",
       "weight": 200,
       "stretch": "normal",
-      "path": "fonts/open-fonts/crimson-pro/fonts/WEBFONTS/CrimsonPro-ExtraLightItalic.woff2",
+      "path": "fonts/open-fonts/crimson-pro/fonts/webfonts/CrimsonPro-ExtraLightItalic.woff2",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 1024,
@@ -1278,7 +1290,7 @@
       "style": "normal",
       "weight": 200,
       "stretch": "normal",
-      "path": "fonts/open-fonts/crimson-pro/fonts/WEBFONTS/CrimsonPro-ExtraLight.woff2",
+      "path": "fonts/open-fonts/crimson-pro/fonts/webfonts/CrimsonPro-ExtraLight.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1024,
@@ -1419,7 +1431,7 @@
       "style": "italic",
       "weight": 800,
       "stretch": "normal",
-      "path": "fonts/open-fonts/crimson-pro/fonts/WEBFONTS/CrimsonPro-ExtraBoldItalic.woff2",
+      "path": "fonts/open-fonts/crimson-pro/fonts/webfonts/CrimsonPro-ExtraBoldItalic.woff2",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 1024,
@@ -1560,7 +1572,7 @@
       "style": "normal",
       "weight": 800,
       "stretch": "normal",
-      "path": "fonts/open-fonts/crimson-pro/fonts/WEBFONTS/CrimsonPro-ExtraBold.woff2",
+      "path": "fonts/open-fonts/crimson-pro/fonts/webfonts/CrimsonPro-ExtraBold.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1024,
@@ -1701,7 +1713,7 @@
       "style": "italic",
       "weight": 700,
       "stretch": "normal",
-      "path": "fonts/open-fonts/crimson-pro/fonts/WEBFONTS/CrimsonPro-BoldItalic.woff2",
+      "path": "fonts/open-fonts/crimson-pro/fonts/webfonts/CrimsonPro-BoldItalic.woff2",
       "subfamilyName": "Bold Italic",
       "metrics": {
         "unitsPerEm": 1024,
@@ -1842,7 +1854,7 @@
       "style": "normal",
       "weight": 700,
       "stretch": "normal",
-      "path": "fonts/open-fonts/crimson-pro/fonts/WEBFONTS/CrimsonPro-Bold.woff2",
+      "path": "fonts/open-fonts/crimson-pro/fonts/webfonts/CrimsonPro-Bold.woff2",
       "subfamilyName": "Bold",
       "metrics": {
         "unitsPerEm": 1024,
@@ -1983,7 +1995,7 @@
       "style": "italic",
       "weight": 900,
       "stretch": "normal",
-      "path": "fonts/open-fonts/crimson-pro/fonts/WEBFONTS/CrimsonPro-BlackItalic.woff2",
+      "path": "fonts/open-fonts/crimson-pro/fonts/webfonts/CrimsonPro-BlackItalic.woff2",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 1024,
@@ -2124,7 +2136,7 @@
       "style": "normal",
       "weight": 900,
       "stretch": "normal",
-      "path": "fonts/open-fonts/crimson-pro/fonts/WEBFONTS/CrimsonPro-Black.woff2",
+      "path": "fonts/open-fonts/crimson-pro/fonts/webfonts/CrimsonPro-Black.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1024,
@@ -2270,7 +2282,7 @@
         "max": 900
       },
       "stretch": "normal",
-      "path": "fonts/open-fonts/crimson-pro/fonts/VARIABLE/CrimsonPro[wght].ttf",
+      "path": "fonts/open-fonts/crimson-pro/fonts/variable/CrimsonPro[wght].ttf",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1024,
@@ -2472,7 +2484,7 @@
         "max": 900
       },
       "stretch": "normal",
-      "path": "fonts/open-fonts/crimson-pro/fonts/VARIABLE/CrimsonPro-Italic[wght].ttf",
+      "path": "fonts/open-fonts/crimson-pro/fonts/variable/CrimsonPro-Italic[wght].ttf",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 1024,

@@ -20,6 +20,21 @@
   "files": {
     "static": [
       {
+        "key": "AlanSans-Light",
+        "fileName": "AlanSans-Light.woff2",
+        "format": "woff2",
+        "weight": 300,
+        "style": "normal",
+        "stretch": "normal",
+        "fileSize": 37572,
+        "fileSizeKB": 37,
+        "links": {
+          "download": {
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/alan-sans/fonts/webfonts/AlanSans-Light.woff2"
+          }
+        }
+      },
+      {
         "key": "AlanSans-SemiBold",
         "fileName": "AlanSans-SemiBold.woff2",
         "format": "woff2",
@@ -30,7 +45,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/alan-sans/fonts/webfonts/AlanSans-SemiBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/alan-sans/fonts/webfonts/AlanSans-SemiBold.woff2"
           }
         }
       },
@@ -45,7 +60,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/alan-sans/fonts/webfonts/AlanSans-Regular.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/alan-sans/fonts/webfonts/AlanSans-Regular.woff2"
           }
         }
       },
@@ -60,22 +75,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/alan-sans/fonts/webfonts/AlanSans-Medium.woff2"
-          }
-        }
-      },
-      {
-        "key": "AlanSans-Light",
-        "fileName": "AlanSans-Light.woff2",
-        "format": "woff2",
-        "weight": 300,
-        "style": "normal",
-        "stretch": "normal",
-        "fileSize": 37572,
-        "fileSizeKB": 37,
-        "links": {
-          "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/alan-sans/fonts/webfonts/AlanSans-Light.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/alan-sans/fonts/webfonts/AlanSans-Medium.woff2"
           }
         }
       },
@@ -90,7 +90,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/alan-sans/fonts/webfonts/AlanSans-ExtraBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/alan-sans/fonts/webfonts/AlanSans-ExtraBold.woff2"
           }
         }
       },
@@ -105,7 +105,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/alan-sans/fonts/webfonts/AlanSans-Bold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/alan-sans/fonts/webfonts/AlanSans-Bold.woff2"
           }
         }
       },
@@ -120,7 +120,7 @@
         "fileSizeKB": 37,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/alan-sans/fonts/webfonts/AlanSans-Black.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/alan-sans/fonts/webfonts/AlanSans-Black.woff2"
           }
         }
       }
@@ -142,7 +142,7 @@
         "fileSizeKB": 132,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/alan-sans/fonts/webfonts/AlanSans[wght].ttf"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/alan-sans/fonts/webfonts/AlanSans[wght].ttf"
           }
         }
       }
@@ -212,7 +212,7 @@
       "title": "Performance subsets for this family"
     },
     "cdn": {
-      "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/alan-sans/",
+      "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/alan-sans/",
       "templated": false
     }
   },

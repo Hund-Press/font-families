@@ -179,11 +179,11 @@ export default {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/aspekta/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/aspekta/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/aspekta/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/aspekta/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/aspekta/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/aspekta/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/aspekta/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/aspekta/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/aspekta/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/aspekta/"
   },
   "faces": {
     "variable": {
@@ -830,7 +830,7 @@ export default {
           "AspektaVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-23T14:10:05.559Z"
+      "generatedAt": "2025-09-23T14:31:46.723Z"
     }
   }
 };

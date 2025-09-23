@@ -12,7 +12,7 @@
       "style": "normal",
       "weight": 950,
       "stretch": "normal",
-      "path": "fonts/open-fonts/aspekta/fonts/WEBFONTS/Aspekta-950.woff2",
+      "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-950.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -214,7 +214,7 @@
       "style": "normal",
       "weight": 900,
       "stretch": "normal",
-      "path": "fonts/open-fonts/aspekta/fonts/WEBFONTS/Aspekta-900.woff2",
+      "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-900.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -416,7 +416,7 @@
       "style": "normal",
       "weight": 850,
       "stretch": "normal",
-      "path": "fonts/open-fonts/aspekta/fonts/WEBFONTS/Aspekta-850.woff2",
+      "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-850.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -618,7 +618,7 @@
       "style": "normal",
       "weight": 800,
       "stretch": "normal",
-      "path": "fonts/open-fonts/aspekta/fonts/WEBFONTS/Aspekta-800.woff2",
+      "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-800.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -820,7 +820,7 @@
       "style": "normal",
       "weight": 750,
       "stretch": "normal",
-      "path": "fonts/open-fonts/aspekta/fonts/WEBFONTS/Aspekta-750.woff2",
+      "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-750.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -1022,7 +1022,7 @@
       "style": "normal",
       "weight": 700,
       "stretch": "normal",
-      "path": "fonts/open-fonts/aspekta/fonts/WEBFONTS/Aspekta-700.woff2",
+      "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-700.woff2",
       "subfamilyName": "Bold",
       "metrics": {
         "unitsPerEm": 1000,
@@ -1224,7 +1224,7 @@
       "style": "normal",
       "weight": 650,
       "stretch": "normal",
-      "path": "fonts/open-fonts/aspekta/fonts/WEBFONTS/Aspekta-650.woff2",
+      "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-650.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -1426,7 +1426,7 @@
       "style": "normal",
       "weight": 600,
       "stretch": "normal",
-      "path": "fonts/open-fonts/aspekta/fonts/WEBFONTS/Aspekta-600.woff2",
+      "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-600.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -1628,7 +1628,7 @@
       "style": "normal",
       "weight": 550,
       "stretch": "normal",
-      "path": "fonts/open-fonts/aspekta/fonts/WEBFONTS/Aspekta-550.woff2",
+      "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-550.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -1830,7 +1830,7 @@
       "style": "normal",
       "weight": 500,
       "stretch": "normal",
-      "path": "fonts/open-fonts/aspekta/fonts/WEBFONTS/Aspekta-500.woff2",
+      "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-500.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -2032,7 +2032,7 @@
       "style": "normal",
       "weight": 50,
       "stretch": "normal",
-      "path": "fonts/open-fonts/aspekta/fonts/WEBFONTS/Aspekta-50.woff2",
+      "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-50.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -2234,7 +2234,7 @@
       "style": "normal",
       "weight": 450,
       "stretch": "normal",
-      "path": "fonts/open-fonts/aspekta/fonts/WEBFONTS/Aspekta-450.woff2",
+      "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-450.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -2436,7 +2436,7 @@
       "style": "normal",
       "weight": 400,
       "stretch": "normal",
-      "path": "fonts/open-fonts/aspekta/fonts/WEBFONTS/Aspekta-400.woff2",
+      "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-400.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -2638,7 +2638,7 @@
       "style": "normal",
       "weight": 350,
       "stretch": "normal",
-      "path": "fonts/open-fonts/aspekta/fonts/WEBFONTS/Aspekta-350.woff2",
+      "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-350.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -2840,7 +2840,7 @@
       "style": "normal",
       "weight": 300,
       "stretch": "normal",
-      "path": "fonts/open-fonts/aspekta/fonts/WEBFONTS/Aspekta-300.woff2",
+      "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-300.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -3042,7 +3042,7 @@
       "style": "normal",
       "weight": 250,
       "stretch": "normal",
-      "path": "fonts/open-fonts/aspekta/fonts/WEBFONTS/Aspekta-250.woff2",
+      "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-250.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -3244,7 +3244,7 @@
       "style": "normal",
       "weight": 200,
       "stretch": "normal",
-      "path": "fonts/open-fonts/aspekta/fonts/WEBFONTS/Aspekta-200.woff2",
+      "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-200.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -3446,7 +3446,7 @@
       "style": "normal",
       "weight": 150,
       "stretch": "normal",
-      "path": "fonts/open-fonts/aspekta/fonts/WEBFONTS/Aspekta-150.woff2",
+      "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-150.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -3648,7 +3648,7 @@
       "style": "normal",
       "weight": 1000,
       "stretch": "normal",
-      "path": "fonts/open-fonts/aspekta/fonts/WEBFONTS/Aspekta-1000.woff2",
+      "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-1000.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -3850,7 +3850,7 @@
       "style": "normal",
       "weight": 100,
       "stretch": "normal",
-      "path": "fonts/open-fonts/aspekta/fonts/WEBFONTS/Aspekta-100.woff2",
+      "path": "fonts/open-fonts/aspekta/fonts/webfonts/Aspekta-100.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -4057,7 +4057,7 @@
         "max": 900
       },
       "stretch": "normal",
-      "path": "fonts/open-fonts/aspekta/fonts/VARIABLE/AspektaVF.ttf",
+      "path": "fonts/open-fonts/aspekta/fonts/variable/AspektaVF.ttf",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,

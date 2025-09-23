@@ -3,7 +3,7 @@
  * 
  * Generated from font-families build system
  * License: OFL-1.1
- * Author: Unknown
+ * Author: Sebastian Kosch
  * Version: Unknown
  */
 
@@ -11,6 +11,7 @@ export default {
   "name": "Crimson Pro",
   "key": "crimson-pro",
   "attribution": {
+    "author": "Sebastian Kosch",
     "license": "OFL-1.1",
     "description": ""
   },
@@ -112,11 +113,11 @@ export default {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/crimson-pro/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/crimson-pro/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/crimson-pro/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/crimson-pro/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/crimson-pro/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/crimson-pro/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/crimson-pro/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/crimson-pro/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/crimson-pro/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/crimson-pro/"
   },
   "faces": {
     "variable": {
@@ -687,7 +688,7 @@ export default {
           "CrimsonProVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-23T14:10:05.557Z"
+      "generatedAt": "2025-09-23T14:31:46.721Z"
     }
   }
 };

@@ -40,11 +40,11 @@ export default {
       }
     },
     "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/work-sans/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/work-sans/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/work-sans/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/work-sans/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/work-sans/"
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/work-sans/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/work-sans/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/work-sans/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/work-sans/fonts/otf/",
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/work-sans/"
     },
     "faces": {
       "variable": {
@@ -659,6 +659,7 @@ export default {
     "name": "Public Sans",
     "key": "public-sans",
     "attribution": {
+      "author": "Pablo Impallari <impallari@gmail.com>",
       "license": "OFL-1.1",
       "description": ""
     },
@@ -688,11 +689,11 @@ export default {
       }
     },
     "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/public-sans/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/public-sans/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/public-sans/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/public-sans/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/public-sans/"
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/public-sans/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/public-sans/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/public-sans/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/public-sans/fonts/otf/",
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/public-sans/"
     },
     "faces": {
       "variable": {
@@ -1307,6 +1308,7 @@ export default {
     "name": "Inconsolata",
     "key": "inconsolata",
     "attribution": {
+      "author": "Cyreal <contact@cyreal.org>",
       "license": "OFL-1.1",
       "description": ""
     },
@@ -1336,11 +1338,11 @@ export default {
       }
     },
     "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/inconsolata/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/inconsolata/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/inconsolata/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/inconsolata/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/inconsolata/"
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/inconsolata/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/inconsolata/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/inconsolata/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/inconsolata/fonts/otf/",
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/inconsolata/"
     },
     "faces": {
       "variable": {
@@ -3584,19 +3586,19 @@ export default {
       }
     },
     "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/gentium/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/gentium/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/gentium/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/gentium/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/gentium/"
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/gentium/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/gentium/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/gentium/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/gentium/fonts/otf/",
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/gentium/"
     },
     "faces": {
       "variable": {},
       "static": {
         "gentium-semibold-italic": {
           "name": "Gentium SemiBold Italic",
-          "fileName": "Gentium-SemiBoldItalic.woff",
-          "format": "woff",
+          "fileName": "Gentium-SemiBoldItalic.woff2",
+          "format": "woff2",
           "fontStyle": "italic",
           "fontWeight": 600,
           "metrics": {
@@ -3624,8 +3626,8 @@ export default {
         },
         "gentium-semibold": {
           "name": "Gentium SemiBold",
-          "fileName": "Gentium-SemiBold.woff",
-          "format": "woff",
+          "fileName": "Gentium-SemiBold.woff2",
+          "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 600,
           "metrics": {
@@ -3653,8 +3655,8 @@ export default {
         },
         "gentium-regular": {
           "name": "Gentium Regular",
-          "fileName": "Gentium-Regular.woff",
-          "format": "woff",
+          "fileName": "Gentium-Regular.woff2",
+          "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 400,
           "metrics": {
@@ -3682,8 +3684,8 @@ export default {
         },
         "gentium-medium-italic": {
           "name": "Gentium Medium Italic",
-          "fileName": "Gentium-MediumItalic.woff",
-          "format": "woff",
+          "fileName": "Gentium-MediumItalic.woff2",
+          "format": "woff2",
           "fontStyle": "italic",
           "fontWeight": 500,
           "metrics": {
@@ -3711,8 +3713,8 @@ export default {
         },
         "gentium-medium": {
           "name": "Gentium Medium",
-          "fileName": "Gentium-Medium.woff",
-          "format": "woff",
+          "fileName": "Gentium-Medium.woff2",
+          "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 500,
           "metrics": {
@@ -3740,8 +3742,8 @@ export default {
         },
         "gentium-regular-italic": {
           "name": "Gentium Regular Italic",
-          "fileName": "Gentium-Italic.woff",
-          "format": "woff",
+          "fileName": "Gentium-Italic.woff2",
+          "format": "woff2",
           "fontStyle": "italic",
           "fontWeight": 400,
           "metrics": {
@@ -3769,8 +3771,8 @@ export default {
         },
         "gentium-extrabold-italic": {
           "name": "Gentium ExtraBold Italic",
-          "fileName": "Gentium-ExtraBoldItalic.woff",
-          "format": "woff",
+          "fileName": "Gentium-ExtraBoldItalic.woff2",
+          "format": "woff2",
           "fontStyle": "italic",
           "fontWeight": 800,
           "metrics": {
@@ -3798,8 +3800,8 @@ export default {
         },
         "gentium-extrabold": {
           "name": "Gentium ExtraBold",
-          "fileName": "Gentium-ExtraBold.woff",
-          "format": "woff",
+          "fileName": "Gentium-ExtraBold.woff2",
+          "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 800,
           "metrics": {
@@ -3827,8 +3829,8 @@ export default {
         },
         "gentium-bold-italic": {
           "name": "Gentium Bold Italic",
-          "fileName": "Gentium-BoldItalic.woff",
-          "format": "woff",
+          "fileName": "Gentium-BoldItalic.woff2",
+          "format": "woff2",
           "fontStyle": "italic",
           "fontWeight": 700,
           "metrics": {
@@ -3856,8 +3858,8 @@ export default {
         },
         "gentium-bold": {
           "name": "Gentium Bold",
-          "fileName": "Gentium-Bold.woff",
-          "format": "woff",
+          "fileName": "Gentium-Bold.woff2",
+          "format": "woff2",
           "fontStyle": "normal",
           "fontWeight": 700,
           "metrics": {
@@ -3918,11 +3920,11 @@ export default {
       }
     },
     "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/figtree/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/figtree/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/figtree/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/figtree/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/figtree/"
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/figtree/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/figtree/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/figtree/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/figtree/fonts/otf/",
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/figtree/"
     },
     "faces": {
       "variable": {
@@ -4421,6 +4423,7 @@ export default {
     "name": "Crimson Pro",
     "key": "crimson-pro",
     "attribution": {
+      "author": "Sebastian Kosch",
       "license": "OFL-1.1",
       "description": ""
     },
@@ -4449,11 +4452,11 @@ export default {
       }
     },
     "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/crimson-pro/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/crimson-pro/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/crimson-pro/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/crimson-pro/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/crimson-pro/"
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/crimson-pro/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/crimson-pro/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/crimson-pro/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/crimson-pro/fonts/otf/",
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/crimson-pro/"
     },
     "faces": {
       "variable": {
@@ -5030,11 +5033,11 @@ export default {
       }
     },
     "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/atkinson-hyperlegible/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/atkinson-hyperlegible/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/atkinson-hyperlegible/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/atkinson-hyperlegible/"
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/atkinson-hyperlegible/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/atkinson-hyperlegible/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/atkinson-hyperlegible/fonts/otf/",
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/atkinson-hyperlegible/"
     },
     "faces": {
       "variable": {},
@@ -5204,11 +5207,11 @@ export default {
       }
     },
     "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/aspekta/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/aspekta/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/aspekta/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/aspekta/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/aspekta/"
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/aspekta/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/aspekta/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/aspekta/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/aspekta/fonts/otf/",
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/aspekta/"
     },
     "faces": {
       "variable": {
@@ -5868,11 +5871,11 @@ export default {
       }
     },
     "cdnBase": {
-      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/alan-sans/fonts/variable/",
-      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/alan-sans/fonts/webfonts/",
-      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/alan-sans/fonts/ttf/",
-      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/alan-sans/fonts/otf/",
-      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/alan-sans/"
+      "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/alan-sans/fonts/variable/",
+      "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/alan-sans/fonts/webfonts/",
+      "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/alan-sans/fonts/ttf/",
+      "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/alan-sans/fonts/otf/",
+      "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/alan-sans/"
     },
     "faces": {
       "variable": {
@@ -5918,6 +5921,35 @@ export default {
         }
       },
       "static": {
+        "alan-sans-light": {
+          "name": "Alan Sans Light",
+          "fileName": "AlanSans-Light.woff2",
+          "format": "woff2",
+          "fontStyle": "normal",
+          "fontWeight": 300,
+          "metrics": {
+            "layout": {
+              "ascent": 990,
+              "descent": -310,
+              "lineGap": 0
+            },
+            "sizing": {
+              "capHeight": 680,
+              "xHeight": 500,
+              "unitsPerEm": 1000
+            },
+            "fallback": {
+              "avgCharWidth": 730,
+              "spaceWidth": 250,
+              "bbox": {
+                "minX": -56,
+                "minY": -212,
+                "maxX": 1160,
+                "maxY": 912
+              }
+            }
+          }
+        },
         "alan-sans-semibold": {
           "name": "Alan Sans SemiBold",
           "fileName": "AlanSans-SemiBold.woff2",
@@ -6000,35 +6032,6 @@ export default {
                 "minX": -70,
                 "minY": -212,
                 "maxX": 1176,
-                "maxY": 912
-              }
-            }
-          }
-        },
-        "alan-sans-light": {
-          "name": "Alan Sans Light",
-          "fileName": "AlanSans-Light.woff2",
-          "format": "woff2",
-          "fontStyle": "normal",
-          "fontWeight": 300,
-          "metrics": {
-            "layout": {
-              "ascent": 990,
-              "descent": -310,
-              "lineGap": 0
-            },
-            "sizing": {
-              "capHeight": 680,
-              "xHeight": 500,
-              "unitsPerEm": 1000
-            },
-            "fallback": {
-              "avgCharWidth": 730,
-              "spaceWidth": 250,
-              "bbox": {
-                "minX": -56,
-                "minY": -212,
-                "maxX": 1160,
                 "maxY": 912
               }
             }
@@ -6161,11 +6164,11 @@ export const workSans = {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/work-sans/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/work-sans/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/work-sans/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/work-sans/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/work-sans/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/work-sans/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/work-sans/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/work-sans/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/work-sans/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/work-sans/"
   },
   "faces": {
     "variable": {
@@ -6781,6 +6784,7 @@ export const publicSans = {
   "name": "Public Sans",
   "key": "public-sans",
   "attribution": {
+    "author": "Pablo Impallari <impallari@gmail.com>",
     "license": "OFL-1.1",
     "description": ""
   },
@@ -6810,11 +6814,11 @@ export const publicSans = {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/public-sans/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/public-sans/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/public-sans/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/public-sans/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/public-sans/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/public-sans/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/public-sans/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/public-sans/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/public-sans/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/public-sans/"
   },
   "faces": {
     "variable": {
@@ -7430,6 +7434,7 @@ export const inconsolata = {
   "name": "Inconsolata",
   "key": "inconsolata",
   "attribution": {
+    "author": "Cyreal <contact@cyreal.org>",
     "license": "OFL-1.1",
     "description": ""
   },
@@ -7459,11 +7464,11 @@ export const inconsolata = {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/inconsolata/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/inconsolata/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/inconsolata/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/inconsolata/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/inconsolata/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/inconsolata/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/inconsolata/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/inconsolata/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/inconsolata/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/inconsolata/"
   },
   "faces": {
     "variable": {
@@ -9708,19 +9713,19 @@ export const gentium = {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/gentium/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/gentium/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/gentium/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/gentium/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/gentium/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/gentium/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/gentium/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/gentium/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/gentium/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/gentium/"
   },
   "faces": {
     "variable": {},
     "static": {
       "gentium-semibold-italic": {
         "name": "Gentium SemiBold Italic",
-        "fileName": "Gentium-SemiBoldItalic.woff",
-        "format": "woff",
+        "fileName": "Gentium-SemiBoldItalic.woff2",
+        "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 600,
         "metrics": {
@@ -9748,8 +9753,8 @@ export const gentium = {
       },
       "gentium-semibold": {
         "name": "Gentium SemiBold",
-        "fileName": "Gentium-SemiBold.woff",
-        "format": "woff",
+        "fileName": "Gentium-SemiBold.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 600,
         "metrics": {
@@ -9777,8 +9782,8 @@ export const gentium = {
       },
       "gentium-regular": {
         "name": "Gentium Regular",
-        "fileName": "Gentium-Regular.woff",
-        "format": "woff",
+        "fileName": "Gentium-Regular.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400,
         "metrics": {
@@ -9806,8 +9811,8 @@ export const gentium = {
       },
       "gentium-medium-italic": {
         "name": "Gentium Medium Italic",
-        "fileName": "Gentium-MediumItalic.woff",
-        "format": "woff",
+        "fileName": "Gentium-MediumItalic.woff2",
+        "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 500,
         "metrics": {
@@ -9835,8 +9840,8 @@ export const gentium = {
       },
       "gentium-medium": {
         "name": "Gentium Medium",
-        "fileName": "Gentium-Medium.woff",
-        "format": "woff",
+        "fileName": "Gentium-Medium.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 500,
         "metrics": {
@@ -9864,8 +9869,8 @@ export const gentium = {
       },
       "gentium-regular-italic": {
         "name": "Gentium Regular Italic",
-        "fileName": "Gentium-Italic.woff",
-        "format": "woff",
+        "fileName": "Gentium-Italic.woff2",
+        "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 400,
         "metrics": {
@@ -9893,8 +9898,8 @@ export const gentium = {
       },
       "gentium-extrabold-italic": {
         "name": "Gentium ExtraBold Italic",
-        "fileName": "Gentium-ExtraBoldItalic.woff",
-        "format": "woff",
+        "fileName": "Gentium-ExtraBoldItalic.woff2",
+        "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 800,
         "metrics": {
@@ -9922,8 +9927,8 @@ export const gentium = {
       },
       "gentium-extrabold": {
         "name": "Gentium ExtraBold",
-        "fileName": "Gentium-ExtraBold.woff",
-        "format": "woff",
+        "fileName": "Gentium-ExtraBold.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 800,
         "metrics": {
@@ -9951,8 +9956,8 @@ export const gentium = {
       },
       "gentium-bold-italic": {
         "name": "Gentium Bold Italic",
-        "fileName": "Gentium-BoldItalic.woff",
-        "format": "woff",
+        "fileName": "Gentium-BoldItalic.woff2",
+        "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 700,
         "metrics": {
@@ -9980,8 +9985,8 @@ export const gentium = {
       },
       "gentium-bold": {
         "name": "Gentium Bold",
-        "fileName": "Gentium-Bold.woff",
-        "format": "woff",
+        "fileName": "Gentium-Bold.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 700,
         "metrics": {
@@ -10043,11 +10048,11 @@ export const figtree = {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/figtree/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/figtree/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/figtree/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/figtree/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/figtree/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/figtree/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/figtree/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/figtree/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/figtree/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/figtree/"
   },
   "faces": {
     "variable": {
@@ -10547,6 +10552,7 @@ export const crimsonPro = {
   "name": "Crimson Pro",
   "key": "crimson-pro",
   "attribution": {
+    "author": "Sebastian Kosch",
     "license": "OFL-1.1",
     "description": ""
   },
@@ -10575,11 +10581,11 @@ export const crimsonPro = {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/crimson-pro/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/crimson-pro/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/crimson-pro/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/crimson-pro/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/crimson-pro/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/crimson-pro/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/crimson-pro/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/crimson-pro/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/crimson-pro/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/crimson-pro/"
   },
   "faces": {
     "variable": {
@@ -11157,11 +11163,11 @@ export const atkinsonHyperlegible = {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/atkinson-hyperlegible/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/atkinson-hyperlegible/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/atkinson-hyperlegible/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/atkinson-hyperlegible/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/atkinson-hyperlegible/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/atkinson-hyperlegible/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/atkinson-hyperlegible/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/atkinson-hyperlegible/"
   },
   "faces": {
     "variable": {},
@@ -11332,11 +11338,11 @@ export const aspekta = {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/aspekta/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/aspekta/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/aspekta/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/aspekta/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/aspekta/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/aspekta/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/aspekta/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/aspekta/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/aspekta/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/aspekta/"
   },
   "faces": {
     "variable": {
@@ -11997,11 +12003,11 @@ export const alanSans = {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/alan-sans/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/alan-sans/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/alan-sans/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/alan-sans/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/alan-sans/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/alan-sans/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/alan-sans/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/alan-sans/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/alan-sans/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/alan-sans/"
   },
   "faces": {
     "variable": {
@@ -12047,6 +12053,35 @@ export const alanSans = {
       }
     },
     "static": {
+      "alan-sans-light": {
+        "name": "Alan Sans Light",
+        "fileName": "AlanSans-Light.woff2",
+        "format": "woff2",
+        "fontStyle": "normal",
+        "fontWeight": 300,
+        "metrics": {
+          "layout": {
+            "ascent": 990,
+            "descent": -310,
+            "lineGap": 0
+          },
+          "sizing": {
+            "capHeight": 680,
+            "xHeight": 500,
+            "unitsPerEm": 1000
+          },
+          "fallback": {
+            "avgCharWidth": 730,
+            "spaceWidth": 250,
+            "bbox": {
+              "minX": -56,
+              "minY": -212,
+              "maxX": 1160,
+              "maxY": 912
+            }
+          }
+        }
+      },
       "alan-sans-semibold": {
         "name": "Alan Sans SemiBold",
         "fileName": "AlanSans-SemiBold.woff2",
@@ -12129,35 +12164,6 @@ export const alanSans = {
               "minX": -70,
               "minY": -212,
               "maxX": 1176,
-              "maxY": 912
-            }
-          }
-        }
-      },
-      "alan-sans-light": {
-        "name": "Alan Sans Light",
-        "fileName": "AlanSans-Light.woff2",
-        "format": "woff2",
-        "fontStyle": "normal",
-        "fontWeight": 300,
-        "metrics": {
-          "layout": {
-            "ascent": 990,
-            "descent": -310,
-            "lineGap": 0
-          },
-          "sizing": {
-            "capHeight": 680,
-            "xHeight": 500,
-            "unitsPerEm": 1000
-          },
-          "fallback": {
-            "avgCharWidth": 730,
-            "spaceWidth": 250,
-            "bbox": {
-              "minX": -56,
-              "minY": -212,
-              "maxX": 1160,
               "maxY": 912
             }
           }

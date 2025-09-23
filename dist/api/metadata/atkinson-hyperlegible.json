@@ -12,7 +12,7 @@
       "style": "normal",
       "weight": 400,
       "stretch": "normal",
-      "path": "fonts/open-fonts/atkinson-hyperlegible/fonts/WEBFONTS/AtkinsonHyperlegible-Regular.woff2",
+      "path": "fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Regular.woff2",
       "subfamilyName": "Regular",
       "metrics": {
         "unitsPerEm": 1000,
@@ -135,7 +135,7 @@
       "style": "italic",
       "weight": 400,
       "stretch": "normal",
-      "path": "fonts/open-fonts/atkinson-hyperlegible/fonts/WEBFONTS/AtkinsonHyperlegible-Italic.woff2",
+      "path": "fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Italic.woff2",
       "subfamilyName": "Italic",
       "metrics": {
         "unitsPerEm": 1000,
@@ -258,7 +258,7 @@
       "style": "italic",
       "weight": 700,
       "stretch": "normal",
-      "path": "fonts/open-fonts/atkinson-hyperlegible/fonts/WEBFONTS/AtkinsonHyperlegible-BoldItalic.woff2",
+      "path": "fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-BoldItalic.woff2",
       "subfamilyName": "Bold Italic",
       "metrics": {
         "unitsPerEm": 1000,
@@ -381,7 +381,7 @@
       "style": "normal",
       "weight": 700,
       "stretch": "normal",
-      "path": "fonts/open-fonts/atkinson-hyperlegible/fonts/WEBFONTS/AtkinsonHyperlegible-Bold.woff2",
+      "path": "fonts/open-fonts/atkinson-hyperlegible/fonts/webfonts/AtkinsonHyperlegible-Bold.woff2",
       "subfamilyName": "Bold",
       "metrics": {
         "unitsPerEm": 1000,

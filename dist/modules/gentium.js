@@ -191,19 +191,19 @@ export default {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/gentium/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/gentium/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/gentium/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/gentium/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/gentium/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/gentium/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/gentium/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/gentium/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/gentium/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/gentium/"
   },
   "faces": {
     "variable": {},
     "static": {
       "gentium-semibold-italic": {
         "name": "Gentium SemiBold Italic",
-        "fileName": "Gentium-SemiBoldItalic.woff",
-        "format": "woff",
+        "fileName": "Gentium-SemiBoldItalic.woff2",
+        "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 600,
         "metrics": {
@@ -231,8 +231,8 @@ export default {
       },
       "gentium-semibold": {
         "name": "Gentium SemiBold",
-        "fileName": "Gentium-SemiBold.woff",
-        "format": "woff",
+        "fileName": "Gentium-SemiBold.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 600,
         "metrics": {
@@ -260,8 +260,8 @@ export default {
       },
       "gentium-regular": {
         "name": "Gentium Regular",
-        "fileName": "Gentium-Regular.woff",
-        "format": "woff",
+        "fileName": "Gentium-Regular.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 400,
         "metrics": {
@@ -289,8 +289,8 @@ export default {
       },
       "gentium-medium-italic": {
         "name": "Gentium Medium Italic",
-        "fileName": "Gentium-MediumItalic.woff",
-        "format": "woff",
+        "fileName": "Gentium-MediumItalic.woff2",
+        "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 500,
         "metrics": {
@@ -318,8 +318,8 @@ export default {
       },
       "gentium-medium": {
         "name": "Gentium Medium",
-        "fileName": "Gentium-Medium.woff",
-        "format": "woff",
+        "fileName": "Gentium-Medium.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 500,
         "metrics": {
@@ -347,8 +347,8 @@ export default {
       },
       "gentium-regular-italic": {
         "name": "Gentium Regular Italic",
-        "fileName": "Gentium-Italic.woff",
-        "format": "woff",
+        "fileName": "Gentium-Italic.woff2",
+        "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 400,
         "metrics": {
@@ -376,8 +376,8 @@ export default {
       },
       "gentium-extrabold-italic": {
         "name": "Gentium ExtraBold Italic",
-        "fileName": "Gentium-ExtraBoldItalic.woff",
-        "format": "woff",
+        "fileName": "Gentium-ExtraBoldItalic.woff2",
+        "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 800,
         "metrics": {
@@ -405,8 +405,8 @@ export default {
       },
       "gentium-extrabold": {
         "name": "Gentium ExtraBold",
-        "fileName": "Gentium-ExtraBold.woff",
-        "format": "woff",
+        "fileName": "Gentium-ExtraBold.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 800,
         "metrics": {
@@ -434,8 +434,8 @@ export default {
       },
       "gentium-bold-italic": {
         "name": "Gentium Bold Italic",
-        "fileName": "Gentium-BoldItalic.woff",
-        "format": "woff",
+        "fileName": "Gentium-BoldItalic.woff2",
+        "format": "woff2",
         "fontStyle": "italic",
         "fontWeight": 700,
         "metrics": {
@@ -463,8 +463,8 @@ export default {
       },
       "gentium-bold": {
         "name": "Gentium Bold",
-        "fileName": "Gentium-Bold.woff",
-        "format": "woff",
+        "fileName": "Gentium-Bold.woff2",
+        "format": "woff2",
         "fontStyle": "normal",
         "fontWeight": 700,
         "metrics": {
@@ -508,7 +508,7 @@ export default {
         "static": "Gentium-400-min.woff2",
         "variable": []
       },
-      "generatedAt": "2025-09-23T14:10:05.555Z"
+      "generatedAt": "2025-09-23T14:31:46.720Z"
     }
   }
 };

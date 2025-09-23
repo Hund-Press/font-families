@@ -3,7 +3,7 @@
  * 
  * Generated from font-families build system
  * License: OFL-1.1
- * Author: Unknown
+ * Author: Cyreal <contact@cyreal.org>
  * Version: Unknown
  */
 
@@ -11,6 +11,7 @@ export default {
   "name": "Inconsolata",
   "key": "inconsolata",
   "attribution": {
+    "author": "Cyreal <contact@cyreal.org>",
     "license": "OFL-1.1",
     "description": ""
   },
@@ -125,11 +126,11 @@ export default {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/inconsolata/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/inconsolata/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/inconsolata/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/inconsolata/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/inconsolata/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/inconsolata/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/inconsolata/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/inconsolata/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/inconsolata/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/inconsolata/"
   },
   "faces": {
     "variable": {
@@ -2366,7 +2367,7 @@ export default {
           "InconsolataVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-23T14:10:05.555Z"
+      "generatedAt": "2025-09-23T14:31:46.719Z"
     }
   }
 };

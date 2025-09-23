@@ -8,7 +8,7 @@ description: "Crimson Pro font family"
 
 **{{ description }}**
 
-- **Designer**: Unknown
+- **Designer**: Sebastian Kosch
 - **License**: Unknown
 - **Version**: Unknown
 - **Character Sets**: Latin Extended support
@@ -58,7 +58,7 @@ body {
 
 ## License
 
-{{ title }} is licensed under **Unknown** by **Unknown**.
+{{ title }} is licensed under **Unknown** by **Sebastian Kosch**.
 
 Free to use in any project, commercial or personal.
 

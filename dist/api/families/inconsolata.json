@@ -3,6 +3,7 @@
   "key": "inconsolata",
   "description": "",
   "license": "OFL-1.1",
+  "author": "Cyreal <contact@cyreal.org>",
   "capabilities": {
     "hasStatic": true,
     "hasVariable": true,
@@ -30,7 +31,7 @@
         "fileSizeKB": 41,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedThin.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedThin.woff2"
           }
         }
       },
@@ -45,7 +46,7 @@
         "fileSizeKB": 41,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedSemiBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedSemiBold.woff2"
           }
         }
       },
@@ -60,7 +61,7 @@
         "fileSizeKB": 41,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedRegular.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedRegular.woff2"
           }
         }
       },
@@ -75,7 +76,7 @@
         "fileSizeKB": 41,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedMedium.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedMedium.woff2"
           }
         }
       },
@@ -90,7 +91,7 @@
         "fileSizeKB": 41,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedLight.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedLight.woff2"
           }
         }
       },
@@ -105,7 +106,7 @@
         "fileSizeKB": 41,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedExtraLight.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedExtraLight.woff2"
           }
         }
       },
@@ -120,7 +121,7 @@
         "fileSizeKB": 41,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedExtraBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedExtraBold.woff2"
           }
         }
       },
@@ -135,7 +136,7 @@
         "fileSizeKB": 41,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedBold.woff2"
           }
         }
       },
@@ -150,7 +151,7 @@
         "fileSizeKB": 41,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedBlack.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-UltraExpandedBlack.woff2"
           }
         }
       },
@@ -165,7 +166,7 @@
         "fileSizeKB": 37,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedThin.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedThin.woff2"
           }
         }
       },
@@ -180,7 +181,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedSemiBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedSemiBold.woff2"
           }
         }
       },
@@ -195,7 +196,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedRegular.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedRegular.woff2"
           }
         }
       },
@@ -210,7 +211,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedMedium.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedMedium.woff2"
           }
         }
       },
@@ -225,7 +226,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedLight.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedLight.woff2"
           }
         }
       },
@@ -240,7 +241,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedExtraLight.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedExtraLight.woff2"
           }
         }
       },
@@ -255,7 +256,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedExtraBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedExtraBold.woff2"
           }
         }
       },
@@ -270,7 +271,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedBold.woff2"
           }
         }
       },
@@ -285,7 +286,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedBlack.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-UltraCondensedBlack.woff2"
           }
         }
       },
@@ -300,7 +301,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-Thin.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-Thin.woff2"
           }
         }
       },
@@ -315,7 +316,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedThin.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedThin.woff2"
           }
         }
       },
@@ -330,7 +331,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedSemiBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedSemiBold.woff2"
           }
         }
       },
@@ -345,7 +346,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedRegular.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedRegular.woff2"
           }
         }
       },
@@ -360,7 +361,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedMedium.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedMedium.woff2"
           }
         }
       },
@@ -375,7 +376,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedLight.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedLight.woff2"
           }
         }
       },
@@ -390,7 +391,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedExtraLight.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedExtraLight.woff2"
           }
         }
       },
@@ -405,7 +406,7 @@
         "fileSizeKB": 40,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedExtraBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedExtraBold.woff2"
           }
         }
       },
@@ -420,7 +421,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedBold.woff2"
           }
         }
       },
@@ -435,7 +436,7 @@
         "fileSizeKB": 40,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedBlack.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-SemiExpandedBlack.woff2"
           }
         }
       },
@@ -450,7 +451,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedThin.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedThin.woff2"
           }
         }
       },
@@ -465,7 +466,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedSemiBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedSemiBold.woff2"
           }
         }
       },
@@ -480,7 +481,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedRegular.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedRegular.woff2"
           }
         }
       },
@@ -495,7 +496,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedMedium.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedMedium.woff2"
           }
         }
       },
@@ -510,7 +511,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedLight.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedLight.woff2"
           }
         }
       },
@@ -525,7 +526,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedExtraLight.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedExtraLight.woff2"
           }
         }
       },
@@ -540,7 +541,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedExtraBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedExtraBold.woff2"
           }
         }
       },
@@ -555,7 +556,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedBold.woff2"
           }
         }
       },
@@ -570,7 +571,7 @@
         "fileSizeKB": 40,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedBlack.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-SemiCondensedBlack.woff2"
           }
         }
       },
@@ -585,7 +586,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-SemiBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-SemiBold.woff2"
           }
         }
       },
@@ -600,7 +601,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-Regular.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-Regular.woff2"
           }
         }
       },
@@ -615,7 +616,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-Medium.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-Medium.woff2"
           }
         }
       },
@@ -630,7 +631,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-Light.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-Light.woff2"
           }
         }
       },
@@ -645,7 +646,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExtraLight.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExtraLight.woff2"
           }
         }
       },
@@ -660,7 +661,7 @@
         "fileSizeKB": 40,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedThin.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedThin.woff2"
           }
         }
       },
@@ -675,7 +676,7 @@
         "fileSizeKB": 40,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedSemiBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedSemiBold.woff2"
           }
         }
       },
@@ -690,7 +691,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedRegular.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedRegular.woff2"
           }
         }
       },
@@ -705,7 +706,7 @@
         "fileSizeKB": 40,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedMedium.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedMedium.woff2"
           }
         }
       },
@@ -720,7 +721,7 @@
         "fileSizeKB": 40,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedLight.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedLight.woff2"
           }
         }
       },
@@ -735,7 +736,7 @@
         "fileSizeKB": 40,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedExtraLight.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedExtraLight.woff2"
           }
         }
       },
@@ -750,7 +751,7 @@
         "fileSizeKB": 40,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedExtraBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedExtraBold.woff2"
           }
         }
       },
@@ -765,7 +766,7 @@
         "fileSizeKB": 40,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedBold.woff2"
           }
         }
       },
@@ -780,7 +781,7 @@
         "fileSizeKB": 41,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedBlack.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExtraExpandedBlack.woff2"
           }
         }
       },
@@ -795,7 +796,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedThin.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedThin.woff2"
           }
         }
       },
@@ -810,7 +811,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedSemiBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedSemiBold.woff2"
           }
         }
       },
@@ -825,7 +826,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedRegular.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedRegular.woff2"
           }
         }
       },
@@ -840,7 +841,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedMedium.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedMedium.woff2"
           }
         }
       },
@@ -855,7 +856,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedLight.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedLight.woff2"
           }
         }
       },
@@ -870,7 +871,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedExtraLight.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedExtraLight.woff2"
           }
         }
       },
@@ -885,7 +886,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedExtraBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedExtraBold.woff2"
           }
         }
       },
@@ -900,7 +901,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedBold.woff2"
           }
         }
       },
@@ -915,7 +916,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedBlack.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExtraCondensedBlack.woff2"
           }
         }
       },
@@ -930,7 +931,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExtraBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExtraBold.woff2"
           }
         }
       },
@@ -945,7 +946,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExpandedThin.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExpandedThin.woff2"
           }
         }
       },
@@ -960,7 +961,7 @@
         "fileSizeKB": 40,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExpandedSemiBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExpandedSemiBold.woff2"
           }
         }
       },
@@ -975,7 +976,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExpandedRegular.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExpandedRegular.woff2"
           }
         }
       },
@@ -990,7 +991,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExpandedMedium.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExpandedMedium.woff2"
           }
         }
       },
@@ -1005,7 +1006,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExpandedLight.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExpandedLight.woff2"
           }
         }
       },
@@ -1020,7 +1021,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExpandedExtraLight.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExpandedExtraLight.woff2"
           }
         }
       },
@@ -1035,7 +1036,7 @@
         "fileSizeKB": 40,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExpandedExtraBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExpandedExtraBold.woff2"
           }
         }
       },
@@ -1050,7 +1051,7 @@
         "fileSizeKB": 40,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExpandedBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExpandedBold.woff2"
           }
         }
       },
@@ -1065,7 +1066,7 @@
         "fileSizeKB": 40,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-ExpandedBlack.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-ExpandedBlack.woff2"
           }
         }
       },
@@ -1080,7 +1081,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-CondensedThin.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-CondensedThin.woff2"
           }
         }
       },
@@ -1095,7 +1096,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-CondensedSemiBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-CondensedSemiBold.woff2"
           }
         }
       },
@@ -1110,7 +1111,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-CondensedRegular.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-CondensedRegular.woff2"
           }
         }
       },
@@ -1125,7 +1126,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-CondensedMedium.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-CondensedMedium.woff2"
           }
         }
       },
@@ -1140,7 +1141,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-CondensedLight.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-CondensedLight.woff2"
           }
         }
       },
@@ -1155,7 +1156,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-CondensedExtraLight.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-CondensedExtraLight.woff2"
           }
         }
       },
@@ -1170,7 +1171,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-CondensedExtraBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-CondensedExtraBold.woff2"
           }
         }
       },
@@ -1185,7 +1186,7 @@
         "fileSizeKB": 38,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-CondensedBold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-CondensedBold.woff2"
           }
         }
       },
@@ -1200,7 +1201,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-CondensedBlack.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-CondensedBlack.woff2"
           }
         }
       },
@@ -1215,7 +1216,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-Bold.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-Bold.woff2"
           }
         }
       },
@@ -1230,7 +1231,7 @@
         "fileSizeKB": 39,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata-Black.woff2"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata-Black.woff2"
           }
         }
       }
@@ -1257,7 +1258,7 @@
         "fileSizeKB": 337,
         "links": {
           "download": {
-            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/fonts/webfonts/Inconsolata[wdth,wght].ttf"
+            "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/fonts/webfonts/Inconsolata[wdth,wght].ttf"
           }
         }
       }
@@ -1328,7 +1329,7 @@
       "title": "Performance subsets for this family"
     },
     "cdn": {
-      "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/inconsolata/",
+      "href": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/inconsolata/",
       "templated": false
     }
   },

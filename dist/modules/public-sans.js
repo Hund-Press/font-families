@@ -3,7 +3,7 @@
  * 
  * Generated from font-families build system
  * License: OFL-1.1
- * Author: Unknown
+ * Author: Pablo Impallari <impallari@gmail.com>
  * Version: Unknown
  */
 
@@ -11,6 +11,7 @@ export default {
   "name": "Public Sans",
   "key": "public-sans",
   "attribution": {
+    "author": "Pablo Impallari <impallari@gmail.com>",
     "license": "OFL-1.1",
     "description": ""
   },
@@ -120,11 +121,11 @@ export default {
     }
   },
   "cdnBase": {
-    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/public-sans/fonts/variable/",
-    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/public-sans/fonts/webfonts/",
-    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/public-sans/fonts/ttf/",
-    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/fonts/open-fonts/public-sans/fonts/otf/",
-    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.5/subsets/public-sans/"
+    "variable": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/public-sans/fonts/variable/",
+    "static": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/public-sans/fonts/webfonts/",
+    "ttf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/public-sans/fonts/ttf/",
+    "otf": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/fonts/open-fonts/public-sans/fonts/otf/",
+    "subsets": "https://cdn.jsdelivr.net/gh/hund-press/font-families@v1.10.6/subsets/public-sans/"
   },
   "faces": {
     "variable": {
@@ -753,7 +754,7 @@ export default {
           "PublicSansVF-min.woff2"
         ]
       },
-      "generatedAt": "2025-09-23T14:10:05.554Z"
+      "generatedAt": "2025-09-23T14:31:46.718Z"
     }
   }
 };
