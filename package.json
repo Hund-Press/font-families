@@ -63,7 +63,7 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.1-alpha.5",
     "@11ty/eleventy-plugin-webc": "^0.11.2",
-    "glob": "^11.0.3"
+    "glob": "^13.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^8.57.0",
